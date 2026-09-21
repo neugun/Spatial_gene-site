@@ -1,0 +1,18 @@
+{
+ "gene": "Ccr9",
+ "region": "LM",
+ "experiment_id": 69237053,
+ "image_id": 69228162,
+ "section_number": 122,
+ "x": 8503.322730510738,
+ "y": 5573.290319711929,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1875,
+  1143,
+  2375,
+  1643
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69237053",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69237053&imageId=69228162"
+}

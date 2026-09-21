@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr165",
+ "region": "PD",
+ "experiment_id": 70560278,
+ "image_id": 70389857,
+ "section_number": 321,
+ "x": 4807.911746761573,
+ "y": 4541.531855561052,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  951,
+  885,
+  1451,
+  1385
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70560278",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560278&imageId=70389857"
+}

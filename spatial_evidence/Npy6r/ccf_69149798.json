@@ -1,0 +1,18 @@
+{
+ "gene": "Npy6r",
+ "region": "SCH",
+ "experiment_id": 69258208,
+ "image_id": 69149798,
+ "section_number": 144,
+ "x": 6069.747380727267,
+ "y": 6283.447934033811,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1267,
+  1320,
+  1767,
+  1820
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69258208",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258208&imageId=69149798"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Trpv1",
+ "region": "SUM",
+ "experiment_id": 69863294,
+ "image_id": 69884697,
+ "section_number": 146,
+ "x": 8413.845894007523,
+ "y": 5047.867630549853,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1853,
+  1011,
+  2353,
+  1511
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69863294",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863294&imageId=69884697"
+}

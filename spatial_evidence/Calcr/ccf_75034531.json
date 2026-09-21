@@ -1,0 +1,18 @@
+{
+ "gene": "Calcr",
+ "region": "ARH",
+ "experiment_id": 75080999,
+ "image_id": 75034531,
+ "section_number": 252,
+ "x": 5178.360728044507,
+ "y": 6467.8750096258245,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1044,
+  1366,
+  1544,
+  1840
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75080999",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75080999&imageId=75034531"
+}

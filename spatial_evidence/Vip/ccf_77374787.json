@@ -1,0 +1,18 @@
+{
+ "gene": "Vip",
+ "region": "IPC",
+ "experiment_id": 77371835,
+ "image_id": 77374787,
+ "section_number": 186,
+ "x": 5319.58024389133,
+ "y": 5196.684298342616,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1079,
+  1049,
+  1579,
+  1549
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77371835",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77371835&imageId=77374787"
+}

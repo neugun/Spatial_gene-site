@@ -1,0 +1,18 @@
+{
+ "gene": "Sct",
+ "region": "SCO",
+ "experiment_id": 74357731,
+ "image_id": 74269951,
+ "section_number": 150,
+ "x": 8132.637379535687,
+ "y": 3101.6498727928783,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1783,
+  525,
+  2283,
+  1025
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74357731",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74357731&imageId=74269951"
+}

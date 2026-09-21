@@ -1,0 +1,18 @@
+{
+ "gene": "Prlhr",
+ "region": "PMv",
+ "experiment_id": 74511758,
+ "image_id": 74397096,
+ "section_number": 225,
+ "x": 5267.115541784794,
+ "y": 6143.26508449421,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1066,
+  1285,
+  1566,
+  1785
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74511758",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511758&imageId=74397096"
+}

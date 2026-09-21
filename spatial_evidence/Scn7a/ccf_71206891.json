@@ -1,0 +1,18 @@
+{
+ "gene": "Scn7a",
+ "region": "ME",
+ "experiment_id": 71325432,
+ "image_id": 71206891,
+ "section_number": 144,
+ "x": 7465.426087462485,
+ "y": 6791.474767763487,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1616,
+  1447,
+  2116,
+  1947
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71325432",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71325432&imageId=71206891"
+}

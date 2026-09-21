@@ -1,0 +1,18 @@
+{
+ "gene": "Adora2b",
+ "region": "SCO",
+ "experiment_id": 69855773,
+ "image_id": 69882909,
+ "section_number": 150,
+ "x": 8186.9654328273655,
+ "y": 2670.4889149642854,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1796,
+  417,
+  2296,
+  917
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69855773",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69855773&imageId=69882909"
+}

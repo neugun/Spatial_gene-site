@@ -1,0 +1,18 @@
+{
+ "gene": "Chrnb1",
+ "region": "ME",
+ "experiment_id": 75888752,
+ "image_id": 75725210,
+ "section_number": 254,
+ "x": 5307.984739370911,
+ "y": 7058.408887398956,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1076,
+  1514,
+  1576,
+  1856
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75888752",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75888752&imageId=75725210"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Ptgir",
+ "region": "MH",
+ "experiment_id": 69863249,
+ "image_id": 69883320,
+ "section_number": 150,
+ "x": 6181.5637814773545,
+ "y": 3171.4057185028996,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1295,
+  542,
+  1795,
+  1042
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69863249",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863249&imageId=69883320"
+}

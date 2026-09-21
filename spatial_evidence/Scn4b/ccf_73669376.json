@@ -1,0 +1,18 @@
+{
+ "gene": "Scn4b",
+ "region": "CP",
+ "experiment_id": 73636111,
+ "image_id": 73669376,
+ "section_number": 333,
+ "x": 4624.555376499616,
+ "y": 3640.751229044705,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  906,
+  660,
+  1406,
+  1160
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73636111",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73636111&imageId=73669376"
+}

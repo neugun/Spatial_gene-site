@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Ano2: fine CCF profile is restricted toward SH (top regions: SH, LSc, IO, LSr, COApl; 21 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in SH: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Ano2 encodes anoctamin-2 (TMEM16B), a calcium-activated chloride channel. In olfactory sensory neurons it amplifies the cyclic-nucleotide-driven transduction current by letting chloride flow out of the cilium. More generally it converts a local calcium rise into a chloride current that is depolarising or shunting depending on the chloride gradient, and so shapes spike timing, firing rate and even axonal targeting.</dd>
+<dt>Region function</dt><dd>The septohippocampal nucleus is a small cell group at the dorsomedial tip of the septum, continuous with the medial septum and diagonal band; the septohippocampal system it belongs to paces hippocampal theta rhythm through cholinergic and GABAergic projections that gate memory encoding and arousal.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. TMEM16B function has been defined almost entirely in olfactory and vomeronasal sensory neurons and photoreceptor terminals: it shapes the olfactory response time course (Reisert 2024), regulates action-potential firing and axonal targeting (Pietra 2016), and underlies the classic calcium-activated chloride current of olfactory transduction (Pifferi 2012; Dibattista 2024). Its septal expression has not been characterised.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: in septohippocampal neurons TMEM16B would act as a calcium-activated chloride conductance recruited during bursts, either sharpening spike afterpotentials or shunting excitation depending on the local chloride gradient, and so tuning the rhythmic pacemaker firing that entrains hippocampal theta. Septum-restricted Ano2 deletion is predicted to alter theta frequency and power and to degrade the spike-timing precision of septal pacemaker cells, with downstream effects on hippocampus-dependent memory, rather than to silence the neurons. Local Ani9 or T16Ainh-A01 should reproduce the acute effect.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9733; 5/5</span> A calcium-activated chloride channel has never been examined in septal theta pacemakers even though chloride-dependent shunting is central to how those cells work, and knockout mice and blockers exist.</dd>
+<dt>Tools</dt><dd>Ano2 knockout mice from the olfactory literature; TMEM16 blockers niflumic acid, T16Ainh-A01 and Ani9 (limited ANO1/ANO2 selectivity); anti-ANO2 antibodies; septal cell types accessible with ChAT-IRES-Cre (JAX 006410), Pvalb-IRES-Cre (JAX 017320) and Vgat-IRES-Cre (JAX 016962).</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/21890523/" target="_blank" rel="noopener">Pifferi S et al. 2012, Exp Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/27619419/" target="_blank" rel="noopener">Pietra G et al. 2016, J Gen Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/39167717/" target="_blank" rel="noopener">Reisert J et al. 2024, J Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/38677213/" target="_blank" rel="noopener">Dibattista M et al. 2024, Cell Calcium</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Ano2/ccf_71382119.jpg" alt="Ano2 Allen ISH at the CCF centroid of SH">
+<p class="cap">Allen ISH experiment 71587834, section image 71382119 (section 369): the section that contains the CCF centroid of Septohippocampal nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=71587834&imageId=71382119" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Ano2&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Ano2</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=333" target="_blank" rel="noopener">Allen reference atlas: SH (structure 333)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Ano2" or by parcellation_substructure "SH")</span><a href="../explore.html?region=SH" target="_blank" rel="noopener">All genes confined to SH + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SH_merfish_locator.png" alt="SH MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SH (Septohippocampal nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

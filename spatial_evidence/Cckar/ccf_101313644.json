@@ -1,0 +1,18 @@
+{
+ "gene": "Cckar",
+ "region": "RT",
+ "experiment_id": 203,
+ "image_id": 101313644,
+ "section_number": 270,
+ "x": 3108.77466779628,
+ "y": 2679.2937710480924,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  527,
+  419,
+  1027,
+  919
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/203",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=203&imageId=101313644"
+}

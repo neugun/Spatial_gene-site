@@ -1,0 +1,18 @@
+{
+ "gene": "Nppb",
+ "region": "DMX",
+ "experiment_id": 69174475,
+ "image_id": 69072790,
+ "section_number": 140,
+ "x": 12345.537955165288,
+ "y": 5258.741596636011,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2836,
+  1064,
+  3336,
+  1564
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69174475",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69174475&imageId=69072790"
+}

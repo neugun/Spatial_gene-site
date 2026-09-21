@@ -1,0 +1,18 @@
+{
+ "gene": "Pmch",
+ "region": "PSTN",
+ "experiment_id": 55,
+ "image_id": 101306490,
+ "section_number": 217,
+ "x": 3317.338217430801,
+ "y": 3666.26399145313,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  579,
+  666,
+  1079,
+  1166
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/55",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=55&imageId=101306490"
+}

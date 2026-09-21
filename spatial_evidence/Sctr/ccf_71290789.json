@@ -1,0 +1,18 @@
+{
+ "gene": "Sctr",
+ "region": "OV",
+ "experiment_id": 71487191,
+ "image_id": 71290789,
+ "section_number": 158,
+ "x": 4965.742040069721,
+ "y": 5652.500850384128,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  991,
+  1163,
+  1491,
+  1663
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71487191",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71487191&imageId=71290789"
+}

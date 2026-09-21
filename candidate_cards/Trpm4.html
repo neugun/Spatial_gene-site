@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Trpm4: fine CCF profile is region-biased toward MH (top regions: MH, AP, SSp-bfd4, LC, SSp-n4); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in MH: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Trpm4 encodes a Ca2+-activated but Ca2+-impermeable non-selective cation channel of the TRP melastatin family. Rising intracellular Ca2+ opens it to monovalent cations, producing a depolarising Na+ current that paradoxically limits further Ca2+ entry by collapsing the electrical driving force. In excitable cells it supports plateau potentials, bursting and slow afterdepolarisations, and it partners SUR1 in injured CNS tissue.</dd>
+<dt>Region function</dt><dd>The medial habenula is an epithalamic nucleus whose cholinergic (ChAT/Slc17a6) and substance P (Tac1) neurons project almost exclusively through the fasciculus retroflexus to the interpeduncular nucleus. This pathway controls nicotine aversion and withdrawal, anxiety, fear and aversive-memory expression.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. The closest relevant finding is Kawai et al. 2025 (Sci Adv), who showed that in MHb neurons nicotinic Ca2+ influx activates a Ca2+-gated chloride conductance which, together with high-threshold Cav channels, holds the membrane near -30 mV to produce a long-lasting refractory period - exactly the class of Ca2+-gated depolarising current TRPM4 mediates elsewhere; Allen ISH detects only trace Trpm4 in MH (energy 0.53 versus 0.38 grey matter).</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: TRPM4 would act in MHb as a Ca2+-activated depolarising conductance downstream of alpha3beta4 nAChRs and high-threshold Ca2+ channels, sustaining the plateau depolarisation underlying the nicotine-evoked long-lasting refractory period and any bursting in these tonically firing neurons. Blocking it with 9-phenanthrol or deleting Trpm4 in MHb should shorten the plateau, restore fast firing after nicotine and so exaggerate nicotine-evoked MHb-IPN output and nicotine aversion. The low mRNA level means an equally plausible outcome is that the relevant conductance is an anoctamin rather than TRPM4.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9733; 5/5</span> There is no habenula TRPM4 literature at all, yet MHb was just shown to depend on Ca2+-activated depolarising conductances, making this an obvious untested candidate.</dd>
+<dt>Tools</dt><dd>Trpm4 global knockout mice; selective blocker 9-phenanthrol and the improved analogue CBA; glibenclamide for SUR1-TRPM4 complexes; TRPM4 antibodies; no Trpm4-Cre line is reported, so cell-type work needs conditional alleles plus ChAT-IRES-Cre (JAX 006410) or Tac1-IRES2-Cre (JAX 021877).</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/12015988/" target="_blank" rel="noopener">Launay et al. 2002, Cell</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/18297105/" target="_blank" rel="noopener">Grand et al. 2008, British Journal of Pharmacology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/20551229/" target="_blank" rel="noopener">Guinamard et al. 2010, Physiology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/24756717/" target="_blank" rel="noopener">Mathar et al. 2014, Handbook of Experimental Pharmacology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/40106550/" target="_blank" rel="noopener">Kawai et al. 2025, Science Advances</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Trpm4/ccf_69884304.jpg" alt="Trpm4 Allen ISH at the CCF centroid of MH">
+<p class="cap">Allen ISH experiment 69863273, section image 69884304 (section 158): the section that contains the CCF centroid of Medial habenula according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=69863273&imageId=69884304" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Trpm4&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Trpm4</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=483" target="_blank" rel="noopener">Allen reference atlas: MH (structure 483)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Trpm4" or by parcellation_substructure "MH")</span><a href="../explore.html?region=MH" target="_blank" rel="noopener">All genes confined to MH + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/MH_merfish_locator.png" alt="MH MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the MH (Medial habenula) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

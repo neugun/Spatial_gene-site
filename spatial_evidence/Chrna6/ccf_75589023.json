@@ -1,0 +1,18 @@
+{
+ "gene": "Chrna6",
+ "region": "IF",
+ "experiment_id": 75651213,
+ "image_id": 75589023,
+ "section_number": 198,
+ "x": 5141.497971365584,
+ "y": 4696.900032462499,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1035,
+  924,
+  1535,
+  1424
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75651213",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651213&imageId=75589023"
+}

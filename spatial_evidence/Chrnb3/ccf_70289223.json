@@ -1,0 +1,18 @@
+{
+ "gene": "Chrnb3",
+ "region": "MH",
+ "experiment_id": 70436747,
+ "image_id": 70289223,
+ "section_number": 256,
+ "x": 5342.220648187192,
+ "y": 2901.048014643673,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1085,
+  475,
+  1585,
+  975
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70436747",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70436747&imageId=70289223"
+}

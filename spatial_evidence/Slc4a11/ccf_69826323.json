@@ -1,0 +1,18 @@
+{
+ "gene": "Slc4a11",
+ "region": "CEAl",
+ "experiment_id": 69873994,
+ "image_id": 69826323,
+ "section_number": 154,
+ "x": 7594.4798127748845,
+ "y": 5154.964700980288,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1648,
+  1038,
+  2148,
+  1538
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69873994",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69873994&imageId=69826323"
+}

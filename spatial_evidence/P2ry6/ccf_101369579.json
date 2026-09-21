@@ -1,0 +1,18 @@
+{
+ "gene": "P2ry6",
+ "region": "FC",
+ "experiment_id": 1800,
+ "image_id": 101369579,
+ "section_number": 213,
+ "x": 3388.887864729668,
+ "y": 1586.4681633387577,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  597,
+  146,
+  1097,
+  646
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1800",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1800&imageId=101369579"
+}

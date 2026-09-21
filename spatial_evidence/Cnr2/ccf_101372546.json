@@ -1,0 +1,18 @@
+{
+ "gene": "Cnr2",
+ "region": "PCN",
+ "experiment_id": 2111,
+ "image_id": 101372546,
+ "section_number": 237,
+ "x": 3322.030777682829,
+ "y": 2664.78063643261,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  580,
+  416,
+  1080,
+  916
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/2111",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=2111&imageId=101372546"
+}

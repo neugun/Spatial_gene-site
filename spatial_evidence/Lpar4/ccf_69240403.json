@@ -1,0 +1,18 @@
+{
+ "gene": "Lpar4",
+ "region": "ME",
+ "experiment_id": 69257510,
+ "image_id": 69240403,
+ "section_number": 117,
+ "x": 7663.032360879493,
+ "y": 6179.760923995351,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1665,
+  1294,
+  2165,
+  1676
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257510",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257510&imageId=69240403"
+}

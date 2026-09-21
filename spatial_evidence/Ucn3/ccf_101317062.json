@@ -1,0 +1,18 @@
+{
+ "gene": "Ucn3",
+ "region": "MEPO",
+ "experiment_id": 1091,
+ "image_id": 101317062,
+ "section_number": 307,
+ "x": 3217.395393086709,
+ "y": 3817.042742013009,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  554,
+  704,
+  1054,
+  1144
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1091",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1091&imageId=101317062"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Gm5127",
+ "region": "SNc",
+ "experiment_id": 70305413,
+ "image_id": 70169057,
+ "section_number": 145,
+ "x": 8693.97953476796,
+ "y": 5173.901143300339,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1923,
+  1043,
+  2423,
+  1543
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70305413",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70305413&imageId=70169057"
+}

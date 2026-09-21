@@ -1,0 +1,18 @@
+{
+ "gene": "Ccr10",
+ "region": "OV",
+ "experiment_id": 74724659,
+ "image_id": 74648761,
+ "section_number": 338,
+ "x": 4263.701563376924,
+ "y": 6068.882435130973,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  815,
+  1267,
+  1315,
+  1767
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74724659",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724659&imageId=74648761"
+}

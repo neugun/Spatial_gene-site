@@ -1,0 +1,18 @@
+{
+ "gene": "Gprc5a",
+ "region": "OV",
+ "experiment_id": 77414145,
+ "image_id": 77420949,
+ "section_number": 341,
+ "x": 4718.166918418069,
+ "y": 5448.24923350304,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  929,
+  1112,
+  1429,
+  1612
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77414145",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77414145&imageId=77420949"
+}

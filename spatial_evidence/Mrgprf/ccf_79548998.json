@@ -1,0 +1,18 @@
+{
+ "gene": "Mrgprf",
+ "region": "LM",
+ "experiment_id": 79541444,
+ "image_id": 79548998,
+ "section_number": 152,
+ "x": 8312.510712072042,
+ "y": 6244.790281340463,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1828,
+  1311,
+  2328,
+  1811
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79541444",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79541444&imageId=79548998"
+}

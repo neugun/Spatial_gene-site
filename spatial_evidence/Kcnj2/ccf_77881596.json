@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnj2",
+ "region": "CP",
+ "experiment_id": 77874598,
+ "image_id": 77881596,
+ "section_number": 337,
+ "x": 4596.5623040374085,
+ "y": 3569.930349549746,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  899,
+  642,
+  1399,
+  1142
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77874598",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77874598&imageId=77881596"
+}

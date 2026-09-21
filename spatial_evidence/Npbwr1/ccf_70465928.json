@@ -1,0 +1,18 @@
+{
+ "gene": "Npbwr1",
+ "region": "PS",
+ "experiment_id": 70565993,
+ "image_id": 70465928,
+ "section_number": 122,
+ "x": 5411.392560770601,
+ "y": 5804.0769476142805,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1102,
+  1201,
+  1602,
+  1701
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70565993",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70565993&imageId=70465928"
+}

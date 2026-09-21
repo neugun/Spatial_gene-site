@@ -1,0 +1,18 @@
+{
+ "gene": "Apol9b",
+ "region": "RO",
+ "experiment_id": 69014907,
+ "image_id": 68825910,
+ "section_number": 145,
+ "x": 11765.776136921539,
+ "y": 5581.97379480738,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2691,
+  1145,
+  3191,
+  1645
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69014907",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69014907&imageId=68825910"
+}

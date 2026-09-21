@@ -1,0 +1,18 @@
+{
+ "gene": "Tmco1",
+ "region": "AP",
+ "experiment_id": 386233,
+ "image_id": 343497,
+ "section_number": 144,
+ "x": 13218.568432392867,
+ "y": 4799.3254370977675,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  3054,
+  949,
+  3554,
+  1449
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/386233",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=386233&imageId=343497"
+}

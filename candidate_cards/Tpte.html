@@ -16,6 +16,45 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Tpte: predicted fine-region profile is strict-exclusive, with 10 positive regions out of 554 (limit 12); direct spatial validation is required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in OV: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>TPTE is a PTEN-family enzyme with a voltage-sensor-like transmembrane region, phosphatase domain and C2 tensin-type domain. Unlike PTEN it is membrane-anchored, acting on phosphoinositides to generate PI(4,5)P2 and restrain AKT/mTOR. Expression is essentially testis-restricted; loss causes defective meiotic double-strand break repair, sperm flagellar defects and low sperm count.</dd>
+<dt>Region function</dt><dd>The OVLT is a barrier-free sensory circumventricular organ transducing plasma osmolality and sodium into thirst, vasopressin release and thermoregulatory adjustments.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. Closest is TPTE being testis-specific, its only characterised in vivo role in spermatogenesis (Chen et al. 2026), whereas paralogue PTEN is broadly expressed in hypothalamic and lamina terminalis neurons, so any OVLT Tpte signal is unverified.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: if real, the signal would reflect TPTE acting as a local phosphoinositide phosphatase setting membrane PI(4,5)P2 in osmosensory cells. Because PI(4,5)P2 gates TRPV1/TRPV4 and mechanosensitive osmosensing channels, TPTE loss should shift the drinking and vasopressin threshold, not abolish thirst. AKT/mTOR control of metabolic load is an alternative; RNAscope with a testis positive control comes first, as weak vascular-tissue signal is often false positive.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9734;&#9734; 3/5</span> Completely unstudied in brain, but the OVLT signal is unlikely to be genuine and no brain-usable reagents exist.</dd>
+<dt>Tools</dt><dd>Tpte-deficient mouse (Chen et al. 2026); commercial anti-TPTE antibodies validated only for testis/tumour work; no Cre driver, pharmacology or AAV enhancer.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/41881971/" target="_blank" rel="noopener">Chen X et al. 2026, Cell Death Dis</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/37732311/" target="_blank" rel="noopener">Wang J et al. 2023, Front Neurosci</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<p class="cap">No Allen ISH section could be located at this region's centroid for the recorded experiments.</p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Tpte&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Tpte</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=763" target="_blank" rel="noopener">Allen reference atlas: OV (structure 763)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Tpte" or by parcellation_substructure "OV")</span><a href="../explore.html?region=OV" target="_blank" rel="noopener">All genes confined to OV + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/OV_merfish_locator.png" alt="OV MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the OV (Vascular organ of the lamina terminalis) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

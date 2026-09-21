@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Gabre: fine CCF profile is region-biased toward ARH (top regions: ARH, MEPO, PD, DMH, AVPV); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in ARH: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Gabre encodes the epsilon subunit of the GABA-A receptor, a pentameric GABA-gated chloride channel. Epsilon-containing receptors show large agonist-independent (spontaneous) openings, fast desensitisation and resistance to potentiation by propofol and anabolic androgenic steroids. The gene lies in the X-linked Gabra3/Gabrq cluster and is restricted to certain hypothalamic and aminergic neurons.</dd>
+<dt>Region function</dt><dd>The arcuate hypothalamic nucleus sits beside the median eminence and reads circulating leptin, insulin and ghrelin through a leaky barrier. Its AgRP/NPY, POMC and Kiss1 neurons set food intake, energy expenditure and neuroendocrine output.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-expression_only">expression only</span> No functional study of Gabre in the ARH. Moragues et al. 2003 mapped epsilon across rat hypothalamic peptidergic populations, finding over 90% co-expression with hypocretin, oxytocin, GnRH and MCH neurons but under 10% with CART neurons, the marker that in ARH labels POMC cells; Sergeeva et al. 2005 recorded propofol-resistant IPSCs in epsilon-positive tuberomammillary and orexin neurons; Wang Z et al. 2024 made a Gabre-Cre line and showed preoptic Gabre neurons set body temperature and heart rate.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: in ARH, epsilon-containing receptors would supply a standing, ligand-independent chloride leak setting resting potential and firing threshold in a defined neuron subset, and would make those cells relatively propofol- and neurosteroid-insensitive. Chemogenetic activation of ARH Gabre neurons via the existing Gabre-Cre line should alter food intake and thermogenesis; Gabre deletion should depolarise these cells and produce hyperphagia or altered energy expenditure plus an anaesthetic-sensitivity shift.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9734; 4/5</span> A Gabre-Cre mouse now exists but has only been used in the preoptic area, leaving the arcuate Gabre population unexamined despite clear relevance to feeding.</dd>
+<dt>Tools</dt><dd>Gabre-Cre knock-in mouse (Wang Z 2024) with standard DREADD and ChR2 AAVs; anti-GABA-A epsilon antibodies and ISH probes; propofol- and steroid-insensitive currents (Jones 2006) as an electrophysiological signature; Agrp-Flp or Pomc-Flp for intersectional targeting.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/12650990/" target="_blank" rel="noopener">Moragues N et al. 2003, Brain Research</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/15634770/" target="_blank" rel="noopener">Sergeeva OA et al. 2005, Journal of Neuroscience</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/39684772/" target="_blank" rel="noopener">Wang Z et al. 2024, International Journal of Molecular Sciences</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/16543268/" target="_blank" rel="noopener">Jones BL et al. 2006, Journal of Physiology</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Gabre/ccf_75647271.jpg" alt="Gabre Allen ISH at the CCF centroid of ARH">
+<p class="cap">Allen ISH experiment 75749417, section image 75647271 (section 266): the section that contains the CCF centroid of Arcuate hypothalamic nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=75749417&imageId=75647271" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Gabre&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Gabre</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=223" target="_blank" rel="noopener">Allen reference atlas: ARH (structure 223)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Gabre" or by parcellation_substructure "ARH")</span><a href="../explore.html?region=ARH" target="_blank" rel="noopener">All genes confined to ARH + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/ARH_merfish_locator.png" alt="ARH MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the ARH (Arcuate hypothalamic nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

@@ -1,0 +1,18 @@
+{
+ "gene": "Pkd1l1",
+ "region": "ARH",
+ "experiment_id": 75990411,
+ "image_id": 75904287,
+ "section_number": 156,
+ "x": 7697.982438906388,
+ "y": 6933.2605675417435,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1674,
+  1483,
+  2174,
+  1952
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75990411",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75990411&imageId=75904287"
+}

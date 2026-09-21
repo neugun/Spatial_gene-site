@@ -1,0 +1,18 @@
+{
+ "gene": "Crhr2",
+ "region": "DR",
+ "experiment_id": 79907934,
+ "image_id": 79815718,
+ "section_number": 132,
+ "x": 4773.610181659688,
+ "y": 2851.5954569991327,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  943,
+  462,
+  1443,
+  962
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79907934",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79907934&imageId=79815718"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Mc5r",
+ "region": "LM",
+ "experiment_id": 69258142,
+ "image_id": 69151041,
+ "section_number": 153,
+ "x": 8344.85903226984,
+ "y": 5603.365972452882,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1836,
+  1150,
+  2336,
+  1650
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69258142",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258142&imageId=69151041"
+}

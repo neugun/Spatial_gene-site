@@ -1,0 +1,18 @@
+{
+ "gene": "Hcrtr1",
+ "region": "DR",
+ "experiment_id": 77868713,
+ "image_id": 77809016,
+ "section_number": 160,
+ "x": 4891.101169302874,
+ "y": 2711.6100276299785,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  972,
+  427,
+  1472,
+  927
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77868713",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77868713&imageId=77809016"
+}

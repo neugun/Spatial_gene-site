@@ -1,0 +1,18 @@
+{
+ "gene": "Lrrc55",
+ "region": "MH",
+ "experiment_id": 73931406,
+ "image_id": 73922492,
+ "section_number": 234,
+ "x": 4860.081168550989,
+ "y": 3021.272476800432,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  965,
+  505,
+  1465,
+  1005
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73931406",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73931406&imageId=73922492"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr35",
+ "region": "SCO",
+ "experiment_id": 112649690,
+ "image_id": 112649779,
+ "section_number": 219,
+ "x": 5652.412702886456,
+ "y": 3477.7042439439997,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1163,
+  619,
+  1663,
+  1119
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/112649690",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=112649690&imageId=112649779"
+}

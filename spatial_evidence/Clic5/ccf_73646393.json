@@ -1,0 +1,18 @@
+{
+ "gene": "Clic5",
+ "region": "MOp6b",
+ "experiment_id": 73636094,
+ "image_id": 73646393,
+ "section_number": 338,
+ "x": 4767.697978142474,
+ "y": 2284.12936833166,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  941,
+  321,
+  1441,
+  821
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73636094",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73636094&imageId=73646393"
+}

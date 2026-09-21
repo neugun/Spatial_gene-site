@@ -1,0 +1,18 @@
+{
+ "gene": "Mcoln3",
+ "region": "PVT",
+ "experiment_id": 75934924,
+ "image_id": 75857293,
+ "section_number": 150,
+ "x": 6056.320166076986,
+ "y": 3971.1066819032226,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1264,
+  742,
+  1764,
+  1242
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75934924",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75934924&imageId=75857293"
+}

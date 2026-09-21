@@ -1,0 +1,18 @@
+{
+ "gene": "Avpr1b",
+ "region": "CA2sp",
+ "experiment_id": 79488955,
+ "image_id": 79483621,
+ "section_number": 237,
+ "x": 4777.563663123238,
+ "y": 2979.826058640501,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  944,
+  494,
+  1444,
+  994
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79488955",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79488955&imageId=79483621"
+}

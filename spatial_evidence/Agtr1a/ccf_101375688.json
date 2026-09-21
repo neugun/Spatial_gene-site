@@ -1,0 +1,18 @@
+{
+ "gene": "Agtr1a",
+ "region": "PVH",
+ "experiment_id": 2021,
+ "image_id": 101375688,
+ "section_number": 276,
+ "x": 3148.971674422637,
+ "y": 3460.4946402217297,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  537,
+  615,
+  1037,
+  1115
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/2021",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=2021&imageId=101375688"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Drd2",
+ "region": "CP",
+ "experiment_id": 357,
+ "image_id": 101322899,
+ "section_number": 264,
+ "x": 2876.631855263398,
+ "y": 2480.2540176730718,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  469,
+  370,
+  969,
+  870
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/357",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=357&imageId=101322899"
+}

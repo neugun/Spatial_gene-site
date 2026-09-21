@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr50",
+ "region": "OV",
+ "experiment_id": 74511770,
+ "image_id": 74396529,
+ "section_number": 357,
+ "x": 4601.971486357898,
+ "y": 5969.681410400563,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  900,
+  1242,
+  1400,
+  1742
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74511770",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511770&imageId=74396529"
+}

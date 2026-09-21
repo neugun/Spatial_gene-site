@@ -1,0 +1,18 @@
+{
+ "gene": "Fzd9",
+ "region": "AD",
+ "experiment_id": 73907498,
+ "image_id": 73846723,
+ "section_number": 293,
+ "x": 4986.496992352896,
+ "y": 3094.904639161892,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  996,
+  523,
+  1496,
+  1023
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73907498",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73907498&imageId=73846723"
+}

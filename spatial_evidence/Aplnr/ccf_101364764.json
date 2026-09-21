@@ -1,0 +1,18 @@
+{
+ "gene": "Aplnr",
+ "region": "AP",
+ "experiment_id": 1661,
+ "image_id": 101364764,
+ "section_number": 18,
+ "x": 2308.424435818832,
+ "y": 2581.5581851426095,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  327,
+  395,
+  827,
+  895
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1661",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1661&imageId=101364764"
+}

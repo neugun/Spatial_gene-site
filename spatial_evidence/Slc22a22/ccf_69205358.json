@@ -1,0 +1,18 @@
+{
+ "gene": "Slc22a22",
+ "region": "SUM",
+ "experiment_id": 69261398,
+ "image_id": 69205358,
+ "section_number": 138,
+ "x": 8207.898986069817,
+ "y": 5465.116145447957,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1801,
+  1116,
+  2301,
+  1616
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69261398",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69261398&imageId=69205358"
+}

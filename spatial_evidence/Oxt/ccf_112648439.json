@@ -1,0 +1,18 @@
+{
+ "gene": "Oxt",
+ "region": "SO",
+ "experiment_id": 112648396,
+ "image_id": 112648439,
+ "section_number": 326,
+ "x": 5275.565338431295,
+ "y": 6203.227009107476,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1068,
+  1300,
+  1568,
+  1800
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/112648396",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=112648396&imageId=112648439"
+}

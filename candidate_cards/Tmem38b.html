@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Tmem38b: fine CCF profile is region-biased toward DG-po (top regions: DG-po, CA1sp, CA2sp, LSc, DG-sg); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in DG-po: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>TMEM38B encodes TRIC-B, a trimeric intracellular cation channel in the ER membrane. It conducts monovalent cations, mainly K+, into the ER lumen as counter-current while Ca2+ exits through IP3 or ryanodine receptors, dissipating the negative potential that would otherwise stall Ca2+ release. Biallelic TMEM38B mutations cause recessive osteogenesis imperfecta type XIV.</dd>
+<dt>Region function</dt><dd>The dentate hilus contains mossy cells and GABAergic interneurons whose feedback onto granule cells controls dentate gain and enables pattern separation (Jinde 2012).</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-none">none</span> No region-specific literature found. The nearest evidence is non-neural: TRIC-B knockout mice show defective IP3-receptor Ca2+ release, impaired alveolar epithelial Ca2+ handling and perinatal lethality (Yamazaki 2009), and disrupted osteoblast Ca2+ homeostasis and collagen synthesis (Zhao 2016, Cabral 2016). Allen ISH shows only weak Tmem38b signal in DG-po (energy 1.3), highest of the regions queried but near threshold.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: if TRIC-B is functional in hilar neurons it is the ER counter-ion pathway permitting full IP3-receptor Ca2+ release downstream of group I mGluR and muscarinic input, both prominent in mossy cells. Conditional deletion should shrink mGluR-evoked Ca2+ transients and Ca2+-activated afterhyperpolarisations, raising hilar excitability and degrading feedback inhibition. Compensation by the paralogue TRIC-A may make any single-gene phenotype weak.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9733; 5/5</span> No published work exists on TRIC-B in any brain region, despite a clear mechanistic role in ER Ca2+ release.</dd>
+<dt>Tools</dt><dd>Tmem38b knockout and floxed mice (Yamazaki 2009, Zhao 2016); anti-TRIC-B antibodies from the osteogenesis imperfecta literature; no selective pharmacology, so AAV-shRNA or CRISPR with mossy-cell Cre drivers is the route.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/17611541/" target="_blank" rel="noopener">Yazawa et al. 2007, Nature</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/19515693/" target="_blank" rel="noopener">Yamazaki et al. 2009, Development</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/27188440/" target="_blank" rel="noopener">Zhao et al. 2016, Science Signaling</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/27441836/" target="_blank" rel="noopener">Cabral et al. 2016, PLoS Genetics</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/23259953/" target="_blank" rel="noopener">Jinde et al. 2012, Neuron</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Tmem38b/ccf_68067843.jpg" alt="Tmem38b Allen ISH at the CCF centroid of DG-po">
+<p class="cap">Allen ISH experiment 68301664, section image 68067843 (section 145): the section that contains the CCF centroid of Dentate gyrus, polymorph layer according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=68301664&imageId=68067843" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Tmem38b&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Tmem38b</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=10704" target="_blank" rel="noopener">Allen reference atlas: DG-po (structure 10704)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Tmem38b" or by parcellation_substructure "DG-po")</span><a href="../explore.html?region=DG-po" target="_blank" rel="noopener">All genes confined to DG-po + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/DG-po_merfish_locator.png" alt="DG-po MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the DG-po (Dentate gyrus, polymorph layer) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

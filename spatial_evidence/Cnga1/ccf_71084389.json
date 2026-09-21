@@ -1,0 +1,18 @@
+{
+ "gene": "Cnga1",
+ "region": "IO",
+ "experiment_id": 71380718,
+ "image_id": 71084389,
+ "section_number": 153,
+ "x": 11783.484596388314,
+ "y": 7195.39700581834,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2695,
+  1548,
+  3195,
+  2048
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71380718",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71380718&imageId=71084389"
+}

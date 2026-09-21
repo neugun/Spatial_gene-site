@@ -1,0 +1,18 @@
+{
+ "gene": "Htr1a",
+ "region": "DR",
+ "experiment_id": 79556616,
+ "image_id": 79566186,
+ "section_number": 133,
+ "x": 4931.201265924833,
+ "y": 3347.926408718624,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  982,
+  586,
+  1482,
+  1086
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79556616",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79556616&imageId=79566186"
+}

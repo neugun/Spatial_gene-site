@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr17",
+ "region": "LT",
+ "experiment_id": 74641313,
+ "image_id": 74529351,
+ "section_number": 217,
+ "x": 4553.2750598249095,
+ "y": 3484.7945730308734,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  888,
+  621,
+  1388,
+  1121
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74641313",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641313&imageId=74529351"
+}

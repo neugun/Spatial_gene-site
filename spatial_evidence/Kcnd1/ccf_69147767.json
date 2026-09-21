@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnd1",
+ "region": "V",
+ "experiment_id": 69258011,
+ "image_id": 69147767,
+ "section_number": 152,
+ "x": 10536.536500191469,
+ "y": 4359.169466078732,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2384,
+  839,
+  2884,
+  1339
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69258011",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258011&imageId=69147767"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr157",
+ "region": "AD",
+ "experiment_id": 69256646,
+ "image_id": 69232034,
+ "section_number": 125,
+ "x": 6707.996470551289,
+ "y": 3691.9733182412324,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1426,
+  672,
+  1926,
+  1172
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69256646",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69256646&imageId=69232034"
+}

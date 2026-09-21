@@ -1,0 +1,18 @@
+{
+ "gene": "Kcng4",
+ "region": "MH",
+ "experiment_id": 72081560,
+ "image_id": 71981486,
+ "section_number": 253,
+ "x": 5227.280487337429,
+ "y": 2834.024040812137,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1056,
+  458,
+  1556,
+  958
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72081560",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72081560&imageId=71981486"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Cacna1s",
+ "region": "PVpo",
+ "experiment_id": 70723167,
+ "image_id": 70418965,
+ "section_number": 146,
+ "x": 5486.994260182777,
+ "y": 5689.538419942459,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1121,
+  1172,
+  1621,
+  1672
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70723167",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723167&imageId=70418965"
+}

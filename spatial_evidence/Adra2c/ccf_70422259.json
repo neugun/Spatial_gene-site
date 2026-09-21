@@ -1,0 +1,18 @@
+{
+ "gene": "Adra2c",
+ "region": "OT",
+ "experiment_id": 70723357,
+ "image_id": 70422259,
+ "section_number": 153,
+ "x": 4797.996918920084,
+ "y": 5763.363753451746,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  949,
+  1190,
+  1449,
+  1690
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70723357",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723357&imageId=70422259"
+}

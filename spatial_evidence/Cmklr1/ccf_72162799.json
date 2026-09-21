@@ -1,0 +1,18 @@
+{
+ "gene": "Cmklr1",
+ "region": "ME",
+ "experiment_id": 72340129,
+ "image_id": 72162799,
+ "section_number": 249,
+ "x": 9242.589661094886,
+ "y": 8160.1167128116995,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2060,
+  1790,
+  2560,
+  2144
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72340129",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72340129&imageId=72162799"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Galr2",
+ "region": "SCO",
+ "experiment_id": 80517343,
+ "image_id": 80482022,
+ "section_number": 234,
+ "x": 5274.512045373777,
+ "y": 3533.7498776167185,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1068,
+  633,
+  1568,
+  1133
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/80517343",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=80517343&imageId=80482022"
+}

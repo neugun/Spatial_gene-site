@@ -1,0 +1,18 @@
+{
+ "gene": "Tac2",
+ "region": "MH",
+ "experiment_id": 72339556,
+ "image_id": 72169137,
+ "section_number": 261,
+ "x": 5253.4176917703335,
+ "y": 2888.191429716444,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1063,
+  472,
+  1563,
+  972
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72339556",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72339556&imageId=72169137"
+}

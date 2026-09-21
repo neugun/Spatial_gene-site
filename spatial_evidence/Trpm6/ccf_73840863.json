@@ -1,0 +1,18 @@
+{
+ "gene": "Trpm6",
+ "region": "AV",
+ "experiment_id": 73907502,
+ "image_id": 73840863,
+ "section_number": 306,
+ "x": 5183.410411098967,
+ "y": 3142.3278356304745,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1045,
+  535,
+  1545,
+  1035
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73907502",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73907502&imageId=73840863"
+}

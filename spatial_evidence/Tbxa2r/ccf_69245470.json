@@ -1,0 +1,18 @@
+{
+ "gene": "Tbxa2r",
+ "region": "MMd",
+ "experiment_id": 69288363,
+ "image_id": 69245470,
+ "section_number": 145,
+ "x": 8681.349571358447,
+ "y": 5664.422516066525,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1920,
+  1166,
+  2420,
+  1666
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69288363",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69288363&imageId=69245470"
+}

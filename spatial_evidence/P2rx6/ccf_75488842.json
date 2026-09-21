@@ -1,0 +1,18 @@
+{
+ "gene": "P2rx6",
+ "region": "SCO",
+ "experiment_id": 75551463,
+ "image_id": 75488842,
+ "section_number": 229,
+ "x": 5287.075756240671,
+ "y": 3058.8507138906093,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1071,
+  514,
+  1571,
+  1014
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75551463",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551463&imageId=75488842"
+}

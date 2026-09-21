@@ -1,0 +1,18 @@
+{
+ "gene": "S1pr2",
+ "region": "ME",
+ "experiment_id": 69237215,
+ "image_id": 69230685,
+ "section_number": 134,
+ "x": 7750.8549433881535,
+ "y": 7636.7761480232875,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1687,
+  1659,
+  2187,
+  2128
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69237215",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69237215&imageId=69230685"
+}

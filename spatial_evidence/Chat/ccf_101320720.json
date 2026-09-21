@@ -1,0 +1,18 @@
+{
+ "gene": "Chat",
+ "region": "MH",
+ "experiment_id": 252,
+ "image_id": 101320720,
+ "section_number": 229,
+ "x": 3308.4530655959597,
+ "y": 2064.6636307633344,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  577,
+  266,
+  1077,
+  766
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/252",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=252&imageId=101320720"
+}

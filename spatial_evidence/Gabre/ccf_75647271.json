@@ -1,0 +1,18 @@
+{
+ "gene": "Gabre",
+ "region": "ARH",
+ "experiment_id": 75749417,
+ "image_id": 75647271,
+ "section_number": 266,
+ "x": 4966.263479937352,
+ "y": 6920.57966090226,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  991,
+  1480,
+  1491,
+  1904
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75749417",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75749417&imageId=75647271"
+}

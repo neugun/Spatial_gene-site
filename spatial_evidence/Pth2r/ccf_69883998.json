@@ -1,0 +1,18 @@
+{
+ "gene": "Pth2r",
+ "region": "MGd",
+ "experiment_id": 69863250,
+ "image_id": 69883998,
+ "section_number": 152,
+ "x": 9739.294683519978,
+ "y": 3522.1419718046454,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2184,
+  630,
+  2684,
+  1130
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69863250",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863250&imageId=69883998"
+}

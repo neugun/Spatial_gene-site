@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Cnga1: predicted fine-region profile is strict-exclusive, with 2 positive regions out of 554 (limit 12); direct spatial validation is required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in IO: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Cnga1 encodes CNGA1, the principal pore-forming subunit of the rod photoreceptor cyclic nucleotide-gated channel. It is directly opened by cGMP (not by voltage) and, with CNGB1, carries the depolarising Na+/Ca2+ dark current that light-triggered cGMP hydrolysis shuts off. Loss of CNGA1 in humans and mice causes autosomal recessive retinitis pigmentosa with early rod dysfunction and progressive photoreceptor death.</dd>
+<dt>Region function</dt><dd>The inferior olive is the sole source of climbing fibres to Purkinje cells; its electrically coupled, subthreshold-oscillating neurons generate complex spikes that time movements and drive cerebellar motor learning and error signalling.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. The closest published findings are that CNG channels are functional in other central neurons, with cGMP-gated currents recorded in cerebellar granule cells (Lopez-Jimenez et al. 2012, J Cell Physiol) and CNGA1/CNGA2 expression reported in the adult hippocampal neurogenic niche (Podda et al. 2013, PLoS One); the characterised Cnga1 knockout phenotype is purely retinal (Liu et al. 2021, FASEB J).</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: a cGMP-gated cation conductance in inferior olivary neurons would let NO/soluble guanylyl cyclase signalling, which is prominent in the olivo-cerebellar loop, directly bias membrane potential and thereby the amplitude, phase and coupling of the 4-10 Hz subthreshold oscillation that times complex spikes. Deleting Cnga1 in the olive should shift oscillation frequency or synchrony and degrade cerebellar timing-dependent learning (eyeblink conditioning, locomotor adaptation) without affecting gross motor strength; cGMP analogues or sGC stimulators should alter complex spike rate, and l-cis-diltiazem should occlude that effect. Verification by smFISH in Foxp2+/Slc6a5+ olivary neurons is the essential first step.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9733; 5/5</span> CNGA1 is treated as a retina-only gene, so a cGMP-gated channel in the climbing-fibre pacemaker would be entirely unexplored territory.</dd>
+<dt>Tools</dt><dd>Cnga1 knockout mice (Liu et al. 2021) and CNGB1 knockout lines; channel blocker l-cis-diltiazem; membrane-permeant agonists 8-Br-cGMP and CPT-cGMP plus sGC stimulators; anti-CNGA1 monoclonal antibody PMc 1D1; inferior olive access via Foxp2-Cre or Ptf1a-derived drivers; Allen mouse ISH dataset 71380718.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/34418172/" target="_blank" rel="noopener">Liu Y et al. 2021, FASEB Journal</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/23991183/" target="_blank" rel="noopener">Podda MV et al. 2013, PLoS One</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/21809342/" target="_blank" rel="noopener">Lopez-Jimenez ME et al. 2012, Journal of Cellular Physiology</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Cnga1/ccf_71084389.jpg" alt="Cnga1 Allen ISH at the CCF centroid of IO">
+<p class="cap">Allen ISH experiment 71380718, section image 71084389 (section 153): the section that contains the CCF centroid of Inferior olivary complex according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=71380718&imageId=71084389" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Cnga1&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Cnga1</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=83" target="_blank" rel="noopener">Allen reference atlas: IO (structure 83)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Cnga1" or by parcellation_substructure "IO")</span><a href="../explore.html?region=IO" target="_blank" rel="noopener">All genes confined to IO + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/IO_merfish_locator.png" alt="IO MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the IO (Inferior olivary complex) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure><figure class="panel"><div class="tag">DIRECT ALLEN ISH</div><img src="../spatial_evidence/Cnga1/71084343_DIRECT_ISH.jpg" alt="Allen ISH experiment 71380718, image 71084343 -- target region: IO (Inferior olivary complex)"><figcaption><a href="https://mouse.brain-map.org/experiment/show/71380718">Allen ISH experiment 71380718, image 71084343 -- target region: IO (Inferior olivary complex)</a></figcaption></figure><figure class="panel"><div class="tag">DIRECT ALLEN ISH</div><img src="../spatial_evidence/Cnga1/71084345_DIRECT_ISH.jpg" alt="Allen ISH experiment 71380718, image 71084345 -- target region: IO (Inferior olivary complex)"><figcaption><a href="https://mouse.brain-map.org/experiment/show/71380718">Allen ISH experiment 71380718, image 71084345 -- target region: IO (Inferior olivary complex)</a></figcaption></figure>  </div>

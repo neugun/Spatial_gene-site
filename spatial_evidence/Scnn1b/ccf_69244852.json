@@ -1,0 +1,18 @@
+{
+ "gene": "Scnn1b",
+ "region": "RO",
+ "experiment_id": 69288321,
+ "image_id": 69244852,
+ "section_number": 136,
+ "x": 12523.489497776513,
+ "y": 6018.489319812332,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2880,
+  1254,
+  3380,
+  1754
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69288321",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69288321&imageId=69244852"
+}

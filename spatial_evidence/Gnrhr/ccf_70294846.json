@@ -1,0 +1,18 @@
+{
+ "gene": "Gnrhr",
+ "region": "SH",
+ "experiment_id": 70593007,
+ "image_id": 70294846,
+ "section_number": 136,
+ "x": 4526.000118486846,
+ "y": 3799.040457258999,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  881,
+  699,
+  1381,
+  1199
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70593007",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70593007&imageId=70294846"
+}

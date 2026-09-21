@@ -1,0 +1,18 @@
+{
+ "gene": "Mchr1",
+ "region": "CA2sp",
+ "experiment_id": 74724669,
+ "image_id": 74649033,
+ "section_number": 244,
+ "x": 4603.074193651935,
+ "y": 3282.5876795739323,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  900,
+  570,
+  1400,
+  1070
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74724669",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724669&imageId=74649033"
+}

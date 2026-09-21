@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr119",
+ "region": "IPR",
+ "experiment_id": 69257415,
+ "image_id": 69239033,
+ "section_number": 124,
+ "x": 9543.73261210316,
+ "y": 5503.463920893285,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2135,
+  1125,
+  2635,
+  1625
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257415",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257415&imageId=69239033"
+}

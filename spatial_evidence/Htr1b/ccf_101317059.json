@@ -1,0 +1,18 @@
+{
+ "gene": "Htr1b",
+ "region": "CP",
+ "experiment_id": 584,
+ "image_id": 101317059,
+ "section_number": 302,
+ "x": 3050.2921702197036,
+ "y": 2717.661614267596,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  512,
+  429,
+  1012,
+  929
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/584",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=584&imageId=101317059"
+}

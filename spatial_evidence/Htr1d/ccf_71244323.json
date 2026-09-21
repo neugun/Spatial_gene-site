@@ -1,0 +1,18 @@
+{
+ "gene": "Htr1d",
+ "region": "OT",
+ "experiment_id": 71393418,
+ "image_id": 71244323,
+ "section_number": 148,
+ "x": 4736.505232709373,
+ "y": 6317.771105742112,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  934,
+  1329,
+  1434,
+  1829
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71393418",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71393418&imageId=71244323"
+}

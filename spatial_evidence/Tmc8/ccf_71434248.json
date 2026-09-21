@@ -1,0 +1,18 @@
+{
+ "gene": "Tmc8",
+ "region": "PBG",
+ "experiment_id": 71587631,
+ "image_id": 71434248,
+ "section_number": 145,
+ "x": 9582.665253065356,
+ "y": 3926.369072586775,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2145,
+  731,
+  2645,
+  1231
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71587631",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71587631&imageId=71434248"
+}

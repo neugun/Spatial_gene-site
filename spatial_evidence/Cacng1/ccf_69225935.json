@@ -1,0 +1,18 @@
+{
+ "gene": "Cacng1",
+ "region": "CP",
+ "experiment_id": 69236945,
+ "image_id": 69225935,
+ "section_number": 142,
+ "x": 5833.60798196396,
+ "y": 4195.269568196788,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1208,
+  798,
+  1708,
+  1298
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69236945",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236945&imageId=69225935"
+}

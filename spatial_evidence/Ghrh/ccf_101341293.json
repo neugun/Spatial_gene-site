@@ -1,0 +1,18 @@
+{
+ "gene": "Ghrh",
+ "region": "PVpo",
+ "experiment_id": 496,
+ "image_id": 101341293,
+ "section_number": 298,
+ "x": 3013.686245463323,
+ "y": 3967.1296335743073,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  503,
+  741,
+  1003,
+  1114
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/496",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=496&imageId=101341293"
+}

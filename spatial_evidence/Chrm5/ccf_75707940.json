@@ -1,0 +1,18 @@
+{
+ "gene": "Chrm5",
+ "region": "PMd",
+ "experiment_id": 75826557,
+ "image_id": 75707940,
+ "section_number": 245,
+ "x": 5210.564829052201,
+ "y": 6011.961729411187,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1052,
+  1252,
+  1552,
+  1752
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75826557",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75826557&imageId=75707940"
+}

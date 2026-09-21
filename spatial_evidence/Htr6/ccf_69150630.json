@@ -1,0 +1,18 @@
+{
+ "gene": "Htr6",
+ "region": "OT",
+ "experiment_id": 69257981,
+ "image_id": 69150630,
+ "section_number": 153,
+ "x": 4926.515188723277,
+ "y": 7200.6339804173585,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  981,
+  1550,
+  1481,
+  1920
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257981",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257981&imageId=69150630"
+}

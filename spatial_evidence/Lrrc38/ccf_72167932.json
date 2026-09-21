@@ -1,0 +1,18 @@
+{
+ "gene": "Lrrc38",
+ "region": "RT",
+ "experiment_id": 72340184,
+ "image_id": 72167932,
+ "section_number": 285,
+ "x": 5019.756735739744,
+ "y": 4330.98216345164,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1004,
+  832,
+  1504,
+  1332
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72340184",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72340184&imageId=72167932"
+}

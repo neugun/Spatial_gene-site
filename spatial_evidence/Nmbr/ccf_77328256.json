@@ -1,0 +1,18 @@
+{
+ "gene": "Nmbr",
+ "region": "PVT",
+ "experiment_id": 77332086,
+ "image_id": 77328256,
+ "section_number": 300,
+ "x": 5217.299771937035,
+ "y": 3524.5006340813575,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1054,
+  631,
+  1554,
+  1131
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77332086",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77332086&imageId=77328256"
+}

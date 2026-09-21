@@ -1,0 +1,18 @@
+{
+ "gene": "Hrh4",
+ "region": "OV",
+ "experiment_id": 69257767,
+ "image_id": 69148896,
+ "section_number": 154,
+ "x": 4937.471049626414,
+ "y": 5934.941672248473,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  984,
+  1233,
+  1484,
+  1733
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257767",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257767&imageId=69148896"
+}

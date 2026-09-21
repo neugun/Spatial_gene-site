@@ -1,0 +1,18 @@
+{
+ "gene": "Drd3",
+ "region": "OT",
+ "experiment_id": 75038431,
+ "image_id": 74929625,
+ "section_number": 402,
+ "x": 4170.868313319332,
+ "y": 5614.893404204962,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  792,
+  1153,
+  1292,
+  1648
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75038431",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75038431&imageId=74929625"
+}

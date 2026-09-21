@@ -1,0 +1,18 @@
+{
+ "gene": "Trpc6",
+ "region": "DG-po",
+ "experiment_id": 70562126,
+ "image_id": 70469226,
+ "section_number": 202,
+ "x": 4823.108087341725,
+ "y": 3620.928419501224,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  955,
+  655,
+  1455,
+  1155
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70562126",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562126&imageId=70469226"
+}

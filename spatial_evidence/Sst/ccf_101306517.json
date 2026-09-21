@@ -1,0 +1,18 @@
+{
+ "gene": "Sst",
+ "region": "RT",
+ "experiment_id": 1001,
+ "image_id": 101306517,
+ "section_number": 255,
+ "x": 3198.8018881170137,
+ "y": 2781.38467725764,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  549,
+  445,
+  1049,
+  945
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1001",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1001&imageId=101306517"
+}

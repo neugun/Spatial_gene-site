@@ -1,0 +1,18 @@
+{
+ "gene": "Trpa1",
+ "region": "RL",
+ "experiment_id": 70230939,
+ "image_id": 70006732,
+ "section_number": 146,
+ "x": 8923.504239104252,
+ "y": 4231.303212239778,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1980,
+  807,
+  2480,
+  1307
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70230939",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70230939&imageId=70006732"
+}

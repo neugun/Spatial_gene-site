@@ -1,0 +1,18 @@
+{
+ "gene": "Uts2b",
+ "region": "DMX",
+ "experiment_id": 75144621,
+ "image_id": 75054443,
+ "section_number": 52,
+ "x": 3643.5781853940944,
+ "y": 3692.622745875343,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  660,
+  673,
+  1160,
+  1173
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75144621",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75144621&imageId=75054443"
+}

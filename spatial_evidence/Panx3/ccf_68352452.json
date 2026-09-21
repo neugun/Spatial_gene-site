@@ -1,0 +1,18 @@
+{
+ "gene": "Panx3",
+ "region": "PVT",
+ "experiment_id": 68668114,
+ "image_id": 68352452,
+ "section_number": 130,
+ "x": 6774.952198973337,
+ "y": 3766.7729556455997,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1443,
+  691,
+  1943,
+  1191
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/68668114",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=68668114&imageId=68352452"
+}

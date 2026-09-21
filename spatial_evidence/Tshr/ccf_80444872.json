@@ -1,0 +1,18 @@
+{
+ "gene": "Tshr",
+ "region": "ME",
+ "experiment_id": 80471957,
+ "image_id": 80444872,
+ "section_number": 144,
+ "x": 7158.740734629677,
+ "y": 9505.756556839515,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1539,
+  2126,
+  2039,
+  2552
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/80471957",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=80471957&imageId=80444872"
+}

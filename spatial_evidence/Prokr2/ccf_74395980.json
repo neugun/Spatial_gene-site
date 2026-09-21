@@ -1,0 +1,18 @@
+{
+ "gene": "Prokr2",
+ "region": "AP",
+ "experiment_id": 74511780,
+ "image_id": 74395980,
+ "section_number": 50,
+ "x": 3913.1795712700346,
+ "y": 3941.6833796198816,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  728,
+  735,
+  1228,
+  1235
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74511780",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511780&imageId=74395980"
+}

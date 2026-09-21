@@ -1,0 +1,18 @@
+{
+ "gene": "Drd4",
+ "region": "VPM",
+ "experiment_id": 112650336,
+ "image_id": 112650414,
+ "section_number": 250,
+ "x": 5507.890240113031,
+ "y": 4504.2121220789695,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1126,
+  876,
+  1626,
+  1376
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/112650336",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=112650336&imageId=112650414"
+}

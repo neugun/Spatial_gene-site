@@ -1,0 +1,18 @@
+{
+ "gene": "Nppc",
+ "region": "CU",
+ "experiment_id": 71920453,
+ "image_id": 71827020,
+ "section_number": 156,
+ "x": 12697.248951239953,
+ "y": 4500.37950830527,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2924,
+  875,
+  3424,
+  1375
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71920453",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71920453&imageId=71827020"
+}

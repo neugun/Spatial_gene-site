@@ -1,0 +1,18 @@
+{
+ "gene": "Hcar1",
+ "region": "LM",
+ "experiment_id": 77464856,
+ "image_id": 77469822,
+ "section_number": 152,
+ "x": 8196.344109386057,
+ "y": 5553.674060191234,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1799,
+  1138,
+  2299,
+  1638
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77464856",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77464856&imageId=77469822"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Kcne4",
+ "region": "VPM",
+ "experiment_id": 74819245,
+ "image_id": 74729374,
+ "section_number": 258,
+ "x": 5133.195871027655,
+ "y": 3989.7380795455015,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1033,
+  747,
+  1533,
+  1247
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74819245",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74819245&imageId=74729374"
+}

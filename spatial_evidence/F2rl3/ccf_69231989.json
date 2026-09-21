@@ -1,0 +1,18 @@
+{
+ "gene": "F2rl3",
+ "region": "OV",
+ "experiment_id": 69256640,
+ "image_id": 69231989,
+ "section_number": 140,
+ "x": 5594.423611492827,
+ "y": 6123.616785930262,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1148,
+  1280,
+  1648,
+  1780
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69256640",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69256640&imageId=69231989"
+}

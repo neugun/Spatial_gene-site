@@ -1,0 +1,18 @@
+{
+ "gene": "Fzd6",
+ "region": "VPM",
+ "experiment_id": 74047775,
+ "image_id": 73996320,
+ "section_number": 258,
+ "x": 4792.122369758592,
+ "y": 3825.2888050255024,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  948,
+  706,
+  1448,
+  1206
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74047775",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74047775&imageId=73996320"
+}

@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Slc22a22: fine CCF profile is restricted toward SUM (top regions: SUM, MMme, MMl, ILA2/3, MMd; 13 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in SUM: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Slc22a22 encodes OAT-PG, an organic anion transporter of the SLC22 family that selectively takes up prostaglandin E2. It was cloned from kidney, where it clears PGE2 from the cortical interstitium; its expression is regulated by glucocorticoids and by sex hormones. Despite being grouped with GPCR-like annotations, it is a transporter, not a receptor.</dd>
+<dt>Region function</dt><dd>The supramammillary nucleus is a small posterior hypothalamic cell group projecting heavily to medial septum, dentate gyrus and CA2; it signals novelty and arousal and sets hippocampal theta rhythm and wakefulness.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. All published OAT-PG work is renal: glucocorticoid control of its transcription (Hatano 2014), a sex difference in renal expression that sets basal PGE2 (Hatano 2012), and reduced expression during pregnancy (Kazama 2013). No brain expression or function has been reported for Slc22a22, while the supramammillary nucleus itself is well defined as a glutamatergic arousal node (Pedersen 2017).</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: if supramammillary neurons really express OAT-PG they would be able to take up and clear extracellular PGE2, giving this novelty-and-arousal node a direct handle on prostaglandin signalling during fever and inflammation. That predicts inflammatory states raise local PGE2 in SUM and thereby modulate hippocampal theta and novelty responses, and that Slc22a22 deletion or a prostaglandin-transport blocker would exaggerate PGE2-driven changes in arousal and theta power. Because this is otherwise a kidney gene, expression validation must come first.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9733; 5/5</span> Prostaglandin uptake by an arousal nucleus is an entirely unexplored idea, though the complete absence of gene-specific reagents raises the cost of testing it.</dd>
+<dt>Tools</dt><dd>None known for Slc22a22 itself: no knockout, Cre line or validated antibody in common use. Prostaglandin transport can be probed pharmacologically with bromosulfophthalein, probenecid and indomethacin; supramammillary neurons are accessible with Vglut2-IRES-Cre (JAX 028863) and by retro-AAV from dentate gyrus or medial septum.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/22031854/" target="_blank" rel="noopener">Hatano R et al. 2012, Am J Physiol Renal Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/24057348/" target="_blank" rel="noopener">Hatano R et al. 2014, Pflugers Arch</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/24008262/" target="_blank" rel="noopener">Kazama I et al. 2013, Gynecol Obstet Invest</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/29123082/" target="_blank" rel="noopener">Pedersen NP et al. 2017, Nat Commun</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Slc22a22/ccf_69205358.jpg" alt="Slc22a22 Allen ISH at the CCF centroid of SUM">
+<p class="cap">Allen ISH experiment 69261398, section image 69205358 (section 138): the section that contains the CCF centroid of Supramammillary nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=69261398&imageId=69205358" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Slc22a22&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Slc22a22</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=525" target="_blank" rel="noopener">Allen reference atlas: SUM (structure 525)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Slc22a22" or by parcellation_substructure "SUM")</span><a href="../explore.html?region=SUM" target="_blank" rel="noopener">All genes confined to SUM + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SUM_merfish_locator.png" alt="SUM MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SUM (Supramammillary nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

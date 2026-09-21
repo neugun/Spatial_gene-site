@@ -1,0 +1,18 @@
+{
+ "gene": "Clic6",
+ "region": "OT",
+ "experiment_id": 1984,
+ "image_id": 101357494,
+ "section_number": 342,
+ "x": 2652.0589341388986,
+ "y": 4042.3504061656345,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  413,
+  760,
+  913,
+  1080
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1984",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1984&imageId=101357494"
+}

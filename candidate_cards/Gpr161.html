@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Gpr161: fine CCF profile is restricted toward CA1sp (top regions: CA1sp, CA2sp, CA1so, CA1sr, CA2so; 13 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in CA1sp: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>GPR161 is a ciliary orphan class A G-protein-coupled receptor that is constitutively coupled to Gs. It raises cAMP inside the primary cilium and also acts as an A-kinase anchoring protein, so it concentrates PKA activity locally and promotes processing of GLI3 into its transcriptional repressor form, thereby restraining Sonic hedgehog signalling. Hedgehog stimulation causes GPR161 to exit the cilium, relieving this brake; sterols regulate its basal activity.</dd>
+<dt>Region function</dt><dd>The CA1 pyramidal layer is the principal output stage of the hippocampus, integrating CA3 Schaffer-collateral and entorhinal layer-III input; it houses place cells and generates the sharp-wave ripples that support episodic memory consolidation.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-expression_only">expression only</span> Expression is documented but function is not. Mukhopadhyay et al. 2013 reported that Gpr161 is present in virtually all cilia of cultured embryonic mouse hippocampal neurons and is broadly detected in the cilia of CA1 and CA2 pyramidal neurons in adult mouse hippocampus. Paillard et al. 2025 showed that ciliary GPR161 mechanosensitivity drives saltatory migration of developing neurons, and Shimada et al. 2019 found forebrain and ventricular abnormalities after Gpr161 deletion, but no study has manipulated GPR161 in mature CA1.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: in mature CA1 pyramidal neurons the primary cilium is a signalling antenna rather than a motility organelle, so GPR161 is predicted to set the tonic ciliary cAMP/PKA tone that governs activity-dependent gene expression and the threshold for hedgehog-dependent plasticity. Conditional deletion of Gpr161 with Camk2a-Cre should derepress GLI-dependent transcription in CA1, lower the threshold for LTP and alter place-field stability and contextual fear memory without gross anatomical change; the phenotype should be occluded by downstream Smoothened antagonists such as vismodegib.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9734; 4/5</span> The protein is documented in adult CA1 cilia and floxed alleles exist, yet no one has tested what ciliary cAMP signalling does for hippocampal function.</dd>
+<dt>Tools</dt><dd>Gpr161 floxed mice (Mukhopadhyay lab) and the Gpr161 vacuolated-lens null allele; Camk2a-Cre and Grik4-Cre for hippocampal deletion; anti-GPR161 antibodies; pathway manipulation with Smoothened agonist SAG and antagonist vismodegib; ciliary cAMP sensors (cilia-targeted cADDis, 5HT6-mCherry).</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/23332756/" target="_blank" rel="noopener">Mukhopadhyay et al. 2013, Cell</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/40737401/" target="_blank" rel="noopener">Paillard et al. 2025, Science Advances</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/30914320/" target="_blank" rel="noopener">Shimada et al. 2019, Developmental Biology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/37943875/" target="_blank" rel="noopener">Hwang et al. 2023, PLoS Genetics</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Gpr161/ccf_70401427.jpg" alt="Gpr161 Allen ISH at the CCF centroid of CA1sp">
+<p class="cap">Allen ISH experiment 70562045, section image 70401427 (section 214): the section that contains the CCF centroid of Field CA1, pyramidal layer according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=70562045&imageId=70401427" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Gpr161&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Gpr161</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=407" target="_blank" rel="noopener">Allen reference atlas: CA1sp (structure 407)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Gpr161" or by parcellation_substructure "CA1sp")</span><a href="../explore.html?region=CA1sp" target="_blank" rel="noopener">All genes confined to CA1sp + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/CA1sp_merfish_locator.png" alt="CA1sp MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the CA1sp (Field CA1, pyramidal layer) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

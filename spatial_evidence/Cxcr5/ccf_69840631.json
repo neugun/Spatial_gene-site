@@ -1,0 +1,18 @@
+{
+ "gene": "Cxcr5",
+ "region": "ME",
+ "experiment_id": 69835573,
+ "image_id": 69840631,
+ "section_number": 125,
+ "x": 8015.9734711442,
+ "y": 7045.843890413845,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1753,
+  1511,
+  2253,
+  1912
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69835573",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69835573&imageId=69840631"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Tpcn1",
+ "region": "AP",
+ "experiment_id": 69262231,
+ "image_id": 69430804,
+ "section_number": 157,
+ "x": 11887.944373338472,
+ "y": 4894.705491717038,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2721,
+  973,
+  3221,
+  1473
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69262231",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69262231&imageId=69430804"
+}

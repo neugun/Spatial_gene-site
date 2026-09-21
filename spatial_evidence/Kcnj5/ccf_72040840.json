@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnj5",
+ "region": "PVT",
+ "experiment_id": 72119660,
+ "image_id": 72040840,
+ "section_number": 269,
+ "x": 5613.7749703488125,
+ "y": 5171.275870332954,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1153,
+  1042,
+  1653,
+  1542
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72119660",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72119660&imageId=72040840"
+}

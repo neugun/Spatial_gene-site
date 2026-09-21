@@ -1,0 +1,18 @@
+{
+ "gene": "Ptger1",
+ "region": "V",
+ "experiment_id": 71325378,
+ "image_id": 71206132,
+ "section_number": 148,
+ "x": 10626.07717309329,
+ "y": 4157.5735515594515,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2406,
+  789,
+  2906,
+  1289
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71325378",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71325378&imageId=71206132"
+}

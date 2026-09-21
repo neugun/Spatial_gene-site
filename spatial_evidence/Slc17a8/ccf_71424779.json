@@ -1,0 +1,18 @@
+{
+ "gene": "Slc17a8",
+ "region": "DR",
+ "experiment_id": 71587918,
+ "image_id": 71424779,
+ "section_number": 148,
+ "x": 4622.043757366569,
+ "y": 2752.3870610402537,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  905,
+  438,
+  1405,
+  938
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71587918",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71587918&imageId=71424779"
+}

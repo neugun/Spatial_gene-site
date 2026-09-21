@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr149",
+ "region": "OT",
+ "experiment_id": 71283586,
+ "image_id": 71100749,
+ "section_number": 146,
+ "x": 4777.689456485083,
+ "y": 6341.186565627178,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  944,
+  1335,
+  1444,
+  1780
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71283586",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71283586&imageId=71100749"
+}

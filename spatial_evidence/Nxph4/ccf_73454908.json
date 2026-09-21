@@ -1,0 +1,18 @@
+{
+ "gene": "Nxph4",
+ "region": "TMd",
+ "experiment_id": 73521000,
+ "image_id": 73454908,
+ "section_number": 208,
+ "x": 5054.390627524121,
+ "y": 6421.0858209919425,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1013,
+  1355,
+  1513,
+  1855
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/73521000",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=73521000&imageId=73454908"
+}

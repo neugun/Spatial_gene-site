@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr152",
+ "region": "MH",
+ "experiment_id": 69257474,
+ "image_id": 69239645,
+ "section_number": 141,
+ "x": 7295.494695498548,
+ "y": 2767.984583553934,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1573,
+  441,
+  2073,
+  941
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257474",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257474&imageId=69239645"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Catsper4",
+ "region": "DR",
+ "experiment_id": 69236981,
+ "image_id": 69226636,
+ "section_number": 126,
+ "x": 9673.042942579743,
+ "y": 3621.9118035596284,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2168,
+  655,
+  2668,
+  1155
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69236981",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236981&imageId=69226636"
+}

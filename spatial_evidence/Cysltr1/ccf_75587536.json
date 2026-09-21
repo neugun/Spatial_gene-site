@@ -1,0 +1,18 @@
+{
+ "gene": "Cysltr1",
+ "region": "ME",
+ "experiment_id": 75651227,
+ "image_id": 75587536,
+ "section_number": 245,
+ "x": 5107.222538502111,
+ "y": 7284.759908584817,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1026,
+  1571,
+  1526,
+  2056
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75651227",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651227&imageId=75587536"
+}

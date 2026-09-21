@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr55",
+ "region": "SCO",
+ "experiment_id": 79591399,
+ "image_id": 79603813,
+ "section_number": 236,
+ "x": 5293.999841294781,
+ "y": 2864.4700769196406,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1073,
+  466,
+  1573,
+  966
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79591399",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591399&imageId=79603813"
+}

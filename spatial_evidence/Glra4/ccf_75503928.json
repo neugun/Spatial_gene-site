@@ -1,0 +1,18 @@
+{
+ "gene": "Glra4",
+ "region": "ICd",
+ "experiment_id": 75551476,
+ "image_id": 75503928,
+ "section_number": 132,
+ "x": 4222.177266074918,
+ "y": 1175.0991626214013,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  805,
+  43,
+  1305,
+  543
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75551476",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551476&imageId=75503928"
+}

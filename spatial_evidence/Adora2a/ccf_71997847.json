@@ -1,0 +1,18 @@
+{
+ "gene": "Adora2a",
+ "region": "CP",
+ "experiment_id": 72109410,
+ "image_id": 71997847,
+ "section_number": 336,
+ "x": 4811.708334096082,
+ "y": 3646.5545573666336,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  952,
+  661,
+  1452,
+  1161
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72109410",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72109410&imageId=71997847"
+}

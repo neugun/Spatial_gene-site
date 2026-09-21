@@ -1,0 +1,18 @@
+{
+ "gene": "Otp",
+ "region": "PVH",
+ "experiment_id": 2454,
+ "image_id": 101358075,
+ "section_number": 265,
+ "x": 3338.1129865843,
+ "y": 3535.9950821071834,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  584,
+  633,
+  1084,
+  1133
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/2454",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=2454&imageId=101358075"
+}

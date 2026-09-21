@@ -1,0 +1,18 @@
+{
+ "gene": "Smo",
+ "region": "AP",
+ "experiment_id": 69838516,
+ "image_id": 69857655,
+ "section_number": 136,
+ "x": 12093.682932914373,
+ "y": 4620.018357025795,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2773,
+  905,
+  3273,
+  1405
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69838516",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69838516&imageId=69857655"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Rbp2",
+ "region": "LSc",
+ "experiment_id": 69818042,
+ "image_id": 69785680,
+ "section_number": 157,
+ "x": 5355.559973240577,
+ "y": 3238.29765682469,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1088,
+  559,
+  1588,
+  1059
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69818042",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69818042&imageId=69785680"
+}

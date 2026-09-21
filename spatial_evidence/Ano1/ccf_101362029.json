@@ -1,0 +1,18 @@
+{
+ "gene": "Ano1",
+ "region": "MH",
+ "experiment_id": 1472,
+ "image_id": 101362029,
+ "section_number": 231,
+ "x": 3277.742858863186,
+ "y": 1975.5004332497022,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  569,
+  243,
+  1069,
+  743
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1472",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1472&imageId=101362029"
+}

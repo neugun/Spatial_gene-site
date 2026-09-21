@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Cnr2: fine CCF profile is restricted toward PCN (top regions: PCN, VPMpc, PO, MGd, VPM; 20 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in PCN: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Cnr2 encodes the CB2 cannabinoid receptor, a Gi/Go-coupled GPCR activated by 2-arachidonoylglycerol and anandamide that lowers cAMP and reduces neuronal firing and transmitter release. Long considered immune-restricted, it is now documented at low levels in brain microglia and neuron subsets, where it is strongly inducible by inflammation.</dd>
+<dt>Region function</dt><dd>The paracentral nucleus is an intralaminar thalamic nucleus projecting diffusely to cortex and striatum; intralaminar nuclei support arousal, attentional selection, nociceptive-affective processing and thalamocortical interactions underlying conscious state.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. Grabon et al. 2024 used cell sorting, calibrated RT-qPCR and single-nucleus RNA-seq to show CB2 mRNA is present at low levels in every mouse brain region examined, carried mainly by a minority of microglia and a smaller fraction of neurons, with inflammation-dependent regulation. Zhang et al. 2021 demonstrated genuine neuronal CB2 in red nucleus glutamate neurons, where JWH133 slowed firing in wild-type but not CB2-knockout mice.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: PCN CB2 is most likely carried by microglia plus a sparse population of thalamocortical glutamate neurons, where Gi coupling would dampen firing and thalamocortical drive. Extending the red nucleus result, local JWH133 should reduce PCN firing and lower cortical arousal, attentional gain and affective pain responses, while Cnr2 deletion or AM630 should increase them, with effects amplified after inflammatory challenge. Cell-type attribution must be settled first, since microglial CB2 could produce the same readout indirectly.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9734; 4/5</span> Neuronal CB2 has been validated in only a handful of nuclei and never in intralaminar thalamus, a region central to arousal and pain.</dd>
+<dt>Tools</dt><dd>Agonists JWH133 and HU-308, antagonists AM630 and SR144528; Cnr2 global and conditional knockouts as the essential specificity control; a CB2-KO-eGFP reporter line described by Xi and colleagues; thalamic neurons targetable with Slc17a6-Cre, microglia with Cx3cr1-CreER.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/39160534/" target="_blank" rel="noopener">Grabon et al. 2024, J Neuroinflammation</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/33789118/" target="_blank" rel="noopener">Zhang et al. 2021, Neuropharmacology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/30611802/" target="_blank" rel="noopener">Jordan &amp; Xi 2019, Neurosci Biobehav Rev</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/12423763/" target="_blank" rel="noopener">Van der Werf et al. 2002, Brain Res Rev</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/32053769/" target="_blank" rel="noopener">Redinbaugh et al. 2020, Neuron</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Cnr2/ccf_101372546.jpg" alt="Cnr2 Allen ISH at the CCF centroid of PCN">
+<p class="cap">Allen ISH experiment 2111, section image 101372546 (section 237): the section that contains the CCF centroid of Paracentral nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=2111&imageId=101372546" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Cnr2&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Cnr2</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=907" target="_blank" rel="noopener">Allen reference atlas: PCN (structure 907)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Cnr2" or by parcellation_substructure "PCN")</span><a href="../explore.html?region=PCN" target="_blank" rel="noopener">All genes confined to PCN + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/PCN_merfish_locator.png" alt="PCN MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the PCN (Paracentral nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

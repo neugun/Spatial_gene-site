@@ -1,0 +1,18 @@
+{
+ "gene": "Cartpt",
+ "region": "TMd",
+ "experiment_id": 72077479,
+ "image_id": 71900261,
+ "section_number": 221,
+ "x": 4698.716590596818,
+ "y": 6346.480143821234,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  924,
+  1336,
+  1424,
+  1836
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72077479",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72077479&imageId=71900261"
+}

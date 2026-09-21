@@ -1,0 +1,18 @@
+{
+ "gene": "Kctd8",
+ "region": "MH",
+ "experiment_id": 71670722,
+ "image_id": 71518440,
+ "section_number": 260,
+ "x": 5435.96589022504,
+ "y": 2947.071515413843,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1108,
+  486,
+  1608,
+  986
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71670722",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71670722&imageId=71518440"
+}

@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Chrna1: fine CCF profile is region-biased toward CA2sp (top regions: CA2sp, CA3sp, CA3so, CA3slu, ENTm3); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in CA2sp: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Chrna1 encodes the alpha1 subunit of the muscle-type nicotinic acetylcholine receptor, a pentameric ligand-gated cation channel that mediates fast depolarisation at the neuromuscular junction. The alpha1 subunit carries the principal ACh-binding face and the alpha-bungarotoxin site; its mutation causes congenital myasthenic syndromes and it is the main autoantigen in myasthenia gravis. It is not normally regarded as a CNS receptor subunit.</dd>
+<dt>Region function</dt><dd>Hippocampal CA2 is a small pyramidal subfield between CA3 and CA1 that receives dense entorhinal layer II and septal/supramammillary input and is required for social recognition memory and for pacing sharp-wave ripples.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-none">none</span> No region-specific literature found. The closest evidence is anatomical and weak: Allen coronal ISH (experiment 75551465) shows high but spatially near-uniform Chrna1 signal across CA2, CA1, CA3 and ARH (energy 6-9), a pattern typical of probe background, while the sagittal experiment 100146096 shows essentially nothing (0.03-0.09); the CA2 proteome of Gerber et al. 2019 does not report alpha1 protein.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: genuine alpha1 protein in CA2 is unlikely, so the first experiment should be validation (RNAscope plus alpha-bungarotoxin binding with alpha7-knockout controls) rather than manipulation. If confirmed, the plausible role is a non-canonical nicotinic conductance, or an assembly/chaperone contribution to heteromeric receptors on CA2 pyramidal cells, which receive strong septal cholinergic input. Conditional deletion would then reduce a bungarotoxin-sensitive, alpha7-independent current and slightly blunt cholinergic facilitation of CA2 firing.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9734;&#9734; 3/5</span> Nobody has studied Chrna1 in hippocampus, but the atlas signal looks like background, so novelty is high and so is the risk of nothing being there.</dd>
+<dt>Tools</dt><dd>Alpha-bungarotoxin and muscle-nAChR antibodies (both cross-react with alpha7, so alpha7-knockout controls are required); Chrna1 mutant alleles from congenital-myasthenia models; Amigo2-Cre for CA2-restricted manipulation. No CNS-specific driver or selective ligand known.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/24164482/" target="_blank" rel="noopener">Arias HR et al. 2013, Biochemistry</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/33476802/" target="_blank" rel="noopener">Lin JB et al. 2021, Molecular and Cellular Neuroscience</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/31059263/" target="_blank" rel="noopener">Gerber KJ et al. 2019, Journal of Proteome Research</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/27113915/" target="_blank" rel="noopener">Cembrowski MS et al. 2016, eLife</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Chrna1/ccf_75486689.jpg" alt="Chrna1 Allen ISH at the CCF centroid of CA2sp">
+<p class="cap">Allen ISH experiment 75551465, section image 75486689 (section 240): the section that contains the CCF centroid of Field CA2, pyramidal layer according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=75551465&imageId=75486689" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Chrna1&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Chrna1</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=446" target="_blank" rel="noopener">Allen reference atlas: CA2sp (structure 446)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Chrna1" or by parcellation_substructure "CA2sp")</span><a href="../explore.html?region=CA2sp" target="_blank" rel="noopener">All genes confined to CA2sp + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/CA2sp_merfish_locator.png" alt="CA2sp MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the CA2sp (Field CA2, pyramidal layer) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

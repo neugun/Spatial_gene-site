@@ -1,0 +1,18 @@
+{
+ "gene": "Rln1",
+ "region": "DR",
+ "experiment_id": 71020890,
+ "image_id": 70693048,
+ "section_number": 156,
+ "x": 10152.310323356443,
+ "y": 3797.7027199454624,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2288,
+  699,
+  2788,
+  1199
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71020890",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71020890&imageId=70693048"
+}

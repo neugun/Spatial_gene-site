@@ -1,0 +1,18 @@
+{
+ "gene": "Trpm8",
+ "region": "AD",
+ "experiment_id": 69863284,
+ "image_id": 69884646,
+ "section_number": 145,
+ "x": 6399.561503822371,
+ "y": 3740.6058747075676,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1349,
+  685,
+  1849,
+  1185
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69863284",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863284&imageId=69884646"
+}

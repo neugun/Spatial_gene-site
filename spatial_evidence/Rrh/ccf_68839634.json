@@ -1,0 +1,18 @@
+{
+ "gene": "Rrh",
+ "region": "OV",
+ "experiment_id": 69012674,
+ "image_id": 68839634,
+ "section_number": 142,
+ "x": 5871.776678279482,
+ "y": 5831.090516984129,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1217,
+  1207,
+  1717,
+  1672
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69012674",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69012674&imageId=68839634"
+}

@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Nppb: predicted fine-region profile is strict-exclusive, with 1 positive regions out of 554 (limit 12); direct spatial validation is required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in DMX: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Nppb encodes B-type (brain) natriuretic peptide, a secreted peptide hormone of the natriuretic peptide family released mainly by cardiac myocytes under wall stress. BNP binds the receptor guanylyl cyclase NPR-A (Npr1), raising cGMP and PKG signalling to promote natriuresis, vasodilation and reduced sympathetic drive; it is cleared by NPR-C. In the nervous system BNP acts as a neuropeptide transmitter, most famously in the spinal itch pathway.</dd>
+<dt>Region function</dt><dd>The dorsal motor nucleus of the vagus supplies the cholinergic preganglionic parasympathetic outflow to the gut, pancreas and heart, controlling gastric motility and secretion, insulin release and vagal tone.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-expression_only">expression only</span> Tao et al. 2021 (Neuron) profiled DMV motor neurons by single-cell RNA-seq and defined seven subtypes, one of which is marked by Nppb, with subtype-specific Cre drivers used to show labelled-line brain-to-gut control of the glandular stomach. Hornung et al. 2024 (iScience) mapped cardiac-projecting DMV neurons and explicitly aligned their transcriptomic subtype 2 to the &#x27;Nppb and Trpv1 neurons from Tao et al.&#x27; No study has manipulated Nppb itself in the DMV.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: BNP is a co-transmitter released alongside acetylcholine by one labelled-line class of vagal preganglionic neurons, acting on NPR-A/cGMP in enteric or cardiac ganglion targets to slow and smooth cholinergic drive. Conditional Nppb deletion from DMV neurons should leave gross vagal tone intact but alter gastric secretion/accommodation or heart-rate variability; chemogenetic activation of Nppb+ DMV neurons should produce a selective visceral output distinct from Cck+ or Pdyn+ DMV lines, and NPR-A blockade in the target organ should occlude it.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9734; 4/5</span> Nppb is established as a DMV subtype marker but its peptide function in vagal output has never been tested.</dd>
+<dt>Tools</dt><dd>Nppb-Cre and Nppb knockout mice (used in the itch field); Chat-Cre and Phox2b drivers for vagal motor neurons; Npr1 (NPR-A) knockout and the antagonist A-71915; anti-proBNP antibodies and BNP RIA/ELISA; Allen mouse ISH dataset 69174475.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/34077742/" target="_blank" rel="noopener">Tao J et al. 2021, Neuron</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/39171288/" target="_blank" rel="noopener">Hornung E et al. 2024, iScience</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Nppb/ccf_69072790.jpg" alt="Nppb Allen ISH at the CCF centroid of DMX">
+<p class="cap">Allen ISH experiment 69174475, section image 69072790 (section 140): the section that contains the CCF centroid of Dorsal motor nucleus of the vagus nerve according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=69174475&imageId=69072790" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Nppb&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Nppb</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=839" target="_blank" rel="noopener">Allen reference atlas: DMX (structure 839)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Nppb" or by parcellation_substructure "DMX")</span><a href="../explore.html?region=DMX" target="_blank" rel="noopener">All genes confined to DMX + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/DMX_merfish_locator.png" alt="DMX MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the DMX (Dorsal motor nucleus of the vagus nerve) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

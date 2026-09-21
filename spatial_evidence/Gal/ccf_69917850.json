@@ -1,0 +1,18 @@
+{
+ "gene": "Gal",
+ "region": "PD",
+ "experiment_id": 70231997,
+ "image_id": 69917850,
+ "section_number": 306,
+ "x": 4779.145370770682,
+ "y": 4974.820130671229,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  944,
+  993,
+  1444,
+  1493
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70231997",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70231997&imageId=69917850"
+}

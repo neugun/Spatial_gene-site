@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spatial_gene - region explorer and 3-D brain</title>
+<style>
+:root{--ink:#14213d;--muted:#64748b;--line:#dbe4ee;--blue:#2563eb;--teal:#0f766e;--amber:#b45309;--grey:#475569}
+*{box-sizing:border-box}
+body{margin:0;background:#f8fafc;color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+header{padding:18px 28px 6px}
+header h1{margin:0 0 4px;font-size:24px}
+header p{margin:0;color:var(--muted);max-width:1100px}
+nav a{margin-right:16px}
+.wrap{display:grid;grid-template-columns:minmax(380px,520px) 1fr;gap:18px;padding:12px 28px 28px}
+@media (max-width:1000px){.wrap{grid-template-columns:1fr}}
+.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+input[type=search]{width:100%;font:16px Inter,system-ui,sans-serif;padding:9px 12px;border:1px solid var(--line);border-radius:8px}
+.hint{color:var(--muted);font-size:13px;margin:6px 0 0}
+#canvas-wrap{position:relative;height:640px;border-radius:10px;overflow:hidden;background:#0b1220}
+#canvas-wrap canvas{display:block}
+#legend{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.92);border-radius:8px;padding:8px 10px;font-size:12px;color:#111}
+#legend .bar{height:10px;width:160px;background:linear-gradient(90deg,#fde68a,#f97316,#b91c1c);border-radius:3px;margin:4px 0}
+#hover{position:absolute;right:12px;top:12px;background:rgba(255,255,255,.92);border-radius:8px;padding:6px 10px;font-size:13px;color:#111;min-width:120px}
+#controls{position:absolute;left:12px;top:12px;background:rgba(255,255,255,.92);border-radius:8px;padding:8px 10px;font-size:13px;color:#111}
+#controls label{display:block;margin:2px 0}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+.stat{border:1px solid var(--line);border-radius:8px;padding:6px 10px;min-width:96px;background:#fff}
+.stat b{display:block;font-size:20px;color:var(--blue)}
+.stat span{font-size:12px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:#fff;color:var(--muted);font-weight:600;font-size:12px;letter-spacing:.02em;cursor:pointer;user-select:none}
+.tier{display:inline-block;padding:1px 6px;border-radius:5px;color:#fff;font-size:11px;font-weight:600}
+.t-STRICT_EXCLUSIVE{background:var(--teal)}.t-RESTRICTED{background:var(--blue)}.t-REGION_BIASED{background:var(--grey)}
+.tbl-wrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.links a{margin-right:12px;font-size:13px}
+.muted{color:var(--muted)}
+.chip{display:inline-block;background:#eef2ff;border-radius:6px;padding:1px 6px;font-size:11px;color:#3730a3;margin-left:4px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Which genes are confined to a brain region?</h1>
+  <p>Type a region (Allen CCF acronym or name). The table lists every gene whose predicted expression across the 554 fine
+     CCF regions peaks in that region and that passed the screen (7,104 of 30,954 genes), with its spatial tier and scores.
+     The brain shows the same information for all regions at once: colour = number of STRICT_EXCLUSIVE genes whose top
+     region it is; click a region to select it. Regional values are imputed from Allen cell-type expression, not directly
+     measured - open the gene card for the direct Allen ISH evidence.</p>
+  <nav><a href="index.html">Home</a><a href="gene_role_evidence_report.html">Shortlist report (286 genes)</a><a href="screening_report.html">Screening report</a><a href="https://github.com/neugun/Spatial_gene">Code (private)</a></nav>
+</header>
+<div class="wrap">
+  <div>
+    <div class="panel">
+      <input id="q" type="search" list="regions" placeholder="e.g. MH, medial habenula, VTA, arcuate ..." autocomplete="off">
+      <datalist id="regions"></datalist>
+      <p class="hint">554 regions; 228 have at least one passing gene, 150 have at least one STRICT_EXCLUSIVE gene. Regions without cells in the MERFISH reference are not in the list.</p>
+      <div id="region-head"></div>
+      <div class="stats" id="stats"></div>
+      <div class="links" id="links"></div>
+    </div>
+    <div class="panel" style="margin-top:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+        <b id="tbl-title">Genes</b>
+        <span class="muted" style="font-size:12px">tier filter:
+          <label><input type="checkbox" class="tf" value="STRICT_EXCLUSIVE" checked> strict-exclusive</label>
+          <label><input type="checkbox" class="tf" value="RESTRICTED" checked> restricted</label>
+          <label><input type="checkbox" class="tf" value="REGION_BIASED"> region-biased</label>
+          <label style="margin-left:10px"><input type="checkbox" id="hideUnnamed" checked> hide unannotated genes (Gm..., ...Rik, clone IDs)</label></span>
+      </div>
+      <div class="tbl-wrap"><table id="tbl"><thead><tr>
+        <th data-k="g">gene</th><th data-k="tier">tier</th><th data-k="cls">class</th><th data-k="frac" title="fraction of the gene's total regional expression in this region">top-region fraction</th>
+        <th data-k="npos" title="number of regions called positive">positive regions</th><th data-k="ent" title="normalised entropy across 554 regions; 0 = one region">entropy</th>
+        <th data-k="disc">discovery</th><th data-k="targ">targetability</th><th>links</th></tr></thead><tbody></tbody></table></div>
+      <p class="hint">Sorted by discovery score. Up to 60 genes per region are stored in <code>region_genes.json</code>; the full ranking for all genes is in <code>strict_exclusive_candidates.csv</code> and the workstation table <code>ranked_single_genes.csv</code>.</p>
+    </div>
+  </div>
+  <div>
+    <div id="canvas-wrap">
+      <div id="controls">
+        <label><input type="checkbox" id="showAll" checked> show all regions with strict-exclusive genes</label>
+        <label>region opacity <input type="range" id="op" min="0.1" max="1" step="0.05" value="0.4" style="width:110px"></label>
+        <label><input type="checkbox" id="showRoot" checked> brain surface</label>
+        <span class="muted">drag to rotate, wheel to zoom, right-drag to pan</span>
+      </div>
+      <div id="hover">hover a region</div>
+      <div id="legend">STRICT_EXCLUSIVE genes with this top region<div class="bar"></div><span>1</span><span style="float:right" id="legmax"></span></div>
+    </div>
+    <p class="hint">Meshes: Allen CCFv3 via brainglobe-atlasapi (allen_mouse_25um). Hippocampal and olfactory-bulb layers use the parent structure mesh. Coordinates are CCF micrometres; anterior is to the left.</p>
+  </div>
+</div>
+
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const DATA = await (await fetch('region_genes.json')).json();
+const MESHIDX = await (await fetch('meshes/index.json')).json();
+const R = DATA.regions;
+const acronyms = Object.keys(R).sort();
+const dl = document.getElementById('regions');
+for (const a of acronyms) { const o = document.createElement('option'); o.value = a; o.label = `${a} - ${R[a].name} (${R[a].n_strict} strict)`; dl.appendChild(o); }
+const byName = {}; for (const a of acronyms) byName[R[a].name.toLowerCase()] = a;
+
+// ---------- table ----------
+let current = null, sortKey = 'disc', sortDir = -1;
+function tiers() { return [...document.querySelectorAll('.tf:checked')].map(c => c.value); }
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function allenGene(g) { return `https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=${encodeURIComponent(g)}&search_type=gene`; }
+function render(a) {
+  current = a; const r = R[a];
+  document.getElementById('region-head').innerHTML = `<h2 style="margin:12px 0 2px">${esc(a)} <span class="muted" style="font-weight:400">${esc(r.name)}</span></h2><div class="muted">division ${esc(r.division)} - ${r.cell_count.toLocaleString()} MERFISH cells - CCF centroid AP ${r.xyz_mm[0]} / DV ${r.xyz_mm[1]} / ML ${r.xyz_mm[2]} mm</div>`;
+  document.getElementById('stats').innerHTML = [['STRICT_EXCLUSIVE', r.n_strict], ['RESTRICTED', r.n_restricted], ['REGION_BIASED', r.n_biased]].map(([t, n]) => `<div class="stat"><b>${n}</b><span>${t.toLowerCase().replace('_', '-')} genes</span></div>`).join('');
+  document.getElementById('links').innerHTML = `<a target="_blank" rel="noopener" href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=${r.allen_id}">Allen reference atlas (structure ${r.allen_id})</a>` +
+    `<a target="_blank" rel="noopener" href="https://knowledge.brain-map.org/abcatlas">ABC Atlas MERFISH viewer</a>` +
+    `<a target="_blank" rel="noopener" href="https://knowledge.brain-map.org/data/LEMYOV0J3GNZ0R5V4HR/summary">MERFISH-C57BL6J-638850 dataset</a>` +
+    `<span class="chip">in the ABC Atlas: choose MERFISH-C57BL6J-638850-CCF, colour by "parcellation_substructure", filter ${esc(a)}</span>`;
+  drawTable(); highlight(a);
+}
+function drawTable() {
+  if (!current) return; const r = R[current]; const tf = tiers();
+  const unnamed = g => /^(Gm\d|[A-Z]\d{4,}|\d{4,}[A-Z]\d|.*Rik$|LOC\d)/.test(g.g);
+  let rows = r.genes.filter(g => tf.includes(g.tier) && !(document.getElementById('hideUnnamed').checked && unnamed(g)));
+  rows.sort((x, y) => (typeof x[sortKey] === 'number' ? (x[sortKey] - y[sortKey]) : String(x[sortKey]).localeCompare(String(y[sortKey]))) * sortDir);
+  document.getElementById('tbl-title').textContent = `${rows.length} genes with top region ${current}`;
+  document.querySelector('#tbl tbody').innerHTML = rows.map(g => `<tr>
+    <td><b>${esc(g.g)}</b>${g.short ? '<span class="chip" title="in the 286-gene shortlist with a card">shortlist</span>' : ''}<div class="muted" style="font-size:11px">${esc(g.sub)}</div></td>
+    <td><span class="tier t-${g.tier}">${g.tier.replace('_', ' ')}</span></td><td>${esc(g.cls)}</td>
+    <td>${g.frac}</td><td>${g.npos}</td><td>${g.ent}</td><td>${g.disc}</td><td>${g.targ}</td>
+    <td>${g.short ? `<a href="candidate_cards/${encodeURIComponent(g.g)}.html" target="_blank" rel="noopener">card</a> ` : ''}<a href="${allenGene(g.g)}" target="_blank" rel="noopener">Allen ISH</a></td></tr>`).join('');
+}
+document.querySelectorAll('#tbl th[data-k]').forEach(th => th.addEventListener('click', () => { const k = th.dataset.k; if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = (k === 'g' || k === 'tier' || k === 'cls') ? 1 : -1; } drawTable(); }));
+document.querySelectorAll('.tf, #hideUnnamed').forEach(c => c.addEventListener('change', drawTable));
+const q = document.getElementById('q');
+function pick() { const v = q.value.trim(); if (!v) return; const a = R[v] ? v : (R[v.toUpperCase()] ? v.toUpperCase() : byName[v.toLowerCase()]); if (a) render(a); }
+q.addEventListener('change', pick); q.addEventListener('keydown', e => { if (e.key === 'Enter') pick(); });
+
+// ---------- 3-D ----------
+const wrap = document.getElementById('canvas-wrap');
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false }); renderer.setPixelRatio(devicePixelRatio); renderer.setSize(wrap.clientWidth, wrap.clientHeight); wrap.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0x0b1220);
+const camera = new THREE.PerspectiveCamera(35, wrap.clientWidth / wrap.clientHeight, 10, 100000);
+const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x334155, 1.1)); const dir = new THREE.DirectionalLight(0xffffff, 0.8); dir.position.set(1, 2, 3); scene.add(dir);
+const CENTER = new THREE.Vector3(6600, 4000, 5700);
+function toScene(arr) { // CCF um (x=AP, y=DV, z=ML) -> scene: X = ML (left-right), Y = -DV (up), Z = -AP (anterior toward viewer-left after rotation)
+  const out = new Float32Array(arr.length);
+  for (let i = 0; i < arr.length; i += 3) { out[i] = arr[i + 2] - CENTER.z; out[i + 1] = -(arr[i + 1] - CENTER.y); out[i + 2] = arr[i] - CENTER.x; }
+  return out;
+}
+function geom(m) { const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(toScene(m.v), 3)); g.setIndex(m.f); g.computeVertexNormals(); return g; }
+const meshes = {}; let root = null;
+const maxStrict = Math.max(...acronyms.map(a => R[a].n_strict)); document.getElementById('legmax').textContent = maxStrict;
+function colorFor(n) { const t = Math.log1p(n) / Math.log1p(maxStrict); const c1 = new THREE.Color(0xfde68a), c2 = new THREE.Color(0xf97316), c3 = new THREE.Color(0xb91c1c); return t < 0.5 ? c1.clone().lerp(c2, t * 2) : c2.clone().lerp(c3, (t - 0.5) * 2); }
+async function loadMesh(a) {
+  if (meshes[a]) return meshes[a]; const e = MESHIDX.regions[a]; if (!e) return null;
+  const m = await (await fetch('meshes/' + e.file)).json();
+  const mat = new THREE.MeshStandardMaterial({ color: colorFor(R[a].n_strict), transparent: true, opacity: +document.getElementById('op').value, roughness: .6, metalness: .05, side: THREE.DoubleSide });
+  const mesh = new THREE.Mesh(geom(m), mat); mesh.userData.acronym = a; scene.add(mesh); meshes[a] = mesh; return mesh;
+}
+(async () => {
+  const rm = await (await fetch('meshes/root.json')).json();
+  root = new THREE.Mesh(geom(rm), new THREE.MeshStandardMaterial({ color: 0xcbd5e1, transparent: true, opacity: 0.16, roughness: .9, depthWrite: false, side: THREE.DoubleSide }));
+  scene.add(root);
+  camera.position.set(11000, 8500, -12500); controls.target.set(0, 0, 0); controls.update();
+  const strict = acronyms.filter(a => R[a].n_strict > 0 && MESHIDX.regions[a]);
+  for (const a of strict) await loadMesh(a);
+  const first = new URLSearchParams(location.search).get('region'); if (first && R[first]) { q.value = first; render(first); }
+})();
+document.getElementById('op').addEventListener('input', e => { for (const m of Object.values(meshes)) m.material.opacity = +e.target.value; });
+document.getElementById('showRoot').addEventListener('change', e => { if (root) root.visible = e.target.checked; });
+document.getElementById('showAll').addEventListener('change', e => { for (const [a, m] of Object.entries(meshes)) m.visible = e.target.checked || a === current; });
+function highlight(a) {
+  for (const [k, m] of Object.entries(meshes)) { m.material.emissive = new THREE.Color(k === a ? 0x22d3ee : 0x000000); m.material.emissiveIntensity = k === a ? 0.9 : 0; m.visible = document.getElementById('showAll').checked || k === a; }
+  if (!meshes[a]) loadMesh(a).then(m => { if (m) { m.material.emissive = new THREE.Color(0x22d3ee); m.material.emissiveIntensity = 0.9; m.visible = true; } });
+}
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(); let hovered = null;
+renderer.domElement.addEventListener('pointermove', e => { const b = renderer.domElement.getBoundingClientRect(); mouse.x = ((e.clientX - b.left) / b.width) * 2 - 1; mouse.y = -((e.clientY - b.top) / b.height) * 2 + 1; });
+renderer.domElement.addEventListener('click', () => { if (hovered) { q.value = hovered; render(hovered); } });
+function tick() {
+  controls.update(); ray.setFromCamera(mouse, camera);
+  const hits = ray.intersectObjects(Object.values(meshes).filter(m => m.visible), false);
+  hovered = hits.length ? hits[0].object.userData.acronym : null;
+  document.getElementById('hover').innerHTML = hovered ? `<b>${esc(hovered)}</b> ${esc(R[hovered].name)}<br>${R[hovered].n_strict} strict-exclusive, ${R[hovered].n_restricted} restricted` : 'hover a region';
+  renderer.render(scene, camera); requestAnimationFrame(tick);
+}
+tick();
+window.addEventListener('resize', () => { renderer.setSize(wrap.clientWidth, wrap.clientHeight); camera.aspect = wrap.clientWidth / wrap.clientHeight; camera.updateProjectionMatrix(); });
+</script>
+</body>
+</html>

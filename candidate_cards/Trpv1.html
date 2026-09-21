@@ -16,6 +16,48 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Trpv1: fine CCF profile is restricted toward SUM (top regions: SUM, IF, IPDM, PN, CLI; 17 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in SUM: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Trpv1 encodes TRPV1, a heat- and capsaicin-gated non-selective cation channel of the TRP vanilloid family that is also opened by protons, endovanilloids and inflammatory mediators. It is the canonical nociceptor heat sensor in dorsal root and trigeminal neurons, where calcium entry drives depolarisation, neuropeptide release and sensitisation.</dd>
+<dt>Region function</dt><dd>The supramammillary nucleus is a small posterior hypothalamic cell group projecting heavily to medial septum, dentate gyrus and CA2; it signals novelty and arousal and sets hippocampal theta rhythm and wakefulness.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found, and the negative evidence matters: Cavanaugh 2011 built Trpv1 reporter mice and showed that brain Trpv1 expression is far more restricted than earlier antibody and PCR studies had claimed, being confined to a few nuclei and to arteriolar smooth muscle, with no functional TRPV1 across most of the forebrain. The nearest positive finding is a TRPV1-like conductance recorded in adjacent midline thalamic neurons (Hermes 2013); the supramammillary nucleus itself is established as a novelty and arousal node (Chen 2020; Pedersen 2017).</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: the most testable version is that a small number of supramammillary glutamatergic neurons, or the arterioles supplying them, express TRPV1 and make this arousal node sensitive to brain temperature and endovanilloids. If so, local capsaicin should increase supramammillary firing and produce cortical arousal and hippocampal theta, and resiniferatoxin ablation or Trpv1 deletion should blunt hyperthermia-evoked wakefulness. Given the reporter-mouse evidence, however, the leading prediction is that careful validation will find vascular rather than neuronal TRPV1 here.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9734;&#9734; 3/5</span> TRPV1 is exhaustively studied but its central expression is contested, so a validated supramammillary population would be notable while remaining a real possibility of artefact.</dd>
+<dt>Tools</dt><dd>Trpv1-Cre (JAX 017769), Trpv1 knockout (JAX 003770) and Trpv1-PLAP-nLacZ reporter mice; capsaicin and resiniferatoxin as agonists and ablation tools; antagonists capsazepine, BCTC and AMG-517; anti-TRPV1 antibodies, many poorly validated; Vglut2-IRES-Cre for the supramammillary population.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/21451044/" target="_blank" rel="noopener">Cavanaugh DJ et al. 2011, J Neurosci</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/23359674/" target="_blank" rel="noopener">Hermes ML et al. 2013, J Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/32999460/" target="_blank" rel="noopener">Chen S et al. 2020, Nature</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/29123082/" target="_blank" rel="noopener">Pedersen NP et al. 2017, Nat Commun</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Trpv1/ccf_69884697.jpg" alt="Trpv1 Allen ISH at the CCF centroid of SUM">
+<p class="cap">Allen ISH experiment 69863294, section image 69884697 (section 146): the section that contains the CCF centroid of Supramammillary nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=69863294&imageId=69884697" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+<img src="../spatial_evidence/Trpv1/ccf_80304042.jpg" alt="Trpv1 Allen ISH at the CCF centroid of SUM">
+<p class="cap">Allen ISH experiment 80342023, section image 80304042 (section 146): the section that contains the CCF centroid of Supramammillary nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=80342023&imageId=80304042" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Trpv1&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Trpv1</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=525" target="_blank" rel="noopener">Allen reference atlas: SUM (structure 525)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Trpv1" or by parcellation_substructure "SUM")</span><a href="../explore.html?region=SUM" target="_blank" rel="noopener">All genes confined to SUM + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SUM_merfish_locator.png" alt="SUM MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SUM (Supramammillary nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

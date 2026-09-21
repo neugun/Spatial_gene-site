@@ -1,0 +1,18 @@
+{
+ "gene": "Chrna5",
+ "region": "IPR",
+ "experiment_id": 75826567,
+ "image_id": 75708081,
+ "section_number": 214,
+ "x": 5252.637117795084,
+ "y": 4836.418692085238,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1063,
+  959,
+  1563,
+  1459
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75826567",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75826567&imageId=75708081"
+}

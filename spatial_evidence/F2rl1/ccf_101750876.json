@@ -1,0 +1,18 @@
+{
+ "gene": "F2rl1",
+ "region": "SCO",
+ "experiment_id": 199391,
+ "image_id": 101750876,
+ "section_number": 227,
+ "x": 5230.4395069390675,
+ "y": 2675.9656196280503,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1057,
+  418,
+  1557,
+  918
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/199391",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=199391&imageId=101750876"
+}

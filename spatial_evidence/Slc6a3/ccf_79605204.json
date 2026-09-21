@@ -1,0 +1,18 @@
+{
+ "gene": "Slc6a3",
+ "region": "VTA",
+ "experiment_id": 79591365,
+ "image_id": 79605204,
+ "section_number": 213,
+ "x": 5349.265587019381,
+ "y": 4648.580416982147,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1087,
+  912,
+  1587,
+  1412
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79591365",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591365&imageId=79605204"
+}

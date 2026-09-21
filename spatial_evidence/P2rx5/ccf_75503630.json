@@ -1,0 +1,18 @@
+{
+ "gene": "P2rx5",
+ "region": "V",
+ "experiment_id": 75551475,
+ "image_id": 75503630,
+ "section_number": 146,
+ "x": 4564.404897374972,
+ "y": 4175.782335959876,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  891,
+  793,
+  1391,
+  1293
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75551475",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551475&imageId=75503630"
+}

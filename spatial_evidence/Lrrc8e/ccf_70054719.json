@@ -1,0 +1,18 @@
+{
+ "gene": "Lrrc8e",
+ "region": "MH",
+ "experiment_id": 70201612,
+ "image_id": 70054719,
+ "section_number": 156,
+ "x": 7799.460840275532,
+ "y": 2938.9666826285907,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1699,
+  484,
+  2199,
+  984
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70201612",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70201612&imageId=70054719"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Kcna10",
+ "region": "VMH",
+ "experiment_id": 69257993,
+ "image_id": 69150783,
+ "section_number": 156,
+ "x": 7280.337668515381,
+ "y": 6498.29452886007,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1570,
+  1374,
+  2070,
+  1836
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257993",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257993&imageId=69150783"
+}

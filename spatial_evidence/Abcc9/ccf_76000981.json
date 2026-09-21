@@ -1,0 +1,18 @@
+{
+ "gene": "Abcc9",
+ "region": "AP",
+ "experiment_id": 76003609,
+ "image_id": 76000981,
+ "section_number": 153,
+ "x": 12828.073947228437,
+ "y": 4333.698587692115,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2957,
+  833,
+  3457,
+  1333
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/76003609",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=76003609&imageId=76000981"
+}

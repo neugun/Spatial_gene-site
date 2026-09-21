@@ -1,0 +1,18 @@
+{
+ "gene": "Tmc5",
+ "region": "ARH",
+ "experiment_id": 69981067,
+ "image_id": 69892022,
+ "section_number": 152,
+ "x": 7565.934179670737,
+ "y": 7458.328352248327,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1641,
+  1614,
+  2141,
+  2032
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69981067",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69981067&imageId=69892022"
+}

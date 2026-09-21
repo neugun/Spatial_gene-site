@@ -1,0 +1,18 @@
+{
+ "gene": "Grpr",
+ "region": "SCH",
+ "experiment_id": 81600602,
+ "image_id": 81596877,
+ "section_number": 136,
+ "x": 6566.352666675667,
+ "y": 8306.041604488746,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1391,
+  1826,
+  1891,
+  2326
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/81600602",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=81600602&imageId=81596877"
+}

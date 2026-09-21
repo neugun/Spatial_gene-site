@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnk15",
+ "region": "SOCl",
+ "experiment_id": 70724864,
+ "image_id": 70442929,
+ "section_number": 150,
+ "x": 9859.05771611932,
+ "y": 5723.225775736975,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2214,
+  1180,
+  2714,
+  1676
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70724864",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70724864&imageId=70442929"
+}

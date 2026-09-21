@@ -1,0 +1,18 @@
+{
+ "gene": "Kcna3",
+ "region": "PBG",
+ "experiment_id": 70723477,
+ "image_id": 70661839,
+ "section_number": 150,
+ "x": 8928.773940056613,
+ "y": 2904.6303058281255,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1982,
+  476,
+  2482,
+  976
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70723477",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723477&imageId=70661839"
+}

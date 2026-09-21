@@ -1,0 +1,18 @@
+{
+ "gene": "Celsr1",
+ "region": "SCO",
+ "experiment_id": 71307238,
+ "image_id": 71163592,
+ "section_number": 148,
+ "x": 8126.176407293045,
+ "y": 2935.4384417045185,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1781,
+  483,
+  2281,
+  983
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71307238",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71307238&imageId=71163592"
+}

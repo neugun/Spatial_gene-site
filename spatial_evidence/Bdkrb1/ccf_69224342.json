@@ -1,0 +1,18 @@
+{
+ "gene": "Bdkrb1",
+ "region": "PVpo",
+ "experiment_id": 69236867,
+ "image_id": 69224342,
+ "section_number": 133,
+ "x": 6696.549084881493,
+ "y": 6328.159308371805,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1424,
+  1332,
+  1924,
+  1832
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69236867",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236867&imageId=69224342"
+}

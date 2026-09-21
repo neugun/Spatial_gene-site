@@ -1,0 +1,18 @@
+{
+ "gene": "Ucn",
+ "region": "RL",
+ "experiment_id": 1435,
+ "image_id": 101316996,
+ "section_number": 175,
+ "x": 3619.091483578765,
+ "y": 2995.4128315420776,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  654,
+  498,
+  1154,
+  998
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1435",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1435&imageId=101316996"
+}

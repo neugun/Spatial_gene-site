@@ -1,0 +1,18 @@
+{
+ "gene": "Cnga4",
+ "region": "PT",
+ "experiment_id": 76081091,
+ "image_id": 76039843,
+ "section_number": 145,
+ "x": 6857.53291341366,
+ "y": 4003.9011968497944,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1464,
+  750,
+  1964,
+  1250
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/76081091",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=76081091&imageId=76039843"
+}

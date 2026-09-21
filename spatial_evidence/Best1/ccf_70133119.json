@@ -1,0 +1,18 @@
+{
+ "gene": "Best1",
+ "region": "MEPO",
+ "experiment_id": 70302992,
+ "image_id": 70133119,
+ "section_number": 150,
+ "x": 5388.950212120457,
+ "y": 4632.336224908511,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1097,
+  908,
+  1597,
+  1408
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70302992",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70302992&imageId=70133119"
+}

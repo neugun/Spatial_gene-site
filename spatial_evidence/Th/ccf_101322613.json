@@ -1,0 +1,18 @@
+{
+ "gene": "Th",
+ "region": "VTA",
+ "experiment_id": 1056,
+ "image_id": 101322613,
+ "section_number": 175,
+ "x": 3283.256661063411,
+ "y": 3939.1116564110653,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  570,
+  734,
+  1070,
+  1234
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1056",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1056&imageId=101322613"
+}

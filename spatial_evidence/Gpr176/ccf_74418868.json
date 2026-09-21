@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr176",
+ "region": "SCH",
+ "experiment_id": 74511881,
+ "image_id": 74418868,
+ "section_number": 305,
+ "x": 4936.646969412338,
+ "y": 6386.425781000385,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  984,
+  1346,
+  1484,
+  1846
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74511881",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511881&imageId=74418868"
+}

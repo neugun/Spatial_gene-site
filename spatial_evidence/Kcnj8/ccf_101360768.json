@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnj8",
+ "region": "LIN",
+ "experiment_id": 2343,
+ "image_id": 101360768,
+ "section_number": 44,
+ "x": 2746.684754469943,
+ "y": 3639.240240331984,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  436,
+  659,
+  936,
+  1062
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/2343",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=2343&imageId=101360768"
+}

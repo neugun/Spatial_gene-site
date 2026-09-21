@@ -1,0 +1,18 @@
+{
+ "gene": "Uts2r",
+ "region": "B",
+ "experiment_id": 69288471,
+ "image_id": 69243292,
+ "section_number": 148,
+ "x": 10978.80513696628,
+ "y": 4037.8543762934864,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2494,
+  759,
+  2994,
+  1259
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69288471",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69288471&imageId=69243292"
+}

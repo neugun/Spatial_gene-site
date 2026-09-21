@@ -1,0 +1,18 @@
+{
+ "gene": "Cacnb3",
+ "region": "MH",
+ "experiment_id": 70560340,
+ "image_id": 70369023,
+ "section_number": 262,
+ "x": 5112.459635884104,
+ "y": 2928.026267665762,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1028,
+  482,
+  1528,
+  982
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70560340",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560340&imageId=70369023"
+}

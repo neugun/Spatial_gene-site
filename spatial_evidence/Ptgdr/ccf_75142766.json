@@ -1,0 +1,18 @@
+{
+ "gene": "Ptgdr",
+ "region": "AP",
+ "experiment_id": 75233665,
+ "image_id": 75142766,
+ "section_number": 138,
+ "x": 13123.763630446618,
+ "y": 4734.915247780515,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  3030,
+  933,
+  3530,
+  1433
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75233665",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75233665&imageId=75142766"
+}

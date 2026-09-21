@@ -1,0 +1,18 @@
+{
+ "gene": "Kcng2",
+ "region": "DG-po",
+ "experiment_id": 74431065,
+ "image_id": 74346364,
+ "section_number": 152,
+ "x": 8885.772832156956,
+ "y": 3438.195444966037,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1971,
+  609,
+  2471,
+  1109
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74431065",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74431065&imageId=74346364"
+}

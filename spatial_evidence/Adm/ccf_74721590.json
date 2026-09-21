@@ -1,0 +1,18 @@
+{
+ "gene": "Adm",
+ "region": "ME",
+ "experiment_id": 74819251,
+ "image_id": 74721590,
+ "section_number": 266,
+ "x": 4964.206975830732,
+ "y": 6661.6536858388845,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  991,
+  1415,
+  1491,
+  1912
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74819251",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74819251&imageId=74721590"
+}

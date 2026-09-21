@@ -1,0 +1,18 @@
+{
+ "gene": "Gabbr1",
+ "region": "MH",
+ "experiment_id": 68862120,
+ "image_id": 68316722,
+ "section_number": 152,
+ "x": 7615.432289062964,
+ "y": 2781.676299910263,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1653,
+  445,
+  2153,
+  945
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/68862120",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=68862120&imageId=68316722"
+}

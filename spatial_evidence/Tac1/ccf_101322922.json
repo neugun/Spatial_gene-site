@@ -1,0 +1,18 @@
+{
+ "gene": "Tac1",
+ "region": "OT",
+ "experiment_id": 1038,
+ "image_id": 101322922,
+ "section_number": 299,
+ "x": 2700.398759956477,
+ "y": 3567.908261672039,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  425,
+  641,
+  925,
+  1014
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1038",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1038&imageId=101322922"
+}

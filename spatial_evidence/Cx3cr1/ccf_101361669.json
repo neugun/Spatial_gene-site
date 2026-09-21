@@ -1,0 +1,18 @@
+{
+ "gene": "Cx3cr1",
+ "region": "SCO",
+ "experiment_id": 1605,
+ "image_id": 101361669,
+ "section_number": 198,
+ "x": 3439.1758104305213,
+ "y": 2032.3945843898434,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  609,
+  258,
+  1109,
+  758
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1605",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1605&imageId=101361669"
+}

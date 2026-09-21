@@ -1,0 +1,18 @@
+{
+ "gene": "Lhcgr",
+ "region": "IMD",
+ "experiment_id": 72283794,
+ "image_id": 72070930,
+ "section_number": 262,
+ "x": 5320.934013141241,
+ "y": 4055.080269830067,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1080,
+  763,
+  1580,
+  1263
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72283794",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72283794&imageId=72070930"
+}

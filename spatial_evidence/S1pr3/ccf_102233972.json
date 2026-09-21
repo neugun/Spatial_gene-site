@@ -1,0 +1,18 @@
+{
+ "gene": "S1pr3",
+ "region": "OV",
+ "experiment_id": 100144871,
+ "image_id": 102233972,
+ "section_number": 145,
+ "x": 6025.998161045392,
+ "y": 6471.335552125915,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1256,
+  1367,
+  1756,
+  1867
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/100144871",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=100144871&imageId=102233972"
+}

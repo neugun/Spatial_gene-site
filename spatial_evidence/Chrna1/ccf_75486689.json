@@ -1,0 +1,18 @@
+{
+ "gene": "Chrna1",
+ "region": "CA2sp",
+ "experiment_id": 75551465,
+ "image_id": 75486689,
+ "section_number": 240,
+ "x": 4819.94928391346,
+ "y": 3208.8881342500363,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  954,
+  552,
+  1454,
+  1052
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75551465",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551465&imageId=75486689"
+}

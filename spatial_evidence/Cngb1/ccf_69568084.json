@@ -1,0 +1,18 @@
+{
+ "gene": "Cngb1",
+ "region": "ARH",
+ "experiment_id": 69568782,
+ "image_id": 69568084,
+ "section_number": 152,
+ "x": 6395.092191557953,
+ "y": 6098.285876407377,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1348,
+  1274,
+  1848,
+  1774
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69568782",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69568782&imageId=69568084"
+}

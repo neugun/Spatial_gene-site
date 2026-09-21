@@ -1,0 +1,18 @@
+{
+ "gene": "Npsr1",
+ "region": "SCO",
+ "experiment_id": 70560288,
+ "image_id": 70390582,
+ "section_number": 230,
+ "x": 5076.420473686265,
+ "y": 2855.1130382236597,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1019,
+  463,
+  1519,
+  963
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70560288",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560288&imageId=70390582"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Avp",
+ "region": "SCH",
+ "experiment_id": 131,
+ "image_id": 101327189,
+ "section_number": 248,
+ "x": 3102.667668092849,
+ "y": 4233.004482840988,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  525,
+  808,
+  1025,
+  1114
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/131",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=131&imageId=101327189"
+}

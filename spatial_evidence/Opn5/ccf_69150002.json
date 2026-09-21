@@ -1,0 +1,18 @@
+{
+ "gene": "Opn5",
+ "region": "MEPO",
+ "experiment_id": 69258226,
+ "image_id": 69150002,
+ "section_number": 148,
+ "x": 5691.905006859236,
+ "y": 5236.815159636124,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1172,
+  1059,
+  1672,
+  1559
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69258226",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258226&imageId=69150002"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Opn1sw",
+ "region": "ME",
+ "experiment_id": 75773699,
+ "image_id": 75665767,
+ "section_number": 261,
+ "x": 5397.411150951684,
+ "y": 6827.582662580439,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1099,
+  1456,
+  1599,
+  1892
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75773699",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75773699&imageId=75665767"
+}

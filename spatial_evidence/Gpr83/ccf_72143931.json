@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr83",
+ "region": "TMd",
+ "experiment_id": 72338696,
+ "image_id": 72143931,
+ "section_number": 221,
+ "x": 10601.679839762717,
+ "y": 8313.758894541726,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2400,
+  1828,
+  2900,
+  2328
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72338696",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72338696&imageId=72143931"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Tmc3",
+ "region": "SCO",
+ "experiment_id": 69981061,
+ "image_id": 69899423,
+ "section_number": 150,
+ "x": 7762.620182030155,
+ "y": 3068.4177641097485,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1690,
+  517,
+  2190,
+  1017
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69981061",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69981061&imageId=69899423"
+}

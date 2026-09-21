@@ -1,0 +1,18 @@
+{
+ "gene": "Trpc4",
+ "region": "SH",
+ "experiment_id": 1305,
+ "image_id": 101359468,
+ "section_number": 330,
+ "x": 2758.988769071023,
+ "y": 2142.9796830645932,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  439,
+  285,
+  939,
+  785
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1305",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1305&imageId=101359468"
+}

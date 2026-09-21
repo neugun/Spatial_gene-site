@@ -1,0 +1,18 @@
+{
+ "gene": "Slc26a9",
+ "region": "ME",
+ "experiment_id": 70302123,
+ "image_id": 70110176,
+ "section_number": 156,
+ "x": 7031.778090023436,
+ "y": 6107.680055919265,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1507,
+  1276,
+  2007,
+  1776
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70302123",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70302123&imageId=70110176"
+}

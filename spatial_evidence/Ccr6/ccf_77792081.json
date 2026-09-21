@@ -1,0 +1,18 @@
+{
+ "gene": "Ccr6",
+ "region": "CP",
+ "experiment_id": 77793175,
+ "image_id": 77792081,
+ "section_number": 152,
+ "x": 5875.439666361933,
+ "y": 4197.015158314615,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1218,
+  799,
+  1718,
+  1299
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77793175",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77793175&imageId=77792081"
+}

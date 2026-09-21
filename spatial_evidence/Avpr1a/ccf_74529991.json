@@ -1,0 +1,18 @@
+{
+ "gene": "Avpr1a",
+ "region": "LSc",
+ "experiment_id": 74641316,
+ "image_id": 74529991,
+ "section_number": 333,
+ "x": 4538.0363117450415,
+ "y": 2353.95767245829,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  884,
+  338,
+  1384,
+  838
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74641316",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641316&imageId=74529991"
+}

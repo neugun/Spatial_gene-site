@@ -1,0 +1,18 @@
+{
+ "gene": "Nmu",
+ "region": "TMd",
+ "experiment_id": 72182969,
+ "image_id": 72123434,
+ "section_number": 138,
+ "x": 8367.344220606436,
+ "y": 6340.427943100958,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1841,
+  1335,
+  2341,
+  1824
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72182969",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72182969&imageId=72123434"
+}

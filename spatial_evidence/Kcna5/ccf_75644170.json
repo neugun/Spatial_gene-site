@@ -1,0 +1,18 @@
+{
+ "gene": "Kcna5",
+ "region": "OT",
+ "experiment_id": 75695671,
+ "image_id": 75644170,
+ "section_number": 141,
+ "x": 4823.912672611265,
+ "y": 6354.44286287506,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  955,
+  1338,
+  1455,
+  1838
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75695671",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75695671&imageId=75644170"
+}

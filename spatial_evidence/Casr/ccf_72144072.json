@@ -1,0 +1,18 @@
+{
+ "gene": "Casr",
+ "region": "IF",
+ "experiment_id": 72338697,
+ "image_id": 72144072,
+ "section_number": 190,
+ "x": 4790.803270662408,
+ "y": 4672.453991764883,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  947,
+  918,
+  1447,
+  1418
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72338697",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72338697&imageId=72144072"
+}

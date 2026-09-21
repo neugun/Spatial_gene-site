@@ -1,0 +1,4992 @@
+{
+ "panels": [
+  {
+   "gene": "Ano1",
+   "region": "MH",
+   "experiment_id": 1472,
+   "image_id": 101362029,
+   "section_number": 231,
+   "x": 3277.742858863186,
+   "y": 1975.5004332497022,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    569,
+    243,
+    1069,
+    743
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1472",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1472&imageId=101362029",
+   "panel": "spatial_evidence/Ano1/ccf_101362029.jpg"
+  },
+  {
+   "gene": "Lrrc55",
+   "region": "MH",
+   "experiment_id": 73931406,
+   "image_id": 73922492,
+   "section_number": 234,
+   "x": 4860.081168550989,
+   "y": 3021.272476800432,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    965,
+    505,
+    1465,
+    1005
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73931406",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73931406&imageId=73922492",
+   "panel": "spatial_evidence/Lrrc55/ccf_73922492.jpg"
+  },
+  {
+   "gene": "Tac1",
+   "region": "OT",
+   "experiment_id": 1038,
+   "image_id": 101322922,
+   "section_number": 299,
+   "x": 2700.398759956477,
+   "y": 3567.908261672039,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    425,
+    641,
+    925,
+    1014
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1038",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1038&imageId=101322922",
+   "panel": "spatial_evidence/Tac1/ccf_101322922.jpg"
+  },
+  {
+   "gene": "Tac2",
+   "region": "MH",
+   "experiment_id": 72339556,
+   "image_id": 72169137,
+   "section_number": 261,
+   "x": 5253.4176917703335,
+   "y": 2888.191429716444,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1063,
+    472,
+    1563,
+    972
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72339556",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72339556&imageId=72169137",
+   "panel": "spatial_evidence/Tac2/ccf_72169137.jpg"
+  },
+  {
+   "gene": "Tac2",
+   "region": "MH",
+   "experiment_id": 77279001,
+   "image_id": 77284584,
+   "section_number": 269,
+   "x": 5485.281677636814,
+   "y": 2881.453185210792,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1121,
+    470,
+    1621,
+    970
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77279001",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77279001&imageId=77284584",
+   "panel": "spatial_evidence/Tac2/ccf_77284584.jpg"
+  },
+  {
+   "gene": "Chrna3",
+   "region": "MH",
+   "experiment_id": 72119655,
+   "image_id": 72040230,
+   "section_number": 249,
+   "x": 4932.873393730735,
+   "y": 2852.8293550428293,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    983,
+    463,
+    1483,
+    963
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72119655",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72119655&imageId=72040230",
+   "panel": "spatial_evidence/Chrna3/ccf_72040230.jpg"
+  },
+  {
+   "gene": "Gpr151",
+   "region": "MH",
+   "experiment_id": 74724649,
+   "image_id": 74648586,
+   "section_number": 257,
+   "x": 7529.913831910264,
+   "y": 3728.19371591464,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1632,
+    682,
+    2132,
+    1182
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74724649",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724649&imageId=74648586",
+   "panel": "spatial_evidence/Gpr151/ccf_74648586.jpg"
+  },
+  {
+   "gene": "Drd3",
+   "region": "OT",
+   "experiment_id": 75038431,
+   "image_id": 74929625,
+   "section_number": 402,
+   "x": 4170.868313319332,
+   "y": 5614.893404204962,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    792,
+    1153,
+    1292,
+    1648
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75038431",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75038431&imageId=74929625",
+   "panel": "spatial_evidence/Drd3/ccf_74929625.jpg"
+  },
+  {
+   "gene": "Gpr50",
+   "region": "OV",
+   "experiment_id": 74511770,
+   "image_id": 74396529,
+   "section_number": 357,
+   "x": 4601.971486357898,
+   "y": 5969.681410400563,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    900,
+    1242,
+    1400,
+    1742
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511770",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511770&imageId=74396529",
+   "panel": "spatial_evidence/Gpr50/ccf_74396529.jpg"
+  },
+  {
+   "gene": "Slc6a4",
+   "region": "DR",
+   "experiment_id": 79591679,
+   "image_id": 79627512,
+   "section_number": 142,
+   "x": 4678.716618370683,
+   "y": 3173.0068292493193,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    919,
+    543,
+    1419,
+    1043
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79591679",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591679&imageId=79627512",
+   "panel": "spatial_evidence/Slc6a4/ccf_79627512.jpg"
+  },
+  {
+   "gene": "Chrnb3",
+   "region": "MH",
+   "experiment_id": 70436747,
+   "image_id": 70289223,
+   "section_number": 256,
+   "x": 5342.220648187192,
+   "y": 2901.048014643673,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1085,
+    475,
+    1585,
+    975
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70436747",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70436747&imageId=70289223",
+   "panel": "spatial_evidence/Chrnb3/ccf_70289223.jpg"
+  },
+  {
+   "gene": "Slc6a3",
+   "region": "VTA",
+   "experiment_id": 79591365,
+   "image_id": 79605204,
+   "section_number": 213,
+   "x": 5349.265587019381,
+   "y": 4648.580416982147,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1087,
+    912,
+    1587,
+    1412
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79591365",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591365&imageId=79605204",
+   "panel": "spatial_evidence/Slc6a3/ccf_79605204.jpg"
+  },
+  {
+   "gene": "Fzd5",
+   "region": "PF",
+   "experiment_id": 1500,
+   "image_id": 101330114,
+   "section_number": 226,
+   "x": 3405.060140420612,
+   "y": 2745.6792546705974,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    601,
+    436,
+    1101,
+    936
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1500",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1500&imageId=101330114",
+   "panel": "spatial_evidence/Fzd5/ccf_101330114.jpg"
+  },
+  {
+   "gene": "Avp",
+   "region": "SCH",
+   "experiment_id": 131,
+   "image_id": 101327189,
+   "section_number": 248,
+   "x": 3102.667668092849,
+   "y": 4233.004482840988,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    525,
+    808,
+    1025,
+    1114
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/131",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=131&imageId=101327189",
+   "panel": "spatial_evidence/Avp/ccf_101327189.jpg"
+  },
+  {
+   "gene": "Cftr",
+   "region": "MH",
+   "experiment_id": 69548870,
+   "image_id": 69524685,
+   "section_number": 152,
+   "x": 7403.79959084854,
+   "y": 2992.75912789797,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1600,
+    498,
+    2100,
+    998
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69548870",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69548870&imageId=69524685",
+   "panel": "spatial_evidence/Cftr/ccf_69524685.jpg"
+  },
+  {
+   "gene": "Adora2a",
+   "region": "CP",
+   "experiment_id": 72109410,
+   "image_id": 71997847,
+   "section_number": 336,
+   "x": 4811.708334096082,
+   "y": 3646.5545573666336,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    952,
+    661,
+    1452,
+    1161
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72109410",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72109410&imageId=71997847",
+   "panel": "spatial_evidence/Adora2a/ccf_71997847.jpg"
+  },
+  {
+   "gene": "Htr5b",
+   "region": "MH",
+   "experiment_id": 71247644,
+   "image_id": 71092898,
+   "section_number": 257,
+   "x": 5104.58736331794,
+   "y": 3180.1486278211373,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1026,
+    545,
+    1526,
+    1045
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71247644",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71247644&imageId=71092898",
+   "panel": "spatial_evidence/Htr5b/ccf_71092898.jpg"
+  },
+  {
+   "gene": "Fzd4",
+   "region": "AP",
+   "experiment_id": 77925095,
+   "image_id": 77929840,
+   "section_number": 46,
+   "x": 3921.078740508295,
+   "y": 3432.189676898579,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    730,
+    608,
+    1230,
+    1108
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77925095",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77925095&imageId=77929840",
+   "panel": "spatial_evidence/Fzd4/ccf_77929840.jpg"
+  },
+  {
+   "gene": "Chrna2",
+   "region": "IPR",
+   "experiment_id": 75551460,
+   "image_id": 75488230,
+   "section_number": 201,
+   "x": 5484.917400588962,
+   "y": 5059.228358405056,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1121,
+    1014,
+    1621,
+    1514
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551460",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551460&imageId=75488230",
+   "panel": "spatial_evidence/Chrna2/ccf_75488230.jpg"
+  },
+  {
+   "gene": "Chat",
+   "region": "MH",
+   "experiment_id": 252,
+   "image_id": 101320720,
+   "section_number": 229,
+   "x": 3308.4530655959597,
+   "y": 2064.6636307633344,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    577,
+    266,
+    1077,
+    766
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/252",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=252&imageId=101320720",
+   "panel": "spatial_evidence/Chat/ccf_101320720.jpg"
+  },
+  {
+   "gene": "Crh",
+   "region": "IO",
+   "experiment_id": 292,
+   "image_id": 101324037,
+   "section_number": 30,
+   "x": 2675.3900309474816,
+   "y": 4216.559786663183,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    418,
+    804,
+    918,
+    1165
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/292",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=292&imageId=101324037",
+   "panel": "spatial_evidence/Crh/ccf_101324037.jpg"
+  },
+  {
+   "gene": "Gabbr1",
+   "region": "MH",
+   "experiment_id": 68862120,
+   "image_id": 68316722,
+   "section_number": 152,
+   "x": 7615.432289062964,
+   "y": 2781.676299910263,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1653,
+    445,
+    2153,
+    945
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68862120",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68862120&imageId=68316722",
+   "panel": "spatial_evidence/Gabbr1/ccf_68316722.jpg"
+  },
+  {
+   "gene": "Gpr156",
+   "region": "MH",
+   "experiment_id": 74641322,
+   "image_id": 74532727,
+   "section_number": 253,
+   "x": 5174.494291481751,
+   "y": 2821.8173928857263,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1043,
+    455,
+    1543,
+    955
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74641322",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641322&imageId=74532727",
+   "panel": "spatial_evidence/Gpr156/ccf_74532727.jpg"
+  },
+  {
+   "gene": "Tshr",
+   "region": "ME",
+   "experiment_id": 80471957,
+   "image_id": 80444872,
+   "section_number": 144,
+   "x": 7158.740734629677,
+   "y": 9505.756556839515,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1539,
+    2126,
+    2039,
+    2552
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/80471957",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=80471957&imageId=80444872",
+   "panel": "spatial_evidence/Tshr/ccf_80444872.jpg"
+  },
+  {
+   "gene": "Kctd12b",
+   "region": "MH",
+   "experiment_id": 71529983,
+   "image_id": 71331932,
+   "section_number": 141,
+   "x": 6798.8539428512795,
+   "y": 3156.997561174461,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1449,
+    539,
+    1949,
+    1039
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71529983",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71529983&imageId=71331932",
+   "panel": "spatial_evidence/Kctd12b/ccf_71331932.jpg"
+  },
+  {
+   "gene": "Gpr6",
+   "region": "CP",
+   "experiment_id": 71247615,
+   "image_id": 71115361,
+   "section_number": 354,
+   "x": 4632.233318770985,
+   "y": 3609.1846022965055,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    908,
+    652,
+    1408,
+    1152
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71247615",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71247615&imageId=71115361",
+   "panel": "spatial_evidence/Gpr6/ccf_71115361.jpg"
+  },
+  {
+   "gene": "Cxcr4",
+   "region": "OV",
+   "experiment_id": 100144881,
+   "image_id": 102234170,
+   "section_number": 130,
+   "x": 6866.940011677116,
+   "y": 7388.667958354964,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1466,
+    1597,
+    1966,
+    2097
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/100144881",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=100144881&imageId=102234170",
+   "panel": "spatial_evidence/Cxcr4/ccf_102234170.jpg"
+  },
+  {
+   "gene": "Slc6a2",
+   "region": "LC",
+   "experiment_id": 73615562,
+   "image_id": 73527286,
+   "section_number": 108,
+   "x": 4351.629939861322,
+   "y": 3282.2057090364206,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    837,
+    570,
+    1337,
+    1070
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73615562",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73615562&imageId=73527286",
+   "panel": "spatial_evidence/Slc6a2/ccf_73527286.jpg"
+  },
+  {
+   "gene": "Dbh",
+   "region": "LC",
+   "experiment_id": 326,
+   "image_id": 101337588,
+   "section_number": 74,
+   "x": 2569.7362308985385,
+   "y": 2338.7529145158096,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    392,
+    334,
+    892,
+    834
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/326",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=326&imageId=101337588",
+   "panel": "spatial_evidence/Dbh/ccf_101337588.jpg"
+  },
+  {
+   "gene": "Kcnmb1",
+   "region": "SCO",
+   "experiment_id": 81599616,
+   "image_id": 81588158,
+   "section_number": 148,
+   "x": 7766.055419921135,
+   "y": 3977.4887827165685,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1691,
+    744,
+    2191,
+    1244
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/81599616",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=81599616&imageId=81588158",
+   "panel": "spatial_evidence/Kcnmb1/ccf_81588158.jpg"
+  },
+  {
+   "gene": "Agrp",
+   "region": "ARH",
+   "experiment_id": 72283799,
+   "image_id": 72114881,
+   "section_number": 261,
+   "x": 5430.6313823481305,
+   "y": 6567.634832913835,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1107,
+    1391,
+    1607,
+    1844
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72283799",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72283799&imageId=72114881",
+   "panel": "spatial_evidence/Agrp/ccf_72114881.jpg"
+  },
+  {
+   "gene": "Sctr",
+   "region": "OV",
+   "experiment_id": 71487191,
+   "image_id": 71290789,
+   "section_number": 158,
+   "x": 4965.742040069721,
+   "y": 5652.500850384128,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    991,
+    1163,
+    1491,
+    1663
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71487191",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71487191&imageId=71290789",
+   "panel": "spatial_evidence/Sctr/ccf_71290789.jpg"
+  },
+  {
+   "gene": "Grin3b",
+   "region": "III",
+   "experiment_id": 77869800,
+   "image_id": 77876696,
+   "section_number": 178,
+   "x": 5112.360885996011,
+   "y": 3440.81129995163,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1028,
+    610,
+    1528,
+    1110
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77869800",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77869800&imageId=77876696",
+   "panel": "spatial_evidence/Grin3b/ccf_77876696.jpg"
+  },
+  {
+   "gene": "Vip",
+   "region": "IPC",
+   "experiment_id": 77371835,
+   "image_id": 77374787,
+   "section_number": 186,
+   "x": 5319.58024389133,
+   "y": 5196.684298342616,
+   "panel": "spatial_evidence/Vip/ccf_77374787.jpg"
+  },
+  {
+   "gene": "Grpr",
+   "region": "SCH",
+   "experiment_id": 81600602,
+   "image_id": 81596877,
+   "section_number": 136,
+   "x": 6566.352666675667,
+   "y": 8306.041604488746,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1391,
+    1826,
+    1891,
+    2326
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/81600602",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=81600602&imageId=81596877",
+   "panel": "spatial_evidence/Grpr/ccf_81596877.jpg"
+  },
+  {
+   "gene": "Brs3",
+   "region": "PD",
+   "experiment_id": 70560328,
+   "image_id": 70368137,
+   "section_number": 320,
+   "x": 8746.836380499233,
+   "y": 5204.390390220558,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1936,
+    1051,
+    2436,
+    1551
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70560328",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560328&imageId=70368137",
+   "panel": "spatial_evidence/Brs3/ccf_70368137.jpg"
+  },
+  {
+   "gene": "Kcnj14",
+   "region": "V",
+   "experiment_id": 75651203,
+   "image_id": 75588852,
+   "section_number": 133,
+   "x": 4914.951167284416,
+   "y": 3812.329424030864,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    978,
+    703,
+    1478,
+    1203
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75651203",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651203&imageId=75588852",
+   "panel": "spatial_evidence/Kcnj14/ccf_75588852.jpg"
+  },
+  {
+   "gene": "Cngb3",
+   "region": "MH",
+   "experiment_id": 75985880,
+   "image_id": 75863079,
+   "section_number": 156,
+   "x": 7284.996869112279,
+   "y": 3256.3456393647684,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1571,
+    564,
+    2071,
+    1064
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75985880",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75985880&imageId=75863079",
+   "panel": "spatial_evidence/Cngb3/ccf_75863079.jpg"
+  },
+  {
+   "gene": "Uts2b",
+   "region": "DMX",
+   "experiment_id": 75144621,
+   "image_id": 75054443,
+   "section_number": 52,
+   "x": 3643.5781853940944,
+   "y": 3692.622745875343,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    660,
+    673,
+    1160,
+    1173
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75144621",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75144621&imageId=75054443",
+   "panel": "spatial_evidence/Uts2b/ccf_75054443.jpg"
+  },
+  {
+   "gene": "Ucn",
+   "region": "RL",
+   "experiment_id": 1435,
+   "image_id": 101316996,
+   "section_number": 175,
+   "x": 3619.091483578765,
+   "y": 2995.4128315420776,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    654,
+    498,
+    1154,
+    998
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1435",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1435&imageId=101316996",
+   "panel": "spatial_evidence/Ucn/ccf_101316996.jpg"
+  },
+  {
+   "gene": "Cnga1",
+   "region": "IO",
+   "experiment_id": 71380718,
+   "image_id": 71084389,
+   "section_number": 153,
+   "x": 11783.484596388314,
+   "y": 7195.39700581834,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2695,
+    1548,
+    3195,
+    2048
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71380718",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71380718&imageId=71084389",
+   "panel": "spatial_evidence/Cnga1/ccf_71084389.jpg"
+  },
+  {
+   "gene": "Opn5",
+   "region": "MEPO",
+   "experiment_id": 69258226,
+   "image_id": 69150002,
+   "section_number": 148,
+   "x": 5691.905006859236,
+   "y": 5236.815159636124,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1172,
+    1059,
+    1672,
+    1559
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69258226",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258226&imageId=69150002",
+   "panel": "spatial_evidence/Opn5/ccf_69150002.jpg"
+  },
+  {
+   "gene": "Sct",
+   "region": "SCO",
+   "experiment_id": 74357731,
+   "image_id": 74269951,
+   "section_number": 150,
+   "x": 8132.637379535687,
+   "y": 3101.6498727928783,
+   "panel": "spatial_evidence/Sct/ccf_74269951.jpg"
+  },
+  {
+   "gene": "Apol9b",
+   "region": "RO",
+   "experiment_id": 69014907,
+   "image_id": 68825910,
+   "section_number": 145,
+   "x": 11765.776136921539,
+   "y": 5581.97379480738,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2691,
+    1145,
+    3191,
+    1645
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69014907",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69014907&imageId=68825910",
+   "panel": "spatial_evidence/Apol9b/ccf_68825910.jpg"
+  },
+  {
+   "gene": "Npy4r",
+   "region": "IO",
+   "experiment_id": 69258316,
+   "image_id": 69152893,
+   "section_number": 149,
+   "x": 12196.320588493621,
+   "y": 6358.0042115053975,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2799,
+    1339,
+    3299,
+    1839
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69258316",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258316&imageId=69152893",
+   "panel": "spatial_evidence/Npy4r/ccf_69152893.jpg"
+  },
+  {
+   "gene": "Cysltr1",
+   "region": "ME",
+   "experiment_id": 75651227,
+   "image_id": 75587536,
+   "section_number": 245,
+   "x": 5107.222538502111,
+   "y": 7284.759908584817,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1026,
+    1571,
+    1526,
+    2056
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75651227",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651227&imageId=75587536",
+   "panel": "spatial_evidence/Cysltr1/ccf_75587536.jpg"
+  },
+  {
+   "gene": "Chrne",
+   "region": "SH",
+   "experiment_id": 75888738,
+   "image_id": 75724491,
+   "section_number": 361,
+   "x": 4590.391854947499,
+   "y": 3492.40548185576,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    897,
+    623,
+    1397,
+    1123
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75888738",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75888738&imageId=75724491",
+   "panel": "spatial_evidence/Chrne/ccf_75724491.jpg"
+  },
+  {
+   "gene": "Npy6r",
+   "region": "SCH",
+   "experiment_id": 69258208,
+   "image_id": 69149798,
+   "section_number": 144,
+   "x": 6069.747380727267,
+   "y": 6283.447934033811,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1267,
+    1320,
+    1767,
+    1820
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69258208",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258208&imageId=69149798",
+   "panel": "spatial_evidence/Npy6r/ccf_69149798.jpg"
+  },
+  {
+   "gene": "Slc4a11",
+   "region": "CEAl",
+   "experiment_id": 69873994,
+   "image_id": 69826323,
+   "section_number": 154,
+   "x": 7594.4798127748845,
+   "y": 5154.964700980288,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1648,
+    1038,
+    2148,
+    1538
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69873994",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69873994&imageId=69826323",
+   "panel": "spatial_evidence/Slc4a11/ccf_69826323.jpg"
+  },
+  {
+   "gene": "Kcnk15",
+   "region": "SOCl",
+   "experiment_id": 70724864,
+   "image_id": 70442929,
+   "section_number": 150,
+   "x": 9859.05771611932,
+   "y": 5723.225775736975,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2214,
+    1180,
+    2714,
+    1676
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70724864",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70724864&imageId=70442929",
+   "panel": "spatial_evidence/Kcnk15/ccf_70442929.jpg"
+  },
+  {
+   "gene": "Tmc3",
+   "region": "SCO",
+   "experiment_id": 69981061,
+   "image_id": 69899423,
+   "section_number": 150,
+   "x": 7762.620182030155,
+   "y": 3068.4177641097485,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1690,
+    517,
+    2190,
+    1017
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69981061",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69981061&imageId=69899423",
+   "panel": "spatial_evidence/Tmc3/ccf_69899423.jpg"
+  },
+  {
+   "gene": "Ptger1",
+   "region": "V",
+   "experiment_id": 71325378,
+   "image_id": 71206132,
+   "section_number": 148,
+   "x": 10626.07717309329,
+   "y": 4157.5735515594515,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2406,
+    789,
+    2906,
+    1289
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71325378",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71325378&imageId=71206132",
+   "panel": "spatial_evidence/Ptger1/ccf_71206132.jpg"
+  },
+  {
+   "gene": "Nppb",
+   "region": "DMX",
+   "experiment_id": 69174475,
+   "image_id": 69072790,
+   "section_number": 140,
+   "x": 12345.537955165288,
+   "y": 5258.741596636011,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2836,
+    1064,
+    3336,
+    1564
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69174475",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69174475&imageId=69072790",
+   "panel": "spatial_evidence/Nppb/ccf_69072790.jpg"
+  },
+  {
+   "gene": "Rln3",
+   "region": "NI",
+   "experiment_id": 73929581,
+   "image_id": 73857864,
+   "section_number": 114,
+   "x": 4991.226126098215,
+   "y": 4056.4115974591086,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    997,
+    764,
+    1497,
+    1264
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73929581",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73929581&imageId=73857864",
+   "panel": "spatial_evidence/Rln3/ccf_73857864.jpg"
+  },
+  {
+   "gene": "Gabrr1",
+   "region": "SCsg",
+   "experiment_id": 75551470,
+   "image_id": 75487573,
+   "section_number": 174,
+   "x": 4961.314447851031,
+   "y": 1369.895595971028,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    990,
+    92,
+    1490,
+    592
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551470",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551470&imageId=75487573",
+   "panel": "spatial_evidence/Gabrr1/ccf_75487573.jpg"
+  },
+  {
+   "gene": "Avpr1b",
+   "region": "CA2sp",
+   "experiment_id": 79488955,
+   "image_id": 79483621,
+   "section_number": 237,
+   "x": 4777.563663123238,
+   "y": 2979.826058640501,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    944,
+    494,
+    1444,
+    994
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79488955",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79488955&imageId=79483621",
+   "panel": "spatial_evidence/Avpr1b/ccf_79483621.jpg"
+  },
+  {
+   "gene": "Gpr55",
+   "region": "SCO",
+   "experiment_id": 79591399,
+   "image_id": 79603813,
+   "section_number": 236,
+   "x": 5293.999841294781,
+   "y": 2864.4700769196406,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1073,
+    466,
+    1573,
+    966
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79591399",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591399&imageId=79603813",
+   "panel": "spatial_evidence/Gpr55/ccf_79603813.jpg"
+  },
+  {
+   "gene": "Trpm1",
+   "region": "MH",
+   "experiment_id": 75081002,
+   "image_id": 75052696,
+   "section_number": 264,
+   "x": 5216.415607852799,
+   "y": 2980.9531964007133,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1054,
+    495,
+    1554,
+    995
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75081002",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75081002&imageId=75052696",
+   "panel": "spatial_evidence/Trpm1/ccf_75052696.jpg"
+  },
+  {
+   "gene": "Ucn3",
+   "region": "MEPO",
+   "experiment_id": 1091,
+   "image_id": 101317062,
+   "section_number": 307,
+   "x": 3217.395393086709,
+   "y": 3817.042742013009,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    554,
+    704,
+    1054,
+    1144
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1091",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1091&imageId=101317062",
+   "panel": "spatial_evidence/Ucn3/ccf_101317062.jpg"
+  },
+  {
+   "gene": "Catsper4",
+   "region": "DR",
+   "experiment_id": 69236981,
+   "image_id": 69226636,
+   "section_number": 126,
+   "x": 9673.042942579743,
+   "y": 3621.9118035596284,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2168,
+    655,
+    2668,
+    1155
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236981",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236981&imageId=69226636",
+   "panel": "spatial_evidence/Catsper4/ccf_69226636.jpg"
+  },
+  {
+   "gene": "Ccr6",
+   "region": "CP",
+   "experiment_id": 77793175,
+   "image_id": 77792081,
+   "section_number": 152,
+   "x": 5875.439666361933,
+   "y": 4197.015158314615,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1218,
+    799,
+    1718,
+    1299
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77793175",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77793175&imageId=77792081",
+   "panel": "spatial_evidence/Ccr6/ccf_77792081.jpg"
+  },
+  {
+   "gene": "F2rl1",
+   "region": "SCO",
+   "experiment_id": 199391,
+   "image_id": 101750876,
+   "section_number": 227,
+   "x": 5230.4395069390675,
+   "y": 2675.9656196280503,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1057,
+    418,
+    1557,
+    918
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/199391",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=199391&imageId=101750876",
+   "panel": "spatial_evidence/F2rl1/ccf_101750876.jpg"
+  },
+  {
+   "gene": "Otop1",
+   "region": "RT",
+   "experiment_id": 71210583,
+   "image_id": 70939175,
+   "section_number": 158,
+   "x": 6804.406455840934,
+   "y": 3651.2085388908035,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1451,
+    662,
+    1951,
+    1162
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71210583",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71210583&imageId=70939175",
+   "panel": "spatial_evidence/Otop1/ccf_70939175.jpg"
+  },
+  {
+   "gene": "Ccr10",
+   "region": "OV",
+   "experiment_id": 74724659,
+   "image_id": 74648761,
+   "section_number": 338,
+   "x": 4263.701563376924,
+   "y": 6068.882435130973,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    815,
+    1267,
+    1315,
+    1767
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74724659",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724659&imageId=74648761",
+   "panel": "spatial_evidence/Ccr10/ccf_74648761.jpg"
+  },
+  {
+   "gene": "Ptgir",
+   "region": "MH",
+   "experiment_id": 69863249,
+   "image_id": 69883320,
+   "section_number": 150,
+   "x": 6181.5637814773545,
+   "y": 3171.4057185028996,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1295,
+    542,
+    1795,
+    1042
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863249",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863249&imageId=69883320",
+   "panel": "spatial_evidence/Ptgir/ccf_69883320.jpg"
+  },
+  {
+   "gene": "Gm5127",
+   "region": "SNc",
+   "experiment_id": 70305413,
+   "image_id": 70169057,
+   "section_number": 145,
+   "x": 8693.97953476796,
+   "y": 5173.901143300339,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1923,
+    1043,
+    2423,
+    1543
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70305413",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70305413&imageId=70169057",
+   "panel": "spatial_evidence/Gm5127/ccf_70169057.jpg"
+  },
+  {
+   "gene": "Ptgdr2",
+   "region": "SCO",
+   "experiment_id": 69257570,
+   "image_id": 69241438,
+   "section_number": 130,
+   "x": 8398.347802660934,
+   "y": 3793.930112549157,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1849,
+    698,
+    2349,
+    1198
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257570",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257570&imageId=69241438",
+   "panel": "spatial_evidence/Ptgdr2/ccf_69241438.jpg"
+  },
+  {
+   "gene": "Ltb4r1",
+   "region": "TMd",
+   "experiment_id": 68744188,
+   "image_id": 68722203,
+   "section_number": 145,
+   "x": 8643.23239939424,
+   "y": 6550.160459330264,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1910,
+    1387,
+    2410,
+    1887
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68744188",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68744188&imageId=68722203",
+   "panel": "spatial_evidence/Ltb4r1/ccf_68722203.jpg"
+  },
+  {
+   "gene": "Htr3b",
+   "region": "ARH",
+   "experiment_id": 74641318,
+   "image_id": 74531978,
+   "section_number": 264,
+   "x": 5083.600394059759,
+   "y": 6527.1214124698545,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1020,
+    1381,
+    1520,
+    1860
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74641318",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641318&imageId=74531978",
+   "panel": "spatial_evidence/Htr3b/ccf_74531978.jpg"
+  },
+  {
+   "gene": "Hrh4",
+   "region": "OV",
+   "experiment_id": 69257767,
+   "image_id": 69148896,
+   "section_number": 154,
+   "x": 4937.471049626414,
+   "y": 5934.941672248473,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    984,
+    1233,
+    1484,
+    1733
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257767",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257767&imageId=69148896",
+   "panel": "spatial_evidence/Hrh4/ccf_69148896.jpg"
+  },
+  {
+   "gene": "Pkdrej",
+   "region": "V",
+   "experiment_id": 75985900,
+   "image_id": 75863179,
+   "section_number": 150,
+   "x": 10387.993258395512,
+   "y": 5446.905069166083,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2346,
+    1111,
+    2846,
+    1611
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75985900",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75985900&imageId=75863179",
+   "panel": "spatial_evidence/Pkdrej/ccf_75863179.jpg"
+  },
+  {
+   "gene": "Opn1sw",
+   "region": "ME",
+   "experiment_id": 75773699,
+   "image_id": 75665767,
+   "section_number": 261,
+   "x": 5397.411150951684,
+   "y": 6827.582662580439,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1099,
+    1456,
+    1599,
+    1892
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75773699",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75773699&imageId=75665767",
+   "panel": "spatial_evidence/Opn1sw/ccf_75665767.jpg"
+  },
+  {
+   "gene": "Lrrc8e",
+   "region": "MH",
+   "experiment_id": 70201612,
+   "image_id": 70054719,
+   "section_number": 156,
+   "x": 7799.460840275532,
+   "y": 2938.9666826285907,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1699,
+    484,
+    2199,
+    984
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70201612",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70201612&imageId=70054719",
+   "panel": "spatial_evidence/Lrrc8e/ccf_70054719.jpg"
+  },
+  {
+   "gene": "Slc26a9",
+   "region": "ME",
+   "experiment_id": 70302123,
+   "image_id": 70110176,
+   "section_number": 156,
+   "x": 7031.778090023436,
+   "y": 6107.680055919265,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1507,
+    1276,
+    2007,
+    1776
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70302123",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70302123&imageId=70110176",
+   "panel": "spatial_evidence/Slc26a9/ccf_70110176.jpg"
+  },
+  {
+   "gene": "Asic5",
+   "region": "DCO",
+   "experiment_id": 69236771,
+   "image_id": 69084425,
+   "section_number": 112,
+   "x": 12169.065959822747,
+   "y": 4137.283551476904,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2792,
+    784,
+    3292,
+    1284
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236771",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236771&imageId=69084425",
+   "panel": "spatial_evidence/Asic5/ccf_69084425.jpg"
+  },
+  {
+   "gene": "Apol10a",
+   "region": "LC",
+   "experiment_id": 70227974,
+   "image_id": 70062088,
+   "section_number": 142,
+   "x": 11491.284811599917,
+   "y": 4067.460524054162,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2622,
+    766,
+    3122,
+    1266
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70227974",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70227974&imageId=70062088",
+   "panel": "spatial_evidence/Apol10a/ccf_70062088.jpg"
+  },
+  {
+   "gene": "Panx3",
+   "region": "PVT",
+   "experiment_id": 68668114,
+   "image_id": 68352452,
+   "section_number": 130,
+   "x": 6774.952198973337,
+   "y": 3766.7729556455997,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1443,
+    691,
+    1943,
+    1191
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68668114",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68668114&imageId=68352452",
+   "panel": "spatial_evidence/Panx3/ccf_68352452.jpg"
+  },
+  {
+   "gene": "Kcna10",
+   "region": "VMH",
+   "experiment_id": 69257993,
+   "image_id": 69150783,
+   "section_number": 156,
+   "x": 7280.337668515381,
+   "y": 6498.29452886007,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1570,
+    1374,
+    2070,
+    1836
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257993",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257993&imageId=69150783",
+   "panel": "spatial_evidence/Kcna10/ccf_69150783.jpg"
+  },
+  {
+   "gene": "Galr2",
+   "region": "SCO",
+   "experiment_id": 80517343,
+   "image_id": 80482022,
+   "section_number": 234,
+   "x": 5274.512045373777,
+   "y": 3533.7498776167185,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1068,
+    633,
+    1568,
+    1133
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/80517343",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=80517343&imageId=80482022",
+   "panel": "spatial_evidence/Galr2/ccf_80482022.jpg"
+  },
+  {
+   "gene": "Gpr119",
+   "region": "IPR",
+   "experiment_id": 69257415,
+   "image_id": 69239033,
+   "section_number": 124,
+   "x": 9543.73261210316,
+   "y": 5503.463920893285,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2135,
+    1125,
+    2635,
+    1625
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257415",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257415&imageId=69239033",
+   "panel": "spatial_evidence/Gpr119/ccf_69239033.jpg"
+  },
+  {
+   "gene": "Prlhr",
+   "region": "PMv",
+   "experiment_id": 74511758,
+   "image_id": 74397096,
+   "section_number": 225,
+   "x": 5267.115541784794,
+   "y": 6143.26508449421,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1066,
+    1285,
+    1566,
+    1785
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511758",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511758&imageId=74397096",
+   "panel": "spatial_evidence/Prlhr/ccf_74397096.jpg"
+  },
+  {
+   "gene": "Gnrhr",
+   "region": "SH",
+   "experiment_id": 70593007,
+   "image_id": 70294846,
+   "section_number": 136,
+   "x": 4526.000118486846,
+   "y": 3799.040457258999,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    881,
+    699,
+    1381,
+    1199
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70593007",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70593007&imageId=70294846",
+   "panel": "spatial_evidence/Gnrhr/ccf_70294846.jpg"
+  },
+  {
+   "gene": "Kcnh8",
+   "region": "SCH",
+   "experiment_id": 70562113,
+   "image_id": 70435357,
+   "section_number": 313,
+   "x": 4761.9795606627595,
+   "y": 6447.108318872903,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    940,
+    1361,
+    1440,
+    1828
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70562113",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562113&imageId=70435357",
+   "panel": "spatial_evidence/Kcnh8/ccf_70435357.jpg"
+  },
+  {
+   "gene": "Scn4b",
+   "region": "CP",
+   "experiment_id": 73636111,
+   "image_id": 73669376,
+   "section_number": 333,
+   "x": 4624.555376499616,
+   "y": 3640.751229044705,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    906,
+    660,
+    1406,
+    1160
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73636111",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73636111&imageId=73669376",
+   "panel": "spatial_evidence/Scn4b/ccf_73669376.jpg"
+  },
+  {
+   "gene": "Cartpt",
+   "region": "TMd",
+   "experiment_id": 72077479,
+   "image_id": 71900261,
+   "section_number": 221,
+   "x": 4698.716590596818,
+   "y": 6346.480143821234,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    924,
+    1336,
+    1424,
+    1836
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72077479",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72077479&imageId=71900261",
+   "panel": "spatial_evidence/Cartpt/ccf_71900261.jpg"
+  },
+  {
+   "gene": "Adcyap1",
+   "region": "PMd",
+   "experiment_id": 74511882,
+   "image_id": 74418995,
+   "section_number": 226,
+   "x": 9579.215714032269,
+   "y": 8471.552474200484,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2144,
+    1867,
+    2644,
+    2367
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511882",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511882&imageId=74418995",
+   "panel": "spatial_evidence/Adcyap1/ccf_74418995.jpg"
+  },
+  {
+   "gene": "Gpr83",
+   "region": "TMd",
+   "experiment_id": 72338696,
+   "image_id": 72143931,
+   "section_number": 221,
+   "x": 10601.679839762717,
+   "y": 8313.758894541726,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2400,
+    1828,
+    2900,
+    2328
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72338696",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72338696&imageId=72143931",
+   "panel": "spatial_evidence/Gpr83/ccf_72143931.jpg"
+  },
+  {
+   "gene": "Slc18a2",
+   "region": "DR",
+   "experiment_id": 967,
+   "image_id": 101313012,
+   "section_number": 34,
+   "x": 1632.0377152531075,
+   "y": 2219.1115555881242,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    158,
+    304,
+    658,
+    804
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/967",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=967&imageId=101313012",
+   "panel": "spatial_evidence/Slc18a2/ccf_101313012.jpg"
+  },
+  {
+   "gene": "Slc18a2",
+   "region": "DR",
+   "experiment_id": 79591703,
+   "image_id": 79608037,
+   "section_number": 140,
+   "x": 4609.982084143661,
+   "y": 3361.084462200728,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    902,
+    590,
+    1402,
+    1090
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79591703",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591703&imageId=79608037",
+   "panel": "spatial_evidence/Slc18a2/ccf_79608037.jpg"
+  },
+  {
+   "gene": "Prokr2",
+   "region": "AP",
+   "experiment_id": 74511780,
+   "image_id": 74395980,
+   "section_number": 50,
+   "x": 3913.1795712700346,
+   "y": 3941.6833796198816,
+   "panel": "spatial_evidence/Prokr2/ccf_74395980.jpg"
+  },
+  {
+   "gene": "Gpr149",
+   "region": "OT",
+   "experiment_id": 71283586,
+   "image_id": 71100749,
+   "section_number": 146,
+   "x": 4777.689456485083,
+   "y": 6341.186565627178,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    944,
+    1335,
+    1444,
+    1780
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71283586",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71283586&imageId=71100749",
+   "panel": "spatial_evidence/Gpr149/ccf_71100749.jpg"
+  },
+  {
+   "gene": "Tacr1",
+   "region": "MH",
+   "experiment_id": 1295,
+   "image_id": 101329863,
+   "section_number": 223,
+   "x": 3024.396896263015,
+   "y": 1909.70193104528,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    506,
+    227,
+    1006,
+    727
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1295",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1295&imageId=101329863",
+   "panel": "spatial_evidence/Tacr1/ccf_101329863.jpg"
+  },
+  {
+   "gene": "Tacr1",
+   "region": "MH",
+   "experiment_id": 79591721,
+   "image_id": 79622442,
+   "section_number": 248,
+   "x": 5133.994832490994,
+   "y": 2827.012559591918,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1033,
+    456,
+    1533,
+    956
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79591721",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591721&imageId=79622442",
+   "panel": "spatial_evidence/Tacr1/ccf_79622442.jpg"
+  },
+  {
+   "gene": "Ano2",
+   "region": "SH",
+   "experiment_id": 71587834,
+   "image_id": 71382119,
+   "section_number": 369,
+   "x": 4198.0960002590855,
+   "y": 2994.0039871145796,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    799,
+    498,
+    1299,
+    998
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71587834",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71587834&imageId=71382119",
+   "panel": "spatial_evidence/Ano2/ccf_71382119.jpg"
+  },
+  {
+   "gene": "Penk",
+   "region": "CP",
+   "experiment_id": 74881286,
+   "image_id": 74826586,
+   "section_number": 314,
+   "x": 4757.128425176103,
+   "y": 3608.7267881976627,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    939,
+    652,
+    1439,
+    1152
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74881286",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74881286&imageId=74826586",
+   "panel": "spatial_evidence/Penk/ccf_74826586.jpg"
+  },
+  {
+   "gene": "Otp",
+   "region": "PVH",
+   "experiment_id": 2454,
+   "image_id": 101358075,
+   "section_number": 265,
+   "x": 3338.1129865843,
+   "y": 3535.9950821071834,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    584,
+    633,
+    1084,
+    1133
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2454",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2454&imageId=101358075",
+   "panel": "spatial_evidence/Otp/ccf_101358075.jpg"
+  },
+  {
+   "gene": "Glp1r",
+   "region": "LSc",
+   "experiment_id": 74511737,
+   "image_id": 74361878,
+   "section_number": 337,
+   "x": 4868.389174956698,
+   "y": 2574.638507021251,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    967,
+    393,
+    1467,
+    893
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511737",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511737&imageId=74361878",
+   "panel": "spatial_evidence/Glp1r/ccf_74361878.jpg"
+  },
+  {
+   "gene": "Gpr161",
+   "region": "CA1sp",
+   "experiment_id": 70562045,
+   "image_id": 70401427,
+   "section_number": 214,
+   "x": 5353.917122994875,
+   "y": 2708.3060879981476,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1088,
+    427,
+    1588,
+    927
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70562045",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562045&imageId=70401427",
+   "panel": "spatial_evidence/Gpr161/ccf_70401427.jpg"
+  },
+  {
+   "gene": "Scn7a",
+   "region": "ME",
+   "experiment_id": 71325432,
+   "image_id": 71206891,
+   "section_number": 144,
+   "x": 7465.426087462485,
+   "y": 6791.474767763487,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1616,
+    1447,
+    2116,
+    1947
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71325432",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71325432&imageId=71206891",
+   "panel": "spatial_evidence/Scn7a/ccf_71206891.jpg"
+  },
+  {
+   "gene": "Clic6",
+   "region": "OT",
+   "experiment_id": 1984,
+   "image_id": 101357494,
+   "section_number": 342,
+   "x": 2652.0589341388986,
+   "y": 4042.3504061656345,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    413,
+    760,
+    913,
+    1080
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1984",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1984&imageId=101357494",
+   "panel": "spatial_evidence/Clic6/ccf_101357494.jpg"
+  },
+  {
+   "gene": "Gal",
+   "region": "PD",
+   "experiment_id": 70231997,
+   "image_id": 69917850,
+   "section_number": 306,
+   "x": 4779.145370770682,
+   "y": 4974.820130671229,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    944,
+    993,
+    1444,
+    1493
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70231997",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70231997&imageId=69917850",
+   "panel": "spatial_evidence/Gal/ccf_69917850.jpg"
+  },
+  {
+   "gene": "Npsr1",
+   "region": "SCO",
+   "experiment_id": 70560288,
+   "image_id": 70390582,
+   "section_number": 230,
+   "x": 5076.420473686265,
+   "y": 2855.1130382236597,
+   "panel": "spatial_evidence/Npsr1/ccf_70390582.jpg"
+  },
+  {
+   "gene": "Nppc",
+   "region": "CU",
+   "experiment_id": 71920453,
+   "image_id": 71827020,
+   "section_number": 156,
+   "x": 12697.248951239953,
+   "y": 4500.37950830527,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2924,
+    875,
+    3424,
+    1375
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71920453",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71920453&imageId=71827020",
+   "panel": "spatial_evidence/Nppc/ccf_71827020.jpg"
+  },
+  {
+   "gene": "Kcng4",
+   "region": "MH",
+   "experiment_id": 72081560,
+   "image_id": 71981486,
+   "section_number": 253,
+   "x": 5227.280487337429,
+   "y": 2834.024040812137,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1056,
+    458,
+    1556,
+    958
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72081560",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72081560&imageId=71981486",
+   "panel": "spatial_evidence/Kcng4/ccf_71981486.jpg"
+  },
+  {
+   "gene": "Trpm6",
+   "region": "AV",
+   "experiment_id": 73907502,
+   "image_id": 73840863,
+   "section_number": 306,
+   "x": 5183.410411098967,
+   "y": 3142.3278356304745,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1045,
+    535,
+    1545,
+    1035
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73907502",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73907502&imageId=73840863",
+   "panel": "spatial_evidence/Trpm6/ccf_73840863.jpg"
+  },
+  {
+   "gene": "Chrna5",
+   "region": "IPR",
+   "experiment_id": 75826567,
+   "image_id": 75708081,
+   "section_number": 214,
+   "x": 5252.637117795084,
+   "y": 4836.418692085238,
+   "panel": "spatial_evidence/Chrna5/ccf_75708081.jpg"
+  },
+  {
+   "gene": "Fzd1",
+   "region": "MH",
+   "experiment_id": 2239,
+   "image_id": 101307290,
+   "section_number": 259,
+   "x": 3360.6699353352487,
+   "y": 2095.8655548876905,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    590,
+    273,
+    1090,
+    773
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2239",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2239&imageId=101307290",
+   "panel": "spatial_evidence/Fzd1/ccf_101307290.jpg"
+  },
+  {
+   "gene": "Htr1b",
+   "region": "CP",
+   "experiment_id": 584,
+   "image_id": 101317059,
+   "section_number": 302,
+   "x": 3050.2921702197036,
+   "y": 2717.661614267596,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    512,
+    429,
+    1012,
+    929
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/584",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=584&imageId=101317059",
+   "panel": "spatial_evidence/Htr1b/ccf_101317059.jpg"
+  },
+  {
+   "gene": "Th",
+   "region": "VTA",
+   "experiment_id": 1056,
+   "image_id": 101322613,
+   "section_number": 175,
+   "x": 3283.256661063411,
+   "y": 3939.1116564110653,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    570,
+    734,
+    1070,
+    1234
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1056",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1056&imageId=101322613",
+   "panel": "spatial_evidence/Th/ccf_101322613.jpg"
+  },
+  {
+   "gene": "Slc17a8",
+   "region": "DR",
+   "experiment_id": 71587918,
+   "image_id": 71424779,
+   "section_number": 148,
+   "x": 4622.043757366569,
+   "y": 2752.3870610402537,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    905,
+    438,
+    1405,
+    938
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71587918",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71587918&imageId=71424779",
+   "panel": "spatial_evidence/Slc17a8/ccf_71424779.jpg"
+  },
+  {
+   "gene": "Chrna6",
+   "region": "IF",
+   "experiment_id": 75551461,
+   "image_id": 75488379,
+   "section_number": 194,
+   "x": 5151.921058959548,
+   "y": 4193.357552386758,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1037,
+    798,
+    1537,
+    1298
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551461",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551461&imageId=75488379",
+   "panel": "spatial_evidence/Chrna6/ccf_75488379.jpg"
+  },
+  {
+   "gene": "Chrna6",
+   "region": "IF",
+   "experiment_id": 75651213,
+   "image_id": 75589023,
+   "section_number": 198,
+   "x": 5141.497971365584,
+   "y": 4696.900032462499,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1035,
+    924,
+    1535,
+    1424
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75651213",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651213&imageId=75589023",
+   "panel": "spatial_evidence/Chrna6/ccf_75589023.jpg"
+  },
+  {
+   "gene": "Sst",
+   "region": "RT",
+   "experiment_id": 1001,
+   "image_id": 101306517,
+   "section_number": 255,
+   "x": 3198.8018881170137,
+   "y": 2781.38467725764,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    549,
+    445,
+    1049,
+    945
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1001",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1001&imageId=101306517",
+   "panel": "spatial_evidence/Sst/ccf_101306517.jpg"
+  },
+  {
+   "gene": "Kcnj5",
+   "region": "PVT",
+   "experiment_id": 72119660,
+   "image_id": 72040840,
+   "section_number": 269,
+   "x": 5613.7749703488125,
+   "y": 5171.275870332954,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1153,
+    1042,
+    1653,
+    1542
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72119660",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72119660&imageId=72040840",
+   "panel": "spatial_evidence/Kcnj5/ccf_72040840.jpg"
+  },
+  {
+   "gene": "Kcna5",
+   "region": "OT",
+   "experiment_id": 75695671,
+   "image_id": 75644170,
+   "section_number": 141,
+   "x": 4823.912672611265,
+   "y": 6354.44286287506,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    955,
+    1338,
+    1455,
+    1838
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75695671",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75695671&imageId=75644170",
+   "panel": "spatial_evidence/Kcna5/ccf_75644170.jpg"
+  },
+  {
+   "gene": "P2rx6",
+   "region": "SCO",
+   "experiment_id": 75551463,
+   "image_id": 75488842,
+   "section_number": 229,
+   "x": 5287.075756240671,
+   "y": 3058.8507138906093,
+   "panel": "spatial_evidence/P2rx6/ccf_75488842.jpg"
+  },
+  {
+   "gene": "Kcne4",
+   "region": "VPM",
+   "experiment_id": 74819245,
+   "image_id": 74729374,
+   "section_number": 258,
+   "x": 5133.195871027655,
+   "y": 3989.7380795455015,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1033,
+    747,
+    1533,
+    1247
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74819245",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74819245&imageId=74729374",
+   "panel": "spatial_evidence/Kcne4/ccf_74729374.jpg"
+  },
+  {
+   "gene": "Fzd7",
+   "region": "MH",
+   "experiment_id": 77932779,
+   "image_id": 77908048,
+   "section_number": 152,
+   "x": 7361.56769649488,
+   "y": 3985.3948288393176,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1590,
+    746,
+    2090,
+    1246
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77932779",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77932779&imageId=77908048",
+   "panel": "spatial_evidence/Fzd7/ccf_77908048.jpg"
+  },
+  {
+   "gene": "Oxt",
+   "region": "SO",
+   "experiment_id": 112648396,
+   "image_id": 112648439,
+   "section_number": 326,
+   "x": 5275.565338431295,
+   "y": 6203.227009107476,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1068,
+    1300,
+    1568,
+    1800
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/112648396",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=112648396&imageId=112648439",
+   "panel": "spatial_evidence/Oxt/ccf_112648439.jpg"
+  },
+  {
+   "gene": "Drd5",
+   "region": "PBG",
+   "experiment_id": 81790710,
+   "image_id": 81763792,
+   "section_number": 152,
+   "x": 9336.492919858516,
+   "y": 3849.5521414528307,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2084,
+    712,
+    2584,
+    1212
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/81790710",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=81790710&imageId=81763792",
+   "panel": "spatial_evidence/Drd5/ccf_81763792.jpg"
+  },
+  {
+   "gene": "Lrrc38",
+   "region": "RT",
+   "experiment_id": 72340184,
+   "image_id": 72167932,
+   "section_number": 285,
+   "x": 5019.756735739744,
+   "y": 4330.98216345164,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1004,
+    832,
+    1504,
+    1332
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72340184",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72340184&imageId=72167932",
+   "panel": "spatial_evidence/Lrrc38/ccf_72167932.jpg"
+  },
+  {
+   "gene": "Agtr1a",
+   "region": "PVH",
+   "experiment_id": 2021,
+   "image_id": 101375688,
+   "section_number": 276,
+   "x": 3148.971674422637,
+   "y": 3460.4946402217297,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    537,
+    615,
+    1037,
+    1115
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2021",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2021&imageId=101375688",
+   "panel": "spatial_evidence/Agtr1a/ccf_101375688.jpg"
+  },
+  {
+   "gene": "Gpr179",
+   "region": "SCO",
+   "experiment_id": 70611084,
+   "image_id": 70380042,
+   "section_number": 144,
+   "x": 7597.63098671708,
+   "y": 2825.3112626403336,
+   "panel": "spatial_evidence/Gpr179/ccf_70380042.jpg"
+  },
+  {
+   "gene": "Gpr179",
+   "region": "SCO",
+   "experiment_id": 73712768,
+   "image_id": 73676761,
+   "section_number": 156,
+   "x": 7675.750666030353,
+   "y": 3127.4851285497616,
+   "panel": "spatial_evidence/Gpr179/ccf_73676761.jpg"
+  },
+  {
+   "gene": "Hcrtr1",
+   "region": "DR",
+   "experiment_id": 77868713,
+   "image_id": 77809016,
+   "section_number": 160,
+   "x": 4891.101169302874,
+   "y": 2711.6100276299785,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    972,
+    427,
+    1472,
+    927
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77868713",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77868713&imageId=77809016",
+   "panel": "spatial_evidence/Hcrtr1/ccf_77809016.jpg"
+  },
+  {
+   "gene": "Htr1d",
+   "region": "OT",
+   "experiment_id": 71393418,
+   "image_id": 71244323,
+   "section_number": 148,
+   "x": 4736.505232709373,
+   "y": 6317.771105742112,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    934,
+    1329,
+    1434,
+    1829
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71393418",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71393418&imageId=71244323",
+   "panel": "spatial_evidence/Htr1d/ccf_71244323.jpg"
+  },
+  {
+   "gene": "Cx3cr1",
+   "region": "SCO",
+   "experiment_id": 1605,
+   "image_id": 101361669,
+   "section_number": 198,
+   "x": 3439.1758104305213,
+   "y": 2032.3945843898434,
+   "panel": "spatial_evidence/Cx3cr1/ccf_101361669.jpg"
+  },
+  {
+   "gene": "Nmbr",
+   "region": "PVT",
+   "experiment_id": 77332086,
+   "image_id": 77328256,
+   "section_number": 300,
+   "x": 5217.299771937035,
+   "y": 3524.5006340813575,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1054,
+    631,
+    1554,
+    1131
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77332086",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77332086&imageId=77328256",
+   "panel": "spatial_evidence/Nmbr/ccf_77328256.jpg"
+  },
+  {
+   "gene": "P2rx5",
+   "region": "V",
+   "experiment_id": 75551475,
+   "image_id": 75503630,
+   "section_number": 146,
+   "x": 4564.404897374972,
+   "y": 4175.782335959876,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    891,
+    793,
+    1391,
+    1293
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551475",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551475&imageId=75503630",
+   "panel": "spatial_evidence/P2rx5/ccf_75503630.jpg"
+  },
+  {
+   "gene": "Chrm5",
+   "region": "PMd",
+   "experiment_id": 75826557,
+   "image_id": 75707940,
+   "section_number": 245,
+   "x": 5210.564829052201,
+   "y": 6011.961729411187,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1052,
+    1252,
+    1552,
+    1752
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75826557",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75826557&imageId=75707940",
+   "panel": "spatial_evidence/Chrm5/ccf_75707940.jpg"
+  },
+  {
+   "gene": "Mc3r",
+   "region": "ARH",
+   "experiment_id": 74511790,
+   "image_id": 74391595,
+   "section_number": 256,
+   "x": 5380.634233246994,
+   "y": 6415.50163253194,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1095,
+    1353,
+    1595,
+    1812
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511790",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511790&imageId=74391595",
+   "panel": "spatial_evidence/Mc3r/ccf_74391595.jpg"
+  },
+  {
+   "gene": "Pmch",
+   "region": "PSTN",
+   "experiment_id": 55,
+   "image_id": 101306490,
+   "section_number": 217,
+   "x": 3317.338217430801,
+   "y": 3666.26399145313,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    579,
+    666,
+    1079,
+    1166
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/55",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=55&imageId=101306490",
+   "panel": "spatial_evidence/Pmch/ccf_101306490.jpg"
+  },
+  {
+   "gene": "Casr",
+   "region": "IF",
+   "experiment_id": 72338697,
+   "image_id": 72144072,
+   "section_number": 190,
+   "x": 4790.803270662408,
+   "y": 4672.453991764883,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    947,
+    918,
+    1447,
+    1418
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72338697",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72338697&imageId=72144072",
+   "panel": "spatial_evidence/Casr/ccf_72144072.jpg"
+  },
+  {
+   "gene": "Fzd9",
+   "region": "AD",
+   "experiment_id": 73907498,
+   "image_id": 73846723,
+   "section_number": 293,
+   "x": 4986.496992352896,
+   "y": 3094.904639161892,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    996,
+    523,
+    1496,
+    1023
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73907498",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73907498&imageId=73846723",
+   "panel": "spatial_evidence/Fzd9/ccf_73846723.jpg"
+  },
+  {
+   "gene": "Ccr9",
+   "region": "LM",
+   "experiment_id": 69237053,
+   "image_id": 69228162,
+   "section_number": 122,
+   "x": 8503.322730510738,
+   "y": 5573.290319711929,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1875,
+    1143,
+    2375,
+    1643
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69237053",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69237053&imageId=69228162",
+   "panel": "spatial_evidence/Ccr9/ccf_69228162.jpg"
+  },
+  {
+   "gene": "Abcc9",
+   "region": "AP",
+   "experiment_id": 76003609,
+   "image_id": 76000981,
+   "section_number": 153,
+   "x": 12828.073947228437,
+   "y": 4333.698587692115,
+   "panel": "spatial_evidence/Abcc9/ccf_76000981.jpg"
+  },
+  {
+   "gene": "Ghsr",
+   "region": "ARH",
+   "experiment_id": 74511739,
+   "image_id": 74396951,
+   "section_number": 248,
+   "x": 5118.618863078715,
+   "y": 8624.664383750225,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1029,
+    1906,
+    1529,
+    2348
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511739",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511739&imageId=74396951",
+   "panel": "spatial_evidence/Ghsr/ccf_74396951.jpg"
+  },
+  {
+   "gene": "Nmu",
+   "region": "TMd",
+   "experiment_id": 72182969,
+   "image_id": 72123434,
+   "section_number": 138,
+   "x": 8367.344220606436,
+   "y": 6340.427943100958,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1841,
+    1335,
+    2341,
+    1824
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72182969",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72182969&imageId=72123434",
+   "panel": "spatial_evidence/Nmu/ccf_72123434.jpg"
+  },
+  {
+   "gene": "Cacna1s",
+   "region": "PVpo",
+   "experiment_id": 70723167,
+   "image_id": 70418965,
+   "section_number": 146,
+   "x": 5486.994260182777,
+   "y": 5689.538419942459,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1121,
+    1172,
+    1621,
+    1672
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70723167",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723167&imageId=70418965",
+   "panel": "spatial_evidence/Cacna1s/ccf_70418965.jpg"
+  },
+  {
+   "gene": "Cacna1s",
+   "region": "PVpo",
+   "experiment_id": 71307208,
+   "image_id": 71162497,
+   "section_number": 149,
+   "x": 6517.1960833335415,
+   "y": 6192.552640308646,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1379,
+    1298,
+    1879,
+    1798
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71307208",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71307208&imageId=71162497",
+   "panel": "spatial_evidence/Cacna1s/ccf_71162497.jpg"
+  },
+  {
+   "gene": "Gpr35",
+   "region": "SCO",
+   "experiment_id": 112649690,
+   "image_id": 112649779,
+   "section_number": 219,
+   "x": 5652.412702886456,
+   "y": 3477.7042439439997,
+   "panel": "spatial_evidence/Gpr35/ccf_112649779.jpg"
+  },
+  {
+   "gene": "P2ry6",
+   "region": "FC",
+   "experiment_id": 1800,
+   "image_id": 101369579,
+   "section_number": 213,
+   "x": 3388.887864729668,
+   "y": 1586.4681633387577,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    597,
+    146,
+    1097,
+    646
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1800",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1800&imageId=101369579",
+   "panel": "spatial_evidence/P2ry6/ccf_101369579.jpg"
+  },
+  {
+   "gene": "Rbp2",
+   "region": "LSc",
+   "experiment_id": 69818042,
+   "image_id": 69785680,
+   "section_number": 157,
+   "x": 5355.559973240577,
+   "y": 3238.29765682469,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1088,
+    559,
+    1588,
+    1059
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69818042",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69818042&imageId=69785680",
+   "panel": "spatial_evidence/Rbp2/ccf_69785680.jpg"
+  },
+  {
+   "gene": "Glra4",
+   "region": "ICd",
+   "experiment_id": 75551476,
+   "image_id": 75503928,
+   "section_number": 132,
+   "x": 4222.177266074918,
+   "y": 1175.0991626214013,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    805,
+    43,
+    1305,
+    543
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551476",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551476&imageId=75503928",
+   "panel": "spatial_evidence/Glra4/ccf_75503928.jpg"
+  },
+  {
+   "gene": "Pkd2l2",
+   "region": "SCO",
+   "experiment_id": 74431278,
+   "image_id": 74347929,
+   "section_number": 141,
+   "x": 8489.966122010015,
+   "y": 2672.3551186876102,
+   "panel": "spatial_evidence/Pkd2l2/ccf_74347929.jpg"
+  },
+  {
+   "gene": "P2rx1",
+   "region": "MMd",
+   "experiment_id": 75890835,
+   "image_id": 75730769,
+   "section_number": 200,
+   "x": 5250.889799563845,
+   "y": 5128.9236621978525,
+   "panel": "spatial_evidence/P2rx1/ccf_75730769.jpg"
+  },
+  {
+   "gene": "Scnn1b",
+   "region": "RO",
+   "experiment_id": 69288321,
+   "image_id": 69244852,
+   "section_number": 136,
+   "x": 12523.489497776513,
+   "y": 6018.489319812332,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2880,
+    1254,
+    3380,
+    1754
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69288321",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69288321&imageId=69244852",
+   "panel": "spatial_evidence/Scnn1b/ccf_69244852.jpg"
+  },
+  {
+   "gene": "Htr6",
+   "region": "OT",
+   "experiment_id": 69257981,
+   "image_id": 69150630,
+   "section_number": 153,
+   "x": 4926.515188723277,
+   "y": 7200.6339804173585,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    981,
+    1550,
+    1481,
+    1920
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257981",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257981&imageId=69150630",
+   "panel": "spatial_evidence/Htr6/ccf_69150630.jpg"
+  },
+  {
+   "gene": "Drd4",
+   "region": "VPM",
+   "experiment_id": 112650336,
+   "image_id": 112650414,
+   "section_number": 250,
+   "x": 5507.890240113031,
+   "y": 4504.2121220789695,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1126,
+    876,
+    1626,
+    1376
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/112650336",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=112650336&imageId=112650414",
+   "panel": "spatial_evidence/Drd4/ccf_112650414.jpg"
+  },
+  {
+   "gene": "Chrnb1",
+   "region": "ME",
+   "experiment_id": 75888752,
+   "image_id": 75725210,
+   "section_number": 254,
+   "x": 5307.984739370911,
+   "y": 7058.408887398956,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1076,
+    1514,
+    1576,
+    1856
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75888752",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75888752&imageId=75725210",
+   "panel": "spatial_evidence/Chrnb1/ccf_75725210.jpg"
+  },
+  {
+   "gene": "Cacng1",
+   "region": "CP",
+   "experiment_id": 69236945,
+   "image_id": 69225935,
+   "section_number": 142,
+   "x": 5833.60798196396,
+   "y": 4195.269568196788,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1208,
+    798,
+    1708,
+    1298
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236945",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236945&imageId=69225935",
+   "panel": "spatial_evidence/Cacng1/ccf_69225935.jpg"
+  },
+  {
+   "gene": "Cacng1",
+   "region": "CP",
+   "experiment_id": 77793163,
+   "image_id": 77787110,
+   "section_number": 154,
+   "x": 5845.602987223088,
+   "y": 3521.0220385369576,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1211,
+    630,
+    1711,
+    1130
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77793163",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77793163&imageId=77787110",
+   "panel": "spatial_evidence/Cacng1/ccf_77787110.jpg"
+  },
+  {
+   "gene": "Prokr1",
+   "region": "SAG",
+   "experiment_id": 74724728,
+   "image_id": 74676148,
+   "section_number": 168,
+   "x": 5083.142243170534,
+   "y": 3218.7220854384805,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1020,
+    554,
+    1520,
+    1054
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74724728",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724728&imageId=74676148",
+   "panel": "spatial_evidence/Prokr1/ccf_74676148.jpg"
+  },
+  {
+   "gene": "Uts2r",
+   "region": "B",
+   "experiment_id": 69288471,
+   "image_id": 69243292,
+   "section_number": 148,
+   "x": 10978.80513696628,
+   "y": 4037.8543762934864,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2494,
+    759,
+    2994,
+    1259
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69288471",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69288471&imageId=69243292",
+   "panel": "spatial_evidence/Uts2r/ccf_69243292.jpg"
+  },
+  {
+   "gene": "P2rx2",
+   "region": "DMX",
+   "experiment_id": 75551473,
+   "image_id": 75503300,
+   "section_number": 56,
+   "x": 3711.521201375637,
+   "y": 4189.011993310617,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    677,
+    797,
+    1177,
+    1297
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551473",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551473&imageId=75503300",
+   "panel": "spatial_evidence/P2rx2/ccf_75503300.jpg"
+  },
+  {
+   "gene": "Trpv1",
+   "region": "SUM",
+   "experiment_id": 69863294,
+   "image_id": 69884697,
+   "section_number": 146,
+   "x": 8413.845894007523,
+   "y": 5047.867630549853,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1853,
+    1011,
+    2353,
+    1511
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863294",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863294&imageId=69884697",
+   "panel": "spatial_evidence/Trpv1/ccf_69884697.jpg"
+  },
+  {
+   "gene": "Trpv1",
+   "region": "SUM",
+   "experiment_id": 80342023,
+   "image_id": 80304042,
+   "section_number": 146,
+   "x": 8505.442140353842,
+   "y": 5600.743651129515,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1876,
+    1150,
+    2376,
+    1650
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/80342023",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=80342023&imageId=80304042",
+   "panel": "spatial_evidence/Trpv1/ccf_80304042.jpg"
+  },
+  {
+   "gene": "Rln1",
+   "region": "DR",
+   "experiment_id": 71020890,
+   "image_id": 70693048,
+   "section_number": 156,
+   "x": 10152.310323356443,
+   "y": 3797.7027199454624,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2288,
+    699,
+    2788,
+    1199
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71020890",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71020890&imageId=70693048",
+   "panel": "spatial_evidence/Rln1/ccf_70693048.jpg"
+  },
+  {
+   "gene": "Hcrt",
+   "region": "LHA",
+   "experiment_id": 79913316,
+   "image_id": 79798209,
+   "section_number": 148,
+   "x": 7340.632258815307,
+   "y": 5657.131041172746,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1585,
+    1164,
+    2085,
+    1664
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79913316",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79913316&imageId=79798209",
+   "panel": "spatial_evidence/Hcrt/ccf_79798209.jpg"
+  },
+  {
+   "gene": "Trpm8",
+   "region": "AD",
+   "experiment_id": 69863284,
+   "image_id": 69884646,
+   "section_number": 145,
+   "x": 6399.561503822371,
+   "y": 3740.6058747075676,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1349,
+    685,
+    1849,
+    1185
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863284",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863284&imageId=69884646",
+   "panel": "spatial_evidence/Trpm8/ccf_69884646.jpg"
+  },
+  {
+   "gene": "Cnr2",
+   "region": "PCN",
+   "experiment_id": 2111,
+   "image_id": 101372546,
+   "section_number": 237,
+   "x": 3322.030777682829,
+   "y": 2664.78063643261,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    580,
+    416,
+    1080,
+    916
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2111",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2111&imageId=101372546",
+   "panel": "spatial_evidence/Cnr2/ccf_101372546.jpg"
+  },
+  {
+   "gene": "Gnrh1",
+   "region": "AVP",
+   "experiment_id": 75080152,
+   "image_id": 75002784,
+   "section_number": 337,
+   "x": 4552.879977047951,
+   "y": 6212.481918579248,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    888,
+    1303,
+    1388,
+    1803
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75080152",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75080152&imageId=75002784",
+   "panel": "spatial_evidence/Gnrh1/ccf_75002784.jpg"
+  },
+  {
+   "gene": "Gpr152",
+   "region": "MH",
+   "experiment_id": 69257474,
+   "image_id": 69239645,
+   "section_number": 141,
+   "x": 7295.494695498548,
+   "y": 2767.984583553934,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1573,
+    441,
+    2073,
+    941
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257474",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257474&imageId=69239645",
+   "panel": "spatial_evidence/Gpr152/ccf_69239645.jpg"
+  },
+  {
+   "gene": "Cxcr5",
+   "region": "ME",
+   "experiment_id": 69835573,
+   "image_id": 69840631,
+   "section_number": 125,
+   "x": 8015.9734711442,
+   "y": 7045.843890413845,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1753,
+    1511,
+    2253,
+    1912
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69835573",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69835573&imageId=69840631",
+   "panel": "spatial_evidence/Cxcr5/ccf_69840631.jpg"
+  },
+  {
+   "gene": "Aplnr",
+   "region": "AP",
+   "experiment_id": 1661,
+   "image_id": 101364764,
+   "section_number": 18,
+   "x": 2308.424435818832,
+   "y": 2581.5581851426095,
+   "panel": "spatial_evidence/Aplnr/ccf_101364764.jpg"
+  },
+  {
+   "gene": "Bdkrb1",
+   "region": "PVpo",
+   "experiment_id": 69236867,
+   "image_id": 69224342,
+   "section_number": 133,
+   "x": 6696.549084881493,
+   "y": 6328.159308371805,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1424,
+    1332,
+    1924,
+    1832
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236867",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236867&imageId=69224342",
+   "panel": "spatial_evidence/Bdkrb1/ccf_69224342.jpg"
+  },
+  {
+   "gene": "Slc22a22",
+   "region": "SUM",
+   "experiment_id": 69261398,
+   "image_id": 69205358,
+   "section_number": 138,
+   "x": 8207.898986069817,
+   "y": 5465.116145447957,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1801,
+    1116,
+    2301,
+    1616
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69261398",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69261398&imageId=69205358",
+   "panel": "spatial_evidence/Slc22a22/ccf_69205358.jpg"
+  },
+  {
+   "gene": "Kcna3",
+   "region": "PBG",
+   "experiment_id": 70723477,
+   "image_id": 70661839,
+   "section_number": 150,
+   "x": 8928.773940056613,
+   "y": 2904.6303058281255,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1982,
+    476,
+    2482,
+    976
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70723477",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723477&imageId=70661839",
+   "panel": "spatial_evidence/Kcna3/ccf_70661839.jpg"
+  },
+  {
+   "gene": "Tmc8",
+   "region": "PBG",
+   "experiment_id": 71587631,
+   "image_id": 71434248,
+   "section_number": 145,
+   "x": 9582.665253065356,
+   "y": 3926.369072586775,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2145,
+    731,
+    2645,
+    1231
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71587631",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71587631&imageId=71434248",
+   "panel": "spatial_evidence/Tmc8/ccf_71434248.jpg"
+  },
+  {
+   "gene": "Qrfp",
+   "region": "PVpo",
+   "experiment_id": 75041585,
+   "image_id": 74951508,
+   "section_number": 318,
+   "x": 4506.387484025745,
+   "y": 5477.563524638749,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    876,
+    1119,
+    1376,
+    1619
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75041585",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75041585&imageId=74951508",
+   "panel": "spatial_evidence/Qrfp/ccf_74951508.jpg"
+  },
+  {
+   "gene": "Mrgprd",
+   "region": "LM",
+   "experiment_id": 76003353,
+   "image_id": 75977062,
+   "section_number": 157,
+   "x": 8416.573539551133,
+   "y": 6093.910303196388,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1854,
+    1273,
+    2354,
+    1773
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/76003353",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=76003353&imageId=75977062",
+   "panel": "spatial_evidence/Mrgprd/ccf_75977062.jpg"
+  },
+  {
+   "gene": "Mcoln3",
+   "region": "PVT",
+   "experiment_id": 75934924,
+   "image_id": 75857293,
+   "section_number": 150,
+   "x": 6056.320166076986,
+   "y": 3971.1066819032226,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1264,
+    742,
+    1764,
+    1242
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75934924",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75934924&imageId=75857293",
+   "panel": "spatial_evidence/Mcoln3/ccf_75857293.jpg"
+  },
+  {
+   "gene": "F2rl3",
+   "region": "OV",
+   "experiment_id": 69256640,
+   "image_id": 69231989,
+   "section_number": 140,
+   "x": 5594.423611492827,
+   "y": 6123.616785930262,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1148,
+    1280,
+    1648,
+    1780
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69256640",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69256640&imageId=69231989",
+   "panel": "spatial_evidence/F2rl3/ccf_69231989.jpg"
+  },
+  {
+   "gene": "Kctd8",
+   "region": "MH",
+   "experiment_id": 71670722,
+   "image_id": 71518440,
+   "section_number": 260,
+   "x": 5435.96589022504,
+   "y": 2947.071515413843,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1108,
+    486,
+    1608,
+    986
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71670722",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71670722&imageId=71518440",
+   "panel": "spatial_evidence/Kctd8/ccf_71518440.jpg"
+  },
+  {
+   "gene": "Nxph4",
+   "region": "TMd",
+   "experiment_id": 73521000,
+   "image_id": 73454908,
+   "section_number": 208,
+   "x": 5054.390627524121,
+   "y": 6421.0858209919425,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1013,
+    1355,
+    1513,
+    1855
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73521000",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73521000&imageId=73454908",
+   "panel": "spatial_evidence/Nxph4/ccf_73454908.jpg"
+  },
+  {
+   "gene": "Htr4",
+   "region": "OT",
+   "experiment_id": 72119658,
+   "image_id": 72040713,
+   "section_number": 348,
+   "x": 4405.012805183756,
+   "y": 5918.921841850495,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    851,
+    1229,
+    1351,
+    1664
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72119658",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72119658&imageId=72040713",
+   "panel": "spatial_evidence/Htr4/ccf_72040713.jpg"
+  },
+  {
+   "gene": "Trpc6",
+   "region": "DG-po",
+   "experiment_id": 70562126,
+   "image_id": 70469226,
+   "section_number": 202,
+   "x": 4823.108087341725,
+   "y": 3620.928419501224,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    955,
+    655,
+    1455,
+    1155
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70562126",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562126&imageId=70469226",
+   "panel": "spatial_evidence/Trpc6/ccf_70469226.jpg"
+  },
+  {
+   "gene": "Gjc1",
+   "region": "LGd-ip",
+   "experiment_id": 77887876,
+   "image_id": 77857734,
+   "section_number": 246,
+   "x": 5211.383147732208,
+   "y": 3379.2454923936343,
+   "panel": "spatial_evidence/Gjc1/ccf_77857734.jpg"
+  },
+  {
+   "gene": "Gabre",
+   "region": "ARH",
+   "experiment_id": 75749417,
+   "image_id": 75647271,
+   "section_number": 266,
+   "x": 4966.263479937352,
+   "y": 6920.57966090226,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    991,
+    1480,
+    1491,
+    1904
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75749417",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75749417&imageId=75647271",
+   "panel": "spatial_evidence/Gabre/ccf_75647271.jpg"
+  },
+  {
+   "gene": "Kcng2",
+   "region": "DG-po",
+   "experiment_id": 74431065,
+   "image_id": 74346364,
+   "section_number": 152,
+   "x": 8885.772832156956,
+   "y": 3438.195444966037,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1971,
+    609,
+    2471,
+    1109
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74431065",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74431065&imageId=74346364",
+   "panel": "spatial_evidence/Kcng2/ccf_74346364.jpg"
+  },
+  {
+   "gene": "Kcnmb2",
+   "region": "RT",
+   "experiment_id": 74635689,
+   "image_id": 74610211,
+   "section_number": 145,
+   "x": 6704.735948132558,
+   "y": 3413.6059656043217,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1426,
+    603,
+    1926,
+    1103
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74635689",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74635689&imageId=74610211",
+   "panel": "spatial_evidence/Kcnmb2/ccf_74610211.jpg"
+  },
+  {
+   "gene": "Cacnb3",
+   "region": "MH",
+   "experiment_id": 70560340,
+   "image_id": 70369023,
+   "section_number": 262,
+   "x": 5112.459635884104,
+   "y": 2928.026267665762,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1028,
+    482,
+    1528,
+    982
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70560340",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560340&imageId=70369023",
+   "panel": "spatial_evidence/Cacnb3/ccf_70369023.jpg"
+  },
+  {
+   "gene": "Pdyn",
+   "region": "ACB",
+   "experiment_id": 71717084,
+   "image_id": 71591621,
+   "section_number": 354,
+   "x": 4238.661322142532,
+   "y": 5217.067214293409,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    809,
+    1054,
+    1309,
+    1554
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71717084",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71717084&imageId=71591621",
+   "panel": "spatial_evidence/Pdyn/ccf_71591621.jpg"
+  },
+  {
+   "gene": "Trpc4",
+   "region": "SH",
+   "experiment_id": 1305,
+   "image_id": 101359468,
+   "section_number": 330,
+   "x": 2758.988769071023,
+   "y": 2142.9796830645932,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    439,
+    285,
+    939,
+    785
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1305",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1305&imageId=101359468",
+   "panel": "spatial_evidence/Trpc4/ccf_101359468.jpg"
+  },
+  {
+   "gene": "Gpr139",
+   "region": "MH",
+   "experiment_id": 79490116,
+   "image_id": 79451925,
+   "section_number": 250,
+   "x": 5179.525828962446,
+   "y": 2607.792259807323,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1044,
+    401,
+    1544,
+    901
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79490116",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79490116&imageId=79451925",
+   "panel": "spatial_evidence/Gpr139/ccf_79451925.jpg"
+  },
+  {
+   "gene": "Kcnma1",
+   "region": "MH",
+   "experiment_id": 74578206,
+   "image_id": 74480011,
+   "section_number": 158,
+   "x": 6905.014480926466,
+   "y": 2784.5973865266997,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1476,
+    446,
+    1976,
+    946
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74578206",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74578206&imageId=74480011",
+   "panel": "spatial_evidence/Kcnma1/ccf_74480011.jpg"
+  },
+  {
+   "gene": "Drd2",
+   "region": "CP",
+   "experiment_id": 357,
+   "image_id": 101322899,
+   "section_number": 264,
+   "x": 2876.631855263398,
+   "y": 2480.2540176730718,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    469,
+    370,
+    969,
+    870
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/357",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=357&imageId=101322899",
+   "panel": "spatial_evidence/Drd2/ccf_101322899.jpg"
+  },
+  {
+   "gene": "Fzd10",
+   "region": "AP",
+   "experiment_id": 77464892,
+   "image_id": 77472374,
+   "section_number": 152,
+   "x": 12223.813075766795,
+   "y": 4844.748426598664,
+   "panel": "spatial_evidence/Fzd10/ccf_77472374.jpg"
+  },
+  {
+   "gene": "Smo",
+   "region": "AP",
+   "experiment_id": 69838516,
+   "image_id": 69857655,
+   "section_number": 136,
+   "x": 12093.682932914373,
+   "y": 4620.018357025795,
+   "panel": "spatial_evidence/Smo/ccf_69857655.jpg"
+  },
+  {
+   "gene": "Smo",
+   "region": "AP",
+   "experiment_id": 80473475,
+   "image_id": 80457044,
+   "section_number": 154,
+   "x": 12063.046864142154,
+   "y": 4943.93200167669,
+   "panel": "spatial_evidence/Smo/ccf_80457044.jpg"
+  },
+  {
+   "gene": "Chrna7",
+   "region": "CA2sp",
+   "experiment_id": 74511738,
+   "image_id": 74362001,
+   "section_number": 250,
+   "x": 4706.720956685991,
+   "y": 2761.4228009819976,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    926,
+    440,
+    1426,
+    940
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511738",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511738&imageId=74362001",
+   "panel": "spatial_evidence/Chrna7/ccf_74362001.jpg"
+  },
+  {
+   "gene": "Gpr176",
+   "region": "SCH",
+   "experiment_id": 74511881,
+   "image_id": 74418868,
+   "section_number": 305,
+   "x": 4936.646969412338,
+   "y": 6386.425781000385,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    984,
+    1346,
+    1484,
+    1846
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74511881",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511881&imageId=74418868",
+   "panel": "spatial_evidence/Gpr176/ccf_74418868.jpg"
+  },
+  {
+   "gene": "Cngb1",
+   "region": "ARH",
+   "experiment_id": 68342354,
+   "image_id": 68020992,
+   "section_number": 124,
+   "x": 9309.053992611392,
+   "y": 7017.562683669206,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2077,
+    1504,
+    2577,
+    1916
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68342354",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68342354&imageId=68020992",
+   "panel": "spatial_evidence/Cngb1/ccf_68020992.jpg"
+  },
+  {
+   "gene": "Cngb1",
+   "region": "ARH",
+   "experiment_id": 69568782,
+   "image_id": 69568084,
+   "section_number": 152,
+   "x": 6395.092191557953,
+   "y": 6098.285876407377,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1348,
+    1274,
+    1848,
+    1774
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69568782",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69568782&imageId=69568084",
+   "panel": "spatial_evidence/Cngb1/ccf_69568084.jpg"
+  },
+  {
+   "gene": "Fzd6",
+   "region": "VPM",
+   "experiment_id": 74047775,
+   "image_id": 73996320,
+   "section_number": 258,
+   "x": 4792.122369758592,
+   "y": 3825.2888050255024,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    948,
+    706,
+    1448,
+    1206
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74047775",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74047775&imageId=73996320",
+   "panel": "spatial_evidence/Fzd6/ccf_73996320.jpg"
+  },
+  {
+   "gene": "Orai2",
+   "region": "DG-po",
+   "experiment_id": 73925718,
+   "image_id": 73861176,
+   "section_number": 205,
+   "x": 5132.360645329476,
+   "y": 3832.048502522072,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1033,
+    708,
+    1533,
+    1208
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73925718",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73925718&imageId=73861176",
+   "panel": "spatial_evidence/Orai2/ccf_73861176.jpg"
+  },
+  {
+   "gene": "Adra2c",
+   "region": "OT",
+   "experiment_id": 70723357,
+   "image_id": 70422259,
+   "section_number": 153,
+   "x": 4797.996918920084,
+   "y": 5763.363753451746,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    949,
+    1190,
+    1449,
+    1690
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70723357",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70723357&imageId=70422259",
+   "panel": "spatial_evidence/Adra2c/ccf_70422259.jpg"
+  },
+  {
+   "gene": "Pnoc",
+   "region": "TMd",
+   "experiment_id": 75038402,
+   "image_id": 74929275,
+   "section_number": 248,
+   "x": 5138.328881798065,
+   "y": 6016.899606112901,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1034,
+    1254,
+    1534,
+    1754
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75038402",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75038402&imageId=74929275",
+   "panel": "spatial_evidence/Pnoc/ccf_74929275.jpg"
+  },
+  {
+   "gene": "Nts",
+   "region": "PMd",
+   "experiment_id": 73788032,
+   "image_id": 73736537,
+   "section_number": 228,
+   "x": 5341.3863651994225,
+   "y": 5985.41953259806,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1085,
+    1246,
+    1585,
+    1746
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73788032",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73788032&imageId=73736537",
+   "panel": "spatial_evidence/Nts/ccf_73736537.jpg"
+  },
+  {
+   "gene": "Calcrl",
+   "region": "MH",
+   "experiment_id": 74988670,
+   "image_id": 74889675,
+   "section_number": 269,
+   "x": 5256.359825662433,
+   "y": 2960.792109839457,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1064,
+    490,
+    1564,
+    990
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74988670",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74988670&imageId=74889675",
+   "panel": "spatial_evidence/Calcrl/ccf_74889675.jpg"
+  },
+  {
+   "gene": "Celsr1",
+   "region": "SCO",
+   "experiment_id": 71307238,
+   "image_id": 71163592,
+   "section_number": 148,
+   "x": 8126.176407293045,
+   "y": 2935.4384417045185,
+   "panel": "spatial_evidence/Celsr1/ccf_71163592.jpg"
+  },
+  {
+   "gene": "Clic5",
+   "region": "MOp6b",
+   "experiment_id": 73636094,
+   "image_id": 73646393,
+   "section_number": 338,
+   "x": 4767.697978142474,
+   "y": 2284.12936833166,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    941,
+    321,
+    1441,
+    821
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73636094",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73636094&imageId=73646393",
+   "panel": "spatial_evidence/Clic5/ccf_73646393.jpg"
+  },
+  {
+   "gene": "Clic5",
+   "region": "MOp6b",
+   "experiment_id": 77874610,
+   "image_id": 77873653,
+   "section_number": 361,
+   "x": 5099.768424537661,
+   "y": 4145.671123811292,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1024,
+    786,
+    1524,
+    1286
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77874610",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77874610&imageId=77873653",
+   "panel": "spatial_evidence/Clic5/ccf_77873653.jpg"
+  },
+  {
+   "gene": "Tpcn1",
+   "region": "AP",
+   "experiment_id": 69262231,
+   "image_id": 69430804,
+   "section_number": 157,
+   "x": 11887.944373338472,
+   "y": 4894.705491717038,
+   "panel": "spatial_evidence/Tpcn1/ccf_69430804.jpg"
+  },
+  {
+   "gene": "Kcnab2",
+   "region": "CA2sp",
+   "experiment_id": 1754,
+   "image_id": 101366566,
+   "section_number": 213,
+   "x": 2839.486268840173,
+   "y": 2049.3308766845353,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    459,
+    262,
+    959,
+    762
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1754",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1754&imageId=101366566",
+   "panel": "spatial_evidence/Kcnab2/ccf_101366566.jpg"
+  },
+  {
+   "gene": "Pth2r",
+   "region": "MGd",
+   "experiment_id": 69863250,
+   "image_id": 69883998,
+   "section_number": 152,
+   "x": 9739.294683519978,
+   "y": 3522.1419718046454,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2184,
+    630,
+    2684,
+    1130
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863250",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863250&imageId=69883998",
+   "panel": "spatial_evidence/Pth2r/ccf_69883998.jpg"
+  },
+  {
+   "gene": "Ryr1",
+   "region": "CP",
+   "experiment_id": 71247657,
+   "image_id": 71093069,
+   "section_number": 322,
+   "x": 4852.398962733938,
+   "y": 3708.237910625785,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    963,
+    677,
+    1463,
+    1177
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71247657",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71247657&imageId=71093069",
+   "panel": "spatial_evidence/Ryr1/ccf_71093069.jpg"
+  },
+  {
+   "gene": "S1pr3",
+   "region": "OV",
+   "experiment_id": 100144871,
+   "image_id": 102233972,
+   "section_number": 145,
+   "x": 6025.998161045392,
+   "y": 6471.335552125915,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1256,
+    1367,
+    1756,
+    1867
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/100144871",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=100144871&imageId=102233972",
+   "panel": "spatial_evidence/S1pr3/ccf_102233972.jpg"
+  },
+  {
+   "gene": "Tacr3",
+   "region": "IPR",
+   "experiment_id": 1297,
+   "image_id": 101354607,
+   "section_number": 174,
+   "x": 3121.1487820089046,
+   "y": 3354.288929734179,
+   "panel": "spatial_evidence/Tacr3/ccf_101354607.jpg"
+  },
+  {
+   "gene": "Kcns2",
+   "region": "PVT",
+   "experiment_id": 71924259,
+   "image_id": 71785306,
+   "section_number": 289,
+   "x": 5226.16418021319,
+   "y": 3272.9099892105087,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1056,
+    568,
+    1556,
+    1068
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71924259",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71924259&imageId=71785306",
+   "panel": "spatial_evidence/Kcns2/ccf_71785306.jpg"
+  },
+  {
+   "gene": "Calcr",
+   "region": "ARH",
+   "experiment_id": 75080999,
+   "image_id": 75034531,
+   "section_number": 252,
+   "x": 5178.360728044507,
+   "y": 6467.8750096258245,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1044,
+    1366,
+    1544,
+    1840
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75080999",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75080999&imageId=75034531",
+   "panel": "spatial_evidence/Calcr/ccf_75034531.jpg"
+  },
+  {
+   "gene": "Kcnj2",
+   "region": "CP",
+   "experiment_id": 77874598,
+   "image_id": 77881596,
+   "section_number": 337,
+   "x": 4596.5623040374085,
+   "y": 3569.930349549746,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    899,
+    642,
+    1399,
+    1142
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77874598",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77874598&imageId=77881596",
+   "panel": "spatial_evidence/Kcnj2/ccf_77881596.jpg"
+  },
+  {
+   "gene": "Kcnj2",
+   "region": "CP",
+   "experiment_id": 79490118,
+   "image_id": 79452247,
+   "section_number": 316,
+   "x": 4863.209933530807,
+   "y": 3278.1342088751467,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    965,
+    569,
+    1465,
+    1069
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79490118",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79490118&imageId=79452247",
+   "panel": "spatial_evidence/Kcnj2/ccf_79452247.jpg"
+  },
+  {
+   "gene": "Lrrc8d",
+   "region": "OV",
+   "experiment_id": 385997,
+   "image_id": 332154,
+   "section_number": 156,
+   "x": 5456.099227106341,
+   "y": 6344.096214363727,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1114,
+    1336,
+    1614,
+    1800
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/385997",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=385997&imageId=332154",
+   "panel": "spatial_evidence/Lrrc8d/ccf_332154.jpg"
+  },
+  {
+   "gene": "Lpar4",
+   "region": "ME",
+   "experiment_id": 69257510,
+   "image_id": 69240403,
+   "section_number": 117,
+   "x": 7663.032360879493,
+   "y": 6179.760923995351,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1665,
+    1294,
+    2165,
+    1676
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69257510",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257510&imageId=69240403",
+   "panel": "spatial_evidence/Lpar4/ccf_69240403.jpg"
+  },
+  {
+   "gene": "Asic4",
+   "region": "SCsg",
+   "experiment_id": 71924089,
+   "image_id": 71757166,
+   "section_number": 181,
+   "x": 5144.774938314449,
+   "y": 796.4601282220465,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1036,
+    0,
+    1536,
+    449
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71924089",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71924089&imageId=71757166",
+   "panel": "spatial_evidence/Asic4/ccf_71757166.jpg"
+  },
+  {
+   "gene": "Cckar",
+   "region": "RT",
+   "experiment_id": 203,
+   "image_id": 101313644,
+   "section_number": 270,
+   "x": 3108.77466779628,
+   "y": 2679.2937710480924,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    527,
+    419,
+    1027,
+    919
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/203",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=203&imageId=101313644",
+   "panel": "spatial_evidence/Cckar/ccf_101313644.jpg"
+  },
+  {
+   "gene": "Htr1a",
+   "region": "DR",
+   "experiment_id": 79556616,
+   "image_id": 79566186,
+   "section_number": 133,
+   "x": 4931.201265924833,
+   "y": 3347.926408718624,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    982,
+    586,
+    1482,
+    1086
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79556616",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79556616&imageId=79566186",
+   "panel": "spatial_evidence/Htr1a/ccf_79566186.jpg"
+  },
+  {
+   "gene": "Galr1",
+   "region": "PVT",
+   "experiment_id": 72283790,
+   "image_id": 72074746,
+   "section_number": 289,
+   "x": 5055.045303064648,
+   "y": 3362.850729310341,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1013,
+    590,
+    1513,
+    1090
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72283790",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72283790&imageId=72074746",
+   "panel": "spatial_evidence/Galr1/ccf_72074746.jpg"
+  },
+  {
+   "gene": "Kcns3",
+   "region": "RT",
+   "experiment_id": 77371817,
+   "image_id": 77376032,
+   "section_number": 290,
+   "x": 4954.4638399306195,
+   "y": 4236.521096323167,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    988,
+    809,
+    1488,
+    1309
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77371817",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77371817&imageId=77376032",
+   "panel": "spatial_evidence/Kcns3/ccf_77376032.jpg"
+  },
+  {
+   "gene": "Agtrap",
+   "region": "SCO",
+   "experiment_id": 69028581,
+   "image_id": 68867655,
+   "section_number": 158,
+   "x": 8336.560694149013,
+   "y": 2687.234847918895,
+   "panel": "spatial_evidence/Agtrap/ccf_68867655.jpg"
+  },
+  {
+   "gene": "Gpr165",
+   "region": "PD",
+   "experiment_id": 70560278,
+   "image_id": 70389857,
+   "section_number": 321,
+   "x": 4807.911746761573,
+   "y": 4541.531855561052,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    951,
+    885,
+    1451,
+    1385
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70560278",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560278&imageId=70389857",
+   "panel": "spatial_evidence/Gpr165/ccf_70389857.jpg"
+  },
+  {
+   "gene": "Asic1",
+   "region": "MH",
+   "experiment_id": 71654154,
+   "image_id": 71494997,
+   "section_number": 148,
+   "x": 7862.79584031016,
+   "y": 2600.54322916458,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1715,
+    400,
+    2215,
+    900
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71654154",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71654154&imageId=71494997",
+   "panel": "spatial_evidence/Asic1/ccf_71494997.jpg"
+  },
+  {
+   "gene": "Gpr182",
+   "region": "LM",
+   "experiment_id": 69236783,
+   "image_id": 69084529,
+   "section_number": 122,
+   "x": 8331.58028919545,
+   "y": 5490.6244635605735,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1832,
+    1122,
+    2332,
+    1622
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236783",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236783&imageId=69084529",
+   "panel": "spatial_evidence/Gpr182/ccf_69084529.jpg"
+  },
+  {
+   "gene": "Pomc",
+   "region": "ARH",
+   "experiment_id": 2493,
+   "image_id": 101357697,
+   "section_number": 243,
+   "x": 3405.66035315757,
+   "y": 4544.852366336947,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    601,
+    886,
+    1101,
+    1222
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2493",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2493&imageId=101357697",
+   "panel": "spatial_evidence/Pomc/ccf_101357697.jpg"
+  },
+  {
+   "gene": "Adm",
+   "region": "ME",
+   "experiment_id": 74819251,
+   "image_id": 74721590,
+   "section_number": 266,
+   "x": 4964.206975830732,
+   "y": 6661.6536858388845,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    991,
+    1415,
+    1491,
+    1912
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74819251",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74819251&imageId=74721590",
+   "panel": "spatial_evidence/Adm/ccf_74721590.jpg"
+  },
+  {
+   "gene": "Mchr1",
+   "region": "CA2sp",
+   "experiment_id": 74724669,
+   "image_id": 74649033,
+   "section_number": 244,
+   "x": 4603.074193651935,
+   "y": 3282.5876795739323,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    900,
+    570,
+    1400,
+    1070
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74724669",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74724669&imageId=74649033",
+   "panel": "spatial_evidence/Mchr1/ccf_74649033.jpg"
+  },
+  {
+   "gene": "Hcar1",
+   "region": "LM",
+   "experiment_id": 77464856,
+   "image_id": 77469822,
+   "section_number": 152,
+   "x": 8196.344109386057,
+   "y": 5553.674060191234,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1799,
+    1138,
+    2299,
+    1638
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77464856",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77464856&imageId=77469822",
+   "panel": "spatial_evidence/Hcar1/ccf_77469822.jpg"
+  },
+  {
+   "gene": "Tmco1",
+   "region": "AP",
+   "experiment_id": 386233,
+   "image_id": 343497,
+   "section_number": 144,
+   "x": 13218.568432392867,
+   "y": 4799.3254370977675,
+   "panel": "spatial_evidence/Tmco1/ccf_343497.jpg"
+  },
+  {
+   "gene": "Trpm4",
+   "region": "MH",
+   "experiment_id": 69863273,
+   "image_id": 69884304,
+   "section_number": 158,
+   "x": 7470.571216148275,
+   "y": 2790.0238495453796,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1617,
+    447,
+    2117,
+    947
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863273",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863273&imageId=69884304",
+   "panel": "spatial_evidence/Trpm4/ccf_69884304.jpg"
+  },
+  {
+   "gene": "Grina",
+   "region": "CA2sp",
+   "experiment_id": 1948,
+   "image_id": 101370852,
+   "section_number": 208,
+   "x": 3119.6370008593076,
+   "y": 2063.8417189608554,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    529,
+    265,
+    1029,
+    765
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1948",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1948&imageId=101370852",
+   "panel": "spatial_evidence/Grina/ccf_101370852.jpg"
+  },
+  {
+   "gene": "Pkd2",
+   "region": "ME",
+   "experiment_id": 69863247,
+   "image_id": 69883218,
+   "section_number": 148,
+   "x": 7247.267614099227,
+   "y": 7263.047363984304,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1561,
+    1565,
+    2061,
+    1820
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69863247",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69863247&imageId=69883218",
+   "panel": "spatial_evidence/Pkd2/ccf_69883218.jpg"
+  },
+  {
+   "gene": "Ptgdr",
+   "region": "AP",
+   "experiment_id": 75233665,
+   "image_id": 75142766,
+   "section_number": 138,
+   "x": 13123.763630446618,
+   "y": 4734.915247780515,
+   "panel": "spatial_evidence/Ptgdr/ccf_75142766.jpg"
+  },
+  {
+   "gene": "Tmem38b",
+   "region": "DG-po",
+   "experiment_id": 68301664,
+   "image_id": 68067843,
+   "section_number": 145,
+   "x": 8335.7505122008,
+   "y": 3606.855427194456,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1833,
+    651,
+    2333,
+    1151
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68301664",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68301664&imageId=68067843",
+   "panel": "spatial_evidence/Tmem38b/ccf_68067843.jpg"
+  },
+  {
+   "gene": "Avpr1a",
+   "region": "LSc",
+   "experiment_id": 74641316,
+   "image_id": 74529991,
+   "section_number": 333,
+   "x": 4538.0363117450415,
+   "y": 2353.95767245829,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    884,
+    338,
+    1384,
+    838
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74641316",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641316&imageId=74529991",
+   "panel": "spatial_evidence/Avpr1a/ccf_74529991.jpg"
+  },
+  {
+   "gene": "Kcnq4",
+   "region": "ICc",
+   "experiment_id": 73635775,
+   "image_id": 73544340,
+   "section_number": 118,
+   "x": 4477.341504616745,
+   "y": 1522.4165773817917,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    869,
+    130,
+    1369,
+    630
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/73635775",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=73635775&imageId=73544340",
+   "panel": "spatial_evidence/Kcnq4/ccf_73544340.jpg"
+  },
+  {
+   "gene": "Kcnd1",
+   "region": "V",
+   "experiment_id": 69258011,
+   "image_id": 69147767,
+   "section_number": 152,
+   "x": 10536.536500191469,
+   "y": 4359.169466078732,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2384,
+    839,
+    2884,
+    1339
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69258011",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258011&imageId=69147767",
+   "panel": "spatial_evidence/Kcnd1/ccf_69147767.jpg"
+  },
+  {
+   "gene": "Kcnd1",
+   "region": "V",
+   "experiment_id": 74300867,
+   "image_id": 74271378,
+   "section_number": 158,
+   "x": 10088.451221990326,
+   "y": 5055.365386062268,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2272,
+    1013,
+    2772,
+    1513
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74300867",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74300867&imageId=74271378",
+   "panel": "spatial_evidence/Kcnd1/ccf_74271378.jpg"
+  },
+  {
+   "gene": "Best1",
+   "region": "MEPO",
+   "experiment_id": 70302992,
+   "image_id": 70133119,
+   "section_number": 150,
+   "x": 5388.950212120457,
+   "y": 4632.336224908511,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1097,
+    908,
+    1597,
+    1408
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70302992",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70302992&imageId=70133119",
+   "panel": "spatial_evidence/Best1/ccf_70133119.jpg"
+  },
+  {
+   "gene": "Tmem37",
+   "region": "OV",
+   "experiment_id": 68666750,
+   "image_id": 68240470,
+   "section_number": 128,
+   "x": 5326.444142692227,
+   "y": 5712.297152366976,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1081,
+    1178,
+    1581,
+    1616
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68666750",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68666750&imageId=68240470",
+   "panel": "spatial_evidence/Tmem37/ccf_68240470.jpg"
+  },
+  {
+   "gene": "Crhr2",
+   "region": "DR",
+   "experiment_id": 79907934,
+   "image_id": 79815718,
+   "section_number": 132,
+   "x": 4773.610181659688,
+   "y": 2851.5954569991327,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    943,
+    462,
+    1443,
+    962
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79907934",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79907934&imageId=79815718",
+   "panel": "spatial_evidence/Crhr2/ccf_79815718.jpg"
+  },
+  {
+   "gene": "Ghrh",
+   "region": "PVpo",
+   "experiment_id": 496,
+   "image_id": 101341293,
+   "section_number": 298,
+   "x": 3013.686245463323,
+   "y": 3967.1296335743073,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    503,
+    741,
+    1003,
+    1114
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/496",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=496&imageId=101341293",
+   "panel": "spatial_evidence/Ghrh/ccf_101341293.jpg"
+  },
+  {
+   "gene": "Mrgprf",
+   "region": "LM",
+   "experiment_id": 79541444,
+   "image_id": 79548998,
+   "section_number": 152,
+   "x": 8312.510712072042,
+   "y": 6244.790281340463,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1828,
+    1311,
+    2328,
+    1811
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/79541444",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=79541444&imageId=79548998",
+   "panel": "spatial_evidence/Mrgprf/ccf_79548998.jpg"
+  },
+  {
+   "gene": "Npbwr1",
+   "region": "PS",
+   "experiment_id": 70565993,
+   "image_id": 70465928,
+   "section_number": 122,
+   "x": 5411.392560770601,
+   "y": 5804.0769476142805,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1102,
+    1201,
+    1602,
+    1701
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/70565993",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=70565993&imageId=70465928",
+   "panel": "spatial_evidence/Npbwr1/ccf_70465928.jpg"
+  },
+  {
+   "gene": "Mc5r",
+   "region": "LM",
+   "experiment_id": 69258142,
+   "image_id": 69151041,
+   "section_number": 153,
+   "x": 8344.85903226984,
+   "y": 5603.365972452882,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1836,
+    1150,
+    2336,
+    1650
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69258142",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258142&imageId=69151041",
+   "panel": "spatial_evidence/Mc5r/ccf_69151041.jpg"
+  },
+  {
+   "gene": "Adora2b",
+   "region": "SCO",
+   "experiment_id": 69855773,
+   "image_id": 69882909,
+   "section_number": 150,
+   "x": 8186.9654328273655,
+   "y": 2670.4889149642854,
+   "panel": "spatial_evidence/Adora2b/ccf_69882909.jpg"
+  },
+  {
+   "gene": "Gpr17",
+   "region": "LT",
+   "experiment_id": 74641313,
+   "image_id": 74529351,
+   "section_number": 217,
+   "x": 4553.2750598249095,
+   "y": 3484.7945730308734,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    888,
+    621,
+    1388,
+    1121
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74641313",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74641313&imageId=74529351",
+   "panel": "spatial_evidence/Gpr17/ccf_74529351.jpg"
+  },
+  {
+   "gene": "S1pr2",
+   "region": "ME",
+   "experiment_id": 69237215,
+   "image_id": 69230685,
+   "section_number": 134,
+   "x": 7750.8549433881535,
+   "y": 7636.7761480232875,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1687,
+    1659,
+    2187,
+    2128
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69237215",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69237215&imageId=69230685",
+   "panel": "spatial_evidence/S1pr2/ccf_69230685.jpg"
+  },
+  {
+   "gene": "Gper1",
+   "region": "MMd",
+   "experiment_id": 80342021,
+   "image_id": 80303991,
+   "section_number": 145,
+   "x": 8585.992162559594,
+   "y": 5837.973670531292,
+   "panel": "spatial_evidence/Gper1/ccf_80303991.jpg"
+  },
+  {
+   "gene": "Bdkrb2",
+   "region": "LC",
+   "experiment_id": 69236873,
+   "image_id": 69224393,
+   "section_number": 134,
+   "x": 10859.935914212198,
+   "y": 3967.4620908669585,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2464,
+    741,
+    2964,
+    1241
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69236873",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236873&imageId=69224393",
+   "panel": "spatial_evidence/Bdkrb2/ccf_69224393.jpg"
+  },
+  {
+   "gene": "Gpr1",
+   "region": "TMd",
+   "experiment_id": 68744743,
+   "image_id": 68376540,
+   "section_number": 129,
+   "x": 8652.733541159734,
+   "y": 6448.866914968022,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1913,
+    1362,
+    2413,
+    1804
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/68744743",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=68744743&imageId=68376540",
+   "panel": "spatial_evidence/Gpr1/ccf_68376540.jpg"
+  },
+  {
+   "gene": "Cmklr1",
+   "region": "ME",
+   "experiment_id": 72340129,
+   "image_id": 72162799,
+   "section_number": 249,
+   "x": 9242.589661094886,
+   "y": 8160.1167128116995,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2060,
+    1790,
+    2560,
+    2144
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72340129",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72340129&imageId=72162799",
+   "panel": "spatial_evidence/Cmklr1/ccf_72162799.jpg"
+  },
+  {
+   "gene": "Lhcgr",
+   "region": "IMD",
+   "experiment_id": 72283794,
+   "image_id": 72070930,
+   "section_number": 262,
+   "x": 5320.934013141241,
+   "y": 4055.080269830067,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1080,
+    763,
+    1580,
+    1263
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/72283794",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=72283794&imageId=72070930",
+   "panel": "spatial_evidence/Lhcgr/ccf_72070930.jpg"
+  },
+  {
+   "gene": "Lhcgr",
+   "region": "IMD",
+   "experiment_id": 77869818,
+   "image_id": 77877177,
+   "section_number": 269,
+   "x": 5222.073490594063,
+   "y": 3800.0290642154705,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1055,
+    700,
+    1555,
+    1200
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77869818",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77869818&imageId=77877177",
+   "panel": "spatial_evidence/Lhcgr/ccf_77877177.jpg"
+  },
+  {
+   "gene": "Gpr63",
+   "region": "CA1sp",
+   "experiment_id": 74277675,
+   "image_id": 74255088,
+   "section_number": 158,
+   "x": 9086.234262002947,
+   "y": 2071.759859799004,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    2021,
+    267,
+    2521,
+    767
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/74277675",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=74277675&imageId=74255088",
+   "panel": "spatial_evidence/Gpr63/ccf_74255088.jpg"
+  },
+  {
+   "gene": "Gpr20",
+   "region": "MMd",
+   "experiment_id": 69857606,
+   "image_id": 69888485,
+   "section_number": 150,
+   "x": 8258.384535173695,
+   "y": 5658.89308924216,
+   "panel": "spatial_evidence/Gpr20/ccf_69888485.jpg"
+  },
+  {
+   "gene": "Tbxa2r",
+   "region": "MMd",
+   "experiment_id": 69288363,
+   "image_id": 69245470,
+   "section_number": 145,
+   "x": 8681.349571358447,
+   "y": 5664.422516066525,
+   "panel": "spatial_evidence/Tbxa2r/ccf_69245470.jpg"
+  },
+  {
+   "gene": "Gpr157",
+   "region": "AD",
+   "experiment_id": 69256646,
+   "image_id": 69232034,
+   "section_number": 125,
+   "x": 6707.996470551289,
+   "y": 3691.9733182412324,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1426,
+    672,
+    1926,
+    1172
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69256646",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69256646&imageId=69232034",
+   "panel": "spatial_evidence/Gpr157/ccf_69232034.jpg"
+  },
+  {
+   "gene": "Kcnj8",
+   "region": "LIN",
+   "experiment_id": 2343,
+   "image_id": 101360768,
+   "section_number": 44,
+   "x": 2746.684754469943,
+   "y": 3639.240240331984,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    436,
+    659,
+    936,
+    1062
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/2343",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=2343&imageId=101360768",
+   "panel": "spatial_evidence/Kcnj8/ccf_101360768.jpg"
+  },
+  {
+   "gene": "Fshr",
+   "region": "PSTN",
+   "experiment_id": 71307340,
+   "image_id": 71179232,
+   "section_number": 154,
+   "x": 7662.726159601362,
+   "y": 5105.045920131998,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1665,
+    1026,
+    2165,
+    1526
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/71307340",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=71307340&imageId=71179232",
+   "panel": "spatial_evidence/Fshr/ccf_71179232.jpg"
+  },
+  {
+   "gene": "Scnn1g",
+   "region": "POST",
+   "experiment_id": 1918,
+   "image_id": 101364162,
+   "section_number": 143,
+   "x": 2993.7719500532,
+   "y": 1475.6948327793048,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    498,
+    118,
+    998,
+    618
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/1918",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=1918&imageId=101364162",
+   "panel": "spatial_evidence/Scnn1g/ccf_101364162.jpg"
+  },
+  {
+   "gene": "Tmc5",
+   "region": "ARH",
+   "experiment_id": 69981067,
+   "image_id": 69892022,
+   "section_number": 152,
+   "x": 7565.934179670737,
+   "y": 7458.328352248327,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1641,
+    1614,
+    2141,
+    2032
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69981067",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69981067&imageId=69892022",
+   "panel": "spatial_evidence/Tmc5/ccf_69892022.jpg"
+  },
+  {
+   "gene": "Kcnk7",
+   "region": "SCO",
+   "experiment_id": 73496923,
+   "image_id": 72580556,
+   "section_number": 157,
+   "x": 7698.855965817782,
+   "y": 2999.4379919000307,
+   "panel": "spatial_evidence/Kcnk7/ccf_72580556.jpg"
+  },
+  {
+   "gene": "Opn1mw",
+   "region": "TMd",
+   "experiment_id": 79360270,
+   "image_id": 79362348,
+   "section_number": 156,
+   "x": 7704.870465582289,
+   "y": 6308.4756699920745,
+   "panel": "spatial_evidence/Opn1mw/ccf_79362348.jpg"
+  },
+  {
+   "gene": "Rrh",
+   "region": "OV",
+   "experiment_id": 69012674,
+   "image_id": 68839634,
+   "section_number": 142,
+   "x": 5871.776678279482,
+   "y": 5831.090516984129,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1217,
+    1207,
+    1717,
+    1672
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69012674",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69012674&imageId=68839634",
+   "panel": "spatial_evidence/Rrh/ccf_68839634.jpg"
+  },
+  {
+   "gene": "Gprc5a",
+   "region": "OV",
+   "experiment_id": 77414145,
+   "image_id": 77420949,
+   "section_number": 341,
+   "x": 4718.166918418069,
+   "y": 5448.24923350304,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    929,
+    1112,
+    1429,
+    1612
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/77414145",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=77414145&imageId=77420949",
+   "panel": "spatial_evidence/Gprc5a/ccf_77420949.jpg"
+  },
+  {
+   "gene": "Oxgr1",
+   "region": "PVpo",
+   "experiment_id": 69860841,
+   "image_id": 69886093,
+   "section_number": 157,
+   "x": 6037.427325617395,
+   "y": 5610.687426439004,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1259,
+    1152,
+    1759,
+    1652
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/69860841",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=69860841&imageId=69886093",
+   "panel": "spatial_evidence/Oxgr1/ccf_69886093.jpg"
+  },
+  {
+   "gene": "Pkd1l1",
+   "region": "ARH",
+   "experiment_id": 75990411,
+   "image_id": 75904287,
+   "section_number": 156,
+   "x": 7697.982438906388,
+   "y": 6933.2605675417435,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1674,
+    1483,
+    2174,
+    1952
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75990411",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75990411&imageId=75904287",
+   "panel": "spatial_evidence/Pkd1l1/ccf_75904287.jpg"
+  },
+  {
+   "gene": "Chrna1",
+   "region": "CA2sp",
+   "experiment_id": 75551465,
+   "image_id": 75486689,
+   "section_number": 240,
+   "x": 4819.94928391346,
+   "y": 3208.8881342500363,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    954,
+    552,
+    1454,
+    1052
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/75551465",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551465&imageId=75486689",
+   "panel": "spatial_evidence/Chrna1/ccf_75486689.jpg"
+  },
+  {
+   "gene": "Cnga4",
+   "region": "PT",
+   "experiment_id": 76081091,
+   "image_id": 76039843,
+   "section_number": 145,
+   "x": 6857.53291341366,
+   "y": 4003.9011968497944,
+   "window_mm": 2.0,
+   "crop_box_downsample2": [
+    1464,
+    750,
+    1964,
+    1250
+   ],
+   "experiment_url": "https://mouse.brain-map.org/experiment/show/76081091",
+   "image_url": "https://mouse.brain-map.org/experiment/siv?id=76081091&imageId=76039843",
+   "panel": "spatial_evidence/Cnga4/ccf_76039843.jpg"
+  },
+  {
+   "gene": "Trpa1",
+   "region": "RL",
+   "experiment_id": 70230939,
+   "image_id": 70006732,
+   "section_number": 146,
+   "x": 8923.504239104252,
+   "y": 4231.303212239778,
+   "panel": "spatial_evidence/Trpa1/ccf_70006732.jpg"
+  }
+ ],
+ "failures": [
+  [
+   "Chrnb4",
+   "no section could be located"
+  ],
+  [
+   "Nppa",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Mtnr1a",
+   "no section could be located"
+  ],
+  [
+   "Spx",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Gpr52",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Asic3",
+   "no section could be located"
+  ],
+  [
+   "Nps",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Opn4",
+   "no section could be located"
+  ],
+  [
+   "Tpte",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Mrgpra6",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Gm14496",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Ucn2",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Npffr1",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrv1",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrg2",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Piezo2",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Cnga3",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Aqp6",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrf2",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgre1",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrg5",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrg3",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Calhm6",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Kcne1",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Fpr3",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrf5",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Calhm5",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Adgrf4",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ],
+  [
+   "Best3",
+   "no usable Allen ISH experiment (none, or all flagged failed)"
+  ]
+ ]
+}

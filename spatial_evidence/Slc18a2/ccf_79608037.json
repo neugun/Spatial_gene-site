@@ -1,0 +1,18 @@
+{
+ "gene": "Slc18a2",
+ "region": "DR",
+ "experiment_id": 79591703,
+ "image_id": 79608037,
+ "section_number": 140,
+ "x": 4609.982084143661,
+ "y": 3361.084462200728,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  902,
+  590,
+  1402,
+  1090
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79591703",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591703&imageId=79608037"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Calcrl",
+ "region": "MH",
+ "experiment_id": 74988670,
+ "image_id": 74889675,
+ "section_number": 269,
+ "x": 5256.359825662433,
+ "y": 2960.792109839457,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1064,
+  490,
+  1564,
+  990
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74988670",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74988670&imageId=74889675"
+}

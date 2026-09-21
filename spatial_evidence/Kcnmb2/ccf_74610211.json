@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnmb2",
+ "region": "RT",
+ "experiment_id": 74635689,
+ "image_id": 74610211,
+ "section_number": 145,
+ "x": 6704.735948132558,
+ "y": 3413.6059656043217,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1426,
+  603,
+  1926,
+  1103
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74635689",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74635689&imageId=74610211"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "P2rx1",
+ "region": "MMd",
+ "experiment_id": 75890835,
+ "image_id": 75730769,
+ "section_number": 200,
+ "x": 5250.889799563845,
+ "y": 5128.9236621978525,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1062,
+  1032,
+  1562,
+  1532
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75890835",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75890835&imageId=75730769"
+}

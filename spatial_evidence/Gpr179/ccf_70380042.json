@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr179",
+ "region": "SCO",
+ "experiment_id": 70611084,
+ "image_id": 70380042,
+ "section_number": 144,
+ "x": 7597.63098671708,
+ "y": 2825.3112626403336,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1649,
+  456,
+  2149,
+  956
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70611084",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70611084&imageId=70380042"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnj14",
+ "region": "V",
+ "experiment_id": 75651203,
+ "image_id": 75588852,
+ "section_number": 133,
+ "x": 4914.951167284416,
+ "y": 3812.329424030864,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  978,
+  703,
+  1478,
+  1203
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75651203",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75651203&imageId=75588852"
+}

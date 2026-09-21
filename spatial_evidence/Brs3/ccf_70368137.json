@@ -1,0 +1,18 @@
+{
+ "gene": "Brs3",
+ "region": "PD",
+ "experiment_id": 70560328,
+ "image_id": 70368137,
+ "section_number": 320,
+ "x": 8746.836380499233,
+ "y": 5204.390390220558,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1936,
+  1051,
+  2436,
+  1551
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70560328",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70560328&imageId=70368137"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Scnn1g",
+ "region": "POST",
+ "experiment_id": 1918,
+ "image_id": 101364162,
+ "section_number": 143,
+ "x": 2993.7719500532,
+ "y": 1475.6948327793048,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  498,
+  118,
+  998,
+  618
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1918",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1918&imageId=101364162"
+}

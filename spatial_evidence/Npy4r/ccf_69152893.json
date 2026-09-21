@@ -1,0 +1,18 @@
+{
+ "gene": "Npy4r",
+ "region": "IO",
+ "experiment_id": 69258316,
+ "image_id": 69152893,
+ "section_number": 149,
+ "x": 12196.320588493621,
+ "y": 6358.0042115053975,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2799,
+  1339,
+  3299,
+  1839
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69258316",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69258316&imageId=69152893"
+}

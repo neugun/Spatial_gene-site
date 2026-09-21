@@ -1,0 +1,18 @@
+{
+ "gene": "Oxgr1",
+ "region": "PVpo",
+ "experiment_id": 69860841,
+ "image_id": 69886093,
+ "section_number": 157,
+ "x": 6037.427325617395,
+ "y": 5610.687426439004,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1259,
+  1152,
+  1759,
+  1652
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69860841",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69860841&imageId=69886093"
+}

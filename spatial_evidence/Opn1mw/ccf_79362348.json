@@ -1,0 +1,18 @@
+{
+ "gene": "Opn1mw",
+ "region": "TMd",
+ "experiment_id": 79360270,
+ "image_id": 79362348,
+ "section_number": 156,
+ "x": 7704.870465582289,
+ "y": 6308.4756699920745,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1676,
+  1327,
+  2176,
+  1827
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79360270",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79360270&imageId=79362348"
+}

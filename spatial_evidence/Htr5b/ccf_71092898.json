@@ -1,0 +1,18 @@
+{
+ "gene": "Htr5b",
+ "region": "MH",
+ "experiment_id": 71247644,
+ "image_id": 71092898,
+ "section_number": 257,
+ "x": 5104.58736331794,
+ "y": 3180.1486278211373,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1026,
+  545,
+  1526,
+  1045
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71247644",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71247644&imageId=71092898"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Fzd7",
+ "region": "MH",
+ "experiment_id": 77932779,
+ "image_id": 77908048,
+ "section_number": 152,
+ "x": 7361.56769649488,
+ "y": 3985.3948288393176,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1590,
+  746,
+  2090,
+  1246
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/77932779",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=77932779&imageId=77908048"
+}

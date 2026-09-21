@@ -1,0 +1,18 @@
+{
+ "gene": "Grina",
+ "region": "CA2sp",
+ "experiment_id": 1948,
+ "image_id": 101370852,
+ "section_number": 208,
+ "x": 3119.6370008593076,
+ "y": 2063.8417189608554,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  529,
+  265,
+  1029,
+  765
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1948",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1948&imageId=101370852"
+}

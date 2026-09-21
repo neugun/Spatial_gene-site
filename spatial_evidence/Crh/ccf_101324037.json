@@ -1,0 +1,18 @@
+{
+ "gene": "Crh",
+ "region": "IO",
+ "experiment_id": 292,
+ "image_id": 101324037,
+ "section_number": 30,
+ "x": 2675.3900309474816,
+ "y": 4216.559786663183,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  418,
+  804,
+  918,
+  1165
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/292",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=292&imageId=101324037"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr161",
+ "region": "CA1sp",
+ "experiment_id": 70562045,
+ "image_id": 70401427,
+ "section_number": 214,
+ "x": 5353.917122994875,
+ "y": 2708.3060879981476,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1088,
+  427,
+  1588,
+  927
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70562045",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562045&imageId=70401427"
+}

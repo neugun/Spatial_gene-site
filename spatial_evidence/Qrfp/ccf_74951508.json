@@ -1,0 +1,18 @@
+{
+ "gene": "Qrfp",
+ "region": "PVpo",
+ "experiment_id": 75041585,
+ "image_id": 74951508,
+ "section_number": 318,
+ "x": 4506.387484025745,
+ "y": 5477.563524638749,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  876,
+  1119,
+  1376,
+  1619
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75041585",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75041585&imageId=74951508"
+}

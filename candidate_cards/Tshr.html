@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Tshr: predicted fine-region profile is strict-exclusive, with 9 positive regions out of 554 (limit 12); direct spatial validation is required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in ME: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Tshr encodes the thyroid-stimulating hormone receptor, a leucine-rich-repeat class-A GPCR with a large hormone-binding ectodomain. TSH binding activates Gs-cAMP-PKA and, at higher occupancy, Gq-PLC. Outside the thyroid, TSHR on hypothalamic tanycytes reads TSH released locally from the pituitary pars tuberalis.</dd>
+<dt>Region function</dt><dd>The median eminence and adjacent pars tuberalis form the neurohaemal hub where tanycytes, portal capillaries and neurosecretory terminals meet; tanycytes locally convert thyroid hormone and gate GnRH and TRH access to portal blood.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-direct">direct</span> Direct and well developed. Ono et al. 2008 (PNAS) showed long photoperiod induces pars tuberalis Tshb and that TSH acting on TSHR in the mediobasal hypothalamus/median eminence induces Dio2 and suppresses Dio3, raising local T3. Bolborea et al. 2015 (J Mol Endocrinol) showed tanycyte TSHR signals via both cAMP and Ca2+/PKC. Kameda 2023 (J Comp Neurol) documented photoperiod-dependent tanycyte and pars tuberalis changes; Rodriguez-Rodriguez et al. 2019 reviewed tanycyte control of TRH flux into portal capillaries.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: TSHR converts the melatonin-decoded photoperiod signal into intra-hypothalamic T3 by switching the tanycyte Dio2/Dio3 balance, remodelling end-feet around GnRH terminals and gating seasonality. Tanycyte-selective Tshr deletion should abolish long-day Dio2 induction and block photoperiodic gonadal activation; local TSH infusion or tanycyte Gs-DREADD activation should mimic a summer state with raised T3 and gonadal recrudescence.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9734;&#9734;&#9734;&#9734; 1/5</span> TSHR signalling in tanycytes of the median eminence is the textbook mechanism of mammalian photoperiodism and has been studied for nearly two decades.</dd>
+<dt>Tools</dt><dd>Tshr knockout and hyt/hyt mice; floxed Tshr alleles; tanycyte drivers Rax-CreERT2 and Dio2/Gpr50 promoters with ICV AAV1; recombinant bovine TSH for ICV infusion; anti-TSHR antibodies; TSHR small-molecule agonists/antagonists.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/19015516/" target="_blank" rel="noopener">Ono H et al. 2008, PNAS</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/25878058/" target="_blank" rel="noopener">Bolborea M et al. 2015, Journal of Molecular Endocrinology</a></li><li><a href="https://doi.org/10.1002/cne.25555" target="_blank" rel="noopener">Kameda Y 2023, Journal of Comparative Neurology</a></li><li><a href="https://doi.org/10.3389/fendo.2019.00401" target="_blank" rel="noopener">Rodriguez-Rodriguez A et al. 2019, Frontiers in Endocrinology</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Tshr/ccf_80444872.jpg" alt="Tshr Allen ISH at the CCF centroid of ME">
+<p class="cap">Allen ISH experiment 80471957, section image 80444872 (section 144): the section that contains the CCF centroid of Median eminence according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=80471957&imageId=80444872" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Tshr&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Tshr</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=10671" target="_blank" rel="noopener">Allen reference atlas: ME (structure 10671)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Tshr" or by parcellation_substructure "ME")</span><a href="../explore.html?region=ME" target="_blank" rel="noopener">All genes confined to ME + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/ME_merfish_locator.png" alt="ME MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the ME (Median eminence) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure><figure class="panel"><div class="tag">DIRECT ALLEN ISH</div><img src="../spatial_evidence/Tshr/80444828_DIRECT_ISH.jpg" alt="Allen ISH experiment 80471957, image 80444828 -- target region: ME (Median eminence)"><figcaption><a href="https://mouse.brain-map.org/experiment/show/80471957">Allen ISH experiment 80471957, image 80444828 -- target region: ME (Median eminence)</a></figcaption></figure><figure class="panel"><div class="tag">DIRECT ALLEN ISH</div><img src="../spatial_evidence/Tshr/80444830_DIRECT_ISH.jpg" alt="Allen ISH experiment 80471957, image 80444830 -- target region: ME (Median eminence)"><figcaption><a href="https://mouse.brain-map.org/experiment/show/80471957">Allen ISH experiment 80471957, image 80444830 -- target region: ME (Median eminence)</a></figcaption></figure>  </div>

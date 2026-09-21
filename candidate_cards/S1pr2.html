@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> S1pr2: fine CCF profile is region-biased toward ME (top regions: ME, LM, MMd, NLOT1, SSp-m1); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in ME: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>S1pr2 encodes sphingosine-1-phosphate receptor 2, a GPCR coupling to G12/13-RhoA-ROCK, Gq and Gi. Unlike S1PR1, which strengthens endothelial junctions, S1PR2 destabilises them, driving cerebrovascular permeability, MMP-9 activation and haemorrhagic transformation after stroke. It is also required for inner-ear function: recessive human variants cause deafness and knockout mice show altered neuronal excitability.</dd>
+<dt>Region function</dt><dd>The median eminence is a circumventricular organ whose fenestrated portal capillaries and tanycyte endfeet form a deliberately leaky interface for releasing hypophysiotropic hormones and sampling blood-borne signals.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-inferred">inferred</span> No region-specific literature found. The closest evidence is that brain S1PR2 immunoreactivity is confined to microvascular endothelium, where it is induced by ischaemia and required for loss of cerebrovascular integrity (Kim 2015), and that endothelial and pericyte S1PR2 govern barrier permeability after injury (Cheng 2024). Allen ISH places ME below the grey-matter mean (0.16 versus 0.90, experiment 69237215), so a sparse vascular source is the likely origin of the hit.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: median eminence S1PR2 sits on fenestrated portal endothelium and pericytes, where S1P-G12/13-RhoA signalling maintains the constitutively permeable, MMP-permissive state distinguishing this bed from barrier-forming capillaries. Endothelial deletion or local JTE-013 should tighten the vasculature, restrict leptin and other cues entering the mediobasal hypothalamus and blunt fasting-induced barrier plasticity, measurable as reduced tracer extravasation.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9733;&#9733;&#9734; 4/5</span> S1PR2 is a well-characterised barrier-destabilising receptor but has never been examined in the one brain vascular bed required to stay leaky.</dd>
+<dt>Tools</dt><dd>S1pr2 knockout mice, used in stroke phenotyping (MacLennan 2001; Kim 2015); selective antagonist JTE-013 and agonist CYM-5478; AAV-mediated endothelial S1pr2 overexpression (Cheng 2024); S1PR2 antibodies.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/26243335/" target="_blank" rel="noopener">Kim et al. 2015, Nature Communications</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11553273/" target="_blank" rel="noopener">MacLennan et al. 2001, European Journal of Neuroscience</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/26805784/" target="_blank" rel="noopener">Santos-Cortez et al. 2016, American Journal of Human Genetics</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/39679379/" target="_blank" rel="noopener">Cheng et al. 2024, Frontiers in Pharmacology</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/32407670/" target="_blank" rel="noopener">Jiang et al. 2020, Neuron</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/S1pr2/ccf_69230685.jpg" alt="S1pr2 Allen ISH at the CCF centroid of ME">
+<p class="cap">Allen ISH experiment 69237215, section image 69230685 (section 134): the section that contains the CCF centroid of Median eminence according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=69237215&imageId=69230685" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=S1pr2&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for S1pr2</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=10671" target="_blank" rel="noopener">Allen reference atlas: ME (structure 10671)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "S1pr2" or by parcellation_substructure "ME")</span><a href="../explore.html?region=ME" target="_blank" rel="noopener">All genes confined to ME + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/ME_merfish_locator.png" alt="ME MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the ME (Median eminence) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

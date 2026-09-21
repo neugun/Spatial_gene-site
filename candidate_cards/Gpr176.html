@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Gpr176: fine CCF profile is region-biased toward SCH (top regions: SCH, MEPO, SBPV, PVa, ARH); this is a discovery lead, not direct proof.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in SCH: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>GPR176 is an orphan class A G protein-coupled receptor with high constitutive, agonist-independent activity. Unusually, it couples to the Gz subtype of Gi-family G proteins, tonically lowering cAMP; its own expression is circadian and it is regulated by RGS16.</dd>
+<dt>Region function</dt><dd>The suprachiasmatic nucleus is the master circadian pacemaker: retinorecipient VIP and AVP neurons entrain a cell-autonomous transcriptional clock to the light cycle and impose ~24 h rhythms on sleep, hormones, temperature and behaviour.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-direct">direct</span> Direct and definitive. Doi 2016 showed Gpr176 is enriched in the SCN, acts through Gz to constitutively suppress cAMP in pacemaker neurons, and that Gpr176-null mice have a shortened circadian period of behaviour; Goto 2017 and Nakagawa 2020 review how the GPR176-Gz-RGS16 axis sets the pace of the SCN clock across the day.</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: because GPR176 sets the cAMP tone that feeds back onto Per transcription, manipulating it should shift period rather than amplitude. SCN-restricted Gpr176 deletion is predicted to shorten free-running period and weaken the cAMP-dependent phase response to light pulses, while over-expression or a future agonist should lengthen period and dampen daytime firing; the still-unidentified endogenous ligand is the most valuable target, since a GPR176 agonist would be a period-tuning chronotherapeutic.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9734;&#9734;&#9734; 2/5</span> This gene-region pair is already established, so the remaining novelty is deorphanisation and cell-type-specific (VIP vs AVP) dissection rather than discovery.</dd>
+<dt>Tools</dt><dd>Gpr176 knockout mice (Doi 2016); no ligand yet, so manipulation is genetic; SCN cell-type access via Vip-Cre, Avp-Cre and Nms-Cre; PER2::LUC reporter mice for ex vivo period measurement.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/26882873/" target="_blank" rel="noopener">Doi et al. 2016, Nat Commun</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/28502923/" target="_blank" rel="noopener">Goto et al. 2017, Endocr J</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/32709014/" target="_blank" rel="noopener">Nakagawa et al. 2020, Int J Mol Sci</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Gpr176/ccf_74418868.jpg" alt="Gpr176 Allen ISH at the CCF centroid of SCH">
+<p class="cap">Allen ISH experiment 74511881, section image 74418868 (section 305): the section that contains the CCF centroid of Suprachiasmatic nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=74511881&imageId=74418868" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Gpr176&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Gpr176</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=286" target="_blank" rel="noopener">Allen reference atlas: SCH (structure 286)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Gpr176" or by parcellation_substructure "SCH")</span><a href="../explore.html?region=SCH" target="_blank" rel="noopener">All genes confined to SCH + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SCH_merfish_locator.png" alt="SCH MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SCH (Suprachiasmatic nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

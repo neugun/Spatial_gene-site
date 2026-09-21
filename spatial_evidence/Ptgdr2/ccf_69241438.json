@@ -1,0 +1,18 @@
+{
+ "gene": "Ptgdr2",
+ "region": "SCO",
+ "experiment_id": 69257570,
+ "image_id": 69241438,
+ "section_number": 130,
+ "x": 8398.347802660934,
+ "y": 3793.930112549157,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1849,
+  698,
+  2349,
+  1198
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69257570",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69257570&imageId=69241438"
+}

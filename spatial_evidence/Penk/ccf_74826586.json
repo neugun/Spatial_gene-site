@@ -1,0 +1,18 @@
+{
+ "gene": "Penk",
+ "region": "CP",
+ "experiment_id": 74881286,
+ "image_id": 74826586,
+ "section_number": 314,
+ "x": 4757.128425176103,
+ "y": 3608.7267881976627,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  939,
+  652,
+  1439,
+  1152
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74881286",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74881286&imageId=74826586"
+}

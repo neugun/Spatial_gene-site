@@ -1,0 +1,18 @@
+{
+ "gene": "Pkdrej",
+ "region": "V",
+ "experiment_id": 75985900,
+ "image_id": 75863179,
+ "section_number": 150,
+ "x": 10387.993258395512,
+ "y": 5446.905069166083,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2346,
+  1111,
+  2846,
+  1611
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75985900",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75985900&imageId=75863179"
+}

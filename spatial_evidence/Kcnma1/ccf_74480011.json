@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnma1",
+ "region": "MH",
+ "experiment_id": 74578206,
+ "image_id": 74480011,
+ "section_number": 158,
+ "x": 6905.014480926466,
+ "y": 2784.5973865266997,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1476,
+  446,
+  1976,
+  946
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74578206",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74578206&imageId=74480011"
+}

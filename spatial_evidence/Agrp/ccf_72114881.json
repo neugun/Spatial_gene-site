@@ -1,0 +1,18 @@
+{
+ "gene": "Agrp",
+ "region": "ARH",
+ "experiment_id": 72283799,
+ "image_id": 72114881,
+ "section_number": 261,
+ "x": 5430.6313823481305,
+ "y": 6567.634832913835,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1107,
+  1391,
+  1607,
+  1844
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/72283799",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=72283799&imageId=72114881"
+}

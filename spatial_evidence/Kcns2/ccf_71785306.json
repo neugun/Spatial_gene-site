@@ -1,0 +1,18 @@
+{
+ "gene": "Kcns2",
+ "region": "PVT",
+ "experiment_id": 71924259,
+ "image_id": 71785306,
+ "section_number": 289,
+ "x": 5226.16418021319,
+ "y": 3272.9099892105087,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1056,
+  568,
+  1556,
+  1068
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71924259",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71924259&imageId=71785306"
+}

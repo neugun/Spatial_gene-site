@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnh8",
+ "region": "SCH",
+ "experiment_id": 70562113,
+ "image_id": 70435357,
+ "section_number": 313,
+ "x": 4761.9795606627595,
+ "y": 6447.108318872903,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  940,
+  1361,
+  1440,
+  1828
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/70562113",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=70562113&imageId=70435357"
+}

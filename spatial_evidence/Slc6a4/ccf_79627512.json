@@ -1,0 +1,18 @@
+{
+ "gene": "Slc6a4",
+ "region": "DR",
+ "experiment_id": 79591679,
+ "image_id": 79627512,
+ "section_number": 142,
+ "x": 4678.716618370683,
+ "y": 3173.0068292493193,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  919,
+  543,
+  1419,
+  1043
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79591679",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591679&imageId=79627512"
+}

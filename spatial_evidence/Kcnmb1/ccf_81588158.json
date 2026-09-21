@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnmb1",
+ "region": "SCO",
+ "experiment_id": 81599616,
+ "image_id": 81588158,
+ "section_number": 148,
+ "x": 7766.055419921135,
+ "y": 3977.4887827165685,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1691,
+  744,
+  2191,
+  1244
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/81599616",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=81599616&imageId=81588158"
+}

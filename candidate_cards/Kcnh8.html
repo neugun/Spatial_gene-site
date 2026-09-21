@@ -16,6 +16,46 @@
     <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
   </section>
   <div class="note"><b>What this means:</b> Kcnh8: fine CCF profile is restricted toward SCH (top regions: SCH, MH, SBPV, PVa, LH; 26 positive regions); direct spatial validation is still required.</div>
+<!-- function:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Function in SCH: evidence, prediction, innovation</h2><div class="panel fn"><dl>
+<dt>Gene function</dt><dd>Kcnh8 encodes Kv12.1 (ELK3), a subthreshold-activating delayed-rectifier potassium channel of the EAG/KCNH family. Because it opens near the resting membrane potential rather than during the spike, it acts as a brake on spontaneous firing and sets how readily a neuron fires repetitively, rather than repolarising individual action potentials.</dd>
+<dt>Region function</dt><dd>The suprachiasmatic nucleus above the optic chiasm is the master circadian pacemaker; it receives retinal input via the retinohypothalamic tract and imposes roughly 24-hour rhythms on sleep-wake, hormone release and body temperature through a large day-night swing in the spontaneous firing rate of its neurons.</dd>
+<dt>Published in this region</dt><dd><span class="ev ev-direct">direct</span> Direct. Hermanstyne 2023 recorded SCN neurons in slices from Kcnh8-null (Kv12.1-/-) and Kcnh3-null (Kv12.2-/-) mice and found that night-time repetitive firing rates were elevated while daytime rates were unchanged, so the hallmark day-night difference in SCN firing was eliminated; in vivo shRNA knockdown of Kv12.1 in adult SCN reproduced the effect. The bioRxiv preprint (Hermanstyne 2023) reports the same result. This identifies Kv12-encoded channels as the long-sought subthreshold potassium conductance driving the circadian firing switch, complementing earlier work on A-type and afterhyperpolarisation currents in SCN (Itri 2010; Jackson 2004).</dd>
+<dt>Predicted function</dt><dd><div class="pred">Prediction: Kv12.1 is the night-time brake on SCN pacemaking, so restricting its deletion to Vip- or Avp-expressing SCN neurons should selectively raise night firing in that subpopulation, flatten the electrical rhythm, and reduce behavioural rhythm amplitude or alter free-running period and re-entrainment speed in constant darkness. Conversely, a Kv12 opener applied to SCN should deepen night-time quiescence and increase rhythm amplitude. Because Kv12.1 and Kv12.2 knockouts give the same phenotype, the two subunits probably co-assemble, predicting that a double knockout will be no worse than either single.</div></dd>
+<dt>Innovation</dt><dd><span class="inno">&#9733;&#9733;&#9734;&#9734;&#9734; 2/5</span> This gene-region pair has already been nailed down functionally, leaving cell-type-specific and behavioural consequences as the remaining gap.</dd>
+<dt>Tools</dt><dd>Kcnh8 (Kv12.1-/-) and Kcnh3 (Kv12.2-/-) knockout mice plus shRNA constructs validated in adult SCN; SCN cell types accessible with Vip-IRES-Cre (JAX 010908) and Avp-IRES2-Cre (JAX 023530); PER2::LUC reporter mice for rhythm readout; no selective small-molecule Kv12.1 blocker in common use.</dd>
+<dt>References</dt><dd><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/37516908/" target="_blank" rel="noopener">Hermanstyne TO et al. 2023, J Gen Physiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/36778242/" target="_blank" rel="noopener">Hermanstyne TO et al. 2023, bioRxiv</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/19939959/" target="_blank" rel="noopener">Itri JN et al. 2010, J Neurophysiol</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/15371499/" target="_blank" rel="noopener">Jackson AC et al. 2004, J Neurosci</a></li></ul></dd>
+</dl></div>
+<!-- function:end -->
+<!-- ccf-ish:start -->
+<style id="patch-css">
+.ccf-panel img{width:100%;height:auto;border:1px solid #dbe4ee;border-radius:8px}
+.ccf-panel .cap{font-size:13px;color:#64748b;margin:4px 0 12px}
+.ext-links a{display:inline-block;margin:0 12px 6px 0;font-size:13px}
+.fn dl{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;margin:0}
+.fn dt{color:#64748b;font-size:13px}.fn dd{margin:0}
+.ev{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11px;font-weight:600;color:#fff}
+.ev-direct{background:#0f766e}.ev-expression_only{background:#2563eb}.ev-inferred{background:#b45309}.ev-none{background:#64748b}
+.inno{display:inline-block;font-weight:700;color:#b91c1c}
+.fn ul{margin:4px 0 0 18px;padding:0}
+.fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
+</style>
+<h2>Direct evidence located at the region</h2><div class="ccf-panel">
+<img src="../spatial_evidence/Kcnh8/ccf_70435357.jpg" alt="Kcnh8 Allen ISH at the CCF centroid of SCH">
+<p class="cap">Allen ISH experiment 70562113, section image 70435357 (section 313): the section that contains the CCF centroid of Suprachiasmatic nucleus according to the Allen image-to-atlas alignment (reference_to_image), with a 2 mm window around that point. Left: whole section, red box = window. Middle: ISH signal. Right: Allen's expression-mask view of the same window. <a href="https://mouse.brain-map.org/experiment/siv?id=70562113&imageId=70435357" target="_blank" rel="noopener">open this image in the Allen viewer</a></p>
+</div><div class="ext-links"><b>Look it up yourself:</b> <a href="https://mouse.brain-map.org/search/show?page_num=0&page_size=20&no_paging=false&exact_match=true&search_term=Kcnh8&search_type=gene" target="_blank" rel="noopener">Allen Mouse Brain ISH for Kcnh8</a><a href="https://atlas.brain-map.org/atlas?atlas=602630314&structure=286" target="_blank" rel="noopener">Allen reference atlas: SCH (structure 286)</a><a href="https://knowledge.brain-map.org/abcatlas" target="_blank" rel="noopener">ABC Atlas MERFISH viewer</a><span style="font-size:12px;color:#64748b">(in the ABC Atlas choose dataset MERFISH-C57BL6J-638850-CCF, colour cells by gene "Kcnh8" or by parcellation_substructure "SCH")</span><a href="../explore.html?region=SCH" target="_blank" rel="noopener">All genes confined to SCH + 3-D brain</a></div><!-- ccf-ish:end -->
 <h2>Direct spatial evidence</h2>
   <div class="evidence">
 <figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SCH_merfish_locator.png" alt="SCH MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SCH (Suprachiasmatic nucleus) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>

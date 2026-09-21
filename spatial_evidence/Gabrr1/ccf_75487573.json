@@ -1,0 +1,18 @@
+{
+ "gene": "Gabrr1",
+ "region": "SCsg",
+ "experiment_id": 75551470,
+ "image_id": 75487573,
+ "section_number": 174,
+ "x": 4961.314447851031,
+ "y": 1369.895595971028,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  990,
+  92,
+  1490,
+  592
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75551470",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75551470&imageId=75487573"
+}

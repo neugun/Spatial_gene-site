@@ -1,0 +1,18 @@
+{
+ "gene": "Pnoc",
+ "region": "TMd",
+ "experiment_id": 75038402,
+ "image_id": 74929275,
+ "section_number": 248,
+ "x": 5138.328881798065,
+ "y": 6016.899606112901,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1034,
+  1254,
+  1534,
+  1754
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75038402",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75038402&imageId=74929275"
+}

@@ -1,0 +1,18 @@
+{
+ "gene": "Asic4",
+ "region": "SCsg",
+ "experiment_id": 71924089,
+ "image_id": 71757166,
+ "section_number": 181,
+ "x": 5144.774938314449,
+ "y": 796.4601282220465,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1036,
+  0,
+  1536,
+  449
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71924089",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71924089&imageId=71757166"
+}

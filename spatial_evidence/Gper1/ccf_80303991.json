@@ -1,0 +1,18 @@
+{
+ "gene": "Gper1",
+ "region": "MMd",
+ "experiment_id": 80342021,
+ "image_id": 80303991,
+ "section_number": 145,
+ "x": 8585.992162559594,
+ "y": 5837.973670531292,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1896,
+  1209,
+  2396,
+  1709
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/80342021",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=80342021&imageId=80303991"
+}

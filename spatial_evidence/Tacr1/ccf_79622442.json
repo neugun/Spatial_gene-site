@@ -1,0 +1,18 @@
+{
+ "gene": "Tacr1",
+ "region": "MH",
+ "experiment_id": 79591721,
+ "image_id": 79622442,
+ "section_number": 248,
+ "x": 5133.994832490994,
+ "y": 2827.012559591918,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1033,
+  456,
+  1533,
+  956
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/79591721",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=79591721&imageId=79622442"
+}

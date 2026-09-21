@@ -1,0 +1,18 @@
+{
+ "gene": "Drd5",
+ "region": "PBG",
+ "experiment_id": 81790710,
+ "image_id": 81763792,
+ "section_number": 152,
+ "x": 9336.492919858516,
+ "y": 3849.5521414528307,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2084,
+  712,
+  2584,
+  1212
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/81790710",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=81790710&imageId=81763792"
+}

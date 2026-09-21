@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr6",
+ "region": "CP",
+ "experiment_id": 71247615,
+ "image_id": 71115361,
+ "section_number": 354,
+ "x": 4632.233318770985,
+ "y": 3609.1846022965055,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  908,
+  652,
+  1408,
+  1152
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/71247615",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=71247615&imageId=71115361"
+}

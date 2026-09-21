@@ -1,0 +1,18 @@
+{
+ "gene": "Lrrc8d",
+ "region": "OV",
+ "experiment_id": 385997,
+ "image_id": 332154,
+ "section_number": 156,
+ "x": 5456.099227106341,
+ "y": 6344.096214363727,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1114,
+  1336,
+  1614,
+  1800
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/385997",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=385997&imageId=332154"
+}

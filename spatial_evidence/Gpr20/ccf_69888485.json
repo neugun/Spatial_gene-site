@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr20",
+ "region": "MMd",
+ "experiment_id": 69857606,
+ "image_id": 69888485,
+ "section_number": 150,
+ "x": 8258.384535173695,
+ "y": 5658.89308924216,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1814,
+  1164,
+  2314,
+  1664
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69857606",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69857606&imageId=69888485"
+}

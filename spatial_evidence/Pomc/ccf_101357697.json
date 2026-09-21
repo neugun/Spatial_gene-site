@@ -1,0 +1,18 @@
+{
+ "gene": "Pomc",
+ "region": "ARH",
+ "experiment_id": 2493,
+ "image_id": 101357697,
+ "section_number": 243,
+ "x": 3405.66035315757,
+ "y": 4544.852366336947,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  601,
+  886,
+  1101,
+  1222
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/2493",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=2493&imageId=101357697"
+}

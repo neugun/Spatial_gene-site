@@ -1,0 +1,18 @@
+{
+ "gene": "Gpr182",
+ "region": "LM",
+ "experiment_id": 69236783,
+ "image_id": 69084529,
+ "section_number": 122,
+ "x": 8331.58028919545,
+ "y": 5490.6244635605735,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1832,
+  1122,
+  2332,
+  1622
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/69236783",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=69236783&imageId=69084529"
+}

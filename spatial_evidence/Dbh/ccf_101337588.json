@@ -1,0 +1,18 @@
+{
+ "gene": "Dbh",
+ "region": "LC",
+ "experiment_id": 326,
+ "image_id": 101337588,
+ "section_number": 74,
+ "x": 2569.7362308985385,
+ "y": 2338.7529145158096,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  392,
+  334,
+  892,
+  834
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/326",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=326&imageId=101337588"
+}

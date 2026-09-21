@@ -1,0 +1,18 @@
+{
+ "gene": "Kcnab2",
+ "region": "CA2sp",
+ "experiment_id": 1754,
+ "image_id": 101366566,
+ "section_number": 213,
+ "x": 2839.486268840173,
+ "y": 2049.3308766845353,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  459,
+  262,
+  959,
+  762
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/1754",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=1754&imageId=101366566"
+}

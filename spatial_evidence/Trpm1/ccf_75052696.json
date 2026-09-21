@@ -1,0 +1,18 @@
+{
+ "gene": "Trpm1",
+ "region": "MH",
+ "experiment_id": 75081002,
+ "image_id": 75052696,
+ "section_number": 264,
+ "x": 5216.415607852799,
+ "y": 2980.9531964007133,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  1054,
+  495,
+  1554,
+  995
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/75081002",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=75081002&imageId=75052696"
+}

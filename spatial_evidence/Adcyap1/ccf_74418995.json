@@ -1,0 +1,18 @@
+{
+ "gene": "Adcyap1",
+ "region": "PMd",
+ "experiment_id": 74511882,
+ "image_id": 74418995,
+ "section_number": 226,
+ "x": 9579.215714032269,
+ "y": 8471.552474200484,
+ "window_mm": 2.0,
+ "crop_box_downsample2": [
+  2144,
+  1867,
+  2644,
+  2367
+ ],
+ "experiment_url": "https://mouse.brain-map.org/experiment/show/74511882",
+ "image_url": "https://mouse.brain-map.org/experiment/siv?id=74511882&imageId=74418995"
+}
