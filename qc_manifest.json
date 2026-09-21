@@ -1,0 +1,173 @@
+{
+  "config": {
+    "biased_region_fraction": 0.2,
+    "discovery_weights": {
+      "cell_type_specificity": 0.14,
+      "functional_interest": 0.08,
+      "novelty": 0.07,
+      "regional_enrichment": 0.18,
+      "reproducibility": 0.15,
+      "spatial_continuity": 0.1,
+      "spatial_specificity": 0.28
+    },
+    "drop_low_support_regions": true,
+    "evidence_concordance_threshold": 0.6,
+    "evidence_conflict_threshold": 0.1,
+    "excluded_gene_patterns": [
+      "^Vmn[12]r",
+      "^Olfr",
+      "^Taar"
+    ],
+    "excluded_region_categories": [
+      "fiber tracts",
+      "VS"
+    ],
+    "exclusive_region_fraction": 0.02,
+    "expected_region_count": 554,
+    "fine_region_level": "parcellation_substructure",
+    "fine_required": true,
+    "max_normalized_entropy": 0.9,
+    "max_positive_regions": 18,
+    "min_max_region_expression": 0.1,
+    "min_region_cell_count": 5,
+    "min_reliable_region_cells": 100,
+    "min_top_region_fraction": 0.04,
+    "min_total_expression": 0.1,
+    "pair_min_offtarget_improvement": 0.05,
+    "pair_min_target_coverage": 0.25,
+    "pair_shortlist_size": 200,
+    "positive_absolute_threshold": 0.0,
+    "positive_baseline_percentile": 75,
+    "positive_relative_threshold": 0.2,
+    "priority_genes": [
+      "Dmbx1",
+      "Onecut3",
+      "Drd1",
+      "Drd2",
+      "Drd3"
+    ],
+    "priority_regions": [
+      "IRt",
+      "PCRt"
+    ],
+    "region_of_interest_divisions": [
+      "HY",
+      "STR",
+      "MB",
+      "P",
+      "MY",
+      "TH",
+      "HPF"
+    ],
+    "region_of_interest_structures": [
+      "MOp",
+      "MOs",
+      "VISa",
+      "VISal",
+      "VISam",
+      "VISl",
+      "VISli",
+      "VISp",
+      "VISpl",
+      "VISpm",
+      "VISpor",
+      "VISrl",
+      "FRP",
+      "ORBl",
+      "ORBm",
+      "ORBvl",
+      "PL",
+      "ILA",
+      "ACAd",
+      "ACAv"
+    ],
+    "report_max_candidate_cards": 100,
+    "report_max_table_rows": 500,
+    "restricted_region_fraction": 0.05,
+    "target_region": null,
+    "targetability_weights": {
+      "expression_strength": 0.15,
+      "intersection_simplicity": 0.15,
+      "off_target_exclusion": 0.3,
+      "on_target_coverage": 0.3,
+      "tool_feasibility": 0.1
+    }
+  },
+  "evidence_grade_counts": {
+    "C": 30954
+  },
+  "exclusive_max_regions": 12,
+  "exclusive_region_fraction": 0.02,
+  "fine_matrix_path": "gene_fine_region_matrix.csv",
+  "fine_region_level": "parcellation_substructure",
+  "fine_required": true,
+  "functional_catalog_rows": 4763,
+  "functional_class_counts": {
+    "GPCR": 1769,
+    "ION_CHANNEL": 439,
+    "NEUROMODULATORY_SIGNAL": 13,
+    "OTHER": 28733
+  },
+  "gene_count": 30954,
+  "input_rows": {
+    "cell_type_region": 74608,
+    "expression": 92680751,
+    "gene_metadata": 32245,
+    "region_universe": 554
+  },
+  "limitations": [
+    "Cell-type-to-region projection is imputed expression, not direct spatial measurement.",
+    "Adult reference atlases do not establish stability across age, sex, strain, state, or disease.",
+    "Transcript abundance does not guarantee protein abundance or genetic-tool performance."
+  ],
+  "low_support_region_count": 0,
+  "mode": "lite",
+  "pair_count": 0,
+  "passing_gene_count": 7104,
+  "pipeline_version": "0.3.2",
+  "priority_gene_count": 5,
+  "priority_genes": [
+    "Dmbx1",
+    "Onecut3",
+    "Drd1",
+    "Drd2",
+    "Drd3"
+  ],
+  "region_count": 554,
+  "region_of_interest_candidate_count": 6322,
+  "region_of_interest_divisions": [
+    "HY",
+    "STR",
+    "MB",
+    "P",
+    "MY",
+    "TH",
+    "HPF"
+  ],
+  "region_of_interest_structures": [
+    "MOp",
+    "MOs",
+    "VISa",
+    "VISal",
+    "VISam",
+    "VISl",
+    "VISli",
+    "VISp",
+    "VISpl",
+    "VISpm",
+    "VISpor",
+    "VISrl",
+    "FRP",
+    "ORBl",
+    "ORBm",
+    "ORBvl",
+    "PL",
+    "ILA",
+    "ACAd",
+    "ACAv"
+  ],
+  "region_universe_n": 554,
+  "retained_cell_count": 2982135,
+  "spatial_resolution": "MERFISH-CCF parcellation_substructure",
+  "spatial_resolution_warning": "WMB \u00d7 MERFISH-CCF is a cell-type-composition projection, not direct full-transcriptome spatial measurement."
+}

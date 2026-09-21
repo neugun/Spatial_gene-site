@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trpc6 candidate card</title>
+  <style>
+    :root{--ink:#14213d;--muted:#64748b;--line:#dbe4ee;--blue:#2563eb;--teal:#0f766e}*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}main{max-width:960px;margin:auto;padding:42px 24px 70px}h1{font-size:42px;letter-spacing:-.04em;margin:0}.sub{color:var(--muted);font-size:18px}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.card,.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 2px 10px #0f172a0a}.card b{font-size:29px;display:block;color:var(--blue)}.card span{color:var(--muted)}h2{font-size:21px;margin:30px 0 12px}.barrow{display:grid;grid-template-columns:160px 1fr 90px;align-items:center;gap:12px;margin:8px 0}.track{height:12px;background:#e8eef6;border-radius:99px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--blue),#60a5fa);border-radius:99px}.grade{color:var(--teal)!important}.note{border-left:4px solid #f59e0b;background:#fffbeb;padding:14px 16px;border-radius:7px}.evidence{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.evidence figure{margin:0}.evidence img{width:100%;max-height:520px;object-fit:contain;background:#eef2f7}.tag{font-weight:700;color:var(--teal)}dl{display:grid;grid-template-columns:210px 1fr;gap:8px 18px;margin:0}dt{color:var(--muted)}dd{margin:0;font-weight:600}@media(max-width:650px){.scores{grid-template-columns:1fr}.barrow{grid-template-columns:100px 1fr 65px}dl{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body><main>
+  <h1>Trpc6</h1>
+<p class="sub">Short transient receptor potential channel 6 (TrpC6) (Calcium entry channel) (Transient receptor protein 6) (TRP-6)</p>  <p class="sub">Spatial tier: <b>REGION_BIASED</b> · Class: <b>ION_CHANNEL</b> · Top region: <b>DG-po (Dentate gyrus, polymorph layer)</b> · Positive regions: 45/554</p>
+  <section class="scores">
+    <div class="card"><b>42.4</b><span>Discovery Score</span></div>
+    <div class="card"><b>41.7</b><span>Targetability Score</span></div>
+    <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
+  </section>
+  <div class="note"><b>What this means:</b> Trpc6: fine CCF profile is region-biased toward DG-po (top regions: DG-po, DG-sg, PL2/3, ACAv2/3, CA3slm); this is a discovery lead, not direct proof.</div>
+<h2>Direct spatial evidence</h2>
+  <div class="evidence">
+<figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/DG-po_merfish_locator.png" alt="DG-po MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the DG-po (Dentate gyrus, polymorph layer) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>
+  <h2>Regional expression figure</h2><div class="panel"><img src="../figures/Trpc6_fine_profile.png" alt="Trpc6 regional expression profile" style="width:100%;height:auto"><p class="tag">Predicted WMB × fine-CCF profile; not direct full-transcriptome spatial measurement.</p></div>  <h2>Spatial profile</h2>
+  <div class="panel"><div class="barrow"><span>DG-po</span><div class="track"><div class="bar" style="width:100.00%"></div></div><span>5.54</span></div><div class="barrow"><span>DG-sg</span><div class="track"><div class="bar" style="width:84.16%"></div></div><span>4.66</span></div><div class="barrow"><span>PL2/3</span><div class="track"><div class="bar" style="width:61.40%"></div></div><span>3.4</span></div><div class="barrow"><span>ACAv2/3</span><div class="track"><div class="bar" style="width:57.77%"></div></div><span>3.2</span></div><div class="barrow"><span>CA3slm</span><div class="track"><div class="bar" style="width:57.13%"></div></div><span>3.17</span></div><div class="barrow"><span>ACAd2/3</span><div class="track"><div class="bar" style="width:56.15%"></div></div><span>3.11</span></div><div class="barrow"><span>VISam2/3</span><div class="track"><div class="bar" style="width:55.38%"></div></div><span>3.07</span></div><div class="barrow"><span>AId2/3</span><div class="track"><div class="bar" style="width:52.75%"></div></div><span>2.92</span></div><div class="barrow"><span>GU2/3</span><div class="track"><div class="bar" style="width:50.29%"></div></div><span>2.79</span></div><div class="barrow"><span>ORBm2/3</span><div class="track"><div class="bar" style="width:50.19%"></div></div><span>2.78</span></div><div class="barrow"><span>VISpm2/3</span><div class="track"><div class="bar" style="width:49.08%"></div></div><span>2.72</span></div><div class="barrow"><span>VISC2/3</span><div class="track"><div class="bar" style="width:48.96%"></div></div><span>2.71</span></div><div class="barrow"><span>IF</span><div class="track"><div class="bar" style="width:48.61%"></div></div><span>2.69</span></div><div class="barrow"><span>ILA2/3</span><div class="track"><div class="bar" style="width:48.48%"></div></div><span>2.69</span></div><div class="barrow"><span>AUDpo2/3</span><div class="track"><div class="bar" style="width:47.68%"></div></div><span>2.64</span></div><div class="barrow"><span>VTA</span><div class="track"><div class="bar" style="width:47.14%"></div></div><span>2.61</span></div><div class="barrow"><span>RSPagl2/3</span><div class="track"><div class="bar" style="width:47.07%"></div></div><span>2.61</span></div><div class="barrow"><span>AUDv2/3</span><div class="track"><div class="bar" style="width:46.97%"></div></div><span>2.6</span></div><div class="barrow"><span>VISli2/3</span><div class="track"><div class="bar" style="width:46.71%"></div></div><span>2.59</span></div><div class="barrow"><span>VISa2/3</span><div class="track"><div class="bar" style="width:46.24%"></div></div><span>2.56</span></div></div>
+  <h2>Evidence and specificity</h2>
+  <div class="panel"><dl>
+    <dt>Evidence status</dt><dd>PREDICTED_FINE</dd>
+    <dt>Direct sources</dt><dd>None; predicted localization only</dd>
+    <dt>Exclusive threshold</dt><dd>12 positive regions out of 554</dd>
+    <dt>Spatial specificity</dt><dd>0.280</dd>
+    <dt>Top-region fraction</dt><dd>0.044</dd>
+    <dt>Filter status</dt><dd>PASS</dd>
+  </dl></div>
+  <h2>Interpretation limits</h2>
+  <div class="note"><ul><li>Cell-type-to-region projection is imputed expression, not direct spatial measurement.</li><li>Adult reference atlases do not establish stability across age, sex, strain, state, or disease.</li><li>Transcript abundance does not guarantee protein abundance or genetic-tool performance.</li></ul></div>
+</main></body></html>

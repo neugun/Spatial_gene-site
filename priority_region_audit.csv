@@ -1,0 +1,3 @@
+requested_region,present_in_current_region_labels,screening_resolution,interpretation
+IRt,False,MERFISH-CCF fine substructure,Fine CCF/MERFISH or Allen ISH validation is required for this region.
+PCRt,False,MERFISH-CCF fine substructure,Fine CCF/MERFISH or Allen ISH validation is required for this region.

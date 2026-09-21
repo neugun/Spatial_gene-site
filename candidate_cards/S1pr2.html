@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>S1pr2 candidate card</title>
+  <style>
+    :root{--ink:#14213d;--muted:#64748b;--line:#dbe4ee;--blue:#2563eb;--teal:#0f766e}*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}main{max-width:960px;margin:auto;padding:42px 24px 70px}h1{font-size:42px;letter-spacing:-.04em;margin:0}.sub{color:var(--muted);font-size:18px}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.card,.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 2px 10px #0f172a0a}.card b{font-size:29px;display:block;color:var(--blue)}.card span{color:var(--muted)}h2{font-size:21px;margin:30px 0 12px}.barrow{display:grid;grid-template-columns:160px 1fr 90px;align-items:center;gap:12px;margin:8px 0}.track{height:12px;background:#e8eef6;border-radius:99px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--blue),#60a5fa);border-radius:99px}.grade{color:var(--teal)!important}.note{border-left:4px solid #f59e0b;background:#fffbeb;padding:14px 16px;border-radius:7px}.evidence{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.evidence figure{margin:0}.evidence img{width:100%;max-height:520px;object-fit:contain;background:#eef2f7}.tag{font-weight:700;color:var(--teal)}dl{display:grid;grid-template-columns:210px 1fr;gap:8px 18px;margin:0}dt{color:var(--muted)}dd{margin:0;font-weight:600}@media(max-width:650px){.scores{grid-template-columns:1fr}.barrow{grid-template-columns:100px 1fr 65px}dl{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body><main>
+  <h1>S1pr2</h1>
+<p class="sub">Sphingosine 1-phosphate receptor 2 (S1P receptor 2) (S1P2) (Endothelial differentiation G protein-coupled receptor 5) (Lysophospholipid receptor B2) (Sphingosine 1-phosphate receptor Edg-5) (S1P recep</p>  <p class="sub">Spatial tier: <b>REGION_BIASED</b> · Class: <b>GPCR</b> · Top region: <b>ME (Median eminence)</b> · Positive regions: 45/554</p>
+  <section class="scores">
+    <div class="card"><b>43.0</b><span>Discovery Score</span></div>
+    <div class="card"><b>36.4</b><span>Targetability Score</span></div>
+    <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
+  </section>
+  <div class="note"><b>What this means:</b> S1pr2: fine CCF profile is region-biased toward ME (top regions: ME, LM, MMd, NLOT1, SSp-m1); this is a discovery lead, not direct proof.</div>
+<h2>Direct spatial evidence</h2>
+  <div class="evidence">
+<figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/ME_merfish_locator.png" alt="ME MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the ME (Median eminence) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>
+  <h2>Regional expression figure</h2><div class="panel"><img src="../figures/S1pr2_fine_profile.png" alt="S1pr2 regional expression profile" style="width:100%;height:auto"><p class="tag">Predicted WMB × fine-CCF profile; not direct full-transcriptome spatial measurement.</p></div>  <h2>Spatial profile</h2>
+  <div class="panel"><div class="barrow"><span>ME</span><div class="track"><div class="bar" style="width:100.00%"></div></div><span>0.726</span></div><div class="barrow"><span>LM</span><div class="track"><div class="bar" style="width:80.17%"></div></div><span>0.582</span></div><div class="barrow"><span>MMd</span><div class="track"><div class="bar" style="width:75.21%"></div></div><span>0.546</span></div><div class="barrow"><span>NLOT1</span><div class="track"><div class="bar" style="width:67.58%"></div></div><span>0.491</span></div><div class="barrow"><span>SSp-m1</span><div class="track"><div class="bar" style="width:61.98%"></div></div><span>0.45</span></div><div class="barrow"><span>AOBgl</span><div class="track"><div class="bar" style="width:60.82%"></div></div><span>0.442</span></div><div class="barrow"><span>AUDd1</span><div class="track"><div class="bar" style="width:58.61%"></div></div><span>0.426</span></div><div class="barrow"><span>AIv1</span><div class="track"><div class="bar" style="width:58.35%"></div></div><span>0.424</span></div><div class="barrow"><span>ENTl1</span><div class="track"><div class="bar" style="width:57.72%"></div></div><span>0.419</span></div><div class="barrow"><span>VISpor1</span><div class="track"><div class="bar" style="width:57.32%"></div></div><span>0.416</span></div><div class="barrow"><span>TEa1</span><div class="track"><div class="bar" style="width:55.82%"></div></div><span>0.405</span></div><div class="barrow"><span>VISl1</span><div class="track"><div class="bar" style="width:55.67%"></div></div><span>0.404</span></div><div class="barrow"><span>ECT1</span><div class="track"><div class="bar" style="width:55.21%"></div></div><span>0.401</span></div><div class="barrow"><span>AId1</span><div class="track"><div class="bar" style="width:54.67%"></div></div><span>0.397</span></div><div class="barrow"><span>VISC1</span><div class="track"><div class="bar" style="width:53.90%"></div></div><span>0.392</span></div><div class="barrow"><span>AIp1</span><div class="track"><div class="bar" style="width:53.86%"></div></div><span>0.391</span></div><div class="barrow"><span>AUDpo1</span><div class="track"><div class="bar" style="width:53.59%"></div></div><span>0.389</span></div><div class="barrow"><span>SSs1</span><div class="track"><div class="bar" style="width:52.78%"></div></div><span>0.383</span></div><div class="barrow"><span>ORBm1</span><div class="track"><div class="bar" style="width:52.76%"></div></div><span>0.383</span></div><div class="barrow"><span>MOs1</span><div class="track"><div class="bar" style="width:51.92%"></div></div><span>0.377</span></div></div>
+  <h2>Evidence and specificity</h2>
+  <div class="panel"><dl>
+    <dt>Evidence status</dt><dd>PREDICTED_FINE</dd>
+    <dt>Direct sources</dt><dd>None; predicted localization only</dd>
+    <dt>Exclusive threshold</dt><dd>12 positive regions out of 554</dd>
+    <dt>Spatial specificity</dt><dd>0.290</dd>
+    <dt>Top-region fraction</dt><dd>0.047</dd>
+    <dt>Filter status</dt><dd>PASS</dd>
+  </dl></div>
+  <h2>Interpretation limits</h2>
+  <div class="note"><ul><li>Cell-type-to-region projection is imputed expression, not direct spatial measurement.</li><li>Adult reference atlases do not establish stability across age, sex, strain, state, or disease.</li><li>Transcript abundance does not guarantee protein abundance or genetic-tool performance.</li></ul></div>
+</main></body></html>

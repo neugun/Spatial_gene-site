@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Agtrap candidate card</title>
+  <style>
+    :root{--ink:#14213d;--muted:#64748b;--line:#dbe4ee;--blue:#2563eb;--teal:#0f766e}*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}main{max-width:960px;margin:auto;padding:42px 24px 70px}h1{font-size:42px;letter-spacing:-.04em;margin:0}.sub{color:var(--muted);font-size:18px}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.card,.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 2px 10px #0f172a0a}.card b{font-size:29px;display:block;color:var(--blue)}.card span{color:var(--muted)}h2{font-size:21px;margin:30px 0 12px}.barrow{display:grid;grid-template-columns:160px 1fr 90px;align-items:center;gap:12px;margin:8px 0}.track{height:12px;background:#e8eef6;border-radius:99px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--blue),#60a5fa);border-radius:99px}.grade{color:var(--teal)!important}.note{border-left:4px solid #f59e0b;background:#fffbeb;padding:14px 16px;border-radius:7px}.evidence{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.evidence figure{margin:0}.evidence img{width:100%;max-height:520px;object-fit:contain;background:#eef2f7}.tag{font-weight:700;color:var(--teal)}dl{display:grid;grid-template-columns:210px 1fr;gap:8px 18px;margin:0}dt{color:var(--muted)}dd{margin:0;font-weight:600}@media(max-width:650px){.scores{grid-template-columns:1fr}.barrow{grid-template-columns:100px 1fr 65px}dl{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body><main>
+  <h1>Agtrap</h1>
+<p class="sub">Type-1 angiotensin II receptor-associated protein (AT1 receptor-associated protein)</p>  <p class="sub">Spatial tier: <b>REGION_BIASED</b> · Class: <b>GPCR</b> · Top region: <b>SCO (Subcommissural organ)</b> · Positive regions: 43/554</p>
+  <section class="scores">
+    <div class="card"><b>42.0</b><span>Discovery Score</span></div>
+    <div class="card"><b>39.1</b><span>Targetability Score</span></div>
+    <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
+  </section>
+  <div class="note"><b>What this means:</b> Agtrap: fine CCF profile is region-biased toward SCO (top regions: SCO, OV, MEPO, ME, LM); this is a discovery lead, not direct proof.</div>
+<h2>Direct spatial evidence</h2>
+  <div class="evidence">
+<figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/SCO_merfish_locator.png" alt="SCO MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the SCO (Subcommissural organ) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>
+  <h2>Regional expression figure</h2><div class="panel"><img src="../figures/Agtrap_fine_profile.png" alt="Agtrap regional expression profile" style="width:100%;height:auto"><p class="tag">Predicted WMB × fine-CCF profile; not direct full-transcriptome spatial measurement.</p></div>  <h2>Spatial profile</h2>
+  <div class="panel"><div class="barrow"><span>SCO</span><div class="track"><div class="bar" style="width:100.00%"></div></div><span>2.49</span></div><div class="barrow"><span>OV</span><div class="track"><div class="bar" style="width:82.58%"></div></div><span>2.05</span></div><div class="barrow"><span>MEPO</span><div class="track"><div class="bar" style="width:81.09%"></div></div><span>2.02</span></div><div class="barrow"><span>ME</span><div class="track"><div class="bar" style="width:77.02%"></div></div><span>1.92</span></div><div class="barrow"><span>LM</span><div class="track"><div class="bar" style="width:74.83%"></div></div><span>1.86</span></div><div class="barrow"><span>AP</span><div class="track"><div class="bar" style="width:73.80%"></div></div><span>1.84</span></div><div class="barrow"><span>MMd</span><div class="track"><div class="bar" style="width:69.01%"></div></div><span>1.72</span></div><div class="barrow"><span>PVp</span><div class="track"><div class="bar" style="width:67.53%"></div></div><span>1.68</span></div><div class="barrow"><span>AVPV</span><div class="track"><div class="bar" style="width:66.56%"></div></div><span>1.66</span></div><div class="barrow"><span>SFO</span><div class="track"><div class="bar" style="width:63.61%"></div></div><span>1.58</span></div><div class="barrow"><span>NLOT1</span><div class="track"><div class="bar" style="width:61.70%"></div></div><span>1.54</span></div><div class="barrow"><span>ENTl1</span><div class="track"><div class="bar" style="width:60.70%"></div></div><span>1.51</span></div><div class="barrow"><span>AD</span><div class="track"><div class="bar" style="width:60.41%"></div></div><span>1.5</span></div><div class="barrow"><span>PVi</span><div class="track"><div class="bar" style="width:60.36%"></div></div><span>1.5</span></div><div class="barrow"><span>RT</span><div class="track"><div class="bar" style="width:59.06%"></div></div><span>1.47</span></div><div class="barrow"><span>PVpo</span><div class="track"><div class="bar" style="width:55.78%"></div></div><span>1.39</span></div><div class="barrow"><span>SCzo</span><div class="track"><div class="bar" style="width:55.75%"></div></div><span>1.39</span></div><div class="barrow"><span>VMPO</span><div class="track"><div class="bar" style="width:55.66%"></div></div><span>1.38</span></div><div class="barrow"><span>AUDd1</span><div class="track"><div class="bar" style="width:54.52%"></div></div><span>1.36</span></div><div class="barrow"><span>V</span><div class="track"><div class="bar" style="width:54.33%"></div></div><span>1.35</span></div></div>
+  <h2>Evidence and specificity</h2>
+  <div class="panel"><dl>
+    <dt>Evidence status</dt><dd>PREDICTED_FINE</dd>
+    <dt>Direct sources</dt><dd>None; predicted localization only</dd>
+    <dt>Exclusive threshold</dt><dd>12 positive regions out of 554</dd>
+    <dt>Spatial specificity</dt><dd>0.280</dd>
+    <dt>Top-region fraction</dt><dd>0.042</dd>
+    <dt>Filter status</dt><dd>PASS</dd>
+  </dl></div>
+  <h2>Interpretation limits</h2>
+  <div class="note"><ul><li>Cell-type-to-region projection is imputed expression, not direct spatial measurement.</li><li>Adult reference atlases do not establish stability across age, sex, strain, state, or disease.</li><li>Transcript abundance does not guarantee protein abundance or genetic-tool performance.</li></ul></div>
+</main></body></html>

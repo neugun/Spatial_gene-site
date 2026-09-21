@@ -1,0 +1,146 @@
+{
+  "category_excluded_cell_count": 311753,
+  "cell_type_column": "cluster_alias",
+  "coordinate_statistic": "mean_centroid",
+  "dropped_low_support_region_count": 21,
+  "exact_unassigned_cell_count": 68586,
+  "excluded_categories": [
+    "VS",
+    "fiber tracts"
+  ],
+  "exclusive_max_regions": 12,
+  "exclusive_region_fraction": 0.02,
+  "low_support_region_count": 0,
+  "metadata_source": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\MERFISH-C57BL6J-638850-CCF\\20231215\\views\\cell_metadata_with_parcellation_annotation.csv",
+  "min_region_cell_count": 100,
+  "placeholder_cell_count": 376345,
+  "placeholder_label_count": 27,
+  "raw_row_count": 3739961,
+  "raw_unique_region_count": 670,
+  "region_column": "parcellation_substructure",
+  "region_universe_n": 554,
+  "retained_cell_count": 2982135,
+  "unmapped_wmb_cluster_count": 149,
+  "unmapped_wmb_cluster_not_profiled_in_ccf": 48,
+  "unmapped_wmb_cluster_unassigned_substructure_only": 101,
+  "wmb_mapping_coverage_min": 0.9923356192012908,
+  "wmb_mapping_qc": [
+    {
+      "cluster_count": 178,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-CB.csv",
+      "mapped_cell_count": 181723,
+      "mapping_coverage": 0.9983354026347884,
+      "matrix_label": "WMB-10Xv3-CB",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CB-log2.h5ad",
+      "unmapped_cell_count": 303
+    },
+    {
+      "cluster_count": 693,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-CTXsp.csv",
+      "mapped_cell_count": 78223,
+      "mapping_coverage": 0.9969285277324632,
+      "matrix_label": "WMB-10Xv3-CTXsp",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CTXsp-log2.h5ad",
+      "unmapped_cell_count": 241
+    },
+    {
+      "cluster_count": 636,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-HPF.csv",
+      "mapped_cell_count": 181055,
+      "mapping_coverage": 0.996708009226382,
+      "matrix_label": "WMB-10Xv3-HPF",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HPF-log2.h5ad",
+      "unmapped_cell_count": 598
+    },
+    {
+      "cluster_count": 1621,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-HY.csv",
+      "mapped_cell_count": 162296,
+      "mapping_coverage": 0.9964818350944624,
+      "matrix_label": "WMB-10Xv3-HY",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HY-log2.h5ad",
+      "unmapped_cell_count": 573
+    },
+    {
+      "cluster_count": 677,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-Isocortex-1.csv",
+      "mapped_cell_count": 227670,
+      "mapping_coverage": 0.9975507056509032,
+      "matrix_label": "WMB-10Xv3-Isocortex-1",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-1-log2.h5ad",
+      "unmapped_cell_count": 559
+    },
+    {
+      "cluster_count": 213,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-Isocortex-2.csv",
+      "mapped_cell_count": 227537,
+      "mapping_coverage": 0.9969723259196944,
+      "matrix_label": "WMB-10Xv3-Isocortex-2",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-2-log2.h5ad",
+      "unmapped_cell_count": 691
+    },
+    {
+      "cluster_count": 1806,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-MB.csv",
+      "mapped_cell_count": 337101,
+      "mapping_coverage": 0.9974228634324735,
+      "matrix_label": "WMB-10Xv3-MB",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MB-log2.h5ad",
+      "unmapped_cell_count": 871
+    },
+    {
+      "cluster_count": 1159,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-MY.csv",
+      "mapped_cell_count": 191746,
+      "mapping_coverage": 0.9960934659061392,
+      "matrix_label": "WMB-10Xv3-MY",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MY-log2.h5ad",
+      "unmapped_cell_count": 752
+    },
+    {
+      "cluster_count": 720,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-OLF.csv",
+      "mapped_cell_count": 88560,
+      "mapping_coverage": 0.9923356192012908,
+      "matrix_label": "WMB-10Xv3-OLF",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-OLF-log2.h5ad",
+      "unmapped_cell_count": 684
+    },
+    {
+      "cluster_count": 1087,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-P.csv",
+      "mapped_cell_count": 143157,
+      "mapping_coverage": 0.996491740973542,
+      "matrix_label": "WMB-10Xv3-P",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-P-log2.h5ad",
+      "unmapped_cell_count": 504
+    },
+    {
+      "cluster_count": 1237,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-PAL.csv",
+      "mapped_cell_count": 108046,
+      "mapping_coverage": 0.9941938036567076,
+      "matrix_label": "WMB-10Xv3-PAL",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-PAL-log2.h5ad",
+      "unmapped_cell_count": 631
+    },
+    {
+      "cluster_count": 1454,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-STR.csv",
+      "mapped_cell_count": 283782,
+      "mapping_coverage": 0.995143196793458,
+      "matrix_label": "WMB-10Xv3-STR",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-STR-log2.h5ad",
+      "unmapped_cell_count": 1385
+    },
+    {
+      "cluster_count": 767,
+      "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-TH.csv",
+      "mapped_cell_count": 130454,
+      "mapping_coverage": 0.996927920767867,
+      "matrix_label": "WMB-10Xv3-TH",
+      "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-TH-log2.h5ad",
+      "unmapped_cell_count": 402
+    }
+  ]
+}

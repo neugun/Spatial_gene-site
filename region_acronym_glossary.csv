@@ -1,0 +1,462 @@
+region_acronym,region_name
+AAA,Anterior amygdalar area
+ACAd5,"Anterior cingulate area, dorsal part, layer 5"
+ACAd6a,"Anterior cingulate area, dorsal part, layer 6a"
+ACAd6b,"Anterior cingulate area, dorsal part, layer 6b"
+ACAv2/3,"Anterior cingulate area, ventral part, layer 2/3"
+ACAv5,"Anterior cingulate area, ventral part, layer 5"
+ACAv6a,"Anterior cingulate area, ventral part, 6a"
+ACAv6b,"Anterior cingulate area, ventral part, 6b"
+ACB,Nucleus accumbens
+AD,Anterodorsal nucleus
+ADP,Anterodorsal preoptic nucleus
+AHN,Anterior hypothalamic nucleus
+AId1,"Agranular insular area, dorsal part, layer 1"
+AId2/3,"Agranular insular area, dorsal part, layer 2/3"
+AId5,"Agranular insular area, dorsal part, layer 5"
+AId6b,"Agranular insular area, dorsal part, layer 6b"
+AIp1,"Agranular insular area, posterior part, layer 1"
+AIp2/3,"Agranular insular area, posterior part, layer 2/3"
+AIp5,"Agranular insular area, posterior part, layer 5"
+AIp6a,"Agranular insular area, posterior part, layer 6a"
+AIp6b,"Agranular insular area, posterior part, layer 6b"
+AIv2/3,"Agranular insular area, ventral part, layer 2/3"
+AIv5,"Agranular insular area, ventral part, layer 5"
+AMBd,"Nucleus ambiguus, dorsal division"
+AMd,"Anteromedial nucleus, dorsal part"
+AMv,"Anteromedial nucleus, ventral part"
+ANcr1,Crus 1
+ANcr2,Crus 2
+AOBgl,"Accessory olfactory bulb, glomerular layer"
+AOBgr,"Accessory olfactory bulb, granular layer"
+AOBmi,"Accessory olfactory bulb, mitral layer"
+AON,Anterior olfactory nucleus
+AP,Area postrema
+APN,Anterior pretectal nucleus
+APr,Area prostriata
+ARH,Arcuate hypothalamic nucleus
+AT,Anterior tegmental nucleus
+AUDd1,"Dorsal auditory area, layer 1"
+AUDd6a,"Dorsal auditory area, layer 6a"
+AUDp4,"Primary auditory area, layer 4"
+AUDpo1,"Posterior auditory area, layer 1"
+AUDpo2/3,"Posterior auditory area, layer 2/3"
+AUDpo4,"Posterior auditory area, layer 4"
+AUDpo6a,"Posterior auditory area, layer 6a"
+AUDv1,"Ventral auditory area, layer 1"
+AUDv2/3,"Ventral auditory area, layer 2/3"
+AUDv6b,"Ventral auditory area, layer 6b"
+AV,Anteroventral nucleus of thalamus
+AVP,Anteroventral preoptic nucleus
+AVPV,Anteroventral periventricular nucleus
+B,Barrington's nucleus
+BLAa,"Basolateral amygdalar nucleus, anterior part"
+BLAp,"Basolateral amygdalar nucleus, posterior part"
+BLAv,"Basolateral amygdalar nucleus, ventral part"
+BMAa,"Basomedial amygdalar nucleus, anterior part"
+BMAp,"Basomedial amygdalar nucleus, posterior part"
+BST,Bed nuclei of the stria terminalis
+CA1slm,"Field CA1, stratum lacunosum-moleculare"
+CA1so,"Field CA1, stratum oriens"
+CA1sp,"Field CA1, pyramidal layer"
+CA1sr,"Field CA1, stratum radiatum"
+CA2slm,"Field CA2, stratum lacunosum-moleculare"
+CA2so,"Field CA2, stratum oriens"
+CA2sp,"Field CA2, pyramidal layer"
+CA2sr,"Field CA2, stratum radiatum"
+CA3slu,"Field CA3, stratum lucidum"
+CA3so,"Field CA3, stratum oriens"
+CA3sp,"Field CA3, pyramidal layer"
+CEAc,"Central amygdalar nucleus, capsular part"
+CEAl,"Central amygdalar nucleus, lateral part"
+CEAm,"Central amygdalar nucleus, medial part"
+CENT2,Lobule II
+CENT3,Lobule III
+CL,Central lateral nucleus of the thalamus
+CLA,Claustrum
+CLI,Central linear nucleus raphe
+CM,Central medial nucleus of the thalamus
+COAa,"Cortical amygdalar area, anterior part"
+COApl,"Cortical amygdalar area, posterior part, lateral zone"
+COApm,"Cortical amygdalar area, posterior part, medial zone"
+CP,Caudoputamen
+CS,Superior central nucleus raphe
+CU,Cuneate nucleus
+"CUL4, 5",Lobules IV-V
+CUN,Cuneiform nucleus
+DCO,Dorsal cochlear nucleus
+DEC,Declive (VI)
+DG-po,"Dentate gyrus, polymorph layer"
+DG-sg,"Dentate gyrus, granule cell layer"
+DMH,Dorsomedial nucleus of the hypothalamus
+DMX,Dorsal motor nucleus of the vagus nerve
+DN,Dentate nucleus
+DP,Dorsal peduncular area
+DR,Dorsal nucleus raphe
+DTN,Dorsal tegmental nucleus
+ECT1,Ectorhinal area/Layer 1
+ECT2/3,Ectorhinal area/Layer 2/3
+ECT5,Ectorhinal area/Layer 5
+ECT6a,Ectorhinal area/Layer 6a
+ECT6b,Ectorhinal area/Layer 6b
+ECU,External cuneate nucleus
+ENTl1,"Entorhinal area, lateral part, layer 1"
+ENTl2,"Entorhinal area, lateral part, layer 2"
+ENTl3,"Entorhinal area, lateral part, layer 3"
+ENTl5,"Entorhinal area, lateral part, layer 5"
+ENTl6a,"Entorhinal area, lateral part, layer 6a"
+ENTm2,"Entorhinal area, medial part, dorsal zone, layer 2"
+ENTm3,"Entorhinal area, medial part, dorsal zone, layer 3"
+ENTm5,"Entorhinal area, medial part, dorsal zone, layer 5"
+ENTm6,"Entorhinal area, medial part, dorsal zone, layer 6"
+EPd,"Endopiriform nucleus, dorsal part"
+EPv,"Endopiriform nucleus, ventral part"
+EW,Edinger-Westphal nucleus
+Eth,Ethmoid nucleus of the thalamus
+FC,Fasciola cinerea
+FF,Fields of Forel
+FL,Flocculus
+FN,Fastigial nucleus
+FOTU,Folium-tuber vermis (VII)
+FRP6a,"Frontal pole, layer 6a"
+FS,Fundus of striatum
+GPe,"Globus pallidus, external segment"
+GPi,"Globus pallidus, internal segment"
+GRN,Gigantocellular reticular nucleus
+GU2/3,"Gustatory areas, layer 2/3"
+GU5,"Gustatory areas, layer 5"
+GU6a,"Gustatory areas, layer 6a"
+GU6b,"Gustatory areas, layer 6b"
+HATA,Hippocampo-amygdalar transition area
+I5,Intertrigeminal nucleus
+IA,Intercalated amygdalar nucleus
+IAD,Interanterodorsal nucleus of the thalamus
+IAM,Interanteromedial nucleus of the thalamus
+ICB,Infracerebellar nucleus
+ICc,"Inferior colliculus, central nucleus"
+ICd,"Inferior colliculus, dorsal nucleus"
+ICe,"Inferior colliculus, external nucleus"
+IF,Interfascicular nucleus raphe
+IG,Induseum griseum
+IGL,Intergeniculate leaflet of the lateral geniculate complex
+III,Oculomotor nucleus
+ILA2/3,"Infralimbic area, layer 2/3"
+ILA5,"Infralimbic area, layer 5"
+ILA6a,"Infralimbic area, layer 6a"
+IMD,Intermediodorsal nucleus of the thalamus
+INC,Interstitial nucleus of Cajal
+IO,Inferior olivary complex
+IP,Interposed nucleus
+IPA,"Interpeduncular nucleus, apical"
+IPC,"Interpeduncular nucleus, caudal"
+IPDL,"Interpeduncular nucleus, dorsolateral"
+IPDM,"Interpeduncular nucleus, dorsomedial"
+IPI,"Interpeduncular nucleus, intermediate"
+IPL,"Interpeduncular nucleus, lateral"
+IPR,"Interpeduncular nucleus, rostral"
+KF,Koelliker-Fuse subnucleus
+LA,Lateral amygdalar nucleus
+LAV,Lateral vestibular nucleus
+LC,Locus ceruleus
+LD,Lateral dorsal nucleus of thalamus
+LDT,Laterodorsal tegmental nucleus
+LGd-co,"Dorsal part of the lateral geniculate complex, core"
+LGd-ip,"Dorsal part of the lateral geniculate complex, ipsilateral zone"
+LGd-sh,"Dorsal part of the lateral geniculate complex, shell"
+LGv,Ventral part of the lateral geniculate complex
+LH,Lateral habenula
+LHA,Lateral hypothalamic area
+LIN,Linear nucleus of the medulla
+LING,Lingula (I)
+LM,Lateral mammillary nucleus
+LP,Lateral posterior nucleus of the thalamus
+LPO,Lateral preoptic area
+LRNm,"Lateral reticular nucleus, magnocellular part"
+LRNp,"Lateral reticular nucleus, parvicellular part"
+LSc,"Lateral septal nucleus, caudal (caudodorsal) part"
+LSr,"Lateral septal nucleus, rostral (rostroventral) part"
+LSv,"Lateral septal nucleus, ventral part"
+LT,Lateral terminal nucleus of the accessory optic tract
+MA,Magnocellular nucleus
+MARN,Magnocellular reticular nucleus
+MD,Mediodorsal nucleus of thalamus
+MDRNd,"Medullary reticular nucleus, dorsal part"
+MDRNv,"Medullary reticular nucleus, ventral part"
+ME,Median eminence
+MEA,Medial amygdalar nucleus
+MEPO,Median preoptic nucleus
+MGd,"Medial geniculate complex, dorsal part"
+MGv,"Medial geniculate complex, ventral part"
+MH,Medial habenula
+MMd,"Medial mammillary nucleus, dorsal part"
+MMl,"Medial mammillary nucleus, lateral part"
+MMm,"Medial mammillary nucleus, medial part"
+MMme,"Medial mammillary nucleus, median part"
+MMp,"Medial mammillary nucleus, posterior part"
+MOBgr,"Main olfactory bulb, granule layer"
+MOBipl,"Main olfactory bulb, inner plexiform layer"
+MOBmi,"Main olfactory bulb, mitral layer"
+MOBopl,"Main olfactory bulb, outer plexiform layer"
+MOp5,"Primary motor area, Layer 5"
+MOp6a,"Primary motor area, Layer 6a"
+MOp6b,"Primary motor area, Layer 6b"
+MOs2/3,"Secondary motor area, layer 2/3"
+MPN,Medial preoptic nucleus
+MPO,Medial preoptic area
+MPT,Medial pretectal area
+MRN,Midbrain reticular nucleus
+MS,Medial septal nucleus
+MT,Medial terminal nucleus of the accessory optic tract
+MV,Medial vestibular nucleus
+NB,Nucleus of the brachium of the inferior colliculus
+ND,Nucleus of Darkschewitsch
+NDB,Diagonal band nucleus
+NI,Nucleus incertus
+NLL,Nucleus of the lateral lemniscus
+NLOT1,"Nucleus of the lateral olfactory tract, molecular layer"
+NLOT2,"Nucleus of the lateral olfactory tract, pyramidal layer"
+NLOT3,"Nucleus of the lateral olfactory tract, layer 3"
+NOD,Nodulus (X)
+NPC,Nucleus of the posterior commissure
+NR,Nucleus of Roller
+NTB,Nucleus of the trapezoid body
+NTS,Nucleus of the solitary tract
+OP,Olivary pretectal nucleus
+ORBl2/3,"Orbital area, lateral part, layer 2/3"
+ORBl6a,"Orbital area, lateral part, layer 6a"
+ORBl6b,"Orbital area, lateral part, layer 6b"
+ORBm1,"Orbital area, medial part, layer 1"
+ORBm2/3,"Orbital area, medial part, layer 2/3"
+ORBm5,"Orbital area, medial part, layer 5"
+ORBm6a,"Orbital area, medial part, layer 6a"
+ORBvl2/3,"Orbital area, ventrolateral part, layer 2/3"
+ORBvl5,"Orbital area, ventrolateral part, layer 5"
+ORBvl6a,"Orbital area, ventrolateral part, layer 6a"
+ORBvl6b,"Orbital area, ventrolateral part, layer 6b"
+OT,Olfactory tubercle
+OV,Vascular organ of the lamina terminalis
+PA,Posterior amygdalar nucleus
+PAA,Piriform-amygdalar area
+PAR,Parasubiculum
+PAS,Parasolitary nucleus
+PBG,Parabigeminal nucleus
+PC5,Parvicellular motor 5 nucleus
+PCG,Pontine central gray
+PCN,Paracentral nucleus
+PD,Posterodorsal preoptic nucleus
+PDTg,Posterodorsal tegmental nucleus
+PERI1,"Perirhinal area, layer 1"
+PERI2/3,"Perirhinal area, layer 2/3"
+PERI5,"Perirhinal area, layer 5"
+PERI6a,"Perirhinal area, layer 6a"
+PF,Parafascicular nucleus
+PFL,Paraflocculus
+PG,Pontine gray
+PGRNd,"Paragigantocellular reticular nucleus, dorsal part"
+PGRNl,"Paragigantocellular reticular nucleus, lateral part"
+PH,Posterior hypothalamic nucleus
+PIL,Posterior intralaminar thalamic nucleus
+PIR,Piriform area
+PL1,"Prelimbic area, layer 1"
+PL2/3,"Prelimbic area, layer 2/3"
+PL5,"Prelimbic area, layer 5"
+PL6a,"Prelimbic area, layer 6a"
+PL6b,"Prelimbic area, layer 6b"
+PMd,Dorsal premammillary nucleus
+PMv,Ventral premammillary nucleus
+PN,Paranigral nucleus
+PO,Posterior complex of the thalamus
+POL,Posterior limiting nucleus of the thalamus
+POR,"Superior olivary complex, periolivary region"
+POST,Postsubiculum
+PP,Peripeduncular nucleus
+PPN,Pedunculopontine nucleus
+PPT,Posterior pretectal nucleus
+PPY,Parapyramidal nucleus
+PR,Perireunensis nucleus
+PRC,Precommissural nucleus
+PRE,Presubiculum
+PRM,Paramedian lobule
+PRNc,"Pontine reticular nucleus, caudal part"
+PRNr,Pontine reticular nucleus
+PRP,Nucleus prepositus
+PS,Parastrial nucleus
+PSTN,Parasubthalamic nucleus
+PSV,Principal sensory nucleus of the trigeminal
+PT,Parataenial nucleus
+PVH,Paraventricular hypothalamic nucleus
+PVHd,"Paraventricular hypothalamic nucleus, descending division"
+PVT,Paraventricular nucleus of the thalamus
+PVa,"Periventricular hypothalamic nucleus, anterior part"
+PVi,"Periventricular hypothalamic nucleus, intermediate part"
+PVp,"Periventricular hypothalamic nucleus, posterior part"
+PVpo,"Periventricular hypothalamic nucleus, preoptic part"
+PYR,Pyramus (VIII)
+Pa4,Paratrochlear nucleus
+Pa5,Paratrigeminal nucleus
+PeF,Perifornical nucleus
+ProS,Prosubiculum
+RCH,Retrochiasmatic area
+RE,Nucleus of reuniens
+RH,Rhomboid nucleus
+RL,Rostral linear nucleus raphe
+RM,Nucleus raphe magnus
+RN,Red nucleus
+RO,Nucleus raphe obscurus
+RPA,Nucleus raphe pallidus
+RPF,Retroparafascicular nucleus
+RPO,Nucleus raphe pontis
+RR,"Midbrain reticular nucleus, retrorubral area"
+RSPagl2/3,"Retrosplenial area, lateral agranular part, layer 2/3"
+RSPagl5,"Retrosplenial area, lateral agranular part, layer 5"
+RSPagl6b,"Retrosplenial area, lateral agranular part, layer 6b"
+RSPd2/3,"Retrosplenial area, dorsal part, layer 2/3"
+RSPd5,"Retrosplenial area, dorsal part, layer 5"
+RSPd6a,"Retrosplenial area, dorsal part, layer 6a"
+RSPd6b,"Retrosplenial area, dorsal part, layer 6b"
+RSPv2/3,"Retrosplenial area, ventral part, layer 2/3"
+RSPv5,"Retrosplenial area, ventral part, layer 5"
+RSPv6a,"Retrosplenial area, ventral part, layer 6a"
+RSPv6b,"Retrosplenial area, ventral part, layer 6b"
+RT,Reticular nucleus of the thalamus
+SAG,Nucleus sagulum
+SBPV,Subparaventricular zone
+SCH,Suprachiasmatic nucleus
+SCO,Subcommissural organ
+SCdg,"Superior colliculus, motor related, deep gray layer"
+SCdw,"Superior colliculus, motor related, deep white layer"
+SCig,"Superior colliculus, motor related, intermediate gray layer"
+SCiw,"Superior colliculus, motor related, intermediate white layer"
+SCop,"Superior colliculus, optic layer"
+SCsg,"Superior colliculus, superficial gray layer"
+SCzo,"Superior colliculus, zonal layer"
+SF,Septofimbrial nucleus
+SFO,Subfornical organ
+SG,Supragenual nucleus
+SGN,Suprageniculate nucleus
+SH,Septohippocampal nucleus
+SI,Substantia innominata
+SLC,Subceruleus nucleus
+SLD,Sublaterodorsal nucleus
+SMT,Submedial nucleus of the thalamus
+SNc,"Substantia nigra, compact part"
+SNr,"Substantia nigra, reticular part"
+SO,Supraoptic nucleus
+SOCl,"Superior olivary complex, lateral part"
+SOCm,"Superior olivary complex, medial part"
+SPA,Subparafascicular area
+SPFm,"Subparafascicular nucleus, magnocellular part"
+SPFp,"Subparafascicular nucleus, parvicellular part"
+SPIV,Spinal vestibular nucleus
+SPVI,"Spinal nucleus of the trigeminal, interpolar part"
+SPVO,"Spinal nucleus of the trigeminal, oral part"
+SSp-bfd2/3,"Primary somatosensory area, barrel field, layer 2/3"
+SSp-bfd4,"Primary somatosensory area, barrel field, layer 4"
+SSp-ll2/3,"Primary somatosensory area, lower limb, layer 2/3"
+SSp-ll4,"Primary somatosensory area, lower limb, layer 4"
+SSp-ll5,"Primary somatosensory area, lower limb, layer 5"
+SSp-ll6a,"Primary somatosensory area, lower limb, layer 6a"
+SSp-ll6b,"Primary somatosensory area, lower limb, layer 6b"
+SSp-m1,"Primary somatosensory area, mouth, layer 1"
+SSp-m5,"Primary somatosensory area, mouth, layer 5"
+SSp-m6a,"Primary somatosensory area, mouth, layer 6a"
+SSp-m6b,"Primary somatosensory area, mouth, layer 6b"
+SSp-n2/3,"Primary somatosensory area, nose, layer 2/3"
+SSp-n4,"Primary somatosensory area, nose, layer 4"
+SSp-n5,"Primary somatosensory area, nose, layer 5"
+SSp-n6b,"Primary somatosensory area, nose, layer 6b"
+SSp-tr1,"Primary somatosensory area, trunk, layer 1"
+SSp-tr2/3,"Primary somatosensory area, trunk, layer 2/3"
+SSp-tr4,"Primary somatosensory area, trunk, layer 4"
+SSp-tr5,"Primary somatosensory area, trunk, layer 5"
+SSp-tr6b,"Primary somatosensory area, trunk, layer 6b"
+SSp-ul4,"Primary somatosensory area, upper limb, layer 4"
+SSp-un2/3,"Primary somatosensory area, unassigned, layer 2/3"
+SSp-un5,"Primary somatosensory area, unassigned, layer 5"
+SSp-un6a,"Primary somatosensory area, unassigned, layer 6a"
+SSp-un6b,"Primary somatosensory area, unassigned, layer 6b"
+SSs4,"Supplemental somatosensory area, layer 4"
+SSs6a,"Supplemental somatosensory area, layer 6a"
+STN,Subthalamic nucleus
+SUB,Subiculum
+SUM,Supramammillary nucleus
+SUT,Supratrigeminal nucleus
+SUV,Superior vestibular nucleus
+Su3,Supraoculomotor periaqueductal gray
+TEa1,"Temporal association areas, layer 1"
+TEa2/3,"Temporal association areas, layer 2/3"
+TEa5,"Temporal association areas, layer 5"
+TEa6a,"Temporal association areas, layer 6a"
+TEa6b,"Temporal association areas, layer 6b"
+TMd,"Tuberomammillary nucleus, dorsal part"
+TMv,"Tuberomammillary nucleus, ventral part"
+TR,Postpiriform transition area
+TRS,Triangular nucleus of septum
+TTd,"Taenia tecta, dorsal part"
+TTv,"Taenia tecta, ventral part"
+TU,Tuberal nucleus
+UVU,Uvula (IX)
+V,Motor nucleus of trigeminal
+VAL,Ventral anterior-lateral complex of the thalamus
+VCO,Ventral cochlear nucleus
+VI,Abducens nucleus
+VII,Facial motor nucleus
+VISC2/3,"Visceral area, layer 2/3"
+VISC4,"Visceral area, layer 4"
+VISC5,"Visceral area, layer 5"
+VISC6b,"Visceral area, layer 6b"
+VISa2/3,"Anterior area, layer 2/3"
+VISa4,"Anterior area, layer 4"
+VISal1,"Anterolateral visual area, layer 1"
+VISal2/3,"Anterolateral visual area, layer 2/3"
+VISal4,"Anterolateral visual area, layer 4"
+VISal6a,"Anterolateral visual area, layer 6a"
+VISam1,"Anteromedial visual area, layer 1"
+VISam2/3,"Anteromedial visual area, layer 2/3"
+VISam4,"Anteromedial visual area, layer 4"
+VISam5,"Anteromedial visual area, layer 5"
+VISam6b,"Anteromedial visual area, layer 6b"
+VISl1,"Lateral visual area, layer 1"
+VISl2/3,"Lateral visual area, layer 2/3"
+VISl4,"Lateral visual area, layer 4"
+VISl6a,"Lateral visual area, layer 6a"
+VISl6b,"Lateral visual area, layer 6b"
+VISli1,"Laterointermediate area, layer 1"
+VISli2/3,"Laterointermediate area, layer 2/3"
+VISli4,"Laterointermediate area, layer 4"
+VISli5,"Laterointermediate area, layer 5"
+VISli6a,"Laterointermediate area, layer 6a"
+VISli6b,"Laterointermediate area, layer 6b"
+VISp2/3,"Primary visual area, layer 2/3"
+VISp4,"Primary visual area, layer 4"
+VISp5,"Primary visual area, layer 5"
+VISp6a,"Primary visual area, layer 6a"
+VISp6b,"Primary visual area, layer 6b"
+VISpl4,"Posterolateral visual area, layer 4"
+VISpl5,"Posterolateral visual area, layer 5"
+VISpm2/3,"posteromedial visual area, layer 2/3"
+VISpm4,"posteromedial visual area, layer 4"
+VISpm5,"posteromedial visual area, layer 5"
+VISpm6a,"posteromedial visual area, layer 6a"
+VISpm6b,"posteromedial visual area, layer 6b"
+VISpor4,"Postrhinal area, layer 4"
+VISpor6a,"Postrhinal area, layer 6a"
+VISpor6b,"Postrhinal area, layer 6b"
+VISrl4,"Rostrolateral area, layer 4"
+VISrl5,"Rostrolateral area, layer 5"
+VISrl6b,"Rostrolateral area, layer 6b"
+VLPO,Ventrolateral preoptic nucleus
+VM,Ventral medial nucleus of the thalamus
+VMH,Ventromedial hypothalamic nucleus
+VMPO,Ventromedial preoptic nucleus
+VPL,Ventral posterolateral nucleus of the thalamus
+VPLpc,"Ventral posterolateral nucleus of the thalamus, parvicellular part"
+VPM,Ventral posteromedial nucleus of the thalamus
+VPMpc,"Ventral posteromedial nucleus of the thalamus, parvicellular part"
+VTA,Ventral tegmental area
+VTN,Ventral tegmental nucleus
+VeCB,Vestibulocerebellar nucleus
+XII,Hypoglossal nucleus
+Xi,Xiphoid thalamic nucleus
+x,Nucleus x
+y,Nucleus y

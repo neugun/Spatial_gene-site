@@ -1,0 +1,1874 @@
+{
+  "acquisition": {
+    "files": [
+      {
+        "file_hash": "df311b0b05213cc79ffabef99d95c2fc",
+        "file_id": "expression_matrices/WMB-10Xv3-CB/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CB-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-CB-log2.h5ad",
+        "size_bytes": 5610691342,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "a9d544cb963366d0c41ffe5934234d56",
+        "file_id": "expression_matrices/WMB-10Xv3-CTXsp/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CTXsp-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-CTXsp-log2.h5ad",
+        "size_bytes": 3277343842,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "12fe1a7f3ef28676e782e8a0375ac854",
+        "file_id": "expression_matrices/WMB-10Xv3-HPF/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HPF-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-HPF-log2.h5ad",
+        "size_bytes": 7409633208,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "539579ade9bfe86e5427b2429904cac5",
+        "file_id": "expression_matrices/WMB-10Xv3-HY/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HY-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-HY-log2.h5ad",
+        "size_bytes": 7248338584,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "1c5c2b6564d0ed506b0aa2cd3300d2d4",
+        "file_id": "expression_matrices/WMB-10Xv3-Isocortex-1/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-1-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-Isocortex-1-log2.h5ad",
+        "size_bytes": 11768194128,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "a9e71b29021eb77c665619bcd5b7c78a",
+        "file_id": "expression_matrices/WMB-10Xv3-Isocortex-2/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-2-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-Isocortex-2-log2.h5ad",
+        "size_bytes": 8356210362,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "46d177ce332621b7f5e7fff7c9daea39",
+        "file_id": "expression_matrices/WMB-10Xv3-MB/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MB-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-MB-log2.h5ad",
+        "size_bytes": 13726487690,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "25dd82b9f9200b680ee6baae53c4894b",
+        "file_id": "expression_matrices/WMB-10Xv3-MY/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MY-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-MY-log2.h5ad",
+        "size_bytes": 7206054638,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "ec24c33b8787b6e3683cfff47059033d",
+        "file_id": "expression_matrices/WMB-10Xv3-OLF/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-OLF-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-OLF-log2.h5ad",
+        "size_bytes": 3114998442,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "f94ad816b7d7664e9a3f71b7a9ae5704",
+        "file_id": "expression_matrices/WMB-10Xv3-P/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-P-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-P-log2.h5ad",
+        "size_bytes": 5200570200,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "cd72cfda54013e7d7fa2bbf46688a437",
+        "file_id": "expression_matrices/WMB-10Xv3-PAL/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-PAL-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-PAL-log2.h5ad",
+        "size_bytes": 4067049816,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "4a10e4e97cdf9934af2592ef0a849ee1",
+        "file_id": "expression_matrices/WMB-10Xv3-STR/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-STR-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-STR-log2.h5ad",
+        "size_bytes": 11915297204,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "9adfa950a30615a4e718887a5e5c8eb6",
+        "file_id": "expression_matrices/WMB-10Xv3-TH/log2/files/h5ad",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-TH-log2.h5ad",
+        "relative_path": "expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-TH-log2.h5ad",
+        "size_bytes": 5811140682,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "efae499dc6b458999ad139cb29f83a7b",
+        "file_id": "metadata/cell_metadata_with_cluster_annotation/files/csv",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\WMB-10X\\20241115\\views\\cell_metadata_with_cluster_annotation.csv",
+        "relative_path": "metadata/WMB-10X/20241115/views/cell_metadata_with_cluster_annotation.csv",
+        "size_bytes": 1386430541,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "51dda47ab139e91357bc09bc4e12c073",
+        "file_id": "metadata/cell_metadata_with_parcellation_annotation/files/csv",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\MERFISH-C57BL6J-638850-CCF\\20231215\\views\\cell_metadata_with_parcellation_annotation.csv",
+        "relative_path": "metadata/MERFISH-C57BL6J-638850-CCF/20231215/views/cell_metadata_with_parcellation_annotation.csv",
+        "size_bytes": 1606515935,
+        "status": "REUSE"
+      },
+      {
+        "file_hash": "2355c90006da8eb43439a58a7fc59c6e",
+        "file_id": "metadata/gene/files/csv",
+        "local_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\WMB-10X\\20241115\\gene.csv",
+        "relative_path": "metadata/WMB-10X/20241115/gene.csv",
+        "size_bytes": 2297493,
+        "status": "REUSE"
+      }
+    ],
+    "release": [
+      "20260711"
+    ],
+    "selected_file_count": 16,
+    "status_counts": {
+      "REUSE": 16
+    }
+  },
+  "canonical_input": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_expression",
+  "config": {
+    "biased_region_fraction": 0.2,
+    "discovery_weights": {
+      "cell_type_specificity": 0.14,
+      "functional_interest": 0.08,
+      "novelty": 0.07,
+      "regional_enrichment": 0.18,
+      "reproducibility": 0.15,
+      "spatial_continuity": 0.1,
+      "spatial_specificity": 0.28
+    },
+    "drop_low_support_regions": true,
+    "evidence_concordance_threshold": 0.6,
+    "evidence_conflict_threshold": 0.1,
+    "excluded_gene_patterns": [
+      "^Vmn[12]r",
+      "^Olfr",
+      "^Taar"
+    ],
+    "excluded_region_categories": [
+      "fiber tracts",
+      "VS"
+    ],
+    "exclusive_region_fraction": 0.02,
+    "expected_region_count": 554,
+    "fine_region_level": "parcellation_substructure",
+    "fine_required": true,
+    "max_normalized_entropy": 0.9,
+    "max_positive_regions": 18,
+    "min_max_region_expression": 0.1,
+    "min_region_cell_count": 5,
+    "min_reliable_region_cells": 100,
+    "min_top_region_fraction": 0.04,
+    "min_total_expression": 0.1,
+    "pair_min_offtarget_improvement": 0.05,
+    "pair_min_target_coverage": 0.25,
+    "pair_shortlist_size": 200,
+    "positive_absolute_threshold": 0.0,
+    "positive_baseline_percentile": 75,
+    "positive_relative_threshold": 0.2,
+    "priority_genes": [
+      "Dmbx1",
+      "Onecut3",
+      "Drd1",
+      "Drd2",
+      "Drd3"
+    ],
+    "priority_regions": [
+      "IRt",
+      "PCRt"
+    ],
+    "region_of_interest_divisions": [
+      "HY",
+      "STR",
+      "MB",
+      "P",
+      "MY",
+      "TH",
+      "HPF"
+    ],
+    "region_of_interest_structures": [
+      "MOp",
+      "MOs",
+      "VISa",
+      "VISal",
+      "VISam",
+      "VISl",
+      "VISli",
+      "VISp",
+      "VISpl",
+      "VISpm",
+      "VISpor",
+      "VISrl",
+      "FRP",
+      "ORBl",
+      "ORBm",
+      "ORBvl",
+      "PL",
+      "ILA",
+      "ACAd",
+      "ACAv"
+    ],
+    "report_max_candidate_cards": 100,
+    "report_max_table_rows": 500,
+    "restricted_region_fraction": 0.05,
+    "target_region": null,
+    "targetability_weights": {
+      "expression_strength": 0.15,
+      "intersection_simplicity": 0.15,
+      "off_target_exclusion": 0.3,
+      "on_target_coverage": 0.3,
+      "tool_feasibility": 0.1
+    }
+  },
+  "data_root": "Z:\\sternsonlab\\ABC_Atlas_Downloads",
+  "download_root": "Z:\\sternsonlab\\Zhenggang\\merfish",
+  "evidence_grade_counts": {
+    "C": 30954
+  },
+  "exclusive_max_regions": 12,
+  "exclusive_region_fraction": 0.02,
+  "figures": {
+    "ccf_maps": {
+      "4930449C09Rik": "figures/4930449C09Rik_ccf_map.png",
+      "A730006G06Rik": "figures/A730006G06Rik_ccf_map.png",
+      "Adora2a": "figures/Adora2a_ccf_map.png",
+      "Ano1": "figures/Ano1_ccf_map.png",
+      "Apol10a": "figures/Apol10a_ccf_map.png",
+      "Apol9b": "figures/Apol9b_ccf_map.png",
+      "Asic3": "figures/Asic3_ccf_map.png",
+      "Asic5": "figures/Asic5_ccf_map.png",
+      "Atp5e": "figures/Atp5e_ccf_map.png",
+      "Avp": "figures/Avp_ccf_map.png",
+      "Avpr1b": "figures/Avpr1b_ccf_map.png",
+      "Brs3": "figures/Brs3_ccf_map.png",
+      "Catsper4": "figures/Catsper4_ccf_map.png",
+      "Ccr10": "figures/Ccr10_ccf_map.png",
+      "Ccr6": "figures/Ccr6_ccf_map.png",
+      "Cftr": "figures/Cftr_ccf_map.png",
+      "Chat": "figures/Chat_ccf_map.png",
+      "Chrna2": "figures/Chrna2_ccf_map.png",
+      "Chrna3": "figures/Chrna3_ccf_map.png",
+      "Chrnb3": "figures/Chrnb3_ccf_map.png",
+      "Chrnb4": "figures/Chrnb4_ccf_map.png",
+      "Chrne": "figures/Chrne_ccf_map.png",
+      "Cnga1": "figures/Cnga1_ccf_map.png",
+      "Cngb3": "figures/Cngb3_ccf_map.png",
+      "Cxcr4": "figures/Cxcr4_ccf_map.png",
+      "Cysltr1": "figures/Cysltr1_ccf_map.png",
+      "Dbh": "figures/Dbh_ccf_map.png",
+      "Defa24": "figures/Defa24_ccf_map.png",
+      "Dmbx1": "figures/Dmbx1_ccf_map.png",
+      "Drd1": "figures/Drd1_ccf_map.png",
+      "Drd2": "figures/Drd2_ccf_map.png",
+      "Drd3": "figures/Drd3_ccf_map.png",
+      "Epb42": "figures/Epb42_ccf_map.png",
+      "F2rl1": "figures/F2rl1_ccf_map.png",
+      "Ferd3l": "figures/Ferd3l_ccf_map.png",
+      "Fndc3c1": "figures/Fndc3c1_ccf_map.png",
+      "Fzd4": "figures/Fzd4_ccf_map.png",
+      "Fzd5": "figures/Fzd5_ccf_map.png",
+      "Gabbr1": "figures/Gabbr1_ccf_map.png",
+      "Gabrr1": "figures/Gabrr1_ccf_map.png",
+      "Galr2": "figures/Galr2_ccf_map.png",
+      "Gm10824": "figures/Gm10824_ccf_map.png",
+      "Gm14496": "figures/Gm14496_ccf_map.png",
+      "Gm17226": "figures/Gm17226_ccf_map.png",
+      "Gm21818": "figures/Gm21818_ccf_map.png",
+      "Gm22219": "figures/Gm22219_ccf_map.png",
+      "Gm43782": "figures/Gm43782_ccf_map.png",
+      "Gm5127": "figures/Gm5127_ccf_map.png",
+      "Gm5624": "figures/Gm5624_ccf_map.png",
+      "Gm5741": "figures/Gm5741_ccf_map.png",
+      "Gnrhr": "figures/Gnrhr_ccf_map.png",
+      "Gpr119": "figures/Gpr119_ccf_map.png",
+      "Gpr151": "figures/Gpr151_ccf_map.png",
+      "Gpr156": "figures/Gpr156_ccf_map.png",
+      "Gpr50": "figures/Gpr50_ccf_map.png",
+      "Gpr52": "figures/Gpr52_ccf_map.png",
+      "Gpr55": "figures/Gpr55_ccf_map.png",
+      "Gpr6": "figures/Gpr6_ccf_map.png",
+      "Grin3b": "figures/Grin3b_ccf_map.png",
+      "Grpr": "figures/Grpr_ccf_map.png",
+      "Gsc": "figures/Gsc_ccf_map.png",
+      "Hrh4": "figures/Hrh4_ccf_map.png",
+      "Htr3b": "figures/Htr3b_ccf_map.png",
+      "Htr5b": "figures/Htr5b_ccf_map.png",
+      "Kcna10": "figures/Kcna10_ccf_map.png",
+      "Kcnj14": "figures/Kcnj14_ccf_map.png",
+      "Kcnk15": "figures/Kcnk15_ccf_map.png",
+      "Kcnmb1": "figures/Kcnmb1_ccf_map.png",
+      "Kctd12b": "figures/Kctd12b_ccf_map.png",
+      "Lrrc55": "figures/Lrrc55_ccf_map.png",
+      "Lrrc8e": "figures/Lrrc8e_ccf_map.png",
+      "Ltb4r1": "figures/Ltb4r1_ccf_map.png",
+      "Mrgpra6": "figures/Mrgpra6_ccf_map.png",
+      "Mtnr1a": "figures/Mtnr1a_ccf_map.png",
+      "Npy4r": "figures/Npy4r_ccf_map.png",
+      "Npy6r": "figures/Npy6r_ccf_map.png",
+      "Nr5a1": "figures/Nr5a1_ccf_map.png",
+      "Onecut3": "figures/Onecut3_ccf_map.png",
+      "Opn1sw": "figures/Opn1sw_ccf_map.png",
+      "Opn4": "figures/Opn4_ccf_map.png",
+      "Opn5": "figures/Opn5_ccf_map.png",
+      "Otop1": "figures/Otop1_ccf_map.png",
+      "Panx3": "figures/Panx3_ccf_map.png",
+      "Pkdrej": "figures/Pkdrej_ccf_map.png",
+      "Prlhr": "figures/Prlhr_ccf_map.png",
+      "Ptgdr2": "figures/Ptgdr2_ccf_map.png",
+      "Ptger1": "figures/Ptger1_ccf_map.png",
+      "Ptgir": "figures/Ptgir_ccf_map.png",
+      "Sctr": "figures/Sctr_ccf_map.png",
+      "Slc26a9": "figures/Slc26a9_ccf_map.png",
+      "Slc4a11": "figures/Slc4a11_ccf_map.png",
+      "Slc6a2": "figures/Slc6a2_ccf_map.png",
+      "Slc6a3": "figures/Slc6a3_ccf_map.png",
+      "Slc6a4": "figures/Slc6a4_ccf_map.png",
+      "Sprr2a2": "figures/Sprr2a2_ccf_map.png",
+      "Sprr2i": "figures/Sprr2i_ccf_map.png",
+      "Strit1": "figures/Strit1_ccf_map.png",
+      "Tcstv3": "figures/Tcstv3_ccf_map.png",
+      "Tmc3": "figures/Tmc3_ccf_map.png",
+      "Tpte": "figures/Tpte_ccf_map.png",
+      "Trpm1": "figures/Trpm1_ccf_map.png",
+      "Tshr": "figures/Tshr_ccf_map.png",
+      "Wt1": "figures/Wt1_ccf_map.png",
+      "Wt1os": "figures/Wt1os_ccf_map.png"
+    },
+    "overview_heatmap": "figures/overview_heatmap.png",
+    "priority_profiles": {
+      "Dmbx1": "figures/Dmbx1_fine_profile.png",
+      "Drd1": "figures/Drd1_fine_profile.png",
+      "Drd2": "figures/Drd2_fine_profile.png",
+      "Drd3": "figures/Drd3_fine_profile.png",
+      "Onecut3": "figures/Onecut3_fine_profile.png"
+    },
+    "regional_profiles": {
+      "4930449C09Rik": "figures/4930449C09Rik_fine_profile.png",
+      "A730006G06Rik": "figures/A730006G06Rik_fine_profile.png",
+      "Adora2a": "figures/Adora2a_fine_profile.png",
+      "Ano1": "figures/Ano1_fine_profile.png",
+      "Apol10a": "figures/Apol10a_fine_profile.png",
+      "Apol9b": "figures/Apol9b_fine_profile.png",
+      "Asic3": "figures/Asic3_fine_profile.png",
+      "Asic5": "figures/Asic5_fine_profile.png",
+      "Atp5e": "figures/Atp5e_fine_profile.png",
+      "Avp": "figures/Avp_fine_profile.png",
+      "Avpr1b": "figures/Avpr1b_fine_profile.png",
+      "Brs3": "figures/Brs3_fine_profile.png",
+      "Catsper4": "figures/Catsper4_fine_profile.png",
+      "Ccr10": "figures/Ccr10_fine_profile.png",
+      "Ccr6": "figures/Ccr6_fine_profile.png",
+      "Cftr": "figures/Cftr_fine_profile.png",
+      "Chat": "figures/Chat_fine_profile.png",
+      "Chrna2": "figures/Chrna2_fine_profile.png",
+      "Chrna3": "figures/Chrna3_fine_profile.png",
+      "Chrnb3": "figures/Chrnb3_fine_profile.png",
+      "Chrnb4": "figures/Chrnb4_fine_profile.png",
+      "Chrne": "figures/Chrne_fine_profile.png",
+      "Cnga1": "figures/Cnga1_fine_profile.png",
+      "Cngb3": "figures/Cngb3_fine_profile.png",
+      "Cxcr4": "figures/Cxcr4_fine_profile.png",
+      "Cysltr1": "figures/Cysltr1_fine_profile.png",
+      "Dbh": "figures/Dbh_fine_profile.png",
+      "Defa24": "figures/Defa24_fine_profile.png",
+      "Dmbx1": "figures/Dmbx1_fine_profile.png",
+      "Drd1": "figures/Drd1_fine_profile.png",
+      "Drd2": "figures/Drd2_fine_profile.png",
+      "Drd3": "figures/Drd3_fine_profile.png",
+      "Epb42": "figures/Epb42_fine_profile.png",
+      "F2rl1": "figures/F2rl1_fine_profile.png",
+      "Ferd3l": "figures/Ferd3l_fine_profile.png",
+      "Fndc3c1": "figures/Fndc3c1_fine_profile.png",
+      "Fzd4": "figures/Fzd4_fine_profile.png",
+      "Fzd5": "figures/Fzd5_fine_profile.png",
+      "Gabbr1": "figures/Gabbr1_fine_profile.png",
+      "Gabrr1": "figures/Gabrr1_fine_profile.png",
+      "Galr2": "figures/Galr2_fine_profile.png",
+      "Gm10824": "figures/Gm10824_fine_profile.png",
+      "Gm14496": "figures/Gm14496_fine_profile.png",
+      "Gm17226": "figures/Gm17226_fine_profile.png",
+      "Gm21818": "figures/Gm21818_fine_profile.png",
+      "Gm22219": "figures/Gm22219_fine_profile.png",
+      "Gm43782": "figures/Gm43782_fine_profile.png",
+      "Gm5127": "figures/Gm5127_fine_profile.png",
+      "Gm5624": "figures/Gm5624_fine_profile.png",
+      "Gm5741": "figures/Gm5741_fine_profile.png",
+      "Gnrhr": "figures/Gnrhr_fine_profile.png",
+      "Gpr119": "figures/Gpr119_fine_profile.png",
+      "Gpr151": "figures/Gpr151_fine_profile.png",
+      "Gpr156": "figures/Gpr156_fine_profile.png",
+      "Gpr50": "figures/Gpr50_fine_profile.png",
+      "Gpr52": "figures/Gpr52_fine_profile.png",
+      "Gpr55": "figures/Gpr55_fine_profile.png",
+      "Gpr6": "figures/Gpr6_fine_profile.png",
+      "Grin3b": "figures/Grin3b_fine_profile.png",
+      "Grpr": "figures/Grpr_fine_profile.png",
+      "Gsc": "figures/Gsc_fine_profile.png",
+      "Hrh4": "figures/Hrh4_fine_profile.png",
+      "Htr3b": "figures/Htr3b_fine_profile.png",
+      "Htr5b": "figures/Htr5b_fine_profile.png",
+      "Kcna10": "figures/Kcna10_fine_profile.png",
+      "Kcnj14": "figures/Kcnj14_fine_profile.png",
+      "Kcnk15": "figures/Kcnk15_fine_profile.png",
+      "Kcnmb1": "figures/Kcnmb1_fine_profile.png",
+      "Kctd12b": "figures/Kctd12b_fine_profile.png",
+      "Lrrc55": "figures/Lrrc55_fine_profile.png",
+      "Lrrc8e": "figures/Lrrc8e_fine_profile.png",
+      "Ltb4r1": "figures/Ltb4r1_fine_profile.png",
+      "Mrgpra6": "figures/Mrgpra6_fine_profile.png",
+      "Mtnr1a": "figures/Mtnr1a_fine_profile.png",
+      "Npy4r": "figures/Npy4r_fine_profile.png",
+      "Npy6r": "figures/Npy6r_fine_profile.png",
+      "Nr5a1": "figures/Nr5a1_fine_profile.png",
+      "Onecut3": "figures/Onecut3_fine_profile.png",
+      "Opn1sw": "figures/Opn1sw_fine_profile.png",
+      "Opn4": "figures/Opn4_fine_profile.png",
+      "Opn5": "figures/Opn5_fine_profile.png",
+      "Otop1": "figures/Otop1_fine_profile.png",
+      "Panx3": "figures/Panx3_fine_profile.png",
+      "Pkdrej": "figures/Pkdrej_fine_profile.png",
+      "Prlhr": "figures/Prlhr_fine_profile.png",
+      "Ptgdr2": "figures/Ptgdr2_fine_profile.png",
+      "Ptger1": "figures/Ptger1_fine_profile.png",
+      "Ptgir": "figures/Ptgir_fine_profile.png",
+      "Sctr": "figures/Sctr_fine_profile.png",
+      "Slc26a9": "figures/Slc26a9_fine_profile.png",
+      "Slc4a11": "figures/Slc4a11_fine_profile.png",
+      "Slc6a2": "figures/Slc6a2_fine_profile.png",
+      "Slc6a3": "figures/Slc6a3_fine_profile.png",
+      "Slc6a4": "figures/Slc6a4_fine_profile.png",
+      "Sprr2a2": "figures/Sprr2a2_fine_profile.png",
+      "Sprr2i": "figures/Sprr2i_fine_profile.png",
+      "Strit1": "figures/Strit1_fine_profile.png",
+      "Tcstv3": "figures/Tcstv3_fine_profile.png",
+      "Tmc3": "figures/Tmc3_fine_profile.png",
+      "Tpte": "figures/Tpte_fine_profile.png",
+      "Trpm1": "figures/Trpm1_fine_profile.png",
+      "Tshr": "figures/Tshr_fine_profile.png",
+      "Wt1": "figures/Wt1_fine_profile.png",
+      "Wt1os": "figures/Wt1os_fine_profile.png"
+    },
+    "source": "MERFISH-CCF fine-region predicted projection"
+  },
+  "fine_matrix_path": "gene_fine_region_matrix.csv",
+  "fine_region_audit": {
+    "category_excluded_cell_count": 311753,
+    "cell_type_column": "cluster_alias",
+    "coordinate_statistic": "mean_centroid",
+    "dropped_low_support_region_count": 21,
+    "exact_unassigned_cell_count": 68586,
+    "excluded_categories": [
+      "VS",
+      "fiber tracts"
+    ],
+    "exclusive_max_regions": 12,
+    "exclusive_region_fraction": 0.02,
+    "low_support_region_count": 0,
+    "metadata_source": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\MERFISH-C57BL6J-638850-CCF\\20231215\\views\\cell_metadata_with_parcellation_annotation.csv",
+    "min_region_cell_count": 100,
+    "placeholder_cell_count": 376345,
+    "placeholder_label_count": 27,
+    "raw_row_count": 3739961,
+    "raw_unique_region_count": 670,
+    "region_column": "parcellation_substructure",
+    "region_universe_n": 554,
+    "retained_cell_count": 2982135,
+    "unmapped_wmb_cluster_count": 149,
+    "unmapped_wmb_cluster_not_profiled_in_ccf": 48,
+    "unmapped_wmb_cluster_unassigned_substructure_only": 101,
+    "wmb_mapping_coverage_min": 0.9923356192012908,
+    "wmb_mapping_qc": [
+      {
+        "cluster_count": 178,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-CB.csv",
+        "mapped_cell_count": 181723,
+        "mapping_coverage": 0.9983354026347884,
+        "matrix_label": "WMB-10Xv3-CB",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CB-log2.h5ad",
+        "unmapped_cell_count": 303
+      },
+      {
+        "cluster_count": 693,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-CTXsp.csv",
+        "mapped_cell_count": 78223,
+        "mapping_coverage": 0.9969285277324632,
+        "matrix_label": "WMB-10Xv3-CTXsp",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-CTXsp-log2.h5ad",
+        "unmapped_cell_count": 241
+      },
+      {
+        "cluster_count": 636,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-HPF.csv",
+        "mapped_cell_count": 181055,
+        "mapping_coverage": 0.996708009226382,
+        "matrix_label": "WMB-10Xv3-HPF",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HPF-log2.h5ad",
+        "unmapped_cell_count": 598
+      },
+      {
+        "cluster_count": 1621,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-HY.csv",
+        "mapped_cell_count": 162296,
+        "mapping_coverage": 0.9964818350944624,
+        "matrix_label": "WMB-10Xv3-HY",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-HY-log2.h5ad",
+        "unmapped_cell_count": 573
+      },
+      {
+        "cluster_count": 677,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-Isocortex-1.csv",
+        "mapped_cell_count": 227670,
+        "mapping_coverage": 0.9975507056509032,
+        "matrix_label": "WMB-10Xv3-Isocortex-1",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-1-log2.h5ad",
+        "unmapped_cell_count": 559
+      },
+      {
+        "cluster_count": 213,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-Isocortex-2.csv",
+        "mapped_cell_count": 227537,
+        "mapping_coverage": 0.9969723259196944,
+        "matrix_label": "WMB-10Xv3-Isocortex-2",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-Isocortex-2-log2.h5ad",
+        "unmapped_cell_count": 691
+      },
+      {
+        "cluster_count": 1806,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-MB.csv",
+        "mapped_cell_count": 337101,
+        "mapping_coverage": 0.9974228634324735,
+        "matrix_label": "WMB-10Xv3-MB",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MB-log2.h5ad",
+        "unmapped_cell_count": 871
+      },
+      {
+        "cluster_count": 1159,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-MY.csv",
+        "mapped_cell_count": 191746,
+        "mapping_coverage": 0.9960934659061392,
+        "matrix_label": "WMB-10Xv3-MY",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-MY-log2.h5ad",
+        "unmapped_cell_count": 752
+      },
+      {
+        "cluster_count": 720,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-OLF.csv",
+        "mapped_cell_count": 88560,
+        "mapping_coverage": 0.9923356192012908,
+        "matrix_label": "WMB-10Xv3-OLF",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-OLF-log2.h5ad",
+        "unmapped_cell_count": 684
+      },
+      {
+        "cluster_count": 1087,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-P.csv",
+        "mapped_cell_count": 143157,
+        "mapping_coverage": 0.996491740973542,
+        "matrix_label": "WMB-10Xv3-P",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-P-log2.h5ad",
+        "unmapped_cell_count": 504
+      },
+      {
+        "cluster_count": 1237,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-PAL.csv",
+        "mapped_cell_count": 108046,
+        "mapping_coverage": 0.9941938036567076,
+        "matrix_label": "WMB-10Xv3-PAL",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-PAL-log2.h5ad",
+        "unmapped_cell_count": 631
+      },
+      {
+        "cluster_count": 1454,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-STR.csv",
+        "mapped_cell_count": 283782,
+        "mapping_coverage": 0.995143196793458,
+        "matrix_label": "WMB-10Xv3-STR",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-STR-log2.h5ad",
+        "unmapped_cell_count": 1385
+      },
+      {
+        "cluster_count": 767,
+        "cluster_metadata_shard": "Z:\\sternsonlab\\Zhenggang\\merfish\\WholeBrainGeneScreen_Results\\_prepared_fine_canonical\\_cluster_metadata_shards\\WMB-10Xv3-TH.csv",
+        "mapped_cell_count": 130454,
+        "mapping_coverage": 0.996927920767867,
+        "matrix_label": "WMB-10Xv3-TH",
+        "source_file": "Z:\\sternsonlab\\Zhenggang\\merfish\\expression_matrices\\WMB-10Xv3\\20230630\\WMB-10Xv3-TH-log2.h5ad",
+        "unmapped_cell_count": 402
+      }
+    ]
+  },
+  "fine_region_level": "parcellation_substructure",
+  "fine_region_metadata_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\MERFISH-C57BL6J-638850-CCF\\20231215\\views\\cell_metadata_with_parcellation_annotation.csv",
+  "fine_required": true,
+  "functional_catalog": {
+    "path": "Z:\\sternsonlab\\Zhenggang\\merfish\\gene_classification_catalog.csv",
+    "rows": 4763,
+    "status": "REUSED"
+  },
+  "functional_catalog_rows": 4763,
+  "functional_class_counts": {
+    "GPCR": 1769,
+    "ION_CHANNEL": 439,
+    "NEUROMODULATORY_SIGNAL": 13,
+    "OTHER": 28733
+  },
+  "gene_count": 30954,
+  "input_rows": {
+    "cell_type_region": 74608,
+    "expression": 92680751,
+    "gene_metadata": 32245,
+    "region_universe": 554
+  },
+  "inventory_rows": 3245,
+  "limitations": [
+    "Cell-type-to-region projection is imputed expression, not direct spatial measurement.",
+    "Adult reference atlases do not establish stability across age, sex, strain, state, or disease.",
+    "Transcript abundance does not guarantee protein abundance or genetic-tool performance."
+  ],
+  "low_support_region_count": 0,
+  "mode": "lite",
+  "online_evidence": true,
+  "pair_count": 0,
+  "passing_gene_count": 7104,
+  "pipeline_version": "0.3.2",
+  "priority_gene_count": 5,
+  "priority_genes": [
+    "Dmbx1",
+    "Onecut3",
+    "Drd1",
+    "Drd2",
+    "Drd3"
+  ],
+  "region_count": 554,
+  "region_of_interest_candidate_count": 6322,
+  "region_of_interest_divisions": [
+    "HY",
+    "STR",
+    "MB",
+    "P",
+    "MY",
+    "TH",
+    "HPF"
+  ],
+  "region_of_interest_structures": [
+    "MOp",
+    "MOs",
+    "VISa",
+    "VISal",
+    "VISam",
+    "VISl",
+    "VISli",
+    "VISp",
+    "VISpl",
+    "VISpm",
+    "VISpor",
+    "VISrl",
+    "FRP",
+    "ORBl",
+    "ORBm",
+    "ORBvl",
+    "PL",
+    "ILA",
+    "ACAd",
+    "ACAv"
+  ],
+  "region_universe_n": 554,
+  "retained_cell_count": 2982135,
+  "source_root": "Z:\\sternsonlab\\ABC_Atlas_Downloads",
+  "spatial_evidence": {
+    "Adora2a": [
+      {
+        "image": "../spatial_evidence/Adora2a/71997799_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 72109410, image 71997799 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/72109410"
+      },
+      {
+        "image": "../spatial_evidence/Adora2a/71997803_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 72109410, image 71997803 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/72109410"
+      }
+    ],
+    "Ano1": [
+      {
+        "image": "../spatial_evidence/Ano1/101362041_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1472, image 101362041 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/1472"
+      },
+      {
+        "image": "../spatial_evidence/Ano1/101362047_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1472, image 101362047 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/1472"
+      }
+    ],
+    "Apol10a": [
+      {
+        "image": "../spatial_evidence/Apol10a/70062046_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70227974, image 70062046 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70227974"
+      },
+      {
+        "image": "../spatial_evidence/Apol10a/70062050_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70227974, image 70062050 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70227974"
+      }
+    ],
+    "Apol9b": [
+      {
+        "image": "../spatial_evidence/Apol9b/68825866_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69014907, image 68825866 -- target region: RO (Nucleus raphe obscurus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69014907"
+      },
+      {
+        "image": "../spatial_evidence/Apol9b/68825868_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69014907, image 68825868 -- target region: RO (Nucleus raphe obscurus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69014907"
+      }
+    ],
+    "Asic3": [
+      {
+        "image": "../spatial_evidence/Asic3/68812601_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69013609, image 68812601 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/69013609"
+      },
+      {
+        "image": "../spatial_evidence/Asic3/68812603_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69013609, image 68812603 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/69013609"
+      }
+    ],
+    "Asic5": [
+      {
+        "image": "../spatial_evidence/Asic5/69084391_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69236771, image 69084391 -- target region: DCO (Dorsal cochlear nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69236771"
+      },
+      {
+        "image": "../spatial_evidence/Asic5/69084393_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69236771, image 69084393 -- target region: DCO (Dorsal cochlear nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69236771"
+      }
+    ],
+    "Atp5e": [
+      {
+        "image": "../spatial_evidence/Atp5e/69069315_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69173370, image 69069315 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/69173370"
+      },
+      {
+        "image": "../spatial_evidence/Atp5e/69069317_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69173370, image 69069317 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/69173370"
+      }
+    ],
+    "Avp": [
+      {
+        "image": "../spatial_evidence/Avp/101327147_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 131, image 101327147 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/131"
+      },
+      {
+        "image": "../spatial_evidence/Avp/101327153_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 131, image 101327153 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/131"
+      }
+    ],
+    "Avpr1b": [
+      {
+        "image": "../spatial_evidence/Avpr1b/79483549_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79488955, image 79483549 -- target region: CA2sp (Field CA2, pyramidal layer)",
+        "url": "https://mouse.brain-map.org/experiment/show/79488955"
+      },
+      {
+        "image": "../spatial_evidence/Avpr1b/79483551_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79488955, image 79483551 -- target region: CA2sp (Field CA2, pyramidal layer)",
+        "url": "https://mouse.brain-map.org/experiment/show/79488955"
+      }
+    ],
+    "Brs3": [
+      {
+        "image": "../spatial_evidence/Brs3/70368093_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70560328, image 70368093 -- target region: PD (Posterodorsal preoptic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70560328"
+      },
+      {
+        "image": "../spatial_evidence/Brs3/70368695_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70560328, image 70368695 -- target region: PD (Posterodorsal preoptic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70560328"
+      }
+    ],
+    "Catsper4": [
+      {
+        "image": "../spatial_evidence/Catsper4/69226600_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69236981, image 69226600 -- target region: DR (Dorsal nucleus raphe)",
+        "url": "https://mouse.brain-map.org/experiment/show/69236981"
+      },
+      {
+        "image": "../spatial_evidence/Catsper4/69226602_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69236981, image 69226602 -- target region: DR (Dorsal nucleus raphe)",
+        "url": "https://mouse.brain-map.org/experiment/show/69236981"
+      }
+    ],
+    "Ccr10": [
+      {
+        "image": "../spatial_evidence/Ccr10/74648707_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74724659, image 74648707 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/74724659"
+      },
+      {
+        "image": "../spatial_evidence/Ccr10/74648709_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74724659, image 74648709 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/74724659"
+      }
+    ],
+    "Ccr6": [
+      {
+        "image": "../spatial_evidence/Ccr6/77792035_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77793175, image 77792035 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/77793175"
+      },
+      {
+        "image": "../spatial_evidence/Ccr6/77792037_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77793175, image 77792037 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/77793175"
+      }
+    ],
+    "Cftr": [
+      {
+        "image": "../spatial_evidence/Cftr/69524639_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69548870, image 69524639 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/69548870"
+      },
+      {
+        "image": "../spatial_evidence/Cftr/69524641_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69548870, image 69524641 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/69548870"
+      }
+    ],
+    "Chat": [
+      {
+        "image": "../spatial_evidence/Chat/101320722_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 252, image 101320722 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/252"
+      },
+      {
+        "image": "../spatial_evidence/Chat/101320721_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 252, image 101320721 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/252"
+      }
+    ],
+    "Chrna2": [
+      {
+        "image": "../spatial_evidence/Chrna2/75488168_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75551460, image 75488168 -- target region: IPR (Interpeduncular nucleus, rostral)",
+        "url": "https://mouse.brain-map.org/experiment/show/75551460"
+      },
+      {
+        "image": "../spatial_evidence/Chrna2/75488170_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75551460, image 75488170 -- target region: IPR (Interpeduncular nucleus, rostral)",
+        "url": "https://mouse.brain-map.org/experiment/show/75551460"
+      }
+    ],
+    "Chrna3": [
+      {
+        "image": "../spatial_evidence/Chrna3/72040230_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 72119655, image 72040230 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/72119655"
+      },
+      {
+        "image": "../spatial_evidence/Chrna3/72040226_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 72119655, image 72040226 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/72119655"
+      }
+    ],
+    "Chrnb3": [
+      {
+        "image": "../spatial_evidence/Chrnb3/70289219_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70436747, image 70289219 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/70436747"
+      },
+      {
+        "image": "../spatial_evidence/Chrnb3/70289821_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70436747, image 70289821 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/70436747"
+      }
+    ],
+    "Chrnb4": [
+      {
+        "image": "../spatial_evidence/Chrnb4/101940932_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 264, image 101940932 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/264"
+      },
+      {
+        "image": "../spatial_evidence/Chrnb4/101940933_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 264, image 101940933 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/264"
+      }
+    ],
+    "Chrne": [
+      {
+        "image": "../spatial_evidence/Chrne/75724423_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75888738, image 75724423 -- target region: SH (Septohippocampal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/75888738"
+      },
+      {
+        "image": "../spatial_evidence/Chrne/75724421_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75888738, image 75724421 -- target region: SH (Septohippocampal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/75888738"
+      }
+    ],
+    "Cnga1": [
+      {
+        "image": "../spatial_evidence/Cnga1/71084343_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71380718, image 71084343 -- target region: IO (Inferior olivary complex)",
+        "url": "https://mouse.brain-map.org/experiment/show/71380718"
+      },
+      {
+        "image": "../spatial_evidence/Cnga1/71084345_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71380718, image 71084345 -- target region: IO (Inferior olivary complex)",
+        "url": "https://mouse.brain-map.org/experiment/show/71380718"
+      }
+    ],
+    "Cngb3": [
+      {
+        "image": "../spatial_evidence/Cngb3/75863035_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75985880, image 75863035 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/75985880"
+      },
+      {
+        "image": "../spatial_evidence/Cngb3/75863037_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75985880, image 75863037 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/75985880"
+      }
+    ],
+    "Cxcr4": [
+      {
+        "image": "../spatial_evidence/Cxcr4/102234170_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 100144881, image 102234170 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/100144881"
+      },
+      {
+        "image": "../spatial_evidence/Cxcr4/102234171_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 100144881, image 102234171 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/100144881"
+      }
+    ],
+    "Cysltr1": [
+      {
+        "image": "../spatial_evidence/Cysltr1/75587544_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75651227, image 75587544 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/75651227"
+      },
+      {
+        "image": "../spatial_evidence/Cysltr1/75587542_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75651227, image 75587542 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/75651227"
+      }
+    ],
+    "Dbh": [
+      {
+        "image": "../spatial_evidence/Dbh/101337915_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 326, image 101337915 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/326"
+      },
+      {
+        "image": "../spatial_evidence/Dbh/101337907_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 326, image 101337907 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/326"
+      }
+    ],
+    "Dmbx1": [
+      {
+        "image": "../spatial_evidence/Dmbx1/101359431_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1484, image 101359431 -- target region: MPT (Medial pretectal area)",
+        "url": "https://mouse.brain-map.org/experiment/show/1484"
+      },
+      {
+        "image": "../spatial_evidence/Dmbx1/101359439_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1484, image 101359439 -- target region: MPT (Medial pretectal area)",
+        "url": "https://mouse.brain-map.org/experiment/show/1484"
+      }
+    ],
+    "Drd1": [
+      {
+        "image": "../spatial_evidence/Drd1/101322595_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 352, image 101322595 -- target region: OT (Olfactory tubercle)",
+        "url": "https://mouse.brain-map.org/experiment/show/352"
+      },
+      {
+        "image": "../spatial_evidence/Drd1/101322591_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 352, image 101322591 -- target region: OT (Olfactory tubercle)",
+        "url": "https://mouse.brain-map.org/experiment/show/352"
+      }
+    ],
+    "Drd2": [
+      {
+        "image": "../spatial_evidence/Drd2/101322829_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 357, image 101322829 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/357"
+      },
+      {
+        "image": "../spatial_evidence/Drd2/101322834_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 357, image 101322834 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/357"
+      }
+    ],
+    "Drd3": [
+      {
+        "image": "../spatial_evidence/Drd3/74929545_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75038431, image 74929545 -- target region: OT (Olfactory tubercle)",
+        "url": "https://mouse.brain-map.org/experiment/show/75038431"
+      },
+      {
+        "image": "../spatial_evidence/Drd3/74929547_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75038431, image 74929547 -- target region: OT (Olfactory tubercle)",
+        "url": "https://mouse.brain-map.org/experiment/show/75038431"
+      }
+    ],
+    "F2rl1": [
+      {
+        "image": "../spatial_evidence/F2rl1/100096522_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 199391, image 100096522 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/199391"
+      },
+      {
+        "image": "../spatial_evidence/F2rl1/100115430_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 199391, image 100115430 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/199391"
+      }
+    ],
+    "Ferd3l": [
+      {
+        "image": "../spatial_evidence/Ferd3l/81623165_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81657659, image 81623165 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/81657659"
+      },
+      {
+        "image": "../spatial_evidence/Ferd3l/81623167_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81657659, image 81623167 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/81657659"
+      }
+    ],
+    "Fzd4": [
+      {
+        "image": "../spatial_evidence/Fzd4/77929828_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77925095, image 77929828 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/77925095"
+      },
+      {
+        "image": "../spatial_evidence/Fzd4/77929830_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77925095, image 77929830 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/77925095"
+      }
+    ],
+    "Fzd5": [
+      {
+        "image": "../spatial_evidence/Fzd5/101330141_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1500, image 101330141 -- target region: PF (Parafascicular nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/1500"
+      },
+      {
+        "image": "../spatial_evidence/Fzd5/101330147_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 1500, image 101330147 -- target region: PF (Parafascicular nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/1500"
+      }
+    ],
+    "Gabbr1": [
+      {
+        "image": "../spatial_evidence/Gabbr1/68316676_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68862120, image 68316676 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/68862120"
+      },
+      {
+        "image": "../spatial_evidence/Gabbr1/68316678_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68862120, image 68316678 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/68862120"
+      }
+    ],
+    "Gabrr1": [
+      {
+        "image": "../spatial_evidence/Gabrr1/75487631_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75551470, image 75487631 -- target region: SCsg (Superior colliculus, superficial gray layer)",
+        "url": "https://mouse.brain-map.org/experiment/show/75551470"
+      },
+      {
+        "image": "../spatial_evidence/Gabrr1/75487627_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75551470, image 75487627 -- target region: SCsg (Superior colliculus, superficial gray layer)",
+        "url": "https://mouse.brain-map.org/experiment/show/75551470"
+      }
+    ],
+    "Galr2": [
+      {
+        "image": "../spatial_evidence/Galr2/80481950_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 80517343, image 80481950 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/80517343"
+      },
+      {
+        "image": "../spatial_evidence/Galr2/80481952_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 80517343, image 80481952 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/80517343"
+      }
+    ],
+    "Gm5127": [
+      {
+        "image": "../spatial_evidence/Gm5127/70169013_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70305413, image 70169013 -- target region: SNc (Substantia nigra, compact part)",
+        "url": "https://mouse.brain-map.org/experiment/show/70305413"
+      },
+      {
+        "image": "../spatial_evidence/Gm5127/70169015_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70305413, image 70169015 -- target region: SNc (Substantia nigra, compact part)",
+        "url": "https://mouse.brain-map.org/experiment/show/70305413"
+      }
+    ],
+    "Gnrhr": [
+      {
+        "image": "../spatial_evidence/Gnrhr/70294804_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70593007, image 70294804 -- target region: SH (Septohippocampal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70593007"
+      },
+      {
+        "image": "../spatial_evidence/Gnrhr/70294806_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70593007, image 70294806 -- target region: SH (Septohippocampal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70593007"
+      }
+    ],
+    "Gpr119": [
+      {
+        "image": "../spatial_evidence/Gpr119/69238997_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257415, image 69238997 -- target region: IPR (Interpeduncular nucleus, rostral)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257415"
+      },
+      {
+        "image": "../spatial_evidence/Gpr119/69238999_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257415, image 69238999 -- target region: IPR (Interpeduncular nucleus, rostral)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257415"
+      }
+    ],
+    "Gpr151": [
+      {
+        "image": "../spatial_evidence/Gpr151/74648580_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74724649, image 74648580 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/74724649"
+      },
+      {
+        "image": "../spatial_evidence/Gpr151/74648582_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74724649, image 74648582 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/74724649"
+      }
+    ],
+    "Gpr156": [
+      {
+        "image": "../spatial_evidence/Gpr156/74532727_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74641322, image 74532727 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/74641322"
+      },
+      {
+        "image": "../spatial_evidence/Gpr156/74532725_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74641322, image 74532725 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/74641322"
+      }
+    ],
+    "Gpr50": [
+      {
+        "image": "../spatial_evidence/Gpr50/74395865_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74511770, image 74395865 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/74511770"
+      },
+      {
+        "image": "../spatial_evidence/Gpr50/74396469_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74511770, image 74396469 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/74511770"
+      }
+    ],
+    "Gpr55": [
+      {
+        "image": "../spatial_evidence/Gpr55/79603741_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591399, image 79603741 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591399"
+      },
+      {
+        "image": "../spatial_evidence/Gpr55/79603743_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591399, image 79603743 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591399"
+      }
+    ],
+    "Gpr6": [
+      {
+        "image": "../spatial_evidence/Gpr6/71115307_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71247615, image 71115307 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/71247615"
+      },
+      {
+        "image": "../spatial_evidence/Gpr6/71115305_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71247615, image 71115305 -- target region: CP (Caudoputamen)",
+        "url": "https://mouse.brain-map.org/experiment/show/71247615"
+      }
+    ],
+    "Grin3b": [
+      {
+        "image": "../spatial_evidence/Grin3b/77876748_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77869800, image 77876748 -- target region: III (Oculomotor nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77869800"
+      },
+      {
+        "image": "../spatial_evidence/Grin3b/77876754_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77869800, image 77876754 -- target region: III (Oculomotor nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77869800"
+      }
+    ],
+    "Grpr": [
+      {
+        "image": "../spatial_evidence/Grpr/81596835_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81600602, image 81596835 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/81600602"
+      },
+      {
+        "image": "../spatial_evidence/Grpr/81596837_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81600602, image 81596837 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/81600602"
+      }
+    ],
+    "Gsc": [
+      {
+        "image": "../spatial_evidence/Gsc/81622419_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81655566, image 81622419 -- target region: PVHd (Paraventricular hypothalamic nucleus, descending division)",
+        "url": "https://mouse.brain-map.org/experiment/show/81655566"
+      },
+      {
+        "image": "../spatial_evidence/Gsc/81622421_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81655566, image 81622421 -- target region: PVHd (Paraventricular hypothalamic nucleus, descending division)",
+        "url": "https://mouse.brain-map.org/experiment/show/81655566"
+      }
+    ],
+    "Hrh4": [
+      {
+        "image": "../spatial_evidence/Hrh4/69148850_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257767, image 69148850 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257767"
+      },
+      {
+        "image": "../spatial_evidence/Hrh4/69148852_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257767, image 69148852 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257767"
+      }
+    ],
+    "Htr3b": [
+      {
+        "image": "../spatial_evidence/Htr3b/74531976_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74641318, image 74531976 -- target region: ARH (Arcuate hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/74641318"
+      },
+      {
+        "image": "../spatial_evidence/Htr3b/74531972_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74641318, image 74531972 -- target region: ARH (Arcuate hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/74641318"
+      }
+    ],
+    "Htr5b": [
+      {
+        "image": "../spatial_evidence/Htr5b/71092894_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71247644, image 71092894 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/71247644"
+      },
+      {
+        "image": "../spatial_evidence/Htr5b/71092892_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71247644, image 71092892 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/71247644"
+      }
+    ],
+    "Kcna10": [
+      {
+        "image": "../spatial_evidence/Kcna10/69150737_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257993, image 69150737 -- target region: VMH (Ventromedial hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257993"
+      },
+      {
+        "image": "../spatial_evidence/Kcna10/69150739_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257993, image 69150739 -- target region: VMH (Ventromedial hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257993"
+      }
+    ],
+    "Kcnj14": [
+      {
+        "image": "../spatial_evidence/Kcnj14/75588932_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75651203, image 75588932 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/75651203"
+      },
+      {
+        "image": "../spatial_evidence/Kcnj14/75588928_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75651203, image 75588928 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/75651203"
+      }
+    ],
+    "Kcnk15": [
+      {
+        "image": "../spatial_evidence/Kcnk15/70442885_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70724864, image 70442885 -- target region: SOCl (Superior olivary complex, lateral part)",
+        "url": "https://mouse.brain-map.org/experiment/show/70724864"
+      },
+      {
+        "image": "../spatial_evidence/Kcnk15/70442887_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70724864, image 70442887 -- target region: SOCl (Superior olivary complex, lateral part)",
+        "url": "https://mouse.brain-map.org/experiment/show/70724864"
+      }
+    ],
+    "Kcnmb1": [
+      {
+        "image": "../spatial_evidence/Kcnmb1/81588116_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81599616, image 81588116 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/81599616"
+      },
+      {
+        "image": "../spatial_evidence/Kcnmb1/81588118_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81599616, image 81588118 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/81599616"
+      }
+    ],
+    "Kctd12b": [
+      {
+        "image": "../spatial_evidence/Kctd12b/71331890_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71529983, image 71331890 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/71529983"
+      },
+      {
+        "image": "../spatial_evidence/Kctd12b/71331892_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71529983, image 71331892 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/71529983"
+      }
+    ],
+    "Lrrc55": [
+      {
+        "image": "../spatial_evidence/Lrrc55/73922494_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 73931406, image 73922494 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/73931406"
+      },
+      {
+        "image": "../spatial_evidence/Lrrc55/73922496_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 73931406, image 73922496 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/73931406"
+      }
+    ],
+    "Lrrc8e": [
+      {
+        "image": "../spatial_evidence/Lrrc8e/70054673_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70201612, image 70054673 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/70201612"
+      },
+      {
+        "image": "../spatial_evidence/Lrrc8e/70054675_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70201612, image 70054675 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/70201612"
+      }
+    ],
+    "Ltb4r1": [
+      {
+        "image": "../spatial_evidence/Ltb4r1/68722161_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68744188, image 68722161 -- target region: TMd (Tuberomammillary nucleus, dorsal part)",
+        "url": "https://mouse.brain-map.org/experiment/show/68744188"
+      },
+      {
+        "image": "../spatial_evidence/Ltb4r1/68722163_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68744188, image 68722163 -- target region: TMd (Tuberomammillary nucleus, dorsal part)",
+        "url": "https://mouse.brain-map.org/experiment/show/68744188"
+      }
+    ],
+    "Mtnr1a": [
+      {
+        "image": "../spatial_evidence/Mtnr1a/77779523_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77800895, image 77779523 -- target region: PBG (Parabigeminal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77800895"
+      },
+      {
+        "image": "../spatial_evidence/Mtnr1a/77779525_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77800895, image 77779525 -- target region: PBG (Parabigeminal nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77800895"
+      }
+    ],
+    "Npy4r": [
+      {
+        "image": "../spatial_evidence/Npy4r/69152849_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258316, image 69152849 -- target region: IO (Inferior olivary complex)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258316"
+      },
+      {
+        "image": "../spatial_evidence/Npy4r/69152851_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258316, image 69152851 -- target region: IO (Inferior olivary complex)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258316"
+      }
+    ],
+    "Npy6r": [
+      {
+        "image": "../spatial_evidence/Npy6r/69149754_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258208, image 69149754 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258208"
+      },
+      {
+        "image": "../spatial_evidence/Npy6r/69149756_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258208, image 69149756 -- target region: SCH (Suprachiasmatic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258208"
+      }
+    ],
+    "Nr5a1": [
+      {
+        "image": "../spatial_evidence/Nr5a1/101333584_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 734, image 101333584 -- target region: VMH (Ventromedial hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/734"
+      },
+      {
+        "image": "../spatial_evidence/Nr5a1/101333578_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 734, image 101333578 -- target region: VMH (Ventromedial hypothalamic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/734"
+      }
+    ],
+    "Onecut3": [
+      {
+        "image": "../spatial_evidence/Onecut3/81627767_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81655213, image 81627767 -- target region: B (Barrington's nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/81655213"
+      },
+      {
+        "image": "../spatial_evidence/Onecut3/81627769_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 81655213, image 81627769 -- target region: B (Barrington's nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/81655213"
+      }
+    ],
+    "Opn1sw": [
+      {
+        "image": "../spatial_evidence/Opn1sw/75665767_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75773699, image 75665767 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/75773699"
+      },
+      {
+        "image": "../spatial_evidence/Opn1sw/75665763_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75773699, image 75665763 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/75773699"
+      }
+    ],
+    "Opn4": [
+      {
+        "image": "../spatial_evidence/Opn4/77779584_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77800897, image 77779584 -- target region: RT (Reticular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77800897"
+      },
+      {
+        "image": "../spatial_evidence/Opn4/77779586_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77800897, image 77779586 -- target region: RT (Reticular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/77800897"
+      }
+    ],
+    "Opn5": [
+      {
+        "image": "../spatial_evidence/Opn5/69149958_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258226, image 69149958 -- target region: MEPO (Median preoptic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258226"
+      },
+      {
+        "image": "../spatial_evidence/Opn5/69149960_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69258226, image 69149960 -- target region: MEPO (Median preoptic nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/69258226"
+      }
+    ],
+    "Otop1": [
+      {
+        "image": "../spatial_evidence/Otop1/70939129_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71210583, image 70939129 -- target region: RT (Reticular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/71210583"
+      },
+      {
+        "image": "../spatial_evidence/Otop1/70939131_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71210583, image 70939131 -- target region: RT (Reticular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/71210583"
+      }
+    ],
+    "Panx3": [
+      {
+        "image": "../spatial_evidence/Panx3/68352412_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68668114, image 68352412 -- target region: PVT (Paraventricular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/68668114"
+      },
+      {
+        "image": "../spatial_evidence/Panx3/68352414_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 68668114, image 68352414 -- target region: PVT (Paraventricular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/68668114"
+      }
+    ],
+    "Pkdrej": [
+      {
+        "image": "../spatial_evidence/Pkdrej/75863135_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75985900, image 75863135 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/75985900"
+      },
+      {
+        "image": "../spatial_evidence/Pkdrej/75863137_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75985900, image 75863137 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/75985900"
+      }
+    ],
+    "Prlhr": [
+      {
+        "image": "../spatial_evidence/Prlhr/74397712_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74511758, image 74397712 -- target region: PMv (Ventral premammillary nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/74511758"
+      },
+      {
+        "image": "../spatial_evidence/Prlhr/74397110_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 74511758, image 74397110 -- target region: PMv (Ventral premammillary nucleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/74511758"
+      }
+    ],
+    "Ptgdr2": [
+      {
+        "image": "../spatial_evidence/Ptgdr2/69241400_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257570, image 69241400 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257570"
+      },
+      {
+        "image": "../spatial_evidence/Ptgdr2/69241402_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69257570, image 69241402 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/69257570"
+      }
+    ],
+    "Ptger1": [
+      {
+        "image": "../spatial_evidence/Ptger1/71206088_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71325378, image 71206088 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/71325378"
+      },
+      {
+        "image": "../spatial_evidence/Ptger1/71206090_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71325378, image 71206090 -- target region: V (Motor nucleus of trigeminal)",
+        "url": "https://mouse.brain-map.org/experiment/show/71325378"
+      }
+    ],
+    "Ptgir": [
+      {
+        "image": "../spatial_evidence/Ptgir/69883278_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69863249, image 69883278 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/69863249"
+      },
+      {
+        "image": "../spatial_evidence/Ptgir/69883280_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69863249, image 69883280 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/69863249"
+      }
+    ],
+    "Sctr": [
+      {
+        "image": "../spatial_evidence/Sctr/71290743_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71487191, image 71290743 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/71487191"
+      },
+      {
+        "image": "../spatial_evidence/Sctr/71290745_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 71487191, image 71290745 -- target region: OV (Vascular organ of the lamina terminalis)",
+        "url": "https://mouse.brain-map.org/experiment/show/71487191"
+      }
+    ],
+    "Slc26a9": [
+      {
+        "image": "../spatial_evidence/Slc26a9/70110132_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70302123, image 70110132 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/70302123"
+      },
+      {
+        "image": "../spatial_evidence/Slc26a9/70110134_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70302123, image 70110134 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/70302123"
+      }
+    ],
+    "Slc4a11": [
+      {
+        "image": "../spatial_evidence/Slc4a11/69826279_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69873994, image 69826279 -- target region: CEAl (Central amygdalar nucleus, lateral part)",
+        "url": "https://mouse.brain-map.org/experiment/show/69873994"
+      },
+      {
+        "image": "../spatial_evidence/Slc4a11/69826281_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69873994, image 69826281 -- target region: CEAl (Central amygdalar nucleus, lateral part)",
+        "url": "https://mouse.brain-map.org/experiment/show/69873994"
+      }
+    ],
+    "Slc6a2": [
+      {
+        "image": "../spatial_evidence/Slc6a2/73527380_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 73615562, image 73527380 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/73615562"
+      },
+      {
+        "image": "../spatial_evidence/Slc6a2/73526776_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 73615562, image 73526776 -- target region: LC (Locus ceruleus)",
+        "url": "https://mouse.brain-map.org/experiment/show/73615562"
+      }
+    ],
+    "Slc6a3": [
+      {
+        "image": "../spatial_evidence/Slc6a3/79605234_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591365, image 79605234 -- target region: VTA (Ventral tegmental area)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591365"
+      },
+      {
+        "image": "../spatial_evidence/Slc6a3/79605236_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591365, image 79605236 -- target region: VTA (Ventral tegmental area)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591365"
+      }
+    ],
+    "Slc6a4": [
+      {
+        "image": "../spatial_evidence/Slc6a4/79627582_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591679, image 79627582 -- target region: DR (Dorsal nucleus raphe)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591679"
+      },
+      {
+        "image": "../spatial_evidence/Slc6a4/79627584_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 79591679, image 79627584 -- target region: DR (Dorsal nucleus raphe)",
+        "url": "https://mouse.brain-map.org/experiment/show/79591679"
+      }
+    ],
+    "Sprr2i": [
+      {
+        "image": "../spatial_evidence/Sprr2i/70488393_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70785110, image 70488393 -- target region: PVT (Paraventricular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70785110"
+      },
+      {
+        "image": "../spatial_evidence/Sprr2i/70488395_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 70785110, image 70488395 -- target region: PVT (Paraventricular nucleus of the thalamus)",
+        "url": "https://mouse.brain-map.org/experiment/show/70785110"
+      }
+    ],
+    "Tmc3": [
+      {
+        "image": "../spatial_evidence/Tmc3/69899379_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69981061, image 69899379 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/69981061"
+      },
+      {
+        "image": "../spatial_evidence/Tmc3/69899381_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 69981061, image 69899381 -- target region: SCO (Subcommissural organ)",
+        "url": "https://mouse.brain-map.org/experiment/show/69981061"
+      }
+    ],
+    "Trpm1": [
+      {
+        "image": "../spatial_evidence/Trpm1/75052694_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75081002, image 75052694 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/75081002"
+      },
+      {
+        "image": "../spatial_evidence/Trpm1/75052688_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 75081002, image 75052688 -- target region: MH (Medial habenula)",
+        "url": "https://mouse.brain-map.org/experiment/show/75081002"
+      }
+    ],
+    "Tshr": [
+      {
+        "image": "../spatial_evidence/Tshr/80444828_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 80471957, image 80444828 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/80471957"
+      },
+      {
+        "image": "../spatial_evidence/Tshr/80444830_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 80471957, image 80444830 -- target region: ME (Median eminence)",
+        "url": "https://mouse.brain-map.org/experiment/show/80471957"
+      }
+    ],
+    "Wt1": [
+      {
+        "image": "../spatial_evidence/Wt1/77481308_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77464976, image 77481308 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/77464976"
+      },
+      {
+        "image": "../spatial_evidence/Wt1/77481310_DIRECT_ISH.jpg",
+        "kind": "DIRECT ALLEN ISH",
+        "label": "Allen ISH experiment 77464976, image 77481310 -- target region: AP (Area postrema)",
+        "url": "https://mouse.brain-map.org/experiment/show/77464976"
+      }
+    ]
+  },
+  "spatial_resolution": "MERFISH-CCF parcellation_substructure",
+  "spatial_resolution_warning": "WMB \u00d7 MERFISH-CCF is a cell-type-composition projection, not direct full-transcriptome spatial measurement.",
+  "status": "COMPLETED",
+  "wmb_cluster_metadata_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\WMB-10X\\20241115\\views\\cell_metadata_with_cluster_annotation.csv",
+  "wmb_gene_metadata_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\WMB-10X\\20241115\\gene.csv"
+}

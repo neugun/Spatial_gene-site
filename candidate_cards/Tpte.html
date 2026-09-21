@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tpte candidate card</title>
+  <style>
+    :root{--ink:#14213d;--muted:#64748b;--line:#dbe4ee;--blue:#2563eb;--teal:#0f766e}*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}main{max-width:960px;margin:auto;padding:42px 24px 70px}h1{font-size:42px;letter-spacing:-.04em;margin:0}.sub{color:var(--muted);font-size:18px}.scores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.card,.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 2px 10px #0f172a0a}.card b{font-size:29px;display:block;color:var(--blue)}.card span{color:var(--muted)}h2{font-size:21px;margin:30px 0 12px}.barrow{display:grid;grid-template-columns:160px 1fr 90px;align-items:center;gap:12px;margin:8px 0}.track{height:12px;background:#e8eef6;border-radius:99px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--blue),#60a5fa);border-radius:99px}.grade{color:var(--teal)!important}.note{border-left:4px solid #f59e0b;background:#fffbeb;padding:14px 16px;border-radius:7px}.evidence{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.evidence figure{margin:0}.evidence img{width:100%;max-height:520px;object-fit:contain;background:#eef2f7}.tag{font-weight:700;color:var(--teal)}dl{display:grid;grid-template-columns:210px 1fr;gap:8px 18px;margin:0}dt{color:var(--muted)}dd{margin:0;font-weight:600}@media(max-width:650px){.scores{grid-template-columns:1fr}.barrow{grid-template-columns:100px 1fr 65px}dl{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body><main>
+  <h1>Tpte</h1>
+<p class="sub">Transmembrane phosphatase with tensin homology</p>  <p class="sub">Spatial tier: <b>STRICT_EXCLUSIVE</b> · Class: <b>ION_CHANNEL</b> · Top region: <b>OV (Vascular organ of the lamina terminalis)</b> · Positive regions: 10/554</p>
+  <section class="scores">
+    <div class="card"><b>46.0</b><span>Discovery Score</span></div>
+    <div class="card"><b>36.9</b><span>Targetability Score</span></div>
+    <div class="card"><b class="grade">C</b><span>Evidence grade C</span></div>
+  </section>
+  <div class="note"><b>What this means:</b> Tpte: predicted fine-region profile is strict-exclusive, with 10 positive regions out of 554 (limit 12); direct spatial validation is required.</div>
+<h2>Direct spatial evidence</h2>
+  <div class="evidence">
+<figure class="panel"><div class="tag">MERFISH REGION LOCATOR</div><img src="../spatial_evidence/_merfish_locators/OV_merfish_locator.png" alt="OV MERFISH region locator"><figcaption>Real single-cell MERFISH coordinates for the OV (Vascular organ of the lamina terminalis) section -- our own ground-truth data, showing exactly where this region sits, independent of whether the Allen ISH section below is easy to read.</figcaption></figure>  </div>
+  <h2>Regional expression figure</h2><div class="panel"><img src="../figures/Tpte_fine_profile.png" alt="Tpte regional expression profile" style="width:100%;height:auto"><p class="tag">Predicted WMB × fine-CCF profile; not direct full-transcriptome spatial measurement.</p></div>  <h2>Spatial profile</h2>
+  <div class="panel"><div class="barrow"><span>OV</span><div class="track"><div class="bar" style="width:100.00%"></div></div><span>0.237</span></div><div class="barrow"><span>PVpo</span><div class="track"><div class="bar" style="width:57.42%"></div></div><span>0.136</span></div><div class="barrow"><span>ME</span><div class="track"><div class="bar" style="width:54.10%"></div></div><span>0.128</span></div><div class="barrow"><span>AOBgl</span><div class="track"><div class="bar" style="width:50.21%"></div></div><span>0.119</span></div><div class="barrow"><span>PVi</span><div class="track"><div class="bar" style="width:37.48%"></div></div><span>0.0887</span></div><div class="barrow"><span>SCO</span><div class="track"><div class="bar" style="width:36.81%"></div></div><span>0.0872</span></div><div class="barrow"><span>LING</span><div class="track"><div class="bar" style="width:34.73%"></div></div><span>0.0822</span></div><div class="barrow"><span>AOBmi</span><div class="track"><div class="bar" style="width:32.77%"></div></div><span>0.0776</span></div><div class="barrow"><span>PVa</span><div class="track"><div class="bar" style="width:31.82%"></div></div><span>0.0753</span></div><div class="barrow"><span>LA</span><div class="track"><div class="bar" style="width:30.51%"></div></div><span>0.0722</span></div><div class="barrow"><span>AD</span><div class="track"><div class="bar" style="width:27.24%"></div></div><span>0.0645</span></div><div class="barrow"><span>SFO</span><div class="track"><div class="bar" style="width:25.26%"></div></div><span>0.0598</span></div><div class="barrow"><span>MEPO</span><div class="track"><div class="bar" style="width:24.74%"></div></div><span>0.0586</span></div><div class="barrow"><span>LSc</span><div class="track"><div class="bar" style="width:23.45%"></div></div><span>0.0555</span></div><div class="barrow"><span>FL</span><div class="track"><div class="bar" style="width:23.31%"></div></div><span>0.0552</span></div><div class="barrow"><span>PVH</span><div class="track"><div class="bar" style="width:21.95%"></div></div><span>0.052</span></div><div class="barrow"><span>PVT</span><div class="track"><div class="bar" style="width:20.92%"></div></div><span>0.0495</span></div><div class="barrow"><span>NOD</span><div class="track"><div class="bar" style="width:20.44%"></div></div><span>0.0484</span></div><div class="barrow"><span>PFL</span><div class="track"><div class="bar" style="width:20.43%"></div></div><span>0.0484</span></div><div class="barrow"><span>AVPV</span><div class="track"><div class="bar" style="width:20.27%"></div></div><span>0.048</span></div></div>
+  <h2>Evidence and specificity</h2>
+  <div class="panel"><dl>
+    <dt>Evidence status</dt><dd>PREDICTED_FINE</dd>
+    <dt>Direct sources</dt><dd>None; predicted localization only</dd>
+    <dt>Exclusive threshold</dt><dd>12 positive regions out of 554</dd>
+    <dt>Spatial specificity</dt><dd>0.358</dd>
+    <dt>Top-region fraction</dt><dd>0.117</dd>
+    <dt>Filter status</dt><dd>PASS</dd>
+  </dl></div>
+  <h2>Interpretation limits</h2>
+  <div class="note"><ul><li>Cell-type-to-region projection is imputed expression, not direct spatial measurement.</li><li>Adult reference atlases do not establish stability across age, sex, strain, state, or disease.</li><li>Transcript abundance does not guarantee protein abundance or genetic-tool performance.</li></ul></div>
+</main></body></html>
