@@ -73,6 +73,16 @@ select.priority-select.p1{background:#eef2f7;color:var(--muted)}
 .fn ul{margin:4px 0 0 18px;padding:0}
 .fn .pred{background:#fff7ed;border-left:3px solid #f97316;padding:6px 10px;border-radius:4px}
 </style>
+<style id="layout-fix">
+main{max-width:none;width:min(96vw,1900px)}
+table{min-width:1650px}
+#topscroll{overflow-x:auto;overflow-y:hidden;height:16px;margin-bottom:-4px;border-radius:12px 12px 0 0;background:#eef2f7}
+#topscroll div{height:1px}
+th:first-child,td:first-child{position:sticky;left:0;z-index:2;background:#fff;box-shadow:2px 0 0 #dbe4ee}
+th:first-child{z-index:3;background:#eef2f7}
+tbody tr:nth-child(even) td:first-child{background:#f8fafc}
+tbody tr:hover td:first-child{background:#eef4ff}
+</style>
 </head>
 <body><main>
 <h1>The Bridge from Molecular to Systems Neuroscience</h1>
@@ -3071,5 +3081,11 @@ select.priority-select.p1{background:#eef2f7;color:var(--muted)}
 
   applyNotes();
 })();
+</script>
+<script id="layout-fix-js">
+(function(){var w=document.querySelector('.table-wrap');if(!w)return;var t=document.createElement('div');t.id='topscroll';t.innerHTML='<div></div>';
+w.parentNode.insertBefore(t,w);function sync(){t.firstChild.style.width=w.scrollWidth+'px';}sync();window.addEventListener('resize',sync);
+var lock=false;t.addEventListener('scroll',function(){if(lock)return;lock=true;w.scrollLeft=t.scrollLeft;lock=false;});
+w.addEventListener('scroll',function(){if(lock)return;lock=true;t.scrollLeft=w.scrollLeft;lock=false;});})();
 </script>
 </body></html>
