@@ -1,0 +1,20 @@
+{
+  "stage": 827,
+  "status": "COMPLETE",
+  "n_cells": 71950,
+  "n_types": 26,
+  "n_genes": 27,
+  "expression_authority": "Stage594 corrected48 counts",
+  "identity_authority": "current H5AD Fine26 stable labels; expression read directly from Stage594, not H5AD X",
+  "panels": [
+    "CURRENT_FINE26_DOTPLOT.png/pdf",
+    "CURRENT_FINE26_SECTION_REPRODUCIBILITY.png/pdf"
+  ],
+  "repro_summary": {
+    "strong_n": 16,
+    "moderate_n": 6,
+    "limited_n": 4,
+    "median_of_type_median_r": 0.7344322344322345
+  },
+  "principle": "Restore the Stage1-200 taxonomy workflow: direct current molecular profiles, explicit marker identities, and section reproducibility are shown before external-reference or model-based labels."
+}
