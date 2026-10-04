@@ -1,0 +1,43 @@
+{
+  "stage": 825,
+  "status": "COMPLETE",
+  "n_genes": 27,
+  "sections": [
+    500,
+    530,
+    560
+  ],
+  "expression_source": "Stage594 corrected48 counts",
+  "coordinate_source": "Stage631 current XY",
+  "display": "one gene per figure, S500/S530/S560 side-by-side; per-gene color scale shared across all three sections; vmax=global gene 99.5th percentile of log1p counts",
+  "purpose": "manual inspection and publication-source-panel review; cross-section comparison within a gene is valid under shared display scaling; cross-gene absolute color intensity should not be compared",
+  "files": [
+    "01_Nfib_S500_S530_S560.png",
+    "02_Snap25_S500_S530_S560.png",
+    "03_Zfhx3_S500_S530_S560.png",
+    "04_Npy5r_S500_S530_S560.png",
+    "05_Hcrtr1_S500_S530_S560.png",
+    "06_Bcl11b_S500_S530_S560.png",
+    "07_Slc5a7_S500_S530_S560.png",
+    "08_Npy1r_S500_S530_S560.png",
+    "09_Pdyn_S500_S530_S560.png",
+    "10_Lmx1a_S500_S530_S560.png",
+    "11_Piezo2_S500_S530_S560.png",
+    "12_Tacr1_S500_S530_S560.png",
+    "13_Slc6a4_S500_S530_S560.png",
+    "14_Slc6a2_S500_S530_S560.png",
+    "15_Foxp2_S500_S530_S560.png",
+    "16_Fstl4_S500_S530_S560.png",
+    "17_Epb41l4a_S500_S530_S560.png",
+    "18_Pde11a_S500_S530_S560.png",
+    "19_Slc32a1_S500_S530_S560.png",
+    "20_Ghr_S500_S530_S560.png",
+    "21_Ebf3_S500_S530_S560.png",
+    "22_Cep112_S500_S530_S560.png",
+    "23_Otx2os1_S500_S530_S560.png",
+    "24_Dscaml1_S500_S530_S560.png",
+    "25_Mc4r_S500_S530_S560.png",
+    "26_Meis2_S500_S530_S560.png",
+    "27_Slc17a6_S500_S530_S560.png"
+  ]
+}
