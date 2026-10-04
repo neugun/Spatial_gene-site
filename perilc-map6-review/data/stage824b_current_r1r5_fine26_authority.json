@@ -1,0 +1,154 @@
+{
+  "stage": "824b",
+  "status": "COMPLETE",
+  "n_cells": 21787,
+  "pairs": 130,
+  "n_fdr_q_lt_0p05": 75,
+  "n_fdr_and_abs_log2_ge1": 27,
+  "max_abs_smoothed_log2": 3.740873111618198,
+  "top_significant_positive": [
+    {
+      "region": "R5",
+      "fine26": "I10",
+      "n": 22,
+      "log2_enrichment_pc0p5": 2.546522023149886,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R5",
+      "fine26": "I04",
+      "n": 13,
+      "log2_enrichment_pc0p5": 1.9913492288784116,
+      "q_fdr": 0.007870916961826053
+    },
+    {
+      "region": "R2",
+      "fine26": "NE01",
+      "n": 24,
+      "log2_enrichment_pc0p5": 1.7134155686371426,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "O01",
+      "n": 68,
+      "log2_enrichment_pc0p5": 1.597944901563853,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R5",
+      "fine26": "I03",
+      "n": 13,
+      "log2_enrichment_pc0p5": 1.4355095386322936,
+      "q_fdr": 0.03463203463203463
+    },
+    {
+      "region": "R4",
+      "fine26": "I12",
+      "n": 20,
+      "log2_enrichment_pc0p5": 1.3788693552512736,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R2",
+      "fine26": "I01",
+      "n": 50,
+      "log2_enrichment_pc0p5": 1.310490570268481,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "I01",
+      "n": 141,
+      "log2_enrichment_pc0p5": 1.270596218778251,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "I13",
+      "n": 174,
+      "log2_enrichment_pc0p5": 1.2023955720377446,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R4",
+      "fine26": "I07",
+      "n": 764,
+      "log2_enrichment_pc0p5": 1.197524833258887,
+      "q_fdr": 0.0041893590280687055
+    }
+  ],
+  "top_significant_negative": [
+    {
+      "region": "R5",
+      "fine26": "I13",
+      "n": 0,
+      "log2_enrichment_pc0p5": -3.740873111618198,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R2",
+      "fine26": "I14",
+      "n": 1,
+      "log2_enrichment_pc0p5": -2.7695582438674986,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "I07",
+      "n": 44,
+      "log2_enrichment_pc0p5": -2.67970557904283,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R5",
+      "fine26": "ChAT01",
+      "n": 1,
+      "log2_enrichment_pc0p5": -2.25110523156397,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "I11",
+      "n": 22,
+      "log2_enrichment_pc0p5": -2.0758166123826234,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R2",
+      "fine26": "I11",
+      "n": 11,
+      "log2_enrichment_pc0p5": -1.5177666410849673,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R1",
+      "fine26": "I04",
+      "n": 13,
+      "log2_enrichment_pc0p5": -1.5124653136752981,
+      "q_fdr": 0.007870916961826053
+    },
+    {
+      "region": "R1",
+      "fine26": "I10",
+      "n": 15,
+      "log2_enrichment_pc0p5": -1.494949305346623,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R3",
+      "fine26": "I12",
+      "n": 7,
+      "log2_enrichment_pc0p5": -1.3430765649093888,
+      "q_fdr": 0.0041893590280687055
+    },
+    {
+      "region": "R2",
+      "fine26": "I02",
+      "n": 30,
+      "log2_enrichment_pc0p5": -1.312774707234746,
+      "q_fdr": 0.0041893590280687055
+    }
+  ],
+  "interpretation": "Current medial450 retains substantial R1-R5/Fine26 structure, but less extensively than the early core atlas. Effects use a 0.5 pseudocount for stable display; significance uses section-preserving permutation."
+}

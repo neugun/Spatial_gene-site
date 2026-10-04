@@ -3,5 +3,14 @@
   "assets": 80,
   "data_files": 7,
   "missing_links": [],
-  "index_bytes": 28371
+  "index_bytes": 33833,
+  "version": "2026-10-04-stage824b",
+  "current_spatial_assets": [
+    "assets/current_r1r5_coronal.jpg",
+    "assets/current_r1r5_repro_fine26.jpg",
+    "assets/current_r1r5_fine26_perm.jpg"
+  ],
+  "stage823_lineage_agreement": 1.0,
+  "current_profile_median": 0.619047619047619,
+  "current_r1r5_fine26_fdr_pairs": 75
 }

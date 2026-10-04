@@ -1,0 +1,9 @@
+id,priority,area,problem,required_fix
+R1,HIGH,Spatial-domain conclusion,"Stage805/818 generalized weak deprecated SR0-SR3 reproducibility to periLC fixed domains, despite frozen K5/R1-R5 cross-section profile median r=0.876.",Reconcile K5/R1-R5 with current lineage before any claim that discrete domains are weak.
+R2,HIGH,Main-figure design,Stage816/819 use dashboard-style summary panels and binary support matrices.,Retire as publication candidates; keep as internal audit only.
+R3,HIGH,Reference evidence,"Cross-framework evidence was binarized, obscuring exact labels, confidence and conflicts.",Return to direct reference heatmaps/crosswalks with numeric confidence.
+R4,MEDIUM,Morphology,Effect-size-only heatmaps replaced distributions/representative maps.,Restore violin/distribution + representative spatial type panels; effect size as annotation.
+R5,MEDIUM,Gene spatial evidence,Continuous-gradient summaries were promoted without equivalent actual gene maps in the main visual chain.,"For every promoted gradient/program, show 3-section gene maps first."
+R6,MEDIUM,Nomenclature,Technical/internal terms appear in publication-facing titles.,Restore short biological titles and move engineering vocabulary to captions/methods.
+R7,MEDIUM,Section/AP biology,Aggregation hides section-specific reversals and AP dependence.,Use aligned 500/530/560 panels for claims with AP interaction.
+R8,LOW,Color/background consistency,Late figures lost black-spatial/white-analysis visual semantics.,Reapply Stage185 style rule globally.

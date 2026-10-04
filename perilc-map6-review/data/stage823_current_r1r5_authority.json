@@ -1,0 +1,73 @@
+{
+  "stage": 823,
+  "status": "COMPLETE",
+  "old_core_k5_n": 39029,
+  "old_numeric_to_current_region5": {
+    "0": "R4",
+    "1": "R2",
+    "2": "R1",
+    "3": "R3",
+    "4": "R5"
+  },
+  "old_core_to_current_region5_cellwise_agreement": 0.5739834482051808,
+  "current_primary_n": 21787,
+  "current_primary_region_counts": {
+    "R3": 11351,
+    "R4": 4695,
+    "R1": 4014,
+    "R2": 1385,
+    "R5": 342
+  },
+  "early_core_vs_current_medial450_profile_repro": [
+    {
+      "region": "R1",
+      "early_core_median_r": 0.8487483387146738,
+      "current_medial450_median_r": 0.6434676434676434,
+      "delta_current_minus_early": -0.2052806952470304
+    },
+    {
+      "region": "R2",
+      "early_core_median_r": 0.8758929722801968,
+      "current_medial450_median_r": 0.6086691086691086,
+      "delta_current_minus_early": -0.2672238636110882
+    },
+    {
+      "region": "R3",
+      "early_core_median_r": 0.901050639215144,
+      "current_medial450_median_r": 0.6923076923076923,
+      "delta_current_minus_early": -0.20874294690745165
+    },
+    {
+      "region": "R4",
+      "early_core_median_r": 0.8926252940492183,
+      "current_medial450_median_r": 0.5775335775335775,
+      "delta_current_minus_early": -0.31509171651564083
+    },
+    {
+      "region": "R5",
+      "early_core_median_r": 0.8618122302524687,
+      "current_medial450_median_r": 0.619047619047619,
+      "delta_current_minus_early": -0.2427646112048497
+    }
+  ],
+  "current_primary_profile_median_of_regions": 0.619047619047619,
+  "fine26_region_association": {
+    "NMI": 0.03522905134492381,
+    "AMI": 0.03413582691586495,
+    "section_preserving_perm_p": 0.000999000999000999
+  },
+  "key_correction": "The frozen Stage107/121 K5/R1-R5 primary lineage is preserved exactly in the current H5AD spatial_region5 column (100% on the 39,029-cell Stage106 primary K5 set). Current medial450 re-evaluation should therefore compare biological reproducibility within the changed ROI, not question lineage identity.",
+  "interpretation": "R1-R5 must remain in the main spatial story if current medial450 cross-section molecular reproducibility remains substantial; continuous radial/angular/AP analyses should be tested as within-domain or orthogonal structure, not as an automatic replacement.",
+  "lineage_correction_status": "CORRECTED_PRIMARY_K5",
+  "old_primary_k5_source": "Stage106 K5_labels.npz; global row index from Stage106 subregion_k5.npz only as index carrier",
+  "old_primary_k5_n": 39029,
+  "old_primary_numeric_to_current_region5": {
+    "0": "R5",
+    "1": "R3",
+    "2": "R1",
+    "3": "R4",
+    "4": "R2"
+  },
+  "old_primary_k5_to_current_region5_cellwise_agreement": 1.0,
+  "superseded_lineage_value": "The earlier 0.57398 agreement came from the alternative Stage106 subregion_k5 candidate and is superseded."
+}
