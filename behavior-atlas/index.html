@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Virtual Mouse Behavioral Atlas</title>
+<meta name="description" content="Interactive 12-motif behavioral atlas linking Virtual Mouse reconstructions to behavioral-space locations.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero wrap">
+    <p class="kicker">SOCIAL BEHAVIOR / VIRTUAL MOUSE / BEHAVIORAL ATLAS</p>
+    <h1>A 12-motif behavioral atlas</h1>
+    <p class="lede">Move from a Virtual Mouse behavior directly into its position in behavioral space. Every displayed point below is an exact contiguous motif run from the same session and can be played back from the Virtual Mouse reconstruction.</p>
+    <div class="hero-player">
+      <video src="assets/hero_C18.mp4" autoplay muted loop playsinline controls></video>
+    </div>
+    <p class="hero-note">Hero example: latest Module 1.4 Virtual Mouse paired with exact frozen-v85 behavioral-space coordinates.</p>
+  </header>
+
+  <section class="intro wrap">
+    <h2>Explore the motifs</h2>
+    <p>The behavioral space is organized into 12 motifs. Click any dot to play the exact Virtual Mouse segment for that state run. Click empty space to place the comparison circle, drag the circle to move it, drag elsewhere to pan, scroll or pinch to zoom, and adjust the radius to compare nearby examples.</p>
+  </section>
+
+  <section class="explorer" id="explorer">
+    <div class="toolbar">
+      <div class="control">
+        <span class="lab">Colour by</span>
+        <div class="seg" id="colourBtns">
+          <button data-v="motif" class="active">Motif</button>
+          <button data-v="social">Social observation</button>
+          <button data-v="dem">DEM feeding</button>
+          <button data-v="quality">Quality</button>
+        </div>
+      </div>
+      <div class="control radius-control">
+        <span class="lab">Selection radius</span>
+        <input id="radius" type="range" min="3" max="45" step="1" value="18">
+        <span id="radiusVal">18</span>
+      </div>
+      <div class="actions">
+        <button id="moreBtn">More examples</button>
+        <button id="resetBtn">Reset</button>
+        <button id="fullBtn">Full screen</button>
+      </div>
+    </div>
+
+    <div class="explorer-grid">
+      <aside class="motif-list" id="motifList"></aside>
+      <div class="map-panel">
+        <canvas id="map"></canvas>
+        <div class="hint">Click any dot to play · click/drag the circle to compare · drag elsewhere to pan · scroll/pinch to zoom</div>
+        <div class="tooltip" id="tooltip"></div>
+      </div>
+      <div class="clips-panel">
+        <div class="clips-head">
+          <div>
+            <div class="eyebrow" id="selectionEyebrow">Selected examples</div>
+            <h3 id="selectionTitle">Click a point</h3>
+          </div>
+          <div class="selection-meta" id="selectionMeta"></div>
+        </div>
+        <div class="clip-grid" id="clipGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dictionary wrap">
+    <div class="section-head">
+      <h2>Motif dictionary</h2>
+      <p>Each motif is defined in the frozen v85 behavioral atlas. The cards summarize how often that motif appears in this session and its overlap with Social Observation and demonstrator feeding.</p>
+    </div>
+    <div class="motif-cards" id="motifCards"></div>
+  </section>
+
+  <footer class="wrap">
+    <p>Prototype explorer · Chemo:ANM4:D139 · exact frame-wise v85 projection · latest Module 1.4 Virtual Mouse replay.</p>
+  </footer>
+</main>
+<script src="explorer.js"></script>
+</body>
+</html>
