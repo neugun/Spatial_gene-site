@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage828",
+  "version": "2026-10-04-stage829",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -86,5 +86,10 @@
     "O01",
     "O02",
     "E05"
-  ]
+  ],
+  "stage829_assets": [
+    "assets/current_projection_composition.jpg",
+    "assets/current_projection_reproducible.jpg"
+  ],
+  "stage829_reproducible_pairs": 8
 }
