@@ -1,0 +1,25 @@
+dimension,period,finding,evidence
+scientific hierarchy,EARLY,Primary / complementary / supplement / sensitivity explicitly frozen before publication assembly.,"Stage119-122 checklist/storyboard; K5 primary, GMZ8 complementary."
+scientific hierarchy,LATE,Multiple frameworks collapsed into one evidence matrix/dashboard; primary evidence and validation evidence visually flattened.,Stage813/816/819.
+spatial framework,EARLY,"Primary K5/R1-R5 selected quantitatively: seed ARI 0.986, neighbor agreement 0.807, cross-section profile median r 0.876.",Stage121.
+spatial framework,LATE REGRESSION,Deprecated SR0-SR3 assignment was later used to argue fixed domains were weak (median rho ~0.174). This is not a valid test of the frozen K5/R1-R5 framework.,Stage805/818.
+raw biological evidence,EARLY,"Shows tissue/segmentation/cell distributions directly: coronal sections, true mask bodies, per-gene 3D atlases, full molecular distributions.",Stage104/117/147/183/185.
+raw biological evidence,LATE,"Derived scores, counts, binary support matrices and small summary heatmaps replace direct tissue evidence.",Stage813/816/819.
+visual grammar,EARLY,Spatial-pattern panels black; nonspatial analytical panels white. Same rule explicitly documented.,Stage185 storyboard/source audit.
+visual grammar,LATE,Mostly generic white dashboards; visual encoding no longer tells the reader whether a panel is spatial observation vs statistical analysis.,Stage816/819.
+nomenclature,EARLY,Biological display names separate from method labels: K5 is a resolution choice; displayed as R1-R5 with marker shorthand. Fine types include E/I/T + discriminative genes.,Stage122 nomenclature rules.
+nomenclature,LATE,"Technical terms and analysis names leak into figure titles: held-out, support layers, CCA, 'Yuhan logic', 'manuscript-ready draft'.",Stage816/819.
+panel purpose,EARLY,Each main figure answers one biological question and contains observation + validation + reproducibility needed for that question.,Stage120/122 storyboard.
+panel purpose,LATE,"Panels answer unrelated questions in one canvas (panel benchmark, morphology, projection, reference support) and read like a project status dashboard.",Stage816/819.
+section handling,EARLY,500/530/560 shown explicitly side-by-side with matched view/scale; cross-section reproducibility is visually inspectable.,Stage71/77/94/104/185.
+section handling,LATE,"Section effects often compressed to bars/medians, making AP-dependent biology difficult to inspect manually.",Stage792/816/819.
+morphology,EARLY,Violin distributions + representative 3D type maps retain distribution shape and tissue context.,Stage108/111/117/122 Fig4.
+morphology,LATE,"Effect-size heatmap alone hides distributions, n and anatomical context.",Stage803/816/819.
+reference validation,EARLY,Reference broad composition/crosswalk shown directly and separately from the primary atlas.,Stage182/185 Fig3.
+reference validation,LATE,"Different references collapsed to binary black/white 'support' cells, losing identity, confidence and disagreement structure.",Stage813/816/819.
+gene expression,EARLY,Each gene can be inspected in real 3D tissue across sections; true-maskbody views available.,Stage104/128/147.
+gene expression,LATE,Gene effects often reduced to rho/loadings/gradients before showing the actual spatial expression pattern.,Stage785/790/810.
+figure typography,EARLY,"Short biological panel titles, generous margins, consistent axis labels, limited text inside panels.",Stage122/180/185.
+figure typography,LATE,Long sentence-like panel titles collide; global title/footnotes and analysis jargon compete with data; cramped layout.,Stage819 especially.
+iteration model,EARLY,"Standalone source panels were perfected first, then assembled; source panel audit required all final panels to exist.",Stage120-122/185.
+iteration model,LATE,"Large composite figures generated directly from summary tables, often without first perfecting each source panel.",Stage816/819.

@@ -1,0 +1,17 @@
+PeriLC spatial framework decision — 2026-09-16
+
+PRIMARY: K5 multigene spatio-molecular domains (R1-R5).
+- K=5 is the clear K4-12 optimum: composite=0.996, seed ARI=0.986 (min 0.982), spatial-neighbor agreement=0.807, silhouette=0.230.
+- All five domains are represented in all three AP sections; median cross-section 27-gene profile correlation=0.876 (range 0.849-0.901).
+- Fine27 association is strong: 115/135 domain-type pairs q<0.05; top log2 enrichment=3.075.
+- Independent contextual validation: domain medians differ in soma/shape proxies and local 3D cellular density across all 71,950 ROI.
+- A two-marker-per-domain GPC only weakly reconstructs K5 (median ARI=0.205); therefore the domains should be described as multigene spatial states with short marker labels, not defined by those labels alone.
+
+COMPLEMENTARY: GMZ8 Ghr/Meis2/Zfhx3 marker-state domains.
+- Useful eLife-style interpretable marker probability decomposition; median single-marker GPC accuracy=0.668.
+- Median largest-component fraction across section×state=0.977; some states fragment in individual sections.
+- Fine27 enrichment remains informative: 180/216 q<0.05; 48 strong enriched pairs in the saved effect-size table.
+- Fine27 composition is strongly AP-dependent (median saved cross-section composition r=-0.010), so GMZ8 should not be presented as compositionally invariant anatomical parcels.
+
+MANUSCRIPT RULE
+Use K5/R1-R5 as the primary data-driven multigene spatio-molecular domain framework. Use GMZ8 as a complementary marker-readable analysis showing how selected spatial genes partition the tissue. Older R01-R07 branches remain deprecated. Projection-FISH stays paused.

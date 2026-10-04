@@ -1,0 +1,92 @@
+{
+  "stage": 823,
+  "status": "COMPLETE",
+  "artifact_reduction_headtohead": {
+    "raw_tilez_median": 0.2958070760307979,
+    "V21_tilez_median": 0.2068296763182742,
+    "V22_tilez_median": 0.1748275727286913,
+    "raw_seam_median": 0.2942692935722346,
+    "V21_seam_median": 0.2399690725083151,
+    "V22_seam_median": 0.2117287381526488,
+    "V21_tilez_reduction_median_pct": 28.498756382815383,
+    "V22_tilez_reduction_median_pct": 41.92440524963228,
+    "V21_seam_reduction_median_pct": 9.82925127260026,
+    "V22_seam_reduction_median_pct": 21.884325120705462
+  },
+  "stage388_final_global_qa": {
+    "median_cell_pearson_raw_final": 0.674170768228832,
+    "q05_cell_pearson_raw_final": 0.4083812698074341,
+    "median_mass_rel_diff": -6.203039935043784e-11,
+    "q95_abs_mass_rel_diff": 4.676085114716933e-09,
+    "median_positive_fraction_delta": 0.0027971138870347,
+    "raw_needs_correction_n": 80,
+    "final_needs_correction_n": 0,
+    "median_severity_ratio": 0.0436000303140115
+  },
+  "stage394_pattern_preservation": {
+    "pearson": {
+      "median": 0.9968141211747484,
+      "q05": 0.9912949081874745,
+      "min": 0.9890867077312973
+    },
+    "spearman": {
+      "median": 0.9929378611152188,
+      "q05": 0.9752228243908754,
+      "min": 0.9470023419961954
+    },
+    "grid12_corr": {
+      "median": 0.9990702795281936,
+      "q05": 0.9964839318671628,
+      "min": 0.9954311768497196
+    },
+    "top10pos_jaccard": {
+      "median": 0.9517595887702648,
+      "q05": 0.872168284789644,
+      "min": 0.7416413373860182
+    },
+    "positive_fraction_delta": {
+      "median": 0.0120644773728474,
+      "q05": 0.0,
+      "min": 0.0
+    },
+    "mean_ratio": {
+      "median": 1.0205579781685654,
+      "q05": 1.0,
+      "min": 1.0
+    }
+  },
+  "stage394_risk": {
+    "risk_pairs": 15,
+    "total_pairs": 81,
+    "risk_fraction": 0.18518518518518517,
+    "genes_with_any_risk": [
+      "Cep112",
+      "Dscaml1",
+      "Ebf3",
+      "Fstl4",
+      "Ghr",
+      "Hcrtr1",
+      "Lmx1a",
+      "Mc4r",
+      "Nfib",
+      "Piezo2",
+      "Slc5a7",
+      "Slc6a2",
+      "Snap25"
+    ]
+  },
+  "rsfish_validation": {
+    "raw_spots": 4335,
+    "corrected_spots": 4711,
+    "corrected_over_raw": 1.0867358708189159,
+    "edge_interior_raw": 0.4796875,
+    "edge_interior_corrected": 0.9640625,
+    "new_spots": 399,
+    "new_edge_fraction": 0.7794486215538847,
+    "new_intensity_median": 1195.0198,
+    "raw_all_intensity_median": 1484.5228,
+    "corrected_all_intensity_median": 1500.1819
+  },
+  "interpretation": "Correction is supported where tile/seam artifact metrics improve while cell-level and low-frequency spatial patterns remain highly correlated with raw data. Blanket correction was rejected when it worsened seam metrics. RS-FISH recovered detections are concentrated at the affected edge rather than globally distributed.",
+  "overcorrection_boundary": "Risk flags remain for a subset of section-gene pairs. Those pairs must stay visibly inspectable and should not be promoted as artifact-free without manual review."
+}
