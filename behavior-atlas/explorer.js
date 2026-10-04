@@ -17,9 +17,13 @@ function mix(c1,c2,t){
   return "rgb("+lerp(A[0],B[0],t)+","+lerp(A[1],B[1],t)+","+lerp(A[2],B[2],t)+")";
 }
 function visiblePoints(){return S.motif?D.points.filter(p=>p.motif===S.motif):D.points;}
+function socialColor(prob){
+  const t=clamp((Number(prob)-0.08)/0.78,0,1);
+  return mix("#e7eef0","#c84b35",t);
+}
 function colorOf(p){
   if(S.colour==="motif")return D.motifs[p.motif-1].color;
-  if(S.colour==="social")return p.social_rep ? "#1b7837" : "#dedede";
+  if(S.colour==="social")return socialColor(p.social_prob_rep);
   if(S.colour==="dem")return p.dem_rep ? "#d97706" : "#e3e3e3";
   return mix("#ececec","#542788",clamp((p.quality-.45)/.55,0,1));
 }
@@ -48,7 +52,17 @@ function draw(){
   ctx.clearRect(0,0,W,H);ctx.fillStyle="#fff";ctx.fillRect(0,0,W,H);
   const pts=visiblePoints();
 
-  if(S.motif){
+  // Social Observation uses the full 36,090-frame model/probability layer.
+  // Clickable run centers are overlaid below, so the map preserves the
+  // established 1/2/4/7 social-facing structure without losing video links.
+  if(S.colour==="social" && Array.isArray(D.framewise)){
+    ctx.globalAlpha=.55;
+    for(const q of D.framewise){
+      if(S.motif && q[2]!==S.motif)continue;
+      const [x,y]=mapToScreen(q[0],q[1]);if(x<-3||y<-3||x>W+3||y>H+3)continue;
+      ctx.fillStyle=socialColor(q[3]);ctx.fillRect(x,y,1.65,1.65);
+    }
+  } else if(S.motif){
     ctx.globalAlpha=.035;
     for(const p of D.points){
       const [x,y]=mapToScreen(p.x,p.y);if(x<-3||y<-3||x>W+3||y>H+3)continue;
@@ -58,10 +72,10 @@ function draw(){
   ctx.globalAlpha=1;
   for(const p of pts){
     const [x,y]=mapToScreen(p.x,p.y);if(x<-8||y<-8||x>W+8||y>H+8)continue;
-    let rr=2.15;
+    let rr=(S.colour==="social"?1.45:2.15);
     if(hover&&hover.id===p.id)rr=4.8;
     if(S.selected&&S.selected.id===p.id)rr=6.2;
-    ctx.fillStyle=colorOf(p);ctx.globalAlpha=(hover&&hover.id===p.id)?1:.68;
+    ctx.fillStyle=colorOf(p);ctx.globalAlpha=(hover&&hover.id===p.id)?1:(S.colour==="social"?.28:.68);
     ctx.beginPath();ctx.arc(x,y,rr,0,Math.PI*2);ctx.fill();
     if(S.selected&&S.selected.id===p.id){ctx.globalAlpha=1;ctx.strokeStyle="#111";ctx.lineWidth=1.8;ctx.stroke();}
   }
@@ -134,7 +148,8 @@ function refreshClips(){
     const card=document.createElement("article");card.className="clip-card";
     const v=segmentVideo(p),cap=document.createElement("div");cap.className="clip-caption";
     cap.innerHTML="<strong>"+D.motifs[p.motif-1].name+" · frame "+p.rep+"</strong>"+
-      p.duration.toFixed(1)+" s run · Social@center "+(p.social_rep?"YES":"no")+" (P="+p.social_prob_rep.toFixed(2)+")"+
+      p.duration.toFixed(1)+" s run · Social model "+(p.social_infer_rep?"YES":"no")+" (P="+p.social_prob_rep.toFixed(2)+")"+
+      " · validated bout "+(p.social_merged_rep?"YES":"no")+
       " · DEMfeed@center "+(p.dem_rep?"YES":"no")+" · run overlap S="+pct(p.social)+", D="+pct(p.dem)+" · QC "+p.quality.toFixed(2);
     card.append(v,cap);clipGrid.append(card);
   }
@@ -160,8 +175,9 @@ function renderCards(){
     card.innerHTML='<div class="motif-card-top"><span class="sw" style="background:'+m.color+'"></span><h3>'+String(m.id).padStart(2,"0")+" · "+m.name+'</h3></div>'+
       '<div class="desc">'+m.description+'<br>'+m.runs.toLocaleString()+" exact runs · "+m.frames.toLocaleString()+" frames</div>"+
       '<div class="stats"><div class="stat"><div class="v">'+m.median_duration.toFixed(1)+'s</div><div class="k">median run</div></div>'+
-      '<div class="stat"><div class="v">'+pct(m.social_rep_mean)+'</div><div class="k">center-frame social obs</div></div>'+
-      '<div class="stat"><div class="v">'+pct(m.dem_mean)+'</div><div class="k">DEM feed</div></div></div>';
+      '<div class="stat"><div class="v">'+pct(m.social_infer_frame_frac)+'</div><div class="k">Social Obs model</div></div>'+
+      '<div class="stat"><div class="v">'+pct(m.dem_frame_frac)+'</div><div class="k">DEM feed</div></div></div>'+
+      '<div class="desc mini">mean Social Obs P='+m.social_prob_frame_mean.toFixed(2)+' · strict validated='+pct(m.social_merged_frame_frac)+'</div>';
     card.onclick=()=>{S.motif=m.id;S.selected=null;S.center={x:m.x,y:m.y};S.page=0;renderMotifs();draw();refreshClips();$("#explorer").scrollIntoView({behavior:"smooth",block:"start"});};
     box.append(card);
   }
@@ -183,7 +199,8 @@ map.addEventListener("mousemove",e=>{
   if(hover){
     const m=D.motifs[hover.motif-1];tip.style.display="block";tip.style.left=Math.min(W-225,x+14)+"px";tip.style.top=Math.max(6,y-58)+"px";
     tip.innerHTML="<strong>"+m.name+"</strong><br>frame "+hover.rep+" · "+hover.duration.toFixed(1)+" s"+
-      "<br>Social@center "+(hover.social_rep?"YES":"no")+" · P="+hover.social_prob_rep.toFixed(2)+
+      "<br>Social model "+(hover.social_infer_rep?"YES":"no")+" · P="+hover.social_prob_rep.toFixed(2)+
+      " · validated "+(hover.social_merged_rep?"YES":"no")+
       " · DEMfeed@center "+(hover.dem_rep?"YES":"no")+
       "<br>run overlap S="+pct(hover.social)+" · D="+pct(hover.dem)+" · QC "+hover.quality.toFixed(2);
   }else tip.style.display="none";

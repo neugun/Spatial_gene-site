@@ -22,7 +22,7 @@
 
   <section class="intro wrap">
     <h2>Explore the motifs</h2>
-    <p>The behavioral space is organized into 12 motifs. Click any dot to play the exact Virtual Mouse segment for that state run. Click empty space to place the comparison circle, drag the circle to move it, drag elsewhere to pan, scroll or pinch to zoom, and adjust the radius to compare nearby examples.</p>
+    <p>The behavioral space is organized into 12 motifs. Social Observation is shown from the full frame-wise inference/probability layer, preserving the established social-facing 1/2/4/7 structure; each clickable run also reports whether its center frame belongs to the stricter validated observation bout. Click any run to play the exact Virtual Mouse segment, click empty space to place the comparison circle, drag to pan, and scroll or pinch to zoom.</p>
   </section>
 
   <section class="explorer" id="explorer">
@@ -31,7 +31,7 @@
         <span class="lab">Colour by</span>
         <div class="seg" id="colourBtns">
           <button data-v="motif" class="active">Motif</button>
-          <button data-v="social">Social observation</button>
+          <button data-v="social">Social observation model</button>
           <button data-v="dem">DEM feeding</button>
           <button data-v="quality">Quality</button>
         </div>
@@ -71,7 +71,7 @@
   <section class="dictionary wrap">
     <div class="section-head">
       <h2>Motif dictionary</h2>
-      <p>Each motif is defined in the frozen v85 behavioral atlas. The cards summarize how often that motif appears in this session and its overlap with Social Observation and demonstrator feeding.</p>
+      <p>Each motif is defined in the frozen v85 behavioral atlas. Social Observation statistics use the frame-wise model inference/probability; the stricter merged label is retained separately for validating representative video bouts.</p>
     </div>
     <div class="motif-cards" id="motifCards"></div>
   </section>
