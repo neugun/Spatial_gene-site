@@ -1,0 +1,58 @@
+{
+  "stage": 832,
+  "status": "COMPLETE",
+  "primary_definition": "observed LC core outer boundary -> medial 450 \u00b5m field; 400/500 \u00b5m sensitivity",
+  "primary_n": 21787,
+  "section_counts": [
+    {
+      "section": 500,
+      "n_medial400": 5440,
+      "n_medial450": 5440,
+      "n_medial500": 5440,
+      "n_strict450": 5202
+    },
+    {
+      "section": 530,
+      "n_medial400": 9955,
+      "n_medial450": 10555,
+      "n_medial500": 10578,
+      "n_strict450": 9861
+    },
+    {
+      "section": 560,
+      "n_medial400": 5339,
+      "n_medial450": 5792,
+      "n_medial500": 6176,
+      "n_strict450": 3156
+    }
+  ],
+  "threshold_composition_stability": [
+    {
+      "threshold_a": 400,
+      "threshold_b": 450,
+      "spearman_rho": 0.9972649572649572,
+      "p": 1.140793848340456e-28,
+      "n_types": 26
+    },
+    {
+      "threshold_a": 450,
+      "threshold_b": 500,
+      "spearman_rho": 0.9972649572649572,
+      "p": 1.140793848340456e-28,
+      "n_types": 26
+    },
+    {
+      "threshold_a": 400,
+      "threshold_b": 500,
+      "spearman_rho": 0.9958974358974356,
+      "p": 1.469882362277364e-26,
+      "n_types": 26
+    }
+  ],
+  "panels": [
+    "CURRENT_PERILC_ANATOMY_3SECTIONS.png/pdf",
+    "CURRENT_PERILC_THRESHOLD_SENSITIVITY.png/pdf"
+  ],
+  "visual_rule": "black = direct spatial anatomy; white = analytical sensitivity",
+  "boundary": "450 \u00b5m is an empirically stable operational spatial scale anchored to the observed LC boundary, not asserted as a canonical cytoarchitectonic border."
+}

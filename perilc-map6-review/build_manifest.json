@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage831",
+  "version": "2026-10-04-stage832",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -114,5 +114,10 @@
     "n_checks": 28,
     "n_pass": 28,
     "n_fail": 0
-  }
+  },
+  "stage832_assets": [
+    "assets/current_perilc_anatomy.jpg",
+    "assets/current_perilc_threshold_sensitivity.jpg"
+  ],
+  "stage832_primary_n": 21787
 }
