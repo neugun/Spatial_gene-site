@@ -1,0 +1,24 @@
+{
+  "stage": 830,
+  "status": "COMPLETE",
+  "n_fine26": 26,
+  "summary": {
+    "own_joint_strong": 5,
+    "own_tier_A": 11,
+    "own_tier_B": 9,
+    "own_tier_C": 6,
+    "luskin_rows": 10,
+    "luskin_strong": 4,
+    "luskin_broad_only_or_moderate": 4,
+    "luskin_tension_or_weak": 2,
+    "mapmy_rows": 23,
+    "mapmy_median_raw_tile_agreement": 0.8204911092294666,
+    "mapmy_median_consensus_expected_fraction": 0.4384858044164038
+  },
+  "panels": [
+    "REFERENCE_CONFIDENCE_STRIPS.png/pdf",
+    "PRIORITY_REFERENCE_CROSSWALK.png/pdf"
+  ],
+  "principle": "Keep reference systems separate and quantitative. Own scRNA, Luskin, and MapMyCells/Allen answer different questions and should not be collapsed into a binary support matrix.",
+  "boundary": "Missing Luskin or MapMyCells entries are shown as NA rather than interpreted as negative biological evidence. Fine26 remains the primary local molecular nomenclature."
+}

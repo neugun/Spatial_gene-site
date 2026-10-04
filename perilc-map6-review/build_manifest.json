@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage829",
+  "version": "2026-10-04-stage830",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -91,5 +91,22 @@
     "assets/current_projection_composition.jpg",
     "assets/current_projection_reproducible.jpg"
   ],
-  "stage829_reproducible_pairs": 8
+  "stage829_reproducible_pairs": 8,
+  "stage830_assets": [
+    "assets/current_reference_confidence.jpg",
+    "assets/current_reference_priority.jpg"
+  ],
+  "stage830_summary": {
+    "own_joint_strong": 5,
+    "own_tier_A": 11,
+    "own_tier_B": 9,
+    "own_tier_C": 6,
+    "luskin_rows": 10,
+    "luskin_strong": 4,
+    "luskin_broad_only_or_moderate": 4,
+    "luskin_tension_or_weak": 2,
+    "mapmy_rows": 23,
+    "mapmy_median_raw_tile_agreement": 0.8204911092294666,
+    "mapmy_median_consensus_expected_fraction": 0.4384858044164038
+  }
 }
