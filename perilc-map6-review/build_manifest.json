@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage830",
+  "version": "2026-10-04-stage831",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -108,5 +108,11 @@
     "mapmy_rows": 23,
     "mapmy_median_raw_tile_agreement": 0.8204911092294666,
     "mapmy_median_consensus_expected_fraction": 0.4384858044164038
+  },
+  "current_authority": "Stage831 PASS",
+  "stage831_qa": {
+    "n_checks": 28,
+    "n_pass": 28,
+    "n_fail": 0
   }
 }

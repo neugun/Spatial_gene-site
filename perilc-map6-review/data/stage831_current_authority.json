@@ -1,0 +1,55 @@
+{
+  "stage": 831,
+  "status": "PASS",
+  "purpose": "Freeze the corrected publication-source workflow after restoring Stage1-200 scientific and visual discipline to current authorities.",
+  "current_scientific_model": [
+    "Primary K5/R1-R5 lineage is exactly preserved from Stage106/121 into the current H5AD.",
+    "R1-R5 discrete domains remain molecularly structured in current medial450, although less reproducible than the early broad core.",
+    "Smooth LC-centered medial/orthogonal/AP structure adds independent held-out information beyond R1-R5; discrete and continuous organization are complementary.",
+    "Fine26 molecular populations are directly supported by current corrected48 profiles; most are strong or moderate across sections, with a small set limited mainly by section coverage.",
+    "Soma-geometry claims are backed by full distributions and tissue context rather than effect-size-only heatmaps.",
+    "VTA/PCRT relationships are presented as target-biased molecular mixtures with section-resolved reproducibility, not one type-one projection.",
+    "Own scRNA, Luskin, and MapMyCells/Allen are shown as separate quantitative crosswalks rather than a binary support matrix."
+  ],
+  "key_metrics": {
+    "current_primary_cells": 21787,
+    "R1R5_profile_median_r": 0.619047619047619,
+    "R1R5_x_Fine26_FDR_pairs": 75,
+    "hybrid_median_gene_cvR2": 0.11832637685521308,
+    "unique_R1R5_cvR2": 0.028615253284430042,
+    "unique_smooth_cvR2": 0.025975463031469803,
+    "Fine26_strong_moderate_limited": [
+      16,
+      6,
+      4
+    ],
+    "projection_reproducible_pairs": 8,
+    "own_scRNA_joint_strong": 5
+  },
+  "source_stages": [
+    "823",
+    "824b",
+    "825",
+    "826",
+    "827",
+    "828",
+    "829",
+    "830"
+  ],
+  "github": {
+    "repo": "https://github.com/neugun/Spatial_gene-site",
+    "page_path": "perilc-map6-review/",
+    "commit": "90eb5a1",
+    "origin_main_ahead_behind": "0\t0"
+  },
+  "qa": {
+    "n_checks": 28,
+    "n_pass": 28,
+    "n_fail": 0
+  },
+  "supersedes_for_current_interpretation": [
+    "Stage805/818 inference from deprecated SR0-SR3 that discrete spatial domains are weak.",
+    "Stage816/819 dashboard-style composite figures as publication candidates.",
+    "Binary cross-framework support matrices as the primary external-reference display."
+  ]
+}

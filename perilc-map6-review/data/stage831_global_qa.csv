@@ -1,0 +1,29 @@
+check,pass,detail
+github_page_local_links,True,[]
+github_page_utf8_replacement_chars,True,0
+github_page_control_chars,True,
+stage825_27_current_gene_panels,True,27
+asset:current_r1r5_coronal.jpg,True,142402
+asset:current_r1r5_fine26_perm.jpg,True,138294
+asset:r1r5_vs_continuous_unique.jpg,True,171203
+asset:current_fine26_dotplot.jpg,True,385644
+asset:current_fine26_section_repro.jpg,True,230184
+asset:current_morph_size_distributions.jpg,True,130625
+asset:current_morph_section_consistency.jpg,True,185158
+asset:current_morph_spatial_examples.jpg,True,254527
+asset:current_projection_composition.jpg,True,198482
+asset:current_projection_reproducible.jpg,True,127956
+asset:current_reference_confidence.jpg,True,226349
+asset:current_reference_priority.jpg,True,199364
+primary_K5_lineage_100pct,True,1.0
+current_R1R5_profile_repro_substantial,True,0.619047619047619
+R1R5_Fine26_FDR_pairs,True,75
+current_27gene_panels_complete,True,27
+hybrid_spatial_model_best,True,"{'cvR2_AP_only': 0.03235165266904738, 'cvR2_AP_plus_R1R5': 0.09600500092940312, 'cvR2_AP_plus_smooth': 0.08922312653745357, 'cvR2_hybrid': 0.11832637685521308, 'unique_R1R5_beyond_smooth': 0.028615253284430042, 'unique_smooth_beyond_R1R5': 0.025975463031469803}"
+Fine26_repro_majority_strong_or_moderate,True,"{'strong_n': 16, 'moderate_n': 6, 'limited_n': 4, 'median_of_type_median_r': 0.7344322344322345}"
+morphology_refined_three_section_selection,True,"['I07', 'I02', 'I08', 'O01', 'O02', 'E05']"
+projection_repro_pairs,True,8
+external_crosswalk_26_types,True,"{'own_joint_strong': 5, 'own_tier_A': 11, 'own_tier_B': 9, 'own_tier_C': 6, 'luskin_rows': 10, 'luskin_strong': 4, 'luskin_broad_only_or_moderate': 4, 'luskin_tension_or_weak': 2, 'mapmy_rows': 23, 'mapmy_median_raw_tile_agreement': 0.8204911092294666, 'mapmy_median_consensus_expected_fraction': 0.4384858044164038}"
+git_worktree_clean,True,
+git_origin_main_synced,True,0	0
+git_head_expected,True,90eb5a1
