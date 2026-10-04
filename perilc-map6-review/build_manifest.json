@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage827",
+  "version": "2026-10-04-stage828",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -71,5 +71,20 @@
     "moderate_n": 6,
     "limited_n": 4,
     "median_of_type_median_r": 0.7344322344322345
-  }
+  },
+  "stage828_assets": [
+    "assets/current_morph_size_distributions.jpg",
+    "assets/current_morph_section_consistency.jpg",
+    "assets/current_morph_spatial_examples.jpg"
+  ],
+  "stage828_selected_large": [
+    "I07",
+    "I02",
+    "I08"
+  ],
+  "stage828_selected_small": [
+    "O01",
+    "O02",
+    "E05"
+  ]
 }

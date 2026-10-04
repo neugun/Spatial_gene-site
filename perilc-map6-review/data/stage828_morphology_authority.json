@@ -1,0 +1,25 @@
+{
+  "stage": 828,
+  "status": "COMPLETE_REFINED",
+  "n_primary": 21787,
+  "selection_rule": "representative section-consistency panel requires direction-consistent size effect, all 3 sections represented, and >=20 cells in every section",
+  "selected_large": [
+    "I07",
+    "I02",
+    "I08"
+  ],
+  "selected_small": [
+    "O01",
+    "O02",
+    "E05"
+  ],
+  "largest_representative": "I07",
+  "smallest_representative": "O01",
+  "panels": [
+    "CURRENT_FINE26_SOMA_SIZE_DISTRIBUTIONS.png/pdf",
+    "CURRENT_MORPHOLOGY_SECTION_CONSISTENCY.png/pdf",
+    "CURRENT_MORPHOLOGY_SPATIAL_EXAMPLES.png/pdf"
+  ],
+  "measurement_boundary": "area is the current segmentation-derived 3D voxel-count proxy; distributions are section-normalized before cross-type comparison. Point size in the black spatial panel is display-only within-section area percentile.",
+  "principle": "Show distribution and tissue context first; effect sizes annotate rather than replace the biological data."
+}
