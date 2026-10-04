@@ -1,0 +1,35 @@
+{
+  "stage": 835,
+  "status": "COMPLETE",
+  "luskin": {
+    "n_direct_shared_genes": 15,
+    "receptors": [
+      "Mc4r",
+      "Hcrtr1",
+      "Ghr",
+      "Npy1r",
+      "Tacr1",
+      "Npy5r"
+    ],
+    "boundary": "Penk/Pnoc/Tac1/Sst/Nps/Gal/Npy are not directly measured in the current 27-gene panel; reference-imputed peptide propensities are not used as direct tissue evidence."
+  },
+  "su": {
+    "periLC_CC1_test_r": [
+      0.117407690806242,
+      0.132305478270424,
+      0.1100268433135243
+    ],
+    "boundary": "Section holdout is anatomical generalization, not independent-animal replication; VTA/PCRT is only a two-target projection analogue."
+  },
+  "mapmycells": {
+    "median_raw_tile_agreement": 0.8204911092294666,
+    "median_expected_family_consensus": 0.4384858044164038,
+    "boundary": "MapMyCells is an external taxonomy stress test/context layer, not the authority that defines Fine26."
+  },
+  "panels": [
+    "LUSKIN_DIRECT_MEASURED_CONTEXT.png/pdf",
+    "SU_CROSSSECTION_CONTINUOUS_TOPOGRAPHY.png/pdf",
+    "MAPMYCELLS_STABILITY_AND_REPORTABILITY.png/pdf"
+  ],
+  "principle": "Each external framework gets its own direct quantitative panel and explicit evidence boundary; none is collapsed into a single binary support score."
+}

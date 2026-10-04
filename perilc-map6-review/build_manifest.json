@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage834",
+  "version": "2026-10-04-stage835",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -132,5 +132,10 @@
     "Fig4",
     "Fig5"
   ],
-  "stage834_main_panels": 16
+  "stage834_main_panels": 16,
+  "stage835_assets": [
+    "assets/framework_luskin_direct.jpg",
+    "assets/framework_su_continuous.jpg",
+    "assets/framework_mapmycells.jpg"
+  ]
 }
