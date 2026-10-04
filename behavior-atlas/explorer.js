@@ -19,8 +19,8 @@ function mix(c1,c2,t){
 function visiblePoints(){return S.motif?D.points.filter(p=>p.motif===S.motif):D.points;}
 function colorOf(p){
   if(S.colour==="motif")return D.motifs[p.motif-1].color;
-  if(S.colour==="social")return mix("#e8e8e8","#1b7837",clamp(p.social,0,1));
-  if(S.colour==="dem")return mix("#ededed","#d97706",clamp(p.dem,0,1));
+  if(S.colour==="social")return p.social_rep ? "#1b7837" : "#dedede";
+  if(S.colour==="dem")return p.dem_rep ? "#d97706" : "#e3e3e3";
   return mix("#ececec","#542788",clamp((p.quality-.45)/.55,0,1));
 }
 function mapToScreen(x,y){
@@ -134,7 +134,8 @@ function refreshClips(){
     const card=document.createElement("article");card.className="clip-card";
     const v=segmentVideo(p),cap=document.createElement("div");cap.className="clip-caption";
     cap.innerHTML="<strong>"+D.motifs[p.motif-1].name+" · frame "+p.rep+"</strong>"+
-      p.duration.toFixed(1)+" s run · Social "+pct(p.social)+" · DEM feed "+pct(p.dem)+" · QC "+p.quality.toFixed(2);
+      p.duration.toFixed(1)+" s run · Social@center "+(p.social_rep?"YES":"no")+" (P="+p.social_prob_rep.toFixed(2)+")"+
+      " · DEMfeed@center "+(p.dem_rep?"YES":"no")+" · run overlap S="+pct(p.social)+", D="+pct(p.dem)+" · QC "+p.quality.toFixed(2);
     card.append(v,cap);clipGrid.append(card);
   }
   observeVideos();
@@ -159,7 +160,7 @@ function renderCards(){
     card.innerHTML='<div class="motif-card-top"><span class="sw" style="background:'+m.color+'"></span><h3>'+String(m.id).padStart(2,"0")+" · "+m.name+'</h3></div>'+
       '<div class="desc">'+m.description+'<br>'+m.runs.toLocaleString()+" exact runs · "+m.frames.toLocaleString()+" frames</div>"+
       '<div class="stats"><div class="stat"><div class="v">'+m.median_duration.toFixed(1)+'s</div><div class="k">median run</div></div>'+
-      '<div class="stat"><div class="v">'+pct(m.social_mean)+'</div><div class="k">social obs</div></div>'+
+      '<div class="stat"><div class="v">'+pct(m.social_rep_mean)+'</div><div class="k">center-frame social obs</div></div>'+
       '<div class="stat"><div class="v">'+pct(m.dem_mean)+'</div><div class="k">DEM feed</div></div></div>';
     card.onclick=()=>{S.motif=m.id;S.selected=null;S.center={x:m.x,y:m.y};S.page=0;renderMotifs();draw();refreshClips();$("#explorer").scrollIntoView({behavior:"smooth",block:"start"});};
     box.append(card);
@@ -181,7 +182,10 @@ map.addEventListener("mousemove",e=>{
   const [x,y]=localXY(e);hover=nearestPoint(x,y,10);draw();
   if(hover){
     const m=D.motifs[hover.motif-1];tip.style.display="block";tip.style.left=Math.min(W-225,x+14)+"px";tip.style.top=Math.max(6,y-58)+"px";
-    tip.innerHTML="<strong>"+m.name+"</strong><br>frame "+hover.rep+" · "+hover.duration.toFixed(1)+" s<br>Social "+pct(hover.social)+" · DEM "+pct(hover.dem)+" · QC "+hover.quality.toFixed(2);
+    tip.innerHTML="<strong>"+m.name+"</strong><br>frame "+hover.rep+" · "+hover.duration.toFixed(1)+" s"+
+      "<br>Social@center "+(hover.social_rep?"YES":"no")+" · P="+hover.social_prob_rep.toFixed(2)+
+      " · DEMfeed@center "+(hover.dem_rep?"YES":"no")+
+      "<br>run overlap S="+pct(hover.social)+" · D="+pct(hover.dem)+" · QC "+hover.quality.toFixed(2);
   }else tip.style.display="none";
 });
 map.addEventListener("mouseleave",()=>{hover=null;tip.style.display="none";draw();});
