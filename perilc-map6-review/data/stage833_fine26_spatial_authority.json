@@ -1,0 +1,18 @@
+{
+  "stage": 833,
+  "status": "COMPLETE",
+  "n_primary": 21787,
+  "n_fine26": 26,
+  "section_counts": {
+    "S500": 5440,
+    "S530": 10555,
+    "S560": 5792
+  },
+  "panels": [
+    "CURRENT_FINE26_SPATIAL_ATLAS_3SECTIONS.png/pdf",
+    "CURRENT_BROAD_CLASS_SPATIAL_ATLAS_3SECTIONS.png/pdf"
+  ],
+  "visual_rule": "black direct spatial panels; all sampled cells retained as dim tissue context; only primary medial450 cells are colored; LC core boundary overlaid",
+  "palette_rule": "Fine26 colors are coherent within broad classes; broad classes use fixed semantic hues. Color is display identity only and does not encode confidence.",
+  "boundary": "These maps show current Fine26 labels in the operational medial450 ROI. They do not imply that Fine26 boundaries are anatomical nuclei."
+}
