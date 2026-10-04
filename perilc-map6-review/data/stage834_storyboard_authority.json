@@ -1,0 +1,15 @@
+{
+  "stage": 834,
+  "status": "COMPLETE",
+  "main_figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5"
+  ],
+  "n_main_panels": 16,
+  "n_supp_or_qc_panels": 7,
+  "principle": "Source-panel-first recovered manuscript architecture based on Stage1-200 discipline and current Stage823-833 authorities.",
+  "next_assembly_rule": "Do not generate a new composite figure until the user has manually approved the source panels assigned to that figure."
+}

@@ -1,0 +1,6 @@
+figure,working_title,biological_question,source_chain,logic
+Fig1,LC-anchored molecular atlas,Where is periLC and what molecular populations occupy it?,Stage832 -> Stage827 -> Stage833,Wang 2021/2023 logic: anatomy -> molecular identity -> spatial occupancy
+Fig2,Spatio-molecular architecture,How are Fine26 populations organized in space?,Stage823 -> Stage824b -> Stage826,Retains validated R1-R5 domains and adds continuous within-domain structure
+Fig3,Cellular morphology,Does molecular identity correspond to soma geometry?,Stage828,Orthogonal cellular property; distributions before effect sizes
+Fig4,Long-range output bias,Does molecular identity bias projection target?,Stage829,"Many-to-many molecular composition, section-resolved"
+Fig5,External molecular context,Which identities converge across references?,Stage830 + Stage809/811,Validation/crosswalk; never replaces Fine26

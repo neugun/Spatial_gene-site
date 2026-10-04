@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage833",
+  "version": "2026-10-04-stage834",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -124,5 +124,13 @@
     "assets/current_fine26_spatial_atlas.jpg",
     "assets/current_broad_spatial_atlas.jpg"
   ],
-  "stage833_n_fine26": 26
+  "stage833_n_fine26": 26,
+  "stage834_main_figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5"
+  ],
+  "stage834_main_panels": 16
 }
