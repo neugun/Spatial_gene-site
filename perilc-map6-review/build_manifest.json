@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage835",
+  "version": "2026-10-04-stage836",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -109,7 +109,7 @@
     "mapmy_median_raw_tile_agreement": 0.8204911092294666,
     "mapmy_median_consensus_expected_fraction": 0.4384858044164038
   },
-  "current_authority": "Stage831 PASS",
+  "current_authority": "Stage836 PASS",
   "stage831_qa": {
     "n_checks": 28,
     "n_pass": 28,
@@ -137,5 +137,11 @@
     "assets/framework_luskin_direct.jpg",
     "assets/framework_su_continuous.jpg",
     "assets/framework_mapmycells.jpg"
-  ]
+  ],
+  "stage836_validated_source_commit": "47343c0",
+  "stage836_qa": {
+    "n_checks": 36,
+    "n_pass": 36,
+    "n_fail": 0
+  }
 }

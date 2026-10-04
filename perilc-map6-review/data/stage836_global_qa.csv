@@ -1,0 +1,37 @@
+check,pass,detail
+page_links,True,[]
+page_utf8,True,0
+page_controls,True,
+asset:current_perilc_anatomy.jpg,True,282130
+asset:current_perilc_threshold_sensitivity.jpg,True,146556
+asset:current_r1r5_coronal.jpg,True,142402
+asset:current_r1r5_fine26_perm.jpg,True,138294
+asset:r1r5_vs_continuous_unique.jpg,True,171203
+asset:within_r1r5_medial_gradients.jpg,True,172579
+asset:within_r1r5_orthogonal_gradients.jpg,True,172411
+asset:current_fine26_dotplot.jpg,True,385644
+asset:current_fine26_section_repro.jpg,True,230184
+asset:current_fine26_spatial_atlas.jpg,True,306926
+asset:current_broad_spatial_atlas.jpg,True,281238
+asset:current_morph_size_distributions.jpg,True,130625
+asset:current_morph_section_consistency.jpg,True,185158
+asset:current_morph_spatial_examples.jpg,True,254527
+asset:current_projection_composition.jpg,True,198482
+asset:current_projection_reproducible.jpg,True,127956
+asset:current_reference_confidence.jpg,True,226349
+asset:current_reference_priority.jpg,True,199364
+asset:framework_luskin_direct.jpg,True,129608
+asset:framework_su_continuous.jpg,True,141741
+asset:framework_mapmycells.jpg,True,156330
+anatomy_primary_n,True,21787
+anatomy_threshold_stable,True,"[{'threshold_a': 400, 'threshold_b': 450, 'spearman_rho': 0.9972649572649572, 'p': 1.140793848340456e-28, 'n_types': 26}, {'threshold_a': 450, 'threshold_b': 500, 'spearman_rho': 0.9972649572649572, 'p': 1.140793848340456e-28, 'n_types': 26}, {'threshold_a': 400, 'threshold_b': 500, 'spearman_rho': 0.9958974358974356, 'p': 1.469882362277364e-26, 'n_types': 26}]"
+fine26_spatial_n,True,"(21787, 26)"
+storyboard_main_figures,True,"['Fig1', 'Fig2', 'Fig3', 'Fig4', 'Fig5']"
+storyboard_main_panels,True,16
+luskin_direct_genes,True,"{'n_direct_shared_genes': 15, 'receptors': ['Mc4r', 'Hcrtr1', 'Ghr', 'Npy1r', 'Tacr1', 'Npy5r'], 'boundary': 'Penk/Pnoc/Tac1/Sst/Nps/Gal/Npy are not directly measured in the current 27-gene panel; reference-imputed peptide propensities are not used as direct tissue evidence.'}"
+su_panel_complete,True,"{'periLC_CC1_test_r': [0.117407690806242, 0.132305478270424, 0.1100268433135243], 'boundary': 'Section holdout is anatomical generalization, not independent-animal replication; VTA/PCRT is only a two-target projection analogue.'}"
+mapmy_panel_complete,True,"{'median_raw_tile_agreement': 0.8204911092294666, 'median_expected_family_consensus': 0.4384858044164038, 'boundary': 'MapMyCells is an external taxonomy stress test/context layer, not the authority that defines Fine26.'}"
+stage831_base_pass,True,"{'n_checks': 28, 'n_pass': 28, 'n_fail': 0}"
+git_clean,True,
+git_synced,True,0	0
+validated_commit,True,47343c0
