@@ -1,0 +1,28 @@
+{
+  "stage": 838,
+  "status": "COMPLETE",
+  "xyflip": {
+    "finding": "Stage837 used legacy Stage407 X. Current Stage631 X is exactly opposite in orientation (cellwise correlation -1); legacy flipped-Y and current Y have correlation +1.",
+    "rule": "Use Stage631 current x_um/y_um, equivalent to Stage198 rule: x mirrored within section; Y already flipped and must not be flipped again."
+  },
+  "band_review": {
+    "focus_genes": [
+      "Snap25",
+      "Npy1r",
+      "Pdyn",
+      "Slc6a4",
+      "Slc32a1",
+      "Otx2os1",
+      "Meis2",
+      "Slc17a6"
+    ],
+    "principle": "Stage594 is conservative and leaves many RAW values unchanged. Residual bands therefore represent under-correction/display artifact risk, not Stage594 overcorrection.",
+    "table": "FOCUS8_BAND_REVIEW.csv",
+    "recommendations": "FOCUS8_BAND_RECOMMENDATIONS.csv"
+  },
+  "display": {
+    "fourway": "current XY for all four versions; archived Stage420 per-gene vmax except Snap25 default cap=500 with exact archived-vmax companion",
+    "current_3d": "Stage128-style white 3D; Stage594 expression; Stage631 current XY/depth; Stage198 gene thresholds"
+  },
+  "numeric_correction_boundary": "Do not globally modify Stage594. Any new numeric correction must be section x gene targeted and pass mass, Fine26, R1-R5, and independent seam/RS-FISH checks."
+}
