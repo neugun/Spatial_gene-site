@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-04-stage837",
+  "version": "2026-10-05-stage845",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -147,5 +147,6 @@
   "stage837_fourway_gene_panels": 27,
   "stage837_stage594_severe_pairs": 0,
   "stage837_stage416c_severe_pairs": 1,
-  "stage837_map400_severe_pairs": 8
+  "stage837_map400_severe_pairs": 8,
+  "stage845_slc17a6_pilot": true
 }

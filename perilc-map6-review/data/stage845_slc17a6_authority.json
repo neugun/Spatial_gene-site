@@ -1,0 +1,166 @@
+{
+  "stage": 845,
+  "status": "PILOT_COMPLETE",
+  "gene": "Slc17a6",
+  "principle": "section-specific, intensity-stratified additive-only correction; no multiplicative gain; top >Q95 protected",
+  "baseline": "Stage594 rescue retained via per-cell max(delta594, weighted Stage394 additive delta)",
+  "chosen": {
+    "S500": {
+      "section": 500.0,
+      "w_zero": 0.0,
+      "w_low": 0.25,
+      "w_mid": 0.5,
+      "w_high": 0.25,
+      "band_median": 4.38346041473217,
+      "band_max": 13.80311733115207,
+      "band_median_stage594": 4.69788417891715,
+      "band_median_raw": 4.7791132864611345,
+      "mass_change_pct": 2.727504845070516,
+      "gridcorr_raw": 0.9966353687424128,
+      "q95plus_pct_change": 0.7780345106687936,
+      "changed_frac": 0.06789358253075237,
+      "objective": 6.45392801440498
+    },
+    "S560": {
+      "section": 560.0,
+      "w_zero": 0.0,
+      "w_low": 0.0,
+      "w_mid": 0.75,
+      "w_high": 0.1,
+      "band_median": 6.8566359026390264,
+      "band_max": 17.674564484166094,
+      "band_median_stage594": 7.077606846451506,
+      "band_median_raw": 7.361885309387298,
+      "mass_change_pct": 0.6126965941323282,
+      "gridcorr_raw": 0.9998157768301984,
+      "q95plus_pct_change": 0.049933396992591264,
+      "changed_frac": 0.019773728474169004,
+      "objective": 9.50782057526394
+    },
+    "S530": "unchanged Stage594"
+  },
+  "summary": [
+    {
+      "section": 500,
+      "version": "RAW",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 4.7791132864611345,
+      "band_max": 9.137337620925274,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 500,
+      "version": "Stage594",
+      "mass_change_pct": 2.2804163955757972,
+      "changed_frac": 0.029655764279584246,
+      "band_median": 4.69788417891715,
+      "band_max": 14.491093820314557,
+      "gridcorr_raw": 0.996832956164541,
+      "q95plus_pct_change": 0.7780345106687936
+    },
+    {
+      "section": 500,
+      "version": "Stage394",
+      "mass_change_pct": 1.8622028376236952,
+      "changed_frac": 0.05730904929913226,
+      "band_median": 4.941537248016842,
+      "band_max": 8.554876516453293,
+      "gridcorr_raw": 0.9991074188783,
+      "q95plus_pct_change": 0.787358497466861
+    },
+    {
+      "section": 500,
+      "version": "Stage845",
+      "mass_change_pct": 2.7275048450705137,
+      "changed_frac": 0.06789358253075237,
+      "band_median": 4.38346041473217,
+      "band_max": 13.80311733115207,
+      "gridcorr_raw": 0.9966353687424128,
+      "q95plus_pct_change": 0.7780345106687936
+    },
+    {
+      "section": 530,
+      "version": "RAW",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 11.661034399529695,
+      "band_max": 25.721951558443205,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 530,
+      "version": "Stage594",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 11.661034399529695,
+      "band_max": 25.721951558443205,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 530,
+      "version": "Stage394",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 11.661034399529695,
+      "band_max": 25.721951558443205,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 530,
+      "version": "Stage845",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 11.661034399529695,
+      "band_max": 25.721951558443205,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 560,
+      "version": "RAW",
+      "mass_change_pct": 0.0,
+      "changed_frac": 0.0,
+      "band_median": 7.361885309387298,
+      "band_max": 23.180810640958654,
+      "gridcorr_raw": 1.0,
+      "q95plus_pct_change": 0.0
+    },
+    {
+      "section": 560,
+      "version": "Stage594",
+      "mass_change_pct": 0.14289152277239636,
+      "changed_frac": 0.006507809371245494,
+      "band_median": 7.077606846451506,
+      "band_max": 23.180810640958654,
+      "gridcorr_raw": 0.9999603694326141,
+      "q95plus_pct_change": 0.049933396992591264
+    },
+    {
+      "section": 560,
+      "version": "Stage394",
+      "mass_change_pct": 1.7995141282481053,
+      "changed_frac": 0.03899679615538646,
+      "band_median": 6.69973079301445,
+      "band_max": 38.94792777747476,
+      "gridcorr_raw": 0.9987810561276219,
+      "q95plus_pct_change": 0.9519132616920292
+    },
+    {
+      "section": 560,
+      "version": "Stage845",
+      "mass_change_pct": 0.6126965941323324,
+      "changed_frac": 0.019773728474169004,
+      "band_median": 6.8566359026390264,
+      "band_max": 17.674564484166094,
+      "gridcorr_raw": 0.9998157768301984,
+      "q95plus_pct_change": 0.049933396992591264
+    }
+  ],
+  "candidate_file": "Slc17a6_STAGE845_candidate_71950.npy",
+  "promotion_status": "PILOT_ONLY; requires manual spatial review before replacing Stage594/Stage843 authority"
+}
