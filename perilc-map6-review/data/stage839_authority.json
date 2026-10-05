@@ -1,0 +1,69 @@
+{
+  "stage": 839,
+  "status": "COMPLETE",
+  "current_h5ad_vs_stage381": {
+    "exact_equal": false,
+    "equal_fraction": 0.21345636115615269,
+    "max_abs_diff": 8273.964354069074,
+    "mean_abs_diff": 7.352215393048474
+  },
+  "stage381_vs_stage388": {
+    "max_abs_sum_diff": 0.003903927165083587,
+    "max_abs_pearson_diff": 0.1926794657005425
+  },
+  "stage594_change_categories_81": {
+    "unchanged_0": 33,
+    "gt0_to_0p1pct": 5,
+    "gt0p1_to_0p5pct": 11,
+    "gt0p5_to_1pct": 14,
+    "gt1_to_2pct": 13,
+    "gt2pct": 5
+  },
+  "global": [
+    {
+      "version": "Stage381_global_noband",
+      "raw_total": 22410553.0,
+      "final_total": 22410553.0,
+      "net_delta": 1.4551915228366852e-10,
+      "net_delta_fraction": 6.493331614068984e-18,
+      "positive_delta": 7910788.870135304,
+      "negative_delta": -7910788.870135304,
+      "absolute_delta": 15821577.740270607,
+      "entries_changed_exact": 1519929,
+      "entry_changed_fraction": 0.7823998146861246,
+      "entries_increased": 807882,
+      "entry_increased_fraction": 0.41586595629681106,
+      "entries_decreased": 712045,
+      "entry_decreased_fraction": 0.3665328288677837,
+      "cells_with_any_change": 71913,
+      "cell_with_any_change_fraction": 0.9994857539958304,
+      "entries_abs_ge_1": 1121358,
+      "entries_abs_ge_1_fraction": 0.5772311018454174
+    },
+    {
+      "version": "Stage594_rescue48",
+      "raw_total": 22410553.0,
+      "final_total": 22439687.0,
+      "net_delta": 29134.0,
+      "net_delta_fraction": 0.0013000125431978408,
+      "positive_delta": 29134.0,
+      "negative_delta": 0.0,
+      "absolute_delta": 29134.0,
+      "entries_changed_exact": 11659,
+      "entry_changed_fraction": 0.0060015957583712965,
+      "entries_increased": 11659,
+      "entry_increased_fraction": 0.0060015957583712965,
+      "entries_decreased": 0,
+      "entry_decreased_fraction": 0.0,
+      "cells_with_any_change": 8411,
+      "cell_with_any_change_fraction": 0.1169006254343294,
+      "entries_abs_ge_1": 11659,
+      "entries_abs_ge_1_fraction": 0.0060015957583712965
+    }
+  ],
+  "interpretation": [
+    "Stage594 is rescue-only and nonnegative: it adds missing counts and never subtracts counts.",
+    "Stage381/388 is a distinct mass-preserving band-removal lineage that redistributes counts up and down.",
+    "Do not describe Stage594 as a complete band-corrected matrix."
+  ]
+}
