@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-05-map8-stage845-v2",
+  "version": "2026-10-05-map8-stage848-global",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -152,5 +152,11 @@
   "visible_project_name": "Map8 current review",
   "stage845_piecewise_promotion_status": "PILOT_ONLY; requires manual spatial review before replacing Stage594/Stage843 authority",
   "stage845_slurm_candidate_rows": 31928,
-  "stage845_slurm_n_shards": 24
+  "stage845_slurm_n_shards": 24,
+  "stage848_global": true,
+  "stage848_pairs": 24,
+  "stage848_targeted_corrected_pairs": 16,
+  "stage848_held_true_signal_pairs": 8,
+  "stage848_q95plus_extra_changed_all_corrected": 0.0,
+  "stage848_visual_qa_overview": true
 }

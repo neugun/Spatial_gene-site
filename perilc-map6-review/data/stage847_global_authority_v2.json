@@ -1,0 +1,23 @@
+{
+  "stage": 847,
+  "revision": "v2_tail_safe",
+  "status": "GLOBAL_TILEPHASE_TAILSAFE_COMPLETE",
+  "n_pairs": 24,
+  "classification_counts": {
+    "MIXED_TRUE_SIGNAL_PLUS_BAND_ARTIFACT": 16,
+    "TRUE_SIGNAL_LIKELY_NO_TILE_CORRECTION": 8
+  },
+  "decision_counts": {
+    "TARGETED_TILE_BAND_CORRECTION": 15,
+    "HOLD_STAGE594": 8,
+    "BAND_ARTIFACT_CONFIRMED_HOLD": 1
+  },
+  "direct_tile_artifact_pairs": 16,
+  "correction_candidates": 15,
+  "rank_safety": {
+    "tier_A": "top5 Jaccard >=0.95",
+    "tier_B": "top5 >=0.93 AND top10 >=0.96 AND q99/q99.5 within 1% AND raw-Q95+ exact unchanged"
+  },
+  "correction": "Stage594 + intensity-gated positive Stage394 tile artifact template; additive only; no subtraction/multiplicative gain; >RAW Q95 receives no extra correction",
+  "output": "STAGE847_TILE_SIGNAL_CLASSIFICATION_AND_CORRECTION_V2.csv"
+}

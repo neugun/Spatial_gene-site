@@ -1,0 +1,20 @@
+{
+  "stage": 848,
+  "status": "PROVISIONAL_GLOBAL_CANDIDATE_BUILT",
+  "n_focus_pairs": 24,
+  "targeted_corrected_pairs": 16,
+  "held_true_signal_pairs": 8,
+  "principle": "identify acquisition tile-band artifact first, then correct only artifact-supported gene\u00d7section component",
+  "correction": "Stage594 baseline + spatially localized Stage394 positive additive template with section/gene-specific RAW-intensity weights; no subtraction; no multiplicative gain; RAW Q95+ receives no extra correction",
+  "special_case": "Otx2os1 S560 uses tie-aware direct tile-mismatch criterion because sparse integer count ties make top-rank Jaccard unstable; weights 0.75/0.75/0.75/0.5 below Q95",
+  "files": {
+    "audit": "STAGE848_CHANGED_PAIRS_AUDIT.csv",
+    "summary": "STAGE848_GLOBAL_FOCUS8_SUMMARY.png",
+    "matrices": [
+      "S500_cell_gene27_stage848_candidate.npy",
+      "S530_cell_gene27_stage848_candidate.npy",
+      "S560_cell_gene27_stage848_candidate.npy"
+    ]
+  },
+  "promotion_status": "PROVISIONAL; exact visual contact-sheet review required before replacing Stage594 downstream authority"
+}
