@@ -1,0 +1,77 @@
+{
+  "version": "mclachlan-sameK-atlas-v1",
+  "budgets": [
+    5,
+    10,
+    15,
+    20,
+    23
+  ],
+  "verdict": "REFERENCE_X_BUDGET_X_SELECTOR_INTERACTION_NOT_EXACT_REFERENCE_SUPERIORITY",
+  "by_reference": {
+    "ABC_wholebrain": {
+      "supported_K_methods": [
+        {
+          "K": 15,
+          "method": "atlas_variance"
+        },
+        {
+          "K": 20,
+          "method": "atlas_variance"
+        },
+        {
+          "K": 23,
+          "method": "atlas_variance"
+        },
+        {
+          "K": 23,
+          "method": "function_geometry"
+        }
+      ],
+      "best_row": {
+        "K": 20,
+        "method": "atlas_variance",
+        "mean_heldout_rho": 0.2595238095235477,
+        "mean_delta_rho": 0.0511904761903716,
+        "folds_improved": 2,
+        "n_folds": 3,
+        "random_global_q_bh": 0.0199600798403193
+      }
+    },
+    "Isocortex_GABA": {
+      "supported_K_methods": [],
+      "best_row": {
+        "K": 20,
+        "method": "atlas_variance",
+        "mean_heldout_rho": 0.3988095238091975,
+        "mean_delta_rho": 0.1904761904760213,
+        "folds_improved": 2,
+        "n_folds": 3,
+        "random_global_q_bh": 0.0798403193612774
+      }
+    },
+    "PERI_ECT_exact": {
+      "supported_K_methods": [
+        {
+          "K": 20,
+          "method": "function_geometry"
+        },
+        {
+          "K": 23,
+          "method": "function_geometry"
+        }
+      ],
+      "best_row": {
+        "K": 23,
+        "method": "function_geometry",
+        "mean_heldout_rho": 0.3345238095235938,
+        "mean_delta_rho": 0.1261904761904177,
+        "folds_improved": 2,
+        "n_folds": 3,
+        "random_global_q_bh": 0.0199600798403193
+      }
+    }
+  },
+  "guardrail": "Reference quality and anatomy match are QC dimensions; exact-region references are not presumed to dominate broad references. Compare references only at matched K and selector.",
+  "held_unit_note": "Three valid held-unit geometry folds; random-panel p-values are conditional panel-draw nulls, not three-unit biological p-values."
+}

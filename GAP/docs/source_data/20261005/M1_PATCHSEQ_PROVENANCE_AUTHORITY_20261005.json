@@ -1,0 +1,25 @@
+{
+  "version": "m1-patchseq-provenance-v1-20261005",
+  "benchmark_name": "M1 Patch-seq / scala2020",
+  "publication": "Scala F, Kobak D, Bernabucci M, et al. Phenotypic variation of transcriptomic cell types in mouse motor cortex. Nature 598, 144-150 (2021).",
+  "doi": "10.1038/s41586-020-2907-3",
+  "geo": "GSE163764",
+  "bioproject": "PRJNA687490",
+  "sra": "SRP299088",
+  "dandi_main_ephys": "000008",
+  "dandi_phys_temperature": "000035",
+  "source_repository": "https://github.com/berenslab/mini-atlas",
+  "benchmark_fixture": "scala2020.pickle",
+  "benchmark_contract": {
+    "cells": 1213,
+    "genes": 1000,
+    "electrophysiology_targets": 16,
+    "evaluation": "10-fold GroupKFold by mouse"
+  },
+  "local_evidence": [
+    "results/m1_tasknative_bakeoff_20260928/AUTHORITY.md",
+    "results/manuscript/fig1_3_completion_20261001/Fig3/FIG3_EVIDENCE_TIER_CONTRACT.csv"
+  ],
+  "status": "PROVENANCE_RESOLVED",
+  "guardrail": "The Fig3 claim is competitive fixed-budget functional panel design on truly measured same-cell genes; it is not universal superiority over sBNN."
+}

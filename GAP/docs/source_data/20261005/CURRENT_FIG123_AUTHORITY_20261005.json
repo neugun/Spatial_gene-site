@@ -1,0 +1,54 @@
+{
+  "version": "current-fig123-authority-20261005",
+  "runtime_validation": {"passed": 136, "total": 136},
+  "capability_audit": {"datasets_passed": 14, "datasets_total": 14, "checks_passed": 91, "checks_total": 91},
+  "fig1": {
+    "shainer2025": {"claim": "space_vs_type", "n_units": 6, "mean_delta_spearman": 0.24206199478981574, "positive_units": 6, "p_unit_exact": 0.015625, "status": "SUPPORTED"},
+    "xu2020": {"claim": "type_plus_genes_vs_type", "n_units": 3, "mean_delta_spearman": 0.1729238489838781, "positive_units": 3, "p_unit_exact": 0.125, "status": "DIRECTIONAL_SMALL_N"},
+    "bugeon2022": {"claim": "genes_vs_type", "n_units": 4, "mean_delta_spearman": 0.022949995936889553, "absolute_gene_spearman": 0.39615626241211854, "positive_units": 3, "p_unit_exact": 0.1875, "status": "ABSOLUTE_READABILITY_INCREMENT_BOUNDARY"},
+    "zhao2026": {"claim": "connectivity_vs_type_relative_rank", "n_units": 6, "mean_delta_spearman": 0.11932330488058474, "absolute_connectivity_spearman": 0.05436769682364204, "p_relative_within_animal_shuffle": 0.04495504495504495, "p_absolute_within_animal_shuffle": 0.17182817182817184, "status": "RELATIVE_STRUCTURE_ONLY"},
+    "identity_proxy_guardrail": {"celegans_held_identity_median_rho": 0.0005451909092483, "allen_vc2p_held_cre_line_median_rho": -0.2092404019496586}
+  },
+  "fig2": {
+    "mclachlan2025": {
+      "contract": "same K, same selector, held-animal geometry, matched-random",
+      "exact_peri_ect_function_geometry": [
+        {"K": 20, "baseline_rho": 0.2083333333331761, "heldout_rho": 0.3083333333331298, "delta_rho": 0.0999999999999537, "q_random": 0.029940119760479, "status": "SUPPORTED_RECOVERY"},
+        {"K": 23, "baseline_rho": 0.2083333333331761, "heldout_rho": 0.3345238095235938, "delta_rho": 0.1261904761904177, "q_random": 0.0199600798403193, "status": "SUPPORTED_RECOVERY"}
+      ],
+      "isocortex_gaba_function_geometry_status": "NOT_SUPPORTED"
+    },
+    "xu2020_external_pvn": {
+      "reference": "Berkhout/HypoMap PVN C185",
+      "masked_gene_median_rho": 0.24412191192760863,
+      "residual_guided_best_delta_r2": -0.0010464766516361523,
+      "raw_guided_best_delta_r2": 0.0037481978676771055,
+      "raw_guided_max_over_k_p": 0.16831683168316833,
+      "prespecified_mc4r_delta_r2": 0.0019996860657497395,
+      "prespecified_mc4r_p": 0.12871287128712872,
+      "status": "RESOLVED_BOUNDARY"
+    }
+  },
+  "fig3": {
+    "m1_patchseq": {
+      "K25_joint_r2": 0.36855,
+      "full1000_joint_r2": 0.43610,
+      "persist_K25_joint_r2": 0.32657,
+      "random_p95_K25_joint_r2": 0.24585,
+      "sbnn_K25_joint_r2": 0.36912,
+      "held_mouse_folds": 10,
+      "provenance_status": "RESOLVED",
+      "doi": "10.1038/s41586-020-2907-3",
+      "geo": "GSE163764",
+      "dandi": "000008"
+    },
+    "allen_hcr": {"K": 5, "positive_held_mice": "6/6", "p_one_sided": 0.015625, "q_bh": 0.046875, "status": "DATASET_SPECIFIC_SUPPORTED"},
+    "warp2026": {"K": 5, "positive_held_fish": "3/3", "p_one_sided": 0.125, "status": "DIRECTIONAL_SMALL_N"},
+    "wang2023": {"status": "TRUE_HIDDEN_GENE_VALIDATION"}
+  },
+  "remaining_boundaries": [
+    "Bugeon exact VISp global geometry remains NOT_SUPPORTED",
+    "EASI-PASS matching-only public input cannot support function-molecule inference",
+    "MICRONS is structural-only and cannot support molecular claims"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "Berkhout PVN C185_named",
+  "reference_selection": "masked-gene recovery only, no function labels",
+  "xu_reference_cells_excluded": 630,
+  "external_cells": 3818,
+  "source_dataset": "HypoMap",
+  "measured_genes": [
+    "Vglut2",
+    "Gad2",
+    "Npy1r",
+    "Crh",
+    "Reln",
+    "Ntng1",
+    "Pdyn",
+    "Penk",
+    "Trh"
+  ],
+  "gene_aliases": {
+    "Vglut2": "Slc17a6"
+  },
+  "candidate_filter": "unmeasured, non-noise, variance>0.01, top 3000 atlas variance",
+  "outer_split": "held mouse",
+  "gene_selection": "primary residual_guided uses inner held-mouse OOF residual after the measured panel; raw_guided and atlas_variance are sensitivity comparators",
+  "N_grid": [
+    1,
+    5,
+    20,
+    50,
+    100,
+    200,
+    400,
+    600,
+    800,
+    1000
+  ],
+  "random_control": "same candidate pool, same N, independent per outer fold",
+  "multiple_N_control": "for each selector compare its best deltaR2 with per-random-replicate max deltaR2 over the same N grid"
+}

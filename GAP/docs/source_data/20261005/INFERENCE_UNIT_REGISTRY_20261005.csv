@@ -1,0 +1,8 @@
+dataset,candidate,baseline,n_units,claim_family,permutation_unit,aggregation_unit,test_family,reported_p,minimum_unit_level_p,unit_scope_ok,note
+bugeon2022,genes,type,4,Fig1 coordinate increment,biological_unit,held biological unit,exact sign-flip across held units,0.1875,0.0625,True,
+shainer2025,space,type,6,Fig1 coordinate increment,biological_unit,held biological unit,exact sign-flip across held units,0.015625,0.015625,True,
+xu2020,type+genes,type,3,Fig1 coordinate increment,biological_unit,held biological unit,exact sign-flip across held units,0.125,0.125,True,
+zhao2026,connectivity_vs_type,type,6,Fig1 relative rank structure,within-animal response labels,held animal,1000 within-animal label shuffles with model refit,0.044955,0.015625,True,"Conditional/randomization p, not a six-animal exchangeability p; absolute connectivity rho is not above null."
+allen_visual_learning_hcr,K5_selected_vs_random,matched_random_K5,6,Fig3 fixed-budget panel,held mouse,held mouse,one-sided Wilcoxon across mice + BH family correction,0.015625,0.015625,True,Six-mouse unit-level test; minimum attainable one-sided resolution is 0.015625.
+warp2026,K5_selected_vs_random,matched_random_K5,3,Fig3 fixed-budget panel,held fish,held fish,one-sided Wilcoxon across fish,0.125,0.125,True,Three-fish directional result; no P<0.05 claim.
+xu2020,Ghrelin conditional completion,matched molecular shuffle,3,Fig4 interface annotation,within-mouse molecular shuffle,held mouse OOF prediction,matched molecular-shuffle null,0.00498,0.125,True,"P=0.00498 is a conditional shuffle-null p, explicitly not an animal-level exchangeability p."

@@ -1,0 +1,18 @@
+﻿{
+    "version":  "reviewer-audit-v3-20261005",
+    "role_registry_version":  "20261005-v5-science-audited",
+    "coverage_arithmetic_failures":  0,
+    "fig1_unit_authority":  "reviewer_reanalysis_20261005/FIG1_UNIT_LEVEL_EXACT_REANALYSIS_20261005.csv",
+    "identity_audit":  "IDENTITY_DERIVED_MOLECULAR_AUDIT_20261005.json",
+    "mclachlan_sameK":  "MCLACHLAN_SAMEK_ATLAS_AUTHORITY_20261005.json",
+    "inference_unit_registry":  "INFERENCE_UNIT_REGISTRY_20261005.csv",
+    "guardrails":  [
+                       "Allen VC2P driver-line one-hot features are identity proxies, not measured transcript abundance.",
+                       "C. elegans held-animal prediction repeats neuron identities and cannot support unseen-identity molecular generalization.",
+                       "Zhao native result is relative rank rescue from a weak baseline, not strong absolute prediction.",
+                       "McLachlan references must be compared at matched K and selector.",
+                       "Every small p-value must name permutation unit separately from biological aggregation unit."
+                   ],
+    "current_authority":  "CURRENT_FIG123_AUTHORITY_20261005.md",
+    "m1_provenance":  "M1_PATCHSEQ_PROVENANCE_AUTHORITY_20261005.json"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "identity-derived-molecular-audit-v1",
+  "celegans": {
+    "verdict": "DOWNGRADE_IDENTITY_READABILITY_NOT_CROSS_IDENTITY_GENERALIZATION",
+    "genes_held_animal_median_rho": 0.6979897843651124,
+    "identity_held_animal_median_rho": 0.8698500277613102,
+    "genes_held_identity_median_rho": 0.0005451909092483,
+    "biological_reason": "CeNGEN expression and Cook connectome are neuron-class-level lookups repeated across animals; held-animal alone does not test unseen identities."
+  },
+  "allen_vc2p": {
+    "verdict": "DRIVER_LINE_BASELINE_NOT_CONTINUOUS_MOLECULAR_REPLICATION",
+    "held_donor_median_rho": 0.1886885205212049,
+    "held_Cre_line_median_rho": -0.2092404019496586,
+    "biological_reason": "The adapter's 13 gene__ columns are Cre driver-line one-hot identity features; unseen Cre-line generalization is the appropriate stress test."
+  }
+}
