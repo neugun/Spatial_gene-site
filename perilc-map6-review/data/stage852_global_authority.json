@@ -1,0 +1,36 @@
+{
+  "stage": 852,
+  "status": "PROVISIONAL_QA_COMPLETE",
+  "full27_shape": [
+    71950,
+    27
+  ],
+  "corrected_pairs": 16,
+  "unchanged_pairs": 65,
+  "focus_actions": {
+    "CORRECTED_STAGE847": 7,
+    "CORRECTED_STAGE849": 6,
+    "CORRECTED_STAGE851": 3,
+    "BIOLOGICAL_SIGNAL_HOLD": 3,
+    "CONFIRMED_ARTIFACT_UNRESOLVED": 2,
+    "UNRESOLVED_HOLD": 2,
+    "PROBABLE_ARTIFACT_HOLD": 1
+  },
+  "preservation": {
+    "min_gridcorr594_changed": 0.9993146912224988,
+    "max_mass_add_vs594_changed": 0.009844206419317058,
+    "min_fine_eta_ratio_changed": 0.987836750860918,
+    "max_fine_eta_ratio_changed": 1.0197273602710941,
+    "min_r1r5_eta_ratio_changed": 0.9885460920577874,
+    "max_r1r5_eta_ratio_changed": 1.0198147066642715,
+    "max_q95plus_extra_changed": 0.0
+  },
+  "snap25_boundary": "S500/S560 artifact confirmed but still numerically unresolved; S530 probable artifact hold. All three remain Stage594.",
+  "authority_boundary": "provisional full27 candidate; Stage594 remains frozen authority until final visual review and downstream revalidation",
+  "files": {
+    "matrix": "STAGE852_FULL27_PROVISIONAL_71950x27.npy",
+    "qa": "STAGE852_ALL81_PRESERVATION_QA.csv",
+    "decisions": "STAGE852_FOCUS8_FINAL_DECISION.csv",
+    "board": "STAGE852_FOCUS8_DECISION_BOARD.png"
+  }
+}

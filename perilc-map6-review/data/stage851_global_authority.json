@@ -1,0 +1,99 @@
+{
+  "stage": 851,
+  "status": "SLURM_COMPLETE",
+  "scope": "5 confirmed-artifact pairs unresolved after Stage850",
+  "decision_counts": {
+    "STAGE851_QUANTILE_RESCUE_PROVISIONAL": 3,
+    "CONFIRMED_ARTIFACT_STILL_UNRESOLVED": 2
+  },
+  "new_corrections": [
+    {
+      "task": 2,
+      "gene": "Npy1r",
+      "section": 560,
+      "decision": "STAGE851_QUANTILE_RESCUE_PROVISIONAL",
+      "axis": "y",
+      "band_cell_fraction": 0.13220865038045654,
+      "quantile_support_fraction": 0.10512615138165798,
+      "full_quantile_deficit_sum": 952.0679428421294,
+      "rsfish_recovery_prior": NaN,
+      "artifact_improvement": 0.20487682241985866,
+      "mass_add_vs594": 0.008040593335462923,
+      "gridcorr594": 0.9993146912150925,
+      "fine_eta_ratio": 1.0068814691516694,
+      "r1r5_eta_ratio": 1.007908173508759,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.05251301561874249,
+      "qcut": 50,
+      "alpha": 0.65,
+      "cap": 4.0,
+      "width": 0
+    },
+    {
+      "task": 3,
+      "gene": "Pdyn",
+      "section": 530,
+      "decision": "STAGE851_QUANTILE_RESCUE_PROVISIONAL",
+      "axis": "x",
+      "band_cell_fraction": 0.1702335104567835,
+      "quantile_support_fraction": 0.11865646175595963,
+      "full_quantile_deficit_sum": 2779.1308387923686,
+      "rsfish_recovery_prior": NaN,
+      "artifact_improvement": 0.16435450569541413,
+      "mass_add_vs594": 0.008298239168888796,
+      "gridcorr594": 0.9997970675722702,
+      "fine_eta_ratio": 1.0194701439422922,
+      "r1r5_eta_ratio": 1.0102887675419399,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.06937064300687369,
+      "qcut": 50,
+      "alpha": 0.65,
+      "cap": 1.0,
+      "width": 0
+    },
+    {
+      "task": 4,
+      "gene": "Slc17a6",
+      "section": 530,
+      "decision": "STAGE851_QUANTILE_RESCUE_PROVISIONAL",
+      "axis": "x",
+      "band_cell_fraction": 0.1705260078974309,
+      "quantile_support_fraction": 0.11465899673377858,
+      "full_quantile_deficit_sum": 3452.77184749395,
+      "rsfish_recovery_prior": NaN,
+      "artifact_improvement": 0.12246088978495721,
+      "mass_add_vs594": 0.007626863814232326,
+      "gridcorr594": 0.9998146027767014,
+      "fine_eta_ratio": 1.0137396353379264,
+      "r1r5_eta_ratio": 1.0120613128334146,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.07024813532881587,
+      "qcut": 50,
+      "alpha": 0.8,
+      "cap": 1.5,
+      "width": 0
+    }
+  ],
+  "still_unresolved": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "decision": "CONFIRMED_ARTIFACT_STILL_UNRESOLVED"
+    },
+    {
+      "gene": "Snap25",
+      "section": 560,
+      "decision": "CONFIRMED_ARTIFACT_STILL_UNRESOLVED"
+    }
+  ],
+  "rules": {
+    "template": "target-gene artifact deficit bins + matched Fine26 x R1-R5 x orthogonal-space quantile distribution",
+    "snap25_s500": "RS-FISH conservative recovery fraction used as an alpha prior, not as a forced target",
+    "correction": "tie-averaged additive quantile rescue only; no subtraction; Q95+ protected",
+    "authority_boundary": "provisional; Stage594 remains frozen authority pending Stage852 full-27 QA and direct spatial review"
+  },
+  "files": {
+    "table": "STAGE851_QUANTILE_RESCUE_RESULTS.csv",
+    "matrix": "STAGE851_FOCUS8_PROVISIONAL_71950x8.npy"
+  }
+}
