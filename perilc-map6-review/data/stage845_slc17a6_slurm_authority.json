@@ -1,0 +1,102 @@
+{
+  "stage": 845,
+  "status": "PILOT_COMPLETE",
+  "gene": "Slc17a6",
+  "slurm": {
+    "partition": "cpu",
+    "successful_array_job": "54959237",
+    "n_shards": 24,
+    "candidate_rows": 31928,
+    "runtime_per_shard_seconds": "32-35",
+    "note": "24-way Slurm parameter sweep; v4 metrics recomputed relative to Stage594."
+  },
+  "primary": {
+    "S500": {
+      "candidate": "merge_headroom_q50_70_f0.0_a0.75_c6.0",
+      "low_hf_improvement_pct": 5.592100632216679,
+      "low_deficit_improvement_pct": 0.29517014253775953,
+      "added_mass_vs_stage594_pct": 0.7708258241453825,
+      "final_mass_vs_raw_pct": 3.0688202581963253,
+      "pearson_vs_stage594": 0.9989657968942868,
+      "grid12_corr_vs_stage594": 0.9998115634941628,
+      "top5_jaccard_vs_stage594": 0.9348093480934808,
+      "high_tail_mean_ratio_vs594": 1.0,
+      "high_tail_changed_fraction": 0.0,
+      "fine26_eta2_ratio_vs594": 0.9896211132828792,
+      "r1r5_eta2_ratio_vs594": 1.0153191867166491,
+      "max_added_per_cell": 4.5,
+      "changed_fraction_vs594": 0.0449445345030355,
+      "added_sum_vs594": 969.4213894782248
+    },
+    "S530": {
+      "candidate": "Stage594 hold",
+      "reason": "Stage394 additive headroom is zero; no new S530 mask justified."
+    },
+    "S560": {
+      "candidate": "merge_headroom_q60_85_f0.0_a1.0_c4.0",
+      "low_hf_improvement_pct": 8.0782149973065,
+      "low_deficit_improvement_pct": 10.412465025882689,
+      "added_mass_vs_stage594_pct": 0.9764038629233251,
+      "final_mass_vs_raw_pct": 1.1206905840438708,
+      "pearson_vs_stage594": 0.9984392471845408,
+      "grid12_corr_vs_stage594": 0.9996004660716298,
+      "top5_jaccard_vs_stage594": 0.9762611275964392,
+      "high_tail_mean_ratio_vs594": 1.0,
+      "high_tail_changed_fraction": 0.0,
+      "fine26_eta2_ratio_vs594": 0.9913798391205004,
+      "r1r5_eta2_ratio_vs594": 1.0019688878607085,
+      "max_added_per_cell": 4.0,
+      "changed_fraction_vs594": 0.0341910292350821,
+      "added_sum_vs594": 1300.159855791458
+    }
+  },
+  "strong_sensitivity": {
+    "S500": {
+      "candidate": "merge_headroom_q40_70_f0.0_a1.5_c4.0",
+      "low_hf_improvement_pct": 9.235592586897424,
+      "low_deficit_improvement_pct": -0.06675697716929108,
+      "added_mass_vs_stage594_pct": 1.3785809065495647,
+      "final_mass_vs_raw_pct": 3.6904346871445837,
+      "pearson_vs_stage594": 0.9968443256307056,
+      "grid12_corr_vs_stage594": 0.999410336219306,
+      "top5_jaccard_vs_stage594": 0.9124620060790274,
+      "high_tail_mean_ratio_vs594": 1.0,
+      "high_tail_changed_fraction": 0.0,
+      "fine26_eta2_ratio_vs594": 0.9786421831687456,
+      "r1r5_eta2_ratio_vs594": 1.01844513922855,
+      "max_added_per_cell": 6.0,
+      "changed_fraction_vs594": 0.0449445345030355,
+      "added_sum_vs594": 1733.7584913129836
+    },
+    "S560": {
+      "candidate": "merge_headroom_q40_85_f0.0_a1.25_c8.0",
+      "low_hf_improvement_pct": 10.683107600117614,
+      "low_deficit_improvement_pct": 11.885371686460644,
+      "added_mass_vs_stage594_pct": 1.1656403344386446,
+      "final_mass_vs_raw_pct": 1.3101974584349696,
+      "pearson_vs_stage594": 0.9976426097808752,
+      "grid12_corr_vs_stage594": 0.999424571141094,
+      "top5_jaccard_vs_stage594": 0.9782178217821782,
+      "high_tail_mean_ratio_vs594": 1.0,
+      "high_tail_changed_fraction": 0.0,
+      "fine26_eta2_ratio_vs594": 0.9884217148885251,
+      "r1r5_eta2_ratio_vs594": 1.0012336040881376,
+      "max_added_per_cell": 10.0,
+      "changed_fraction_vs594": 0.0341910292350821,
+      "added_sum_vs594": 1552.143356531781
+    }
+  },
+  "principle": "Start from Stage594; add only positive Stage394 headroom; intensity-gate by RAW positive-count percentiles; no subtraction; q95+ high-intensity cells unchanged exactly.",
+  "primary_interpretation": "S500 uses a conservative low-intensity taper (q50 to q70) and S560 uses a low/mid taper (q60 to q85). S560 shows clearer artifact reduction. These are cell-map pilots, not a promoted expression authority.",
+  "safety_note": "Top-5 Jaccard is tie-sensitive for integer spot counts and is not used alone as a veto. Direct q95+ changed fraction is 0 for both primary sections; q95/q99 tails remain numerically unchanged.",
+  "files": [
+    "SLC17A6_STAGE845_PRIMARY_VECTOR.npy",
+    "SLC17A6_STAGE845_STRONG_SENSITIVITY_VECTOR.npy",
+    "SLC17A6_STAGE845_SELECTED_METRICS.csv",
+    "SLC17A6_STAGE845_INTENSITY_DELTA.csv",
+    "SLC17A6_STAGE845_SPATIAL_FULLRANGE.png",
+    "SLC17A6_STAGE845_SPATIAL_LOWRANGE20.png",
+    "SLC17A6_STAGE845_BAND_BY_INTENSITY.png",
+    "SLC17A6_STAGE845_ADDED_COUNTS_BY_INTENSITY.png"
+  ]
+}
