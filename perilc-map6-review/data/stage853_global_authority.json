@@ -1,0 +1,49 @@
+{
+  "stage": 853,
+  "status": "SLURM_COMPLETE",
+  "base": "Stage852",
+  "stage852_corrected_pairs": 16,
+  "stage853_actions": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "action": "STAGE853_CORRECTED",
+      "artifact_rms_ratio": 0.10180823291147709,
+      "artifact_peak_ratio": 0.18828958999498055,
+      "artifact_deficit_reduction": 0.9418356493165848,
+      "mass_add_vs594": 0.007540140820286906,
+      "gridcorr594": 0.9998182368291206,
+      "fine_eta_ratio": 1.0075871252099806,
+      "r1r5_eta_ratio": 1.0016477993368602,
+      "changed_frac": 0.2961126474047233,
+      "radius": 1,
+      "qcut": 70,
+      "gain": 1.3,
+      "cap": 12.0
+    },
+    {
+      "gene": "Pdyn",
+      "section": 530,
+      "action": "STAGE853_CORRECTED",
+      "artifact_rms_ratio": 0.21314749538402972,
+      "artifact_peak_ratio": 0.35703921596170285,
+      "artifact_deficit_reduction": 0.8889823495247529,
+      "mass_add_vs594": 0.01717241050730518,
+      "gridcorr594": 0.9991597065598742,
+      "fine_eta_ratio": 1.0099228712999242,
+      "r1r5_eta_ratio": 1.006624156993762,
+      "changed_frac": 0.20528445376102958,
+      "radius": 1,
+      "qcut": 70,
+      "gain": 1.25,
+      "cap": 1.0
+    }
+  ],
+  "final_corrected_confirmed_artifact_pairs": 18,
+  "remaining_unresolved": [],
+  "principle": "Signed artifact gate measures only independently supported negative artifact bins; unrelated positive residual structure is not flattened.",
+  "files": {
+    "matrix": "STAGE853_FULL27_PROVISIONAL_71950x27.npy",
+    "decisions": "STAGE853_SIGNED_ARTIFACT_DECISIONS.csv"
+  }
+}

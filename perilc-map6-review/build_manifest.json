@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-05-map8-stage852",
+  "version": "2026-10-05-map8-stage853",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -201,5 +201,11 @@
     "min_r1r5_eta_ratio_changed": 0.9885460920577874,
     "max_r1r5_eta_ratio_changed": 1.0198147066642715,
     "max_q95plus_extra_changed": 0.0
-  }
+  },
+  "current_correction_stage": 853,
+  "stage853_confirmed_artifacts_corrected": 18,
+  "stage853_signal_holds": 3,
+  "stage853_uncertain_holds": 3,
+  "stage853_min_gridcorr": 0.9985054579171786,
+  "stage853_max_mass_added": 0.0246384739534479
 }

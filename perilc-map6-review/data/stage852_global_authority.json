@@ -1,36 +1,181 @@
 {
   "stage": 852,
-  "status": "PROVISIONAL_QA_COMPLETE",
-  "full27_shape": [
-    71950,
-    27
+  "status": "SLURM_COMPLETE",
+  "scope": "18 confirmed-artifact pairs",
+  "action_counts": {
+    "STAGE852_CORRECTED": 16,
+    "HOLD_STAGE594_NO_SAFE_SOLUTION": 2
+  },
+  "corrected_pairs": [
+    {
+      "gene": "Snap25",
+      "section": 560,
+      "residual_ratio": 0.2159406964813617,
+      "peak_ratio": 0.26334391230586457,
+      "deficit_reduction": 0.7955833762119164,
+      "mass_add_vs594": 0.004230847386433524,
+      "gridcorr594": 0.9999511681987977
+    },
+    {
+      "gene": "Npy1r",
+      "section": 500,
+      "residual_ratio": 0.3532682406887413,
+      "peak_ratio": 0.41950956202569806,
+      "deficit_reduction": 0.6816803929179576,
+      "mass_add_vs594": 0.006635222825922076,
+      "gridcorr594": 0.9997898651143703
+    },
+    {
+      "gene": "Npy1r",
+      "section": 530,
+      "residual_ratio": 0.4248352843626991,
+      "peak_ratio": 0.48383512574382354,
+      "deficit_reduction": 0.8283414054879628,
+      "mass_add_vs594": 0.019806531989975854,
+      "gridcorr594": 0.9985054579171786
+    },
+    {
+      "gene": "Npy1r",
+      "section": 560,
+      "residual_ratio": 0.555284981174383,
+      "peak_ratio": 0.7300494468220309,
+      "deficit_reduction": 0.6527086066594552,
+      "mass_add_vs594": 0.006906220370900911,
+      "gridcorr594": 0.9994103444168839
+    },
+    {
+      "gene": "Pdyn",
+      "section": 500,
+      "residual_ratio": 0.14255858896961981,
+      "peak_ratio": 0.12691852938772713,
+      "deficit_reduction": 0.8967388252887596,
+      "mass_add_vs594": 0.011268158609334682,
+      "gridcorr594": 0.998542421734421
+    },
+    {
+      "gene": "Pdyn",
+      "section": 560,
+      "residual_ratio": 0.15227436164865438,
+      "peak_ratio": 0.12578196727800342,
+      "deficit_reduction": 0.8705835242391023,
+      "mass_add_vs594": 0.007052330464101841,
+      "gridcorr594": 0.9996244375712101
+    },
+    {
+      "gene": "Slc6a4",
+      "section": 530,
+      "residual_ratio": 0.3757840256346246,
+      "peak_ratio": 0.4733887997369609,
+      "deficit_reduction": 0.7800330282223382,
+      "mass_add_vs594": 0.015388565482409295,
+      "gridcorr594": 0.99961683392973
+    },
+    {
+      "gene": "Slc32a1",
+      "section": 500,
+      "residual_ratio": 0.18984610795602436,
+      "peak_ratio": 0.20191312758774765,
+      "deficit_reduction": 0.8678016206490033,
+      "mass_add_vs594": 0.013165194986685162,
+      "gridcorr594": 0.9991702024252386
+    },
+    {
+      "gene": "Slc32a1",
+      "section": 530,
+      "residual_ratio": 0.22903193634622707,
+      "peak_ratio": 0.2602143531971325,
+      "deficit_reduction": 0.8583268752426396,
+      "mass_add_vs594": 0.008388760943707756,
+      "gridcorr594": 0.9996449558381959
+    },
+    {
+      "gene": "Slc32a1",
+      "section": 560,
+      "residual_ratio": 0.3168694186640042,
+      "peak_ratio": 0.3987709222465094,
+      "deficit_reduction": 0.962929756666621,
+      "mass_add_vs594": 0.005523837051025759,
+      "gridcorr594": 0.9999064049176271
+    },
+    {
+      "gene": "Otx2os1",
+      "section": 500,
+      "residual_ratio": 0.47303302767912775,
+      "peak_ratio": 0.4069929491654223,
+      "deficit_reduction": 0.6666666365347731,
+      "mass_add_vs594": 0.017436768327955352,
+      "gridcorr594": 0.998980630429894
+    },
+    {
+      "gene": "Otx2os1",
+      "section": 560,
+      "residual_ratio": 0.17466332309089844,
+      "peak_ratio": 0.13926034060048012,
+      "deficit_reduction": 0.8725575884887242,
+      "mass_add_vs594": 0.015588490970615574,
+      "gridcorr594": 0.9986989513977084
+    },
+    {
+      "gene": "Meis2",
+      "section": 500,
+      "residual_ratio": 0.5021678194450525,
+      "peak_ratio": 0.48182352914128224,
+      "deficit_reduction": 0.4823565466783378,
+      "mass_add_vs594": 0.014423695490075678,
+      "gridcorr594": 0.9985644445801349
+    },
+    {
+      "gene": "Meis2",
+      "section": 530,
+      "residual_ratio": 0.10028360949851639,
+      "peak_ratio": 0.1716361981266836,
+      "deficit_reduction": 0.9458836349682521,
+      "mass_add_vs594": 0.023136787537247627,
+      "gridcorr594": 0.9991249545423394
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 500,
+      "residual_ratio": 0.43760429778468185,
+      "peak_ratio": 0.4487788819966622,
+      "deficit_reduction": 0.6103450768329387,
+      "mass_add_vs594": 0.024638473953447957,
+      "gridcorr594": 0.9988958624571599
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 530,
+      "residual_ratio": 0.22908721647372401,
+      "peak_ratio": 0.3129467864500829,
+      "deficit_reduction": 0.86256686281719,
+      "mass_add_vs594": 0.012105381851908768,
+      "gridcorr594": 0.9996316759997155
+    }
   ],
-  "corrected_pairs": 16,
-  "unchanged_pairs": 65,
-  "focus_actions": {
-    "CORRECTED_STAGE847": 7,
-    "CORRECTED_STAGE849": 6,
-    "CORRECTED_STAGE851": 3,
-    "BIOLOGICAL_SIGNAL_HOLD": 3,
-    "CONFIRMED_ARTIFACT_UNRESOLVED": 2,
-    "UNRESOLVED_HOLD": 2,
-    "PROBABLE_ARTIFACT_HOLD": 1
+  "unresolved_pairs": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "action": "HOLD_STAGE594_NO_SAFE_SOLUTION"
+    },
+    {
+      "gene": "Pdyn",
+      "section": 530,
+      "action": "HOLD_STAGE594_NO_SAFE_SOLUTION"
+    }
+  ],
+  "hard_gate": {
+    "residual_rms_ratio_max": 0.6,
+    "peak_ratio_max": 0.75,
+    "deficit_reduction_min": 0.4,
+    "mass_add_vs594_max": 0.025,
+    "gridcorr594_min": 0.9985,
+    "fine_r1r5_eta_ratio": "0.97-1.03",
+    "q95plus_extra_change": 0.0
   },
-  "preservation": {
-    "min_gridcorr594_changed": 0.9993146912224988,
-    "max_mass_add_vs594_changed": 0.009844206419317058,
-    "min_fine_eta_ratio_changed": 0.987836750860918,
-    "max_fine_eta_ratio_changed": 1.0197273602710941,
-    "min_r1r5_eta_ratio_changed": 0.9885460920577874,
-    "max_r1r5_eta_ratio_changed": 1.0198147066642715,
-    "max_q95plus_extra_changed": 0.0
-  },
-  "snap25_boundary": "S500/S560 artifact confirmed but still numerically unresolved; S530 probable artifact hold. All three remain Stage594.",
-  "authority_boundary": "provisional full27 candidate; Stage594 remains frozen authority until final visual review and downstream revalidation",
+  "principle": "Direct residual-field inversion within independently confirmed artifact bins. No candidate is promoted unless the residual stripe itself is suppressed, not merely the preservation metrics.",
   "files": {
     "matrix": "STAGE852_FULL27_PROVISIONAL_71950x27.npy",
-    "qa": "STAGE852_ALL81_PRESERVATION_QA.csv",
-    "decisions": "STAGE852_FOCUS8_FINAL_DECISION.csv",
-    "board": "STAGE852_FOCUS8_DECISION_BOARD.png"
+    "decisions": "STAGE852_DIRECT_FIELD_DECISIONS.csv"
   }
 }
