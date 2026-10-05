@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Brain World Model — a shared neural-token substrate for forecasting, decoding and intervention-aware modeling.">
+<title>Brain World Model</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#top">BWM<span>·</span>01</a>
+  <nav>
+    <a href="#model">Model</a><a href="#data">Data</a><a href="#tests">Tests</a>
+    <a href="#apps">Applications</a><a href="#audit">Audit</a>
+  </nav>
+  <button id="langToggle" class="lang-btn">中文</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">BRAIN FOUNDATION MODEL → WORLD MODEL</div>
+    <h1 class="en">Learn a brain state that can <em>predict what comes next.</em></h1>
+    <h1 class="zh">学习一个能够<em>预测接下来会发生什么</em>的脑状态。</h1>
+    <p class="lede en">A shared token-native model spanning spikes, calcium, EEG, behavior and intervention. The target is not reconstruction alone, but future neural activity, future behavior, transfer across datasets, and responses to perturbation.</p>
+    <p class="lede zh">一个覆盖 spikes、calcium、EEG、行为与干预的统一 token-native 模型。目标不只是重建，而是预测未来脑活动、未来行为、跨数据集迁移以及干预后的响应。</p>
+    <div class="hero-actions"><a class="btn primary" href="#tests">View actual tests</a><a class="btn" href="#apps">Try the applications</a></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+    <div class="brain-grid">
+      <span>spikes</span><span>Ca²⁺</span><span>EEG</span><span>behavior</span>
+      <b>z<sub>t</sub></b><i>→</i><b>z<sub>t+1</sub></b><span>do(a)</span>
+    </div>
+  </div>
+  <div class="metric-strip">
+    <div><b id="metricDatasets">—</b><span class="en">datasets passing contract</span><span class="zh">数据集通过契约测试</span></div>
+    <div><b id="metricArch">—</b><span class="en">architecture tests</span><span class="zh">架构测试</span></div>
+    <div><b id="metricApps">—</b><span class="en">application families</span><span class="zh">应用测试类别</span></div>
+    <div><b id="metricTransfer">—</b><span class="en">best held-out future skill</span><span class="zh">最佳 held-out future skill</span></div>
+  </div>
+</section>
+
+<section id="model" class="section">
+  <div class="section-head">
+    <span class="kicker">01 · MODEL</span>
+    <h2 class="en">A shared predictive state, not a pile of session-specific parameters.</h2>
+    <h2 class="zh">真正共享的预测状态，而不是堆出来的 session-specific 参数。</h2>
+    <p class="en">Each recording type keeps a small source adapter. The transferable capacity lives in one shared backbone.</p>
+    <p class="zh">每种记录保留小型 source adapter，而真正可迁移的能力集中在同一个 shared backbone 中。</p>
+  </div>
+  <div class="pipeline">
+    <div class="pipe-node"><strong>Source adapters</strong><small>spikes · calcium · EEG · behavior · vision</small></div>
+    <div class="arrow">→</div>
+    <div class="pipe-node accent"><strong>Unified neural tokens</strong><small>time · unit · region · modality · source</small></div>
+    <div class="arrow">→</div>
+    <div class="pipe-node strong"><strong>Shared backbone</strong><small>masked + causal + future objectives</small></div>
+    <div class="arrow">→</div>
+    <div class="outputs"><span>future brain</span><span>future behavior</span><span>state decoding</span><span>do(a) response</span></div>
+  </div>
+  <div class="equation"><span>p( z<sub>t+Δ</sub>, y<sub>t+Δ</sub> | z<sub>≤t</sub>, a<sub>≤t</sub> )</span><small class="en">is the core object we want the model to learn.</small><small class="zh">是我们希望模型真正学到的核心对象。</small></div>
+</section>
+
+<section id="data" class="section section-dark">
+  <div class="section-head">
+    <span class="kicker">02 · DATA SUBSTRATE</span>
+    <h2 class="en">One contract across heterogeneous nervous-system measurements.</h2>
+    <h2 class="zh">一种统一数据契约，接入不同神经系统测量。</h2>
+  </div>
+  <div class="filter-row" id="datasetFilters">
+    <button class="chip active" data-filter="all">All</button><button class="chip" data-filter="spikes">Spikes</button>
+    <button class="chip" data-filter="calcium">Calcium</button><button class="chip" data-filter="eeg">EEG</button>
+    <button class="chip" data-filter="behavior">Behavior</button><button class="chip" data-filter="intervention">Intervention</button>
+  </div>
+  <div id="datasetGrid" class="dataset-grid"></div>
+</section>
+
+<section id="tests" class="section">
+  <div class="section-head">
+    <span class="kicker">03 · TEST DASHBOARD</span>
+    <h2 class="en">Actual execution results, with negative results left visible.</h2>
+    <h2 class="zh">展示真实执行结果，也保留负结果。</h2>
+    <p class="en">PASS means the code path actually ran. It does not automatically mean the model is scientifically good; performance is reported separately.</p>
+    <p class="zh">PASS 只代表这条数据/模型链路真实跑通，并不等于科学性能已经足够；性能指标单独呈现。</p>
+  </div>
+  <div id="testSummary" class="summary-grid"></div>
+
+  <div class="split-head">
+    <div><h3 class="en">Shared-token transfer</h3><h3 class="zh">统一 token 跨数据集迁移</h3>
+      <p class="en">Whole external views are withheld during training. Positive skill means lower future-prediction error than a zero predictor on the normalized target.</p>
+      <p class="zh">训练时整套外部数据视图被 hold out。正的 skill 表示未来预测误差优于同一 normalized target 的 zero predictor。</p></div>
+    <div class="big-number"><span id="heldoutSkill">—</span><small>mean held-out skill</small></div>
+  </div>
+  <div id="transferCards" class="transfer-grid"></div>
+
+  <h3 class="subhead en">Checkpoint / architecture smoke tests</h3><h3 class="subhead zh">Checkpoint / 架构 smoke tests</h3>
+  <div id="architectureTable" class="table-wrap"></div>
+
+  <h3 class="subhead en">Naïve next-window sanity baseline</h3><h3 class="subhead zh">简单 next-window sanity baseline</h3>
+  <p class="note en">This ridge baseline is deliberately weak. Negative R² is informative: it tells us a linear adjacent-window predictor cannot solve that dataset and sets a floor for the nonlinear world model.</p>
+  <p class="note zh">这里故意保留简单 ridge。负 R² 本身也是信息：说明相邻窗口线性预测无法解决该数据，也给 nonlinear world model 提供了必须超过的下限。</p>
+  <div class="controls"><label>Dataset <select id="forecastDataset"></select></label></div>
+  <div id="forecastBars" class="bars"></div>
+</section>
+
+<section id="apps" class="section section-tint">
+  <div class="section-head">
+    <span class="kicker">04 · APPLICATIONS</span>
+    <h2 class="en">Applications are treated as tests of what the representation is useful for.</h2>
+    <h2 class="zh">应用不是装饰，而是检验表征究竟能做什么。</h2>
+  </div>
+  <div class="app-grid">
+    <article class="app-card">
+      <div class="app-index">A</div>
+      <h3 class="en">Brain-state decoding</h3><h3 class="zh">脑状态解码</h3>
+      <p class="en">Can the standardized EEG representation recover sleep state in mouse and human recordings?</p>
+      <p class="zh">统一后的 EEG 表征能否在小鼠和人类数据中恢复睡眠状态？</p>
+      <div id="sleepApp" class="app-result"></div>
+    </article>
+    <article class="app-card featured">
+      <div class="app-index">B</div>
+      <h3 class="en">Real optogenetic response prediction</h3><h3 class="zh">真实光遗传干预响应预测</h3>
+      <p class="en">McBride et al. Neuropixels: predict post-stimulation cortical spikes from pre-state, then ask whether explicitly adding intervention identity improves held-out trials.</p>
+      <p class="zh">McBride 等的 Neuropixels 数据：先用干预前状态预测刺激后 cortical spikes，再检验显式加入 intervention identity 是否提高 held-out trial 预测。</p>
+      <div id="mcbrideApp" class="app-result"></div>
+    </article>
+    <article class="app-card">
+      <div class="app-index">C</div>
+      <h3 class="en">Controlled causal world test</h3><h3 class="zh">受控因果世界测试</h3>
+      <p class="en">A synthetic dynamical system with known interventions checks whether action information improves forecasting across horizons.</p>
+      <p class="zh">在具有已知干预 ground truth 的动力系统上，检验 action 信息能否在不同 horizon 提高预测。</p>
+      <div id="interventionApp" class="app-result"></div>
+    </article>
+    <article class="app-card">
+      <div class="app-index">D</div>
+      <h3 class="en">Neural → behavior</h3><h3 class="zh">神经活动 → 行为</h3>
+      <p class="en">OmniMouse neural activity predicts aligned treadmill and eye variables on held-out time windows.</p>
+      <p class="zh">用 OmniMouse 神经活动预测时间对齐的 treadmill 与 eye variables，并在 held-out 时间窗口评估。</p>
+      <div id="omniApp" class="app-result"></div>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="kicker">05 · OBJECTIVE TEST</span>
+    <h2 class="en">Which training objective helps which future?</h2>
+    <h2 class="zh">不同训练目标到底帮助哪一种“未来”？</h2>
+    <p class="en">The same fixed evaluation masks compare baseline NEDS, a mixed brain+behavior world objective, and a future-neural predictive objective.</p>
+    <p class="zh">使用完全相同的固定 evaluation mask，对比 baseline NEDS、brain+behavior world objective 与 future-neural predictive objective。</p>
+  </div>
+  <div id="objectiveGrid" class="objective-grid"></div>
+</section>
+
+<section id="audit" class="section section-dark">
+  <div class="section-head">
+    <span class="kicker">06 · SCALE AUDIT</span>
+    <h2 class="en">A nominal 1.5B model is not necessarily a 1.5B transferable model.</h2>
+    <h2 class="zh">名义上的 1.5B，并不一定是真正 1.5B 的可迁移模型。</h2>
+    <p class="en">Linking all 423 BWB sessions reveals how strongly classic stitcher architectures inflate total parameters.</p>
+    <p class="zh">把完整 423 个 BWB session 接入后，可以直接看到经典 stitcher 架构如何膨胀总参数。</p>
+  </div>
+  <div id="paramAudit" class="audit-grid"></div>
+  <div class="audit-conclusion en">This is why the next scaling path is a token-native shared backbone: scale what transfers, not what memorizes session identity.</div>
+  <div class="audit-conclusion zh">因此下一步扩展的是 token-native shared backbone：扩展真正可迁移的能力，而不是扩展 session identity 的记忆参数。</div>
+</section>
+
+<section class="section final-note">
+  <div><span class="kicker">CURRENT READ</span><h2 class="en">The pipeline is testable now. The hard part is no longer “can it run?”</h2><h2 class="zh">现在这套 pipeline 已经可以被系统测试；难点不再是“能不能跑”。</h2></div>
+  <p class="en">The decisive benchmark is whether the shared backbone consistently improves held-out neural forecasting, cross-session transfer, behavior readout and perturbation prediction over strong baselines. The dashboard will keep the wins and failures together.</p>
+  <p class="zh">真正决定模型价值的是：shared backbone 能否在 held-out neural forecasting、跨 session transfer、行为 readout 和 perturbation prediction 上稳定超过强 baseline。这个页面会同时保留成功与失败。</p>
+</section>
+</main>
+
+<footer><span>Brain World Model · research dashboard</span><span id="updatedAt">loading results…</span></footer>
+<script src="./app.js"></script>
+</body>
+</html>

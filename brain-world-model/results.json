@@ -1,0 +1,863 @@
+{
+  "updated_at": "2026-10-05",
+  "summary": {
+    "dataset_contract_pass": 14,
+    "dataset_contract_total": 14,
+    "forecast_sanity_total": 11,
+    "architecture_smoke_pass": 6,
+    "application_families": 4
+  },
+  "datasets": [
+    {
+      "name": "allen_visual_coding_ophys",
+      "source": "Allen Brain Observatory",
+      "species": "mouse",
+      "modality": [
+        "dff",
+        "event"
+      ],
+      "tags": [
+        "calcium",
+        "dff",
+        "event"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "dandi_000021_spikes",
+      "source": "DANDI",
+      "species": "mouse",
+      "modality": "spikes",
+      "tags": [
+        "spikes"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "dandi_000402_microns_ophys",
+      "source": "DANDI",
+      "species": "mouse",
+      "modality": "dff",
+      "tags": [
+        "calcium",
+        "dff"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "figshare_mcbride_opto_probeE",
+      "source": "Figshare",
+      "species": "mouse",
+      "modality": [
+        "spikes",
+        "optogenetic_intervention",
+        "visual",
+        "running"
+      ],
+      "tags": [
+        "behavior",
+        "intervention",
+        "optogenetic_intervention",
+        "running",
+        "spikes",
+        "visual"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "figshare_v1_calcium_ses045",
+      "source": "Figshare",
+      "species": "mouse",
+      "modality": [
+        "dff",
+        "event"
+      ],
+      "tags": [
+        "calcium",
+        "dff",
+        "event"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "gin_mouse_hdEEG_animal2",
+      "source": "GIN G-Node",
+      "species": "mouse",
+      "modality": "EEG",
+      "tags": [
+        "EEG",
+        "eeg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "ibl_bwb_token_ready_example",
+      "source": "IBL BrainWideBench",
+      "species": "mouse",
+      "modality": "spikes",
+      "tags": [
+        "spikes"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "omnimouse_smoke",
+      "source": "OmniMouse",
+      "species": "mouse",
+      "modality": [
+        "calcium_activity",
+        "treadmill",
+        "eye",
+        "visual_stimulus"
+      ],
+      "tags": [
+        "behavior",
+        "calcium",
+        "calcium_activity",
+        "eye",
+        "treadmill",
+        "visual_stimulus"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "openneuro_ds007058_human_eeg",
+      "source": "OpenNeuro",
+      "species": "human",
+      "modality": "EEG",
+      "tags": [
+        "EEG",
+        "eeg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "openneuro_ds008610_nhp_vpl",
+      "source": "OpenNeuro",
+      "species": "Macaca mulatta",
+      "modality": "intracranial LFP/iEEG",
+      "tags": [
+        "eeg",
+        "intracranial LFP/iEEG"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "osf_accusleep_mouse01",
+      "source": "OSF",
+      "species": "mouse",
+      "modality": "EEG+EMG",
+      "tags": [
+        "EEG+EMG",
+        "eeg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "physionet_sleep_edfx_sc4001e0",
+      "source": "PhysioNet",
+      "species": "human",
+      "modality": "EEG",
+      "tags": [
+        "EEG",
+        "eeg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic_causal_multiregion",
+      "source": "Synthetic Data",
+      "species": "synthetic mouse-like",
+      "modality": null,
+      "tags": [],
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic_controlled_world_v1",
+      "source": "Synthetic Data",
+      "species": "synthetic",
+      "modality": [
+        "spikes",
+        "behavior",
+        "intervention"
+      ],
+      "tags": [
+        "behavior",
+        "intervention",
+        "spikes"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "applications": {
+    "sleep_state_decoding": {
+      "osf_accusleep_mouse01": {
+        "n": 512,
+        "classes": [
+          0,
+          1,
+          2
+        ],
+        "accuracy": 0.961038961038961,
+        "balanced_accuracy": 0.8823529411764706,
+        "majority_baseline": 0.7402597402597403,
+        "status": "PASS"
+      },
+      "physionet_sleep_edfx_sc4001e0": {
+        "n": 2048,
+        "classes": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "accuracy": 0.9006514657980456,
+        "balanced_accuracy": 0.5390962485790072,
+        "majority_baseline": 0.755700325732899,
+        "status": "PASS"
+      }
+    },
+    "synthetic_intervention": {
+      "horizons": {
+        "1": {
+          "no_action_r2": 0.20006748614839132,
+          "with_action_r2": 0.39370752346863314,
+          "delta_r2": 0.19364003732024182
+        },
+        "5": {
+          "no_action_r2": 0.13258356853504027,
+          "with_action_r2": 0.29608382930487087,
+          "delta_r2": 0.1635002607698306
+        },
+        "20": {
+          "no_action_r2": 0.021762473146961003,
+          "with_action_r2": 0.08244180147121227,
+          "delta_r2": 0.06067932832425127
+        }
+      },
+      "status": "PASS"
+    },
+    "omnimouse_neural_to_behavior": {
+      "n_windows": 1024,
+      "r2": {
+        "treadmill": 0.2540670780329465,
+        "pupil_radius": -1.842411155858283,
+        "pupil_radius_derivative": -0.7962658616172076,
+        "eye_x": -0.2969171465388678,
+        "eye_y": -2.1589378657297233
+      },
+      "status": "PASS"
+    },
+    "mcbride_real_optogenetic": {
+      "dataset": "McBride et al. 2022 claustrum optogenetic Neuropixels",
+      "n_opto_trials": 400,
+      "n_train": 300,
+      "n_test": 100,
+      "n_units": 13,
+      "conditions": [
+        "20hz",
+        "40hz",
+        "500ms",
+        "5ms"
+      ],
+      "pre_only_r2": 0.23272779342108108,
+      "pre_plus_intervention_r2": 0.4682462474014849,
+      "intervention_only_centroid_r2": 0.21912501531518858,
+      "mean_baseline_r2": -0.03297294112625848,
+      "delta_r2_action": 0.23551845398040383,
+      "median_unit_r2_pre_only": -0.07120607532953183,
+      "median_unit_r2_with_intervention": 0.002789519691203002,
+      "condition_mean_post_counts": {
+        "20hz": [
+          3.45,
+          10.0,
+          4.41,
+          4.99,
+          22.27,
+          20.48,
+          0.17,
+          3.02,
+          8.26,
+          19.91,
+          3.14,
+          4.37,
+          4.69
+        ],
+        "40hz": [
+          2.22,
+          8.69,
+          4.88,
+          4.78,
+          22.12,
+          20.87,
+          0.24,
+          2.79,
+          7.13,
+          39.9,
+          2.41,
+          3.98,
+          4.84
+        ],
+        "500ms": [
+          3.22,
+          9.25,
+          4.8,
+          5.65,
+          24.0,
+          35.13,
+          0.12,
+          3.05,
+          6.71,
+          1.0,
+          2.54,
+          4.58,
+          4.66
+        ],
+        "5ms": [
+          2.6,
+          11.18,
+          4.72,
+          5.69,
+          25.23,
+          15.62,
+          0.12,
+          4.09,
+          9.73,
+          1.99,
+          2.26,
+          4.17,
+          5.28
+        ]
+      },
+      "status": "PASS"
+    }
+  },
+  "generic_forecast_sanity": [
+    {
+      "dataset": "allen_visual_coding_ophys",
+      "activity_key": "dff_windows",
+      "n_pairs": 255,
+      "ridge_r2": -1.2325494454606192,
+      "persistence_r2": -0.6251763320842045,
+      "mean_baseline_r2": -0.07582347692482583,
+      "status": "PASS"
+    },
+    {
+      "dataset": "dandi_000402_microns_ophys",
+      "activity_key": "dff_windows",
+      "n_pairs": 511,
+      "ridge_r2": -0.3871771274322573,
+      "persistence_r2": 0.14013169554913707,
+      "mean_baseline_r2": -0.24938648366390548,
+      "status": "PASS"
+    },
+    {
+      "dataset": "figshare_v1_calcium_ses045",
+      "activity_key": "dff_windows",
+      "n_pairs": 511,
+      "ridge_r2": -0.10327572075781322,
+      "persistence_r2": -0.17166227109013388,
+      "mean_baseline_r2": -0.005244152418793391,
+      "status": "PASS"
+    },
+    {
+      "dataset": "gin_mouse_hdEEG_animal2",
+      "activity_key": "windows",
+      "n_pairs": 255,
+      "ridge_r2": -0.003294419476574939,
+      "persistence_r2": -0.6207658470368074,
+      "mean_baseline_r2": -0.0007915910861839848,
+      "status": "PASS"
+    },
+    {
+      "dataset": "ibl_bwb_token_ready_example",
+      "activity_key": "windows",
+      "n_pairs": 511,
+      "ridge_r2": -2491.286864001216,
+      "persistence_r2": 0.14680618752080432,
+      "mean_baseline_r2": -2.4238168879628965,
+      "status": "PASS"
+    },
+    {
+      "dataset": "omnimouse_smoke",
+      "activity_key": "response_windows",
+      "n_pairs": 1023,
+      "ridge_r2": -0.31433092543882246,
+      "persistence_r2": -0.35739842678908285,
+      "mean_baseline_r2": -0.08747951525772657,
+      "status": "PASS"
+    },
+    {
+      "dataset": "openneuro_ds007058_human_eeg",
+      "activity_key": "windows",
+      "n_pairs": 58,
+      "ridge_r2": 0.15692532396806824,
+      "persistence_r2": -2.123000431225184,
+      "mean_baseline_r2": -0.005987490607821666,
+      "status": "PASS"
+    },
+    {
+      "dataset": "osf_accusleep_mouse01",
+      "activity_key": "windows",
+      "n_pairs": 511,
+      "ridge_r2": 0.2917527896550355,
+      "persistence_r2": -2.099569898988999,
+      "mean_baseline_r2": -0.00011237507171735217,
+      "status": "PASS"
+    },
+    {
+      "dataset": "physionet_sleep_edfx_sc4001e0",
+      "activity_key": "windows",
+      "n_pairs": 2047,
+      "ridge_r2": -0.010824914124388574,
+      "persistence_r2": -1.056063799143287,
+      "mean_baseline_r2": -0.0018288094244540698,
+      "status": "PASS"
+    },
+    {
+      "dataset": "synthetic_causal_multiregion",
+      "activity_key": "spike_windows",
+      "n_pairs": 79,
+      "ridge_r2": -0.41339318235813804,
+      "persistence_r2": -0.8882997476989134,
+      "mean_baseline_r2": -0.03675591482385099,
+      "status": "PASS"
+    },
+    {
+      "dataset": "synthetic_controlled_world_v1",
+      "activity_key": "spike_windows",
+      "n_pairs": 999,
+      "ridge_r2": -0.3475130430075042,
+      "persistence_r2": -0.9919399909016207,
+      "mean_baseline_r2": -0.0035624197482237996,
+      "status": "PASS"
+    }
+  ],
+  "architecture_smokes": {
+    "mtm_20m": {
+      "status": "PASS",
+      "linked_smoke_params": 46505624,
+      "best_val_avg": 0.3874
+    },
+    "neds_multimodal": {
+      "status": "PASS",
+      "linked_smoke_params": 35734440,
+      "best_val_avg": 0.9988
+    },
+    "causal_world_small": {
+      "status": "PASS",
+      "linked_smoke_params": 35734440,
+      "best_val_avg": 1.2742
+    },
+    "causal_world_large": {
+      "status": "PASS",
+      "linked_smoke_params": 128099496,
+      "best_val_avg": 1.8563
+    },
+    "mtm_large": {
+      "status": "PASS",
+      "linked_smoke_params": 109770548,
+      "best_val_avg": 0.3898
+    },
+    "predictive_world_smoke": {
+      "status": "PASS",
+      "linked_smoke_params": 35734440,
+      "best_val_avg": 0.9151,
+      "note": "causal predictive objective; 24-session checkpoint"
+    }
+  },
+  "unified_token": {
+    "params": {
+      "total": 14290224,
+      "adapter": 38064,
+      "shared_backbone_plus_pos": 14252160
+    },
+    "best_heldout_future_skill": 0.14863764750179884,
+    "best_history_step": 1200,
+    "heldout_future": [
+      {
+        "view": "dandi_spikes_holdout",
+        "modality": "spikes",
+        "skill_vs_zero": 0.04859875673523817,
+        "mse": 1.0635927913837906,
+        "zero_mse": 1.117922431690377
+      },
+      {
+        "view": "microns_dff_holdout",
+        "modality": "calcium",
+        "skill_vs_zero": 0.40303833724328864,
+        "mse": 1.921067500459975,
+        "zero_mse": 3.2180751634680704
+      },
+      {
+        "view": "osf_eeg_holdout",
+        "modality": "eeg",
+        "skill_vs_zero": -0.005724151473130323,
+        "mse": 1.7327939551316842,
+        "zero_mse": 1.7229316334837752
+      }
+    ],
+    "train_views": [
+      "bwb_spikes",
+      "allen_dff",
+      "allen_event",
+      "figshare_dff",
+      "figshare_event",
+      "omnimouse_activity",
+      "gin_eeg"
+    ],
+    "heldout_views": [
+      "dandi_spikes_holdout",
+      "microns_dff_holdout",
+      "osf_eeg_holdout"
+    ],
+    "interpretation": "Whole external views were withheld from training; positive skill_vs_zero indicates better masked-future prediction than a zero predictor on the same normalized target."
+  },
+  "three_model_future_eval": {
+    "rows": [
+      {
+        "task_file": "three_eval_54960443_0.out",
+        "model": "baseline",
+        "scheme": "causal_world",
+        "metrics": {
+          "val/avg": 3.129554911616913,
+          "val/choice_loss": 8.631602281356788,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.434244589708941,
+          "val/licking_rate_loss": 1.0924378861704118,
+          "val/loss": 3.129554911616913,
+          "val/reward_loss": 6.794046235563642,
+          "val/right_paw_speed_loss": 1.4715457954743776,
+          "val/spikes_loss": 1.1820564732891032,
+          "val/wheel_speed_loss": 1.087846642421194,
+          "val/whisker_motion_energy_loss": 3.3426593889508442
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_1.out",
+        "model": "world",
+        "scheme": "causal_world",
+        "metrics": {
+          "val/avg": 2.943404273397708,
+          "val/choice_loss": 7.958760659415427,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.3138513243810535,
+          "val/licking_rate_loss": 1.0320261180514074,
+          "val/loss": 2.943404273397708,
+          "val/reward_loss": 6.517027925261449,
+          "val/right_paw_speed_loss": 1.5060037746116341,
+          "val/spikes_loss": 1.183333913946678,
+          "val/wheel_speed_loss": 0.8840368548184634,
+          "val/whisker_motion_energy_loss": 3.152193616695549
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_2.out",
+        "model": "predictive",
+        "scheme": "causal_world",
+        "metrics": {
+          "val/avg": 3.239474313378934,
+          "val/choice_loss": 9.35119171134625,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.2451838963699975,
+          "val/licking_rate_loss": 1.161090201398119,
+          "val/loss": 3.239474313378934,
+          "val/reward_loss": 7.085490860763251,
+          "val/right_paw_speed_loss": 1.6900701495182413,
+          "val/spikes_loss": 1.1809127439996927,
+          "val/wheel_speed_loss": 0.9080346284288111,
+          "val/whisker_motion_energy_loss": 3.293820315207106
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_3.out",
+        "model": "baseline",
+        "scheme": "causal_neural",
+        "metrics": {
+          "val/avg": 1.1808853898998308,
+          "val/epoch": 0,
+          "val/loss": 1.1808853898998308,
+          "val/spikes_loss": 1.1808853898998308
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_4.out",
+        "model": "world",
+        "scheme": "causal_neural",
+        "metrics": {
+          "val/avg": 1.1848242815447707,
+          "val/epoch": 0,
+          "val/loss": 1.1848242815447707,
+          "val/spikes_loss": 1.1848242815447707
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_5.out",
+        "model": "predictive",
+        "scheme": "causal_neural",
+        "metrics": {
+          "val/avg": 1.177677155686374,
+          "val/epoch": 0,
+          "val/loss": 1.177677155686374,
+          "val/spikes_loss": 1.177677155686374
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_6.out",
+        "model": "baseline",
+        "scheme": "causal_behavior",
+        "metrics": {
+          "val/avg": 3.3990909048760534,
+          "val/choice_loss": 8.629343776525257,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.2081512596413035,
+          "val/licking_rate_loss": 1.1377703081047577,
+          "val/loss": 3.3990909048760534,
+          "val/reward_loss": 6.727991143592324,
+          "val/right_paw_speed_loss": 1.5911621986025746,
+          "val/wheel_speed_loss": 0.9810176554999115,
+          "val/whisker_motion_energy_loss": 3.518199992166242
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_7.out",
+        "model": "world",
+        "scheme": "causal_behavior",
+        "metrics": {
+          "val/avg": 3.611612742531032,
+          "val/choice_loss": 9.04707367618805,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.322539728533636,
+          "val/licking_rate_loss": 1.0907306078429717,
+          "val/loss": 3.611612742531032,
+          "val/reward_loss": 8.000516917385262,
+          "val/right_paw_speed_loss": 1.392348740700868,
+          "val/wheel_speed_loss": 0.9400566164733181,
+          "val/whisker_motion_energy_loss": 3.4880229105931155
+        }
+      },
+      {
+        "task_file": "three_eval_54960443_8.out",
+        "model": "predictive",
+        "scheme": "causal_behavior",
+        "metrics": {
+          "val/avg": 3.6066023462508623,
+          "val/choice_loss": 8.595588256289465,
+          "val/epoch": 0,
+          "val/left_paw_speed_loss": 1.1559151772811518,
+          "val/licking_rate_loss": 1.1334693139494723,
+          "val/loss": 3.6066023462508623,
+          "val/reward_loss": 8.694202496761777,
+          "val/right_paw_speed_loss": 1.4096900681827609,
+          "val/wheel_speed_loss": 0.9314075026860444,
+          "val/whisker_motion_energy_loss": 3.325943608605361
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "scheme": "causal_behavior",
+        "models": {
+          "baseline": {
+            "val/avg": 3.3990909048760534,
+            "val/choice_loss": 8.629343776525257,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.2081512596413035,
+            "val/licking_rate_loss": 1.1377703081047577,
+            "val/loss": 3.3990909048760534,
+            "val/reward_loss": 6.727991143592324,
+            "val/right_paw_speed_loss": 1.5911621986025746,
+            "val/wheel_speed_loss": 0.9810176554999115,
+            "val/whisker_motion_energy_loss": 3.518199992166242
+          },
+          "world": {
+            "val/avg": 3.611612742531032,
+            "val/choice_loss": 9.04707367618805,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.322539728533636,
+            "val/licking_rate_loss": 1.0907306078429717,
+            "val/loss": 3.611612742531032,
+            "val/reward_loss": 8.000516917385262,
+            "val/right_paw_speed_loss": 1.392348740700868,
+            "val/wheel_speed_loss": 0.9400566164733181,
+            "val/whisker_motion_energy_loss": 3.4880229105931155
+          },
+          "predictive": {
+            "val/avg": 3.6066023462508623,
+            "val/choice_loss": 8.595588256289465,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.1559151772811518,
+            "val/licking_rate_loss": 1.1334693139494723,
+            "val/loss": 3.6066023462508623,
+            "val/reward_loss": 8.694202496761777,
+            "val/right_paw_speed_loss": 1.4096900681827609,
+            "val/wheel_speed_loss": 0.9314075026860444,
+            "val/whisker_motion_energy_loss": 3.325943608605361
+          }
+        },
+        "relative_improvement_vs_baseline_pct": {
+          "world": {
+            "val/avg": -6.252314033440891,
+            "val/choice_loss": -4.840807255809656,
+            "val/left_paw_speed_loss": -9.468058571266486,
+            "val/licking_rate_loss": 4.134375798586482,
+            "val/loss": -6.252314033440891,
+            "val/reward_loss": -18.913903818153504,
+            "val/right_paw_speed_loss": 12.494858040010818,
+            "val/wheel_speed_loss": 4.1753620637663555,
+            "val/whisker_motion_energy_loss": 0.8577420737968289
+          },
+          "predictive": {
+            "val/avg": -6.104910023945822,
+            "val/choice_loss": 0.39117134639621154,
+            "val/left_paw_speed_loss": 4.323637619320986,
+            "val/licking_rate_loss": 0.37801954618149464,
+            "val/loss": -6.104910023945822,
+            "val/reward_loss": -29.224345145609394,
+            "val/right_paw_speed_loss": 11.405005132675358,
+            "val/wheel_speed_loss": 5.057009171622552,
+            "val/whisker_motion_energy_loss": 5.464623500340135
+          }
+        }
+      },
+      {
+        "scheme": "causal_neural",
+        "models": {
+          "baseline": {
+            "val/avg": 1.1808853898998308,
+            "val/epoch": 0,
+            "val/loss": 1.1808853898998308,
+            "val/spikes_loss": 1.1808853898998308
+          },
+          "world": {
+            "val/avg": 1.1848242815447707,
+            "val/epoch": 0,
+            "val/loss": 1.1848242815447707,
+            "val/spikes_loss": 1.1848242815447707
+          },
+          "predictive": {
+            "val/avg": 1.177677155686374,
+            "val/epoch": 0,
+            "val/loss": 1.177677155686374,
+            "val/spikes_loss": 1.177677155686374
+          }
+        },
+        "relative_improvement_vs_baseline_pct": {
+          "world": {
+            "val/avg": -0.3335541009000033,
+            "val/loss": -0.3335541009000033,
+            "val/spikes_loss": -0.3335541009000033
+          },
+          "predictive": {
+            "val/avg": 0.2716804053040972,
+            "val/loss": 0.2716804053040972,
+            "val/spikes_loss": 0.2716804053040972
+          }
+        }
+      },
+      {
+        "scheme": "causal_world",
+        "models": {
+          "baseline": {
+            "val/avg": 3.129554911616913,
+            "val/choice_loss": 8.631602281356788,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.434244589708941,
+            "val/licking_rate_loss": 1.0924378861704118,
+            "val/loss": 3.129554911616913,
+            "val/reward_loss": 6.794046235563642,
+            "val/right_paw_speed_loss": 1.4715457954743776,
+            "val/spikes_loss": 1.1820564732891032,
+            "val/wheel_speed_loss": 1.087846642421194,
+            "val/whisker_motion_energy_loss": 3.3426593889508442
+          },
+          "world": {
+            "val/avg": 2.943404273397708,
+            "val/choice_loss": 7.958760659415427,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.3138513243810535,
+            "val/licking_rate_loss": 1.0320261180514074,
+            "val/loss": 2.943404273397708,
+            "val/reward_loss": 6.517027925261449,
+            "val/right_paw_speed_loss": 1.5060037746116341,
+            "val/spikes_loss": 1.183333913946678,
+            "val/wheel_speed_loss": 0.8840368548184634,
+            "val/whisker_motion_energy_loss": 3.152193616695549
+          },
+          "predictive": {
+            "val/avg": 3.239474313378934,
+            "val/choice_loss": 9.35119171134625,
+            "val/epoch": 0,
+            "val/left_paw_speed_loss": 1.2451838963699975,
+            "val/licking_rate_loss": 1.161090201398119,
+            "val/loss": 3.239474313378934,
+            "val/reward_loss": 7.085490860763251,
+            "val/right_paw_speed_loss": 1.6900701495182413,
+            "val/spikes_loss": 1.1809127439996927,
+            "val/wheel_speed_loss": 0.9080346284288111,
+            "val/whisker_motion_energy_loss": 3.293820315207106
+          }
+        },
+        "relative_improvement_vs_baseline_pct": {
+          "world": {
+            "val/avg": 5.948150566977215,
+            "val/choice_loss": 7.795095279060955,
+            "val/left_paw_speed_loss": 8.394193444530941,
+            "val/licking_rate_loss": 5.529995698957353,
+            "val/loss": 5.948150566977215,
+            "val/reward_loss": 4.077368635675925,
+            "val/right_paw_speed_loss": -2.3416178581209874,
+            "val/spikes_loss": -0.10806934240800985,
+            "val/wheel_speed_loss": 18.735158031936948,
+            "val/whisker_motion_energy_loss": 5.698031121115114
+          },
+          "predictive": {
+            "val/avg": -3.512301425164329,
+            "val/choice_loss": -8.33668427406216,
+            "val/left_paw_speed_loss": 13.181900402169944,
+            "val/licking_rate_loss": -6.284322074216124,
+            "val/loss": -3.512301425164329,
+            "val/reward_loss": -4.2897062382948326,
+            "val/right_paw_speed_loss": -14.849986640981072,
+            "val/spikes_loss": 0.09675758436718987,
+            "val/wheel_speed_loss": 16.529169368228203,
+            "val/whisker_motion_energy_loss": 1.4610843660941282
+          }
+        }
+      }
+    ]
+  },
+  "parameter_audit": {
+    "neds_small": {
+      "total": 727222872,
+      "trainable": 727222872,
+      "shared_backbone_like": 9606144,
+      "session_or_stitcher": 717616728
+    },
+    "neds_world_large": {
+      "total": 1509729624,
+      "trainable": 1509729624,
+      "shared_backbone_like": 75893760,
+      "session_or_stitcher": 1433835864
+    },
+    "mtm20": {
+      "total": 546387250,
+      "trainable": 546387250,
+      "shared_backbone_like": 21045692,
+      "session_or_stitcher": 525341558
+    },
+    "mtm_large": {
+      "total": 747997902,
+      "trainable": 747997902,
+      "shared_backbone_like": 77264216,
+      "session_or_stitcher": 670733686
+    }
+  },
+  "notes": [
+    "Smoke-test success means the architecture/data path executed; it is not by itself a performance claim.",
+    "Naive linear next-window baselines are intentionally retained even when R2 is negative.",
+    "OmniMouse treadmill readout is positive; eye-variable ridge readouts are currently negative.",
+    "The full-session NEDS/MtM parameter count is dominated by session-specific stitchers, motivating a token-native shared backbone."
+  ]
+}
