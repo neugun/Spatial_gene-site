@@ -1,0 +1,132 @@
+{
+  "stage": 843,
+  "status": "COMPLETE",
+  "stage542": {
+    "median_edge_recovery_pct": 39.393939393939405,
+    "median_total_spot_increase_pct": 2.7478561757183773,
+    "max_total_spot_increase_pct": 4.833040421792623,
+    "genes": [
+      {
+        "gene": "Slc6a2",
+        "edge_recovery_pct": 11.99999999999999,
+        "total_delta_pct": 2.124430955993928,
+        "raw_lost_pct": 0.1517450682852805
+      },
+      {
+        "gene": "Npy1r",
+        "edge_recovery_pct": 33.33333333333335,
+        "total_delta_pct": 1.7391304347825989,
+        "raw_lost_pct": 0.5797101449275366
+      },
+      {
+        "gene": "Epb41l4a",
+        "edge_recovery_pct": 60.606060606060616,
+        "total_delta_pct": 3.321799307958484,
+        "raw_lost_pct": 0.830449826989621
+      },
+      {
+        "gene": "Slc5a7",
+        "edge_recovery_pct": 22.368421052631597,
+        "total_delta_pct": 2.1739130434782705,
+        "raw_lost_pct": 0.4755434782608647
+      },
+      {
+        "gene": "Piezo2",
+        "edge_recovery_pct": 45.45454545454546,
+        "total_delta_pct": 4.833040421792623,
+        "raw_lost_pct": 0.2636203866432374
+      },
+      {
+        "gene": "Fstl4",
+        "edge_recovery_pct": 47.11538461538463,
+        "total_delta_pct": 3.492537313432842,
+        "raw_lost_pct": 0.9552238805970116
+      }
+    ]
+  },
+  "stage556": {
+    "corrected_rows": 48,
+    "identity_rows": 33,
+    "total_rows": 81
+  },
+  "stage578_funnel": {
+    "Stage559 rescued": 242062,
+    "Stage578 face-local": 128031,
+    "assignable novel": 32470,
+    "final kept \u2192 594": 29134
+  },
+  "stage575": {
+    "n_rows": 67,
+    "ratio_min": 0.012508662763219438,
+    "ratio_median": 1.0804936930940767,
+    "ratio_max": 4.8783359283236365,
+    "below_0p8": 18,
+    "above_1p2": 32,
+    "meaning": "Diagnostic full corrected-spot to cell reassignment; not promoted as expression authority because row totals are not uniformly commensurate with V21."
+  },
+  "default_fourway": [
+    "RAW",
+    "Stage416C",
+    "Stage594",
+    "Stage542-lineage diagnostic (Stage575 where clean; withheld otherwise)"
+  ],
+  "missing_stage575_rows": [
+    {
+      "section": 500,
+      "gene": "Snap25"
+    },
+    {
+      "section": 500,
+      "gene": "Zfhx3"
+    },
+    {
+      "section": 500,
+      "gene": "Bcl11b"
+    },
+    {
+      "section": 500,
+      "gene": "Slc5a7"
+    },
+    {
+      "section": 500,
+      "gene": "Slc6a4"
+    },
+    {
+      "section": 500,
+      "gene": "Foxp2"
+    },
+    {
+      "section": 500,
+      "gene": "Slc17a6"
+    },
+    {
+      "section": 530,
+      "gene": "Snap25"
+    },
+    {
+      "section": 530,
+      "gene": "Mc4r"
+    },
+    {
+      "section": 560,
+      "gene": "Snap25"
+    },
+    {
+      "section": 560,
+      "gene": "Slc6a4"
+    },
+    {
+      "section": 560,
+      "gene": "Ghr"
+    },
+    {
+      "section": 560,
+      "gene": "Ebf3"
+    },
+    {
+      "section": 560,
+      "gene": "Meis2"
+    }
+  ],
+  "interpretation": "Stage542 validated local edge recovery, not a 27x3 cell matrix. Production correction reached Stage556 spots. Full Stage575 cell replacement was unstable in scale, so Stage577/578 retained only conservative novel face-local deltas, yielding Stage594."
+}
