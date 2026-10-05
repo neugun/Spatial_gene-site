@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-05-map8-stage848-global",
+  "version": "2026-10-05-map8-stage849-qa",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -158,5 +158,9 @@
   "stage848_targeted_corrected_pairs": 16,
   "stage848_held_true_signal_pairs": 8,
   "stage848_q95plus_extra_changed_all_corrected": 0.0,
-  "stage848_visual_qa_overview": true
+  "stage848_visual_qa_overview": true,
+  "stage849_preservation_qa": "PASS",
+  "stage849_qa_pass": 10,
+  "stage849_qa_total": 10,
+  "stage849_global_extra_mass_fraction": 0.0031420115667866177
 }

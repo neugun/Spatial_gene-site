@@ -1,0 +1,26 @@
+{
+  "stage": 849,
+  "status": "PASS",
+  "n_checks": 10,
+  "n_pass": 10,
+  "n_fail": 0,
+  "global_stage594_counts": 22439687.0,
+  "global_stage848_counts": 22510192.756109074,
+  "global_extra_mass_fraction": 0.0031420115667866177,
+  "targeted_pairs": 16,
+  "held_pairs": 65,
+  "targeted_grid_corr_min": 0.9993658777299396,
+  "targeted_fine26_eta2_ratio_range": [
+    0.9860848619744218,
+    1.0012011132293517
+  ],
+  "targeted_r1r5_eta2_ratio_range": [
+    0.9817760974619002,
+    1.0135924017187221
+  ],
+  "targeted_fine26_profile_corr_min": 0.9998108003024071,
+  "targeted_r1r5_profile_corr_min": 0.9982564675457825,
+  "non_target_changed_cells": 0,
+  "negative_delta_cells": 0,
+  "authority_boundary": "Stage848 passes matrix-level preservation QA; MapMyCells / downstream biological claims should still be regenerated before replacing Stage594 as frozen downstream authority."
+}

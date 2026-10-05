@@ -1,0 +1,11 @@
+check,pass,value
+81_rows_present,True,81
+target_pair_count,True,16
+non_target_exact_identity,True,0
+no_subtraction_anywhere,True,0
+target_grid_corr_min_ge_0.998,True,0.9993658777299396
+target_fine26_eta2_ratio_0.95_1.05,True,"[0.9860848619744218, 1.0012011132293517]"
+target_r1r5_eta2_ratio_0.95_1.05,True,"[0.9817760974619002, 1.0135924017187221]"
+target_fine26_profile_corr_min_ge_0.995,True,0.9998108003024071
+target_r1r5_profile_corr_min_ge_0.995,True,0.9982564675457825
+global_extra_mass_lt_1pct,True,0.0031420115667866177
