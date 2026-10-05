@@ -1,0 +1,295 @@
+{
+  "stage": 837,
+  "status": "COMPLETE",
+  "result": "Stage594 corrected48 does not show evidence of severe overcorrection under the RAW-referenced screen; visual overcorrection in later plots is therefore more consistent with plotting/expression-source mismatch than with Stage594 itself.",
+  "lineage": {
+    "cells": 71950,
+    "genes": 27,
+    "sections": [
+      500,
+      530,
+      560
+    ],
+    "same_cell_gene_lineage": true
+  },
+  "plotting": {
+    "comparison_columns": [
+      "RAW",
+      "MAP400",
+      "Stage416C",
+      "Stage594"
+    ],
+    "rows": [
+      "S500",
+      "S530",
+      "S560"
+    ],
+    "coordinate_source": "archived Stage407/420 expanded coordinates with section-wise Y flip",
+    "color_map": "Reds",
+    "per_gene_vmax_source": "archived Stage407/420 ALLGENE_EXACT_FLEX_COLORBAR_RULES positive-cell q99.5; fixed across all sections and all four versions"
+  },
+  "summary": [
+    {
+      "version": "MAP400",
+      "n_pairs": 81,
+      "severe_pairs": 8,
+      "median_overcorrection_score": 0.0369698313320154,
+      "median_grid_corr": 0.9971524267645312,
+      "median_top10_jaccard": 0.972450459159014,
+      "median_log1p_std_ratio": 0.9758726147100604,
+      "median_fine26_eta2_ratio": 0.9732084904260966,
+      "median_r1r5_eta2_ratio": 0.9508093440407908,
+      "median_mass_ratio": 1.0462889261691626,
+      "severe_fraction": 0.0987654320987654
+    },
+    {
+      "version": "Stage416C",
+      "n_pairs": 81,
+      "severe_pairs": 1,
+      "median_overcorrection_score": 0.0079665050518693,
+      "median_grid_corr": 0.9997377942175972,
+      "median_top10_jaccard": 0.9847560975609756,
+      "median_log1p_std_ratio": 0.9933199105692008,
+      "median_fine26_eta2_ratio": 0.9969854284840282,
+      "median_r1r5_eta2_ratio": 0.9968454126322666,
+      "median_mass_ratio": 1.0048346979313894,
+      "severe_fraction": 0.0123456790123456
+    },
+    {
+      "version": "Stage594",
+      "n_pairs": 81,
+      "severe_pairs": 0,
+      "median_overcorrection_score": 0.0002367104438053,
+      "median_grid_corr": 0.9999949600563388,
+      "median_top10_jaccard": 0.9990990990990992,
+      "median_log1p_std_ratio": 0.9999999999991837,
+      "median_fine26_eta2_ratio": 0.999999999998283,
+      "median_r1r5_eta2_ratio": 0.999999999978414,
+      "median_mass_ratio": 1.0005627160427664,
+      "severe_fraction": 0.0
+    }
+  ],
+  "severe_pairs": [
+    {
+      "version": "MAP400",
+      "gene": "Slc6a2",
+      "section": 530,
+      "overcorrection_score": 0.3029656615970452,
+      "grid12_corr_vs_raw": 0.995900622195056,
+      "top10_jaccard_vs_raw": 0.3873844121532364,
+      "log1p_std_ratio_vs_raw": 1.157666673847488,
+      "fine26_eta2_ratio_vs_raw": 0.5617839046192538,
+      "r1r5_eta2_ratio_vs_raw": 0.5401027530472282,
+      "mass_ratio_vs_raw": 1.2543183472403003
+    },
+    {
+      "version": "MAP400",
+      "gene": "Slc5a7",
+      "section": 500,
+      "overcorrection_score": 0.2673412182852607,
+      "grid12_corr_vs_raw": 0.9914105827714392,
+      "top10_jaccard_vs_raw": 0.3683069585952742,
+      "log1p_std_ratio_vs_raw": 1.119534923062671,
+      "fine26_eta2_ratio_vs_raw": 0.6116580909024546,
+      "r1r5_eta2_ratio_vs_raw": 0.6919182763045282,
+      "mass_ratio_vs_raw": 1.26560383081851
+    },
+    {
+      "version": "MAP400",
+      "gene": "Slc5a7",
+      "section": 560,
+      "overcorrection_score": 0.186459700937743,
+      "grid12_corr_vs_raw": 0.9779250151570068,
+      "top10_jaccard_vs_raw": 0.5403005464480874,
+      "log1p_std_ratio_vs_raw": 1.0189360936501126,
+      "fine26_eta2_ratio_vs_raw": 0.8361882005959965,
+      "r1r5_eta2_ratio_vs_raw": 0.7132877331101942,
+      "mass_ratio_vs_raw": 1.158000059361456
+    },
+    {
+      "version": "MAP400",
+      "gene": "Slc5a7",
+      "section": 530,
+      "overcorrection_score": 0.159329513101376,
+      "grid12_corr_vs_raw": 0.9973956049094947,
+      "top10_jaccard_vs_raw": 0.7736556898707795,
+      "log1p_std_ratio_vs_raw": 0.9980071902201364,
+      "fine26_eta2_ratio_vs_raw": 0.8421779977539524,
+      "r1r5_eta2_ratio_vs_raw": 0.5921159517387565,
+      "mass_ratio_vs_raw": 1.0970199439326462
+    },
+    {
+      "version": "MAP400",
+      "gene": "Slc6a2",
+      "section": 560,
+      "overcorrection_score": 0.1230847398730291,
+      "grid12_corr_vs_raw": 0.999899268363606,
+      "top10_jaccard_vs_raw": 0.6129032258064516,
+      "log1p_std_ratio_vs_raw": 1.0275401051119084,
+      "fine26_eta2_ratio_vs_raw": 0.8892856121770791,
+      "r1r5_eta2_ratio_vs_raw": 0.8824881942877179,
+      "mass_ratio_vs_raw": 1.0355365901448763
+    },
+    {
+      "version": "MAP400",
+      "gene": "Cep112",
+      "section": 530,
+      "overcorrection_score": 0.1219227660064831,
+      "grid12_corr_vs_raw": 0.9922044007214358,
+      "top10_jaccard_vs_raw": 0.5954730121880442,
+      "log1p_std_ratio_vs_raw": 0.9758517342615922,
+      "fine26_eta2_ratio_vs_raw": 0.9705853625107488,
+      "r1r5_eta2_ratio_vs_raw": 0.8562716602857634,
+      "mass_ratio_vs_raw": 1.062784322733131
+    },
+    {
+      "version": "MAP400",
+      "gene": "Snap25",
+      "section": 560,
+      "overcorrection_score": 0.0825723787150293,
+      "grid12_corr_vs_raw": 0.997354110174396,
+      "top10_jaccard_vs_raw": 0.9689807976366324,
+      "log1p_std_ratio_vs_raw": 0.9705515492655112,
+      "fine26_eta2_ratio_vs_raw": 0.9055797663968544,
+      "r1r5_eta2_ratio_vs_raw": 0.7446718829514593,
+      "mass_ratio_vs_raw": 1.042429141933219
+    },
+    {
+      "version": "MAP400",
+      "gene": "Nfib",
+      "section": 500,
+      "overcorrection_score": 0.0629642868433685,
+      "grid12_corr_vs_raw": 0.996290750812034,
+      "top10_jaccard_vs_raw": 0.9878693623639192,
+      "log1p_std_ratio_vs_raw": 0.9592865600524954,
+      "fine26_eta2_ratio_vs_raw": 0.9999298383098318,
+      "r1r5_eta2_ratio_vs_raw": 0.7418020542448769,
+      "mass_ratio_vs_raw": 1.052036509307969
+    },
+    {
+      "version": "Stage416C",
+      "gene": "Cep112",
+      "section": 530,
+      "overcorrection_score": 0.0921146544989905,
+      "grid12_corr_vs_raw": 0.9993507317087084,
+      "top10_jaccard_vs_raw": 0.5954730121880442,
+      "log1p_std_ratio_vs_raw": 0.9924338211751396,
+      "fine26_eta2_ratio_vs_raw": 0.9968680294982702,
+      "r1r5_eta2_ratio_vs_raw": 0.9553011329348848,
+      "mass_ratio_vs_raw": 1.0032722660589104
+    }
+  ],
+  "stage594_worst": [
+    {
+      "gene": "Tacr1",
+      "section": 560,
+      "overcorrection_score": 0.048386998009801,
+      "grid12_corr_vs_raw": 0.9996514090001416,
+      "top10_jaccard_vs_raw": 0.7727272727272727,
+      "log1p_std_ratio_vs_raw": 1.0010034863576072,
+      "fine26_eta2_ratio_vs_raw": 1.000533364279517,
+      "r1r5_eta2_ratio_vs_raw": 0.9856863282235804,
+      "mass_ratio_vs_raw": 1.005188201492383
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 500,
+      "overcorrection_score": 0.0427600387347179,
+      "grid12_corr_vs_raw": 0.9968329561645408,
+      "top10_jaccard_vs_raw": 0.789380081300813,
+      "log1p_std_ratio_vs_raw": 1.0011829462023345,
+      "fine26_eta2_ratio_vs_raw": 0.9999867688610564,
+      "r1r5_eta2_ratio_vs_raw": 1.0189514226929597,
+      "mass_ratio_vs_raw": 1.022804163955758
+    },
+    {
+      "gene": "Bcl11b",
+      "section": 500,
+      "overcorrection_score": 0.011015160873298,
+      "grid12_corr_vs_raw": 0.9999876206954762,
+      "top10_jaccard_vs_raw": 0.9452960625187856,
+      "log1p_std_ratio_vs_raw": 0.9996405124192476,
+      "fine26_eta2_ratio_vs_raw": 1.0006930005254682,
+      "r1r5_eta2_ratio_vs_raw": 1.003907792471255,
+      "mass_ratio_vs_raw": 1.0013231058965846
+    },
+    {
+      "gene": "Piezo2",
+      "section": 560,
+      "overcorrection_score": 0.0081439817335298,
+      "grid12_corr_vs_raw": 0.999789390795465,
+      "top10_jaccard_vs_raw": 0.9883116883116884,
+      "log1p_std_ratio_vs_raw": 0.999915172794002,
+      "fine26_eta2_ratio_vs_raw": 1.0076026198462515,
+      "r1r5_eta2_ratio_vs_raw": 0.9712638394311952,
+      "mass_ratio_vs_raw": 1.0094910901740322
+    },
+    {
+      "gene": "Fstl4",
+      "section": 560,
+      "overcorrection_score": 0.0080048914013953,
+      "grid12_corr_vs_raw": 0.996323444334434,
+      "top10_jaccard_vs_raw": 0.9636520986585894,
+      "log1p_std_ratio_vs_raw": 1.0073644628989973,
+      "fine26_eta2_ratio_vs_raw": 1.0133078368153108,
+      "r1r5_eta2_ratio_vs_raw": 1.0014084244777306,
+      "mass_ratio_vs_raw": 1.0226993362287962
+    },
+    {
+      "gene": "Piezo2",
+      "section": 500,
+      "overcorrection_score": 0.0060934881656924,
+      "grid12_corr_vs_raw": 0.999930294669688,
+      "top10_jaccard_vs_raw": 0.9902097902097902,
+      "log1p_std_ratio_vs_raw": 0.9987463040351642,
+      "fine26_eta2_ratio_vs_raw": 1.0060586207592932,
+      "r1r5_eta2_ratio_vs_raw": 0.9806461702568954,
+      "mass_ratio_vs_raw": 1.0065388903181545
+    },
+    {
+      "gene": "Bcl11b",
+      "section": 560,
+      "overcorrection_score": 0.0048431985337424,
+      "grid12_corr_vs_raw": 0.9999127492949828,
+      "top10_jaccard_vs_raw": 0.981686541737649,
+      "log1p_std_ratio_vs_raw": 1.002548378902373,
+      "fine26_eta2_ratio_vs_raw": 1.0020794943978737,
+      "r1r5_eta2_ratio_vs_raw": 0.994184716298656,
+      "mass_ratio_vs_raw": 1.007282648832725
+    },
+    {
+      "gene": "Fstl4",
+      "section": 500,
+      "overcorrection_score": 0.0048285366981959,
+      "grid12_corr_vs_raw": 0.9985073731341616,
+      "top10_jaccard_vs_raw": 0.9773499433748584,
+      "log1p_std_ratio_vs_raw": 1.002010481738095,
+      "fine26_eta2_ratio_vs_raw": 1.0032556244859718,
+      "r1r5_eta2_ratio_vs_raw": 1.012986044486845,
+      "mass_ratio_vs_raw": 1.015357255638473
+    },
+    {
+      "gene": "Fstl4",
+      "section": 530,
+      "overcorrection_score": 0.0042704934041271,
+      "grid12_corr_vs_raw": 0.999604252797132,
+      "top10_jaccard_vs_raw": 0.9790432801822324,
+      "log1p_std_ratio_vs_raw": 1.004006446354011,
+      "fine26_eta2_ratio_vs_raw": 1.011412749129357,
+      "r1r5_eta2_ratio_vs_raw": 1.013533892400947,
+      "mass_ratio_vs_raw": 1.014461871112295
+    },
+    {
+      "gene": "Npy1r",
+      "section": 560,
+      "overcorrection_score": 0.0036606177345481,
+      "grid12_corr_vs_raw": 0.9983877568545876,
+      "top10_jaccard_vs_raw": 0.9884836852207294,
+      "log1p_std_ratio_vs_raw": 1.0015595077117203,
+      "fine26_eta2_ratio_vs_raw": 1.0039687296411886,
+      "r1r5_eta2_ratio_vs_raw": 0.9948254692519424,
+      "mass_ratio_vs_raw": 1.0099552598908434
+    }
+  ],
+  "important_source_check": "The current MapMyCells/query H5AD X matrix was independently verified not to equal Stage594 corrected48 counts. Any later figure claiming to show Stage594 must read Stage594 corrected48 arrays directly."
+}
