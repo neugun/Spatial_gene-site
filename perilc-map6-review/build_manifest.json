@@ -4,7 +4,7 @@
   "data_files": 7,
   "missing_links": [],
   "index_bytes": 44221,
-  "version": "2026-10-05-map8-stage849-qa",
+  "version": "2026-10-05-map8-stage850",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -162,5 +162,24 @@
   "stage849_preservation_qa": "PASS",
   "stage849_qa_pass": 10,
   "stage849_qa_total": 10,
-  "stage849_global_extra_mass_fraction": 0.0031420115667866177
+  "stage849_global_extra_mass_fraction": 0.0031420115667866177,
+  "stage850_corrected_pairs": 13,
+  "stage850_unchanged_pairs": 68,
+  "stage850_focus_actions": {
+    "CORRECTED_STAGE847": 7,
+    "CORRECTED_STAGE849": 6,
+    "CONFIRMED_ARTIFACT_UNRESOLVED": 5,
+    "BIOLOGICAL_SIGNAL_HOLD": 3,
+    "UNRESOLVED_HOLD": 2,
+    "PROBABLE_ARTIFACT_HOLD": 1
+  },
+  "stage850_preservation": {
+    "min_gridcorr594_changed": 0.9993925761387581,
+    "max_mass_add_vs594_changed": 0.009844206419317058,
+    "min_fine_eta_ratio_changed": 0.987836750860918,
+    "max_fine_eta_ratio_changed": 1.0197273602710941,
+    "min_r1r5_eta_ratio_changed": 0.9885460920577874,
+    "max_r1r5_eta_ratio_changed": 1.0198147066642715,
+    "max_q95plus_extra_changed": 0.0
+  }
 }

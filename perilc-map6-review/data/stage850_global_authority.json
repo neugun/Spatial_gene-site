@@ -1,0 +1,34 @@
+{
+  "stage": 850,
+  "status": "PROVISIONAL_QA_COMPLETE",
+  "full27_shape": [
+    71950,
+    27
+  ],
+  "corrected_pairs": 13,
+  "unchanged_pairs": 68,
+  "focus_actions": {
+    "CORRECTED_STAGE847": 7,
+    "CORRECTED_STAGE849": 6,
+    "CONFIRMED_ARTIFACT_UNRESOLVED": 5,
+    "BIOLOGICAL_SIGNAL_HOLD": 3,
+    "UNRESOLVED_HOLD": 2,
+    "PROBABLE_ARTIFACT_HOLD": 1
+  },
+  "preservation": {
+    "min_gridcorr594_changed": 0.9993925761387581,
+    "max_mass_add_vs594_changed": 0.009844206419317058,
+    "min_fine_eta_ratio_changed": 0.987836750860918,
+    "max_fine_eta_ratio_changed": 1.0197273602710941,
+    "min_r1r5_eta_ratio_changed": 0.9885460920577874,
+    "max_r1r5_eta_ratio_changed": 1.0198147066642715,
+    "max_q95plus_extra_changed": 0.0
+  },
+  "authority_boundary": "provisional full27 candidate; Stage594 remains frozen authority until direct image review and final biological downstream rerun",
+  "files": {
+    "matrix": "STAGE850_FULL27_PROVISIONAL_71950x27.npy",
+    "qa": "STAGE850_ALL81_PRESERVATION_QA.csv",
+    "decisions": "STAGE850_FOCUS8_FINAL_DECISION.csv",
+    "board": "STAGE850_FOCUS8_DECISION_BOARD.png"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "stage": 849,
+  "status": "SLURM_COMPLETE",
+  "scope": "11 confirmed-artifact pairs lacking prior safe template",
+  "decision_counts": {
+    "NEW_TEMPLATE_PROVISIONAL": 6,
+    "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE": 5
+  },
+  "new_template_corrections": [
+    {
+      "task": 2,
+      "gene": "Npy1r",
+      "section": 530,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "x",
+      "partners": "Slc5a7;Pdyn",
+      "band_cell_fraction": 0.18129966362794325,
+      "artifact_improvement": 0.1026673789626239,
+      "mass_add_vs594": 0.006061842601436758,
+      "gridcorr594": 0.9999087386442643,
+      "fine_eta_ratio": 1.0197273603341634,
+      "r1r5_eta_ratio": 0.9982443433219019,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.1328913372007995,
+      "qcut": 80,
+      "alpha": 0.25,
+      "cap": 1.0,
+      "minout": 10
+    },
+    {
+      "task": 4,
+      "gene": "Pdyn",
+      "section": 500,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "x",
+      "partners": "Slc5a7;Npy1r",
+      "band_cell_fraction": 0.1913798035663202,
+      "artifact_improvement": 0.15657641837090394,
+      "mass_add_vs594": 0.004558405361097974,
+      "gridcorr594": 0.9998446975257752,
+      "fine_eta_ratio": 1.0147413370346992,
+      "r1r5_eta_ratio": 1.0179152375062903,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.07485458186325927,
+      "qcut": 50,
+      "alpha": 0.25,
+      "cap": 1.0,
+      "minout": 10
+    },
+    {
+      "task": 6,
+      "gene": "Pdyn",
+      "section": 560,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "y",
+      "partners": "Slc5a7;Npy1r",
+      "band_cell_fraction": 0.20329395274329196,
+      "artifact_improvement": 0.15245691437442258,
+      "mass_add_vs594": 0.006460974156863217,
+      "gridcorr594": 0.9998036715310975,
+      "fine_eta_ratio": 1.0094306535234725,
+      "r1r5_eta_ratio": 1.0015202249335786,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.08390068081698038,
+      "qcut": 50,
+      "alpha": 0.5,
+      "cap": 1.0,
+      "minout": 20
+    },
+    {
+      "task": 7,
+      "gene": "Slc6a4",
+      "section": 530,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "x",
+      "partners": "Slc6a2;Foxp2",
+      "band_cell_fraction": 0.19441329888363476,
+      "artifact_improvement": 0.0948889427344168,
+      "mass_add_vs594": 0.00624531349596993,
+      "gridcorr594": 0.9999271425790158,
+      "fine_eta_ratio": 1.0124358661779025,
+      "r1r5_eta_ratio": 1.0198147065384566,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.12284892507190562,
+      "qcut": 90,
+      "alpha": 0.25,
+      "cap": 1.0,
+      "minout": 10
+    },
+    {
+      "task": 8,
+      "gene": "Slc32a1",
+      "section": 500,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "y",
+      "partners": "Ghr;Ebf3",
+      "band_cell_fraction": 0.22074949938018498,
+      "artifact_improvement": 0.10417292598193083,
+      "mass_add_vs594": 0.004208497271585874,
+      "gridcorr594": 0.9999024077850397,
+      "fine_eta_ratio": 1.0123886620473028,
+      "r1r5_eta_ratio": 0.998485493955984,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.08528018816947967,
+      "qcut": 50,
+      "alpha": 0.5,
+      "cap": 2.0,
+      "minout": 30
+    },
+    {
+      "task": 9,
+      "gene": "Slc32a1",
+      "section": 530,
+      "decision": "NEW_TEMPLATE_PROVISIONAL",
+      "axis": "x",
+      "partners": "Ghr;Ebf3",
+      "band_cell_fraction": 0.18427338760785844,
+      "artifact_improvement": 0.18550929991429685,
+      "mass_add_vs594": 0.0028002049886175413,
+      "gridcorr594": 0.9999699648462548,
+      "fine_eta_ratio": 1.01018120389094,
+      "r1r5_eta_ratio": 0.9885460923554357,
+      "q95plus_extra_changed": 0.0,
+      "changed_frac": 0.060839467654658023,
+      "qcut": 50,
+      "alpha": 0.5,
+      "cap": 2.0,
+      "minout": 30
+    }
+  ],
+  "still_unresolved": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "decision": "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE",
+      "partners": "Nfib;Zfhx3"
+    },
+    {
+      "gene": "Snap25",
+      "section": 560,
+      "decision": "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE",
+      "partners": "Nfib;Zfhx3"
+    },
+    {
+      "gene": "Npy1r",
+      "section": 560,
+      "decision": "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE",
+      "partners": "Slc5a7;Pdyn"
+    },
+    {
+      "gene": "Pdyn",
+      "section": 530,
+      "decision": "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE",
+      "partners": "Slc5a7;Npy1r"
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 530,
+      "decision": "CONFIRMED_ARTIFACT_NO_SAFE_NUMERIC_RESCUE",
+      "partners": "Mc4r;Meis2"
+    }
+  ],
+  "rules": {
+    "template": "same-round partner consensus deficit bands + target-gene matched Fine26xR1-R5 x orthogonal coarse groups",
+    "correction": "linear-count additive rescue only; no multiplicative scaling; no subtraction; q95+ protected",
+    "authority_boundary": "provisional only; must pass direct spatial render and full downstream revalidation"
+  },
+  "files": {
+    "table": "STAGE849_SHARED_BAND_TEMPLATE_CORRECTION.csv",
+    "matrix": "STAGE849_FOCUS8_PROVISIONAL_71950x8.npy"
+  }
+}
