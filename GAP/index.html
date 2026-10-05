@@ -26,7 +26,7 @@
 <a href="#newdata">New data</a><a href="#external">EASI-PASS</a><a href="#end2end">Fig1→7</a><a href="#provenance">Sources & QA</a>
 </div></nav>
 
-<main>
+<main><section id="full-evidence"><div class="wrap"><div class="kicker">Complete evidence portal</div><h2>All article-supporting results, not only the headline 5%</h2><p class="lead">The landing page stays readable. Every Figure now has a dedicated evidence page containing current authority tables, Main/ED/boundary datasets, figures, statistics and downloadable sanitized result matrices.</p><div class="grid"><div class="card"><h3>Figure 1</h3><p><a href="details/fig1.html">Open complete Fig1 evidence →</a></p></div><div class="card"><h3>Figure 2</h3><p><a href="details/fig2.html">Open complete Fig2 evidence →</a></p></div><div class="card"><h3>Figure 3</h3><p><a href="details/fig3.html">Open complete Fig3 evidence →</a></p></div><div class="card"><h3>Figure 4</h3><p><a href="details/fig4.html">Open complete Fig4 evidence →</a></p></div><div class="card"><h3>Figure 5</h3><p><a href="details/fig5.html">Open complete Fig5 evidence →</a></p></div><div class="card"><h3>Figure 6</h3><p><a href="details/fig6.html">Open complete Fig6 evidence →</a></p></div><div class="card"><h3>Figure 7</h3><p><a href="details/fig7.html">Open complete Fig7 evidence →</a></p></div><div class="card direct"><h3>Results Atlas</h3><p>All datasets × manuscript roles × boundaries.</p><p><a href="details/results_atlas.html">Open Results Atlas →</a></p></div></div></div></section>
 <section id="overview"><div class="wrap">
 <h2>Three questions, one analysis contract</h2>
 <p class="lead">The public interface is organized by biological question, not model name. A result is promoted only when the functional target, molecular-evidence tier, held unit, matched comparator/null and metric all correspond to the stated claim.</p>
@@ -38,7 +38,7 @@
 <div class="callout"><b>Inference unit:</b> animal / fish / worm / donor when available—not cell count. <b>Boundary results remain public.</b> A scientifically correct block or negative result is a tool PASS, not a reason to delete the dataset.</div>
 </div></section>
 
-<section id="fig1"><div class="wrap">
+<section id="fig1"><div class="wrap"><p class="small"><a href="details/fig1.html"><b>Open complete Figure 1 evidence →</b></a></p>
 <div class="kicker">Figure 1</div><h2>Functional readability is multi-axis and dataset-specific</h2>
 <p class="lead">The central result is not that “genes always win.” Different systems expose different informative coordinates. The tool must preserve that biology instead of forcing a universal ranking.</p>
 
@@ -61,7 +61,7 @@
 <p class="small">Relation-index audit: 31 old inferential rows → 29 valid; 13 old FDR-positive → 11 valid after two MERGE QC-metadata pseudo-targets were removed. <a href="docs/source_data/20261004/RELATION_INDEX_TARGET_VALIDITY_AUDIT.json">Audit</a></p>
 </div></section>
 
-<section id="fig2"><div class="wrap">
+<section id="fig2"><div class="wrap"><p class="small"><a href="details/fig2.html"><b>Open complete Figure 2 evidence →</b></a></p>
 <div class="kicker">Figure 2</div><h2>AtlasLift is useful only when the bridge is qualified</h2>
 <p class="lead">Reference self-consistency, endpoint prediction and global functional-geometry recovery are separate layers. Exact-region references are used where supported: VISp, SSp-bfd, PERI/ECT and now PBN.</p>
 <div class="figure"><img src="docs/site_assets/20261004/fig2_geometry_headroom.png" alt="AtlasLift geometry headroom by dataset"><div class="caption">Held-unit functional geometry from the current authority. WARP and exact PERI/ECT McLachlan are supported; C. elegans is relative-only; Bugeon, Shainer and Condylis remain boundaries. <a href="docs/source_data/20261004/FIG2_ATLASLIFT_GEOMETRY_HEADROOM.csv">Source data</a></div></div>
@@ -74,7 +74,7 @@
 <div class="callout"><b>Not promoted:</b> Bugeon exact VISp has strong reference recovery and endpoint-specific gains, but its formal global geometry null remains NOT_SUPPORTED. The page keeps that distinction instead of calling every successful map an AtlasLift win.</div>
 </div></section>
 
-<section id="fig3"><div class="wrap">
+<section id="fig3"><div class="wrap"><p class="small"><a href="details/fig3.html"><b>Open complete Figure 3 evidence →</b></a></p>
 <div class="kicker">Figure 3</div><h2>Assay design: compression, replacement and nomination are different</h2>
 <p class="lead">A compact-panel result is promoted only when the comparator matches the claim. The Page therefore separates fixed-budget performance, matched-random selection, measured-panel compression and true hidden-gene replacement.</p>
 <div class="grid">
@@ -93,7 +93,7 @@
 </div></section>
 
 
-<section id="fig4"><div class="wrap">
+<section id="fig4"><div class="wrap"><p class="small"><a href="details/fig4.html"><b>Open complete Figure 4 evidence →</b></a></p>
 <div class="kicker">Figure 4</div><h2>From readable coordinates to functional completion</h2>
 <p class="lead">Figure 4 asks whether molecules add <b>unique</b> information about an omitted behavior/state after the other measured functional coordinates are already known. The same answer does not hold across systems.</p>
 <div class="figure"><img src="docs/site_assets/20261004/fig4_multimetric_completion.png" alt="Multimetric functional-completion deltas across datasets"><div class="caption">Joint function+genes minus function-only on identical held-biological-unit splits. C. elegans, Sorensen, Xu, Bugeon and Allen VC2P show molecular headroom; Zhao and Condylis are important boundaries. <a href="docs/source_data/20261004/FIG4_7_STAGE_METRIC_LEDGER.csv">Source ledger</a></div></div>
@@ -106,7 +106,7 @@
 <div class="callout"><b>Tool rule:</b> biology-aware target profiles collapse technical summaries of the same underlying axis before completion. This prevents trivial same-axis leakage such as median/early/late/slope variants predicting one another.</div>
 </div></section>
 
-<section id="fig5"><div class="wrap">
+<section id="fig5"><div class="wrap"><p class="small"><a href="details/fig5.html"><b>Open complete Figure 5 evidence →</b></a></p>
 <div class="kicker">Figure 5</div><h2>Molecular state parameterizes functional and structural response laws</h2>
 <p class="lead">The operator test compares the same X, same Y and same held-unit folds: independent Ridge versus shared full-rank or reduced-rank response laws. A positive R² delta alone is not sufficient; rank, AUROC/AUPRC, geometry and held-unit wins are retained.</p>
 <div class="grid2">
@@ -120,7 +120,7 @@
 </div>
 </div></section>
 
-<section id="fig6"><div class="wrap">
+<section id="fig6"><div class="wrap"><p class="small"><a href="details/fig6.html"><b>Open complete Figure 6 evidence →</b></a></p>
 <div class="kicker">Figure 6</div><h2>Reuse is selective: sample efficiency, transfer and cross-species conservation</h2>
 <p class="lead">Figure 6 is not a claim that one foundation embedding replaces measured genes everywhere. Route/hyperparameter selection is source-only; when target labels exist, target evaluation must also support the transfer claim.</p>
 <div class="grid">
@@ -133,7 +133,7 @@
 <p class="small"><a href="docs/current/FIG6_MASTER_AUTHORITY_V51.md">Frozen Fig6 authority</a> · <a href="docs/current/FIG4_7_END2END_TOOL_V2_AUTHORITY.md">latest end-to-end tool authority</a></p>
 </div></section>
 
-<section id="fig7"><div class="wrap">
+<section id="fig7"><div class="wrap"><p class="small"><a href="details/fig7.html"><b>Open complete Figure 7 evidence →</b></a></p>
 <div class="kicker">Figure 7</div><h2>Perturb-GAP turns a validated response law into prospective experiment design</h2>
 <p class="lead">Figure 7 is prospective. It uses a held-unit-qualified Fig5 operator and observed perturbation-DE programs to rank interventions by predicted coordinate selectivity, model disagreement and context disagreement. It does not claim causal validation.</p>
 <div class="grid2">

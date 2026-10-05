@@ -34,4 +34,4 @@ figure           applicability  n_datasets
 - Condylis: Fig4/5 execute; sparse marker panel blocks Fig6 and fails Fig7 operator gate.
 - MICrONS: structural/session-held route only; molecular stages are explicitly N/A.
 
-Machine-readable matrix: analysis_workspace/results/manuscript\FIG4_7_FULL_DATASET_ACCEPTANCE_MATRIX_20261004.csv
+Machine-readable matrix: internal_authority/FIG4_7_FULL_DATASET_ACCEPTANCE_MATRIX_20261004.csv

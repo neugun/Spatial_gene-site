@@ -15,10 +15,10 @@ McLachlan and Condylis remain scientifically correct stops after Fig5. MICrONS r
 - Generalization route selection remains source-only, but a transfer/conservation claim requires target evaluation to be positive and, when a permutation test is available, supported by the null test.
 
 ## Allen full-chain bundle
-analysis_workspace/results\end2end_full_onecmd_20261004\allen_hcr_visual
+internal_authority/allen_hcr_visual
 
 ## Frozen numerical QA
 Latest full Fig4/5 validation: 21/21 PASS. Latest global hardening before v2 test expansion: 18/18 PASS.
 
-Machine-readable matrix: analysis_workspace/results\manuscript\FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv
-Summary: analysis_workspace/results\manuscript\FIG123_TO_FIG47_END2END_SUMMARY_V2_20261004.csv
+Machine-readable matrix: internal_authority/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv
+Summary: internal_authority/FIG123_TO_FIG47_END2END_SUMMARY_V2_20261004.csv

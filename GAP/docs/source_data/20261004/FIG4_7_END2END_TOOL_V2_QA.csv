@@ -1,6 +1,6 @@
 item,result,source
-Frozen Fig4/5 full regression,21/21 PASS,analysis_workspace/results/validate_stages_end2end_v07_20261004.txt
-Contract hardening,21/21 PASS,analysis_workspace/results/test_global_contract_hardening_fullchain_20261004.txt
-Allen full-chain,"One gap run executes Fig4/5/foundation plus cross-dataset Fig6/Fig7; cross-dataset negative is retained, not promoted",analysis_workspace/results/end2end_onecmd_20261004\allen_hcr_fullchain
-Sorensen deployment,Held-unit-selected rank-1 RRR is deployable; Fig7 stops because txPC latent coordinates have 0 perturb-atlas gene-symbol overlap,analysis_workspace/results/end2end_onecmd_20261004\sorensen
-Fig6 claim gate,"Target labels never select route; when target labels exist, conservation claim additionally requires positive target evaluation and permutation support when tested",analysis_workspace/results/fig6_allen_hcr_zhao_semantic_20261004
+Frozen Fig4/5 full regression,21/21 PASS,internal_authority/validate_stages_end2end_v07_20261004.txt
+Contract hardening,21/21 PASS,internal_authority/test_global_contract_hardening_fullchain_20261004.txt
+Allen full-chain,"One gap run executes Fig4/5/foundation plus cross-dataset Fig6/Fig7; cross-dataset negative is retained, not promoted",internal_authority/allen_hcr_fullchain
+Sorensen deployment,Held-unit-selected rank-1 RRR is deployable; Fig7 stops because txPC latent coordinates have 0 perturb-atlas gene-symbol overlap,internal_authority/sorensen
+Fig6 claim gate,"Target labels never select route; when target labels exist, conservation claim additionally requires positive target evaluation and permutation support when tested",internal_authority/fig6_allen_hcr_zhao_semantic_20261004

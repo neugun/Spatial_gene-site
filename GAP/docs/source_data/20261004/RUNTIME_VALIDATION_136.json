@@ -11,7 +11,7 @@
     {
       "check": "foundation_coverage_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\foundation_tool_coverage_20261002.csv"
+      "detail": "internal_authority/foundation_tool_coverage_20261002.csv"
     },
     {
       "check": "warp2026_foundation_rank_lift",
@@ -26,7 +26,7 @@
     {
       "check": "generic_transfer_worm_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\gap_transfer_worm_smoke\\run_v1\\AUTHORITY.json"
+      "detail": "internal_authority/AUTHORITY.json"
     },
     {
       "check": "generic_transfer_worm_source_only",
@@ -36,7 +36,7 @@
     {
       "check": "warp_d1_to_d2_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\gap_generalize_warp_d1_to_d2_v1\\GENERALIZATION_AUTHORITY.json"
+      "detail": "internal_authority/GENERALIZATION_AUTHORITY.json"
     },
     {
       "check": "warp_d1_to_d2_source_only",
@@ -46,7 +46,7 @@
     {
       "check": "bugeon_to_warp_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\gap_generalize_bugeon_to_warp_swim_v1\\GENERALIZATION_AUTHORITY.json"
+      "detail": "internal_authority/GENERALIZATION_AUTHORITY.json"
     },
     {
       "check": "bugeon_to_warp_source_only",
@@ -56,7 +56,7 @@
     {
       "check": "shared_diag_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\fig6_deep_audit_20261003\\GENERALIZE_SHARED_DIAGNOSTIC_SMOKE\\GENERALIZATION_AUTHORITY.json"
+      "detail": "internal_authority/GENERALIZATION_AUTHORITY.json"
     },
     {
       "check": "shared_diag_diagnostic_files",
@@ -76,7 +76,7 @@
     {
       "check": "foundation_diag_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\fig6_deep_audit_20261003\\GENERALIZE_DIAGNOSTIC_SMOKE_V2\\GENERALIZATION_AUTHORITY.json"
+      "detail": "internal_authority/GENERALIZATION_AUTHORITY.json"
     },
     {
       "check": "foundation_diag_diagnostic_files",
@@ -96,12 +96,12 @@
     {
       "check": "operator_numeric_regression",
       "pass_": true,
-      "detail": "analysis_workspace/results\\gap_stage_validation_after_foundation_v1\\STAGE_VALIDATION_REPORT.json"
+      "detail": "internal_authority/STAGE_VALIDATION_REPORT.json"
     },
     {
       "check": "generic_human_plan_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\release_generalize_plan_human_v2\\GENERALIZATION_AUTHORITY.json"
+      "detail": "internal_authority/GENERALIZATION_AUTHORITY.json"
     },
     {
       "check": "generic_human_blocked_by_default",
@@ -111,7 +111,7 @@
     {
       "check": "human_v3_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\mouse_human_gap_20261002\\HUMAN_TRANSFER_AUTHORITY_V3.json"
+      "detail": "internal_authority/HUMAN_TRANSFER_AUTHORITY_V3.json"
     },
     {
       "check": "human_target_donor_ci_positive",
@@ -126,12 +126,12 @@
     {
       "check": "wrong_region_external_diagnostic_excluded",
       "pass_": true,
-      "detail": "analysis_workspace/results\\gap_run_photseq2019_unseen_foundation_v1\\INVALID_FOR_FOUNDATION_REGION.json"
+      "detail": "internal_authority/INVALID_FOR_FOUNDATION_REGION.json"
     },
     {
       "check": "fig6_tool_runtime_authority",
       "pass_": true,
-      "detail": "analysis_workspace/results\\fig6_tool_runtime_authority_20261002\\FIG6_TOOL_RUNTIME_AUTHORITY.json"
+      "detail": "internal_authority/FIG6_TOOL_RUNTIME_AUTHORITY.json"
     },
     {
       "check": "evidence_v2_bugeon_bundle",
@@ -156,7 +156,7 @@
     {
       "check": "categorical_effect_size_boundary",
       "pass_": true,
-      "detail": "analysis_workspace/results\\multidataset_rank_biserial_20261003\\condylis2022\\rank_biserial_summary.csv"
+      "detail": "internal_authority/rank_biserial_summary.csv"
     },
     {
       "check": "categorical_effect_size_is_na",
@@ -181,7 +181,7 @@
     {
       "check": "coordinate_fig123_multidataset_regression_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\manuscript\\fig47_tool_matrix_20261002\\PUBLIC_COORDINATE_FIG123_NUMERIC_REGRESSION_SUMMARY_20261003.csv"
+      "detail": "internal_authority/PUBLIC_COORDINATE_FIG123_NUMERIC_REGRESSION_SUMMARY_20261003.csv"
     },
     {
       "check": "coordinate_fig123_9of9_contract_pass",
@@ -191,7 +191,7 @@
     {
       "check": "relation_target_validity_audit",
       "pass_": true,
-      "detail": "analysis_workspace/results\\manuscript\\RELATION_INDEX_TARGET_VALIDITY_AUDIT_20261003.json"
+      "detail": "internal_authority/RELATION_INDEX_TARGET_VALIDITY_AUDIT_20261003.json"
     },
     {
       "check": "relation_target_validity_counts_locked",
@@ -316,7 +316,7 @@
     {
       "check": "fixed_budget_public_inspect_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\mclachlan_fig123_inspect_v2_20261003.json"
+      "detail": "internal_authority/mclachlan_fig123_inspect_v2_20261003.json"
     },
     {
       "check": "fixed_budget_public_registry_contract",
@@ -326,7 +326,7 @@
     {
       "check": "mclachlan_fig123_onecommand_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\mclachlan_fig123_onecommand_smoke_20261003\\manifest.json"
+      "detail": "internal_authority/manifest.json"
     },
     {
       "check": "mclachlan_fig123_onecommand_zero_errors",
@@ -356,7 +356,7 @@
     {
       "check": "dataset_integrity_preflight_v2_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\dataset_integrity_audit_20261003\\DATASET_INTEGRITY_PREFLIGHT_V2.csv"
+      "detail": "internal_authority/DATASET_INTEGRITY_PREFLIGHT_V2.csv"
     },
     {
       "check": "dataset_integrity_scope_and_support_contract",
@@ -471,7 +471,7 @@
     {
       "check": "easipass2026_official_matching_only_run_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\easipass2026_external_test_20261003\\official_matching_only_run\\manifest.json"
+      "detail": "internal_authority/manifest.json"
     },
     {
       "check": "easipass2026_official_matching_only_safe_stop",
@@ -521,7 +521,7 @@
     {
       "check": "pbn_published_marker_headroom_bundle",
       "pass_": true,
-      "detail": "analysis_workspace/results\\pbn_exact_reference_validation_20261004\\PBN_PUBLISHED_MARKER_HEADROOM.csv"
+      "detail": "internal_authority/PBN_PUBLISHED_MARKER_HEADROOM.csv"
     },
     {
       "check": "pbn_published_marker_headroom_contract",

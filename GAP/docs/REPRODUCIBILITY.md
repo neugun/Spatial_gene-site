@@ -19,9 +19,9 @@ The public package uses `gxa.paths` to resolve these locations. Dataset-specific
 On Windows PowerShell the equivalent is:
 
 ```powershell
-$env:GAP_DATA_ROOT = 'X:\path\to\gap-data'
-$env:GAP_RESULTS_ROOT = 'X:\path\to\gap-results'
-$env:GAP_CACHE_ROOT = 'X:\path\to\gap-cache'
+$env:GAP_DATA_ROOT = 'internal_authority/gap-data'
+$env:GAP_RESULTS_ROOT = 'internal_authority/gap-results'
+$env:GAP_CACHE_ROOT = 'internal_authority/gap-cache'
 ```
 
 

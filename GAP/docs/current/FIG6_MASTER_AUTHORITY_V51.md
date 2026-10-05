@@ -55,5 +55,5 @@ ED1 renderer: scripts/896_render_fig6_v51_ed1_winner_local.py
 ED2 renderer: scripts/885_render_fig6_crossspecies_ed2_local.py, copied into the v5.1 canonical output
 ED3 renderer: scripts/897_render_fig6_v51_human_ed3_local.py
 Human authority: results/mouse_human_gap_20261002/HUMAN_TRANSFER_AUTHORITY_V3.json
-Current figure directory: analysis_workspace/results/manuscript\Fig6_GAP_Generalization_v51_20261002
+Current figure directory: internal_authority/Fig6_GAP_Generalization_v51_20261002
 Network/Titan is not required to reproduce the current v5.1 package from mirrored local assets.

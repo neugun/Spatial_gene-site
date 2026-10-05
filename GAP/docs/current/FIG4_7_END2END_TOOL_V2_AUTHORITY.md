@@ -26,5 +26,5 @@ Fig4-7 now operates as a continuation of the Fig1-3 tool contract rather than as
 - Full frozen Fig4/5 regression: 21/21 PASS.
 - End-to-end contract hardening: 21/21 PASS.
 
-Machine-readable stage authority: analysis_workspace/results/manuscript\FIG4_7_END2END_TOOL_V2_AUTHORITY_20261004.csv
-QA authority: analysis_workspace/results/manuscript\FIG4_7_END2END_TOOL_V2_QA_20261004.csv
+Machine-readable stage authority: internal_authority/FIG4_7_END2END_TOOL_V2_AUTHORITY_20261004.csv
+QA authority: internal_authority/FIG4_7_END2END_TOOL_V2_QA_20261004.csv

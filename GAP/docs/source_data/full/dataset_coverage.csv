@@ -1,0 +1,33 @@
+dataset,stages_applicable,stages_current_or_validated,true_gaps,gap_stages,evidence_kind,strongest_figure,article_role,placement,next_action
+allen_vc2p,4,2,0,,independent_dataset,Fig4,independent mouse functional-completion/manifold replication,Main breadth / ED,rerun AtlasLift/AtlasFlow under new row-level region scope; preserve BehLift result as primary
+allen_visual_learning_hcr,4,4,0,,independent_dataset,Fig5/Fig7 + end-to-end tool acceptance,visual-learning identity/response-law independent replication and full Fig1-to-Fig7 demonstration,ED / tool main,Use as the canonical new-dataset end-to-end demo; keep negative Zhao transfer visible.
+barseq2_2021,2,1,0,,independent_dataset,Fig5 ED,single-endpoint structural mapping breadth,Supplement / tool breadth,retain as single-target boundary; do not count as operator replication
+bugeon2022,4,3,0,,independent_dataset,Fig5,primary structured response-law anchor,Main,keep as Fig5 anchor and Fig6 sample-efficiency anchor
+campariseq2026,1,0,0,,independent_dataset,Boundary,single-target applicability boundary,Supplement / boundary,retain as single-target zebrafish boundary; do not force Fig4 completion
+carma_vta,0,0,0,,private/configured_dataset,Tool/ future Fig4,native/private dataset route,Supplement / internal,run only against frozen recovery directory and add held-animal authority when configured
+celegans_atanas2023,5,3,0,,independent_dataset,Fig4 + Fig5 + Fig6,cross-species cornerstone with functional manifold/completion plus strong connectivity predictability,Main,Keep as one of the central Fig4-to-Fig6 datasets; add connectivity structural breadth panel.
+chevee2018,2,1,0,,independent_dataset,Fig5,strong molecular-to-projection predictability and identity-structure replication,Main/ED,"Place in structural breadth panel next to worm connectivity, MERGE-seq and Sorensen."
+condylis2022,4,4,0,,independent_dataset,Fig4 boundary,saturation and sparse-panel boundary with correct end-to-end gating,ED boundary,Keep as explicit boundary; never lower coverage/readiness thresholds to force later stages.
+flicre2020,4,2,0,,independent_dataset,Fig4 boundary,strong conditional-completion boundary,ED,retain as clear example where function already explains the target and genes add no unique conditional information
+fly_flyvis,0,0,0,,independent_dataset,Applicability boundary,non-molecular comparator,Supplement,retain as no-gene boundary / function-only resource
+fly_turner2021,0,0,0,,independent_dataset,Applicability boundary,non-molecular comparator,Supplement,retain as no-gene boundary
+habenula_dandi000302,1,1,0,,independent_dataset,Fig4 ED,manifold/subspace breadth plus completion boundary,ED,keep as sparse-marker boundary demonstrating panel-resolution dependence
+hashikawa2020,0,0,0,,independent_reference,Reference/boundary,"context/reference resource, not matched function dataset",Supplement,use only for transcriptomic context/reference or exclusion rationale
+huang2020_bricseq,2,1,0,,independent_dataset,Fig5 ED,projection/operator boundary,ED boundary,Keep as boundary demonstrating that projection signal does not imply a transferable/shared operator.
+human_intrinsic_ephys,0,0,0,,external_evidence_scope,Fig6,cross-species human endpoint,Main/ED,retain target-donor positive + strict-source uncertainty together
+liu2020_fist,0,0,0,,independent_dataset,Applicability boundary,no-held-unit inference boundary,Supplement,retain as group-structure boundary
+mclachlan2025,4,4,0,,independent_dataset,Fig1/Fig2; Fig4/5 boundary,independent PERI/ECT integration test carried through Fig5 with biology-aware semantic de-duplication,ED / tool acceptance,"Retain as a canonical tool-hardening dataset and boundary, not a main positive response-law result."
+mergeseq2024,2,1,0,,independent_dataset,Fig5,multi-target molecular-to-projection structural breadth,Main/ED,"Use as structural predictability breadth, not as a shared-law or relation-index positive."
+microns,0,0,0,,registered_build_adapter,Fig1/Fig4 structural-only,session-held structural/function geometry stress test with correct molecular-stage N/A routing,ED / tool boundary,Use to demonstrate that GAP knows when to stop rather than fabricating molecular claims.
+neuroplex2026,0,0,0,,independent_dataset,Fig4 ED,non-transcriptomic manifold comparator,ED,"retain as non-transcriptomic comparator, not molecular claim"
+nuctag2026,1,0,0,,independent_population_dataset,Supplement,population-level feasibility,Supplement,do not use as core single-cell evidence; keep provenance explicit
+photseq2019,1,1,0,,independent_dataset,Fig6 boundary,anatomical/provenance exclusion,ED,keep as positive example of anatomical guardrails
+shainer2025,4,3,0,,independent_dataset,Fig4 ED,spatial-coordinate and sparse-panel boundary,ED,use as spatial-coordinate counterexample and sparse-panel limit
+sorensen2026,5,3,0,,independent_dataset,Fig4 + Fig5,strong independent functional-completion plus shared structural-law replication,Main/ED,Use as strongest independent dual-domain replication; keep structural and functional claims separated.
+wang2023_cea_easifish,2,1,0,,independent_dataset,Supplement,narrow single-target/tool breadth,Supplement,retain as narrow validation only
+warp2026,4,3,0,,independent_dataset,Fig4 + Fig5 + Fig6,cross-species and dynamic-geometry cornerstone,Main,keep as central Fig2→4→5→6 bridge
+whole_brain_perturbseq,1,1,0,,external_evidence_scope,Fig7,prospective intervention-design engine,Main,link nomination coordinates explicitly to Fig5 functional/structural response laws; keep causal validation as future experiment
+xu2020,4,3,0,,independent_dataset,Fig4 + Fig5,conditional completion and operator cornerstone,Main,retain as key mouse hypothalamic replication
+yalevagus2022_surrogate,0,0,0,,surrogate_dataset,Supplement,mapping/surrogate feasibility only,Supplement,do not use for biological headline
+zhang2021_mop_retromerfish,0,0,0,,unavailable_joint_dataset,Boundary,data-availability provenance boundary,Supplement / provenance,keep explicit; do not substitute unrelated data
+zhao2026,5,4,0,,independent_dataset,Fig6 + tool acceptance,same-species transfer source/target stress test and trimodal public-tool acceptance; native Fig4/5 boundary,Main Fig6 / ED tool,Keep strong frozen Zhao-to-Bugeon transfer as Fig6 positive; keep HCR<->Zhao semantic transfer as negative boundary.
