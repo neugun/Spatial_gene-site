@@ -9,18 +9,18 @@
     },
     "prepare": {
       "payload": {
-        "data_root": "Z:\\sternsonlab\\ABC_Atlas_Downloads",
-        "download_root": "Z:\\sternsonlab\\Zhenggang\\merfish",
+        "data_root": "internal_source/ABC_Atlas_Downloads",
+        "download_root": "internal_source/merfish",
         "error": "FINE_CELL_TYPE_JOIN_FAILED: WMB cluster_alias labels lack CCF abundance (120 unmatched; examples=['15002', '1710', '1803', '24420', '24689'])",
         "error_type": "ValueError",
         "failed_stage": "prepare",
-        "fine_region_metadata_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\MERFISH-C57BL6J-638850-CCF\\20231215\\views\\cell_metadata_with_parcellation_annotation.csv",
+        "fine_region_metadata_path": "internal_source/cell_metadata_with_parcellation_annotation.csv",
         "fine_required": true,
         "inventory_rows": 3194,
         "pipeline_version": "0.3.2",
-        "source_root": "Z:\\sternsonlab\\ABC_Atlas_Downloads",
+        "source_root": "internal_source/ABC_Atlas_Downloads",
         "status": "FAILED",
-        "wmb_cluster_metadata_path": "Z:\\sternsonlab\\Zhenggang\\merfish\\metadata\\WMB-10X\\20241115\\views\\cell_metadata_with_cluster_annotation.csv",
+        "wmb_cluster_metadata_path": "internal_source/cell_metadata_with_cluster_annotation.csv",
         "wmb_gene_metadata_path": ""
       },
       "signature": "2123ea63a09414d8bed1335ee2d45387f3625f0d9faad4710a0b2794d93d3b50",

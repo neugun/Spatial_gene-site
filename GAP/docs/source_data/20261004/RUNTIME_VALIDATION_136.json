@@ -61,7 +61,7 @@
     {
       "check": "shared_diag_diagnostic_files",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/REPRESENTATION_LADDER.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/ROUTE_CANDIDATES.csv'), WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/REPRESENTATION_LADDER.csv')]"
     },
     {
       "check": "shared_diag_diagnostics_evaluation_only",
@@ -81,7 +81,7 @@
     {
       "check": "foundation_diag_diagnostic_files",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/REPRESENTATION_LADDER.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/ROUTE_CANDIDATES.csv'), WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('internal_authority/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/REPRESENTATION_LADDER.csv')]"
     },
     {
       "check": "foundation_diag_diagnostics_evaluation_only",
@@ -136,7 +136,7 @@
     {
       "check": "evidence_v2_bugeon_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/information_criterion_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/rank_biserial_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/relation_index.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/evidence_highlevel_run_bugeon_20261003/evidence/stage_report.json'), WindowsPath('internal_authority/results/evidence_highlevel_run_bugeon_20261003/evidence/information_criterion_summary.csv'), WindowsPath('internal_authority/results/evidence_highlevel_run_bugeon_20261003/evidence/rank_biserial_summary.csv'), WindowsPath('internal_authority/results/evidence_highlevel_run_bugeon_20261003/evidence/relation_index.csv')]"
     },
     {
       "check": "evidence_v2_contract_schema",
@@ -146,7 +146,7 @@
     {
       "check": "projection_highlevel_autoroute",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/projection_operator/operator_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/evidence/stage_report.json')]"
+      "detail": "[WindowsPath('internal_authority/results/public_highlevel_smoke_20261003/mergeseq2024/manifest.json'), WindowsPath('internal_authority/results/public_highlevel_smoke_20261003/mergeseq2024/projection_operator/operator_summary.csv'), WindowsPath('internal_authority/results/public_highlevel_smoke_20261003/mergeseq2024/evidence/stage_report.json')]"
     },
     {
       "check": "projection_highlevel_zero_errors",
@@ -166,7 +166,7 @@
     {
       "check": "coordinate_mediation_highlevel_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_coordinates_shainer_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_coordinates_shainer_20261003/coordinate_mediation/coordinate_models_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/highlevel_coordinates_shainer_20261003/manifest.json'), WindowsPath('internal_authority/results/highlevel_coordinates_shainer_20261003/coordinate_mediation/coordinate_models_summary.csv')]"
     },
     {
       "check": "coordinate_mediation_highlevel_zero_errors",
@@ -201,7 +201,7 @@
     {
       "check": "coordinate_metric_v3_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_MULTIMETRIC_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_PAIRED_CONTRASTS_V3_20261003.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_MULTIMETRIC_V3_20261003.csv'), WindowsPath('internal_authority/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_PAIRED_CONTRASTS_V3_20261003.csv')]"
     },
     {
       "check": "coordinate_metric_v3_schema",
@@ -211,7 +211,7 @@
     {
       "check": "fig47_compact_scorecard_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_COMPACT_SCORECARD_V1_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_DATASET_STAGE_COVERAGE_MATRIX_V1_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_CORE_DATASET_DASHBOARD_V1_20261003.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_COMPACT_SCORECARD_V1_20261003.csv'), WindowsPath('internal_authority/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_DATASET_STAGE_COVERAGE_MATRIX_V1_20261003.csv'), WindowsPath('internal_authority/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_CORE_DATASET_DASHBOARD_V1_20261003.csv')]"
     },
     {
       "check": "merge_relation_invalid_not_headlined",
@@ -221,7 +221,7 @@
     {
       "check": "highlevel_validated_fig45_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/functional_completion/completion_opportunity.csv'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/operator/operator_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/highlevel_validated_fig45_xu_profiled_20261003/manifest.json'), WindowsPath('internal_authority/results/highlevel_validated_fig45_xu_profiled_20261003/functional_completion/completion_opportunity.csv'), WindowsPath('internal_authority/results/highlevel_validated_fig45_xu_profiled_20261003/operator/operator_summary.csv')]"
     },
     {
       "check": "highlevel_validated_fig45_zero_errors",
@@ -241,7 +241,7 @@
     {
       "check": "highlevel_projection_validated_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_projection_merge_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_projection_merge_20261003/projection_operator/operator_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/highlevel_validated_projection_merge_20261003/manifest.json'), WindowsPath('internal_authority/results/highlevel_validated_projection_merge_20261003/projection_operator/operator_summary.csv')]"
     },
     {
       "check": "highlevel_projection_validated_regression",
@@ -251,7 +251,7 @@
     {
       "check": "atlasflow_wiring_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/function_model_zoo_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/atlas_downstream_paired_delta.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/manifest.json'), WindowsPath('internal_authority/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/function_model_zoo_summary.csv'), WindowsPath('internal_authority/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/atlaslift/reference_ranking.csv'), WindowsPath('internal_authority/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/atlas_downstream_paired_delta.csv')]"
     },
     {
       "check": "atlasflow_consumes_lifted_features",
@@ -266,7 +266,7 @@
     {
       "check": "atlasflow_consensus_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/function_map/workflow_manifest.json'), WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/function_map/atlas_downstream_multimetric_consensus.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/atlasflow_consensus_regression_20261003/manifest.json'), WindowsPath('internal_authority/results/atlasflow_consensus_regression_20261003/function_map/workflow_manifest.json'), WindowsPath('internal_authority/results/atlasflow_consensus_regression_20261003/function_map/atlas_downstream_multimetric_consensus.csv')]"
     },
     {
       "check": "atlasflow_consensus_regression",
@@ -276,7 +276,7 @@
     {
       "check": "fig1_fig2_current_authority_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG1_MULTIAXIS_AUTHORITY_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG1_PREDEFINED_COORDINATE_CONTRASTS_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG2_GEOMETRY_LAYERED_AUTHORITY_V3_20261003.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG1_MULTIAXIS_AUTHORITY_V3_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG1_PREDEFINED_COORDINATE_CONTRASTS_V3_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG2_GEOMETRY_LAYERED_AUTHORITY_V3_20261003.csv')]"
     },
     {
       "check": "fig1_fig2_current_authority_semantics",
@@ -286,7 +286,7 @@
     {
       "check": "fig3_current_authority_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.md')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.json'), WindowsPath('internal_authority/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.md')]"
     },
     {
       "check": "fig3_current_authority_semantics",
@@ -296,7 +296,7 @@
     {
       "check": "fixed_budget_mclachlan_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_manifest.json'), WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_folds.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_manifest.json'), WindowsPath('internal_authority/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_summary.csv'), WindowsPath('internal_authority/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_folds.csv')]"
     },
     {
       "check": "fixed_budget_mclachlan_contract",
@@ -306,7 +306,7 @@
     {
       "check": "fixed_budget_highlevel_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/mclachlan_fig3_highlevel_smoke_v2_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/mclachlan_fig3_highlevel_smoke_v2_20261003/fixed_budget/fixed_budget_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/mclachlan_fig3_highlevel_smoke_v2_20261003/manifest.json'), WindowsPath('internal_authority/results/mclachlan_fig3_highlevel_smoke_v2_20261003/fixed_budget/fixed_budget_summary.csv')]"
     },
     {
       "check": "fixed_budget_highlevel_zero_errors",
@@ -336,7 +336,7 @@
     {
       "check": "allen_vl_fig123_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_test_20261003/EXTRACTION_SUMMARY.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_test_20261003/PRIMARY_ANALYSIS_CONTRACT.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/coordinate_mediation/coordinate_increment_contrasts.csv'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/fixed_budget/fixed_budget_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/ALLEN_VL_HCR_FIG123_TOOL_VALIDATION_20261003.json')]"
+      "detail": "[WindowsPath('internal_authority/results/allen_visual_learning_hcr_test_20261003/EXTRACTION_SUMMARY.json'), WindowsPath('internal_authority/results/allen_visual_learning_hcr_test_20261003/PRIMARY_ANALYSIS_CONTRACT.json'), WindowsPath('internal_authority/results/allen_visual_learning_hcr_fig123_full_20261003/manifest.json'), WindowsPath('internal_authority/results/allen_visual_learning_hcr_fig123_full_20261003/atlaslift/reference_ranking.csv'), WindowsPath('internal_authority/results/allen_visual_learning_hcr_fig123_full_20261003/coordinate_mediation/coordinate_increment_contrasts.csv'), WindowsPath('internal_authority/results/allen_visual_learning_hcr_fig123_full_20261003/fixed_budget/fixed_budget_summary.csv'), WindowsPath('internal_authority/results/manuscript/ALLEN_VL_HCR_FIG123_TOOL_VALIDATION_20261003.json')]"
     },
     {
       "check": "allen_vl_extraction_contract",
@@ -366,7 +366,7 @@
     {
       "check": "fig123_global_integrity_regression_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.csv'), WindowsPath('G:/GAP_release_20261001/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.json')]"
+      "detail": "[WindowsPath('internal_authority/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.csv'), WindowsPath('internal_authority/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.json')]"
     },
     {
       "check": "fig123_global_integrity_14of14_contract",
@@ -376,7 +376,7 @@
     {
       "check": "fig123_boundary_regression_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.json')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.json')]"
     },
     {
       "check": "fig123_boundary_regression_5of5_contract",
@@ -386,7 +386,7 @@
     {
       "check": "fig123_normal_onecommand_regression_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.json')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.json')]"
     },
     {
       "check": "fig123_normal_onecommand_6of6_contract",
@@ -401,7 +401,7 @@
     {
       "check": "fig123_execution_coverage_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.json')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.csv'), WindowsPath('internal_authority/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.json')]"
     },
     {
       "check": "fig123_execution_coverage_14of14_contract",
@@ -416,7 +416,7 @@
     {
       "check": "easipass2026_external_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/EASIPASS_2026_EXTERNAL_READINESS_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/GOLDEN_MATCHING_SUMMARY.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_INTAKE_SCHEMA_TEST.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_MULTI_ANIMAL_CONTRACT_TEST.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/onecommand_contract/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pairwise_contract/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pairwise_contract/pairwise_summary.csv'), WindowsPath('G:/GAP_release_20261001/toolkit_runtime/gxa/adapters/easipass2026.py')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/EASIPASS_2026_EXTERNAL_READINESS_20261003.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/GOLDEN_MATCHING_SUMMARY.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/EASIPASS_INTAKE_SCHEMA_TEST.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/EASIPASS_MULTI_ANIMAL_CONTRACT_TEST.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/onecommand_contract/manifest.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/pairwise_contract/stage_report.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/pairwise_contract/pairwise_summary.csv'), WindowsPath('internal_authority/toolkit_runtime/gxa/adapters/easipass2026.py')]"
     },
     {
       "check": "easipass2026_official_matching_reproduction",
@@ -446,7 +446,7 @@
     {
       "check": "pbn_exact_reference_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/PBN_EXACT_REFERENCE_AUTHORITY_20261004.json'), WindowsPath('G:/GAP_release_20261001/results/pbn_exact_reference_benchmark_20261004/AUTHORITY.json'), WindowsPath('G:/GAP_release_20261001/results/pbn_exact_reference_benchmark_20261004/public_map/map_report.json'), WindowsPath('G:/GAP_release_20261001/toolkit_runtime/references/exact_region_20261004/PBN_PauliChen2022_N1_N21.npz')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/PBN_EXACT_REFERENCE_AUTHORITY_20261004.json'), WindowsPath('internal_authority/results/pbn_exact_reference_benchmark_20261004/AUTHORITY.json'), WindowsPath('internal_authority/results/pbn_exact_reference_benchmark_20261004/public_map/map_report.json'), WindowsPath('internal_authority/toolkit_runtime/references/exact_region_20261004/PBN_PauliChen2022_N1_N21.npz')]"
     },
     {
       "check": "pbn_exact_reference_published_contract",
@@ -481,7 +481,7 @@
     {
       "check": "easipass2026_aligned_feature_auto_intake_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/auto_intake_inspect.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/auto_intake_run/manifest.json')]"
+      "detail": "[WindowsPath('internal_authority/results/easipass2026_external_test_20261003/auto_intake_inspect.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/auto_intake_run/manifest.json')]"
     },
     {
       "check": "easipass2026_aligned_feature_auto_inspect",
@@ -496,7 +496,7 @@
     {
       "check": "easipass2026_pooled_multi_animal_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_PBN_POOLED_RAW_FIXTURE.csv'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pbn_pooled_auto_inspect_v2.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pbn_pooled_auto_run_v2/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/EASIPASS_PAPER_NATIVE_REPLICATION_CONTRACT_20261004.json')]"
+      "detail": "[WindowsPath('internal_authority/results/easipass2026_external_test_20261003/EASIPASS_PBN_POOLED_RAW_FIXTURE.csv'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/pbn_pooled_auto_inspect_v2.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/pbn_pooled_auto_run_v2/manifest.json'), WindowsPath('internal_authority/results/manuscript/EASIPASS_PAPER_NATIVE_REPLICATION_CONTRACT_20261004.json')]"
     },
     {
       "check": "easipass2026_pooled_multi_animal_scope_contract",
@@ -506,7 +506,7 @@
     {
       "check": "easipass2026_v1_paper_native_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_RAW_FIXTURE.csv'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_TRACES.npz'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_auto_inspect.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_auto_run/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_pairwise/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_pairwise/pairwise_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_RAW_FIXTURE.csv'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_TRACES.npz'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/v1_pooled_auto_inspect.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/v1_pooled_auto_run/manifest.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/v1_pooled_pairwise/stage_report.json'), WindowsPath('internal_authority/results/easipass2026_external_test_20261003/v1_pooled_pairwise/pairwise_summary.csv')]"
     },
     {
       "check": "easipass2026_v1_pooled_fig123_contract",
@@ -531,7 +531,7 @@
     {
       "check": "fig123_to_fig47_end2end_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_SUMMARY_V2_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.md'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG4_7_END2END_TOOL_V2_AUTHORITY_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG4_7_END2END_TOOL_V2_QA_20261004.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv'), WindowsPath('internal_authority/results/manuscript/FIG123_TO_FIG47_END2END_SUMMARY_V2_20261004.csv'), WindowsPath('internal_authority/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.md'), WindowsPath('internal_authority/results/manuscript/FIG4_7_END2END_TOOL_V2_AUTHORITY_20261004.csv'), WindowsPath('internal_authority/results/manuscript/FIG4_7_END2END_TOOL_V2_QA_20261004.csv')]"
     },
     {
       "check": "fig123_to_fig47_allen_fullchain_contract",
@@ -546,7 +546,7 @@
     {
       "check": "zhao_integrity_regression_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/coordinate_mediation/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/fixed_budget/projection/fixed_budget_manifest.json')]"
+      "detail": "[WindowsPath('internal_authority/results/zhao2026_integrity_regression_v2_20261003/manifest.json'), WindowsPath('internal_authority/results/zhao2026_integrity_regression_v2_20261003/coordinate_mediation/stage_report.json'), WindowsPath('internal_authority/results/zhao2026_integrity_regression_v2_20261003/fixed_budget/projection/fixed_budget_manifest.json')]"
     },
     {
       "check": "zhao_missing_target_safe_contract",
@@ -556,7 +556,7 @@
     {
       "check": "condylis_integrity_benchmark_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/fixed_budget/fixed_budget_summary.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/condylis2022_fig123_integrity_v3_20261003/manifest.json'), WindowsPath('internal_authority/results/condylis2022_fig123_integrity_v3_20261003/atlaslift/reference_ranking.csv'), WindowsPath('internal_authority/results/condylis2022_fig123_integrity_v3_20261003/fixed_budget/fixed_budget_summary.csv')]"
     },
     {
       "check": "condylis_contract_aware_execution",
@@ -566,7 +566,7 @@
     {
       "check": "microns_v1em_boundary_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_full_authority_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_connectivity_authority_20261003/manifest.json')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.json'), WindowsPath('internal_authority/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.csv'), WindowsPath('internal_authority/results/microns_v1em_full_authority_20261003/manifest.json'), WindowsPath('internal_authority/results/microns_v1em_connectivity_authority_20261003/manifest.json')]"
     },
     {
       "check": "microns_v1em_integrity_contract",
@@ -576,7 +576,7 @@
     {
       "check": "microns_v1em_integrity_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_INTEGRITY_BENCHMARK_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_full_inspect_current_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_coordinates_integrity_20261003/coordinate_models_folds.csv'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_selection_bias_controls_20261003/MATCHED_RANDOM_SELECTION_BIAS_SUMMARY.csv')]"
+      "detail": "[WindowsPath('internal_authority/results/manuscript/MICRONS_V1EM_INTEGRITY_BENCHMARK_20261003.json'), WindowsPath('internal_authority/results/microns_v1em_full_inspect_current_20261003.json'), WindowsPath('internal_authority/results/microns_v1em_coordinates_integrity_20261003/coordinate_models_folds.csv'), WindowsPath('internal_authority/results/microns_v1em_selection_bias_controls_20261003/MATCHED_RANDOM_SELECTION_BIAS_SUMMARY.csv')]"
     },
     {
       "check": "microns_v1em_scope_and_sparse_connectivity_contract",
@@ -611,7 +611,7 @@
     {
       "check": "fig6_tool_completion_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_DATASET_CAPABILITY_MATRIX.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_GLOBAL_CAPABILITY_MATRIX.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_TOOL_COMPLETION_SUMMARY.json')]"
+      "detail": "[WindowsPath('internal_authority/results/fig6_tool_completion_20261003/FIG6_DATASET_CAPABILITY_MATRIX.csv'), WindowsPath('internal_authority/results/fig6_tool_completion_20261003/FIG6_GLOBAL_CAPABILITY_MATRIX.csv'), WindowsPath('internal_authority/results/fig6_tool_completion_20261003/FIG6_TOOL_COMPLETION_SUMMARY.json')]"
     },
     {
       "check": "fig6_tool_completion_no_missing",
@@ -636,7 +636,7 @@
     {
       "check": "fig6_v5_capability_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_MATRIX_V5.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_SUMMARY_V5.json')]"
+      "detail": "[WindowsPath('internal_authority/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_MATRIX_V5.csv'), WindowsPath('internal_authority/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_SUMMARY_V5.json')]"
     },
     {
       "check": "fig6_v5_no_missing_expected_routes",
@@ -651,7 +651,7 @@
     {
       "check": "fig6_crossspecies_router_policy_bundle",
       "pass_": true,
-      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_AUTHORITY.json'), WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_PLAN.json')]"
+      "detail": "[WindowsPath('internal_authority/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_AUTHORITY.json'), WindowsPath('internal_authority/results/fig6_generalize_ortholog_policy_v3_20261003/ROUTE_CANDIDATES.csv'), WindowsPath('internal_authority/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_PLAN.json')]"
     },
     {
       "check": "fig6_crossspecies_ortholog_diagnostic_not_selector",
