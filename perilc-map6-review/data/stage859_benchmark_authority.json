@@ -1,0 +1,24 @@
+{
+  "stage": 859,
+  "status": "BENCHMARK_CONVERGED_NOT_GLOBAL_PROMOTED",
+  "benchmark_pairs": [
+    {
+      "gene": "Slc17a6",
+      "section": 500
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 530
+    },
+    {
+      "gene": "Npy1r",
+      "section": 530
+    },
+    {
+      "gene": "Otx2os1",
+      "section": 500
+    }
+  ],
+  "principle": "Suppress the acquisition/tile-column k=5 harmonic in positive probability and positive intensity while preserving low-frequency biological structure, y-axis structure, Fine26/R1-R5, and local-stratum mass/positive counts.",
+  "summary_csv": "stage859_benchmark_summary.csv"
+}
