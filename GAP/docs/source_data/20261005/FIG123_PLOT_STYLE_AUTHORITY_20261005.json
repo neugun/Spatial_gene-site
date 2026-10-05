@@ -1,0 +1,39 @@
+{
+  "version": "fig123-plot-style-v2-20261005",
+  "palette": {
+    "focal_red": "#B2232E",
+    "control_cyan": "#87CDD4",
+    "gray_dark": "#3F3F3F",
+    "gray_mid": "#777777",
+    "gray_light": "#B5B5B5"
+  },
+  "rules": [
+    "Arial, white background, thin axes; no top/right spines and no grid",
+    "square or near-square panels by default",
+    "balanced spacing for discrete categories",
+    "paired observations: gray connecting lines without duplicate individual points; summary mean±SEM",
+    "unpaired effect-size plots: light-gray individual points plus focal mean±SEM",
+    "model comparisons: gray baselines and focal method in red",
+    "bars use fill only and no outline",
+    "statistics primarily in captions",
+    "PNG 600 dpi plus SVG/PDF",
+    "English and Chinese pages share identical plot/source-data assets"
+  ],
+  "renderer": "scripts/999_restyle_fig123_latest_20261005.py",
+  "english_page": "GAP/index.html",
+  "chinese_page": "GAP/index_zh.html",
+  "asset_dir": "GAP/docs/site_assets/20261005/fig123_latest",
+  "plots": [
+    "fig1_coordinate_balance_v2.png",
+    "fig1_zhao_metric_dissociation_v2.png",
+    "fig1_held_unit_reviewer_audit_v2.png",
+    "fig2_geometry_headroom_v2.png",
+    "fig2_mclachlan_sameK_reviewer_audit_v2.png",
+    "fig2_xu_pvn_atlaslift_contract_audit_v2.png",
+    "fig3_m1_budget_v2.png",
+    "fig3_allen_hcr_k5_v2.png",
+    "fig3_warp_compression_v2.png",
+    "fig3_warp_k5_held_fish_v2.png",
+    "fig3_wang_hidden_v2.png"
+  ]
+}
