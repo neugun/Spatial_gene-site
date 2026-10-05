@@ -1,0 +1,152 @@
+{
+  "version": "FIG123-current-20261004-v18-external-paper-native",
+  "runtime_validation": {
+    "passed": true,
+    "n_checks": 136,
+    "n_failed": 0,
+    "path": "results/validate_runtime_fig123_v1paper_v7_20261004.txt"
+  },
+  "fig1": {
+    "authority": "results/manuscript/FIG1_MULTIAXIS_AUTHORITY_V3_20261003.csv",
+    "predefined_contrasts": "results/manuscript/FIG1_PREDEFINED_COORDINATE_CONTRASTS_V3_20261003.csv",
+    "rule": "Keep R2, rank, classification, relation index, AIC and rank-biserial as separate evidence axes; no single aggregate score."
+  },
+  "fig2": {
+    "authority": "results/manuscript/FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv",
+    "reference_authority": "results/manuscript/FIG2_ATLASFLOW_REFERENCE_AUTHORITY_20261003.csv",
+    "geometry_authority": "results/manuscript/FIG2_GEOMETRY_LAYERED_AUTHORITY_V3_20261003.csv",
+    "rule": "Reference qualification, endpoint prediction and held-unit functional geometry are separate layers. Positive delta is better for every paired metric."
+  },
+  "fig3": {
+    "authority": "results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.csv",
+    "manifest": "results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.json",
+    "public_tool": "gap fixed-budget / gap run --goals fixed_budget",
+    "rule": "Separate measured compression, true hidden replacement, prospective nomination and broad replication. No universal selector ranking. K equal to the full measured panel is a non-inferential baseline."
+  },
+  "integration_test": {
+    "dataset": "McLachlan2025 / Jerry Chen lab Cell Reports",
+    "authority": "results/manuscript/MCLACHLAN_FIG123_TOOL_VALIDATION_20261003.json",
+    "status": "11/11 PASS",
+    "fig1": true,
+    "fig2": true,
+    "fig3": true,
+    "one_command": "results/mclachlan_fig123_onecommand_smoke_20261003/manifest.json"
+  },
+  "integration_benchmark_matrix": "results/manuscript/FIG123_INDEPENDENT_INTEGRATION_BENCHMARKS_20261003.csv",
+  "global_integrity_regression": {
+    "authority": "results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.json",
+    "status": "14/14 contract PASS; 0 blocking errors",
+    "rule": "WARN is preserved for real sparse/partial endpoints; PASS requires identity scope, fold-safe primary targets, predictor eligibility, holdout scope and no-gene gating to remain correct."
+  },
+  "boundary_regression": {
+    "authority": "results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.json",
+    "status": "5/5 one-command boundary tests PASS",
+    "datasets": [
+      "MICrONS V1 EM",
+      "MERGE-seq 2024",
+      "Condylis 2022",
+      "Allen Visual Learning 2P + HCR",
+      "Sorensen 2026"
+    ]
+  },
+  "normal_onecommand_regression": {
+    "authority": "results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.json",
+    "status": "6/6 one-command normal-dataset tests PASS",
+    "numeric_sanity": "Bugeon genes>space; Shainer space>genes; Xu genes>coarse type"
+  },
+  "dataset_execution_coverage": {
+    "authority": "results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.json",
+    "status": "14/14 datasets PASS; 91/91 capability checks; 0 manifest errors",
+    "warp_scale_contract": "306108 input rows; coordinate quick=60000 balanced rows; fixed-budget=150000 balanced rows; K5 Spearman delta=+0.0461, 3/3 wins, p=0.125; full K41 non-inferential"
+  },
+  "easipass_external_test": {
+    "authority": "results/manuscript/EASIPASS_2026_EXTERNAL_READINESS_20261003.json",
+    "status": "DIRECT_PARTIAL_REPRODUCTION_PASS",
+    "matching": "1199 accepted IoU matches / 1439 segmented = 83.3%; 1149 Soma-print confident = 79.85%; median z-restricted IoU=0.286",
+    "intake": "three-level external intake PASS: official candidate matching/QC safe-stop; raw aligned-feature auto-canonicalization + exact VISp AtlasLift; multi-animal molecular+functional adapter 12/12 + full Fig1-3 one-command contract",
+    "pairwise": "gap pairwise-correlation engineering stage ready; animal-level inference contract; biological V1 reproduction awaits real traces/classes/coordinates",
+    "PBN_Fig2_boundary": "RESOLVED_REFERENCE_LAYER: mouse_pbn_paulichen_exact now provides anatomy-matched PBN molecular reference; biological EASI-PASS PBN reproduction still awaits its matched cell-level response table"
+  },
+  "pbn_exact_reference": {
+    "authority": "results/manuscript/PBN_EXACT_REFERENCE_AUTHORITY_20261004.json",
+    "benchmark": "results/pbn_exact_reference_benchmark_20261004/AUTHORITY.json",
+    "status": "REFERENCE_LAYER_READY",
+    "published_contract": "21 neuronal subclusters x 14,437 genes; Pauli/Chen/Basiri et al. eLife 2022; GSE207708",
+    "router": "PBN hint -> mouse_pbn_paulichen_exact top1",
+    "public_map": "HIGH; 20-marker overlap; geometry rho~0.9892; masked recovery rho~0.9646; stability~0.9954",
+    "sparse_self_recovery": "K5 mapping accuracy~0.9405 / hidden median rho~0.8754; K10 ~0.9940 / ~0.9688",
+    "published_marker_headroom": "TF8/NP8/MIX16/MIX24 all geometry rho>0.983 and mapping stability>0.938",
+    "boundary": "reference self-consistency/headroom only; not EASI-PASS PBN biological reproduction"
+  },
+  "end_to_end_composability": {
+    "authority": "results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv",
+    "status": "PASS",
+    "allen_fullchain": "Fig1-Fig7 all tool-correct; Fig4 remains SATURATION_BOUNDARY; Fig6 Allen-HCR->Zhao target transfer is negative; Fig7 executes only after held-mouse operator gate",
+    "allen_fig5": "15-gene/10-function perturb-compatible operator: held-mouse R2~0.1556, Spearman~0.3696, AUROC~0.7415; fig7_ready=true",
+    "allen_fig7": "44,133 perturbation-context conditions; 7,781 eligible; 2,046 perturbations; 23 contexts",
+    "correct_stops": "McLachlan and Condylis stop before Fig7 after unsupported later response-law gates; MICRONS stays structural/session-held with no molecular continuation",
+    "sorensen_boundary": "operator can be supported, but txPC01-05 latent transcriptomic PCs have 0/5 perturbation-gene namespace overlap, so Fig7 correctly stops",
+    "claim": "Fig1-3 are now a composable upstream intake/evidence contract for Fig4-7, not disconnected figure-specific scripts"
+  },
+  "relation_index_target_validity": {
+    "authority": "results/manuscript/RELATION_INDEX_TARGET_VALIDITY_AUDIT_20261003.json",
+    "valid_inferential": 29,
+    "valid_fdr05": 11,
+    "invalidated": "2 MERGE standardized contracts that used QC metadata rather than functional/projection response targets"
+  },
+  "fig2_geometry_headroom": "results/manuscript/FIG2_ATLASLIFT_GEOMETRY_HEADROOM_AUTHORITY_20261003.csv",
+  "integration_test_allen": {
+    "dataset": "Allen Visual Learning 2P + HCR same-cell",
+    "authority": "results/manuscript/ALLEN_VL_HCR_FIG123_TOOL_VALIDATION_20261003.json",
+    "status": "12/12 PASS",
+    "fig1": true,
+    "fig2": true,
+    "fig3": true,
+    "one_command": "results/allen_visual_learning_hcr_fig123_full_20261003/manifest.json",
+    "sample_contract": "1321 unique same-cell neurons after outcome-blind HCR dedup; 6 mice; 21 shared biological HCR genes; 13 six-mouse-complete functional features"
+  },
+  "integration_test_condylis": {
+    "dataset": "Condylis2022 / Jerry Chen lab Science",
+    "authority": "results/manuscript/CONDYLIS2022_FIG123_TOOL_VALIDATION_20261003.json",
+    "status": "8/8 PASS",
+    "expected_not_applicable": [
+      "effect_size"
+    ],
+    "one_command": "results/condylis2022_fig123_integrity_v3_20261003/manifest.json",
+    "sample_contract": "1516 cells; 9 mice; 6 binary molecular markers; categorical-marker stress test"
+  },
+  "boundary_test_microns_v1em": {
+    "dataset": "MICrONS V1 EM / minnie65",
+    "authority": "results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.json",
+    "status": "13/13 PASS",
+    "n_genes": 0,
+    "cross_animal_claim_allowed": false,
+    "selection_bias_guard": "results/manuscript/MICRONS_V1EM_INTEGRITY_BENCHMARK_20261003.json",
+    "selection_bias_status": "8/8 PASS",
+    "full_run": "results/microns_v1em_full_authority_20261003/manifest.json",
+    "connectivity_run": "results/microns_v1em_connectivity_authority_20261003/manifest.json",
+    "sample_contract": "24713 unique EM neurons; one animal; 13 acquisition sessions; 1151 connectivity-complete neurons; session/acquisition-held only"
+  },
+  "supersession": [
+    "Old Bugeon whole-ABC Fig2 rows are historical sensitivity controls, not the current anatomy-matched reference authority.",
+    "AtlasFlow outputs lacking atlas/measured+atlas blocks are superseded by the v2/current workflow.",
+    "Any paired-delta table containing only R2/Spearman is superseded by the nine-metric paired contract.",
+    "Zhao AtlasLift should not be summarized by giant delta-R2 values alone; use full multi-metric/held-unit evidence.",
+    "Fig3 broad sweep does not establish universal FDR-supported superiority; primary M1 and true-hidden Wang evidence carry distinct contracts.",
+    "Manuscript-side Fig3 sweep is no longer the only executable route; public fixed_budget is authoritative for new-dataset integration testing.",
+    "Allen pre-dedup 1369-row integration output is superseded by the strict 1321 unique-HCR-cell run. Outcome-blind max-IoU dedup leaves all key Fig1-3 effects intact; see ALLEN_VL_HCR_DEDUP_SENSITIVITY_20261003.csv.",
+    "Pre-integrity target selection that used only global non-missingness is superseded by fold-aware target support; held-out outcomes are never imputed for scoring.",
+    "cell_id is session-scoped by default; only declared stable IDs such as hcr_id/matched_cell_id/unique_roicat_id are audited across sessions.",
+    "Categorical one-hot molecular panels must block continuous quartile effect-size inference rather than report an empty successful result.",
+    "MICrONS full-cohort connectivity analyses that median-impute the 95.34% unmeasured connectivity block are superseded by the integrity-safe full-cohort + 1151-cell connectivity-complete dual-cohort contract.",
+    "For single-animal MICrONS, session/acquisition-held evaluation must never be described as held-animal or cross-animal replication.",
+    "Stable MICrONS EM identity is root_id; root_id is now part of the stable-ID duplicate audit.",
+    "MICrONS connectivity-complete neurons are a non-random EM-resolved subpopulation: matched per-session random controls show lower space/type+space predictive geometry in the complete-case cohort. Connectivity effects must therefore be scoped to that subpopulation, not generalized to all V1 cells."
+  ],
+  "next_render_contract": [
+    "Fig1: show multi-axis molecular/structural information rather than a single R2 ranking.",
+    "Fig2: reference QC -> multi-metric endpoint lift -> separate global-geometry panel.",
+    "Fig3: fixed-budget primary benchmark -> true hidden validation -> compression/replacement distinction -> prospective/broad boundaries."
+  ],
+  "hash_manifest": "results/manuscript/CURRENT_FIG123_AUTHORITY_SHA256_20261003.csv"
+}

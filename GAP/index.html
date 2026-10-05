@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<base href="./">
+<title>GAP | Molecular coordinates of in-vivo neural function</title>
+<meta name="description" content="GAP Figure 1–7 results, provenance, held-unit validation, operator/transfer boundaries, and prospective perturbation design.">
+<link rel="stylesheet" href="docs/site_assets/20261004/site.css">
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="eyebrow">GAP / functional–molecular analysis</div>
+<h1>Molecular coordinates of in-vivo neural function</h1>
+<p>Which reproducible components of a neuron's response law are readable from molecular identity, continuous molecular state, anatomy, projection or structural context—and what should be measured next?</p>
+<div class="badges">
+<span class="badge">Authority: v18 • 2026-10-04</span>
+<span class="badge">Runtime: 136/136 PASS</span>
+<span class="badge">14/14 audited datasets</span>
+<span class="badge">91/91 capability checks</span>
+<span class="badge">Held-biological-unit inference</span>
+</div></div></header>
+
+<nav><div class="wrap">
+<a href="#overview">Overview</a><a href="#fig1">Figure 1</a><a href="#fig2">Figure 2</a><a href="#fig3">Figure 3</a><a href="#fig4">Figure 4</a><a href="#fig5">Figure 5</a><a href="#fig6">Figure 6</a><a href="#fig7">Figure 7</a>
+<a href="#newdata">New data</a><a href="#external">EASI-PASS</a><a href="#end2end">Fig1→7</a><a href="#provenance">Sources & QA</a>
+</div></nav>
+
+<main>
+<section id="overview"><div class="wrap">
+<h2>Three questions, one analysis contract</h2>
+<p class="lead">The public interface is organized by biological question, not model name. A result is promoted only when the functional target, molecular-evidence tier, held unit, matched comparator/null and metric all correspond to the stated claim.</p>
+<div class="grid">
+<div class="card"><div class="kicker">Figure 1</div><h3>Which functional coordinate is molecularly readable?</h3><p>Variance, rank, classification, identity–response relation, AIC and effect size remain separate evidence axes. Low ΔR² does not imply no useful structure.</p></div>
+<div class="card"><div class="kicker">Figure 2</div><h3>When can missing molecular state be recovered?</h3><p>Reference qualification → endpoint lift → held-unit functional geometry. Atlas self-recovery is not functional proof.</p></div>
+<div class="card"><div class="kicker">Figure 3</div><h3>What should a compact assay measure?</h3><p>Fixed budget + matched-K random + true hidden-gene validation when available. Compression, replacement and prospective nomination are different claims.</p></div>
+</div>
+<div class="callout"><b>Inference unit:</b> animal / fish / worm / donor when available—not cell count. <b>Boundary results remain public.</b> A scientifically correct block or negative result is a tool PASS, not a reason to delete the dataset.</div>
+</div></section>
+
+<section id="fig1"><div class="wrap">
+<div class="kicker">Figure 1</div><h2>Functional readability is multi-axis and dataset-specific</h2>
+<p class="lead">The central result is not that “genes always win.” Different systems expose different informative coordinates. The tool must preserve that biology instead of forcing a universal ranking.</p>
+
+<div class="grid">
+<div class="card direct"><h3>Bugeon 2022 • VISp</h3><div class="metric">genes ρ = 0.398</div><p>coarse type 0.386; space 0.040.</p><div class="meta">4 held mice • same-cell coppaFISH source • <a href="https://doi.org/10.6084/m9.figshare.19448531">Figshare 10.6084/m9.figshare.19448531</a></div></div>
+<div class="card direct"><h3>Xu 2020 • PVH</h3><div class="metric">genes ρ = 0.338</div><p>coarse type 0.201; continuous molecular state adds substantial rank information.</p><div class="meta">3 held mice • same-cell multiplex FISH • <a href="https://doi.org/10.1126/science.abb2494">Science abb2494</a> / <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148568">GEO GSE148568</a></div></div>
+<div class="card boundary"><h3>Shainer 2025 • tectum</h3><div class="metric">space ρ = 0.261</div><p>genes 0.032; type 0.017. This is a spatial regime, not a failed gene model.</p><div class="meta">6 held fish • HCR + spatial context • <a href="https://doi.org/10.5281/zenodo.14146655">Zenodo 10.5281/zenodo.14146655</a></div></div>
+</div>
+
+<div class="grid2">
+<div class="figure"><img src="docs/site_assets/20261004/fig1_coordinate_balance.png" alt="Held-unit coordinate comparison for Bugeon, Xu and Shainer"><div class="caption">Thin lines are individual held biological units; diamonds are the frozen aggregate OOF summaries used in the headline cards. Compare coordinates within each dataset, not absolute height across datasets. <a href="docs/source_data/20261004/BUGEON_COORDINATE_FOLDS.csv">Bugeon folds</a> · <a href="docs/source_data/20261004/XU_COORDINATE_FOLDS.csv">Xu folds</a> · <a href="docs/source_data/20261004/SHAINER_COORDINATE_FOLDS.csv">Shainer folds</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig1_zhao_metric_dissociation.png" alt="Zhao held-animal type versus connectivity metrics"><div class="caption">Zhao: each thin line is one held animal; diamonds are frozen aggregate OOF metrics. The authority headline remains ΔR²≈+0.0011, ΔSpearman≈+0.1269, ΔAUROC≈+0.0660 and ΔAUPRC≈+0.1072. R² fold-average and aggregate OOF aggregation are shown as distinct quantities rather than silently conflated. <a href="docs/source_data/20261004/ZHAO_COORDINATE_FOLDS.csv">Held-animal folds</a> · <a href="docs/source_data/20261004/FIG1_MULTIAXIS_AUTHORITY_V3.csv">Aggregate authority</a></div></div>
+</div>
+
+<div class="tablewrap"><table><thead><tr><th>Dataset</th><th>Evidence tier</th><th>Held unit</th><th>Result / reading</th><th>Boundary</th></tr></thead><tbody>
+<tr><td>Allen Visual Learning 2P+HCR</td><td>same-cell 21-gene HCR</td><td>6 mice</td><td>genes vs coarse type ΔSpearman ≈ +0.0885; 6/6 mice</td><td>partial hit-related endpoints are fold-filtered, not imputed</td></tr>
+<tr><td>Zhao 2026 VISp</td><td>same-neuron activity + projection/morphology + 2cEASI-FISH</td><td>held animals</td><td>rank/classification gain despite tiny ΔR²</td><td>metrics remain separate</td></tr>
+<tr><td>MICRONS V1 EM</td><td>structure/connectivity; no transcriptome</td><td>13 acquisition sessions in one animal</td><td>space recovers retinotopy: RFx ρ≈0.497, RFy≈0.536</td><td>no cross-animal molecular claim; connectivity-complete n=1,151 is selection-shifted</td></tr>
+</tbody></table></div>
+<p class="small">Relation-index audit: 31 old inferential rows → 29 valid; 13 old FDR-positive → 11 valid after two MERGE QC-metadata pseudo-targets were removed. <a href="docs/source_data/20261004/RELATION_INDEX_TARGET_VALIDITY_AUDIT.json">Audit</a></p>
+</div></section>
+
+<section id="fig2"><div class="wrap">
+<div class="kicker">Figure 2</div><h2>AtlasLift is useful only when the bridge is qualified</h2>
+<p class="lead">Reference self-consistency, endpoint prediction and global functional-geometry recovery are separate layers. Exact-region references are used where supported: VISp, SSp-bfd, PERI/ECT and now PBN.</p>
+<div class="figure"><img src="docs/site_assets/20261004/fig2_geometry_headroom.png" alt="AtlasLift geometry headroom by dataset"><div class="caption">Held-unit functional geometry from the current authority. WARP and exact PERI/ECT McLachlan are supported; C. elegans is relative-only; Bugeon, Shainer and Condylis remain boundaries. <a href="docs/source_data/20261004/FIG2_ATLASLIFT_GEOMETRY_HEADROOM.csv">Source data</a></div></div>
+
+<div class="grid">
+<div class="card direct"><h3>McLachlan • exact PERI/ECT</h3><div class="metric">Δρ = +0.112</div><p>baseline 0.208 → lifted 0.320; matched-random q=0.0400.</p><div class="meta">3 held folds • exact anatomy • fold-Wilcoxon power remains limited</div></div>
+<div class="card direct"><h3>WARP • zebrafish</h3><div class="metric">Δρ = +0.034</div><p>3/3 fish improve; matched-random q=0.0053.</p><div class="meta">independent tectum scRNA reference • selector training-only</div></div>
+<div class="card"><h3>PBN exact reference</h3><div class="metric">21 states × 14,437 genes</div><p>K=5 reference self-recovery mapping ≈0.940; hidden-gene median ρ≈0.875. Public router selects the PBN-exact reference.</p><div class="meta"><a href="https://doi.org/10.7554/eLife.81868">Pauli/Chen/Basiri eLife 2022</a> • <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207708">GSE207708</a> • <b>reference headroom only</b></div></div>
+</div>
+<div class="callout"><b>Not promoted:</b> Bugeon exact VISp has strong reference recovery and endpoint-specific gains, but its formal global geometry null remains NOT_SUPPORTED. The page keeps that distinction instead of calling every successful map an AtlasLift win.</div>
+</div></section>
+
+<section id="fig3"><div class="wrap">
+<div class="kicker">Figure 3</div><h2>Assay design: compression, replacement and nomination are different</h2>
+<p class="lead">A compact-panel result is promoted only when the comparator matches the claim. The Page therefore separates fixed-budget performance, matched-random selection, measured-panel compression and true hidden-gene replacement.</p>
+<div class="grid">
+<div class="card boundary"><h3>M1 primary fixed-budget benchmark</h3><div class="metric">K25 R² = 0.369</div><p>84.5% of full1000; Δ vs PERSIST +0.042; Δ vs random-p95 +0.123. Authority reports mean±SD across n=10 folds.</p><div class="meta"><b>PROVENANCE PENDING:</b> exact upstream M1 Patch-seq publication/accession has not yet been frozen, so this result remains visible but is not release-provenance-complete.</div></div>
+<div class="card direct"><h3>Allen HCR • K=5</h3><div class="metric">ΔSpearman = +0.097</div><p>6/6 held mice improve; one-sided Wilcoxon p=0.015625, BH q=0.046875. AUROC/AUPRC/NRMSE also pass q≈0.0469.</p><div class="meta">same-cell 21-gene HCR • dataset-specific positive, not universal selector proof</div></div>
+<div class="card boundary"><h3>Broad replication boundary</h3><div class="metric">0 / 8</div><p>rows pass BH q&lt;0.05 in the broad replication table. Directional effects remain visible rather than being converted into a universal-selector claim.</p><div class="meta">Chevee 6/6 held folds positive but broad-table q=0.125</div></div>
+</div>
+
+<div class="grid2">
+<div class="figure"><img src="docs/site_assets/20261004/fig3_m1_budget.png" alt="M1 fixed molecular budget with error bars and matched comparators"><div class="caption">M1 fixed-budget authority: mean±SD across n=10 folds for FSO-functional, PERSIST, random-p95 and full1000; sBNN-top25 is shown at K=25. <a href="docs/source_data/20261004/M1_FIXED_BUDGET_MULTIMETRIC.csv">Compact authority table</a>. Exact upstream accession remains a public-release provenance gate.</div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig3_allen_hcr_k5.png" alt="Allen HCR K5 selected versus matched random per held mouse"><div class="caption">Allen HCR K=5: each line is one held mouse. The same six mice are compared for selected vs matched-random panels; p is one-sided Wilcoxon across mice and q is BH-adjusted across the fixed-budget metric family. <a href="docs/source_data/20261004/ALLEN_HCR_FIXED_BUDGET_FOLDS.csv">Fold-level source data</a> · <a href="docs/source_data/20261004/ALLEN_HCR_FIXED_BUDGET_SUMMARY.csv">summary</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig3_warp_compression.png" alt="WARP measured panel compression"><div class="caption">WARP measured-panel compression: K25 AUROC 0.556 vs full31 0.555. This is descriptive measured-panel compression, not hidden-gene replacement. <a href="docs/source_data/20261004/WARP_MEASURED_PANEL_COMPRESSION.csv">Source data</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig3_warp_k5_held_fish.png" alt="WARP K5 selected versus matched random in three held fish"><div class="caption">Separate inferential companion for WARP K=5 Spearman: 3/3 held fish improve, but with n=3 the one-sided Wilcoxon p=0.125. Direction is retained without claiming significance. <a href="docs/source_data/20261004/WARP_FIXED_BUDGET_FOLDS.csv">Held-fish folds</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig3_wang_hidden.png" alt="Wang true measured hidden genes selected versus matched random across five targets"><div class="caption">Wang 2023 true-hidden validation: circles are matched-random hidden genes, diamonds are selected hidden genes; all 5/5 measured projection targets move in the favorable AUROC direction. Measured CEA EASI-FISH source: <a href="https://doi.org/10.25378/janelia.21171373">Janelia Figshare 10.25378/janelia.21171373</a>; independent CEA scRNA reference: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213828">GSE213828</a>. <a href="docs/source_data/20261004/WANG_TRUE_HIDDEN_GENE_REPLACEMENT.csv">Source data</a></div></div>
+</div>
+</div></section>
+
+
+<section id="fig4"><div class="wrap">
+<div class="kicker">Figure 4</div><h2>From readable coordinates to functional completion</h2>
+<p class="lead">Figure 4 asks whether molecules add <b>unique</b> information about an omitted behavior/state after the other measured functional coordinates are already known. The same answer does not hold across systems.</p>
+<div class="figure"><img src="docs/site_assets/20261004/fig4_multimetric_completion.png" alt="Multimetric functional-completion deltas across datasets"><div class="caption">Joint function+genes minus function-only on identical held-biological-unit splits. C. elegans, Sorensen, Xu, Bugeon and Allen VC2P show molecular headroom; Zhao and Condylis are important boundaries. <a href="docs/source_data/20261004/FIG4_7_STAGE_METRIC_LEDGER.csv">Source ledger</a></div></div>
+<div class="grid">
+<div class="card direct"><h3>C. elegans pumping</h3><div class="metric">ΔR² +0.117</div><p>ΔSpearman +0.214; ΔAUROC +0.115; held-unit R² wins 1.0.</p><div class="meta">40 biological groups; strongest broad completion example.</div></div>
+<div class="card direct"><h3>Sorensen ephys latent</h3><div class="metric">ΔSpearman +0.451</div><p>ΔR² +0.0777; ΔAUROC +0.273; a distinct low-dimensional molecular panel independently replicates functional completion.</p></div>
+<div class="card direct"><h3>Xu Ghrelin</h3><div class="metric">ΔR² +0.0639</div><p>ΔSpearman +0.0399; ΔAUROC +0.0273; 2/3 held mice improve in R².</p></div>
+<div class="card boundary"><h3>Zhao / Condylis boundaries</h3><p>Zhao's native visual completion declines across R², rank and AUROC. Condylis is nearly saturated by function-only predictors. Neither is deleted or reframed as a win.</p></div>
+</div>
+<div class="callout"><b>Tool rule:</b> biology-aware target profiles collapse technical summaries of the same underlying axis before completion. This prevents trivial same-axis leakage such as median/early/late/slope variants predicting one another.</div>
+</div></section>
+
+<section id="fig5"><div class="wrap">
+<div class="kicker">Figure 5</div><h2>Molecular state parameterizes functional and structural response laws</h2>
+<p class="lead">The operator test compares the same X, same Y and same held-unit folds: independent Ridge versus shared full-rank or reduced-rank response laws. A positive R² delta alone is not sufficient; rank, AUROC/AUPRC, geometry and held-unit wins are retained.</p>
+<div class="grid2">
+<div class="figure"><img src="docs/site_assets/20261004/fig5_operator_multimetric.png" alt="Matched multimetric operator gains"><div class="caption">Functional response-law replication. Bugeon exact 24D is the dataset-specific structured GAP contract; Xu and Sorensen provide independent replications. <a href="docs/source_data/20261004/FIG4_7_STAGE_METRIC_LEDGER.csv">Metric ledger</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig5_structural_branch.png" alt="Structural and projection prediction across datasets"><div class="caption">Structural branch: molecular state strongly reads projection/connectivity coordinates in Chevee, C. elegans, MERGE-seq and Sorensen. Structural predictability does <b>not</b> imply that a shared operator must beat independent prediction.</div></div>
+</div>
+<div class="grid">
+<div class="card direct"><h3>Bugeon exact 24D</h3><div class="metric">R² 0.0093 → 0.0185</div><p>ΔSpearman +0.0094; ΔAUROC +0.0037; ΔAUPRC +0.0069; 4/4 held mice R² wins.</p></div>
+<div class="card direct"><h3>Sorensen</h3><div class="metric">ΔSpearman +0.103</div><p>Low-rank operator: ΔR² +0.0116, ΔAUROC +0.051, ΔAUPRC +0.097; 5/5 held folds improve Spearman.</p></div>
+<div class="card boundary"><h3>Equal-performance / mixed boundaries</h3><p>C. elegans raw multitarget shared mapping is effectively equal to direct Ridge; Zhao/Condylis/Shainer/WARP contain mixed contracts. These remain public rather than being filtered out.</p></div>
+</div>
+</div></section>
+
+<section id="fig6"><div class="wrap">
+<div class="kicker">Figure 6</div><h2>Reuse is selective: sample efficiency, transfer and cross-species conservation</h2>
+<p class="lead">Figure 6 is not a claim that one foundation embedding replaces measured genes everywhere. Route/hyperparameter selection is source-only; when target labels exist, target evaluation must also support the transfer claim.</p>
+<div class="grid">
+<div class="card direct"><h3>Zhao → Bugeon</h3><div class="metric">10% labels: ΔR² +0.155</div><p>ΔSpearman +0.078; ΔAUROC +0.063; 4/4 held Bugeon mice improve.</p></div>
+<div class="card direct"><h3>Mouse → fish</h3><div class="metric">15 / 15 positive</div><p>All task×fish ΔR² directions are positive in the frozen champion route; mean ΔR² ≈ +0.0567.</p></div>
+<div class="card direct"><h3>Mouse → human intrinsic ephys</h3><div class="metric">15 / 18 targets positive</div><p>FullContext mean rho ≈ 0.065; target-donor CI excludes zero, while strict source-donor CI still crosses zero.</p></div>
+<div class="card boundary"><h3>New Allen HCR → Zhao test</h3><div class="metric">target rho ≈ −0.192</div><p>Source OOF rho ≈ +0.305, but target transfer reverses sign. The current router therefore reports <b>EXECUTED_NO_TARGET_TRANSFER</b> and claim_supported=false.</p></div>
+</div>
+<div class="callout"><b>Interpretation:</b> biologically aligned reuse can reduce paired-label demand, but native-dataset boundaries and failed semantic transfer routes remain part of the evidence.</div>
+<p class="small"><a href="docs/current/FIG6_MASTER_AUTHORITY_V51.md">Frozen Fig6 authority</a> · <a href="docs/current/FIG4_7_END2END_TOOL_V2_AUTHORITY.md">latest end-to-end tool authority</a></p>
+</div></section>
+
+<section id="fig7"><div class="wrap">
+<div class="kicker">Figure 7</div><h2>Perturb-GAP turns a validated response law into prospective experiment design</h2>
+<p class="lead">Figure 7 is prospective. It uses a held-unit-qualified Fig5 operator and observed perturbation-DE programs to rank interventions by predicted coordinate selectivity, model disagreement and context disagreement. It does not claim causal validation.</p>
+<div class="grid2">
+<div class="figure"><img src="docs/site_assets/20261004/fig7_context_interaction.png" alt="Context by perturbation interaction fractions"><div class="caption">Context×perturbation interaction dominates both molecular responses and the projected functional effects. <a href="docs/current/FIG7_PERTURBGAP_AUTHORITY.md">Authority</a></div></div>
+<div class="figure"><img src="docs/site_assets/20261004/fig47_end2end_matrix.png" alt="End-to-end stage acceptance matrix"><div class="caption">The same Fig1–3 integration datasets are carried forward. Allen HCR reaches Fig7; McLachlan and Condylis stop at prespecified gates; MICRONS remains structural-only. <a href="docs/source_data/20261004/FIG123_TO_FIG47_END2END_AUTHORITY_V2.csv">Matrix</a></div></div>
+</div>
+<div class="grid">
+<div class="card direct"><h3>Whole-brain Perturb-seq design law</h3><div class="metric">85.48%</div><p>of projected functional variance is assigned to context×perturbation interaction after frozen GAP; molecular interaction fraction is 75.81%.</p></div>
+<div class="card direct"><h3>Allen HCR end-to-end</h3><div class="metric">44,133 conditions</div><p>7,781 eligible; 2,046 perturbations; 23 contexts. Fig7 runs only after a separate held-mouse Fig5 operator gate passes.</p></div>
+<div class="card boundary"><h3>Correct stop is a PASS</h3><p>McLachlan and Condylis fail the prospective-use operator gate and therefore generate no Fig7 ranking. Sorensen's txPC01–05 namespace has 0/5 perturbation-gene overlap: a namespace boundary, not an operator failure.</p></div>
+</div>
+<div class="callout"><b>Causal boundary:</b> rankings are hypotheses for what to perturb next. Missing-edge global R² is ~0 and simple low-rank residual models fail; actual perturbation of the nominated target in new biological replicates is still required for causal closure.</div>
+</div></section>
+
+<section id="newdata"><div class="wrap">
+<div class="kicker">Tool contract</div><h2>What happens when a genuinely new dataset arrives?</h2>
+<p class="lead">The public interface is capability-aware. It first decides what the file means, then what the science permits. “Blocked” is a valid result when the required evidence does not exist.</p>
+<div class="flow">
+<div class="step"><b>0 · Semantic intake</b>gene / function / projection / type / space / QC?</div>
+<div class="step"><b>1 · Integrity</b>stable cell ID, duplicate scope, biological unit, fold support</div>
+<div class="step"><b>2 · Capability route</b>run only scientifically applicable stages</div>
+<div class="step"><b>3 · Figure 1</b>genes/type/space/structure on identical held-unit splits</div>
+<div class="step"><b>4 · Figure 2</b>rank matched references; qualify bridge before lift</div>
+<div class="step"><b>5 · Figure 3</b>fixed budget + matched-K random + hidden-gene boundary</div>
+</div>
+<div class="grid">
+<div class="card"><div class="metric">14 / 14</div><p>dataset integrity/execution contracts PASS</p></div>
+<div class="card"><div class="metric">91 / 91</div><p>capability checks PASS</p></div>
+<div class="card"><div class="metric">5/5 + 6/6</div><p>boundary + ordinary one-command campaigns PASS</p></div>
+</div>
+<p class="small"><a href="docs/source_data/20261004/FIG123_DATASET_EXECUTION_COVERAGE.csv">Execution coverage</a> · <a href="docs/current/CURRENT_FIG123_AUTHORITY_V18_20261004.md">current authority</a></p>
+</div></section>
+
+<section id="external"><div class="wrap">
+<div class="kicker">External stress test • <a href="https://github.com/orena1/easi-pass">EASI-PASS 2026</a></div><h2>Incomplete public data should produce a correct stop—not a fabricated biology result</h2>
+<div class="grid">
+<div class="card direct"><h3>Direct method-level reproduction</h3><div class="metric">1199 / 1439 = 83.3%</div><p>accepted IoU matches; 1149/1439=79.85% confident soma-print; median z-restricted IoU 0.286.</p><div class="meta">authors' released JS078 golden output • <a href="https://doi.org/10.64898/2026.08.21.746328">preprint DOI</a></div></div>
+<div class="card"><h3>Three-level intake</h3><p><b>matching/QC only</b> → all Fig1–3 biology stages safe-stop.</p><p><b>aligned molecular table</b> → auto canonicalize PV→Pvalb, SST→Sst; exact VISp AtlasLift can run.</p><p><b>multi-animal molecular+function</b> → applicable Fig1–3 stages open under held animals.</p></div>
+<div class="card boundary"><h3>Claim boundary</h3><p>The released demo does <b>not</b> contain the full PBN/V1 functional biology dataset. PBN response specificity and V1 arousal/correlation claims therefore remain <b>READY WITH FULL DATA</b>, not “reproduced.”</p></div>
+</div>
+<div class="grid2">
+<div class="card"><h3>PBN engineering branch</h3><p>96 cells = 24 repeated local IDs × 4 animals remain 96 scoped identities; 4 held animals; exact PBN reference auto-selected; function-map/coordinate/fixed-budget/AIC/effect-size execute; one-dimensional response correctly blocks Zhao-style relation-index.</p></div>
+<div class="card"><h3>V1 paper-native pairwise branch</h3><p>120 cells / 4 animals / raw aligned EASI metadata + traces. Pairwise inference is one slope/rank statistic per animal: within-class median ρ=-0.812, across-class -0.828. <b>Engineering fixture only.</b></p></div>
+</div>
+<p class="small"><a href="docs/current/EASIPASS_2026_EXTERNAL_READINESS.json">External-readiness authority</a> · <a href="docs/current/EASIPASS_PAPER_NATIVE_REPLICATION_CONTRACT.json">paper-native replication contract</a></p>
+</div></section>
+
+<section id="end2end"><div class="wrap">
+<div class="kicker">Composability</div><h2>Figure 1–3 are now the upstream contract for Figure 4–7</h2>
+<p class="lead">Tool success does not mean every later biological result is positive. Allen Visual Learning HCR reaches Figure 7 through one public workflow while preserving mixed/negative gates.</p>
+<div class="tablewrap"><table><thead><tr><th>Stage</th><th>Allen HCR status</th><th>Allowed reading</th></tr></thead><tbody>
+<tr><td>Fig4</td><td><span class="status">SATURATION BOUNDARY</span></td><td>molecular completion is mixed; do not force rescue</td></tr>
+<tr><td>Fig5</td><td><span class="status">ABSOLUTE SUPPORT</span></td><td>held-mouse operator predicts, but does not robustly beat every independent Ridge comparator</td></tr>
+<tr><td>Fig6</td><td><span class="status">NEGATIVE TRANSFER</span></td><td>Allen-HCR→Zhao target transfer is negative; no conservation claim</td></tr>
+<tr><td>Fig7</td><td><span class="status">GATED EXECUTION</span></td><td>nomination proceeds only after an independent held-mouse operator gate</td></tr>
+</tbody></table></div>
+<div class="callout">McLachlan and Condylis stop before prospective nomination when later response-law gates fail. MICRONS remains structural/session-held because it has no transcriptome. Sorensen stops at txPC01–05 namespace compatibility. These are frozen as scientifically correct PASS states.</div>
+<p class="small"><a href="docs/current/FIG123_TO_FIG47_END2END_AUTHORITY_V2.md">End-to-end authority</a> · <a href="docs/source_data/20261004/FIG123_TO_FIG47_END2END_AUTHORITY_V2.csv">machine-readable matrix</a></p>
+</div></section>
+
+<section id="provenance"><div class="wrap">
+<div class="kicker">Provenance & reviewer audit</div><h2>Every number on this page has a source and a claim level</h2>
+<div class="grid">
+<div class="card"><h3>Data sources</h3><p>Original accessions, molecular evidence tiers and GAP roles.</p><p><a href="docs/DATA_CATALOG.md">Open data catalog →</a></p></div>
+<div class="card"><h3>Analysis contract</h3><p>Held unit, target support, metric definitions and null/control rules.</p><p><a href="docs/ANALYSIS_CONTRACT.md">Open analysis contract →</a></p></div>
+<div class="card"><h3>Page claim ledger</h3><p>Exact file backing each browser-facing quantitative claim.</p><p><a href="docs/PAGE_DATA_PROVENANCE_20261004.md">Open provenance ledger →</a></p></div>
+</div>
+<div class="grid2">
+<div class="card"><h3>Current frozen authority</h3><div class="metric">v18</div><p>136/136 runtime checks PASS; SHA manifest contains no missing files.</p><p><a href="docs/current/CURRENT_FIG123_AUTHORITY_V18_20261004.md">Read authority →</a></p></div>
+<div class="card"><h3>Historical figures</h3><p>Older v3 requirement-aligned graphics remain available for provenance, but they are no longer browser-facing authority after the 2026-10-04 refresh.</p><p><a href="docs/FIGURES.md">Historical figure index →</a></p></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">GAP public scientific portal • refreshed 2026-10-04 • biology question → data → held-unit test → matched control/null → result → boundary → code.</div></footer>
+</body></html>

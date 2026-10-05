@@ -1,0 +1,687 @@
+{
+  "passed": true,
+  "n_checks": 136,
+  "n_failed": 0,
+  "qa": [
+    {
+      "check": "foundation_checkpoints_sha",
+      "pass_": true,
+      "detail": "[('gap_foundation_compact_j', 940195, True), ('gap_foundation_large_j', 5147459, True)]"
+    },
+    {
+      "check": "foundation_coverage_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\foundation_tool_coverage_20261002.csv"
+    },
+    {
+      "check": "warp2026_foundation_rank_lift",
+      "pass_": true,
+      "detail": "[{'raw_spearman': 0.057716536217416, 'compact_spearman': 0.1062178214909001, 'large_spearman': 0.1073254993947347}]"
+    },
+    {
+      "check": "warp2026_d2_foundation_rank_lift",
+      "pass_": true,
+      "detail": "[{'raw_spearman': 0.0424478916769825, 'compact_spearman': 0.1561040701867507, 'large_spearman': 0.1635665625398098}]"
+    },
+    {
+      "check": "generic_transfer_worm_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\gap_transfer_worm_smoke\\run_v1\\AUTHORITY.json"
+    },
+    {
+      "check": "generic_transfer_worm_source_only",
+      "pass_": true,
+      "detail": "target rho=0.43506309855039915; perm p=0.047619047619047616"
+    },
+    {
+      "check": "warp_d1_to_d2_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\gap_generalize_warp_d1_to_d2_v1\\GENERALIZATION_AUTHORITY.json"
+    },
+    {
+      "check": "warp_d1_to_d2_source_only",
+      "pass_": true,
+      "detail": "selected=foundation; target rho=0.006503447304381538"
+    },
+    {
+      "check": "bugeon_to_warp_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\gap_generalize_bugeon_to_warp_swim_v1\\GENERALIZATION_AUTHORITY.json"
+    },
+    {
+      "check": "bugeon_to_warp_source_only",
+      "pass_": true,
+      "detail": "selected=foundation; target rho=0.024451210515694762"
+    },
+    {
+      "check": "shared_diag_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\fig6_deep_audit_20261003\\GENERALIZE_SHARED_DIAGNOSTIC_SMOKE\\GENERALIZATION_AUTHORITY.json"
+    },
+    {
+      "check": "shared_diag_diagnostic_files",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_SHARED_DIAGNOSTIC_SMOKE/REPRESENTATION_LADDER.csv')]"
+    },
+    {
+      "check": "shared_diag_diagnostics_evaluation_only",
+      "pass_": true,
+      "detail": "fig6-deep-audit-v1"
+    },
+    {
+      "check": "shared_diag_config_stability_schema",
+      "pass_": true,
+      "detail": "['representation', 'source_macro_oof_rho', 'source_top_minus_second_margin', 'source_near_best_0p001_n', 'source_near_best_0p005_n', 'source_config_flat_0p001', 'source_config_flat_0p005', 'source_config_score_range', 'source_config_n', 'best_k_used', 'best_alpha', 'diagnostic_only']"
+    },
+    {
+      "check": "foundation_diag_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\fig6_deep_audit_20261003\\GENERALIZE_DIAGNOSTIC_SMOKE_V2\\GENERALIZATION_AUTHORITY.json"
+    },
+    {
+      "check": "foundation_diag_diagnostic_files",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/SOURCE_CONFIG_STABILITY.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_deep_audit_20261003/GENERALIZE_DIAGNOSTIC_SMOKE_V2/REPRESENTATION_LADDER.csv')]"
+    },
+    {
+      "check": "foundation_diag_diagnostics_evaluation_only",
+      "pass_": true,
+      "detail": "fig6-deep-audit-v1"
+    },
+    {
+      "check": "foundation_diag_config_stability_schema",
+      "pass_": true,
+      "detail": "['representation', 'source_macro_oof_rho', 'source_top_minus_second_margin', 'source_near_best_0p001_n', 'source_near_best_0p005_n', 'source_config_flat_0p001', 'source_config_flat_0p005', 'source_config_score_range', 'source_config_n', 'best_k_used', 'best_alpha', 'diagnostic_only']"
+    },
+    {
+      "check": "operator_numeric_regression",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\gap_stage_validation_after_foundation_v1\\STAGE_VALIDATION_REPORT.json"
+    },
+    {
+      "check": "generic_human_plan_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\release_generalize_plan_human_v2\\GENERALIZATION_AUTHORITY.json"
+    },
+    {
+      "check": "generic_human_blocked_by_default",
+      "pass_": true,
+      "detail": "['Paper V5 human transfer requires cell-context TranscriptFormer features; generic gene-pooled transfer is a frozen negative control.']"
+    },
+    {
+      "check": "human_v3_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\mouse_human_gap_20261002\\HUMAN_TRANSFER_AUTHORITY_V3.json"
+    },
+    {
+      "check": "human_target_donor_ci_positive",
+      "pass_": true,
+      "detail": "[0.024956834253645577, 0.0973403088145715]"
+    },
+    {
+      "check": "human_source_uncertainty_preserved",
+      "pass_": true,
+      "detail": "[-0.019084106326906568, 0.10976215742850914]"
+    },
+    {
+      "check": "wrong_region_external_diagnostic_excluded",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\gap_run_photseq2019_unseen_foundation_v1\\INVALID_FOR_FOUNDATION_REGION.json"
+    },
+    {
+      "check": "fig6_tool_runtime_authority",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\fig6_tool_runtime_authority_20261002\\FIG6_TOOL_RUNTIME_AUTHORITY.json"
+    },
+    {
+      "check": "evidence_v2_bugeon_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/information_criterion_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/rank_biserial_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/evidence_highlevel_run_bugeon_20261003/evidence/relation_index.csv')]"
+    },
+    {
+      "check": "evidence_v2_contract_schema",
+      "pass_": true,
+      "detail": "gap_evidence_v2"
+    },
+    {
+      "check": "projection_highlevel_autoroute",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/projection_operator/operator_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/public_highlevel_smoke_20261003/mergeseq2024/evidence/stage_report.json')]"
+    },
+    {
+      "check": "projection_highlevel_zero_errors",
+      "pass_": true,
+      "detail": "executed={'relation_index': 'done (1 eligible identity levels)', 'information_criterion': 'done (1 identity-level summaries)', 'effect_size': 'done (320 gene-target effect rows; OK)', 'projection_operator': 'done (3 summary rows)'}; evidence_domain=projection"
+    },
+    {
+      "check": "categorical_effect_size_boundary",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\multidataset_rank_biserial_20261003\\condylis2022\\rank_biserial_summary.csv"
+    },
+    {
+      "check": "categorical_effect_size_is_na",
+      "pass_": true,
+      "detail": "{'dataset': 'condylis2022', 'domain': 'function', 'target_profile': 'state_mean', 'status': 'NOT_APPLICABLE', 'reason': 'categorical_one_hot_quartiles_undefined', 'n_genes_scanned': 6, 'n_targets': 6, 'n_gene_target_pairs': 0, 'median_abs_effect': nan, 'q95_abs_effect': nan, 'n_abs_ge_0p2_consistency_ge_0p75': 0, 'exploratory_top_gene': nan, 'exploratory_top_target': nan, 'exploratory_top_median_rank_biserial': nan, 'exploratory_top_sign_consistency': nan, 'exploratory_top_bh_q': nan}"
+    },
+    {
+      "check": "coordinate_mediation_highlevel_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_coordinates_shainer_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_coordinates_shainer_20261003/coordinate_mediation/coordinate_models_summary.csv')]"
+    },
+    {
+      "check": "coordinate_mediation_highlevel_zero_errors",
+      "pass_": true,
+      "detail": "{'coordinate_mediation': 'done (6 coordinate models; 6 held groups)'}"
+    },
+    {
+      "check": "shainer_space_contract_regression",
+      "pass_": true,
+      "detail": "[{'r2_macro': 0.0150875502906701, 'rho_macro': 0.2607925992495239, 'ext_auc_macro': 0.6788896288239155, 'ext_ap_macro': 0.6874426370656957, 'n_held_groups': 6}]"
+    },
+    {
+      "check": "coordinate_fig123_multidataset_regression_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\manuscript\\fig47_tool_matrix_20261002\\PUBLIC_COORDINATE_FIG123_NUMERIC_REGRESSION_SUMMARY_20261003.csv"
+    },
+    {
+      "check": "coordinate_fig123_9of9_contract_pass",
+      "pass_": true,
+      "detail": "[{'dataset': 'bugeon2022', 'max_abs_diff': 0.0, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'xu2020', 'max_abs_diff': 5.967448757360216e-16, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'condylis2022', 'max_abs_diff': 1.1102230246251563e-16, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'shainer2025', 'max_abs_diff': 2.230024938399897e-05, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'warp2026', 'max_abs_diff': 1.6299895461147074e-14, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'zhao2026', 'max_abs_diff': 6.106226635438361e-16, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'celegans_atanas2023', 'max_abs_diff': 0.0001486325148839, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'sorensen2026', 'max_abs_diff': 3.05311331771918e-16, 'n_failed_metrics': 0.0, 'contract_pass': True}, {'dataset': 'allen_vc2p', 'max_abs_diff': 0.0, 'n_failed_metrics': 0.0, 'contract_pass': True}]"
+    },
+    {
+      "check": "relation_target_validity_audit",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\manuscript\\RELATION_INDEX_TARGET_VALIDITY_AUDIT_20261003.json"
+    },
+    {
+      "check": "relation_target_validity_counts_locked",
+      "pass_": true,
+      "detail": "{'total_rows': 57, 'old_inferential': 31, 'valid_inferential': 29, 'invalid_ok_contracts': 2, 'old_fdr05': 13, 'valid_fdr05': 11}"
+    },
+    {
+      "check": "coordinate_metric_v3_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_MULTIMETRIC_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/PUBLIC_COORDINATE_MEDIATION_PAIRED_CONTRASTS_V3_20261003.csv')]"
+    },
+    {
+      "check": "coordinate_metric_v3_schema",
+      "pass_": true,
+      "detail": "models=60 contrasts=60 columns=['auprc', 'auroc', 'brier', 'calibration_intercept', 'calibration_slope', 'nrmse', 'pearson', 'r2', 'spearman']"
+    },
+    {
+      "check": "fig47_compact_scorecard_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_COMPACT_SCORECARD_V1_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_DATASET_STAGE_COVERAGE_MATRIX_V1_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/fig47_tool_matrix_20261002/FIG4_7_CORE_DATASET_DASHBOARD_V1_20261003.csv')]"
+    },
+    {
+      "check": "merge_relation_invalid_not_headlined",
+      "pass_": true,
+      "detail": "[{'dataset': 'mergeseq2024', 'coord_type_r2': nan, 'coord_type_pearson': nan, 'coord_type_spearman': nan, 'coord_type_auroc': nan, 'coord_type_auprc': nan, 'coord_type_nrmse': nan, 'coord_type_brier': nan, 'coord_genes_r2': nan, 'coord_genes_pearson': nan, 'coord_genes_spearman': nan, 'coord_genes_auroc': nan, 'coord_genes_auprc': nan, 'coord_genes_nrmse': nan, 'coord_genes_brier': nan, 'coord_space_r2': nan, 'coord_space_pearson': nan, 'coord_space_spearman': nan, 'coord_space_auroc': nan, 'coord_space_auprc': nan, 'coord_space_nrmse': nan, 'coord_space_brier': nan, 'coord_all_coordinates_r2': nan, 'coord_all_coordinates_pearson': nan, 'coord_all_coordinates_spearman': nan, 'coord_all_coordinates_auroc': nan, 'coord_all_coordinates_auprc': nan, 'coord_all_coordinates_nrmse': nan, 'coord_all_coordinates_brier': nan, 'aic_median_delta_max': 2049.667158233715, 'aic_median_delta_min': 2049.667158233715, 'relation_index_valid_max': nan, 'relation_index_valid_min': nan, 'rank_biserial_median_abs_max': nan, 'rank_biserial_median_abs_min': nan, 'relation_tool_smoke_max': 0.0, 'relation_tool_smoke_min': 0.0, 'operator_shared_lowrank_r2_max': nan, 'operator_shared_lowrank_r2_min': nan, 'coord_connectivity_r2': nan, 'coord_connectivity_pearson': nan, 'coord_connectivity_spearman': nan, 'coord_connectivity_auroc': nan, 'coord_connectivity_auprc': nan, 'coord_connectivity_nrmse': nan, 'coord_connectivity_brier': nan}]"
+    },
+    {
+      "check": "highlevel_validated_fig45_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/functional_completion/completion_opportunity.csv'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_fig45_xu_profiled_20261003/operator/operator_summary.csv')]"
+    },
+    {
+      "check": "highlevel_validated_fig45_zero_errors",
+      "pass_": true,
+      "detail": "{'functional_completion': 'done (11 target opportunities; profile=state_mean)', 'operator': 'done (3 validated operator rows; 11 targets)'}"
+    },
+    {
+      "check": "highlevel_xu_ghrelin_completion_regression",
+      "pass_": true,
+      "detail": "[{'function_only_r2': 0.4218462745648234, 'joint_r2': 0.4857496128472306, 'molecular_rescue': 0.0639033382824072, 'delta_spearman_joint_vs_function': 0.0398769215238283, 'delta_auroc_joint_vs_function': 0.0272512883221242}]"
+    },
+    {
+      "check": "highlevel_xu_biological_operator_regression",
+      "pass_": true,
+      "detail": "{'independent_Ridge': {'r2_vw': 0.0891757848305427, 'spearman': 0.2354266442870512, 'delta_r2_vs_independent': 0.0}, 'shared_fullrank': {'r2_vw': 0.0987434860241092, 'spearman': 0.2524309026988566, 'delta_r2_vs_independent': 0.0095677011935664}, 'shared_RRR_selected': {'r2_vw': 0.0978986044145162, 'spearman': 0.2492136660290099, 'delta_r2_vs_independent': 0.0087228195839734}}"
+    },
+    {
+      "check": "highlevel_projection_validated_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_projection_merge_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/highlevel_validated_projection_merge_20261003/projection_operator/operator_summary.csv')]"
+    },
+    {
+      "check": "highlevel_projection_validated_regression",
+      "pass_": true,
+      "detail": "{'executed': {'projection_map': 'done (independent held-unit projection Ridge; r2_vw=0.221815)', 'projection_operator': 'done (3 validated shared/operator rows)'}, 'summary': {'independent_Ridge': {'r2_vw': 0.2218145443362541, 'spearman': 0.5058612999607315, 'delta_r2_vs_independent': 0.0}, 'shared_fullrank': {'r2_vw': 0.223289950108442, 'spearman': 0.4862819549076078, 'delta_r2_vs_independent': 0.0014754057721878}, 'shared_RRR_selected': {'r2_vw': 0.2143097159401353, 'spearman': 0.4850881419883658, 'delta_r2_vs_independent': -0.0075048283961187}}}"
+    },
+    {
+      "check": "atlasflow_wiring_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/function_model_zoo_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/fig2_atlasflow_v2_20261003/bugeon_visp_atlasflow_v2/function_map/atlas_downstream_paired_delta.csv')]"
+    },
+    {
+      "check": "atlasflow_consumes_lifted_features",
+      "pass_": true,
+      "detail": "{'executed': {'atlaslift': 'done (mouse_visp_exact)', 'function_map': 'done (45 summary rows)'}, 'blocks': ['atlas', 'measured', 'measured+atlas'], 'reference': 'mouse_visp_exact'}"
+    },
+    {
+      "check": "atlasflow_paired_multimetric_contract",
+      "pass_": true,
+      "detail": "{'metrics': ['auprc', 'auroc', 'brier', 'calibration_intercept', 'calibration_slope', 'nrmse', 'pearson', 'r2', 'spearman'], 'columns': ['dataset', 'target', 'model', 'block', 'metric', 'direction', 'delta_mean', 'delta_median', 'positive_fraction', 'n_held']}"
+    },
+    {
+      "check": "atlasflow_consensus_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/function_map/workflow_manifest.json'), WindowsPath('G:/GAP_release_20261001/results/atlasflow_consensus_regression_20261003/function_map/atlas_downstream_multimetric_consensus.csv')]"
+    },
+    {
+      "check": "atlasflow_consensus_regression",
+      "pass_": true,
+      "detail": "{'core_metrics': ['auprc', 'auroc', 'brier', 'nrmse', 'pearson', 'r2', 'spearman'], 'speed_pls': [{'dataset': 'bugeon2022', 'target': 'feat__speed_r', 'model': 'PLS', 'block': 'measured+atlas', 'n_core_metrics_present': 7, 'n_core_metrics_positive': 7, 'positive_metric_fraction': 1.0, 'all_present_core_metrics_positive': True, 'delta_r2': 0.0471544994796132, 'delta_pearson': 0.0234826241704026, 'delta_spearman': 0.0191141054573026, 'delta_nrmse': 0.0194510466510387, 'delta_auroc': 0.0110834062932304, 'delta_auprc': 0.0041635307862414, 'delta_brier': 0.0002753396134744, 'held_positive_fraction_r2': 1.0, 'held_positive_fraction_pearson': 0.75, 'held_positive_fraction_spearman': 0.75, 'held_positive_fraction_nrmse': 1.0, 'held_positive_fraction_auroc': 0.75, 'held_positive_fraction_auprc': 0.5, 'held_positive_fraction_brier': 1.0, 'n_held_r2': 4, 'n_held_pearson': 4, 'n_held_spearman': 4, 'n_held_nrmse': 4, 'n_held_auroc': 4, 'n_held_auprc': 4, 'n_held_brier': 4}]}"
+    },
+    {
+      "check": "fig1_fig2_current_authority_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG1_MULTIAXIS_AUTHORITY_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG1_PREDEFINED_COORDINATE_CONTRASTS_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG2_GEOMETRY_LAYERED_AUTHORITY_V3_20261003.csv')]"
+    },
+    {
+      "check": "fig1_fig2_current_authority_semantics",
+      "pass_": true,
+      "detail": "{'fig1_rows': 120, 'zhao_delta_spearman': 0.1269053847881139, 'atlasflow_datasets': ['bugeon2022', 'condylis2022', 'mclachlan2025', 'shainer2025', 'xu2020', 'zhao2026'], 'bugeon_exact_status': ['NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED', 'NOT_SUPPORTED'], 'mclachlan_exact_status': ['SUPPORTED_RECOVERY']}"
+    },
+    {
+      "check": "fig3_current_authority_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG3_CURRENT_AUTHORITY_V3_20261003.md')]"
+    },
+    {
+      "check": "fig3_current_authority_semantics",
+      "pass_": true,
+      "detail": "{'primary_m1': {'K25_joint_r2': 0.3685504334765985, 'K25_retained_full': 0.845111972550394, 'K25_delta_vs_PERSIST': 0.041979365166649, 'K25_delta_vs_random_p95': 0.1227037019206145, 'K50_joint_r2': 0.3803620644262009, 'K50_retained_full': 0.872196870095331}, 'true_hidden_wang': {'n_targets': 5, 'all_auroc_advantage_positive': True, 'min_auroc_advantage': 0.0106779038352304, 'max_auroc_advantage': 0.0349813742875212}, 'warp': {'K25_auroc': 0.5562696484530568, 'full31_auroc': 0.554993477484222, 'K25_spearman': 0.1041591414738981, 'full31_spearman': 0.1039007182455082, 'fixed_budget_replacement_beats_full31': False, 'add_functional_auroc': 0.5587531826065316}, 'zhao_marker_budget': {'any_fdr_q_lt_0p05': False, 'contract': 'prospective_not_true_hidden_replacement'}, 'broad_replication': {'n_rows': 8, 'n_fdr_supported': 0, 'chevee_wins': '6/6'}}"
+    },
+    {
+      "check": "fixed_budget_mclachlan_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_manifest.json'), WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/fig3_fixed_budget_validation_20261003/mclachlan2025/fixed_budget_folds.csv')]"
+    },
+    {
+      "check": "fixed_budget_mclachlan_contract",
+      "pass_": true,
+      "detail": "{'n_genes': 23, 'n_targets': 16, 'budgets': [5, 10, 20, 23], 'metrics': ['auprc', 'auroc', 'nrmse', 'r2', 'spearman'], 'n_folds': 4, 'full_panel_noninferential': True}"
+    },
+    {
+      "check": "fixed_budget_highlevel_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/mclachlan_fig3_highlevel_smoke_v2_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/mclachlan_fig3_highlevel_smoke_v2_20261003/fixed_budget/fixed_budget_summary.csv')]"
+    },
+    {
+      "check": "fixed_budget_highlevel_zero_errors",
+      "pass_": true,
+      "detail": "{'executed': {'fixed_budget': 'done (20 K-metric rows; 8 targets)'}, 'errors': {}, 'full_panel_noninferential': True}"
+    },
+    {
+      "check": "fixed_budget_public_inspect_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\mclachlan_fig123_inspect_v2_20261003.json"
+    },
+    {
+      "check": "fixed_budget_public_registry_contract",
+      "pass_": true,
+      "detail": "{'models': ['train_only_functional_selector', 'matched_random_same_K'], 'primary': ['delta_mean', 'held_unit_wins', 'wilcoxon_q_bh']}"
+    },
+    {
+      "check": "mclachlan_fig123_onecommand_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\mclachlan_fig123_onecommand_smoke_20261003\\manifest.json"
+    },
+    {
+      "check": "mclachlan_fig123_onecommand_zero_errors",
+      "pass_": true,
+      "detail": "{'executed': {'atlaslift': 'done (mouse_peri_ect_exact)', 'function_map': 'done (8 summary rows)', 'coordinate_mediation': 'done (4 coordinate models; 4 held groups)', 'relation_index': 'done (1 eligible identity levels)', 'information_criterion': 'done (1 identity-level summaries)', 'effect_size': 'done (184 gene-target effect rows; OK)', 'fixed_budget': 'done (20 K-metric rows; 8 targets)'}, 'errors': {}}"
+    },
+    {
+      "check": "allen_vl_fig123_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_test_20261003/EXTRACTION_SUMMARY.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_test_20261003/PRIMARY_ANALYSIS_CONTRACT.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/coordinate_mediation/coordinate_increment_contrasts.csv'), WindowsPath('G:/GAP_release_20261001/results/allen_visual_learning_hcr_fig123_full_20261003/fixed_budget/fixed_budget_summary.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/ALLEN_VL_HCR_FIG123_TOOL_VALIDATION_20261003.json')]"
+    },
+    {
+      "check": "allen_vl_extraction_contract",
+      "pass_": true,
+      "detail": "{'n_mice': 6, 'n_rows': 1321, 'n_genes': 21, 'n_features': 13}"
+    },
+    {
+      "check": "allen_vl_fig123_onecommand_zero_errors",
+      "pass_": true,
+      "detail": "{'executed': {'atlaslift': 'done (mouse_visp_exact)', 'function_map': 'done (117 summary rows)', 'coordinate_mediation': 'done (4 coordinate models; 6 held groups)', 'relation_index': 'done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=273)', 'information_criterion': 'done (2 identity-domain summaries; function:relation=2,AIC=2,effects=273)', 'effect_size': 'done (273 gene-target-domain effect rows; function:relation=2,AIC=2,effects=273)', 'fixed_budget': 'done (function:20 rows/13 targets)'}, 'errors': {}, 'integration_checks': '12/12'}"
+    },
+    {
+      "check": "allen_vl_fig123_numeric_contract",
+      "pass_": true,
+      "detail": "{'reference': 'mouse_visp_exact', 'overlap': 19, 'recovery_p': 0.0476190476190476, 'type_to_gene_delta_rho': 0.0884675360992044, 'type_to_gene_wins': 1.0, 'k5_spearman_q': 0.046875, 'k5_spearman_wins': 6, 'full_panel_noninferential': True}"
+    },
+    {
+      "check": "dataset_integrity_preflight_v2_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\dataset_integrity_audit_20261003\\DATASET_INTEGRITY_PREFLIGHT_V2.csv"
+    },
+    {
+      "check": "dataset_integrity_scope_and_support_contract",
+      "pass_": true,
+      "detail": "{'bugeon': {'severity': 'PASS', 'split_mode': 'leave_one_biological_unit_out'}, 'condylis': {'severity': 'PASS', 'split_mode': 'leave_one_biological_unit_out'}, 'sorensen': {'severity': 'PASS', 'split_mode': 'group_kfold_whole_biological_units'}, 'allen_hcr': {'n_strict_function_targets': 13, 'n_partial_function_targets': 3}, 'zhao': {'n_strict_projection_targets': 26, 'n_partial_projection_targets': 12, 'n_invalid_projection_targets': 29}}"
+    },
+    {
+      "check": "fig123_global_integrity_regression_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.csv'), WindowsPath('G:/GAP_release_20261001/results/fig123_global_integrity_regression_20261003/FIG123_GLOBAL_INTEGRITY_REGRESSION.json')]"
+    },
+    {
+      "check": "fig123_global_integrity_14of14_contract",
+      "pass_": true,
+      "detail": "{'n_datasets': 14, 'n_pass': 14, 'errors': 0, 'warns': ['allen_vc2p', 'celegans_atanas2023', 'zhao2026', 'allen_vc2p_VISp', 'microns', 'allen_visual_learning_hcr']}"
+    },
+    {
+      "check": "fig123_boundary_regression_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TOOL_BOUNDARY_REGRESSION_20261003.json')]"
+    },
+    {
+      "check": "fig123_boundary_regression_5of5_contract",
+      "pass_": true,
+      "detail": "{'n_tests': 5, 'n_pass': 5, 'keys': ['microns', 'mergeseq2024', 'condylis2022', 'allen_hcr', 'sorensen2026']}"
+    },
+    {
+      "check": "fig123_normal_onecommand_regression_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_NORMAL_ONECOMMAND_REGRESSION_20261003.json')]"
+    },
+    {
+      "check": "fig123_normal_onecommand_6of6_contract",
+      "pass_": true,
+      "detail": "{'n_tests': 6, 'n_pass': 6, 'keys': ['bugeon2022', 'allen_vc2p', 'celegans', 'shainer2025', 'xu2020', 'zhao2026']}"
+    },
+    {
+      "check": "fig123_normal_numeric_structure_sanity",
+      "pass_": true,
+      "detail": "{'bugeon_genes_rho': 0.3976310052451494, 'bugeon_space_rho': 0.0403905083806143, 'shainer_space_rho': 0.2609781350457251, 'shainer_genes_rho': 0.0315315248073376, 'xu_genes_rho': 0.3380637717970088, 'xu_type_rho': 0.2009570374056317}"
+    },
+    {
+      "check": "fig123_execution_coverage_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_DATASET_EXECUTION_COVERAGE_20261003.json')]"
+    },
+    {
+      "check": "fig123_execution_coverage_14of14_contract",
+      "pass_": true,
+      "detail": "{'n_datasets': 14, 'n_pass': 14, 'total_capability_checks': 91, 'failed': [], 'incomplete': []}"
+    },
+    {
+      "check": "fig123_warp_scale_contract",
+      "pass_": true,
+      "detail": "{'input_rows': 306108, 'coordinate_rows': 60000, 'fixed_budget_rows': 150000, 'coordinate_group_rows': [20000, 20000, 20000], 'fixed_group_rows': [50000, 50000, 50000], 'k5_spearman_delta': 0.0460676090771525, 'k5_wins': 3, 'k5_p': 0.125, 'full_panel_noninferential': True}"
+    },
+    {
+      "check": "easipass2026_external_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/EASIPASS_2026_EXTERNAL_READINESS_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/GOLDEN_MATCHING_SUMMARY.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_INTAKE_SCHEMA_TEST.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_MULTI_ANIMAL_CONTRACT_TEST.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/onecommand_contract/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pairwise_contract/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pairwise_contract/pairwise_summary.csv'), WindowsPath('G:/GAP_release_20261001/toolkit_runtime/gxa/adapters/easipass2026.py')]"
+    },
+    {
+      "check": "easipass2026_official_matching_reproduction",
+      "pass_": true,
+      "detail": "{'accepted_iou_matches': 1199, 'somaprint_confident': 1149, 'segmented_2p_reference_denominator': 1439, 'iou_match_fraction_vs_reference_denominator': 0.8332175121612231, 'somaprint_fraction_vs_reference_denominator': 0.7984711605281446, 'median_best_match_iou_at_2p_z': 0.2859504132231405}"
+    },
+    {
+      "check": "easipass2026_matching_only_safe_intake",
+      "pass_": true,
+      "detail": "{'pvalb_mapped': True, 'sst_mapped': True, 'dapi_excluded': True, 'gcamp_excluded': True, 'tdtomato_excluded': True, 'no_fabricated_function': True, 'atlaslift_detected': True, 'function_map_blocked': True, 'fixed_budget_blocked': True, 'no_function_clear_error': True}"
+    },
+    {
+      "check": "easipass2026_multi_animal_adapter_contract",
+      "pass_": true,
+      "detail": "{'n_rows': 96, 'n_genes': 8, 'n_functional_targets': 3, 'has_biological_groups': True, 'has_cell_type': True, 'has_spatial_coordinates': True, 'holdout_group_column': 'animal_id', 'holdout_scope': 'biological_unit', 'n_holdout_groups': 4}"
+    },
+    {
+      "check": "easipass2026_onecommand_fig123_contract",
+      "pass_": true,
+      "detail": "{'executed': {'function_map': 'done (3 summary rows)', 'coordinate_mediation': 'done (7 coordinate models; 4 held groups)', 'fixed_budget': 'done (function:10 rows/3 targets)', 'relation_index': 'done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=24)', 'information_criterion': 'done (1 identity-domain summaries; function:relation=1,AIC=1,effects=24)', 'effect_size': 'done (24 gene-target-domain effect rows; function:relation=1,AIC=1,effects=24)'}, 'errors': {}}"
+    },
+    {
+      "check": "easipass2026_pairwise_correlation_distance_contract",
+      "pass_": true,
+      "detail": "{'n_units': 4, 'within_rho': -0.7729526373052618, 'across_rho': -0.8007803330818716, 'fixture_only': True}"
+    },
+    {
+      "check": "pbn_exact_reference_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/PBN_EXACT_REFERENCE_AUTHORITY_20261004.json'), WindowsPath('G:/GAP_release_20261001/results/pbn_exact_reference_benchmark_20261004/AUTHORITY.json'), WindowsPath('G:/GAP_release_20261001/results/pbn_exact_reference_benchmark_20261004/public_map/map_report.json'), WindowsPath('G:/GAP_release_20261001/toolkit_runtime/references/exact_region_20261004/PBN_PauliChen2022_N1_N21.npz')]"
+    },
+    {
+      "check": "pbn_exact_reference_published_contract",
+      "pass_": true,
+      "detail": "{'n_states': 21, 'n_genes': 14437, 'geo': 'GSE207708', 'sha256': '79b52937cce44ee4ae85ada0ee1737d82299097db25e4f7300211ad6d2b7ed11'}"
+    },
+    {
+      "check": "pbn_exact_reference_auto_router",
+      "pass_": true,
+      "detail": "{'top_ranked': 'mouse_pbn_paulichen_exact', 'public_map': 'mouse_pbn_paulichen_exact'}"
+    },
+    {
+      "check": "pbn_exact_reference_public_map_qc",
+      "pass_": true,
+      "detail": "{'quality': 'HIGH', 'overlap': 20, 'geometry_rho': 0.9892401159967984, 'recovery': 0.9646103896103895, 'stability': 0.9953734315931797}"
+    },
+    {
+      "check": "pbn_exact_reference_sparse_self_recovery",
+      "pass_": true,
+      "detail": "{'fixture_only': True, 'k5_acc': 0.9404761904761905, 'k5_hidden_rho': 0.8753919840688518, 'k10_acc': 0.9940476190476191, 'boundary': 'reference self-consistency only; not EASI-PASS biological evidence'}"
+    },
+    {
+      "check": "easipass2026_official_matching_only_run_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\easipass2026_external_test_20261003\\official_matching_only_run\\manifest.json"
+    },
+    {
+      "check": "easipass2026_official_matching_only_safe_stop",
+      "pass_": true,
+      "detail": "{'executed': {'function_map': 'blocked (input requirements not met)', 'coordinate_mediation': 'blocked (input requirements not met)', 'atlaslift': 'blocked (input requirements not met)', 'fixed_budget': 'blocked (input requirements not met)', 'relation_index': 'blocked (input requirements not met)', 'information_criterion': 'blocked (input requirements not met)', 'effect_size': 'blocked (input requirements not met)'}, 'errors': {}}"
+    },
+    {
+      "check": "easipass2026_aligned_feature_auto_intake_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/auto_intake_inspect.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/auto_intake_run/manifest.json')]"
+    },
+    {
+      "check": "easipass2026_aligned_feature_auto_inspect",
+      "pass_": true,
+      "detail": "{'n_rows': 3, 'n_genes': 2, 'atlaslift': True, 'function_map': False}"
+    },
+    {
+      "check": "easipass2026_aligned_feature_auto_run",
+      "pass_": true,
+      "detail": "{'executed': {'atlaslift': 'done (mouse_visp_exact)', 'function_map': 'blocked (input requirements not met)', 'fixed_budget': 'blocked (input requirements not met)', 'relation_index': 'blocked (input requirements not met)', 'information_criterion': 'blocked (input requirements not met)', 'effect_size': 'blocked (input requirements not met)'}, 'errors': {}}"
+    },
+    {
+      "check": "easipass2026_pooled_multi_animal_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_PBN_POOLED_RAW_FIXTURE.csv'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pbn_pooled_auto_inspect_v2.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/pbn_pooled_auto_run_v2/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/EASIPASS_PAPER_NATIVE_REPLICATION_CONTRACT_20261004.json')]"
+    },
+    {
+      "check": "easipass2026_pooled_multi_animal_scope_contract",
+      "pass_": true,
+      "detail": "{'raw_rows': 96, 'local_2p_ids': 24, 'animals': 4, 'canonical_rows': 96, 'held_groups': 4, 'holdout_scope': 'biological_unit', 'relation_available': False, 'atlaslift': 'done (mouse_pbn_paulichen_exact)', 'relation': 'blocked (input requirements not met)', 'errors': {}, 'fixture_only': True}"
+    },
+    {
+      "check": "easipass2026_v1_paper_native_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_RAW_FIXTURE.csv'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/EASIPASS_V1_POOLED_TRACES.npz'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_auto_inspect.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_auto_run/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_pairwise/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/easipass2026_external_test_20261003/v1_pooled_pairwise/pairwise_summary.csv')]"
+    },
+    {
+      "check": "easipass2026_v1_pooled_fig123_contract",
+      "pass_": true,
+      "detail": "{'raw_rows': 120, 'local_2p_ids': 30, 'animals': 4, 'canonical_rows': 120, 'held_groups': 4, 'atlaslift': 'done (mouse_visp_exact)', 'relation': 'blocked (input requirements not met)', 'errors': {}, 'fixture_only': True}"
+    },
+    {
+      "check": "easipass2026_v1_pairwise_raw_intake_contract",
+      "pass_": true,
+      "detail": "{'n_cells': 120, 'n_units': 4, 'coordinates': ['space__x', 'space__y', 'space__z'], 'within_rho': -0.8121016698431495, 'across_rho': -0.8278708976046523, 'within_p': 0.0625, 'across_p': 0.0625, 'fixture_only': True}"
+    },
+    {
+      "check": "pbn_published_marker_headroom_bundle",
+      "pass_": true,
+      "detail": "analysis_workspace/results\\pbn_exact_reference_validation_20261004\\PBN_PUBLISHED_MARKER_HEADROOM.csv"
+    },
+    {
+      "check": "pbn_published_marker_headroom_contract",
+      "pass_": true,
+      "detail": "{'panels': ['TF8', 'NP8', 'MIX16', 'MIX24'], 'min_geometry': 0.9835796387520528, 'min_stability': 0.9389948174357414, 'boundary': 'published-marker reference self-consistency only'}"
+    },
+    {
+      "check": "fig123_to_fig47_end2end_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_SUMMARY_V2_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG123_TO_FIG47_END2END_AUTHORITY_V2_20261004.md'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG4_7_END2END_TOOL_V2_AUTHORITY_20261004.csv'), WindowsPath('G:/GAP_release_20261001/results/manuscript/FIG4_7_END2END_TOOL_V2_QA_20261004.csv')]"
+    },
+    {
+      "check": "fig123_to_fig47_allen_fullchain_contract",
+      "pass_": true,
+      "detail": "{'figures': ['Fig1', 'Fig2', 'Fig3', 'Fig4', 'Fig5', 'Fig6', 'Fig7'], 'fig4_role': 'SATURATION_BOUNDARY', 'fig6': 'Within-dataset raw+Large vs raw mean delta R2=+0.0046, 8/10 targets positive. Prespecified HCR visual-evoked-strength -> Zhao transfer: source OOF rho=0.305, target rho=-0.192, p=0.921; status=EXECUTED_NO_TARGET_TRANSFER; claim_supported=false.', 'fig7': 'EXECUTED'}"
+    },
+    {
+      "check": "fig123_to_fig47_boundary_stop_contract",
+      "pass_": true,
+      "detail": "{'mclachlan2025': {'all_tool_pass': True, 'fig5': 'EXECUTED', 'fig6': 'BLOCKED_PRECHECK', 'fig7': 'NOT_APPLICABLE_GATE'}, 'condylis2022': {'all_tool_pass': True, 'fig5': 'EXECUTED', 'fig6': 'BLOCKED_PRECHECK', 'fig7': 'NOT_APPLICABLE_GATE'}, 'microns_v1em': {'all_tool_pass': True, 'fig5': 'NOT_APPLICABLE', 'fig6': 'NOT_APPLICABLE', 'fig7': 'NOT_APPLICABLE'}}"
+    },
+    {
+      "check": "zhao_integrity_regression_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/coordinate_mediation/stage_report.json'), WindowsPath('G:/GAP_release_20261001/results/zhao2026_integrity_regression_v2_20261003/fixed_budget/projection/fixed_budget_manifest.json')]"
+    },
+    {
+      "check": "zhao_missing_target_safe_contract",
+      "pass_": true,
+      "detail": "{'executed': {'coordinate_mediation': 'done (12 coordinate models; 6 held groups)', 'relation_index': 'done (2 eligible identity-domain levels; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=360)', 'information_criterion': 'done (2 identity-domain summaries; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=360)', 'effect_size': 'done (510 gene-target-domain effect rows; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=360)', 'fixed_budget': 'done (function:25 rows/5 targets; projection:25 rows/12 targets)'}, 'coord_version': 'gap_coordinate_mediation_v3_no_outcome_imputation', 'coord_targets': 5, 'projection_targets': 12, 'split': 'group_kfold_whole_biological_units'}"
+    },
+    {
+      "check": "condylis_integrity_benchmark_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/atlaslift/reference_ranking.csv'), WindowsPath('G:/GAP_release_20261001/results/condylis2022_fig123_integrity_v3_20261003/fixed_budget/fixed_budget_summary.csv')]"
+    },
+    {
+      "check": "condylis_contract_aware_execution",
+      "pass_": true,
+      "detail": "{'executed': {'atlaslift': 'done (mouse_ssp_bfd_exact)', 'function_map': 'done (54 summary rows)', 'coordinate_mediation': 'done (4 coordinate models; 9 held groups)', 'relation_index': 'done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=0)', 'information_criterion': 'done (1 identity-domain summaries; function:relation=1,AIC=1,effects=0)', 'effect_size': 'blocked', 'fixed_budget': 'done (function:10 rows/6 targets)'}, 'reference': 'mouse_ssp_bfd_exact', 'overlap': 6, 'recovery_rho': 0.2211307178257852, 'recovery_p': 0.0476190476190476, 'full_panel_noninferential': True}"
+    },
+    {
+      "check": "microns_v1em_boundary_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_TOOL_VALIDATION_20261003.csv'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_full_authority_20261003/manifest.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_connectivity_authority_20261003/manifest.json')]"
+    },
+    {
+      "check": "microns_v1em_integrity_contract",
+      "pass_": true,
+      "detail": "{'checks': '13/13', 'full_rows': 24713, 'connectivity_rows': 1151, 'holdout_scope': 'session_acquisition', 'full_coordinate': {'type_rho': 0.036866574879087, 'space_rho': 0.1465033858055776, 'all_rho': 0.1664825962823708, 'space_minus_type_rho': 0.1096368109264905}, 'connectivity_nested': {'delta_rho_given_type_space': 0.003783704981636403, 'wins_given_type_space': '3/6', 'delta_rho_given_type_space_morph': -0.0015567227371724678, 'wins_given_type_space_morph': '3/6'}, 'full_executed': {'atlaslift': 'blocked', 'function_map': 'blocked', 'coordinate_mediation': 'done (6 coordinate models; 6 held groups)', 'relation_index': 'done (2 eligible identity-domain levels; function:relation=2,AIC=0,effects=0)', 'information_criterion': 'blocked', 'effect_size': 'blocked', 'fixed_budget': 'blocked'}}"
+    },
+    {
+      "check": "microns_v1em_integrity_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/manuscript/MICRONS_V1EM_INTEGRITY_BENCHMARK_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_full_inspect_current_20261003.json'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_coordinates_integrity_20261003/coordinate_models_folds.csv'), WindowsPath('G:/GAP_release_20261001/results/microns_v1em_selection_bias_controls_20261003/MATCHED_RANDOM_SELECTION_BIAS_SUMMARY.csv')]"
+    },
+    {
+      "check": "microns_v1em_scope_and_sparse_connectivity_contract",
+      "pass_": true,
+      "detail": "{'holdout_scope': 'session_acquisition', 'n_sessions': 13, 'connectivity_complete_fraction': 0.04657467729535063, 'primary_connectivity_columns': 0}"
+    },
+    {
+      "check": "microns_v1em_connectivity_increment_with_selection_warning",
+      "pass_": true,
+      "detail": "{'connectivity_delta_pearson': 0.024594157633735986, 'wins': 6, 'subset_space_rho': 0.115057679498584, 'matched_random_space_rho': 0.1543230616540061, 'selection_z': -4.617628214565641}"
+    },
+    {
+      "check": "foundation_atlas_token_resolver",
+      "pass_": true,
+      "detail": "{'available': True, 'overlap': 20, 'mapping': [('Adarb2', 'mouse::atlas::Adarb2'), ('Adcy2', 'mouse::atlas::Adcy2'), ('Adgrb3', 'mouse::atlas::Adgrb3')]}"
+    },
+    {
+      "check": "foundation_parent_subregion_compatibility",
+      "pass_": true,
+      "detail": "{'available': True, 'region_fraction': 1.0, 'declared_region': 'VISp L1/2/3', 'observed_region': 'VISp'}"
+    },
+    {
+      "check": "foundation_ensembl_namespace_contract",
+      "pass_": true,
+      "detail": "{'namespace': 'ensembl_mouse', 'reasons': ['only 0 measured genes resolve to frozen primary/atlas gene tokens (<16)', 'gene columns use Ensembl stable IDs; explicit Ensembl-to-symbol normalization is required before frozen foundation tokenization']}"
+    },
+    {
+      "check": "campariseq_campaign_species",
+      "pass_": true,
+      "detail": "[{'dataset': 'campariseq2026', 'species': 'zebrafish', 'n': 15559.0, 'p': 1500.0, 'targets': 1.0, 'n_groups': 4.0}]"
+    },
+    {
+      "check": "fig6_tool_completion_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_DATASET_CAPABILITY_MATRIX.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_GLOBAL_CAPABILITY_MATRIX.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_completion_20261003/FIG6_TOOL_COMPLETION_SUMMARY.json')]"
+    },
+    {
+      "check": "fig6_tool_completion_no_missing",
+      "pass_": true,
+      "detail": "{'n_datasets': 23, 'classical_model_zoo_executed': 12, 'classical_diagnostic_only': 1, 'foundation_eval_executed': 3, 'foundation_explicit_block_or_na': 20, 'foundation_missing': 0, 'complete_executed': 10, 'operator_executed': 10, 'global_capability_rows': 12, 'runtime_QA': '90/90 PASS'}"
+    },
+    {
+      "check": "foundation_lowlabel_warp_d2",
+      "pass_": true,
+      "detail": "[{'fraction': 0.1, 'delta_spearman': 0.08051136521958221, 'delta_auroc': 0.0523267695237839, 'delta_r2': 0.010823547327756193}, {'fraction': 0.2, 'delta_spearman': 0.10577410716270058, 'delta_auroc': 0.06882337036129604, 'delta_r2': 0.028563816564562694}, {'fraction': 0.5, 'delta_spearman': 0.10929284199685224, 'delta_auroc': 0.07079949530482144, 'delta_r2': 0.024879778128788346}]"
+    },
+    {
+      "check": "flicre_grouping_fallback_contract",
+      "pass_": true,
+      "detail": "{'group_key': 'session_id', 'n_groups': 3, 'semantics': 'session/library-level holdout; not independent-animal generalization'}"
+    },
+    {
+      "check": "chevee_public_blocked_compact_contract",
+      "pass_": true,
+      "detail": "{'profile_bytes': 16829, 'plan_bytes': 19153, 'executed': {'foundation_eval': 'blocked'}, 'errors': {}, 'n_columns': 512, 'n_excluded': 148}"
+    },
+    {
+      "check": "fig6_v5_capability_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_MATRIX_V5.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_tool_capability_matrix_20261003/FIG6_TOOL_CAPABILITY_SUMMARY_V5.json')]"
+    },
+    {
+      "check": "fig6_v5_no_missing_expected_routes",
+      "pass_": true,
+      "detail": "{'n_dataset_rows': 24, 'complete_executed': 10, 'operator_executed': 10, 'functional_modelzoo_applicable': 11, 'functional_modelzoo_executed': 11, 'foundation_embedding_executed': 5, 'foundation_eval_executed': 4, 'foundation_coverage_boundaries': 14, 'low_label_executed': 4, 'known_transfer_routes': 4, 'weak_source_fallback_diagnostics': 1, 'missing_expected_modelzoo': [], 'missing_expected_foundation_eval': []}"
+    },
+    {
+      "check": "fig6_v5_boundary_state_semantics",
+      "pass_": true,
+      "detail": "{'campari': [{'modelzoo_status': 'NOT_APPLICABLE_NO_FOLD_SUPPORTED_TARGET', 'foundation_eval_status': 'NOT_APPLICABLE_NO_FOLD_SUPPORTED_TARGET'}], 'liu': [{'foundation_embedding_status': 'EXECUTED', 'foundation_eval_status': 'NOT_APPLICABLE_NO_VALID_HELD_GROUP_EVAL'}]}"
+    },
+    {
+      "check": "fig6_crossspecies_router_policy_bundle",
+      "pass_": true,
+      "detail": "[WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_AUTHORITY.json'), WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/ROUTE_CANDIDATES.csv'), WindowsPath('G:/GAP_release_20261001/results/fig6_generalize_ortholog_policy_v3_20261003/GENERALIZATION_PLAN.json')]"
+    },
+    {
+      "check": "fig6_crossspecies_ortholog_diagnostic_not_selector",
+      "pass_": true,
+      "detail": "{'selected': 'foundation', 'diagnostic': ['shared_ortholog'], 'foundation_target': 0.0244512105156947, 'ortholog_target': -0.0097200175510548}"
+    },
+    {
+      "check": "fig6_crossspecies_weak_source_claim_guardrail",
+      "pass_": true,
+      "detail": "{'status': 'EXECUTED_WEAK_SOURCE_SUPPORT', 'source': -0.011353520718591623, 'target': 0.2836663437449166, 'claim_supported': False}"
+    },
+    {
+      "check": "fig6_public_full_modelzoo_five_models",
+      "pass_": true,
+      "detail": "{'models': ['ExtraTrees', 'Lasso', 'PCA32+Ridge', 'PLS', 'Ridge'], 'rows': 25}"
+    },
+    {
+      "check": "foundation_embedding_only_contract",
+      "pass_": true,
+      "detail": "{'status': 'EMBEDDING_ONLY', 'eval': 'NOT_APPLICABLE', 'overlap': 387}"
+    },
+    {
+      "check": "fig6_public_registry_surface_sync",
+      "pass_": true,
+      "detail": "{'function_map': ['Ridge', 'Lasso', 'PLS', 'PCA32+Ridge', 'ExtraTrees'], 'transfer': ['shared_gene_Ridge', 'shared_ortholog_Ridge', 'foundation_Ridge', 'TF_only', 'routed_GAP']}"
+    },
+    {
+      "check": "fig6_public_shared_ortholog_cli",
+      "pass_": true,
+      "detail": "{'representation': 'shared_ortholog', 'source_only': True, 'target_labels_used': False, 'target_rho': 0.2836663437449166}"
+    }
+  ]
+}

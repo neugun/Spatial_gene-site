@@ -1,0 +1,258 @@
+{
+  "version": "EASIPASS-2026-external-readiness-v1",
+  "paper": {
+    "title": "EASI-PASS: An accessible pipeline for linking functional imaging and mRNA profiling",
+    "doi": "10.64898/2026.08.21.746328",
+    "repo": "orena1/easi-pass",
+    "repo_commit": "9223ee8f1eb884dfc04d0d20a383a4abbc987c5f"
+  },
+  "public_demo": {
+    "status": "DIRECT_PARTIAL_REPRODUCTION_PASS",
+    "direct_matching_reproduction": {
+      "accepted_iou_matches": 1199,
+      "somaprint_confident": 1149,
+      "segmented_2p_reference_denominator": 1439,
+      "iou_match_fraction_vs_reference_denominator": 0.8332175121612231,
+      "somaprint_fraction_vs_reference_denominator": 0.7984711605281446,
+      "median_best_match_iou_at_2p_z": 0.2859504132231405
+    },
+    "golden_candidate_rows": 2665,
+    "candidate_table_unique_2p": 1387,
+    "interpretation": "1199/1439=83.3%, 1149/1439=79.85%, median z-restricted IoU=0.286 reproduce the repository's stated ~83%, ~80%, ~0.29 matching benchmarks.",
+    "not_yet_rerun": [
+      "cellpose-SAM segmentation count 1439",
+      "final cascade overlay IoU ~0.48",
+      "coarse shift dx~-18"
+    ],
+    "pipeline_rerun_status": "BLOCKED_BY_EXTERNAL_ENV_FETCH",
+    "pipeline_block_reason": "official Python 3.12 environment cannot build pinned bigstream here because PyPI setuptools fetch repeatedly times out; no compatible setuptools wheel is cached, and the local setuptools 65.5.0 is Python-3.12-incompatible (pkgutil.ImpImporter removed). Official demo archive itself downloaded and SHA-verified."
+  },
+  "gap_intake": {
+    "official_matching_csv_safe_inspect": "PASS: matching/QC table detected; 0 genes, 0 functional targets; no biological inference fabricated",
+    "aligned_feature_schema_test": "10/10 PASS",
+    "multi_animal_adapter_contract": "12/12 PASS",
+    "onecommand_execution": "PASS: {'function_map': 'done (3 summary rows)', 'coordinate_mediation': 'done (7 coordinate models; 4 held groups)', 'fixed_budget': 'done (function:10 rows/3 targets)', 'relation_index': 'done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=24)', 'information_criterion': 'done (1 identity-domain summaries; function:relation=1,AIC=1,effects=24)', 'effect_size': 'done (24 gene-target-domain effect rows; function:relation=1,AIC=1,effects=24)'}",
+    "onecommand_errors": {},
+    "official_matching_only_onecommand": {
+      "executed": {
+        "function_map": "blocked (input requirements not met)",
+        "coordinate_mediation": "blocked (input requirements not met)",
+        "atlaslift": "blocked (input requirements not met)",
+        "fixed_budget": "blocked (input requirements not met)",
+        "relation_index": "blocked (input requirements not met)",
+        "information_criterion": "blocked (input requirements not met)",
+        "effect_size": "blocked (input requirements not met)"
+      },
+      "errors": {},
+      "status": "SAFE_BLOCK_PASS"
+    },
+    "aligned_feature_auto_intake": {
+      "inspect": {
+        "n_rows": 3,
+        "n_genes": 2,
+        "n_functional_targets": 0,
+        "atlaslift_available": true
+      },
+      "executed": {
+        "atlaslift": "done (mouse_visp_exact)",
+        "function_map": "blocked (input requirements not met)",
+        "fixed_budget": "blocked (input requirements not met)",
+        "relation_index": "blocked (input requirements not met)",
+        "information_criterion": "blocked (input requirements not met)",
+        "effect_size": "blocked (input requirements not met)"
+      },
+      "errors": {},
+      "status": "AUTO_CANONICALIZE_PASS"
+    },
+    "pooled_multi_animal_raw_intake": {
+      "inspect": {
+        "n_rows": 96,
+        "n_genes": 8,
+        "n_functional_targets": 1,
+        "holdout_group_column": "animal_id",
+        "holdout_scope": "biological_unit",
+        "n_holdout_groups": 4,
+        "relation_available": false
+      },
+      "executed": {
+        "function_map": "done (1 summary rows)",
+        "coordinate_mediation": "done (7 coordinate models; 4 held groups)",
+        "atlaslift": "done (mouse_pbn_paulichen_exact)",
+        "fixed_budget": "done (function:10 rows/1 targets)",
+        "relation_index": "blocked (input requirements not met)",
+        "information_criterion": "done (1 identity-domain summaries; function:relation=0,AIC=1,effects=8)",
+        "effect_size": "done (8 gene-target-domain effect rows; function:relation=0,AIC=1,effects=8)"
+      },
+      "errors": {},
+      "status": "POOLED_SCOPE_PASS",
+      "fixture_only": true,
+      "purpose": "stress repeated local 2P/HCR IDs across animals; 24 local IDs x 4 animals must remain 96 distinct same-cell records"
+    },
+    "paper_native_replication_contract": "results/manuscript/EASIPASS_PAPER_NATIVE_REPLICATION_CONTRACT_20261004.json",
+    "adapter": "toolkit_runtime/gxa/adapters/easipass2026.py",
+    "supports": [
+      "EASI feature-channel -> gene__ canonicalization",
+      "PV->Pvalb and SST->Sst aliases",
+      "reporter/structural channel exclusion",
+      "match QC preserved as covariate",
+      "HCR coordinate join",
+      "molecular identity join",
+      "real 2P functional join",
+      "multi-animal held-unit assembly"
+    ]
+  },
+  "paper_native_pairwise": {
+    "status": "ENGINEERING_STAGE_READY",
+    "tool": "gap pairwise-correlation",
+    "contract": "cell pairs are descriptive; slope/Spearman inference uses one value per biological unit",
+    "contract_fixture_only": true,
+    "fixture_within_class_median_spearman": -0.7729526373052618,
+    "fixture_across_class_median_spearman": -0.8007803330818716,
+    "note": "synthetic contract fixture validates negative correlation-distance falloff detection; it is not EASI-PASS biological evidence"
+  },
+  "fig123_readiness": {
+    "PBN": {
+      "Fig1": "READY_WITH_FULL_DATA: genes/type/space vs optogenetic response coordinates; held-animal relation/AIC/effect-size/coordinate mediation",
+      "Fig2": "REFERENCE_LAYER_READY: mouse_pbn_paulichen_exact is registered from 21 published PBN neuronal subclusters x 14,437 genes; public router selects it first and AtlasLift executes. Biological EASI-PASS PBN lifting still awaits the actual matched PBN molecular+response table.",
+      "Fig3": "READY_WITH_FULL_DATA: fixed-budget marker compression/selection if panel and >=2 animals are supplied; hidden-gene replacement only when withheld genes are truly measured"
+    },
+    "V1": {
+      "Fig1": "READY_WITH_FULL_DATA: arousal-modulation endpoints vs genes/coarse interneuron class/space under held-animal splits",
+      "Fig2": "READY: mouse_visp_exact reference already registered",
+      "Fig3": "READY_WITH_FULL_DATA: fixed-budget panel selection with measured full panel and biological replication",
+      "paper_native_pairwise": "READY_ENGINEERING: pairwise correlation-distance stage now exists; biological reproduction awaits real traces/classes/coordinates"
+    }
+  },
+  "pbn_exact_reference": {
+    "status": "REFERENCE_LAYER_READY",
+    "authority": {
+      "name": "mouse_pbn_paulichen2022_exact",
+      "paper": "Pauli, Chen, Basiri et al., eLife 2022, Molecular and anatomical characterization of parabrachial neurons and their axonal projections",
+      "doi": "10.7554/eLife.81868",
+      "geo": "GSE207708",
+      "source_supplement": "elife-81868-supp2-v2.xlsx / sheet average",
+      "source_description": "average normalized expression for every gene across 21 neuronal PBN subclusters N1-N21",
+      "n_states": 21,
+      "n_genes": 14437,
+      "duplicate_gene_rows_collapsed": 1,
+      "states": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6",
+        "N7",
+        "N8",
+        "N9",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20",
+        "N21"
+      ],
+      "npz": "toolkit_runtime/references/exact_region_20261004/PBN_PauliChen2022_N1_N21.npz",
+      "sha256": "79b52937cce44ee4ae85ada0ee1737d82299097db25e4f7300211ad6d2b7ed11",
+      "scope": "PBN exact-region neuronal subclusters",
+      "normalization": "published average normalized expression; no reprocessing of single-cell counts",
+      "boundary": "reference supports molecular state mapping/AtlasLift; it does not reproduce EASI-PASS functional PBN findings without EASI-PASS cell-level molecular+response data"
+    },
+    "router_top_reference": {
+      "reference": "mouse_pbn_paulichen_exact",
+      "species": "mouse",
+      "backend": "matrix",
+      "scope": "region_specific",
+      "region_compatible": true,
+      "region_coverage": 1.0,
+      "region_rows": 21,
+      "region_source": "explicit_hint",
+      "region_column": null,
+      "auto_region_eligible": true,
+      "anchor_score": 97.7955364702,
+      "quality_flag": "HIGH",
+      "anchor_mode": "continuous_anchor",
+      "overlap_genes": 24.0,
+      "overlap_fraction": 1.0,
+      "evidence_precision": 0.9995318242,
+      "geometry_rho": 0.9960120432,
+      "geometry_null_p": 0.0049751244,
+      "geometry_sign_agreement": 1.0,
+      "recovery_mean_rho": 0.9185750568,
+      "recovery_null_delta_rho": 0.9176930605,
+      "recovery_null_p": 0.0196078431,
+      "mapping_stability": 0.9909971878,
+      "query_effective_rank": 15.6909557561,
+      "reference_effective_rank": 15.7323775531,
+      "error": null,
+      "molecular_rank": 1
+    },
+    "public_map_anchor_qc": {
+      "status": "ATTEMPTABLE_SCORED",
+      "quality_flag": "HIGH",
+      "anchor_score": 97.92198194169053,
+      "anchor_mode": "continuous_anchor",
+      "lift_attempt_allowed": true,
+      "overlap_genes": 24,
+      "measured_genes": 24,
+      "overlap_fraction": 1.0,
+      "evidence_precision": 0.9995318241883472,
+      "geometry_rho": 0.9960120432071461,
+      "geometry_null_p": 0.004975124378109453,
+      "geometry_sign_agreement": 1.0,
+      "recovery_mean_rho": 0.9133787208444758,
+      "recovery_median_rho": 0.9439844101042549,
+      "n_recovery_tests": 40,
+      "recovery_null_mean_rho": 0.0030449269545839313,
+      "recovery_null_delta_rho": 0.9103337938898919,
+      "recovery_null_p": 0.009900990099009901,
+      "mapping_stability": 0.9913740158081055,
+      "query_effective_rank": 15.690955756137653,
+      "reference_effective_rank": 15.732377553058408,
+      "molecular_resolution": {
+        "n_rows": 21,
+        "n_genes": 24,
+        "unique_molecular_rows": 21,
+        "unique_fraction": 1.0,
+        "binary_fraction": 0.0496031746031746,
+        "one_hot_fraction": 0.0,
+        "mode": "continuous"
+      },
+      "reasons": [
+        "Anchor score is descriptive evidence, not a gate; lifting remains available at every score."
+      ],
+      "geometry_genes_used": 24,
+      "qc_genes_used": 24,
+      "qc_cells_used": 21,
+      "total_overlap_genes_qc": 24,
+      "cell_any_molecular_fraction": 1.0,
+      "cell_half_molecular_fraction": 1.0,
+      "median_cell_gene_coverage": 1.0
+    },
+    "public_map_lifted_features": {
+      "rows": 21,
+      "columns": 69
+    },
+    "boundary": "reference headroom/self-consistency only; not EASI-PASS PBN biological reproduction"
+  },
+  "reproduction_boundary": {
+    "status": "PARTIAL_PUBLIC_DATA_ONLY",
+    "can_claim_now": [
+      "official matching benchmark reproduction",
+      "tool can safely classify the public demo as matching-only",
+      "EASI schema/multi-animal public-tool execution contract works"
+    ],
+    "cannot_claim_now": [
+      "PBN molecular-response biological findings reproduced",
+      "V1 arousal/class correlation findings reproduced",
+      "full segmentation/registration cascade rerun"
+    ],
+    "reason": "public demo contains one 2P mean image plus one 5-channel HCR volume/reference matching output, not the full PBN/V1 functional datasets used for the paper's biological conclusions"
+  }
+}

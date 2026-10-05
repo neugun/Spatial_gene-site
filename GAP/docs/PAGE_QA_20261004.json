@@ -1,0 +1,20 @@
+{
+  "relative_links_pass": true,
+  "missing_links": [],
+  "changed_utf8_pass": true,
+  "mojibake_hits": [],
+  "stale_browser_authority_pass": true,
+  "stale_hits": [],
+  "public_local_path_scan_pass": true,
+  "public_path_hits": [],
+  "strict_source_bundle_pass": true,
+  "missing_strict_sources": [],
+  "strict_figure_bundle_pass": true,
+  "missing_strict_figures": [],
+  "provenance_contract_pass": true,
+  "root_docs_page_sync_pass": true,
+  "authority": "FIG123-current-20261004-v18-external-paper-native",
+  "runtime": "136/136 PASS",
+  "fig47_frozen_regression": "21/21 PASS",
+  "fig47_contract_hardening": "21/21 PASS"
+}

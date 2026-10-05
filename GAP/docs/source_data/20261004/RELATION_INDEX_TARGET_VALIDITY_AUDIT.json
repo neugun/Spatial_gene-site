@@ -1,0 +1,8 @@
+{
+  "total_rows": 57,
+  "old_inferential": 31,
+  "valid_inferential": 29,
+  "invalid_ok_contracts": 2,
+  "old_fdr05": 13,
+  "valid_fdr05": 11
+}

@@ -1,0 +1,31 @@
+{
+  "rows_candidate_pairs": 2665,
+  "unique_2p_cells": 1387,
+  "best_1to1_matches": 1199,
+  "best_match_fraction": 0.8644556596971882,
+  "somaprint_confident_2p": 1149,
+  "somaprint_confident_fraction": 0.8284066330209084,
+  "best_iou_median": 0.0956602893140457,
+  "best_iou_at_2p_z_median": 0.2859504132231405,
+  "best_containment_2p_median": 0.6646795827123696,
+  "best_neighborhood_iou_median": 0.2845970758245494,
+  "columns": [
+    "mask1",
+    "mask2",
+    "intersection",
+    "mask1_size",
+    "mask2_size",
+    "mask2_size_at_mask1_z",
+    "iou",
+    "iou_at_mask1_z",
+    "containment_2p",
+    "containment_hcr_at_z",
+    "is_best_match",
+    "neighborhood_iou",
+    "neighborhood_window_px",
+    "somaprint_hcr_label",
+    "somaprint_best_score",
+    "somaprint_second_score",
+    "somaprint_confident"
+  ]
+}

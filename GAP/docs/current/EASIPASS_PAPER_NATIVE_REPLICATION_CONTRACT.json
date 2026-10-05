@@ -1,0 +1,156 @@
+{
+  "version": "easipass_paper_native_replication_contract_v1_20261004",
+  "paper": {
+    "title": "EASI-PASS: An accessible pipeline for linking functional imaging and mRNA profiling",
+    "doi": "10.64898/2026.08.21.746328",
+    "public_claims": [
+      "molecular identity recovery around 78% after matching functional imaging to EASI-FISH",
+      "PBN: fine-scale molecular specificity among neurons receiving long-range spinal input",
+      "awake V1: distinct arousal modulation and spatial falloff in correlations within and across interneuron classes"
+    ],
+    "scope_note": "The public EASI-PASS repository is an alignment/matching pipeline; the PBN/V1 biological analyses require downstream same-cell functional+molecular data."
+  },
+  "method_reproduction": {
+    "status": "DIRECT_PARTIAL_PASS",
+    "public_demo": "JS078",
+    "direct_numbers": {
+      "accepted_iou_matches": 1199,
+      "segmented_2p_denominator": 1439,
+      "accepted_fraction": 0.8332175121612231,
+      "somaprint_confident": 1149,
+      "somaprint_fraction": 0.7984711605281446,
+      "median_z_restricted_iou": 0.2859504132231405
+    },
+    "remaining_raw_pipeline": [
+      "Cellpose-SAM segmentation count",
+      "full registration cascade overlay IoU",
+      "coarse shift"
+    ],
+    "blocker": "official Python 3.12 environment cannot currently resolve pinned build dependency through PyPI on this workstation"
+  },
+  "PBN": {
+    "scientific_question": "Does response to long-range spinal input select molecularly distinct PBN neurons beyond coarse identity/anatomical position?",
+    "minimum_input": {
+      "same_cell_table": [
+        "animal_id",
+        "cell_id",
+        "gene__* and/or type_l*",
+        "one explicitly defined spinal-input optogenetic response endpoint"
+      ],
+      "recommended": [
+        "space__x",
+        "space__y",
+        "space__z",
+        "trial-level or cell-level response magnitude",
+        "response significance/quality flag if defined outcome-blind"
+      ],
+      "minimum_biological_units": 2
+    },
+    "semantic_binding_required": {
+      "response_column": "must be explicitly bound by the analyst; GAP must not guess which generic numeric column means spinal-input response",
+      "molecular_identity": "measured EASI-FISH genes or predeclared molecular class",
+      "positive_response_definition": "must follow the paper/experiment's prespecified response criterion if supplied; otherwise analyze continuous response without inventing a responder threshold"
+    },
+    "GAP_execution": [
+      "Fig1 coordinate mediation: genes vs molecular class vs space on identical held-animal splits",
+      "Zhao-style relation-index only when a discrete molecular class and >=2 response dimensions exist within the same domain; a single spinal-response endpoint uses function-map/AIC/effect-size instead",
+      "same-sample delta-AIC for continuous genes versus categorical identity",
+      "within-animal rank-biserial/effect-size for continuous molecular coordinates",
+      "Fig2 exact PBN AtlasLift using mouse_pbn_paulichen_exact",
+      "Fig3 fixed-budget panel selection only if the measured panel contains enough genes and >=2 biological units"
+    ],
+    "paper_native_replication_tests": [
+      {
+        "name": "molecular_specificity_of_spinal_response",
+        "unit_of_inference": "animal",
+        "primary": "held-animal association between spinal-response magnitude/state and molecular identity",
+        "guardrail": "do not pool cells as independent biological replicates; do not force Zhao-style relation-index for a one-dimensional response"
+      },
+      {
+        "name": "identity_vs_space",
+        "unit_of_inference": "animal",
+        "primary": "test whether molecular coordinates add response information beyond anatomical position",
+        "guardrail": "space and molecular identity use identical outer splits"
+      },
+      {
+        "name": "reference_state_mapping",
+        "unit_of_inference": "cell descriptive / animal downstream",
+        "primary": "map measured PBN panel to exact PBN published molecular states",
+        "guardrail": "reference headroom is not response-biology evidence"
+      }
+    ],
+    "current_status": {
+      "public_cell_level_biology": "NOT_AVAILABLE_IN_PUBLIC_DEMO",
+      "reference_layer": "READY",
+      "tool_layer": "READY",
+      "biological_reproduction": "WAITING_FOR_MATCHED_PBN_MOLECULAR_RESPONSE_DATA"
+    }
+  },
+  "V1": {
+    "scientific_question": "How do interneuron molecular classes differ in arousal modulation and in the spatial decay of activity correlations?",
+    "minimum_input": {
+      "same_cell_table": [
+        "animal_id",
+        "cell_id",
+        "molecular class or measured EASI-FISH genes",
+        "space__x",
+        "space__y",
+        "one explicitly defined arousal-modulation endpoint"
+      ],
+      "pairwise": [
+        "cell-aligned activity traces or a prespecified correlation matrix",
+        "coordinates",
+        "molecular class",
+        "animal_id"
+      ],
+      "minimum_biological_units": 2
+    },
+    "semantic_binding_required": {
+      "arousal_endpoint": "must be explicitly defined from the paper/experiment (e.g. pupil/running-linked modulation); generic numeric columns are not auto-promoted",
+      "class_column": "must be measured/predeclared molecular interneuron class; match-quality labels are forbidden",
+      "traces": "must correspond one-to-one to matched cell_id values"
+    },
+    "GAP_execution": [
+      "Fig1 held-animal genes/type/space models for arousal modulation",
+      "relation-index / delta-AIC / effect-size when their inputs are valid",
+      "Fig2 exact VISp AtlasLift",
+      "Fig3 fixed-budget measured-panel compression if enough measured genes/animals exist",
+      "gap pairwise-correlation for within/across-class correlation-distance curves"
+    ],
+    "paper_native_replication_tests": [
+      {
+        "name": "class_dependent_arousal_modulation",
+        "unit_of_inference": "animal",
+        "primary": "held-animal class/gene effect on arousal modulation",
+        "guardrail": "class labels and arousal endpoint must be declared before evaluation"
+      },
+      {
+        "name": "correlation_distance_falloff",
+        "unit_of_inference": "animal",
+        "primary": "one distance-correlation slope/Spearman per animal, separately within/across class",
+        "guardrail": "cell pairs are descriptive observations, never independent inferential replicates"
+      },
+      {
+        "name": "within_vs_across_class_geometry",
+        "unit_of_inference": "animal",
+        "primary": "compare spatial falloff structure within and across molecular classes",
+        "guardrail": "same cells/coordinates and prespecified distance handling"
+      }
+    ],
+    "current_status": {
+      "public_cell_level_biology": "NOT_AVAILABLE_IN_PUBLIC_DEMO",
+      "reference_layer": "READY_VISP_EXACT",
+      "pairwise_stage": "READY_ENGINEERING",
+      "tool_layer": "READY",
+      "biological_reproduction": "WAITING_FOR_MATCHED_V1_MOLECULAR_AROUSAL_TRACE_DATA"
+    }
+  },
+  "claim_levels": {
+    "DIRECT_REPRODUCTION": "computed from authors' released biological/method data with matching metric definition",
+    "REFERENCE_HEADROOM": "self-consistency or hidden-gene recovery inside an external molecular reference; never biological functional replication",
+    "ENGINEERING_CONTRACT": "synthetic/fixture test showing the route executes and guardrails work",
+    "READY_WITH_FULL_DATA": "implementation and reference path are ready but required authors' biological data are unavailable",
+    "SAFE_STOP": "input is incomplete or semantically insufficient; non-applicable analysis is blocked without error"
+  },
+  "new_data_rule": "A future EASI-PASS table is never considered biologically replicated solely because it loads or maps to an atlas. Biological reproduction requires explicit semantic binding of response/arousal endpoints and held-biological-unit inference."
+}
