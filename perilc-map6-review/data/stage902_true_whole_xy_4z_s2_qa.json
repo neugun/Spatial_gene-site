@@ -1,0 +1,61 @@
+{
+  "s0_shape": [
+    1578,
+    8942,
+    8979
+  ],
+  "s2_shape": [
+    789,
+    2235,
+    2244
+  ],
+  "xy_crop": false,
+  "scale_xyz": [
+    4.0026749888542135,
+    4.002238137869293,
+    2.001269035532995
+  ],
+  "z_planes_s0": [
+    385,
+    805,
+    1085,
+    1435
+  ],
+  "z_planes_s2": [
+    192,
+    402,
+    542,
+    717
+  ],
+  "visualization": "full-s2 whole-XY reapplication of same Stage872 global image field; final quantitative authority remains production s0 corrected->RS-FISH",
+  "metrics": [
+    {
+      "z0_approx": 385,
+      "z2": 192,
+      "pixel_corr": 0.9998195651801968,
+      "changed_fraction_ge1": 0.0009807909334162788,
+      "diff_p997": 0.5438385009765625
+    },
+    {
+      "z0_approx": 805,
+      "z2": 402,
+      "pixel_corr": 0.9996938439163395,
+      "changed_fraction_ge1": 0.0014605191273173903,
+      "diff_p997": 0.589782455444336
+    },
+    {
+      "z0_approx": 1085,
+      "z2": 542,
+      "pixel_corr": 0.9994170382781319,
+      "changed_fraction_ge1": 0.0013231406046250104,
+      "diff_p997": 0.5717010498046875
+    },
+    {
+      "z0_approx": 1435,
+      "z2": 717,
+      "pixel_corr": 0.9976525423213746,
+      "changed_fraction_ge1": 0.0018810290030187385,
+      "diff_p997": 0.6504056243896486
+    }
+  ]
+}
