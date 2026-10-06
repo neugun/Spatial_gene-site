@@ -1,0 +1,14 @@
+{
+  "stage": 913,
+  "route": "A",
+  "status": "COMPLETE",
+  "n_pairs": 81,
+  "n_accepted": 64,
+  "n_keep_raw": 17,
+  "median_independent_abs_power_ratio": 0.4570043937741192,
+  "max_independent_abs_power_ratio": 0.78660293732045,
+  "min_broad2d": 0.9654516879255464,
+  "min_x_bio": 0.9125253773880136,
+  "min_y_bio": 0.6676004130706785,
+  "note": "RouteA v1 rejected by phase-independent audit; hardened authority uses Stage872 count-space candidates only when independent absolute harmonic power decreases and biology gates pass."
+}
