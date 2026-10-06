@@ -1,0 +1,25 @@
+{
+  "version": "fig3-global-evidence-ledger-v2-20261005",
+  "main_rows": 55,
+  "ed_rows": 39,
+  "total_rows": 94,
+  "families": [
+    "Allen_HCR_K5",
+    "Allen_budget",
+    "Bugeon_selector_tradeoff",
+    "M1_fixed_budget",
+    "M1_paired_boundary",
+    "WARP_measured_compression",
+    "WARP_replacement_addition",
+    "Wang_true_hidden",
+    "Zhao_prospective",
+    "broad_replication"
+  ],
+  "superseded_rows": 8,
+  "principles": [
+    "Fixed-budget prediction, measured-panel compression, prospective nomination, and true hidden-gene replacement are distinct contracts.",
+    "sBNN remains visible because FSO is competitive rather than superior at M1 K25.",
+    "Full-panel baselines are references, not same-budget competitors.",
+    "Negative and boundary results remain visible after multiple-testing correction."
+  ]
+}

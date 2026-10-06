@@ -1,0 +1,11 @@
+fold,overlap,union,jaccard,genes
+0,10,40,0.25,Atp1a3;Cacna1e;Erbb4;Gad1;Galnt14;Lamp5;Plch2;Pvalb;Sst;Tac2
+1,6,44,0.13636363636363635,Atp1a3;Galnt14;Lamp5;Ndn;Pvalb;Tac2
+2,7,43,0.16279069767441862,Atp1a3;Elmo1;Gad1;Lamp5;Plch2;Pvalb;Unc13c
+3,7,43,0.16279069767441862,Atp1a3;Cacna1e;Elmo1;Gad1;Lamp5;Pvalb;Unc13c
+4,7,43,0.16279069767441862,Atp1a3;Elfn1;Erbb4;Lamp5;Pcp4l1;Pvalb;Tac2
+5,8,42,0.19047619047619047,Atp1a3;Cacna1e;Elfn1;Galnt14;Lamp5;Ndn;Pvalb;Tac2
+6,9,41,0.21951219512195122,Atp1a3;Erbb4;Galnt14;Lamp5;Nell1;Pcp4l1;Pvalb;Tac2;Unc13c
+7,7,43,0.16279069767441862,Atp1a3;Cacna1e;Gad1;Htr3a;Lamp5;Pvalb;Unc13c
+8,10,40,0.25,Atp1a3;Bcl2l11;Cacna1e;Elmo1;Gad1;Galnt14;Gas7;Lamp5;Pvalb;Sst
+9,7,43,0.16279069767441862,Atp1a3;Cacna1e;Gad1;Lamp5;Plch2;Pvalb;Unc13c

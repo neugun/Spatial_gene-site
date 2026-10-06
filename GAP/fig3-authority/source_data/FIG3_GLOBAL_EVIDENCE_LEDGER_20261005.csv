@@ -1,0 +1,56 @@
+family,dataset,K,method,metric,effect,status,inference_unit,placement,source
+M1_fixed_budget,M1,25,FSO_functional,joint_r2,0.3685504334765985,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,PERSIST,joint_r2,0.3265710683099495,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,full1000,joint_r2,0.4360965711613106,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,functional_topK,joint_r2,0.3340756398600257,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,high_expression,joint_r2,0.2434452490056376,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,random_mean,joint_r2,0.1892022014232685,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,random_p95,joint_r2,0.2458467315559839,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,25,sBNN_top25,joint_r2,0.3691151675255312,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,FSO_functional,joint_r2,0.3803620644262009,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,PERSIST,joint_r2,0.3457383330959361,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,full1000,joint_r2,0.4360965711613106,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,functional_topK,joint_r2,0.3621394199011186,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,high_expression,joint_r2,0.2902324018403084,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,random_mean,joint_r2,0.2659588898392316,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,50,random_p95,joint_r2,0.3082030105535572,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,FSO_functional,joint_r2,0.3740389346370594,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,PERSIST,joint_r2,0.3413415630497851,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,full1000,joint_r2,0.4360965711613106,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,functional_topK,joint_r2,0.3772538361181171,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,high_expression,joint_r2,0.3194088903174767,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,random_mean,joint_r2,0.332798035554912,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+M1_fixed_budget,M1,100,random_p95,joint_r2,0.3605295532186697,BENCHMARK,10 held-mouse folds,MAIN_A,FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv
+Allen_HCR_K5,Allen_visual_learning_HCR,5,train_selected,r2,0.0683424166374721,DIRECTIONAL,6 held mice,MAIN_B,FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv
+Allen_HCR_K5,Allen_visual_learning_HCR,5,train_selected,spearman,0.0967100131373913,SUPPORTED,6 held mice,MAIN_B,FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv
+Allen_HCR_K5,Allen_visual_learning_HCR,5,train_selected,nrmse,0.0328870871190241,SUPPORTED,6 held mice,MAIN_B,FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv
+Allen_HCR_K5,Allen_visual_learning_HCR,5,train_selected,auroc,0.0620105343908129,SUPPORTED,6 held mice,MAIN_B,FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv
+Allen_HCR_K5,Allen_visual_learning_HCR,5,train_selected,auprc,0.0456342097748221,SUPPORTED,6 held mice,MAIN_B,FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv
+WARP_measured_compression,WARP2026,31,measured_full31,extremes_auroc,0.554993477484222,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,3,measured_train_selected_3,extremes_auroc,0.5265036438407269,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,5,measured_train_selected_5,extremes_auroc,0.5402097184692577,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,8,measured_train_selected_8,extremes_auroc,0.5493651055513223,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,13,measured_train_selected_13,extremes_auroc,0.5414675153761773,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,20,measured_train_selected_20,extremes_auroc,0.5547132930189338,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+WARP_measured_compression,WARP2026,25,measured_train_selected_25,extremes_auroc,0.5562696484530568,MEASURED_COMPRESSION,3 fish in original nested selection pipeline,MAIN_C,FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv
+Wang_true_hidden,Wang2023,3,soft_posterior,adv_auroc_vs_random_hidden,0.0187312148137501,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv
+Wang_true_hidden,Wang2023,3,soft_posterior,adv_auroc_vs_random_hidden,0.0322916810338149,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv
+Wang_true_hidden,Wang2023,3,hard_state,adv_auroc_vs_random_hidden,0.0106779038352304,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv
+Wang_true_hidden,Wang2023,1,soft_posterior,adv_auroc_vs_random_hidden,0.0113972565578188,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv
+Wang_true_hidden,Wang2023,5,soft_posterior,adv_auroc_vs_random_hidden,0.0349813742875212,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,hvg,operator_r2,0.0976532814177953,PARETO,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,FSO-Select-v2,operator_r2,0.0807794762168932,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,Spapros,operator_r2,0.0924561205438716,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,FSO-Operator,operator_r2,0.0704076821462808,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,PERSIST,operator_r2,0.0503464257400089,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,de_markers,operator_r2,0.0703711098741464,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,random,operator_r2,0.0045554412351619,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,10,PERSIST-Ephys,operator_r2,0.0086131312781681,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,FSO-Operator,operator_r2,0.0891166991385272,PARETO,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,Spapros,operator_r2,0.0869466652264281,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,de_markers,operator_r2,0.0966316756387787,PARETO,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,hvg,operator_r2,0.1029314524100752,PARETO,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,PERSIST,operator_r2,0.0677273453780227,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,FSO-Select-v2,operator_r2,0.0849588562887294,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,random,operator_r2,0.0429537966773519,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv
+Bugeon_selector_tradeoff,Bugeon2022,20,PERSIST-Ephys,operator_r2,0.0399682180583384,COMPARATOR,4 held mice,MAIN_E,FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv

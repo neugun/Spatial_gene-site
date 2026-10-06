@@ -1,0 +1,13 @@
+figure,stage,passed,detail,source
+Input,same_cell_extraction,True,1321 unique same-cell neurons after outcome-blind HCR dedup from 1754 matched soma ROIs; 6 mice; 21 shared biological HCR genes,internal-source
+Input,primary_feature_contract,True,13 six-mouse-complete functional features; hit-derived features excluded because hit events are absent/sparse in several mice,internal-source
+Integration,one_command_fig123,True,single gap run: 7/7 core capabilities done; errors={},internal-source
+Fig1,held_mouse_type_vs_genes,True,genes vs coarse type: delta Spearman=+0.0885; wins=1.000; delta R2=+0.0272,internal-source
+Fig1,information_criterion,True,coarse-type comparison: gene AIC better for 100% of targets; median delta AIC(type-gene)=111.42,internal-source
+Fig1,relation_index,True,type_l1 relation index=0.2553; permutation p=0.000999; BH q=0.000999; 6 mice,internal-source
+Fig1,rank_biserial_execution,True,"273 gene-target effects; top exploratory Mme->feat__omission_response, median rank-biserial=-0.541, sign consistency=1.00",internal-source
+Fig2,visp_exact_reference_qc,True,VISp exact HIGH; overlap=19/21; geometry rho=0.241 (p=0.0196); hidden-gene recovery rho=0.206 (p=0.0476); stability=0.816,internal-source
+Fig2,atlas_downstream_held_mouse,True,"20 positive endpoint-model-metric rows with delta>0.015 and >=5/6 held-mouse direction consistency. Examples: feat__change_snr/Lasso/pearson: delta=+0.039, wins=1.00; feat__change_snr/Lasso/spearman: delta=+0.037, wins=1.00; feat__change_snr/Ridge/pearson: delta=+0.036, wins=1.00; feat__change_snr/Ridge/auprc: delta=+0.018, wins=1.00; feat__dff_p05/Lasso/auprc: delta=+0.094, wins=0.83; feat__dff_p05/Lasso/auroc: delta=+0.082, wins=0.83",internal-source
+Fig3,fixed_budget_k5,True,"K=5 vs matched-random: auprc delta=+0.046, wins=6/6, q=0.0469, auroc delta=+0.062, wins=6/6, q=0.0469, nrmse delta=+0.033, wins=6/6, q=0.0469, r2 delta=+0.068, wins=5/6, q=0.0670, spearman delta=+0.097, wins=6/6, q=0.0469",internal-source
+Fig3,full_panel_guardrail,True,K=21 correctly labeled full-panel baseline and non-inferential for all five metrics,internal-source
+Fig3,selector_stability,True,"K=5 features selected in all 6 held-mouse folds: ['Lamp5', 'Mme', 'Pvalb', 'Vip']",internal-source

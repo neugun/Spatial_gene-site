@@ -1,0 +1,18 @@
+{
+  "version": "fig3-global-contract-v1-20261005",
+  "main_claim": "Fixed-budget assay design is multi-objective: predictive efficiency, measured-panel compression, true hidden-gene replacement and selector trade-offs are distinct evidence contracts.",
+  "panels": {
+    "A": "M1 Patch-seq fixed-budget benchmark; FSO beats PERSIST/random but is competitive, not superior, to sBNN at K25.",
+    "B": "Allen same-cell 2P+HCR independent measured replication; K5 improves four of five metrics at BH q<0.05, R2 directional q≈0.067.",
+    "C": "WARP measured-panel compression; compact measured panels retain much of full31 rank/classification information.",
+    "D": "Wang 2023 true hidden-gene replacement; selected true hidden genes outperform matched-random hidden genes in AUROC for all five targets.",
+    "E": "Bugeon selector/objective trade-off; no single selector is universally optimal across operator and shape objectives."
+  },
+  "guardrails": [
+    "Do not claim universal superiority over sBNN; K25 FSO and sBNN are statistically indistinguishable in current paired folds.",
+    "WARP compression is measured-panel compression, not true hidden-gene replacement.",
+    "Wang is the true hidden-gene replacement validation.",
+    "Allen HCR K21 full panel is a non-inferential baseline.",
+    "Prospective marker nomination is a separate tier from measured replacement."
+  ]
+}

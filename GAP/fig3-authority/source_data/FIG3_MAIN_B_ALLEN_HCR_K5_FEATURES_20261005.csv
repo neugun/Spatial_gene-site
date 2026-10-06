@@ -1,0 +1,7 @@
+fold,held_groups,K,selected_features
+0,782149,5,gene__Mme;gene__Vip;gene__Pvalb;gene__Pdyn;gene__Lamp5
+1,788406,5,gene__Vip;gene__Mme;gene__Pvalb;gene__Lamp5;gene__Pdyn
+2,790322,5,gene__Pvalb;gene__Vip;gene__Mme;gene__Lamp5;gene__Sst
+3,800792,5,gene__Vip;gene__Pvalb;gene__Mme;gene__Lamp5;gene__Gad2
+4,800995,5,gene__Vip;gene__Pvalb;gene__Mme;gene__Pdyn;gene__Lamp5
+5,804363,5,gene__Vip;gene__Mme;gene__Pvalb;gene__Lamp5;gene__Pdyn

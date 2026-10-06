@@ -1,0 +1,37 @@
+{
+  "version": "Fig3-current-authority-v3",
+  "principle": "Fixed-budget assay design is multi-objective. Compression, true hidden-gene replacement, prospective nomination, and broad replication are distinct evidence contracts.",
+  "primary_m1": {
+    "K25_joint_r2": 0.3685504334765985,
+    "K25_retained_full": 0.845111972550394,
+    "K25_delta_vs_PERSIST": 0.041979365166649,
+    "K25_delta_vs_random_p95": 0.1227037019206145,
+    "K50_joint_r2": 0.3803620644262009,
+    "K50_retained_full": 0.872196870095331
+  },
+  "true_hidden_wang": {
+    "n_targets": 5,
+    "all_auroc_advantage_positive": true,
+    "min_auroc_advantage": 0.0106779038352304,
+    "max_auroc_advantage": 0.0349813742875212
+  },
+  "warp": {
+    "K25_auroc": 0.5562696484530568,
+    "full31_auroc": 0.554993477484222,
+    "K25_spearman": 0.1041591414738981,
+    "full31_spearman": 0.1039007182455082,
+    "fixed_budget_replacement_beats_full31": false,
+    "add_functional_auroc": 0.5587531826065316
+  },
+  "zhao_marker_budget": {
+    "any_fdr_q_lt_0p05": false,
+    "contract": "prospective_not_true_hidden_replacement"
+  },
+  "broad_replication": {
+    "n_rows": 8,
+    "n_fdr_supported": 0,
+    "chevee_wins": "6/6"
+  },
+  "source_dir": "internal-source",
+  "authority_csv": "internal-source"
+}
