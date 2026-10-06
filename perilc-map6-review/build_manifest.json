@@ -1,10 +1,10 @@
 {
   "page": "perilc-map6-review",
-  "assets": 285,
-  "data_files": 105,
+  "assets": 287,
+  "data_files": 107,
   "missing_links": [],
-  "index_bytes": 111570,
-  "version": "2026-10-05-map9-stage872-audited",
+  "index_bytes": 108850,
+  "version": "2026-10-05-map9-stage876-current",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -109,7 +109,7 @@
     "mapmy_median_raw_tile_agreement": 0.8204911092294666,
     "mapmy_median_consensus_expected_fraction": 0.4384858044164038
   },
-  "current_authority": "Stage872 physical-grid final",
+  "current_authority": "Stage872 global + Stage876 Epb41l4a S530 override",
   "stage831_qa": {
     "n_checks": 28,
     "n_pass": 28,
@@ -149,7 +149,7 @@
   "stage837_stage416c_severe_pairs": 1,
   "stage837_map400_severe_pairs": 8,
   "stage845_slc17a6_pilot": true,
-  "visible_project_name": "periLC Map \u2014 Stage872 final review",
+  "visible_project_name": "periLC Map \u2014 Stage876 current review",
   "stage845_piecewise_promotion_status": "PILOT_ONLY; requires manual spatial review before replacing Stage594/Stage843 authority",
   "stage845_slurm_candidate_rows": 31928,
   "stage845_slurm_n_shards": 24,
@@ -202,7 +202,7 @@
     "max_r1r5_eta_ratio_changed": 1.0198147066642715,
     "max_q95plus_extra_changed": 0.0
   },
-  "current_correction_stage": 872,
+  "current_correction_stage": 876,
   "stage853_confirmed_artifacts_corrected": 18,
   "stage853_signal_holds": 3,
   "stage853_uncertain_holds": 3,
@@ -249,5 +249,68 @@
     "data/stage872_final_grid_summary.csv",
     "data/stage872_final_common_mode_audit.csv",
     "data/stage872_final_authority.json"
-  ]
+  ],
+  "stage875_epb41l4a_s530": {
+    "stage": 875,
+    "base_global_stage": 872,
+    "targeted_override": {
+      "task": 49,
+      "gene": "Epb41l4a",
+      "section": 530
+    },
+    "stage872_grid_score": 0.1279802618071433,
+    "stage875_grid_score": 0.040129017021126236,
+    "preservation": {
+      "lowpass2d_corr": 0.9795580171178654,
+      "x_bio_corr": 0.9880072519515954,
+      "y_bio_corr": 0.8642618532440072,
+      "fine_ratio": 0.9829008979083126,
+      "r1r5_ratio": 0.9818143656732178
+    },
+    "operation": "x-axis positive-intensity k5 residual only; sp=0, sm=0.6; no status redistribution",
+    "search_rows": 18,
+    "changed_values_vs_stage872": 15480,
+    "status_changes_vs_stage872": 1204,
+    "changed_values_vs_stage874": 15033,
+    "status_changes_vs_stage874": 472,
+    "classes": {
+      "EXCELLENT": 38,
+      "CLEAN": 35,
+      "LOW": 8
+    },
+    "median_grid_score": 0.1022609420948501,
+    "max_grid_score": 0.2456590538170606
+  },
+  "stage876_epb41l4a_s530": {
+    "stage": 876,
+    "base_global_stage": 872,
+    "targeted_override": {
+      "task": 49,
+      "gene": "Epb41l4a",
+      "section": 530
+    },
+    "stage872_grid_score": 0.1279802618071433,
+    "stage876_grid_score": 0.041072263119086086,
+    "preservation": {
+      "lowpass2d_corr": 0.9795565390839475,
+      "x_bio_corr": 0.9881237611638215,
+      "y_bio_corr": 0.8643807485418012,
+      "fine_ratio": 0.9826160652888655,
+      "r1r5_ratio": 0.9814274669049605
+    },
+    "operation": "true status-frozen x-axis positive-intensity k5 only; sm=0.65; exact local mass restoration; zero Stage876 status changes",
+    "search_rows": 222,
+    "changed_values_vs_stage872": 15347,
+    "status_changes_vs_stage872": 928,
+    "changed_values_vs_stage874": 14883,
+    "status_changes_vs_stage874": 0,
+    "stage876_reported_status_changes": 0,
+    "classes": {
+      "EXCELLENT": 38,
+      "CLEAN": 35,
+      "LOW": 8
+    },
+    "median_grid_score": 0.1022609420948501,
+    "max_grid_score": 0.2456590538170606
+  }
 }

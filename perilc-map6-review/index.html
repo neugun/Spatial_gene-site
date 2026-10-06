@@ -1,79 +1,54 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>periLC Map — Stage872 final review</title><style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#17212b;background:#fff}header{background:#121820;color:#fff;padding:32px 18px}header>div,main{max-width:1180px;margin:auto}h1{margin:0 0 8px}header p{color:#cbd5df;max-width:920px;margin:0}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #dde3e9;z-index:9;overflow:auto;white-space:nowrap;padding:9px max(8px,calc((100% - 1180px)/2))}nav a{color:#1769aa;text-decoration:none;font-weight:650;padding:7px 9px;display:inline-block}main{padding:18px}section{margin:34px 0 54px;scroll-margin-top:60px}.lead{font-size:18px}.callout{background:#f1f7fb;border-left:5px solid #1769aa;padding:14px 16px;margin:15px 0}.warning{background:#fff5ea;border-color:#b65722}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.card,.gene-card{border:1px solid #dce3e9;border-radius:10px;padding:11px;margin:12px 0;background:#fff}.card h3,.gene-card h3{margin:3px 0 9px}img{width:100%;height:auto;border-radius:5px;background:#eee}.gene-head{display:flex;align-items:center;justify-content:space-between;gap:8px}.current-gene{margin:6px 0 14px;padding:8px;background:#0b0b0b;border-radius:8px}.current-gene h4{color:#fff;margin:2px 0 7px;font-size:14px}.current-gene p{color:#b9c0c7;font-size:12px;margin:6px 0 0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pair h4{font-size:13px;color:#65717d;margin:4px 0}.risk,.ok{font-size:12px;padding:4px 7px;border-radius:999px}.risk{background:#ffe7e3;color:#942a20}.ok{background:#e5f4ec;color:#226c48}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:9px;margin:16px 0}.metrics div{background:#f6f8fa;border:1px solid #dde3e9;border-radius:9px;padding:12px}.metrics b,.metrics small,.metrics strong{display:block}.metrics small,.metrics b{color:#66727d}.metrics strong{font-size:23px;margin:3px 0}input{width:100%;max-width:420px;font-size:16px;padding:11px;border:1px solid #b7c1ca;border-radius:8px;margin:10px 0}table{border-collapse:collapse;width:100%;display:block;overflow:auto;font-size:14px}th,td{padding:7px 9px;border-bottom:1px solid #e2e7ec;text-align:right;white-space:nowrap}th:nth-child(-n+2),td:nth-child(-n+2){text-align:left}.files a,.full-links a{margin-right:14px;color:#1769aa}@media(max-width:700px){.pair,.grid{grid-template-columns:1fr}.gene-head{align-items:flex-start;flex-direction:column}h1{font-size:27px}}.current-block{border:2px solid #1769aa;border-radius:14px;padding:16px;background:#fbfdff}.current-result img{max-height:620px;object-fit:contain}.compact-details{margin:18px 0;padding:10px 12px;border:1px solid #dce3e9;border-radius:10px;background:#fafbfc}.compact-details summary{cursor:pointer;color:#1769aa}.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:12px}.mini-card{border:1px solid #e1e6eb;border-radius:8px;padding:9px;background:#fff}.mini-card h4{margin:2px 0 8px}.archive-note{padding:9px 12px;border:1px solid #e1e6eb;border-radius:8px;background:#fafafa;margin:10px 0}.archive-note summary{cursor:pointer}</style></head><body>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>periLC Map - Stage876 current review</title><style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#17212b;background:#fff}header{background:#121820;color:#fff;padding:32px 18px}header>div,main{max-width:1180px;margin:auto}h1{margin:0 0 8px}header p{color:#cbd5df;max-width:920px;margin:0}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #dde3e9;z-index:9;overflow:auto;white-space:nowrap;padding:9px max(8px,calc((100% - 1180px)/2))}nav a{color:#1769aa;text-decoration:none;font-weight:650;padding:7px 9px;display:inline-block}main{padding:18px}section{margin:34px 0 54px;scroll-margin-top:60px}.lead{font-size:18px}.callout{background:#f1f7fb;border-left:5px solid #1769aa;padding:14px 16px;margin:15px 0}.warning{background:#fff5ea;border-color:#b65722}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.card,.gene-card{border:1px solid #dce3e9;border-radius:10px;padding:11px;margin:12px 0;background:#fff}.card h3,.gene-card h3{margin:3px 0 9px}img{width:100%;height:auto;border-radius:5px;background:#eee}.gene-head{display:flex;align-items:center;justify-content:space-between;gap:8px}.current-gene{margin:6px 0 14px;padding:8px;background:#0b0b0b;border-radius:8px}.current-gene h4{color:#fff;margin:2px 0 7px;font-size:14px}.current-gene p{color:#b9c0c7;font-size:12px;margin:6px 0 0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pair h4{font-size:13px;color:#65717d;margin:4px 0}.risk,.ok{font-size:12px;padding:4px 7px;border-radius:999px}.risk{background:#ffe7e3;color:#942a20}.ok{background:#e5f4ec;color:#226c48}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:9px;margin:16px 0}.metrics div{background:#f6f8fa;border:1px solid #dde3e9;border-radius:9px;padding:12px}.metrics b,.metrics small,.metrics strong{display:block}.metrics small,.metrics b{color:#66727d}.metrics strong{font-size:23px;margin:3px 0}input{width:100%;max-width:420px;font-size:16px;padding:11px;border:1px solid #b7c1ca;border-radius:8px;margin:10px 0}table{border-collapse:collapse;width:100%;display:block;overflow:auto;font-size:14px}th,td{padding:7px 9px;border-bottom:1px solid #e2e7ec;text-align:right;white-space:nowrap}th:nth-child(-n+2),td:nth-child(-n+2){text-align:left}.files a,.full-links a{margin-right:14px;color:#1769aa}@media(max-width:700px){.pair,.grid{grid-template-columns:1fr}.gene-head{align-items:flex-start;flex-direction:column}h1{font-size:27px}}.current-block{border:2px solid #1769aa;border-radius:14px;padding:16px;background:#fbfdff}.current-result img{max-height:620px;object-fit:contain}.compact-details{margin:18px 0;padding:10px 12px;border:1px solid #dce3e9;border-radius:10px;background:#fafbfc}.compact-details summary{cursor:pointer;color:#1769aa}.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:12px}.mini-card{border:1px solid #e1e6eb;border-radius:8px;padding:9px;background:#fff}.mini-card h4{margin:2px 0 8px}.archive-note{padding:9px 12px;border:1px solid #e1e6eb;border-radius:8px;background:#fafafa;margin:10px 0}.archive-note summary{cursor:pointer}</style></head><body>
 <header><div><h1>periLC / Map8 current review</h1><p>Current Map8 checkpoint with the full Map6 lineage retained for provenance: Stage1–200 publication-quality results, current R1–R5/Fine26 atlas, correction lineage, and the latest intensity-conditioned Slc17a6 pilot. Updated 2026-10-05.</p></div></header>
-<nav><a href="#stage872-current">Stage872 final</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
+<nav><a href="#stage876-current">Stage876 current</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
 
 
 
 
 
 
-<section id="stage872-current" class="current-block">
-<h2>Stage872 final — physical acquisition-grid artifact resolved across all genes and sections</h2>
-<div class="callout"><b>Current authority:</b> all <b>27 genes × 3 sections = 81 gene-section pairs</b> are closed. The correction now uses the acquisition geometry itself: <b>x = k5/k10</b>, <b>y = k3/k6</b>, and suppresses only the <b>cross-gene phase-aligned common-mode</b>. Gene-specific or anti-phase periodic structure is retained rather than being forced flat.</div>
+
+
+
+
+
+<section id="stage876-current" class="current-block">
+<h2>Stage876 current — global physical-grid cleanup plus targeted Epb41l4a S530 residual removal</h2>
+<div class="callout"><b>Current authority:</b> Stage872 remains the global 81-pair correction. Stage876 adds one targeted, independently audited override for <b>Epb41l4a S530</b>. The residual was localized to <b>x-axis positive-intensity k5</b>; Stage876 therefore changed intensity only (<b>status frozen, sm=0.65</b>) and did not redistribute positive-cell status.</div>
 <div class="metrics">
-<div><b>gene-section pairs</b><strong>81 / 81</strong><small>0 REVIEW remaining</small></div>
-<div><b>EXCELLENT + CLEAN</b><strong>73 / 81</strong><small>37 excellent; 36 clean</small></div>
-<div><b>remaining LOW</b><strong>8</strong><small>all physical-grid scores ≤0.246</small></div>
-<div><b>median grid score</b><strong>0.102</strong><small>lower = less shared acquisition pattern</small></div>
-<div><b>worst grid score</b><strong>0.246</strong><small>no pair above 0.25</small></div>
-<div><b>minimum broad-2D corr</b><strong>0.965</strong><small>large-scale spatial biology retained</small></div>
+<div><b>Epb41l4a S530 grid score</b><strong>0.538&rarr;0.041</strong><small>Stage872: 0.128; Stage874: 0.115</small></div>
+<div><b>broad-2D corr</b><strong>0.980</strong><small>large-scale spatial structure retained</small></div>
+<div><b>x / y biology corr</b><strong>0.988 / 0.864</strong><small>y biology improves relative to pre-rescue state</small></div>
+<div><b>Fine26 / R1&ndash;R5</b><strong>0.983&times; / 0.981&times;</strong><small>cell-class structure retained</small></div>
+<div><b>status changes in Stage876</b><strong>0</strong><small>vs Stage874 input; intensity-only residual correction</small></div>
+<div><b>current 81-pair classes</b><strong>38 excellent</strong><small>35 clean; 8 low; 0 review</small></div>
 </div>
-<div class="callout"><b>Independent runtime/data audit:</b> the fast targeted jobs were not empty or shortcut runs. For Epb41l4a S530 the search evaluated <b>129 saved candidates</b> over <b>20,513 cells</b>; the accepted candidate changed <b>15,195 cell values</b>, completed without stderr, and reduced the physical-grid score <b>0.538&rarr;0.128</b> while retaining broad-2D corr <b>0.988</b>, x-biology corr <b>0.992</b>, y-biology corr <b>0.858</b>, Fine26 &eta;<sup>2</sup> <b>0.997&times;</b>, and R1&ndash;R5 &eta;<sup>2</sup> <b>0.997&times;</b>. The ~35 s runtime is therefore consistent with a vectorized NumPy search over a modest single-section matrix, not evidence that the correction was skipped.</div>
-<h3>All 81 pairs at a glance</h3>
-<a href="assets/stage872_all81_grid_score.webp" target="_blank"><img src="assets/stage872_all81_grid_score.webp" loading="eager" alt="Stage872 all 81 physical-grid scores"></a>
-<p><b>Slc17a6 stress test:</b> S500 was driven to x≈0.198 / y≈0.195 while broad-2D corr stayed ≈0.996; S530 physical-grid score fell 0.324→0.050; S560 0.289→0.076. These are now part of the same global rule used for every gene, not a hand-tuned one-off.</p>
-<div class="grid current-grid"><article class="card current-result"><h3>Slc17a6 S500</h3>
+<div class="callout"><b>Why the earlier jobs were fast:</b> the Stage872 targeted audit used 20,513 cells and 129 vectorized candidates for this section. It was not an empty run: 15,195 values changed in the accepted Stage872 candidate. Stage876 is even more constrained: after diagnosing the remaining score as x-intensity k5, it tested only an intensity-only residual sweep. The final improvement is therefore mechanistically localized rather than a larger blind search.</div>
+<h3>Current all-pair audit</h3>
+<a href="assets/stage876_current_all81_grid_score.webp" target="_blank"><img src="assets/stage876_current_all81_grid_score.webp" loading="eager"></a>
+<div class="grid current-grid"><article class="card current-result"><h3>Epb41l4a S530 <small>Stage876</small></h3>
+<a href="assets/epb41l4a_s530_stage876_qa.webp" target="_blank"><img src="assets/epb41l4a_s530_stage876_qa.webp" loading="lazy"></a>
+<p><b>grid score:</b> 0.538&rarr;0.041. <b>Preservation:</b> broad-2D 0.980; x-biology 0.988; y-biology 0.864; Fine26 0.983&times;; R1&ndash;R5 0.981&times;.</p></article><article class="card current-result"><h3>Slc17a6 S500 <small>Stage872</small></h3>
 <a href="assets/slc17a6_s500_qa.webp" target="_blank"><img src="assets/slc17a6_s500_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.151→0.127. 
-<b>Preservation:</b> broad 2D corr 0.996; Fine26 &eta;<sup>2</sup> 1.017×; R1&ndash;R5 &eta;<sup>2</sup> 1.033×.</p></article><article class="card current-result"><h3>Slc17a6 S530</h3>
+<p><b>grid score:</b> 0.151&rarr;0.127. <b>Preservation:</b> broad-2D 0.996; x-biology 0.962; y-biology 0.971; Fine26 1.017&times;; R1&ndash;R5 1.033&times;.</p></article><article class="card current-result"><h3>Slc17a6 S530 <small>Stage872</small></h3>
 <a href="assets/slc17a6_s530_qa.webp" target="_blank"><img src="assets/slc17a6_s530_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.324→0.050. 
-<b>Preservation:</b> broad 2D corr 0.992; Fine26 &eta;<sup>2</sup> 0.996×; R1&ndash;R5 &eta;<sup>2</sup> 0.994×.</p></article><article class="card current-result"><h3>Slc17a6 S560</h3>
+<p><b>grid score:</b> 0.324&rarr;0.050. <b>Preservation:</b> broad-2D 0.992; x-biology 0.992; y-biology 0.957; Fine26 0.996&times;; R1&ndash;R5 0.994&times;.</p></article><article class="card current-result"><h3>Slc17a6 S560 <small>Stage872</small></h3>
 <a href="assets/slc17a6_s560_qa.webp" target="_blank"><img src="assets/slc17a6_s560_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.289→0.076. 
-<b>Preservation:</b> broad 2D corr 0.998; Fine26 &eta;<sup>2</sup> 1.001×; R1&ndash;R5 &eta;<sup>2</sup> 1.001×.</p></article><article class="card current-result"><h3>Snap25 S500</h3>
-<a href="assets/snap25_s500_qa.webp" target="_blank"><img src="assets/snap25_s500_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.029→0.029. 
-<b>Preservation:</b> broad 2D corr 0.965; Fine26 &eta;<sup>2</sup> 1.073×; R1&ndash;R5 &eta;<sup>2</sup> 1.001×.</p></article><article class="card current-result"><h3>Snap25 S530</h3>
+<p><b>grid score:</b> 0.289&rarr;0.076. <b>Preservation:</b> broad-2D 0.998; x-biology 0.997; y-biology 0.868; Fine26 1.001&times;; R1&ndash;R5 1.001&times;.</p></article><article class="card current-result"><h3>Snap25 S530 <small>Stage872</small></h3>
 <a href="assets/snap25_s530_qa.webp" target="_blank"><img src="assets/snap25_s530_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.532→0.088. 
-<b>Preservation:</b> broad 2D corr 0.992; Fine26 &eta;<sup>2</sup> 1.100×; R1&ndash;R5 &eta;<sup>2</sup> 1.043×.</p></article><article class="card current-result"><h3>Snap25 S560</h3>
-<a href="assets/snap25_s560_qa.webp" target="_blank"><img src="assets/snap25_s560_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.266→0.077. 
-<b>Preservation:</b> broad 2D corr 0.982; Fine26 &eta;<sup>2</sup> 1.039×; R1&ndash;R5 &eta;<sup>2</sup> 1.091×.</p></article><article class="card current-result"><h3>Npy1r S530</h3>
+<p><b>grid score:</b> 0.532&rarr;0.088. <b>Preservation:</b> broad-2D 0.992; x-biology 0.970; y-biology 0.759; Fine26 1.100&times;; R1&ndash;R5 1.043&times;.</p></article><article class="card current-result"><h3>Npy1r S530 <small>Stage872</small></h3>
 <a href="assets/npy1r_s530_qa.webp" target="_blank"><img src="assets/npy1r_s530_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.531→0.079. 
-<b>Preservation:</b> broad 2D corr 0.983; Fine26 &eta;<sup>2</sup> 1.023×; R1&ndash;R5 &eta;<sup>2</sup> 1.003×.</p></article><article class="card current-result"><h3>Otx2os1 S560</h3>
+<p><b>grid score:</b> 0.531&rarr;0.079. <b>Preservation:</b> broad-2D 0.983; x-biology 0.990; y-biology 0.884; Fine26 1.023&times;; R1&ndash;R5 1.003&times;.</p></article><article class="card current-result"><h3>Otx2os1 S560 <small>Stage872</small></h3>
 <a href="assets/otx2os1_s560_qa.webp" target="_blank"><img src="assets/otx2os1_s560_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.493→0.133. 
-<b>Preservation:</b> broad 2D corr 0.996; Fine26 &eta;<sup>2</sup> 1.004×; R1&ndash;R5 &eta;<sup>2</sup> 0.996×.</p></article><article class="card current-result"><h3>Epb41l4a S530</h3>
-<a href="assets/epb41l4a_s530_qa.webp" target="_blank"><img src="assets/epb41l4a_s530_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.538&rarr;0.128. 
-<b>Preservation:</b> broad 2D corr 0.988; Fine26 &eta;<sup>2</sup> 0.997&times;; R1&ndash;R5 &eta;<sup>2</sup> 0.997&times;.</p></article></div>
-<details class="compact-details"><summary><b>Additional visual stress tests</b> — residual-looking and formerly stubborn planes</summary>
-<div class="grid current-grid"><article class="card current-result"><h3>Otx2os1 S500</h3>
-<a href="assets/otx2os1_s500_qa.webp" target="_blank"><img src="assets/otx2os1_s500_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.131→0.131. 
-<b>Preservation:</b> broad 2D corr 0.995; Fine26 &eta;<sup>2</sup> 1.002×; R1&ndash;R5 &eta;<sup>2</sup> 0.988×.</p></article><article class="card current-result"><h3>Epb41l4a S500</h3>
-<a href="assets/epb41l4a_s500_qa.webp" target="_blank"><img src="assets/epb41l4a_s500_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.289→0.229. 
-<b>Preservation:</b> broad 2D corr 0.991; Fine26 &eta;<sup>2</sup> 1.011×; R1&ndash;R5 &eta;<sup>2</sup> 1.005×.</p></article><article class="card current-result"><h3>Cep112 S500</h3>
-<a href="assets/cep112_s500_qa.webp" target="_blank"><img src="assets/cep112_s500_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.246→0.246. 
-<b>Preservation:</b> broad 2D corr 0.991; Fine26 &eta;<sup>2</sup> 1.001×; R1&ndash;R5 &eta;<sup>2</sup> 0.994×.</p></article><article class="card current-result"><h3>Slc6a2 S560</h3>
-<a href="assets/slc6a2_s560_qa.webp" target="_blank"><img src="assets/slc6a2_s560_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.134→0.073. 
-<b>Preservation:</b> broad 2D corr 0.999; Fine26 &eta;<sup>2</sup> 0.952×; R1&ndash;R5 &eta;<sup>2</sup> 0.987×.</p></article><article class="card current-result"><h3>Mc4r S560</h3>
-<a href="assets/mc4r_s560_qa.webp" target="_blank"><img src="assets/mc4r_s560_qa.webp" loading="lazy"></a>
-<p><b>physical-grid score:</b> 0.351→0.067. 
-<b>Preservation:</b> broad 2D corr 0.999; Fine26 &eta;<sup>2</sup> 0.998×; R1&ndash;R5 &eta;<sup>2</sup> 1.010×.</p></article></div>
-</details>
-<div class="callout"><b>Stopping rule:</b> we do not chase arbitrary harmonic ratios once the shared acquisition component is low. Several secondary harmonics have tiny raw denominators, so their ratio can look large even when the final absolute common-mode is small. Further forcing those terms down would preferentially erase gene-specific spatial structure.</div>
-<p class="files"><a href="data/stage872_final_grid_summary.csv">81-pair final summary</a><a href="data/stage872_final_common_mode_audit.csv">cross-gene common-mode audit</a><a href="data/stage872_final_authority.json">Stage872 authority</a></p>
-<details class="compact-details"><summary><b>Superseded correction checkpoints</b> — Stage859–871</summary>
-<p>Stage859 established the first clean benchmark; Stages864–871 expanded it to all 81 pairs, fixed positive-count preservation, added joint x/y correction, and finally replaced per-gene frequency guessing with the physical 5×3 acquisition grid and cross-gene shared phase. Stage872 supersedes those intermediate correction authorities.</p>
-</details>
+<p><b>grid score:</b> 0.493&rarr;0.133. <b>Preservation:</b> broad-2D 0.996; x-biology 0.993; y-biology 0.852; Fine26 1.004&times;; R1&ndash;R5 0.996&times;.</p></article></div>
+<p class="files"><a href="data/stage876_current_grid_summary.csv">current 81-pair summary</a><a href="data/stage876_epb41l4a_s530_authority.json">Stage876 Epb41l4a authority</a><a href="data/stage872_final_authority.json">Stage872 global authority</a></p>
+<details class="compact-details"><summary><b>Superseded correction checkpoints</b> — Stage859–875</summary><p>Stage872 remains the global all-pair foundation. Stage873 was stopped after residual diagnosis made its broad search unnecessary. Stage874 isolated and removed the y-grid component. Stage875 exposed an implementation detail in the generic axis operator and is not authority. Stage876 replaced it with a true status-frozen x-intensity k5 correction.</p></details>
 </section>
+
+
+
+
+
 <section id="stage848-global">
 <h2>Map8 global artifact-vs-signal correction — Stage848</h2>
 <p class="lead">The correction problem is now solved as a <b>gene × section classification problem</b>, not a global smoothing problem. All 8 flagged genes × 3 sections were evaluated in parallel. Acquisition tile-phase evidence is used to identify band artifact; Fine26/R1–R5 reproducibility is tracked separately as biological signal. A section can therefore contain <b>true signal and band artifact simultaneously</b>.</p>

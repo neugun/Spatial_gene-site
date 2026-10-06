@@ -1,0 +1,14 @@
+{
+  "stage": 874,
+  "gene": "Epb41l4a",
+  "section": 530,
+  "mode": "targeted_y_grid_refinement",
+  "artifact_start": 0.5379872768871433,
+  "artifact_final": 0.11461100796794116,
+  "lowpass2d_corr": 0.9800635335366598,
+  "x_bio_corr": 0.9900723098617045,
+  "y_bio_corr": 0.8647338562856185,
+  "fine_ratio": 0.9824085999803054,
+  "r1r5_ratio": 0.981274629574979,
+  "status": "targeted_refinement_not_global_authority"
+}

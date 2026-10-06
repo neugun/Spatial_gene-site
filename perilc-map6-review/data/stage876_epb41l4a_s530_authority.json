@@ -1,0 +1,32 @@
+{
+  "stage": 876,
+  "base_global_stage": 872,
+  "targeted_override": {
+    "task": 49,
+    "gene": "Epb41l4a",
+    "section": 530
+  },
+  "stage872_grid_score": 0.1279802618071433,
+  "stage876_grid_score": 0.041072263119086086,
+  "preservation": {
+    "lowpass2d_corr": 0.9795565390839475,
+    "x_bio_corr": 0.9881237611638215,
+    "y_bio_corr": 0.8643807485418012,
+    "fine_ratio": 0.9826160652888655,
+    "r1r5_ratio": 0.9814274669049605
+  },
+  "operation": "true status-frozen x-axis positive-intensity k5 only; sm=0.65; exact local mass restoration; zero Stage876 status changes",
+  "search_rows": 222,
+  "changed_values_vs_stage872": 15347,
+  "status_changes_vs_stage872": 928,
+  "changed_values_vs_stage874": 14883,
+  "status_changes_vs_stage874": 0,
+  "stage876_reported_status_changes": 0,
+  "classes": {
+    "EXCELLENT": 38,
+    "CLEAN": 35,
+    "LOW": 8
+  },
+  "median_grid_score": 0.1022609420948501,
+  "max_grid_score": 0.2456590538170606
+}
