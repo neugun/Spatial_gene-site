@@ -1,0 +1,6 @@
+item,old_claim,replacement,reason
+scripts/986_build_fig1_unit_authority_20261005.py,headline biological-unit authority,scripts/1007_rebuild_fig1_all_evidence_20261005.py,mixed fig123 target-profile lineage and simple sign-count test instead of magnitude-preserving exact sign-flip
+draft Fig1b type-mean vs single-cell plot,type-mean class-level R² compared directly with held-cell R²,Fig1B_identity_gene_same_estimand,cross-estimand comparison; new panel holds endpoint and held-unit split fixed
+draft WARP within-type 14/80,14/80 types above p95,Fig1C_within_type_molecular_state / corrected 500-rep authority,current production per-type authority gives 13/80; old count was Monte-Carlo/version drift
+gxa/benchmark.py full-data PCA/GLM-PCA headlines,harmonized representation benchmark,fold-safe target/profile and coordinate runners,unsupervised representation fitted on full data before CV
+C. elegans held-animal molecular replication,independent continuous-molecular replication,fig1G_identity_proxy_guardrail,gene/connectome values are repeated neuron-class lookups; held-identity gene rho collapses to ~0

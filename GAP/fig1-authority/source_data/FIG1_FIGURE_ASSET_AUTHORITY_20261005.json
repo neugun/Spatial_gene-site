@@ -1,0 +1,18 @@
+{
+  "version": "fig1_figure_asset_authority_v1_20261005",
+  "n_current_figure_stems": 22,
+  "n_main": 5,
+  "n_ed": 17,
+  "asset_dir": "authority_bundle/assets",
+  "asset_table": "FIG1_FIGURE_ASSET_AUTHORITY_20261005.csv",
+  "superseded_table": "FIG1_SUPERSEDED_CLAIMS_20261005.csv",
+  "global_evidence_ledger": "FIG1_GLOBAL_EVIDENCE_LEDGER_20261005.csv",
+  "main_authority": "FIG1_MAIN_GLOBAL_CONTRACT_AUTHORITY_20261005.json",
+  "principles": [
+    "No single aggregate Fig1 score; predictive rank/classification, exact amplitude, AIC, effect size and relation structure remain separate.",
+    "Biological unit is animal/fish/worm/donor where available; cells are never promoted to independent n.",
+    "Every inferential P names its randomization/permutation unit separately from aggregation unit.",
+    "Published-native reproduction and GAP standardized analysis are separate evidence layers.",
+    "Current figures use the 2026-10-05 plotting authority: Arial, square-ish panels, red focal evidence, cyan guardrail/secondary coordinate, gray baselines, no grid."
+  ]
+}

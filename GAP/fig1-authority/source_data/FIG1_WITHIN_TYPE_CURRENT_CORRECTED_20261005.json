@@ -1,0 +1,13 @@
+{
+  "version": "fig1_within_type_corrected_v2_20261005",
+  "source_dir": "internal-source",
+  "no_permutations_rerun": true,
+  "reason": "Reaggregate production per-dataset files without downgrading Bugeon/Xu 1000-rep runs to WARP/Shainer 500-rep resolution.",
+  "supersedes_old_schematic": {
+    "warp_old": "14/80",
+    "warp_current": "13/80",
+    "basis": "500-rep type\u00d7animal-preserving gene permutation authority"
+  },
+  "primary_population_test": "number of scoreable types exceeding own p95 null vs Binomial(n,0.05)",
+  "guardrail": "Per-type exact permutation P resolution and BH floor are dataset-specific; do not use a global n_rep field."
+}

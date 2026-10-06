@@ -1,0 +1,120 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GAP 图1完整 authority</title><style>body{font-family:Arial,sans-serif;max-width:1240px;margin:28px auto;padding:0 18px;color:#222;background:#fff}
+h1{font-size:30px;margin-bottom:8px}h2{font-size:20px;margin:4px 0 8px}.lead{font-size:17px;line-height:1.55;max-width:980px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 0;z-index:2}nav a{margin-right:16px}
+.card{border-top:1px solid #ddd;padding:22px 0}.role{font-size:12px;font-weight:800;color:#B2232E;letter-spacing:.05em}
+.card img{max-width:100%;height:auto;display:block;margin:12px auto}.claim{font-size:15px;line-height:1.5}.meta{font-size:13px;line-height:1.55;color:#555}
+a{color:#0b6387}.callout{border-left:3px solid #B2232E;padding:10px 14px;background:#fafafa;margin:16px 0}
+@media(max-width:600px){h1{font-size:24px}.lead{font-size:15px}.card{padding:16px 0}}</style></head><body>
+<nav><a href="../index_zh.html">GAP 中文主页</a><a href="index.html">English</a><a href="source_data/FIG1_FIGURE_ASSET_AUTHORITY_20261005.csv">asset authority CSV</a><a href="source_data/FIG1_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv">evidence ledger V2</a></nav>
+<h1>图1完整 authority — 全证据版</h1><p class="lead">从当前 code lineage、所有中间分析以及 reviewer-audited 结果重新构建 Figure 1。主图与 Extended Data 保持不同证据层级，不再压成一个总分，也不再把旧 lineage 的数字混入当前结论。</p>
+<div class="callout"><b>当前 authority：</b> 22 组图（5 个 main + 17 个 ED）、66 个 PNG/SVG/PDF 资产、171-row evidence ledger。WARP within-type 当前严格结果为 13/80，旧稿 14/80 已冻结为 superseded；原先 type-mean vs single-cell 的跨-estimand比较已替换为同一 held-cell endpoint 的严格分析。</div><section class="card"><div class="role">主图总览</div><h2>Fig1_MAIN_global_contract_20261005</h2>
+<p class="claim">分子身份、连续分子状态与响应几何对功能可读性的贡献取决于具体生物学问题和 target 表征，不能压成一个总分。</p>
+<a href="assets/Fig1_MAIN_global_contract_20261005.png"><img src="assets/Fig1_MAIN_global_contract_20261005.png" loading="lazy" alt="Fig1_MAIN_global_contract_20261005"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> panel-specific; see A-D authorities<br>
+<b>Source data:</b> FIG1_MAIN_A/B/C/D source tables<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1011_reaggregate_fig1_withintype_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1_MAIN_global_contract_20261005.png">PNG</a> · <a href="assets/Fig1_MAIN_global_contract_20261005.svg">SVG</a> · <a href="assets/Fig1_MAIN_global_contract_20261005.pdf">PDF</a></p></section><section class="card"><div class="role">主图 A</div><h2>Fig1A_target_formulation_current</h2>
+<p class="claim">同一分子信息对 rank/extreme phenotype 的可读性通常高于对精确幅度的解释，因此 target 定义本身会改变结论。</p>
+<a href="assets/Fig1A_target_formulation_current.png"><img src="assets/Fig1A_target_formulation_current.png" loading="lazy" alt="Fig1A_target_formulation_current"></a>
+<p class="meta"><b>推断单位:</b> held biological-unit CV; pooled formulation score<br><b>Null / 对照:</b> within-animal shuffled-expression mean is descriptive control, not formal P<br>
+<b>Source data:</b> FIG1_MAIN_A_TARGET_FORMULATION_20261005.csv<br><b>Code:</b> scripts/114_target_formulation_scorecard.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1A_target_formulation_current.png">PNG</a> · <a href="assets/Fig1A_target_formulation_current.svg">SVG</a> · <a href="assets/Fig1A_target_formulation_current.pdf">PDF</a></p></section><section class="card"><div class="role">主图 B</div><h2>Fig1B_identity_gene_same_estimand</h2>
+<p class="claim">在完全相同的 held-cell endpoint 与 held-unit split 下，Xu 中连续基因状态明显超越离散 identity；Bugeon/WARP 只有较小增量，并非所有系统都成立。</p>
+<a href="assets/Fig1B_identity_gene_same_estimand.png"><img src="assets/Fig1B_identity_gene_same_estimand.png" loading="lazy" alt="Fig1B_identity_gene_same_estimand"></a>
+<p class="meta"><b>推断单位:</b> outer LeaveOneGroupOut biological unit; inner LeaveOneGroupOut for alpha<br><b>Null / 对照:</b> exact sign-flip of held-unit effects; train-only type vocabulary/preprocessing<br>
+<b>Source data:</b> FIG1_IDENTITY_GENE_STRICT_SUMMARY_20261005.csv; FIG1_IDENTITY_GENE_STRICT_FOLDS_20261005.csv<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1B_identity_gene_same_estimand.png">PNG</a> · <a href="assets/Fig1B_identity_gene_same_estimand.svg">SVG</a> · <a href="assets/Fig1B_identity_gene_same_estimand.pdf">PDF</a></p></section><section class="card"><div class="role">主图 C</div><h2>Fig1C_within_type_molecular_state</h2>
+<p class="claim">固定 cell type 后，部分系统中连续分子变化仍能预测功能差异；null 严格保留 type×animal 结构。</p>
+<a href="assets/Fig1C_within_type_molecular_state.png"><img src="assets/Fig1C_within_type_molecular_state.png" loading="lazy" alt="Fig1C_within_type_molecular_state"></a>
+<p class="meta"><b>推断单位:</b> type-specific held biological-unit prediction<br><b>Null / 对照:</b> gene rows shuffled within the same type × animal; population Binomial(k of types &gt; own p95, p0=.05)<br>
+<b>Source data:</b> FIG1_WITHIN_TYPE_CURRENT_CORRECTED_20261005.csv; FIG1_WITHIN_TYPE_PER_TYPE_CURRENT_20261005.csv<br><b>Code:</b> scripts/231_within_type_auroc_null.py; scripts/1011_reaggregate_fig1_withintype_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1C_within_type_molecular_state.png">PNG</a> · <a href="assets/Fig1C_within_type_molecular_state.svg">SVG</a> · <a href="assets/Fig1C_within_type_molecular_state.pdf">PDF</a></p></section><section class="card"><div class="role">主图 D</div><h2>Fig1D_response_shape_decomposition</h2>
+<p class="claim">Bugeon 与 Xu 中，连续分子状态对标准化 evoked response shape 的预测强于简单 gain；WARP 的 shape 证据较弱但存在。</p>
+<a href="assets/Fig1D_response_shape_decomposition.png"><img src="assets/Fig1D_response_shape_decomposition.png" loading="lazy" alt="Fig1D_response_shape_decomposition"></a>
+<p class="meta"><b>推断单位:</b> held biological unit / within-unit response geometry<br><b>Null / 对照:</b> within-unit molecular permutation<br>
+<b>Source data:</b> FIG1_MAIN_D_SHAPE_GAIN_20261005.csv<br><b>Code:</b> scripts/230_bugeon_shape_gain_crossvalidation.py; scripts/236_xu_shape_nestednull.py; scripts/232_warp_shape_null.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1D_response_shape_decomposition.png">PNG</a> · <a href="assets/Fig1D_response_shape_decomposition.svg">SVG</a> · <a href="assets/Fig1D_response_shape_decomposition.pdf">PDF</a></p></section><section class="card"><div class="role">ED · held-unit coordinate</div><h2>fig1A_core_held_units</h2>
+<p class="claim">核心 coordinate 增益以 held animal/fish 为推断单位重新计算，并使用正确的 exact sign-flip / conditional randomization contract。</p>
+<a href="assets/fig1A_core_held_units.png"><img src="assets/fig1A_core_held_units.png" loading="lazy" alt="fig1A_core_held_units"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> exact sign-flip preserving effect magnitudes; Zhao uses within-animal response-label randomization<br>
+<b>Source data:</b> FIG1_COORDINATE_CANONICAL_FOLDS.csv; FIG1_COORDINATE_CANONICAL_SUMMARY.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1A_core_held_units.png">PNG</a> · <a href="assets/fig1A_core_held_units.svg">SVG</a> · <a href="assets/fig1A_core_held_units.pdf">PDF</a></p></section><section class="card"><div class="role">ED · 多指标 coordinate</div><h2>fig1B_multimetric_coordinate_gain</h2>
+<p class="claim">不同 metric 给出的证据层级不同：rank/classification 增益可以与弱甚至负 R² 同时存在。</p>
+<a href="assets/fig1B_multimetric_coordinate_gain.png"><img src="assets/fig1B_multimetric_coordinate_gain.png" loading="lazy" alt="fig1B_multimetric_coordinate_gain"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> same held-unit folds; metric-specific direction<br>
+<b>Source data:</b> FIG1_COORDINATE_MULTIMETRIC_LONG.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1B_multimetric_coordinate_gain.png">PNG</a> · <a href="assets/fig1B_multimetric_coordinate_gain.svg">SVG</a> · <a href="assets/fig1B_multimetric_coordinate_gain.pdf">PDF</a></p></section><section class="card"><div class="role">ED · 独立重复与边界</div><h2>fig1C_independent_replication_boundaries</h2>
+<p class="claim">Allen HCR 提供 measured-molecular 独立重复；Condylis 和 McLachlan 则界定哪些情况下 genes 不会普遍胜过 identity。</p>
+<a href="assets/fig1C_independent_replication_boundaries.png"><img src="assets/fig1C_independent_replication_boundaries.png" loading="lazy" alt="fig1C_independent_replication_boundaries"></a>
+<p class="meta"><b>推断单位:</b> held mouse/animal<br><b>Null / 对照:</b> dataset-specific held-unit test<br>
+<b>Source data:</b> FIG123_INDEPENDENT_INTEGRATION_BENCHMARKS_20261003.csv; validation CSVs<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1C_independent_replication_boundaries.png">PNG</a> · <a href="assets/fig1C_independent_replication_boundaries.svg">SVG</a> · <a href="assets/fig1C_independent_replication_boundaries.pdf">PDF</a></p></section><section class="card"><div class="role">ED · AIC</div><h2>fig1D_information_criterion</h2>
+<p class="claim">同一批 typed cells 上，部分数据集的连续 genes 比离散 type 更好解释功能变量；这是 AIC 信息准则，不是 held-unit prediction。</p>
+<a href="assets/fig1D_information_criterion.png"><img src="assets/fig1D_information_criterion.png" loading="lazy" alt="fig1D_information_criterion"></a>
+<p class="meta"><b>推断单位:</b> same typed rows; target-level descriptive information criterion<br><b>Null / 对照:</b> Gaussian OLS AIC; not a held-unit predictive P<br>
+<b>Source data:</b> FIG1_AIC_CANONICAL.csv<br><b>Code:</b> scripts/922_multidataset_type_gene_aic_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1D_information_criterion.png">PNG</a> · <a href="assets/fig1D_information_criterion.svg">SVG</a> · <a href="assets/fig1D_information_criterion.pdf">PDF</a></p></section><section class="card"><div class="role">ED · relation null</div><h2>fig1E_relation_null_calibrated</h2>
+<p class="claim">identity-response graph 应相对各数据集自身 fixed-margin null 解读，而不能直接横向比较 raw relation-index 数值。</p>
+<a href="assets/fig1E_relation_null_calibrated.png"><img src="assets/fig1E_relation_null_calibrated.png" loading="lazy" alt="fig1E_relation_null_calibrated"></a>
+<p class="meta"><b>推断单位:</b> biological-group-preserving relation graph<br><b>Null / 对照:</b> within-group fixed-margin randomization + BH over valid inferential rows<br>
+<b>Source data:</b> FIG1_RELATION_CANONICAL.csv<br><b>Code:</b> scripts/930_audit_relation_target_validity_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1E_relation_null_calibrated.png">PNG</a> · <a href="assets/fig1E_relation_null_calibrated.svg">SVG</a> · <a href="assets/fig1E_relation_null_calibrated.pdf">PDF</a></p></section><section class="card"><div class="role">ED · effect size</div><h2>fig1F_rank_biserial_effects</h2>
+<p class="claim">在每个 biological unit 内，高低表达 quartile 可呈现 target-specific graded effect；top gene-target pair 属 exploratory。</p>
+<a href="assets/fig1F_rank_biserial_effects.png"><img src="assets/fig1F_rank_biserial_effects.png" loading="lazy" alt="fig1F_rank_biserial_effects"></a>
+<p class="meta"><b>推断单位:</b> within biological unit<br><b>Null / 对照:</b> variance-only gene preselection; exploratory top pair; cross-unit Wilcoxon/BH when available<br>
+<b>Source data:</b> FIG1_RANK_BISERIAL_CANONICAL.csv<br><b>Code:</b> scripts/923_multidataset_rank_biserial_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1F_rank_biserial_effects.png">PNG</a> · <a href="assets/fig1F_rank_biserial_effects.svg">SVG</a> · <a href="assets/fig1F_rank_biserial_effects.pdf">PDF</a></p></section><section class="card"><div class="role">ED · proxy guardrail</div><h2>fig1G_identity_proxy_guardrail</h2>
+<p class="claim">重复的 class-level molecular lookup 在 held-animal CV 中可显得很强，但换成 held-identity 后会崩塌，因此不能算独立 continuous-molecular replication。</p>
+<a href="assets/fig1G_identity_proxy_guardrail.png"><img src="assets/fig1G_identity_proxy_guardrail.png" loading="lazy" alt="fig1G_identity_proxy_guardrail"></a>
+<p class="meta"><b>推断单位:</b> held identity / held donor or Cre line<br><b>Null / 对照:</b> stress-test split, not cell-level random CV<br>
+<b>Source data:</b> FIG1_IDENTITY_PROXY_GUARDRAIL.csv; IDENTITY_DERIVED_MOLECULAR_AUDIT_20261005.csv<br><b>Code:</b> scripts/987_freeze_reviewer_science_audits_20261005.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1G_identity_proxy_guardrail.png">PNG</a> · <a href="assets/fig1G_identity_proxy_guardrail.svg">SVG</a> · <a href="assets/fig1G_identity_proxy_guardrail.pdf">PDF</a></p></section><section class="card"><div class="role">ED · coordinate atlas</div><h2>fig1ED1_all_dataset_coordinate_atlas</h2>
+<p class="claim">跨数据集最可读 coordinate 可以是 identity、genes、space 或 structure，并不存在一个 universally winning axis。</p>
+<a href="assets/fig1ED1_all_dataset_coordinate_atlas.png"><img src="assets/fig1ED1_all_dataset_coordinate_atlas.png" loading="lazy" alt="fig1ED1_all_dataset_coordinate_atlas"></a>
+<p class="meta"><b>推断单位:</b> scope-aware held groups<br><b>Null / 对照:</b> descriptive atlas; only promoted rows inherit formal inference<br>
+<b>Source data:</b> FIG1_ALL_DATASET_COORDINATE_ATLAS.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED1_all_dataset_coordinate_atlas.png">PNG</a> · <a href="assets/fig1ED1_all_dataset_coordinate_atlas.svg">SVG</a> · <a href="assets/fig1ED1_all_dataset_coordinate_atlas.pdf">PDF</a></p></section><section class="card"><div class="role">ED · public core atlas</div><h2>fig1ED1_public_core_coordinate_atlas</h2>
+<p class="claim">公开核心数据在同一 standardized contract 下保留各自的 coordinate strength 与 boundary。</p>
+<a href="assets/fig1ED1_public_core_coordinate_atlas.png"><img src="assets/fig1ED1_public_core_coordinate_atlas.png" loading="lazy" alt="fig1ED1_public_core_coordinate_atlas"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> same-split coordinate models<br>
+<b>Source data:</b> PUBLIC_COORDINATE_MEDIATION_DATASET_DASHBOARD_V3_20261003.csv<br><b>Code:</b> scripts/931_coordinate_metric_v3_authority_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED1_public_core_coordinate_atlas.png">PNG</a> · <a href="assets/fig1ED1_public_core_coordinate_atlas.svg">SVG</a> · <a href="assets/fig1ED1_public_core_coordinate_atlas.pdf">PDF</a></p></section><section class="card"><div class="role">ED · McLachlan native</div><h2>fig1ED2_mclachlan_native</h2>
+<p class="claim">McLachlan 的 global multivariate gene-vs-type 增益较弱，但 paper-native endpoint-specific AIC/effect 仍存在选择性分子效应。</p>
+<a href="assets/fig1ED2_mclachlan_native.png"><img src="assets/fig1ED2_mclachlan_native.png" loading="lazy" alt="fig1ED2_mclachlan_native"></a>
+<p class="meta"><b>推断单位:</b> same typed ROI subset / held animals depending statistic<br><b>Null / 对照:</b> paper-native AIC/effect contract<br>
+<b>Source data:</b> paper_native_model_deltas.csv; named_network_rank_biserial.csv<br><b>Code:</b> scripts/925_build_fig1_5_information_effect_bank_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED2_mclachlan_native.png">PNG</a> · <a href="assets/fig1ED2_mclachlan_native.svg">SVG</a> · <a href="assets/fig1ED2_mclachlan_native.pdf">PDF</a></p></section><section class="card"><div class="role">ED · target formulation</div><h2>Fig1_ED_target_formulation_full</h2>
+<p class="claim">把 continuous/sign/responsive/extremes/tertile 五种 target formulation 放在一起，显示为何 rank/extreme 读出常比精确幅度更能暴露分子排序。</p>
+<a href="assets/Fig1_ED_target_formulation_full.png"><img src="assets/Fig1_ED_target_formulation_full.png" loading="lazy" alt="Fig1_ED_target_formulation_full"></a>
+<p class="meta"><b>推断单位:</b> held biological-unit CV<br><b>Null / 对照:</b> observed-minus-within-animal shuffled-expression mean is descriptive<br>
+<b>Source data:</b> FIG1_TARGET_FORMULATION_MULTIMETRIC_EXCESS.csv<br><b>Code:</b> scripts/114_target_formulation_scorecard.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_target_formulation_full.png">PNG</a> · <a href="assets/Fig1_ED_target_formulation_full.svg">SVG</a> · <a href="assets/Fig1_ED_target_formulation_full.pdf">PDF</a></p></section><section class="card"><div class="role">ED · identity-gene R²</div><h2>Fig1_ED_identity_gene_R2</h2>
+<p class="claim">exact-amplitude R² 是 identity-vs-gene rank/extreme 比较的更严格对应面板，并清楚暴露哪些数据集只有 rank 而没有幅度解释。</p>
+<a href="assets/Fig1_ED_identity_gene_R2.png"><img src="assets/Fig1_ED_identity_gene_R2.png" loading="lazy" alt="Fig1_ED_identity_gene_R2"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> same as MAIN_B exact sign-flip<br>
+<b>Source data:</b> FIG1_IDENTITY_GENE_STRICT_SUMMARY_20261005.csv<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_identity_gene_R2.png">PNG</a> · <a href="assets/Fig1_ED_identity_gene_R2.svg">SVG</a> · <a href="assets/Fig1_ED_identity_gene_R2.pdf">PDF</a></p></section><section class="card"><div class="role">ED · Xu breadth</div><h2>Fig1_ED_Xu_11state_breadth</h2>
+<p class="claim">Xu 的 continuous molecular information 不是单一 Ghrelin endpoint，而是跨多个 internal-state / behavior response axis 出现。</p>
+<a href="assets/Fig1_ED_Xu_11state_breadth.png"><img src="assets/Fig1_ED_Xu_11state_breadth.png" loading="lazy" alt="Fig1_ED_Xu_11state_breadth"></a>
+<p class="meta"><b>推断单位:</b> held mouse<br><b>Null / 对照:</b> matched residual-label permutation within held-unit pipeline<br>
+<b>Source data:</b> FIG1_XU_11STATE_BREADTH.csv<br><b>Code:</b> recovered Titan runner 757; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_Xu_11state_breadth.png">PNG</a> · <a href="assets/Fig1_ED_Xu_11state_breadth.svg">SVG</a> · <a href="assets/Fig1_ED_Xu_11state_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED · WARP breadth</div><h2>Fig1_ED_WARP_8axis_breadth</h2>
+<p class="claim">WARP 的 gene increment 对不同视觉/运动轴具有选择性，多个 flash/looming/OMR axis 为正，而并非所有 axis 都改善。</p>
+<a href="assets/Fig1_ED_WARP_8axis_breadth.png"><img src="assets/Fig1_ED_WARP_8axis_breadth.png" loading="lazy" alt="Fig1_ED_WARP_8axis_breadth"></a>
+<p class="meta"><b>推断单位:</b> held fish<br><b>Null / 对照:</b> matched residual-label permutation<br>
+<b>Source data:</b> FIG1_WARP_8AXIS_BREADTH.csv<br><b>Code:</b> recovered Titan runner 758; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_WARP_8axis_breadth.png">PNG</a> · <a href="assets/Fig1_ED_WARP_8axis_breadth.svg">SVG</a> · <a href="assets/Fig1_ED_WARP_8axis_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED · WARP region</div><h2>Fig1_ED_WARP_region_heterogeneity</h2>
+<p class="claim">WARP 中相同的 molecular increment 在不同 broad brain regions 和不同 target axis 上高度异质。</p>
+<a href="assets/Fig1_ED_WARP_region_heterogeneity.png"><img src="assets/Fig1_ED_WARP_region_heterogeneity.png" loading="lazy" alt="Fig1_ED_WARP_region_heterogeneity"></a>
+<p class="meta"><b>推断单位:</b> held fish within region<br><b>Null / 对照:</b> descriptive directional sweep; no formal permutation P<br>
+<b>Source data:</b> FIG1_WARP_REGION_HETEROGENEITY.csv<br><b>Code:</b> recovered Titan runner 749; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_WARP_region_heterogeneity.png">PNG</a> · <a href="assets/Fig1_ED_WARP_region_heterogeneity.svg">SVG</a> · <a href="assets/Fig1_ED_WARP_region_heterogeneity.pdf">PDF</a></p></section><section class="card"><div class="role">ED · cell heterogeneity</div><h2>Fig1_ED_cell_heterogeneity</h2>
+<p class="claim">同一数据集内部，不同 single-cell functional vector 的 molecular predictability 也高度异质。</p>
+<a href="assets/Fig1_ED_cell_heterogeneity.png"><img src="assets/Fig1_ED_cell_heterogeneity.png" loading="lazy" alt="Fig1_ED_cell_heterogeneity"></a>
+<p class="meta"><b>推断单位:</b> held biological unit<br><b>Null / 对照:</b> exact sign-flip of held-unit median cell-vector Spearman where reported<br>
+<b>Source data:</b> FIG1_CELL_HETEROGENEITY_CURRENT.csv<br><b>Code:</b> scripts/701_multitarget_cellwise_predictability.py; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_cell_heterogeneity.png">PNG</a> · <a href="assets/Fig1_ED_cell_heterogeneity.svg">SVG</a> · <a href="assets/Fig1_ED_cell_heterogeneity.pdf">PDF</a></p></section><section class="card"><div class="role">ED · structural branch</div><h2>Fig1_ED_structural_wiring_branch</h2>
+<p class="claim">结构/连接坐标在 fly 中可较强预测功能；MICRONS 只作为 one-mouse structural boundary，不能被改写成独立 molecular replication。</p>
+<a href="assets/Fig1_ED_structural_wiring_branch.png"><img src="assets/Fig1_ED_structural_wiring_branch.png" loading="lazy" alt="Fig1_ED_structural_wiring_branch"></a>
+<p class="meta"><b>推断单位:</b> leave-region-out fly; one-mouse/session-stratified MICRONS<br><b>Null / 对照:</b> dataset-specific structural controls<br>
+<b>Source data:</b> FIG1_GLOBAL_EVIDENCE_LEDGER_20261005.csv<br><b>Code:</b> Turner structural runners; MICRONS edge-matched authority; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_structural_wiring_branch.png">PNG</a> · <a href="assets/Fig1_ED_structural_wiring_branch.svg">SVG</a> · <a href="assets/Fig1_ED_structural_wiring_branch.pdf">PDF</a></p></section></body></html>

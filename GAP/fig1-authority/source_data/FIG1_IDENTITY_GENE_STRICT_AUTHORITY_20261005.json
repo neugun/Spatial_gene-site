@@ -1,0 +1,23 @@
+{
+  "version": "fig1_identity_gene_strict_v1_20261005",
+  "question": "On the same held-cell endpoint and held-biological-unit split, how much do discrete identity, continuous genes, and identity+genes predict?",
+  "datasets": [
+    "bugeon2022",
+    "xu2020",
+    "shainer2025",
+    "warp2026",
+    "zhao2026",
+    "condylis2022"
+  ],
+  "outer_split": "LeaveOneGroupOut over biological unit for all included datasets",
+  "type_vocabulary": "fit on outer-training biological units only; unseen held-out identity encoded as all-zero one-hot",
+  "gene_preprocessing": "training-fold median imputation + variance filter + StandardScaler",
+  "alpha_selection": "inner LeaveOneGroupOut over outer-training biological units; Ridge alpha grid 1e-2..1e4",
+  "extremes": "held-cell labels defined using outer-training 1/3 and 2/3 phenotype quantiles",
+  "inference": "macro mean across held biological units; candidate-vs-identity exact sign-flip preserves held-unit effect magnitudes",
+  "guardrail": "C. elegans excluded from continuous-molecular main comparison because expression is a repeated neuron-class lookup; use identity-held stress test instead.",
+  "supersedes_for_main_panel": [
+    "scripts/115_type_gene_function_decomposition.py aggregate output",
+    "draft type-mean-vs-single-cell cross-estimand comparison"
+  ]
+}

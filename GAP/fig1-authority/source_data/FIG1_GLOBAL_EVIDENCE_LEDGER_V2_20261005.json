@@ -1,0 +1,15 @@
+{
+  "version": "fig1-global-evidence-ledger-v2-20261005",
+  "base_rows": 126,
+  "added_rows": 45,
+  "total_rows": 171,
+  "added_families": [
+    "identity_gene_same_estimand",
+    "within_type_residual_v2"
+  ],
+  "supersedes_for_new_panels": {
+    "identity_gene_same_estimand": "draft type-mean vs single-cell cross-estimand comparison",
+    "within_type_residual_v2": "old WARP 14/80 schematic and global-n_rep aggregation floor"
+  },
+  "principle": "New main figures are rows in the same evidence ledger; no figure-only claims."
+}

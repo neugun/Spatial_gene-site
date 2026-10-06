@@ -1,0 +1,120 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GAP Figure 1 authority</title><style>body{font-family:Arial,sans-serif;max-width:1240px;margin:28px auto;padding:0 18px;color:#222;background:#fff}
+h1{font-size:30px;margin-bottom:8px}h2{font-size:20px;margin:4px 0 8px}.lead{font-size:17px;line-height:1.55;max-width:980px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 0;z-index:2}nav a{margin-right:16px}
+.card{border-top:1px solid #ddd;padding:22px 0}.role{font-size:12px;font-weight:800;color:#B2232E;letter-spacing:.05em}
+.card img{max-width:100%;height:auto;display:block;margin:12px auto}.claim{font-size:15px;line-height:1.5}.meta{font-size:13px;line-height:1.55;color:#555}
+a{color:#0b6387}.callout{border-left:3px solid #B2232E;padding:10px 14px;background:#fafafa;margin:16px 0}
+@media(max-width:600px){h1{font-size:24px}.lead{font-size:15px}.card{padding:16px 0}}</style></head><body>
+<nav><a href="../index.html">GAP main</a><a href="index_zh.html">中文</a><a href="source_data/FIG1_FIGURE_ASSET_AUTHORITY_20261005.csv">asset authority CSV</a><a href="source_data/FIG1_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv">evidence ledger V2</a></nav>
+<h1>Figure 1 authority — complete evidence</h1><p class="lead">Global reconstruction of Figure 1 from the current code lineage, intermediate analyses and reviewer-audited results. Main panels and extended data remain separate evidence layers; no single aggregate score is used.</p>
+<div class="callout"><b>Current authority:</b> 22 figure stems (5 main + 17 ED), 66 PNG/SVG/PDF assets, 171-row evidence ledger. WARP within-type current authority = 13/80; old 14/80 is superseded. Draft type-mean-vs-single-cell comparison is replaced by a same-estimand held-unit analysis.</div><section class="card"><div class="role">MAIN_COMPOSITE</div><h2>Fig1_MAIN_global_contract_20261005</h2>
+<p class="claim">Molecular identity, continuous state and response geometry contribute differently depending on the biological question and target representation.</p>
+<a href="assets/Fig1_MAIN_global_contract_20261005.png"><img src="assets/Fig1_MAIN_global_contract_20261005.png" loading="lazy" alt="Fig1_MAIN_global_contract_20261005"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> panel-specific; see A-D authorities<br>
+<b>Source data:</b> FIG1_MAIN_A/B/C/D source tables<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1011_reaggregate_fig1_withintype_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1_MAIN_global_contract_20261005.png">PNG</a> · <a href="assets/Fig1_MAIN_global_contract_20261005.svg">SVG</a> · <a href="assets/Fig1_MAIN_global_contract_20261005.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_A</div><h2>Fig1A_target_formulation_current</h2>
+<p class="claim">The apparent molecular-function signal depends on whether the target is exact amplitude or a rank/extreme phenotype.</p>
+<a href="assets/Fig1A_target_formulation_current.png"><img src="assets/Fig1A_target_formulation_current.png" loading="lazy" alt="Fig1A_target_formulation_current"></a>
+<p class="meta"><b>Inference:</b> held biological-unit CV; pooled formulation score<br><b>Null / control:</b> within-animal shuffled-expression mean is descriptive control, not formal P<br>
+<b>Source data:</b> FIG1_MAIN_A_TARGET_FORMULATION_20261005.csv<br><b>Code:</b> scripts/114_target_formulation_scorecard.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1A_target_formulation_current.png">PNG</a> · <a href="assets/Fig1A_target_formulation_current.svg">SVG</a> · <a href="assets/Fig1A_target_formulation_current.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_B</div><h2>Fig1B_identity_gene_same_estimand</h2>
+<p class="claim">On the identical held-cell endpoint and held-unit split, continuous genes add strongly beyond identity in Xu, weakly in Bugeon/WARP, and not universally.</p>
+<a href="assets/Fig1B_identity_gene_same_estimand.png"><img src="assets/Fig1B_identity_gene_same_estimand.png" loading="lazy" alt="Fig1B_identity_gene_same_estimand"></a>
+<p class="meta"><b>Inference:</b> outer LeaveOneGroupOut biological unit; inner LeaveOneGroupOut for alpha<br><b>Null / control:</b> exact sign-flip of held-unit effects; train-only type vocabulary/preprocessing<br>
+<b>Source data:</b> FIG1_IDENTITY_GENE_STRICT_SUMMARY_20261005.csv; FIG1_IDENTITY_GENE_STRICT_FOLDS_20261005.csv<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1B_identity_gene_same_estimand.png">PNG</a> · <a href="assets/Fig1B_identity_gene_same_estimand.svg">SVG</a> · <a href="assets/Fig1B_identity_gene_same_estimand.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_C</div><h2>Fig1C_within_type_molecular_state</h2>
+<p class="claim">Within a fixed molecular type, continuous gene variation carries functional information in selected systems.</p>
+<a href="assets/Fig1C_within_type_molecular_state.png"><img src="assets/Fig1C_within_type_molecular_state.png" loading="lazy" alt="Fig1C_within_type_molecular_state"></a>
+<p class="meta"><b>Inference:</b> type-specific held biological-unit prediction<br><b>Null / control:</b> gene rows shuffled within the same type × animal; population Binomial(k of types &gt; own p95, p0=.05)<br>
+<b>Source data:</b> FIG1_WITHIN_TYPE_CURRENT_CORRECTED_20261005.csv; FIG1_WITHIN_TYPE_PER_TYPE_CURRENT_20261005.csv<br><b>Code:</b> scripts/231_within_type_auroc_null.py; scripts/1011_reaggregate_fig1_withintype_20261005.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1C_within_type_molecular_state.png">PNG</a> · <a href="assets/Fig1C_within_type_molecular_state.svg">SVG</a> · <a href="assets/Fig1C_within_type_molecular_state.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_D</div><h2>Fig1D_response_shape_decomposition</h2>
+<p class="claim">Continuous molecular state is more predictive of normalized evoked response shape than simple gain in Bugeon and Xu; WARP shows weaker shape evidence.</p>
+<a href="assets/Fig1D_response_shape_decomposition.png"><img src="assets/Fig1D_response_shape_decomposition.png" loading="lazy" alt="Fig1D_response_shape_decomposition"></a>
+<p class="meta"><b>Inference:</b> held biological unit / within-unit response geometry<br><b>Null / control:</b> within-unit molecular permutation<br>
+<b>Source data:</b> FIG1_MAIN_D_SHAPE_GAIN_20261005.csv<br><b>Code:</b> scripts/230_bugeon_shape_gain_crossvalidation.py; scripts/236_xu_shape_nestednull.py; scripts/232_warp_shape_null.py; scripts/1012_render_fig1_global_contract_20261005.py<br>
+<a href="assets/Fig1D_response_shape_decomposition.png">PNG</a> · <a href="assets/Fig1D_response_shape_decomposition.svg">SVG</a> · <a href="assets/Fig1D_response_shape_decomposition.pdf">PDF</a></p></section><section class="card"><div class="role">ED_COORDINATE_HELD_UNITS</div><h2>fig1A_core_held_units</h2>
+<p class="claim">Canonical biological-profile coordinate gains are evaluated at held-animal/fish level.</p>
+<a href="assets/fig1A_core_held_units.png"><img src="assets/fig1A_core_held_units.png" loading="lazy" alt="fig1A_core_held_units"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> exact sign-flip preserving effect magnitudes; Zhao uses within-animal response-label randomization<br>
+<b>Source data:</b> FIG1_COORDINATE_CANONICAL_FOLDS.csv; FIG1_COORDINATE_CANONICAL_SUMMARY.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1A_core_held_units.png">PNG</a> · <a href="assets/fig1A_core_held_units.svg">SVG</a> · <a href="assets/fig1A_core_held_units.pdf">PDF</a></p></section><section class="card"><div class="role">ED_COORDINATE_MULTIMETRIC</div><h2>fig1B_multimetric_coordinate_gain</h2>
+<p class="claim">Coordinate conclusions are metric-dependent; rank/classification gains can coexist with weak or negative R².</p>
+<a href="assets/fig1B_multimetric_coordinate_gain.png"><img src="assets/fig1B_multimetric_coordinate_gain.png" loading="lazy" alt="fig1B_multimetric_coordinate_gain"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> same held-unit folds; metric-specific direction<br>
+<b>Source data:</b> FIG1_COORDINATE_MULTIMETRIC_LONG.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1B_multimetric_coordinate_gain.png">PNG</a> · <a href="assets/fig1B_multimetric_coordinate_gain.svg">SVG</a> · <a href="assets/fig1B_multimetric_coordinate_gain.pdf">PDF</a></p></section><section class="card"><div class="role">ED_REPLICATION</div><h2>fig1C_independent_replication_boundaries</h2>
+<p class="claim">Measured-molecular Allen HCR replicates continuous molecular gain, while Condylis and McLachlan define informative boundaries.</p>
+<a href="assets/fig1C_independent_replication_boundaries.png"><img src="assets/fig1C_independent_replication_boundaries.png" loading="lazy" alt="fig1C_independent_replication_boundaries"></a>
+<p class="meta"><b>Inference:</b> held mouse/animal<br><b>Null / control:</b> dataset-specific held-unit test<br>
+<b>Source data:</b> FIG123_INDEPENDENT_INTEGRATION_BENCHMARKS_20261003.csv; validation CSVs<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1C_independent_replication_boundaries.png">PNG</a> · <a href="assets/fig1C_independent_replication_boundaries.svg">SVG</a> · <a href="assets/fig1C_independent_replication_boundaries.pdf">PDF</a></p></section><section class="card"><div class="role">ED_AIC</div><h2>fig1D_information_criterion</h2>
+<p class="claim">Continuous genes can explain same-sample functional variation beyond discrete type in selected datasets.</p>
+<a href="assets/fig1D_information_criterion.png"><img src="assets/fig1D_information_criterion.png" loading="lazy" alt="fig1D_information_criterion"></a>
+<p class="meta"><b>Inference:</b> same typed rows; target-level descriptive information criterion<br><b>Null / control:</b> Gaussian OLS AIC; not a held-unit predictive P<br>
+<b>Source data:</b> FIG1_AIC_CANONICAL.csv<br><b>Code:</b> scripts/922_multidataset_type_gene_aic_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1D_information_criterion.png">PNG</a> · <a href="assets/fig1D_information_criterion.svg">SVG</a> · <a href="assets/fig1D_information_criterion.pdf">PDF</a></p></section><section class="card"><div class="role">ED_RELATION</div><h2>fig1E_relation_null_calibrated</h2>
+<p class="claim">Identity-response graph structure is tested relative to a dataset-specific fixed-margin null rather than by comparing raw relation-index magnitudes.</p>
+<a href="assets/fig1E_relation_null_calibrated.png"><img src="assets/fig1E_relation_null_calibrated.png" loading="lazy" alt="fig1E_relation_null_calibrated"></a>
+<p class="meta"><b>Inference:</b> biological-group-preserving relation graph<br><b>Null / control:</b> within-group fixed-margin randomization + BH over valid inferential rows<br>
+<b>Source data:</b> FIG1_RELATION_CANONICAL.csv<br><b>Code:</b> scripts/930_audit_relation_target_validity_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1E_relation_null_calibrated.png">PNG</a> · <a href="assets/fig1E_relation_null_calibrated.svg">SVG</a> · <a href="assets/fig1E_relation_null_calibrated.pdf">PDF</a></p></section><section class="card"><div class="role">ED_EFFECT_SIZE</div><h2>fig1F_rank_biserial_effects</h2>
+<p class="claim">Within biological units, high-vs-low expression quartiles show graded target-specific effect sizes.</p>
+<a href="assets/fig1F_rank_biserial_effects.png"><img src="assets/fig1F_rank_biserial_effects.png" loading="lazy" alt="fig1F_rank_biserial_effects"></a>
+<p class="meta"><b>Inference:</b> within biological unit<br><b>Null / control:</b> variance-only gene preselection; exploratory top pair; cross-unit Wilcoxon/BH when available<br>
+<b>Source data:</b> FIG1_RANK_BISERIAL_CANONICAL.csv<br><b>Code:</b> scripts/923_multidataset_rank_biserial_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1F_rank_biserial_effects.png">PNG</a> · <a href="assets/fig1F_rank_biserial_effects.svg">SVG</a> · <a href="assets/fig1F_rank_biserial_effects.pdf">PDF</a></p></section><section class="card"><div class="role">ED_PROXY_GUARDRAIL</div><h2>fig1G_identity_proxy_guardrail</h2>
+<p class="claim">Repeated class-level molecular lookups can look predictive under held-animal CV yet fail held-identity generalization.</p>
+<a href="assets/fig1G_identity_proxy_guardrail.png"><img src="assets/fig1G_identity_proxy_guardrail.png" loading="lazy" alt="fig1G_identity_proxy_guardrail"></a>
+<p class="meta"><b>Inference:</b> held identity / held donor or Cre line<br><b>Null / control:</b> stress-test split, not cell-level random CV<br>
+<b>Source data:</b> FIG1_IDENTITY_PROXY_GUARDRAIL.csv; IDENTITY_DERIVED_MOLECULAR_AUDIT_20261005.csv<br><b>Code:</b> scripts/987_freeze_reviewer_science_audits_20261005.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1G_identity_proxy_guardrail.png">PNG</a> · <a href="assets/fig1G_identity_proxy_guardrail.svg">SVG</a> · <a href="assets/fig1G_identity_proxy_guardrail.pdf">PDF</a></p></section><section class="card"><div class="role">ED_COORDINATE_ATLAS</div><h2>fig1ED1_all_dataset_coordinate_atlas</h2>
+<p class="claim">Across datasets, the dominant readable coordinate can be identity, genes, space or structure rather than one universal axis.</p>
+<a href="assets/fig1ED1_all_dataset_coordinate_atlas.png"><img src="assets/fig1ED1_all_dataset_coordinate_atlas.png" loading="lazy" alt="fig1ED1_all_dataset_coordinate_atlas"></a>
+<p class="meta"><b>Inference:</b> scope-aware held groups<br><b>Null / control:</b> descriptive atlas; only promoted rows inherit formal inference<br>
+<b>Source data:</b> FIG1_ALL_DATASET_COORDINATE_ATLAS.csv<br><b>Code:</b> scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED1_all_dataset_coordinate_atlas.png">PNG</a> · <a href="assets/fig1ED1_all_dataset_coordinate_atlas.svg">SVG</a> · <a href="assets/fig1ED1_all_dataset_coordinate_atlas.pdf">PDF</a></p></section><section class="card"><div class="role">ED_PUBLIC_CORE_ATLAS</div><h2>fig1ED1_public_core_coordinate_atlas</h2>
+<p class="claim">Public core datasets preserve coordinate-specific strengths and boundaries under one standardized contract.</p>
+<a href="assets/fig1ED1_public_core_coordinate_atlas.png"><img src="assets/fig1ED1_public_core_coordinate_atlas.png" loading="lazy" alt="fig1ED1_public_core_coordinate_atlas"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> same-split coordinate models<br>
+<b>Source data:</b> PUBLIC_COORDINATE_MEDIATION_DATASET_DASHBOARD_V3_20261003.csv<br><b>Code:</b> scripts/931_coordinate_metric_v3_authority_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED1_public_core_coordinate_atlas.png">PNG</a> · <a href="assets/fig1ED1_public_core_coordinate_atlas.svg">SVG</a> · <a href="assets/fig1ED1_public_core_coordinate_atlas.pdf">PDF</a></p></section><section class="card"><div class="role">ED_MCLACHLAN_NATIVE</div><h2>fig1ED2_mclachlan_native</h2>
+<p class="claim">McLachlan contains endpoint-selective gene effects even when global multivariate gene-vs-type gain is weak.</p>
+<a href="assets/fig1ED2_mclachlan_native.png"><img src="assets/fig1ED2_mclachlan_native.png" loading="lazy" alt="fig1ED2_mclachlan_native"></a>
+<p class="meta"><b>Inference:</b> same typed ROI subset / held animals depending statistic<br><b>Null / control:</b> paper-native AIC/effect contract<br>
+<b>Source data:</b> paper_native_model_deltas.csv; named_network_rank_biserial.csv<br><b>Code:</b> scripts/925_build_fig1_5_information_effect_bank_20261003.py; scripts/1007_rebuild_fig1_all_evidence_20261005.py<br>
+<a href="assets/fig1ED2_mclachlan_native.png">PNG</a> · <a href="assets/fig1ED2_mclachlan_native.svg">SVG</a> · <a href="assets/fig1ED2_mclachlan_native.pdf">PDF</a></p></section><section class="card"><div class="role">ED_TARGET_FORMULATION</div><h2>Fig1_ED_target_formulation_full</h2>
+<p class="claim">Five target formulations expose why rank/extreme readouts can reveal molecular ordering when exact amplitude is weak.</p>
+<a href="assets/Fig1_ED_target_formulation_full.png"><img src="assets/Fig1_ED_target_formulation_full.png" loading="lazy" alt="Fig1_ED_target_formulation_full"></a>
+<p class="meta"><b>Inference:</b> held biological-unit CV<br><b>Null / control:</b> observed-minus-within-animal shuffled-expression mean is descriptive<br>
+<b>Source data:</b> FIG1_TARGET_FORMULATION_MULTIMETRIC_EXCESS.csv<br><b>Code:</b> scripts/114_target_formulation_scorecard.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_target_formulation_full.png">PNG</a> · <a href="assets/Fig1_ED_target_formulation_full.svg">SVG</a> · <a href="assets/Fig1_ED_target_formulation_full.pdf">PDF</a></p></section><section class="card"><div class="role">ED_IDENTITY_GENE_R2</div><h2>Fig1_ED_identity_gene_R2</h2>
+<p class="claim">Exact-amplitude R² provides the stricter counterpart to the rank/extreme identity-vs-gene comparison.</p>
+<a href="assets/Fig1_ED_identity_gene_R2.png"><img src="assets/Fig1_ED_identity_gene_R2.png" loading="lazy" alt="Fig1_ED_identity_gene_R2"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> same as MAIN_B exact sign-flip<br>
+<b>Source data:</b> FIG1_IDENTITY_GENE_STRICT_SUMMARY_20261005.csv<br><b>Code:</b> scripts/1010_fig1_identity_gene_strict_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_identity_gene_R2.png">PNG</a> · <a href="assets/Fig1_ED_identity_gene_R2.svg">SVG</a> · <a href="assets/Fig1_ED_identity_gene_R2.pdf">PDF</a></p></section><section class="card"><div class="role">ED_XU_BREADTH</div><h2>Fig1_ED_Xu_11state_breadth</h2>
+<p class="claim">Xu molecular information extends across a broad set of internal-state and behavioral response axes rather than a single Ghrelin endpoint.</p>
+<a href="assets/Fig1_ED_Xu_11state_breadth.png"><img src="assets/Fig1_ED_Xu_11state_breadth.png" loading="lazy" alt="Fig1_ED_Xu_11state_breadth"></a>
+<p class="meta"><b>Inference:</b> held mouse<br><b>Null / control:</b> matched residual-label permutation within held-unit pipeline<br>
+<b>Source data:</b> FIG1_XU_11STATE_BREADTH.csv<br><b>Code:</b> recovered Titan runner 757; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_Xu_11state_breadth.png">PNG</a> · <a href="assets/Fig1_ED_Xu_11state_breadth.svg">SVG</a> · <a href="assets/Fig1_ED_Xu_11state_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED_WARP_BREADTH</div><h2>Fig1_ED_WARP_8axis_breadth</h2>
+<p class="claim">WARP gene information is selective across eight visual/motor axes, strongest for several OMR/flash/looming dimensions.</p>
+<a href="assets/Fig1_ED_WARP_8axis_breadth.png"><img src="assets/Fig1_ED_WARP_8axis_breadth.png" loading="lazy" alt="Fig1_ED_WARP_8axis_breadth"></a>
+<p class="meta"><b>Inference:</b> held fish<br><b>Null / control:</b> matched residual-label permutation<br>
+<b>Source data:</b> FIG1_WARP_8AXIS_BREADTH.csv<br><b>Code:</b> recovered Titan runner 758; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_WARP_8axis_breadth.png">PNG</a> · <a href="assets/Fig1_ED_WARP_8axis_breadth.svg">SVG</a> · <a href="assets/Fig1_ED_WARP_8axis_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED_WARP_REGION</div><h2>Fig1_ED_WARP_region_heterogeneity</h2>
+<p class="claim">The same WARP molecular increment is anatomically heterogeneous across broad regions and target axes.</p>
+<a href="assets/Fig1_ED_WARP_region_heterogeneity.png"><img src="assets/Fig1_ED_WARP_region_heterogeneity.png" loading="lazy" alt="Fig1_ED_WARP_region_heterogeneity"></a>
+<p class="meta"><b>Inference:</b> held fish within region<br><b>Null / control:</b> descriptive directional sweep; no formal permutation P<br>
+<b>Source data:</b> FIG1_WARP_REGION_HETEROGENEITY.csv<br><b>Code:</b> recovered Titan runner 749; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_WARP_region_heterogeneity.png">PNG</a> · <a href="assets/Fig1_ED_WARP_region_heterogeneity.svg">SVG</a> · <a href="assets/Fig1_ED_WARP_region_heterogeneity.pdf">PDF</a></p></section><section class="card"><div class="role">ED_CELL_HETEROGENEITY</div><h2>Fig1_ED_cell_heterogeneity</h2>
+<p class="claim">Even within the same dataset, molecular prediction quality is heterogeneous across single-cell functional vectors.</p>
+<a href="assets/Fig1_ED_cell_heterogeneity.png"><img src="assets/Fig1_ED_cell_heterogeneity.png" loading="lazy" alt="Fig1_ED_cell_heterogeneity"></a>
+<p class="meta"><b>Inference:</b> held biological unit<br><b>Null / control:</b> exact sign-flip of held-unit median cell-vector Spearman where reported<br>
+<b>Source data:</b> FIG1_CELL_HETEROGENEITY_CURRENT.csv<br><b>Code:</b> scripts/701_multitarget_cellwise_predictability.py; scripts/1009_build_fig1_global_evidence_ledger_20261005.py; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_cell_heterogeneity.png">PNG</a> · <a href="assets/Fig1_ED_cell_heterogeneity.svg">SVG</a> · <a href="assets/Fig1_ED_cell_heterogeneity.pdf">PDF</a></p></section><section class="card"><div class="role">ED_STRUCTURE</div><h2>Fig1_ED_structural_wiring_branch</h2>
+<p class="claim">Structural/wiring coordinates predict function in fly and selected MICRONS edge features, but MICRONS remains a one-mouse structural boundary.</p>
+<a href="assets/Fig1_ED_structural_wiring_branch.png"><img src="assets/Fig1_ED_structural_wiring_branch.png" loading="lazy" alt="Fig1_ED_structural_wiring_branch"></a>
+<p class="meta"><b>Inference:</b> leave-region-out fly; one-mouse/session-stratified MICRONS<br><b>Null / control:</b> dataset-specific structural controls<br>
+<b>Source data:</b> FIG1_GLOBAL_EVIDENCE_LEDGER_20261005.csv<br><b>Code:</b> Turner structural runners; MICRONS edge-matched authority; scripts/1013_render_fig1_global_ed_20261005.py<br>
+<a href="assets/Fig1_ED_structural_wiring_branch.png">PNG</a> · <a href="assets/Fig1_ED_structural_wiring_branch.svg">SVG</a> · <a href="assets/Fig1_ED_structural_wiring_branch.pdf">PDF</a></p></section></body></html>

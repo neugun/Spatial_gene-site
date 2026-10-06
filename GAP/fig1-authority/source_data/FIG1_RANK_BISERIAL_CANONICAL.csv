@@ -1,0 +1,8 @@
+dataset,status,reason,n_genes_scanned,n_targets,n_pairs,median_abs_effect,q95_abs_effect,n_robust_pairs,top_gene,top_target,top_median_effect,top_sign_consistency,top_bh_q,source
+bugeon2022,nan,nan,72,5,355,0.1445594931066323,0.4627532212219314,140,Slc6a1,feat__pupil_r,-0.5957931783824642,1.0,0.2083333333333333,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+xu2020,nan,nan,9,11,77,0.2083333333333333,0.513294718232418,38,Npy1r,func__state_mean__Ghrelin,-0.8041125541125541,1.0,,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+shainer2025,nan,nan,9,8,64,0.0741743690977783,0.2495032040886186,6,ccka,feat__regsc_dot_large_ccw,-0.3029585798816567,1.0,,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+zhao2026,nan,nan,30,5,150,0.0984898589065255,0.3119047619047619,25,Slc30a3,func__state_mean__grating_up,0.4056122448979591,0.75,1.0,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+warp2026,nan,nan,41,8,24,0.0198227153488785,0.0397325048755334,0,cx43,feat__r_looming_left,-0.0464692240003361,1.0,,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+condylis2022,NOT_APPLICABLE,categorical_one_hot_quartiles_undefined,6,6,0,,,0,,,,,,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_RANK_BISERIAL_SUMMARY_20261003.csv
+allen_hcr,OK,,21,13,273,0.1532342532617711,0.3360044818398109,90,Mme,feat__omission_response,-0.5411745734625,1.0,0.0969460227272727,results/allen_visual_learning_hcr_fig123_full_20261003/evidence/rank_biserial_summary.csv

@@ -1,0 +1,7 @@
+dataset,type_level,n_targets,median_delta_aic,mean_delta_aic,fraction_gene_better,median_gene_minus_type_r2,status,source
+bugeon2022,type_l2,5,2.9919572306371265,1.2415789521806802,0.6,0.0937892859735085,same-sample OLS AIC; positive favors continuous genes,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_TYPE_GENE_AIC_SUMMARY_20261003.csv
+xu2020,type_l2,11,23.69896316493009,25.55014103209801,0.9090909090909092,0.0587696311554977,same-sample OLS AIC; positive favors continuous genes,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_TYPE_GENE_AIC_SUMMARY_20261003.csv
+shainer2025,type_l2,8,8.826246217737662,8.320968141505773,0.875,-0.0038798997809683,same-sample OLS AIC; positive favors continuous genes,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_TYPE_GENE_AIC_SUMMARY_20261003.csv
+zhao2026,type_l1,5,-22.427549086286035,-24.304432817595192,0.0,0.2229781547012715,same-sample OLS AIC; positive favors continuous genes,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_TYPE_GENE_AIC_SUMMARY_20261003.csv
+condylis2022,type_l1,6,-2.0,-2.0000000000000377,0.0,0.0,same-sample OLS AIC; positive favors continuous genes,results/manuscript/fig47_tool_matrix_20261002/MULTIDATASET_TYPE_GENE_AIC_SUMMARY_20261003.csv
+allen_hcr,type_l1,13,111.41652373132638,144.1343810404009,1.0,0.1041247589499003,independent measured-HCR replication; same-sample OLS AIC,results/allen_visual_learning_hcr_fig123_full_20261003/evidence/information_criterion_summary.csv

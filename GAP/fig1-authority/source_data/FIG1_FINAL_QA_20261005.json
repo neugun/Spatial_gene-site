@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "n_figure_stems": 22,
+  "n_asset_files": 66,
+  "all_triplets_nonempty": true,
+  "all_png_dpi_ge_590": true,
+  "key_numeric_assertions": "PASS",
+  "new_scripts_compile": "PASS",
+  "source_data_files": 30,
+  "warp_within_type_current": "13/80",
+  "bugeon_within_type_current": "4/5",
+  "xu_within_type_current": "2/4",
+  "global_ledger_v2_rows": 171
+}

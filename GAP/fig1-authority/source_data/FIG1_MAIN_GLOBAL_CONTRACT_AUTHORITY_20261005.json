@@ -1,0 +1,27 @@
+{
+  "version": "Fig1-main-global-contract-v1-20261005",
+  "main_blocks": {
+    "A": "Target formulation: held-unit molecular readout is stronger for rank/extreme questions than exact amplitude in several systems; shuffle mean is descriptive, not inferential.",
+    "B": "Taxonomy vs molecular state on the identical held-cell estimand: train-only identity vocabulary/preprocessing, inner group CV, outer held biological unit.",
+    "C": "Within-type molecular state: genes shuffled within type × animal; population binomial test counts types exceeding their own p95 null.",
+    "D": "Evoked response-vector decomposition: normalized shape versus gain/offset; do not equate this amplitude with Fig5 state/history susceptibility Γ."
+  },
+  "guardrails": [
+    "C. elegans target-formulation point is identity-derived class lookup and is not independent continuous-molecular replication.",
+    "Zhao target-formulation and identity/gene panels use projection PC1 and are labelled structural/projection phenotype, not a generic functional anchor.",
+    "Old draft 14/80 WARP within-type count is superseded by current 500-rep authority: 13/80.",
+    "WARP shape has no matched gain/offset authority in the current clean lineage; missing values are left missing.",
+    "Shainer global gene-shape latent is a boundary; its main positive coordinate is space."
+  ],
+  "source_tables": [
+    "FIG1_MAIN_A_TARGET_FORMULATION_20261005.csv",
+    "FIG1_MAIN_B_IDENTITY_GENE_STRICT_20261005.csv",
+    "FIG1_MAIN_C_WITHIN_TYPE_20261005.csv",
+    "FIG1_MAIN_D_SHAPE_GAIN_20261005.csv"
+  ],
+  "code": [
+    "scripts/1010_fig1_identity_gene_strict_20261005.py",
+    "scripts/1011_reaggregate_fig1_withintype_20261005.py",
+    "scripts/1012_render_fig1_global_contract_20261005.py"
+  ]
+}
