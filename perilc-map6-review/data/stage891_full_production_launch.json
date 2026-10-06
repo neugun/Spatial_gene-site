@@ -1,0 +1,18 @@
+{
+  "stage": 891,
+  "status": "SUBMITTED_IMMEDIATE",
+  "n_ready_total": 62,
+  "n_stage887_overlap": 7,
+  "n_new_pairs": 55,
+  "n_faces": 535,
+  "overlay_job": "54974470",
+  "rsfish_job": "54974471",
+  "post_job": "54974472",
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  }
+}

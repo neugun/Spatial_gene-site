@@ -1,0 +1,18 @@
+{
+  "stage": 888,
+  "candidate_pairs": 70,
+  "faces": 344,
+  "production_faces": 213,
+  "calibrated_pairs": 55,
+  "provisional_pairs": 8,
+  "no_image_deficit_pairs": 2,
+  "insufficient_pairs": 5,
+  "ceiling_faces": 30,
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  }
+}
