@@ -11,14 +11,15 @@
 <a href="assets/stage913_routeA_hardened_slc17a6_s530_qa.png" target="_blank"><img src="assets/stage913_routeA_hardened_slc17a6_s530_qa_preview.jpg" loading="eager"></a>
 <p>The first leave-one-gene-out Route-A search was rejected after an independent, phase-free audit showed that its projected artifact score could fall to zero while absolute periodic power remained high. The hardened authority therefore uses the Stage872 count-space candidate only when an independent absolute-harmonic-power audit improves and biology gates pass; otherwise the raw count map is retained.</p>
 <p><b>81 gene?section pairs audited: 64 accepted corrections, 17 conservatively kept raw.</b> Across all Stage872 candidates the median independent absolute-periodic-power ratio is 0.457. Slc17a6 S530 remains accepted: grid 0.324?0.050, independent absolute-power ratio 0.448, broad-2D 0.992, x-biology 0.992, y-biology 0.957, Fine26 0.996, R1?R5 0.994.</p>
+<a href="assets/stage913_routeA_all81_hardened_overview.png" target="_blank"><img src="assets/stage913_routeA_all81_hardened_overview.png" loading="lazy"></a>
 <p class="files"><a href="data/stage913_routeA_hardened_authority.json">Route A authority</a> ? <a href="data/stage913_routeA_hardened_summary.csv">all 81 decisions</a></p>
 </article>
 <article class="card current-result">
 <h3>Route B ? raw-tile overlap photometric calibration</h3>
-<a href="assets/stage911_routeB_wholexy_qa.png" target="_blank"><img src="assets/stage911_routeB_wholexy_qa_preview.jpg" loading="eager"></a>
-<p>This route does not use the Stage872 correction field. It uses the actual 5?5 raw acquisition tiles and the 40 horizontal/vertical overlaps as self-calibration data. Gains are fitted on z=385/1085 and tested on held-out z=805/1435.</p>
-<p><b>Held-out overlap mismatch falls from median |log ratio| 0.03398 to 0.00751 ? a 77.9% reduction.</b> The 25 tile factors span 0.874?1.190. The full-XY panels use the final stitching coordinates and show z=385, 805, 1085 and 1250 with no XY crop. Fixed-parameter RS-FISH on a 64-plane full-XY slab is now the next detector-level gate.</p>
-<p class="files"><a href="data/stage911_routeB_gain_solution.json">overlap gain solution</a> ? <a href="data/stage911_routeB_final_summary.json">whole-XY QA summary</a></p>
+<a href="assets/stage916_routeB_aligned_wholexy_qa.png" target="_blank"><img src="assets/stage916_routeB_aligned_wholexy_qa_preview.jpg" loading="eager"></a>
+<p>This route does not use the Stage872 correction field. It uses the actual 5?5 raw acquisition tiles and the 40 horizontal/vertical overlaps as self-calibration data. The current fit uses the <b>final stitch transforms</b> so each overlap compares the same global XYZ tissue. Gains are fitted on global z=385/1085 and tested on held-out global z=805/1250.</p>
+<p><b>Held-out overlap mismatch falls from median |log ratio| 0.02824 to 0.00689 ? a 75.6% reduction.</b> The 25 tile factors span 0.889?1.145. The full-XY panels use the final stitching coordinates and show global z=385, 805, 1085 and 1250 with no XY crop. A fixed-parameter RS-FISH test on an independent 64-plane full-XY slab around held-out global z?805 is running as the detector-level gate.</p>
+<p class="files"><a href="data/stage916_routeB_gain_solution.json">aligned-overlap gain solution</a> ? <a href="data/stage916_routeB_final_summary.json">whole-XY QA summary</a></p>
 </article>
 </div>
 </section>
