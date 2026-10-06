@@ -1,10 +1,10 @@
 {
   "page": "perilc-map6-review",
-  "assets": 80,
-  "data_files": 7,
+  "assets": 284,
+  "data_files": 105,
   "missing_links": [],
-  "index_bytes": 44221,
-  "version": "2026-10-05-map8-stage853",
+  "index_bytes": 110567,
+  "version": "2026-10-05-map9-stage872-final",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -109,7 +109,7 @@
     "mapmy_median_raw_tile_agreement": 0.8204911092294666,
     "mapmy_median_consensus_expected_fraction": 0.4384858044164038
   },
-  "current_authority": "Stage836 PASS",
+  "current_authority": "Stage872 physical-grid final",
   "stage831_qa": {
     "n_checks": 28,
     "n_pass": 28,
@@ -149,7 +149,7 @@
   "stage837_stage416c_severe_pairs": 1,
   "stage837_map400_severe_pairs": 8,
   "stage845_slc17a6_pilot": true,
-  "visible_project_name": "Map8 current review",
+  "visible_project_name": "periLC Map \u2014 Stage872 final review",
   "stage845_piecewise_promotion_status": "PILOT_ONLY; requires manual spatial review before replacing Stage594/Stage843 authority",
   "stage845_slurm_candidate_rows": 31928,
   "stage845_slurm_n_shards": 24,
@@ -202,10 +202,51 @@
     "max_r1r5_eta_ratio_changed": 1.0198147066642715,
     "max_q95plus_extra_changed": 0.0
   },
-  "current_correction_stage": 853,
+  "current_correction_stage": 872,
   "stage853_confirmed_artifacts_corrected": 18,
   "stage853_signal_holds": 3,
   "stage853_uncertain_holds": 3,
   "stage853_min_gridcorr": 0.9985054579171786,
-  "stage853_max_mass_added": 0.0246384739534479
+  "stage853_max_mass_added": 0.0246384739534479,
+  "stage872_pairs": 81,
+  "stage872_review_pairs": 0,
+  "stage872_class_counts": {
+    "EXCELLENT": 37,
+    "CLEAN": 36,
+    "LOW": 8
+  },
+  "stage872_median_grid_score": 0.1022630407560896,
+  "stage872_max_grid_score": 0.2456590538170606,
+  "stage872_min_lowpass2d_corr": 0.9654516879255464,
+  "stage872_physical_grid": {
+    "x": [
+      5,
+      10
+    ],
+    "y": [
+      3,
+      6
+    ]
+  },
+  "stage872_public_assets": [
+    "assets/stage872_all81_grid_score.webp",
+    "assets/slc17a6_s500_qa.webp",
+    "assets/slc17a6_s530_qa.webp",
+    "assets/slc17a6_s560_qa.webp",
+    "assets/snap25_s500_qa.webp",
+    "assets/snap25_s530_qa.webp",
+    "assets/snap25_s560_qa.webp",
+    "assets/npy1r_s530_qa.webp",
+    "assets/otx2os1_s500_qa.webp",
+    "assets/otx2os1_s560_qa.webp",
+    "assets/epb41l4a_s500_qa.webp",
+    "assets/cep112_s500_qa.webp",
+    "assets/slc6a2_s560_qa.webp",
+    "assets/mc4r_s560_qa.webp"
+  ],
+  "stage872_public_data": [
+    "data/stage872_final_grid_summary.csv",
+    "data/stage872_final_common_mode_audit.csv",
+    "data/stage872_final_authority.json"
+  ]
 }
