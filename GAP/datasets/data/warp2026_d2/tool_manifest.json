@@ -1,0 +1,60 @@
+{
+  "dataset_id": "warp2026_d2",
+  "display_name": "WARP 2026 D2",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "PERMUTATION_SUPPORTED",
+      "summary": "inference_unit=cross-cohort measured31 + 5 lifted identity genes",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED",
+      "summary": "60 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=1.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+    },
+    "6": {
+      "coverage": "EXECUTED",
+      "role": "EXECUTED",
+      "summary": "1 metric rows",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig4",
+      "file": "data/warp2026_d2/fig4_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig47",
+      "file": "data/warp2026_d2/fig47_authority_rows.csv",
+      "rows": 61
+    }
+  ]
+}

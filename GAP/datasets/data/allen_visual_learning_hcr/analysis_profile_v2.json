@@ -1,0 +1,16 @@
+{
+  "dataset_id": "allen_visual_learning_hcr",
+  "display_name": "Allen visual-learning 2P+HCR",
+  "executed_or_gated_stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "not_standardized_stages": [],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "All seven stages have an authority/gate; next priority is richer per-fold QC, plot explorer and one-command reproducibility."
+}

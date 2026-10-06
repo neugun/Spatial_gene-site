@@ -1,0 +1,2 @@
+dataset,run,reference,quality_flag,overlap_genes,overlap_fraction,geometry_rho,geometry_null_p,recovery_mean_rho,recovery_null_p,mapping_stability
+results\fig47_core_inputs_20261002\bugeon2022.parquet,bugeon_visp_atlasflow_v2,mouse_visp_exact,HIGH,70,0.9722222222222222,0.3032065310683225,0.0196078431372549,0.2983843216150404,0.0476190476190476,0.8999303802847862

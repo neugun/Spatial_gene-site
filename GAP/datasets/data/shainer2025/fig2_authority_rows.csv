@@ -1,0 +1,2 @@
+dataset,run,reference,quality_flag,overlap_genes,overlap_fraction,geometry_rho,geometry_null_p,recovery_mean_rho,recovery_null_p,mapping_stability
+results\fig47_core_inputs_20261002\shainer2025.parquet,shainer_tectum_atlasflow_v2,zebrafish_gse158_8dpf,GOOD,9,1.0,-0.0926640926640926,0.8823529411764706,0.1468424253626619,0.0476190476190476,0.732462927699089

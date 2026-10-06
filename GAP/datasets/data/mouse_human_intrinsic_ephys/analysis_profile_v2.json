@@ -1,0 +1,17 @@
+{
+  "dataset_id": "mouse_human_intrinsic_ephys",
+  "display_name": "mouse_human_intrinsic_ephys",
+  "executed_or_gated_stages": [
+    6
+  ],
+  "not_standardized_stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "datasets": 25,
+  "dataset_pages": 25,
+  "hub_pages": 2,
+  "missing_refs": 0,
+  "privacy_hits": 0,
+  "median_metrics": 7.0,
+  "max_metrics": 24,
+  "source_subsets": 64
+}

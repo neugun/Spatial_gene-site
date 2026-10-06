@@ -1,0 +1,60 @@
+{
+  "dataset_id": "chevee2018",
+  "display_name": "Chevee 2018",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "DIRECTIONAL_OR_BOUNDARY",
+      "summary": "inference_unit=6 held biological units",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "STRUCTURAL_PREDICTABILITY_PLUS_IDENTITY_STRUCTURE",
+      "summary": "direct R²=0.677; ρ=0.834; shared ΔR²=-0.000",
+      "boundary": "structural projection contract"
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig3",
+      "file": "data/chevee2018/fig3_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig5struct",
+      "file": "data/chevee2018/fig5struct_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}

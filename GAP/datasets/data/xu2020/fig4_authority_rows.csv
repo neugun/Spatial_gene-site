@@ -1,0 +1,16 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+ManifoldLift,Xu,latent_spearman,0.18618,MODERATE,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+selected_BehLift,xu2020,delta_r2,0.0639033382824072,POSITIVE,3 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,xu2020,delta_r2,0.0128288246370937,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0172634072587236,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0379831827826485,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0147488654314247,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0040195871154344,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0297064321757167,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,0.0639033382824072,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.001681056358187,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0625946134771698,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0216045069780514,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0034588543200912,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,xu2020,BH_q,0.0416462162113031,SUPPORTED,3 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+strict_conditional_contract,Xu,delta_r2,0.0639,PERMUTATION_SUPPORTED,strict 11-state conditional null,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv

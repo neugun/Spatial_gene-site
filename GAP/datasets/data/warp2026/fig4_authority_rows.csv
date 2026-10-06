@@ -1,0 +1,14 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+ManifoldLift,WARP,latent_spearman,0.14799,RANK_POSITIVE,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+selected_BehLift,warp2026,delta_r2,0.014463156479991,POSITIVE,3 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,warp2026,delta_r2,0.014463156479991,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,-0.0006549853454254,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0058275812066463,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.00045666741603,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0062307699841414,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0078420957503354,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,-0.0002400037003117,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0031104079351919,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+dynamic_manifold,WARP2026,type_cross_animal,0.50405,ED_DYNAMIC,cross-animal geometry,ED1,FIG4_ED1_WARP_DYNAMIC_GEOMETRY_20261005.csv
+dynamic_manifold,WARP2026,gene-combo_cross_animal,0.64292,ED_DYNAMIC,cross-animal geometry,ED1,FIG4_ED1_WARP_DYNAMIC_GEOMETRY_20261005.csv
+relation_index,warp2026,BH_q,0.0278344331133772,SUPPORTED,3 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv

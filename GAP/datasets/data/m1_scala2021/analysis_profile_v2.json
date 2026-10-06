@@ -1,0 +1,17 @@
+{
+  "dataset_id": "m1_scala2021",
+  "display_name": "Scala M1 Patch-seq",
+  "executed_or_gated_stages": [
+    3
+  ],
+  "not_standardized_stages": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1."
+}

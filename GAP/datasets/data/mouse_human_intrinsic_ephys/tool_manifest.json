@@ -1,0 +1,55 @@
+{
+  "dataset_id": "mouse_human_intrinsic_ephys",
+  "display_name": "mouse_human_intrinsic_ephys",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "EXECUTED",
+      "role": "VALIDATED_MANUSCRIPT",
+      "summary": "1 metric rows",
+      "boundary": "15/18 positive; target donor CI=[0.024956834253645577, 0.0973403088145715]; strict source donor CI=[-0.019084106326906568, 0.10976215742850914]"
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig47",
+      "file": "data/mouse_human_intrinsic_ephys/fig47_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}

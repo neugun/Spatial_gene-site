@@ -1,0 +1,1252 @@
+[
+  {
+    "dataset_id": "allen_vc2p",
+    "display_name": "Allen VC2P",
+    "held_units_fig1_max": "256",
+    "coverage_count": 2,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_APPLICABLE",
+        "summary": "n_held_units=256.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "POSITIVE; SUPPORTED; TARGET_LEVEL",
+        "summary": "inference_unit=59 held biological units, 59 held groups",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "allen_visual_learning_hcr",
+    "display_name": "Allen visual-learning 2P+HCR",
+    "held_units_fig1_max": "",
+    "coverage_count": 7,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "genes vs coarse type delta Spearman +0.0885, delta R2 +0.0272, wins=1.0; type_l1 relation index 0.2553, q=0.000999",
+        "boundary": "nan"
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "VISp exact: 19/21 overlap; geometry rho=0.241; hidden-gene recovery rho=0.206; stability=0.816; multiple held-mouse downstream gains",
+        "boundary": "nan"
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "K5 vs matched random: delta Spearman +0.097, delta AUROC +0.062, delta AUPRC +0.046; 6/6 wins for rank/AUC/AP; q=0.0469",
+        "boundary": "nan"
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "SATURATION_BOUNDARY",
+        "summary": "Full-chain biology-aware completion: best delta R2=+0.0079 (feat__change_reliability); 0 robust multimetric conditional-completion targets.",
+        "boundary": "Do not headline a positive delta R2 when rank/held-unit evidence does not agree."
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_OPERATOR_SUPPORT",
+        "summary": "PerturbAtlas-compatible 15-gene/10-function deployment=shared_fullrank: held-mouse R2=0.1556, Spearman=0.3696, AUROC=0.7415, fold-R2-positive=0.50; fig7_ready=true.",
+        "boundary": "Fig7 qualification is based on held-unit prediction; it is not causal validation."
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "FOUNDATION_AUGMENTATION_PLUS_NEGATIVE_GENERALIZATION",
+        "summary": "Within-dataset raw+Large vs raw mean delta R2=+0.0046, 8/10 targets positive. Prespecified HCR visual-evoked-strength -> Zhao transfer: source OOF rho=0.305, target rho=-0.192, p=0.921; status=EXECUTED_NO_TARGET_TRANSFER; claim_supported=false.",
+        "boundary": "Single-dataset foundation-forward augmentation is not itself a cross-dataset conservation claim. Representation/hyperparameters were selected source-only, but target evaluation is non-positive; do not claim transfer or conservation."
+      },
+      "7": {
+        "coverage": "EXECUTED",
+        "role": "PROSPECTIVE_DESIGN_SUPPORT",
+        "summary": "One-command Fig7: 44,133 perturbation-context conditions; 7,781 eligible; 2,046 perturbations; 23 contexts, using the held-mouse-qualified Fig5 operator.",
+        "boundary": "Rankings are prospective direction/selectivity hypotheses, not calibrated effect sizes or causal discoveries."
+      }
+    }
+  },
+  {
+    "dataset_id": "bugeon2022",
+    "display_name": "Bugeon 2022",
+    "held_units_fig1_max": "4",
+    "coverage_count": 6,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=4.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 authority rows",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "COMPARATOR; PARETO",
+        "summary": "inference_unit=4 held mice",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "POSITIVE; SUPPORTED; TARGET_LEVEL",
+        "summary": "inference_unit=4 held biological units, 4 held groups",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; PRIMARY_MULTIMETRIC_SUPPORT",
+        "summary": "20 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/4.0 | domain=function; positive_delta_metrics=4.0/4.0"
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 metric rows",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "celegans_atanas2023",
+    "display_name": "C. elegans / Atanas 2023",
+    "held_units_fig1_max": "40",
+    "coverage_count": 4,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=40.0, 7.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_BOUNDARY",
+        "summary": "inference_unit=5 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_LEGACY_FROZEN; POSITIVE; STRONG; SUPPORTED; TARGET_LEVEL",
+        "summary": "inference_unit=held biological unit, 40 held biological units, 40 held groups, leave-one-function-out",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED; EQUAL_PERFORMANCE_BOUNDARY",
+        "summary": "40 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=5.0/5.0"
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "chevee2018",
+    "display_name": "Chevee 2018",
+    "held_units_fig1_max": "",
+    "coverage_count": 2,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_BOUNDARY",
+        "summary": "inference_unit=6 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "STRUCTURAL_PREDICTABILITY_PLUS_IDENTITY_STRUCTURE",
+        "summary": "direct R²=0.677; ρ=0.834; shared ΔR²=-0.000",
+        "boundary": "structural projection contract"
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "condylis2022",
+    "display_name": "Condylis 2022",
+    "held_units_fig1_max": "9",
+    "coverage_count": 7,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "VALID_NULL_BOUNDARY",
+        "summary": "9 held mice; genes/type carry similar categorical marker information; relation index 0.0245, q=0.913 retained as valid null",
+        "boundary": "nan"
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "SSp-bfd exact reference: 6/6 overlap; GOOD; hidden-gene recovery rho=0.221, p=0.0476; stability=0.836",
+        "boundary": "nan"
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "BOUNDARY",
+        "summary": "K5 fixed-budget delta Spearman about -0.00008, wins 2/9, q=0.752; full 6-marker panel correctly non-inferential",
+        "boundary": "nan"
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "SATURATION_BOUNDARY",
+        "summary": "state completion is saturated: best delta R2=+0.0013; function-only R2=0.866",
+        "boundary": "Molecular markers add almost no unique information once other task/passive states are observed."
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BOUNDARY",
+        "summary": "shared operator R2=-0.0500, Spearman=-0.2181, AUROC=0.3604; no absolute operator support",
+        "boundary": "Categorical 6-marker identity is insufficient for held-mouse multivariate response law."
+      },
+      "6": {
+        "coverage": "BLOCKED_PRECHECK",
+        "role": "PANEL_SIZE_BOUNDARY",
+        "summary": "foundation blocked because only 6 genes resolve to frozen tokens (<16)",
+        "boundary": "Do not lower the threshold to force a foundation result."
+      },
+      "7": {
+        "coverage": "NOT_APPLICABLE_GATE",
+        "role": "BOUNDARY",
+        "summary": "PerturbAtlas-compatible 3-gene operator failed readiness: R2=-0.0363, Spearman=-0.2635, AUROC=0.3294, fold-R2-positive=0",
+        "boundary": "Tool correctly stops before virtual perturbation nomination."
+      }
+    }
+  },
+  {
+    "dataset_id": "fly_flyvis",
+    "display_name": "FlyVis",
+    "held_units_fig1_max": "1",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=1.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "fly_turner2021",
+    "display_name": "Turner 2021 fly",
+    "held_units_fig1_max": "20",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=20.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "habenula_dandi000302",
+    "display_name": "Habenula DANDI 000302",
+    "held_units_fig1_max": "12",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "FDR_SUPPORTED; NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=12.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "huang2020_bricseq",
+    "display_name": "Huang 2020 BRICseq",
+    "held_units_fig1_max": "",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "STRUCTURAL_OPERATOR_BOUNDARY",
+        "summary": "direct R²=-0.229; ρ=0.113; shared ΔR²=-0.354",
+        "boundary": "structural projection contract"
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "m1_scala2021",
+    "display_name": "Scala M1 Patch-seq",
+    "held_units_fig1_max": "",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "BENCHMARK; PAIRWISE",
+        "summary": "inference_unit=10 held-mouse folds",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "mclachlan2025",
+    "display_name": "McLachlan / Jerry Chen",
+    "held_units_fig1_max": "4",
+    "coverage_count": 7,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "multi-axis molecular/function evidence executed across 4 held animals; Fig1 authority rows=27",
+        "boundary": "nan"
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "SUPPORT",
+        "summary": "PERI/ECT exact AtlasLift: 22/23 overlap; global geometry rho 0.208→0.320, delta +0.112, matched-random q=0.040",
+        "boundary": "nan"
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL",
+        "summary": "K10 fixed-budget directional: delta Spearman +0.0351, delta AUROC +0.0267, delta AUPRC +0.0213; 4/4 wins; q about 0.312",
+        "boundary": "nan"
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "MIXED_BOUNDARY",
+        "summary": "biology-aware primary dAIC axes; best delta R2=+0.0154 (feat__dAIC_dec_correct_report), but delta Spearman=-0.0257, delta AUROC=-0.0045; no robust multimetric completion",
+        "boundary": "Derived median/early/late/slope summaries were removed to prevent same-axis leakage."
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BOUNDARY",
+        "summary": "shared operator R2=-0.0125, Spearman=-0.2007, AUROC=0.3966; fig7_ready=false",
+        "boundary": "Absolute held-animal response-law prediction is unsupported."
+      },
+      "6": {
+        "coverage": "BLOCKED_PRECHECK",
+        "role": "COVERAGE_BOUNDARY",
+        "summary": "foundation/generalization preflight blocked: only 12 measured genes resolve to frozen tokens (<16); no invented endpoint transfer pairs",
+        "boundary": "Exact functional endpoint overlap with Allen HCR/Condylis is zero; semantic transfer must be prespecified, not guessed."
+      },
+      "7": {
+        "coverage": "NOT_APPLICABLE_GATE",
+        "role": "BOUNDARY",
+        "summary": "PerturbAtlas-compatible 8-gene operator failed Fig7 readiness: R2=-0.0139, Spearman=-0.2332, AUROC=0.3708, fold-R2-positive=0",
+        "boundary": "Tool correctly stops before prospective nomination."
+      }
+    }
+  },
+  {
+    "dataset_id": "mergeseq2024",
+    "display_name": "Merge-seq 2024",
+    "held_units_fig1_max": "",
+    "coverage_count": 3,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "EXPLORATORY_FULL_SCAN; MULTIDATASET_SAME_SAMPLE_AIC",
+        "summary": "2 authority rows",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_BOUNDARY",
+        "summary": "inference_unit=4 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED",
+        "summary": "30 metric rows",
+        "boundary": "domain=projection; positive_delta_metrics=0.0/4.0 | domain=projection; positive_delta_metrics=1.0/4.0 | domain=projection; positive_delta_metrics=2.0/4.0"
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "microns_v1em",
+    "display_name": "MICrONS V1 EM",
+    "held_units_fig1_max": "",
+    "coverage_count": 2,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED_SESSION_HELD",
+        "role": "STRUCTURAL_SUPPORT",
+        "summary": "24,713 unique EM neurons; session-held: space rho=0.1465 vs type 0.0369; space-type delta rho=+0.1096 (6/6); RFx/RFy rho=0.497/0.536",
+        "boundary": "One animal: never call this held-animal or cross-animal."
+      },
+      "2": {
+        "coverage": "NOT_APPLICABLE",
+        "role": "NO_TRANSCRIPTOME_BOUNDARY",
+        "summary": "AtlasLift molecular recovery is correctly unavailable because there is no transcriptomic gene block",
+        "boundary": "Structural/anatomical data must not be masqueraded as molecular recovery."
+      },
+      "3": {
+        "coverage": "NOT_APPLICABLE",
+        "role": "NO_TRANSCRIPTOME_BOUNDARY",
+        "summary": "molecular fixed-budget selection is correctly unavailable",
+        "boundary": "No gene panel exists to select."
+      },
+      "4": {
+        "coverage": "EXECUTED_STRUCTURAL",
+        "role": "STRUCTURAL_GEOMETRY_SUPPORT",
+        "summary": "public continuation executes coordinate mediation + relation under session-acquisition holdout; connectivity-complete cohort shows only small non-significant increment over type+space",
+        "boundary": "Fig4 is structural/function geometry only, not molecular completion."
+      },
+      "5": {
+        "coverage": "NOT_APPLICABLE",
+        "role": "NO_MOLECULAR_OPERATOR",
+        "summary": "no gene-to-multiresponse operator is scientifically defined from this dataset",
+        "boundary": "Do not fabricate an operator from connectivity labels."
+      },
+      "6": {
+        "coverage": "NOT_APPLICABLE",
+        "role": "NO_MOLECULAR_FOUNDATION",
+        "summary": "foundation/transfer molecular route correctly unavailable",
+        "boundary": "Single animal and no transcriptome."
+      },
+      "7": {
+        "coverage": "NOT_APPLICABLE",
+        "role": "NO_PERTURBABLE_MOLECULAR_LAW",
+        "summary": "no validated molecular operator, therefore no Perturb-GAP nomination",
+        "boundary": "Correct stopping behavior is part of tool acceptance."
+      }
+    }
+  },
+  {
+    "dataset_id": "mouse_human_intrinsic_ephys",
+    "display_name": "mouse_human_intrinsic_ephys",
+    "held_units_fig1_max": "",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "VALIDATED_MANUSCRIPT",
+        "summary": "1 metric rows",
+        "boundary": "15/18 positive; target donor CI=[0.024956834253645577, 0.0973403088145715]; strict source donor CI=[-0.019084106326906568, 0.10976215742850914]"
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "neuroplex2026",
+    "display_name": "NeuroPlex 2026",
+    "held_units_fig1_max": "5",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=5.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "photseq2019",
+    "display_name": "PhotSeq 2019",
+    "held_units_fig1_max": "",
+    "coverage_count": 2,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_BOUNDARY",
+        "summary": "inference_unit=5 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "INVALID_EXCLUDED",
+        "summary": "1 metric rows",
+        "boundary": "GEO metadata declares vomeronasal sensory epithelium; VISp token used in this diagnostic run is anatomically incorrect. Do not use as external foundation validation."
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "shainer2025",
+    "display_name": "Shainer 2025",
+    "held_units_fig1_max": "6",
+    "coverage_count": 5,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=6.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 authority rows",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "BOUNDARY; DIRECTIONAL_OR_LEGACY_FROZEN; TARGET_LEVEL",
+        "summary": "inference_unit=held biological unit, 6 held biological units, 6 held groups, leave-one-function-out",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED",
+        "summary": "60 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=1.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+      },
+      "6": {
+        "coverage": "BLOCKED",
+        "role": "BLOCKED",
+        "summary": "1 metric rows",
+        "boundary": "only 9 measured genes overlap foundation vocab (<16)"
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "sorensen2026",
+    "display_name": "Sorensen 2026",
+    "held_units_fig1_max": "6",
+    "coverage_count": 3,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_AND_TYPE_CONTRAST; MULTIDATASET_SAME_SAMPLE_AIC; NO_VALID_QUARTILES",
+        "summary": "n_held_units=6.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "POSITIVE; TARGET_LEVEL",
+        "summary": "inference_unit=74 held biological units",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED; MULTIMETRIC_REPLICATION",
+        "summary": "30 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/4.0 | domain=function; positive_delta_metrics=1.0/4.0 | domain=function; positive_delta_metrics=4.0/4.0"
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "wang2023",
+    "display_name": "Wang 2023",
+    "held_units_fig1_max": "",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "TRUE_MEASURED_VALIDATION",
+        "summary": "inference_unit=target-specific true hidden-gene experiment",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "warp2026",
+    "display_name": "WARP 2026 D1",
+    "held_units_fig1_max": "3",
+    "coverage_count": 5,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC",
+        "summary": "n_held_units=3.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "ADDITION; DIRECTIONAL_OR_BOUNDARY; MEASURED_COMPRESSION; REPLACEMENT_OR_BASELINE",
+        "summary": "inference_unit=3 fish in original nested selection pipeline, nested measured-panel pipeline, 3 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "ED_DYNAMIC; POSITIVE; RANK_POSITIVE; SUPPORTED; TARGET_LEVEL",
+        "summary": "inference_unit=held biological unit, 3 held biological units, cross-animal geometry, 3 held groups",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED; MIXED_POSITIVE",
+        "summary": "60 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=2.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "3 metric rows",
+        "boundary": "source OOF rho=0.0950003670949699; global perm p=0.47619047619047616 | source OOF rho=0.381471081567656; global perm p=0.42857142857142855"
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "warp2026_d2",
+    "display_name": "WARP 2026 D2",
+    "held_units_fig1_max": "",
+    "coverage_count": 3,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "PERMUTATION_SUPPORTED",
+        "summary": "inference_unit=cross-cohort measured31 + 5 lifted identity genes",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED",
+        "summary": "60 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=1.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 metric rows",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "wholebrain_crispr_perturbseq",
+    "display_name": "Whole-brain CRISPR Perturb-seq",
+    "held_units_fig1_max": "",
+    "coverage_count": 1,
+    "stages": {
+      "1": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "6": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "EXECUTED",
+        "role": "PROSPECTIVE_ONLY; VALIDATED_AUTHORITY",
+        "summary": "16 metric rows",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "xu2020",
+    "display_name": "Xu 2020 PVH",
+    "held_units_fig1_max": "3",
+    "coverage_count": 5,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC",
+        "summary": "n_held_units=3.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 authority rows",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "MODERATE; PERMUTATION_SUPPORTED; POSITIVE; SUPPORTED; TARGET_LEVEL",
+        "summary": "inference_unit=held biological unit, 3 held biological units, 3 held groups, strict 11-state conditional null",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED; MULTIMETRIC_REPLICATION",
+        "summary": "60 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=5.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+      },
+      "6": {
+        "coverage": "BLOCKED",
+        "role": "BLOCKED",
+        "summary": "1 metric rows",
+        "boundary": "only 9 measured genes overlap foundation vocab (<16)"
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  },
+  {
+    "dataset_id": "zhao2026",
+    "display_name": "Zhao 2026",
+    "held_units_fig1_max": "9",
+    "coverage_count": 6,
+    "stages": {
+      "1": {
+        "coverage": "EXECUTED",
+        "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+        "summary": "n_held_units=6.0, 9.0",
+        "boundary": ""
+      },
+      "2": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 authority rows",
+        "boundary": ""
+      },
+      "3": {
+        "coverage": "EXECUTED",
+        "role": "DIRECTIONAL_OR_BOUNDARY; PROSPECTIVE_NOT_TRUE_REPLACEMENT",
+        "summary": "inference_unit=reference-discriminativeness prospective marker contract, 9 held biological units",
+        "boundary": ""
+      },
+      "4": {
+        "coverage": "EXECUTED",
+        "role": "BOUNDARY; TARGET_LEVEL",
+        "summary": "inference_unit=9 held biological units, 9 held groups",
+        "boundary": ""
+      },
+      "5": {
+        "coverage": "EXECUTED",
+        "role": "BASELINE; BOUNDARY_OR_MIXED",
+        "summary": "60 metric rows",
+        "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=1.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+      },
+      "6": {
+        "coverage": "EXECUTED",
+        "role": "EXECUTED",
+        "summary": "1 metric rows",
+        "boundary": ""
+      },
+      "7": {
+        "coverage": "NOT_STANDARDIZED",
+        "role": "",
+        "summary": "",
+        "boundary": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,2 @@
+dataset,run,reference,quality_flag,overlap_genes,overlap_fraction,geometry_rho,geometry_null_p,recovery_mean_rho,recovery_null_p,mapping_stability
+results\fig13_extended_inputs_20261003\mclachlan2025.parquet,mclachlan_periect_atlasflow_v2,mouse_peri_ect_exact,GOOD,22,0.9565217391304348,0.0197200101248077,0.3725490196078431,0.0377915833619153,0.0476190476190476,0.7706922814249992

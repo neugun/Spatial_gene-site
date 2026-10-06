@@ -1,0 +1,4 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+selected_BehLift,sorensen2026,delta_r2,0.0777172332537472,POSITIVE,74 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,sorensen2026,delta_r2,0.0777172332537472,TARGET_LEVEL,74 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,sorensen2026,delta_r2,-0.069702232169484,TARGET_LEVEL,74 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv

@@ -1,0 +1,17 @@
+{
+  "dataset_id": "warp2026_d2",
+  "display_name": "WARP 2026 D2",
+  "executed_or_gated_stages": [
+    4,
+    5,
+    6
+  ],
+  "not_standardized_stages": [
+    1,
+    2,
+    3,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1."
+}

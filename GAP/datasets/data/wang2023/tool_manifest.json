@@ -1,0 +1,55 @@
+{
+  "dataset_id": "wang2023",
+  "display_name": "Wang 2023",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "TRUE_MEASURED_VALIDATION",
+      "summary": "inference_unit=target-specific true hidden-gene experiment",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig3",
+      "file": "data/wang2023/fig3_authority_rows.csv",
+      "rows": 5
+    }
+  ]
+}

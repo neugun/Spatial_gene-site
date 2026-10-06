@@ -1,0 +1,10 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+ManifoldLift,C. elegans,latent_spearman,0.47158,STRONG,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+selected_BehLift,celegans_atanas2023,delta_r2,0.1167979490138353,POSITIVE,40 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0056918206679867,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0080122513306543,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.1020342014047691,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.1167979490138353,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0311863619063651,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,celegans_atanas2023,BH_q,0.0008284057474219,SUPPORTED,40 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+strict_conditional_contract,C. elegans,delta_r2,0.13294,DIRECTIONAL_OR_LEGACY_FROZEN,leave-one-function-out,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv

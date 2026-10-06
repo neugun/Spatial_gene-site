@@ -1,0 +1,10 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+selected_BehLift,condylis2022,delta_r2,-2.1073420786166247e-10,BOUNDARY,9 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,condylis2022,delta_r2,-8.426223052637735e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-1.2972781737730082e-09,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-1.636980551111833e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-2.1073420786166247e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,0.0002341809464638,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-4.4908632368390045e-11,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-0.0025471173588074,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,condylis2022,BH_q,1.0,BOUNDARY,9 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv

@@ -1,0 +1,8 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+selected_BehLift,bugeon2022,delta_r2,0.062967252354918,POSITIVE,4 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.062967252354918,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.0284593870868727,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,-0.0297431129885924,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,-0.0267025124725817,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.0991095868255806,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,bugeon2022,BH_q,0.0014497100579884,SUPPORTED,4 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv

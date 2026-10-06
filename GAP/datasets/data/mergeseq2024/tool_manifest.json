@@ -1,0 +1,70 @@
+{
+  "dataset_id": "mergeseq2024",
+  "display_name": "Merge-seq 2024",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "EXPLORATORY_FULL_SCAN; MULTIDATASET_SAME_SAMPLE_AIC",
+      "summary": "2 authority rows",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "DIRECTIONAL_OR_BOUNDARY",
+      "summary": "inference_unit=4 held biological units",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED",
+      "summary": "30 metric rows",
+      "boundary": "domain=projection; positive_delta_metrics=0.0/4.0 | domain=projection; positive_delta_metrics=1.0/4.0 | domain=projection; positive_delta_metrics=2.0/4.0"
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/mergeseq2024/fig1_authority_rows.csv",
+      "rows": 2
+    },
+    {
+      "name": "fig3",
+      "file": "data/mergeseq2024/fig3_authority_rows.csv",
+      "rows": 2
+    },
+    {
+      "name": "fig47",
+      "file": "data/mergeseq2024/fig47_authority_rows.csv",
+      "rows": 30
+    },
+    {
+      "name": "fig5struct",
+      "file": "data/mergeseq2024/fig5struct_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}

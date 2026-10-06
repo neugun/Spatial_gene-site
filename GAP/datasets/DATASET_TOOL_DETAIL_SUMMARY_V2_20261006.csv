@@ -1,0 +1,26 @@
+dataset_id,display_name,executed_or_gated_stages,not_standardized_stages,blocked_or_not_applicable_stages,next_priority,key_metric_count,source_subset_count
+allen_vc2p,Allen VC2P,"[1, 4]","[2, 3, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,7,3
+allen_visual_learning_hcr,Allen visual-learning 2P+HCR,"[1, 2, 3, 4, 5, 6, 7]",[],[],"All seven stages have an authority/gate; next priority is richer per-fold QC, plot explorer and one-command reproducibility.",4,2
+bugeon2022,Bugeon 2022,"[1, 2, 3, 4, 5, 6]",[7],[],Backfill the earliest scientifically valid unstandardized stage: Fig7.,23,5
+celegans_atanas2023,C. elegans / Atanas 2023,"[1, 3, 4, 5]","[2, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,20,5
+chevee2018,Chevee 2018,"[3, 5]","[1, 2, 4, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,7,2
+condylis2022,Condylis 2022,"[1, 2, 3, 4, 5, 6, 7]",[],"[6, 7]",Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.,21,5
+fly_flyvis,FlyVis,[1],"[2, 3, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,3,1
+fly_turner2021,Turner 2021 fly,[1],"[2, 3, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,3,1
+habenula_dandi000302,Habenula DANDI 000302,[1],"[2, 3, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,3,1
+huang2020_bricseq,Huang 2020 BRICseq,[5],"[1, 2, 3, 4, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,3,1
+m1_scala2021,Scala M1 Patch-seq,[3],"[1, 2, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,3,1
+mclachlan2025,McLachlan / Jerry Chen,"[1, 2, 3, 4, 5, 6, 7]",[],"[6, 7]",Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.,9,3
+mergeseq2024,Merge-seq 2024,"[1, 3, 5]","[2, 4, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,12,4
+microns_v1em,MICrONS V1 EM,"[1, 4]",[],"[2, 3, 5, 6, 7]",Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.,0,1
+mouse_human_intrinsic_ephys,mouse_human_intrinsic_ephys,[6],"[1, 2, 3, 4, 5, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,3,1
+neuroplex2026,NeuroPlex 2026,[1],"[2, 3, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,3,1
+photseq2019,PhotSeq 2019,"[3, 6]","[1, 2, 4, 5, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,7,2
+shainer2025,Shainer 2025,"[1, 2, 4, 5, 6]","[3, 7]",[6],Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.,22,4
+sorensen2026,Sorensen 2026,"[1, 4, 5]","[2, 3, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,14,4
+wang2023,Wang 2023,[3],"[1, 2, 4, 5, 6, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,3,1
+warp2026,WARP 2026 D1,"[1, 3, 4, 5, 6]","[2, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig2.,19,4
+warp2026_d2,WARP 2026 D2,"[4, 5, 6]","[1, 2, 3, 7]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,8,2
+wholebrain_crispr_perturbseq,Whole-brain CRISPR Perturb-seq,[7],"[1, 2, 3, 4, 5, 6]",[],Backfill the earliest scientifically valid unstandardized stage: Fig1.,2,1
+xu2020,Xu 2020 PVH,"[1, 2, 4, 5, 6]","[3, 7]",[6],Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.,22,4
+zhao2026,Zhao 2026,"[1, 2, 3, 4, 5, 6]",[7],[],Backfill the earliest scientifically valid unstandardized stage: Fig7.,24,5

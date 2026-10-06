@@ -1,0 +1,70 @@
+{
+  "dataset_id": "xu2020",
+  "display_name": "Xu 2020 PVH",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC",
+      "summary": "n_held_units=3.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "EXECUTED",
+      "role": "EXECUTED",
+      "summary": "1 authority rows",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "MODERATE; PERMUTATION_SUPPORTED; POSITIVE; SUPPORTED; TARGET_LEVEL",
+      "summary": "inference_unit=held biological unit, 3 held biological units, 3 held groups, strict 11-state conditional null",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED; MULTIMETRIC_REPLICATION",
+      "summary": "60 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=5.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+    },
+    "6": {
+      "coverage": "BLOCKED",
+      "role": "BLOCKED",
+      "summary": "1 metric rows",
+      "boundary": "only 9 measured genes overlap foundation vocab (<16)"
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/xu2020/fig1_authority_rows.csv",
+      "rows": 7
+    },
+    {
+      "name": "fig2",
+      "file": "data/xu2020/fig2_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig4",
+      "file": "data/xu2020/fig4_authority_rows.csv",
+      "rows": 15
+    },
+    {
+      "name": "fig47",
+      "file": "data/xu2020/fig47_authority_rows.csv",
+      "rows": 67
+    }
+  ]
+}

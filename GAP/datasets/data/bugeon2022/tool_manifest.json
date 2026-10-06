@@ -1,0 +1,75 @@
+{
+  "dataset_id": "bugeon2022",
+  "display_name": "Bugeon 2022",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "ABSOLUTE_AND_TYPE_CONTRAST; EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+      "summary": "n_held_units=4.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "EXECUTED",
+      "role": "EXECUTED",
+      "summary": "1 authority rows",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "COMPARATOR; PARETO",
+      "summary": "inference_unit=4 held mice",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "POSITIVE; SUPPORTED; TARGET_LEVEL",
+      "summary": "inference_unit=4 held biological units, 4 held groups",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; PRIMARY_MULTIMETRIC_SUPPORT",
+      "summary": "20 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/4.0 | domain=function; positive_delta_metrics=4.0/4.0"
+    },
+    "6": {
+      "coverage": "EXECUTED",
+      "role": "EXECUTED",
+      "summary": "1 metric rows",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/bugeon2022/fig1_authority_rows.csv",
+      "rows": 12
+    },
+    {
+      "name": "fig2",
+      "file": "data/bugeon2022/fig2_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig3",
+      "file": "data/bugeon2022/fig3_authority_rows.csv",
+      "rows": 16
+    },
+    {
+      "name": "fig4",
+      "file": "data/bugeon2022/fig4_authority_rows.csv",
+      "rows": 7
+    },
+    {
+      "name": "fig47",
+      "file": "data/bugeon2022/fig47_authority_rows.csv",
+      "rows": 27
+    }
+  ]
+}

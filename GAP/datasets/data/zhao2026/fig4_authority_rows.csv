@@ -1,0 +1,8 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+selected_BehLift,zhao2026,delta_r2,-0.0345975054730876,BOUNDARY,9 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0032053392037258,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.1784827238475066,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0874165474247286,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.1765841370084904,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0345975054730876,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,zhao2026,BH_q,0.5777164012458131,BOUNDARY,9 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv

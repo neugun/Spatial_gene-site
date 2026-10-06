@@ -1,0 +1,65 @@
+{
+  "dataset_id": "allen_vc2p",
+  "display_name": "Allen VC2P",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_APPLICABLE",
+      "summary": "n_held_units=256.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "POSITIVE; SUPPORTED; TARGET_LEVEL",
+      "summary": "inference_unit=59 held biological units, 59 held groups",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/allen_vc2p/fig1_authority_rows.csv",
+      "rows": 6
+    },
+    {
+      "name": "fig4",
+      "file": "data/allen_vc2p/fig4_authority_rows.csv",
+      "rows": 27
+    },
+    {
+      "name": "fig47",
+      "file": "data/allen_vc2p/fig47_authority_rows.csv",
+      "rows": 6
+    }
+  ]
+}

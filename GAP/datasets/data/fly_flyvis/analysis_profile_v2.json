@@ -1,0 +1,17 @@
+{
+  "dataset_id": "fly_flyvis",
+  "display_name": "FlyVis",
+  "executed_or_gated_stages": [
+    1
+  ],
+  "not_standardized_stages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2."
+}

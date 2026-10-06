@@ -1,0 +1,55 @@
+{
+  "dataset_id": "m1_scala2021",
+  "display_name": "Scala M1 Patch-seq",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "BENCHMARK; PAIRWISE",
+      "summary": "inference_unit=10 held-mouse folds",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig3",
+      "file": "data/m1_scala2021/fig3_authority_rows.csv",
+      "rows": 27
+    }
+  ]
+}

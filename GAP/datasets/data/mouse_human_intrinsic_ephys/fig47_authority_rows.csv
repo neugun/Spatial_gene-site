@@ -1,0 +1,2 @@
+figure,dataset,stage,contract,model,metric,value,baseline_value,delta_vs_baseline,status,n_groups,notes,source
+6,mouse -> human intrinsic ephys,frozen_human_recipe,cell-context TF backbone + endpoint-selective BB context,GAP,macro_spearman,0.0650496212908344,,,VALIDATED_MANUSCRIPT,,"15/18 positive; target donor CI=[0.024956834253645577, 0.0973403088145715]; strict source donor CI=[-0.019084106326906568, 0.10976215742850914]",internal_authority/FIG6_TOOL_CAPABILITY_LEDGER.csv

@@ -1,0 +1,55 @@
+{
+  "dataset_id": "huang2020_bricseq",
+  "display_name": "Huang 2020 BRICseq",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "STRUCTURAL_OPERATOR_BOUNDARY",
+      "summary": "direct R²=-0.229; ρ=0.113; shared ΔR²=-0.354",
+      "boundary": "structural projection contract"
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig5struct",
+      "file": "data/huang2020_bricseq/fig5struct_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}

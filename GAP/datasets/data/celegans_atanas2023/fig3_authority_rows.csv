@@ -1,0 +1,2 @@
+family,dataset,K,method,metric,effect,status,inference_unit,placement,source,p_value,q_value
+broad_replication,celegans_atanas2023,,,feat_K25,-0.0060637261549201,DIRECTIONAL_OR_BOUNDARY,5 held biological units,ED,FIG3_ED5_BROAD_HELDUNIT_REPLICATION_20261005.csv,0.5,0.5

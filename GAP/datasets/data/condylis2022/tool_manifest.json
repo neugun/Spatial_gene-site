@@ -1,0 +1,75 @@
+{
+  "dataset_id": "condylis2022",
+  "display_name": "Condylis 2022",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "VALID_NULL_BOUNDARY",
+      "summary": "9 held mice; genes/type carry similar categorical marker information; relation index 0.0245, q=0.913 retained as valid null",
+      "boundary": "nan"
+    },
+    "2": {
+      "coverage": "EXECUTED",
+      "role": "SUPPORT",
+      "summary": "SSp-bfd exact reference: 6/6 overlap; GOOD; hidden-gene recovery rho=0.221, p=0.0476; stability=0.836",
+      "boundary": "nan"
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "BOUNDARY",
+      "summary": "K5 fixed-budget delta Spearman about -0.00008, wins 2/9, q=0.752; full 6-marker panel correctly non-inferential",
+      "boundary": "nan"
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "SATURATION_BOUNDARY",
+      "summary": "state completion is saturated: best delta R2=+0.0013; function-only R2=0.866",
+      "boundary": "Molecular markers add almost no unique information once other task/passive states are observed."
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BOUNDARY",
+      "summary": "shared operator R2=-0.0500, Spearman=-0.2181, AUROC=0.3604; no absolute operator support",
+      "boundary": "Categorical 6-marker identity is insufficient for held-mouse multivariate response law."
+    },
+    "6": {
+      "coverage": "BLOCKED_PRECHECK",
+      "role": "PANEL_SIZE_BOUNDARY",
+      "summary": "foundation blocked because only 6 genes resolve to frozen tokens (<16)",
+      "boundary": "Do not lower the threshold to force a foundation result."
+    },
+    "7": {
+      "coverage": "NOT_APPLICABLE_GATE",
+      "role": "BOUNDARY",
+      "summary": "PerturbAtlas-compatible 3-gene operator failed readiness: R2=-0.0363, Spearman=-0.2635, AUROC=0.3294, fold-R2-positive=0",
+      "boundary": "Tool correctly stops before virtual perturbation nomination."
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/condylis2022/fig1_authority_rows.csv",
+      "rows": 7
+    },
+    {
+      "name": "fig2",
+      "file": "data/condylis2022/fig2_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig4",
+      "file": "data/condylis2022/fig4_authority_rows.csv",
+      "rows": 9
+    },
+    {
+      "name": "fig47",
+      "file": "data/condylis2022/fig47_authority_rows.csv",
+      "rows": 67
+    },
+    {
+      "name": "end2end",
+      "file": "data/condylis2022/end2end_authority_rows.csv",
+      "rows": 7
+    }
+  ]
+}

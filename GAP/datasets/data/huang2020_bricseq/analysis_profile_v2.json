@@ -1,0 +1,17 @@
+{
+  "dataset_id": "huang2020_bricseq",
+  "display_name": "Huang 2020 BRICseq",
+  "executed_or_gated_stages": [
+    5
+  ],
+  "not_standardized_stages": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1."
+}

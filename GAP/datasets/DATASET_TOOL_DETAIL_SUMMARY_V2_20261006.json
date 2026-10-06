@@ -1,0 +1,484 @@
+[
+  {
+    "dataset_id": "allen_vc2p",
+    "display_name": "Allen VC2P",
+    "executed_or_gated_stages": [
+      1,
+      4
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 7,
+    "source_subset_count": 3
+  },
+  {
+    "dataset_id": "allen_visual_learning_hcr",
+    "display_name": "Allen visual-learning 2P+HCR",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "not_standardized_stages": [],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "All seven stages have an authority/gate; next priority is richer per-fold QC, plot explorer and one-command reproducibility.",
+    "key_metric_count": 4,
+    "source_subset_count": 2
+  },
+  {
+    "dataset_id": "bugeon2022",
+    "display_name": "Bugeon 2022",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig7.",
+    "key_metric_count": 23,
+    "source_subset_count": 5
+  },
+  {
+    "dataset_id": "celegans_atanas2023",
+    "display_name": "C. elegans / Atanas 2023",
+    "executed_or_gated_stages": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "not_standardized_stages": [
+      2,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 20,
+    "source_subset_count": 5
+  },
+  {
+    "dataset_id": "chevee2018",
+    "display_name": "Chevee 2018",
+    "executed_or_gated_stages": [
+      3,
+      5
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 7,
+    "source_subset_count": 2
+  },
+  {
+    "dataset_id": "condylis2022",
+    "display_name": "Condylis 2022",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "not_standardized_stages": [],
+    "blocked_or_not_applicable_stages": [
+      6,
+      7
+    ],
+    "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.",
+    "key_metric_count": 21,
+    "source_subset_count": 5
+  },
+  {
+    "dataset_id": "fly_flyvis",
+    "display_name": "FlyVis",
+    "executed_or_gated_stages": [
+      1
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "fly_turner2021",
+    "display_name": "Turner 2021 fly",
+    "executed_or_gated_stages": [
+      1
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "habenula_dandi000302",
+    "display_name": "Habenula DANDI 000302",
+    "executed_or_gated_stages": [
+      1
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "huang2020_bricseq",
+    "display_name": "Huang 2020 BRICseq",
+    "executed_or_gated_stages": [
+      5
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "m1_scala2021",
+    "display_name": "Scala M1 Patch-seq",
+    "executed_or_gated_stages": [
+      3
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "mclachlan2025",
+    "display_name": "McLachlan / Jerry Chen",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "not_standardized_stages": [],
+    "blocked_or_not_applicable_stages": [
+      6,
+      7
+    ],
+    "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.",
+    "key_metric_count": 9,
+    "source_subset_count": 3
+  },
+  {
+    "dataset_id": "mergeseq2024",
+    "display_name": "Merge-seq 2024",
+    "executed_or_gated_stages": [
+      1,
+      3,
+      5
+    ],
+    "not_standardized_stages": [
+      2,
+      4,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 12,
+    "source_subset_count": 4
+  },
+  {
+    "dataset_id": "microns_v1em",
+    "display_name": "MICrONS V1 EM",
+    "executed_or_gated_stages": [
+      1,
+      4
+    ],
+    "not_standardized_stages": [],
+    "blocked_or_not_applicable_stages": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.",
+    "key_metric_count": 0,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "mouse_human_intrinsic_ephys",
+    "display_name": "mouse_human_intrinsic_ephys",
+    "executed_or_gated_stages": [
+      6
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "neuroplex2026",
+    "display_name": "NeuroPlex 2026",
+    "executed_or_gated_stages": [
+      1
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "photseq2019",
+    "display_name": "PhotSeq 2019",
+    "executed_or_gated_stages": [
+      3,
+      6
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 7,
+    "source_subset_count": 2
+  },
+  {
+    "dataset_id": "shainer2025",
+    "display_name": "Shainer 2025",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      3,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [
+      6
+    ],
+    "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.",
+    "key_metric_count": 22,
+    "source_subset_count": 4
+  },
+  {
+    "dataset_id": "sorensen2026",
+    "display_name": "Sorensen 2026",
+    "executed_or_gated_stages": [
+      1,
+      4,
+      5
+    ],
+    "not_standardized_stages": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 14,
+    "source_subset_count": 4
+  },
+  {
+    "dataset_id": "wang2023",
+    "display_name": "Wang 2023",
+    "executed_or_gated_stages": [
+      3
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 3,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "warp2026",
+    "display_name": "WARP 2026 D1",
+    "executed_or_gated_stages": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      2,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2.",
+    "key_metric_count": 19,
+    "source_subset_count": 4
+  },
+  {
+    "dataset_id": "warp2026_d2",
+    "display_name": "WARP 2026 D2",
+    "executed_or_gated_stages": [
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      3,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 8,
+    "source_subset_count": 2
+  },
+  {
+    "dataset_id": "wholebrain_crispr_perturbseq",
+    "display_name": "Whole-brain CRISPR Perturb-seq",
+    "executed_or_gated_stages": [
+      7
+    ],
+    "not_standardized_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1.",
+    "key_metric_count": 2,
+    "source_subset_count": 1
+  },
+  {
+    "dataset_id": "xu2020",
+    "display_name": "Xu 2020 PVH",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      3,
+      7
+    ],
+    "blocked_or_not_applicable_stages": [
+      6
+    ],
+    "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation.",
+    "key_metric_count": 22,
+    "source_subset_count": 4
+  },
+  {
+    "dataset_id": "zhao2026",
+    "display_name": "Zhao 2026",
+    "executed_or_gated_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "not_standardized_stages": [
+      7
+    ],
+    "blocked_or_not_applicable_stages": [],
+    "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig7.",
+    "key_metric_count": 24,
+    "source_subset_count": 5
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "dataset_id": "habenula_dandi000302",
+  "display_name": "Habenula DANDI 000302",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "FDR_SUPPORTED; NOT_FDR_SUPPORTED",
+      "summary": "n_held_units=12.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/habenula_dandi000302/fig1_authority_rows.csv",
+      "rows": 2
+    }
+  ]
+}

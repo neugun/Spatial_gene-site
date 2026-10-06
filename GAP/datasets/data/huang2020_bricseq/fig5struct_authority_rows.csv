@@ -1,0 +1,2 @@
+dataset,role,placement,n_folds,direct_r2,direct_spearman,direct_auroc,direct_auprc,direct_fold_r2_positive,best_shared_model,shared_delta_r2,shared_delta_spearman,shared_delta_auroc,shared_delta_auprc,direct_support,shared_multimetric_gain,relation_index,relation_q,relation_level,relation_support,operator_source,relation_source
+huang2020_bricseq,STRUCTURAL_OPERATOR_BOUNDARY,ED boundary,8,-0.2290621186210775,0.1129548183048189,,,0.125,shared_fullrank,-0.3536001945278664,-0.0109648129172729,,,False,False,1.0,1.0,type_l1,False,internal-source,internal-source

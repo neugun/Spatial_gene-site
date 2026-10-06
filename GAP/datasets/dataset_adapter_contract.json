@@ -1,0 +1,43 @@
+{
+  "version": "gap-dataset-adapter-v1",
+  "required": [
+    "sample_id",
+    "held_unit",
+    "one_or_more_function_targets"
+  ],
+  "conditional": {
+    "molecular": [
+      "gene__*"
+    ],
+    "cell_type": [
+      "type"
+    ],
+    "spatial": [
+      "space__*"
+    ],
+    "projection": [
+      "projection__*"
+    ],
+    "perturbation": [
+      "perturbation_id"
+    ]
+  },
+  "split_rule": "all model selection and evaluation must respect held_unit; held_unit may be mouse, fish, animal, session, identity, or prespecified acquisition unit",
+  "stages": {
+    "Fig1": "readability / relation audit",
+    "Fig2": "AtlasLift when a defensible external reference exists",
+    "Fig3": "fixed-budget assay selection when measured molecular features exist",
+    "Fig4": "manifold and conditional completion",
+    "Fig5": "held-unit multivariate operator",
+    "Fig6": "prespecified transfer only",
+    "Fig7": "only if Fig5 operator passes readiness gate"
+  },
+  "outputs": [
+    "stage_report.json",
+    "metrics.csv",
+    "heldunit_metrics.csv",
+    "qc.json",
+    "figure assets",
+    "claim_boundary.md"
+  ]
+}

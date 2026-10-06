@@ -1,0 +1,8 @@
+dataset,figure,stage_status,tool_correctness,evidence_role,primary_result,why_stop_or_boundary,source
+microns_v1em,Fig1,EXECUTED_SESSION_HELD,PASS,STRUCTURAL_SUPPORT,"24,713 unique EM neurons; session-held: space rho=0.1465 vs type 0.0369; space-type delta rho=+0.1096 (6/6); RFx/RFy rho=0.497/0.536",One animal: never call this held-animal or cross-animal.,internal-source
+microns_v1em,Fig2,NOT_APPLICABLE,PASS,NO_TRANSCRIPTOME_BOUNDARY,AtlasLift molecular recovery is correctly unavailable because there is no transcriptomic gene block,Structural/anatomical data must not be masqueraded as molecular recovery.,internal-source
+microns_v1em,Fig3,NOT_APPLICABLE,PASS,NO_TRANSCRIPTOME_BOUNDARY,molecular fixed-budget selection is correctly unavailable,No gene panel exists to select.,internal-source
+microns_v1em,Fig4,EXECUTED_STRUCTURAL,PASS,STRUCTURAL_GEOMETRY_SUPPORT,public continuation executes coordinate mediation + relation under session-acquisition holdout; connectivity-complete cohort shows only small non-significant increment over type+space,"Fig4 is structural/function geometry only, not molecular completion.",internal-source
+microns_v1em,Fig5,NOT_APPLICABLE,PASS,NO_MOLECULAR_OPERATOR,no gene-to-multiresponse operator is scientifically defined from this dataset,Do not fabricate an operator from connectivity labels.,internal-source
+microns_v1em,Fig6,NOT_APPLICABLE,PASS,NO_MOLECULAR_FOUNDATION,foundation/transfer molecular route correctly unavailable,Single animal and no transcriptome.,internal-source
+microns_v1em,Fig7,NOT_APPLICABLE,PASS,NO_PERTURBABLE_MOLECULAR_LAW,"no validated molecular operator, therefore no Perturb-GAP nomination",Correct stopping behavior is part of tool acceptance.,internal-source

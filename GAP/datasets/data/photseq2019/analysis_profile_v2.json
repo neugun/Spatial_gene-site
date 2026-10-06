@@ -1,0 +1,17 @@
+{
+  "dataset_id": "photseq2019",
+  "display_name": "PhotSeq 2019",
+  "executed_or_gated_stages": [
+    3,
+    6
+  ],
+  "not_standardized_stages": [
+    1,
+    2,
+    4,
+    5,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig1."
+}

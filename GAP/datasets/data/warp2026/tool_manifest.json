@@ -1,0 +1,70 @@
+{
+  "dataset_id": "warp2026",
+  "display_name": "WARP 2026 D1",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC",
+      "summary": "n_held_units=3.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "ADDITION; DIRECTIONAL_OR_BOUNDARY; MEASURED_COMPRESSION; REPLACEMENT_OR_BASELINE",
+      "summary": "inference_unit=3 fish in original nested selection pipeline, nested measured-panel pipeline, 3 held biological units",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "ED_DYNAMIC; POSITIVE; RANK_POSITIVE; SUPPORTED; TARGET_LEVEL",
+      "summary": "inference_unit=held biological unit, 3 held biological units, cross-animal geometry, 3 held groups",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED; MIXED_POSITIVE",
+      "summary": "60 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=2.0/5.0 | domain=function_coordinate; positive_delta_metrics=0.0/4.0"
+    },
+    "6": {
+      "coverage": "EXECUTED",
+      "role": "EXECUTED",
+      "summary": "3 metric rows",
+      "boundary": "source OOF rho=0.0950003670949699; global perm p=0.47619047619047616 | source OOF rho=0.381471081567656; global perm p=0.42857142857142855"
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/warp2026/fig1_authority_rows.csv",
+      "rows": 6
+    },
+    {
+      "name": "fig3",
+      "file": "data/warp2026/fig3_authority_rows.csv",
+      "rows": 13
+    },
+    {
+      "name": "fig4",
+      "file": "data/warp2026/fig4_authority_rows.csv",
+      "rows": 13
+    },
+    {
+      "name": "fig47",
+      "file": "data/warp2026/fig47_authority_rows.csv",
+      "rows": 69
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_id": "sorensen2026",
+  "display_name": "Sorensen 2026",
+  "executed_or_gated_stages": [
+    1,
+    4,
+    5
+  ],
+  "not_standardized_stages": [
+    2,
+    3,
+    6,
+    7
+  ],
+  "blocked_or_not_applicable_stages": [],
+  "next_priority": "Backfill the earliest scientifically valid unstandardized stage: Fig2."
+}

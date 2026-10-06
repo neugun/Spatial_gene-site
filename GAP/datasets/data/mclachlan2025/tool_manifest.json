@@ -1,0 +1,65 @@
+{
+  "dataset_id": "mclachlan2025",
+  "display_name": "McLachlan / Jerry Chen",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "SUPPORT",
+      "summary": "multi-axis molecular/function evidence executed across 4 held animals; Fig1 authority rows=27",
+      "boundary": "nan"
+    },
+    "2": {
+      "coverage": "EXECUTED",
+      "role": "SUPPORT",
+      "summary": "PERI/ECT exact AtlasLift: 22/23 overlap; global geometry rho 0.208→0.320, delta +0.112, matched-random q=0.040",
+      "boundary": "nan"
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "DIRECTIONAL",
+      "summary": "K10 fixed-budget directional: delta Spearman +0.0351, delta AUROC +0.0267, delta AUPRC +0.0213; 4/4 wins; q about 0.312",
+      "boundary": "nan"
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "MIXED_BOUNDARY",
+      "summary": "biology-aware primary dAIC axes; best delta R2=+0.0154 (feat__dAIC_dec_correct_report), but delta Spearman=-0.0257, delta AUROC=-0.0045; no robust multimetric completion",
+      "boundary": "Derived median/early/late/slope summaries were removed to prevent same-axis leakage."
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BOUNDARY",
+      "summary": "shared operator R2=-0.0125, Spearman=-0.2007, AUROC=0.3966; fig7_ready=false",
+      "boundary": "Absolute held-animal response-law prediction is unsupported."
+    },
+    "6": {
+      "coverage": "BLOCKED_PRECHECK",
+      "role": "COVERAGE_BOUNDARY",
+      "summary": "foundation/generalization preflight blocked: only 12 measured genes resolve to frozen tokens (<16); no invented endpoint transfer pairs",
+      "boundary": "Exact functional endpoint overlap with Allen HCR/Condylis is zero; semantic transfer must be prespecified, not guessed."
+    },
+    "7": {
+      "coverage": "NOT_APPLICABLE_GATE",
+      "role": "BOUNDARY",
+      "summary": "PerturbAtlas-compatible 8-gene operator failed Fig7 readiness: R2=-0.0139, Spearman=-0.2332, AUROC=0.3708, fold-R2-positive=0",
+      "boundary": "Tool correctly stops before prospective nomination."
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/mclachlan2025/fig1_authority_rows.csv",
+      "rows": 27
+    },
+    {
+      "name": "fig2",
+      "file": "data/mclachlan2025/fig2_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "end2end",
+      "file": "data/mclachlan2025/end2end_authority_rows.csv",
+      "rows": 7
+    }
+  ]
+}

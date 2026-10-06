@@ -1,0 +1,17 @@
+{
+  "dataset_id": "microns_v1em",
+  "display_name": "MICrONS V1 EM",
+  "executed_or_gated_stages": [
+    1,
+    4
+  ],
+  "not_standardized_stages": [],
+  "blocked_or_not_applicable_stages": [
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "next_priority": "Preserve the explicit gate; enrich QC/model diagnostics upstream rather than forcing downstream transfer/perturbation."
+}

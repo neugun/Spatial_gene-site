@@ -1,0 +1,55 @@
+{
+  "dataset_id": "microns_v1em",
+  "display_name": "MICrONS V1 EM",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED_SESSION_HELD",
+      "role": "STRUCTURAL_SUPPORT",
+      "summary": "24,713 unique EM neurons; session-held: space rho=0.1465 vs type 0.0369; space-type delta rho=+0.1096 (6/6); RFx/RFy rho=0.497/0.536",
+      "boundary": "One animal: never call this held-animal or cross-animal."
+    },
+    "2": {
+      "coverage": "NOT_APPLICABLE",
+      "role": "NO_TRANSCRIPTOME_BOUNDARY",
+      "summary": "AtlasLift molecular recovery is correctly unavailable because there is no transcriptomic gene block",
+      "boundary": "Structural/anatomical data must not be masqueraded as molecular recovery."
+    },
+    "3": {
+      "coverage": "NOT_APPLICABLE",
+      "role": "NO_TRANSCRIPTOME_BOUNDARY",
+      "summary": "molecular fixed-budget selection is correctly unavailable",
+      "boundary": "No gene panel exists to select."
+    },
+    "4": {
+      "coverage": "EXECUTED_STRUCTURAL",
+      "role": "STRUCTURAL_GEOMETRY_SUPPORT",
+      "summary": "public continuation executes coordinate mediation + relation under session-acquisition holdout; connectivity-complete cohort shows only small non-significant increment over type+space",
+      "boundary": "Fig4 is structural/function geometry only, not molecular completion."
+    },
+    "5": {
+      "coverage": "NOT_APPLICABLE",
+      "role": "NO_MOLECULAR_OPERATOR",
+      "summary": "no gene-to-multiresponse operator is scientifically defined from this dataset",
+      "boundary": "Do not fabricate an operator from connectivity labels."
+    },
+    "6": {
+      "coverage": "NOT_APPLICABLE",
+      "role": "NO_MOLECULAR_FOUNDATION",
+      "summary": "foundation/transfer molecular route correctly unavailable",
+      "boundary": "Single animal and no transcriptome."
+    },
+    "7": {
+      "coverage": "NOT_APPLICABLE",
+      "role": "NO_PERTURBABLE_MOLECULAR_LAW",
+      "summary": "no validated molecular operator, therefore no Perturb-GAP nomination",
+      "boundary": "Correct stopping behavior is part of tool acceptance."
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "end2end",
+      "file": "data/microns_v1em/end2end_authority_rows.csv",
+      "rows": 7
+    }
+  ]
+}

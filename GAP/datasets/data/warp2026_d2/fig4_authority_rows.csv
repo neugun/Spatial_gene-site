@@ -1,0 +1,2 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+strict_conditional_contract,WARP D2,delta_r2,0.02478,PERMUTATION_SUPPORTED,cross-cohort measured31 + 5 lifted identity genes,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv

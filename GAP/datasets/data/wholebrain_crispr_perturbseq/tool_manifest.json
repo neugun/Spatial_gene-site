@@ -1,0 +1,55 @@
+{
+  "dataset_id": "wholebrain_crispr_perturbseq",
+  "display_name": "Whole-brain CRISPR Perturb-seq",
+  "stages": {
+    "1": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "EXECUTED",
+      "role": "PROSPECTIVE_ONLY; VALIDATED_AUTHORITY",
+      "summary": "16 metric rows",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig47",
+      "file": "data/wholebrain_crispr_perturbseq/fig47_authority_rows.csv",
+      "rows": 16
+    }
+  ]
+}

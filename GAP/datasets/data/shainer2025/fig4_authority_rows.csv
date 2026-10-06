@@ -1,0 +1,13 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+ManifoldLift,Shainer,latent_spearman,0.04207,BOUNDARY,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+selected_BehLift,shainer2025,delta_r2,-0.0033022658317881,BOUNDARY,6 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0150416209723742,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.02558441341933,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0144159457740401,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0033022658317881,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0259846286138242,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0068947709257732,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,0.0011618183589676,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0057332409196977,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+relation_index,shainer2025,BH_q,0.5855197434144802,BOUNDARY,6 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+strict_conditional_contract,Shainer,delta_r2,0.00977,DIRECTIONAL_OR_LEGACY_FROZEN,leave-one-function-out,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv

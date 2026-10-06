@@ -1,0 +1,2 @@
+dataset,run,reference,quality_flag,overlap_genes,overlap_fraction,geometry_rho,geometry_null_p,recovery_mean_rho,recovery_null_p,mapping_stability
+results\fig47_core_inputs_20261002\xu2020.parquet,xu_pvh_atlasflow_v2,mouse_pvn_berkhout_external,GOOD,9,1.0,0.1902187902187902,0.1568627450980392,0.0978608483660514,0.0476190476190476,0.8074252158403397

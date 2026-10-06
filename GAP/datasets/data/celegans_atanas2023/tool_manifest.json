@@ -1,0 +1,75 @@
+{
+  "dataset_id": "celegans_atanas2023",
+  "display_name": "C. elegans / Atanas 2023",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "EXPLORATORY_FULL_SCAN; FDR_SUPPORTED; MULTIDATASET_SAME_SAMPLE_AIC; NOT_FDR_SUPPORTED",
+      "summary": "n_held_units=40.0, 7.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "EXECUTED",
+      "role": "DIRECTIONAL_OR_BOUNDARY",
+      "summary": "inference_unit=5 held biological units",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "DIRECTIONAL_OR_LEGACY_FROZEN; POSITIVE; STRONG; SUPPORTED; TARGET_LEVEL",
+      "summary": "inference_unit=held biological unit, 40 held biological units, 40 held groups, leave-one-function-out",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED; EQUAL_PERFORMANCE_BOUNDARY",
+      "summary": "40 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/5.0 | domain=function; positive_delta_metrics=5.0/5.0"
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/celegans_atanas2023/fig1_authority_rows.csv",
+      "rows": 6
+    },
+    {
+      "name": "fig3",
+      "file": "data/celegans_atanas2023/fig3_authority_rows.csv",
+      "rows": 1
+    },
+    {
+      "name": "fig4",
+      "file": "data/celegans_atanas2023/fig4_authority_rows.csv",
+      "rows": 9
+    },
+    {
+      "name": "fig47",
+      "file": "data/celegans_atanas2023/fig47_authority_rows.csv",
+      "rows": 46
+    },
+    {
+      "name": "fig5struct",
+      "file": "data/celegans_atanas2023/fig5struct_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}

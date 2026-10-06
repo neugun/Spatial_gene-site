@@ -1,0 +1,2 @@
+family,dataset,K,method,metric,effect,status,inference_unit,placement,source,p_value,q_value
+broad_replication,chevee2018,,,proj_K25,0.5277092104788216,DIRECTIONAL_OR_BOUNDARY,6 held biological units,ED,FIG3_ED5_BROAD_HELDUNIT_REPLICATION_20261005.csv,0.015625,0.125

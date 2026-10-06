@@ -1,0 +1,6 @@
+family,dataset,K,method,metric,effect,status,inference_unit,placement,source,p_value,q_value
+Wang_true_hidden,Wang2023,3.0,soft_posterior,adv_auroc_vs_random_hidden,0.0187312148137501,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv,,
+Wang_true_hidden,Wang2023,3.0,soft_posterior,adv_auroc_vs_random_hidden,0.0322916810338149,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv,,
+Wang_true_hidden,Wang2023,3.0,hard_state,adv_auroc_vs_random_hidden,0.0106779038352304,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv,,
+Wang_true_hidden,Wang2023,1.0,soft_posterior,adv_auroc_vs_random_hidden,0.0113972565578188,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv,,
+Wang_true_hidden,Wang2023,5.0,soft_posterior,adv_auroc_vs_random_hidden,0.0349813742875212,TRUE_MEASURED_VALIDATION,target-specific true hidden-gene experiment,MAIN_D,FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv,,

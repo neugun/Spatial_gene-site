@@ -1,0 +1,2 @@
+dataset,run,reference,quality_flag,overlap_genes,overlap_fraction,geometry_rho,geometry_null_p,recovery_mean_rho,recovery_null_p,mapping_stability
+results\fig47_core_inputs_20261002\condylis2022.parquet,condylis_ssp_atlasflow_v2,mouse_ssp_bfd_exact,GOOD,6,1.0,-0.1321428571428571,0.6470588235294118,0.2211307178257852,0.0476190476190476,0.8355232030153275

@@ -1,0 +1,2 @@
+figure,dataset,stage,contract,model,metric,value,baseline_value,delta_vs_baseline,status,n_groups,notes,source
+6,photseq2019,foundation_eval,wrong VISp token diagnostic,GAP,,,,,INVALID_EXCLUDED,17.0,GEO metadata declares vomeronasal sensory epithelium; VISp token used in this diagnostic run is anatomically incorrect. Do not use as external foundation validation.,internal_authority/FIG6_TOOL_CAPABILITY_LEDGER.csv

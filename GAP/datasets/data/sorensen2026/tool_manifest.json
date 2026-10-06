@@ -1,0 +1,70 @@
+{
+  "dataset_id": "sorensen2026",
+  "display_name": "Sorensen 2026",
+  "stages": {
+    "1": {
+      "coverage": "EXECUTED",
+      "role": "ABSOLUTE_AND_TYPE_CONTRAST; MULTIDATASET_SAME_SAMPLE_AIC; NO_VALID_QUARTILES",
+      "summary": "n_held_units=6.0",
+      "boundary": ""
+    },
+    "2": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "3": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "4": {
+      "coverage": "EXECUTED",
+      "role": "POSITIVE; TARGET_LEVEL",
+      "summary": "inference_unit=74 held biological units",
+      "boundary": ""
+    },
+    "5": {
+      "coverage": "EXECUTED",
+      "role": "BASELINE; BOUNDARY_OR_MIXED; MULTIMETRIC_REPLICATION",
+      "summary": "30 metric rows",
+      "boundary": "domain=function; positive_delta_metrics=0.0/4.0 | domain=function; positive_delta_metrics=1.0/4.0 | domain=function; positive_delta_metrics=4.0/4.0"
+    },
+    "6": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    },
+    "7": {
+      "coverage": "NOT_STANDARDIZED",
+      "role": "",
+      "summary": "",
+      "boundary": ""
+    }
+  },
+  "source_subsets": [
+    {
+      "name": "fig1",
+      "file": "data/sorensen2026/fig1_authority_rows.csv",
+      "rows": 10
+    },
+    {
+      "name": "fig4",
+      "file": "data/sorensen2026/fig4_authority_rows.csv",
+      "rows": 3
+    },
+    {
+      "name": "fig47",
+      "file": "data/sorensen2026/fig47_authority_rows.csv",
+      "rows": 36
+    },
+    {
+      "name": "fig5struct",
+      "file": "data/sorensen2026/fig5struct_authority_rows.csv",
+      "rows": 1
+    }
+  ]
+}
