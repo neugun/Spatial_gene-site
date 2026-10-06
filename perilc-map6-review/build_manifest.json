@@ -1,10 +1,10 @@
 {
   "page": "perilc-map6-review",
-  "assets": 287,
-  "data_files": 107,
+  "assets": 289,
+  "data_files": 109,
   "missing_links": [],
-  "index_bytes": 108850,
-  "version": "2026-10-05-map9-stage876-current",
+  "index_bytes": 110693,
+  "version": "2026-10-05-map9-stage877-image-space-pilot",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -312,5 +312,21 @@
     },
     "median_grid_score": 0.1022609420948501,
     "max_grid_score": 0.2456590538170606
+  },
+  "stage877_image_space_pilot": {
+    "gene": "Slc17a6",
+    "section": 500,
+    "n_seam_crops": 3,
+    "gains": [
+      1.62,
+      1.5,
+      1.57
+    ],
+    "detected_over_expected": [
+      0.987,
+      1.002,
+      0.999
+    ],
+    "median": 0.999
   }
 }
