@@ -1,0 +1,137 @@
+{
+  "stage": 899,
+  "job_id": 34,
+  "pair_id": "Pde11a_S530",
+  "gene": "Pde11a",
+  "section": 530,
+  "round": "R6",
+  "channel": "c3",
+  "source_pipeline": 887,
+  "baseline_spots": 775458,
+  "fresh_spots": 775641,
+  "baseline_assigned": 142560,
+  "fresh_assigned": 142631,
+  "total_counts_baseline": 142560,
+  "total_counts_fresh": 142631,
+  "mass_ratio": 1.0004980359147027,
+  "cell_count_corr": 0.9986594683653421,
+  "positive_jaccard": 0.9968588869791976,
+  "grid_score_start": 0.44278936546615,
+  "grid_score_final": 0.42720164796813925,
+  "grid_improvement": 0.015587717498010745,
+  "grid_ratio": 0.9647965404892562,
+  "lowpass2d_corr": 0.9997852069759132,
+  "x_bio_corr": 0.9993808872890245,
+  "y_bio_corr": 0.9997666019108963,
+  "fine_ratio": 1.0000968615461903,
+  "r1r5_ratio": 1.0087746550810066,
+  "components_baseline": [
+    [
+      "x",
+      "p",
+      5,
+      0.23692840788011355
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.05459415511583687
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.16222656711009062
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.44278936546615
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.29066301377691217
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.24594201185106387
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.2408748978273911
+    ]
+  ],
+  "components_fresh": [
+    [
+      "x",
+      "p",
+      5,
+      0.23763854382395502
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.05334706433624293
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.1425798160675679
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.42720164796813925
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.3049100726426684
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.24904337278249628
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.2367091148834808
+    ]
+  ],
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  },
+  "baseline_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/corrected_spots/S530/R6_Pde11a_c3/spots_rsfish_c3.csv",
+  "fresh_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/stage887_image_production/Pde11a_S530/rsfish/spots_rsfish_c3.csv"
+}

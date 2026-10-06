@@ -1,0 +1,137 @@
+{
+  "stage": 899,
+  "job_id": 36,
+  "pair_id": "Piezo2_S530",
+  "gene": "Piezo2",
+  "section": 530,
+  "round": "R4",
+  "channel": "c1",
+  "source_pipeline": 887,
+  "baseline_spots": 939007,
+  "fresh_spots": 944230,
+  "baseline_assigned": 159307,
+  "fresh_assigned": 160237,
+  "total_counts_baseline": 159307,
+  "total_counts_fresh": 160237,
+  "mass_ratio": 1.0058377849058735,
+  "cell_count_corr": 0.9991560627263577,
+  "positive_jaccard": 0.9965457685664939,
+  "grid_score_start": 0.8617362268138953,
+  "grid_score_final": 0.8546571540404995,
+  "grid_improvement": 0.007079072773395811,
+  "grid_ratio": 0.9917851048219696,
+  "lowpass2d_corr": 0.9999376446311911,
+  "x_bio_corr": 0.9997196522732631,
+  "y_bio_corr": 0.9997147773343336,
+  "fine_ratio": 0.998988754284309,
+  "r1r5_ratio": 1.0022925029760337,
+  "components_baseline": [
+    [
+      "x",
+      "p",
+      5,
+      0.8617362268138953
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.09421348758812825
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.08493522009895259
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.4654758576325279
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.3241055121847269
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.030393487806390892
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.14823554501952135
+    ]
+  ],
+  "components_fresh": [
+    [
+      "x",
+      "p",
+      5,
+      0.8546571540404995
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.1029644236298541
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.08464506870333795
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.4628701744643129
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.324749071726416
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.02894320658591858
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.14635480696863373
+    ]
+  ],
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  },
+  "baseline_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/corrected_spots/S530/R4_Piezo2_c1/spots_rsfish_c1.csv",
+  "fresh_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/stage887_image_production/Piezo2_S530/rsfish/spots_rsfish_c1.csv"
+}

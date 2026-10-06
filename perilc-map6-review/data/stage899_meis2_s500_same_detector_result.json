@@ -1,0 +1,137 @@
+{
+  "stage": 899,
+  "job_id": 10,
+  "pair_id": "Meis2_S500",
+  "gene": "Meis2",
+  "section": 500,
+  "round": "R9",
+  "channel": "c1",
+  "source_pipeline": 887,
+  "baseline_spots": 1590369,
+  "fresh_spots": 77797,
+  "baseline_assigned": 720767,
+  "fresh_assigned": 15620,
+  "total_counts_baseline": 720767,
+  "total_counts_fresh": 15620,
+  "mass_ratio": 0.02167135842789695,
+  "cell_count_corr": 0.15681355534851268,
+  "positive_jaccard": 0.2211792113467402,
+  "grid_score_start": 0.7121236188830631,
+  "grid_score_final": 0.8714020382265422,
+  "grid_improvement": -0.15927841934347908,
+  "grid_ratio": 1.223666811658455,
+  "lowpass2d_corr": 0.20635092945431466,
+  "x_bio_corr": -0.06899369486777479,
+  "y_bio_corr": 0.29257993844667035,
+  "fine_ratio": 0.11915736080862731,
+  "r1r5_ratio": 0.73485545093886,
+  "components_baseline": [
+    [
+      "x",
+      "p",
+      5,
+      0.7121236188830631
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.0
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.6107994453843524
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.04426136290173506
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.0
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.0
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.0
+    ]
+  ],
+  "components_fresh": [
+    [
+      "x",
+      "p",
+      5,
+      0.8714020382265422
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.0
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.48738070699686126
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.21465695333829884
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.0
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.0
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.0
+    ]
+  ],
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  },
+  "baseline_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/baseline/S500/R9_Meis2_c1/spots_rsfish_c1.csv",
+  "fresh_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/stage887_image_production/Meis2_S500/rsfish/spots_rsfish_c1.csv"
+}

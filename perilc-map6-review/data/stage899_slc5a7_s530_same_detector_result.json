@@ -1,0 +1,137 @@
+{
+  "stage": 899,
+  "job_id": 38,
+  "pair_id": "Slc5a7_S530",
+  "gene": "Slc5a7",
+  "section": 530,
+  "round": "R3",
+  "channel": "c0",
+  "source_pipeline": 887,
+  "baseline_spots": 676856,
+  "fresh_spots": 678155,
+  "baseline_assigned": 219891,
+  "fresh_assigned": 220191,
+  "total_counts_baseline": 219891,
+  "total_counts_fresh": 220191,
+  "mass_ratio": 1.001364312318376,
+  "cell_count_corr": 0.9999838732451464,
+  "positive_jaccard": 0.9979475752067085,
+  "grid_score_start": 0.5138847803675404,
+  "grid_score_final": 0.5195181422285996,
+  "grid_improvement": -0.005633361861059227,
+  "grid_ratio": 1.010962305316805,
+  "lowpass2d_corr": 0.9999892253942384,
+  "x_bio_corr": 0.9999518850160019,
+  "y_bio_corr": 0.9999925299985644,
+  "fine_ratio": 0.9995278882324374,
+  "r1r5_ratio": 0.9931623886051553,
+  "components_baseline": [
+    [
+      "x",
+      "p",
+      5,
+      0.04952804384302338
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.1615349493209476
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.13320949789844622
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.5138847803675404
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.21827385663193322
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.1623089669127956
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.09126992276243862
+    ]
+  ],
+  "components_fresh": [
+    [
+      "x",
+      "p",
+      5,
+      0.03988731348206145
+    ],
+    [
+      "x",
+      "p",
+      10,
+      0.1510663890705089
+    ],
+    [
+      "x",
+      "mp",
+      5,
+      0.130855756314896
+    ],
+    [
+      "x",
+      "mp",
+      10,
+      0.0
+    ],
+    [
+      "y",
+      "p",
+      3,
+      0.5195181422285996
+    ],
+    [
+      "y",
+      "p",
+      6,
+      0.22011845228605909
+    ],
+    [
+      "y",
+      "mp",
+      3,
+      0.1616174735066933
+    ],
+    [
+      "y",
+      "mp",
+      6,
+      0.0908370742403875
+    ]
+  ],
+  "rsfish_parameters": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  },
+  "baseline_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/corrected_spots/S530/R3_Slc5a7_c0/spots_rsfish_c0.csv",
+  "fresh_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/stage887_image_production/Slc5a7_S530/rsfish/spots_rsfish_c0.csv"
+}
