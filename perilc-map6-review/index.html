@@ -5,6 +5,8 @@
 
 
 
+
+
 <section id="stage872-current" class="current-block">
 <h2>Stage872 final — physical acquisition-grid artifact resolved across all genes and sections</h2>
 <div class="callout"><b>Current authority:</b> all <b>27 genes × 3 sections = 81 gene-section pairs</b> are closed. The correction now uses the acquisition geometry itself: <b>x = k5/k10</b>, <b>y = k3/k6</b>, and suppresses only the <b>cross-gene phase-aligned common-mode</b>. Gene-specific or anti-phase periodic structure is retained rather than being forced flat.</div>
@@ -16,51 +18,55 @@
 <div><b>worst grid score</b><strong>0.246</strong><small>no pair above 0.25</small></div>
 <div><b>minimum broad-2D corr</b><strong>0.965</strong><small>large-scale spatial biology retained</small></div>
 </div>
+<div class="callout"><b>Independent runtime/data audit:</b> the fast targeted jobs were not empty or shortcut runs. For Epb41l4a S530 the search evaluated <b>129 saved candidates</b> over <b>20,513 cells</b>; the accepted candidate changed <b>15,195 cell values</b>, completed without stderr, and reduced the physical-grid score <b>0.538&rarr;0.128</b> while retaining broad-2D corr <b>0.988</b>, x-biology corr <b>0.992</b>, y-biology corr <b>0.858</b>, Fine26 &eta;<sup>2</sup> <b>0.997&times;</b>, and R1&ndash;R5 &eta;<sup>2</sup> <b>0.997&times;</b>. The ~35 s runtime is therefore consistent with a vectorized NumPy search over a modest single-section matrix, not evidence that the correction was skipped.</div>
 <h3>All 81 pairs at a glance</h3>
 <a href="assets/stage872_all81_grid_score.webp" target="_blank"><img src="assets/stage872_all81_grid_score.webp" loading="eager" alt="Stage872 all 81 physical-grid scores"></a>
 <p><b>Slc17a6 stress test:</b> S500 was driven to x≈0.198 / y≈0.195 while broad-2D corr stayed ≈0.996; S530 physical-grid score fell 0.324→0.050; S560 0.289→0.076. These are now part of the same global rule used for every gene, not a hand-tuned one-off.</p>
 <div class="grid current-grid"><article class="card current-result"><h3>Slc17a6 S500</h3>
 <a href="assets/slc17a6_s500_qa.webp" target="_blank"><img src="assets/slc17a6_s500_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.151→0.127. 
-<b>Preservation:</b> broad 2D corr 0.996; Fine26 η² 1.017×; R1–R5 η² 1.033×.</p></article><article class="card current-result"><h3>Slc17a6 S530</h3>
+<b>Preservation:</b> broad 2D corr 0.996; Fine26 &eta;<sup>2</sup> 1.017×; R1&ndash;R5 &eta;<sup>2</sup> 1.033×.</p></article><article class="card current-result"><h3>Slc17a6 S530</h3>
 <a href="assets/slc17a6_s530_qa.webp" target="_blank"><img src="assets/slc17a6_s530_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.324→0.050. 
-<b>Preservation:</b> broad 2D corr 0.992; Fine26 η² 0.996×; R1–R5 η² 0.994×.</p></article><article class="card current-result"><h3>Slc17a6 S560</h3>
+<b>Preservation:</b> broad 2D corr 0.992; Fine26 &eta;<sup>2</sup> 0.996×; R1&ndash;R5 &eta;<sup>2</sup> 0.994×.</p></article><article class="card current-result"><h3>Slc17a6 S560</h3>
 <a href="assets/slc17a6_s560_qa.webp" target="_blank"><img src="assets/slc17a6_s560_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.289→0.076. 
-<b>Preservation:</b> broad 2D corr 0.998; Fine26 η² 1.001×; R1–R5 η² 1.001×.</p></article><article class="card current-result"><h3>Snap25 S500</h3>
+<b>Preservation:</b> broad 2D corr 0.998; Fine26 &eta;<sup>2</sup> 1.001×; R1&ndash;R5 &eta;<sup>2</sup> 1.001×.</p></article><article class="card current-result"><h3>Snap25 S500</h3>
 <a href="assets/snap25_s500_qa.webp" target="_blank"><img src="assets/snap25_s500_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.029→0.029. 
-<b>Preservation:</b> broad 2D corr 0.965; Fine26 η² 1.073×; R1–R5 η² 1.001×.</p></article><article class="card current-result"><h3>Snap25 S530</h3>
+<b>Preservation:</b> broad 2D corr 0.965; Fine26 &eta;<sup>2</sup> 1.073×; R1&ndash;R5 &eta;<sup>2</sup> 1.001×.</p></article><article class="card current-result"><h3>Snap25 S530</h3>
 <a href="assets/snap25_s530_qa.webp" target="_blank"><img src="assets/snap25_s530_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.532→0.088. 
-<b>Preservation:</b> broad 2D corr 0.992; Fine26 η² 1.100×; R1–R5 η² 1.043×.</p></article><article class="card current-result"><h3>Snap25 S560</h3>
+<b>Preservation:</b> broad 2D corr 0.992; Fine26 &eta;<sup>2</sup> 1.100×; R1&ndash;R5 &eta;<sup>2</sup> 1.043×.</p></article><article class="card current-result"><h3>Snap25 S560</h3>
 <a href="assets/snap25_s560_qa.webp" target="_blank"><img src="assets/snap25_s560_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.266→0.077. 
-<b>Preservation:</b> broad 2D corr 0.982; Fine26 η² 1.039×; R1–R5 η² 1.091×.</p></article><article class="card current-result"><h3>Npy1r S530</h3>
+<b>Preservation:</b> broad 2D corr 0.982; Fine26 &eta;<sup>2</sup> 1.039×; R1&ndash;R5 &eta;<sup>2</sup> 1.091×.</p></article><article class="card current-result"><h3>Npy1r S530</h3>
 <a href="assets/npy1r_s530_qa.webp" target="_blank"><img src="assets/npy1r_s530_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.531→0.079. 
-<b>Preservation:</b> broad 2D corr 0.983; Fine26 η² 1.023×; R1–R5 η² 1.003×.</p></article><article class="card current-result"><h3>Otx2os1 S560</h3>
+<b>Preservation:</b> broad 2D corr 0.983; Fine26 &eta;<sup>2</sup> 1.023×; R1&ndash;R5 &eta;<sup>2</sup> 1.003×.</p></article><article class="card current-result"><h3>Otx2os1 S560</h3>
 <a href="assets/otx2os1_s560_qa.webp" target="_blank"><img src="assets/otx2os1_s560_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.493→0.133. 
-<b>Preservation:</b> broad 2D corr 0.996; Fine26 η² 1.004×; R1–R5 η² 0.996×.</p></article></div>
+<b>Preservation:</b> broad 2D corr 0.996; Fine26 &eta;<sup>2</sup> 1.004×; R1&ndash;R5 &eta;<sup>2</sup> 0.996×.</p></article><article class="card current-result"><h3>Epb41l4a S530</h3>
+<a href="assets/epb41l4a_s530_qa.webp" target="_blank"><img src="assets/epb41l4a_s530_qa.webp" loading="lazy"></a>
+<p><b>physical-grid score:</b> 0.538&rarr;0.128. 
+<b>Preservation:</b> broad 2D corr 0.988; Fine26 &eta;<sup>2</sup> 0.997&times;; R1&ndash;R5 &eta;<sup>2</sup> 0.997&times;.</p></article></div>
 <details class="compact-details"><summary><b>Additional visual stress tests</b> — residual-looking and formerly stubborn planes</summary>
 <div class="grid current-grid"><article class="card current-result"><h3>Otx2os1 S500</h3>
 <a href="assets/otx2os1_s500_qa.webp" target="_blank"><img src="assets/otx2os1_s500_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.131→0.131. 
-<b>Preservation:</b> broad 2D corr 0.995; Fine26 η² 1.002×; R1–R5 η² 0.988×.</p></article><article class="card current-result"><h3>Epb41l4a S500</h3>
+<b>Preservation:</b> broad 2D corr 0.995; Fine26 &eta;<sup>2</sup> 1.002×; R1&ndash;R5 &eta;<sup>2</sup> 0.988×.</p></article><article class="card current-result"><h3>Epb41l4a S500</h3>
 <a href="assets/epb41l4a_s500_qa.webp" target="_blank"><img src="assets/epb41l4a_s500_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.289→0.229. 
-<b>Preservation:</b> broad 2D corr 0.991; Fine26 η² 1.011×; R1–R5 η² 1.005×.</p></article><article class="card current-result"><h3>Cep112 S500</h3>
+<b>Preservation:</b> broad 2D corr 0.991; Fine26 &eta;<sup>2</sup> 1.011×; R1&ndash;R5 &eta;<sup>2</sup> 1.005×.</p></article><article class="card current-result"><h3>Cep112 S500</h3>
 <a href="assets/cep112_s500_qa.webp" target="_blank"><img src="assets/cep112_s500_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.246→0.246. 
-<b>Preservation:</b> broad 2D corr 0.991; Fine26 η² 1.001×; R1–R5 η² 0.994×.</p></article><article class="card current-result"><h3>Slc6a2 S560</h3>
+<b>Preservation:</b> broad 2D corr 0.991; Fine26 &eta;<sup>2</sup> 1.001×; R1&ndash;R5 &eta;<sup>2</sup> 0.994×.</p></article><article class="card current-result"><h3>Slc6a2 S560</h3>
 <a href="assets/slc6a2_s560_qa.webp" target="_blank"><img src="assets/slc6a2_s560_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.134→0.073. 
-<b>Preservation:</b> broad 2D corr 0.999; Fine26 η² 0.952×; R1–R5 η² 0.987×.</p></article><article class="card current-result"><h3>Mc4r S560</h3>
+<b>Preservation:</b> broad 2D corr 0.999; Fine26 &eta;<sup>2</sup> 0.952×; R1&ndash;R5 &eta;<sup>2</sup> 0.987×.</p></article><article class="card current-result"><h3>Mc4r S560</h3>
 <a href="assets/mc4r_s560_qa.webp" target="_blank"><img src="assets/mc4r_s560_qa.webp" loading="lazy"></a>
 <p><b>physical-grid score:</b> 0.351→0.067. 
-<b>Preservation:</b> broad 2D corr 0.999; Fine26 η² 0.998×; R1–R5 η² 1.010×.</p></article></div>
+<b>Preservation:</b> broad 2D corr 0.999; Fine26 &eta;<sup>2</sup> 0.998×; R1&ndash;R5 &eta;<sup>2</sup> 1.010×.</p></article></div>
 </details>
 <div class="callout"><b>Stopping rule:</b> we do not chase arbitrary harmonic ratios once the shared acquisition component is low. Several secondary harmonics have tiny raw denominators, so their ratio can look large even when the final absolute common-mode is small. Further forcing those terms down would preferentially erase gene-specific spatial structure.</div>
 <p class="files"><a href="data/stage872_final_grid_summary.csv">81-pair final summary</a><a href="data/stage872_final_common_mode_audit.csv">cross-gene common-mode audit</a><a href="data/stage872_final_authority.json">Stage872 authority</a></p>
@@ -105,7 +111,7 @@
     <p>3/3 sections receive targeted artifact rescue; other sections are exact Stage594 carry-through.</p></article><article class="card"><h3>Slc17a6: RAW → Stage594 → Stage848 → artifact delta</h3>
     <a href="assets/stage848_slc17a6_raw594_corrected_delta.webp" target="_blank"><img src="assets/stage848_slc17a6_raw594_corrected_delta.webp" loading="lazy"></a>
     <p>2/3 sections receive targeted artifact rescue; other sections are exact Stage594 carry-through.</p></article></div>
-<div class="callout"><b>Stage849 full-matrix preservation QA: 10/10 PASS.</b> Across all 81 gene×section rows, every non-targeted entry is exact Stage594 (0 changed cells), there are 0 negative deltas, and global extra mass is only 0.314%. Across the 16 corrected pairs, minimum Stage594→Stage848 grid correlation is 0.999366; Fine26 profile correlation is ≥0.999811; R1–R5 profile correlation is ≥0.998256. Fine26 η² ratios span 0.986–1.001, and R1–R5 η² ratios span 0.982–1.014.</div>
+<div class="callout"><b>Stage849 full-matrix preservation QA: 10/10 PASS.</b> Across all 81 gene×section rows, every non-targeted entry is exact Stage594 (0 changed cells), there are 0 negative deltas, and global extra mass is only 0.314%. Across the 16 corrected pairs, minimum Stage594→Stage848 grid correlation is 0.999366; Fine26 profile correlation is ≥0.999811; R1–R5 profile correlation is ≥0.998256. Fine26 &eta;<sup>2</sup> ratios span 0.986–1.001, and R1&ndash;R5 &eta;<sup>2</sup> ratios span 0.982–1.014.</div>
 <p class="files"><a href="data/stage849_preservation_authority.json">Stage849 QA authority</a><a href="data/stage849_qa_checks.csv">10 QA checks</a><a href="data/stage849_all81_preservation_qa.csv">all 81 gene×section preservation metrics</a></p>
 <p><b>Current status:</b> Stage848 is a provisional full 27-gene candidate matrix. It changes only the 16 artifact-supported focus pairs; every other gene×section is explicit Stage594 carry-through. The three candidate matrices are preserved separately and do not overwrite Stage594.</p>
 <p class="files"><a href="data/stage848_global_authority.json">Stage848 authority</a><a href="data/stage848_changed_pairs_audit.csv">24-pair audit</a><a href="data/stage848_decision_table.csv">decision table + weights</a><a href="data/stage847_global_authority_v2.json">Stage847 classifier authority</a><a href="data/stage847_tile_signal_classification_v2.csv">artifact-vs-signal classifier</a></p>

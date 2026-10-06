@@ -1,10 +1,10 @@
 {
   "page": "perilc-map6-review",
-  "assets": 284,
+  "assets": 285,
   "data_files": 105,
   "missing_links": [],
-  "index_bytes": 110567,
-  "version": "2026-10-05-map9-stage872-final",
+  "index_bytes": 111570,
+  "version": "2026-10-05-map9-stage872-audited",
   "current_spatial_assets": [
     "assets/current_r1r5_coronal.jpg",
     "assets/current_r1r5_repro_fine26.jpg",
@@ -240,6 +240,7 @@
     "assets/otx2os1_s500_qa.webp",
     "assets/otx2os1_s560_qa.webp",
     "assets/epb41l4a_s500_qa.webp",
+    "assets/epb41l4a_s530_qa.webp",
     "assets/cep112_s500_qa.webp",
     "assets/slc6a2_s560_qa.webp",
     "assets/mc4r_s560_qa.webp"
