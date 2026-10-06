@@ -1,0 +1,5 @@
+dataset,target,contract,delta_r2,p_value,note
+C. elegans,pumping,leave-one-function-out,0.13294,,core molecular completion
+Xu,Ghrelin,strict 11-state conditional null,0.0639,0.00498,permutation-supported
+WARP D2,OMR backward,cross-cohort measured31 + 5 lifted identity genes,0.02478,0.0099,cross-cohort AtlasLift→BehLift
+Shainer,large-dot CCW,leave-one-function-out,0.00977,,small positive replication

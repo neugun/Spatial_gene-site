@@ -1,0 +1,10 @@
+figure,dataset,stage,contract,model,metric,value,baseline_value,delta_vs_baseline,status,n_groups,notes,source,q,label
+4,allen_vc2p,relation_index,assay-specific type_l2 (DG/NS/SG; no pooled scalar),Zhao_relation_graph,zhao_relation_index,,,,MATCHED_NULL,59.0,BH_q=0.0008284057474219,,0.0008284057474219,Allen VC2P
+4,bugeon2022,relation_index,standardized_scalar_multivariate:type_l2,Zhao_relation_graph,zhao_relation_index,0.1119402985074626,,,MATCHED_NULL,4.0,BH_q=0.0014497100579884,,0.0014497100579884,Bugeon
+4,celegans_atanas2023,relation_index,standardized_scalar_multivariate:type_l2,Zhao_relation_graph,zhao_relation_index,0.0017811809666249,,,MATCHED_NULL,40.0,BH_q=0.0008284057474219,,0.0008284057474219,C. elegans
+4,condylis2022,relation_index,standardized_scalar_multivariate:type_l1,Zhao_relation_graph,zhao_relation_index,0.0,,,MATCHED_NULL,9.0,BH_q=1.0,,1.0,Condylis
+4,shainer2025,relation_index,standardized_scalar_multivariate:type_l2,Zhao_relation_graph,zhao_relation_index,0.0399345517069247,,,MATCHED_NULL,6.0,BH_q=0.5855197434144802,,0.5855197434144802,Shainer
+4,sorensen2026,relation_index,,Zhao_relation_graph,zhao_relation_index,,,,MATCHED_NULL,74.0,BH_q=nan,,,Sorensen
+4,warp2026,relation_index,standardized_scalar_multivariate:type_l2,Zhao_relation_graph,zhao_relation_index,0.015197657969192,,,MATCHED_NULL,3.0,BH_q=0.0278344331133772,,0.0278344331133772,WARP
+4,xu2020,relation_index,native_state_aggregated:type_l2,Zhao_relation_graph,zhao_relation_index,0.0411373260738052,,,MATCHED_NULL,3.0,BH_q=0.0416462162113031,,0.0416462162113031,Xu
+4,zhao2026,relation_index,standardized_scalar_multivariate:type_l1,Zhao_relation_graph,zhao_relation_index,0.2631578947368421,,,MATCHED_NULL,9.0,BH_q=0.5777164012458131,,0.5777164012458131,Zhao

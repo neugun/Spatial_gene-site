@@ -1,0 +1,104 @@
+family,dataset,metric,effect,status,inference_unit,placement,source
+ManifoldLift,C. elegans,latent_spearman,0.47158,STRONG,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+ManifoldLift,Xu,latent_spearman,0.18618,MODERATE,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+ManifoldLift,WARP,latent_spearman,0.14799,RANK_POSITIVE,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+ManifoldLift,Shainer,latent_spearman,0.04207,BOUNDARY,held biological unit,MAIN_A,FIG4_MAIN_A_MANIFOLDLIFT_20261005.csv
+selected_BehLift,allen_vc2p,delta_r2,0.0611833764665956,POSITIVE,59 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,bugeon2022,delta_r2,0.062967252354918,POSITIVE,4 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,celegans_atanas2023,delta_r2,0.1167979490138353,POSITIVE,40 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,condylis2022,delta_r2,-2.107342078616625e-10,BOUNDARY,9 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,shainer2025,delta_r2,-0.0033022658317881,BOUNDARY,6 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,sorensen2026,delta_r2,0.0777172332537472,POSITIVE,74 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,warp2026,delta_r2,0.014463156479991,POSITIVE,3 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,xu2020,delta_r2,0.0639033382824072,POSITIVE,3 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+selected_BehLift,zhao2026,delta_r2,-0.0345975054730876,BOUNDARY,9 held biological units,MAIN_B,FIG4_MAIN_B_SELECTED_COMPLETION_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.062967252354918,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.0284593870868727,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,-0.0297431129885924,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,-0.0267025124725817,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,bugeon2022,delta_r2,0.0991095868255806,TARGET_LEVEL,4 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0056918206679867,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0080122513306543,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.1020342014047691,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.1167979490138353,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,celegans_atanas2023,delta_r2,0.0311863619063651,TARGET_LEVEL,40 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-8.426223052637737e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-1.2972781737730086e-09,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-1.636980551111833e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-2.107342078616625e-10,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,0.0002341809464638,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-4.4908632368390045e-11,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,condylis2022,delta_r2,-0.0025471173588074,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0150416209723742,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.02558441341933,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0144159457740401,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0033022658317881,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0259846286138242,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0068947709257732,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,0.0011618183589676,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,shainer2025,delta_r2,-0.0057332409196977,TARGET_LEVEL,6 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,0.0128288246370937,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0172634072587236,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0379831827826485,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0147488654314247,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0040195871154344,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0297064321757167,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,0.0639033382824072,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.001681056358187,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0625946134771698,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0216045069780514,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,xu2020,delta_r2,-0.0034588543200912,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0032053392037258,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.1784827238475066,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0874165474247286,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.1765841370084904,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,zhao2026,delta_r2,-0.0345975054730876,TARGET_LEVEL,9 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0318611181156538,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0726348814933681,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0398608265316499,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.082658953231798,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0505226983392793,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.021370098101513,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0429872782188547,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0539149534886318,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0062070682411452,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0067038699231369,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0909819043326799,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.1210967769891917,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0460824542356335,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0098045875204508,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0611833764665956,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0070000103258716,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0193230057997941,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0213344366505974,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0455111873367239,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0045349256094239,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,0.0081176486912377,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0274296729973084,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0911623094694996,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0203937161659466,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,allen_vc2p,delta_r2,-0.0410237709686563,TARGET_LEVEL,59 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,sorensen2026,delta_r2,0.0777172332537472,TARGET_LEVEL,74 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,sorensen2026,delta_r2,-0.069702232169484,TARGET_LEVEL,74 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.014463156479991,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,-0.0006549853454254,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0058275812066463,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.00045666741603,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0062307699841414,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0078420957503354,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,-0.0002400037003117,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+target_dependence,warp2026,delta_r2,0.0031104079351919,TARGET_LEVEL,3 held biological units,MAIN_E/ED,FIG4_MAIN_E_TARGET_DEPENDENCE_20261005.csv
+dynamic_manifold,WARP2026,type_cross_animal,0.50405,ED_DYNAMIC,cross-animal geometry,ED1,FIG4_ED1_WARP_DYNAMIC_GEOMETRY_20261005.csv
+dynamic_manifold,WARP2026,gene-combo_cross_animal,0.64292,ED_DYNAMIC,cross-animal geometry,ED1,FIG4_ED1_WARP_DYNAMIC_GEOMETRY_20261005.csv
+relation_index,condylis2022,BH_q,1.0,BOUNDARY,9 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,shainer2025,BH_q,0.5855197434144802,BOUNDARY,6 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,zhao2026,BH_q,0.5777164012458131,BOUNDARY,9 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,xu2020,BH_q,0.0416462162113031,SUPPORTED,3 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,warp2026,BH_q,0.0278344331133772,SUPPORTED,3 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,bugeon2022,BH_q,0.0014497100579884,SUPPORTED,4 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,celegans_atanas2023,BH_q,0.0008284057474219,SUPPORTED,40 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+relation_index,allen_vc2p,BH_q,0.0008284057474219,SUPPORTED,59 held groups,ED2,FIG4_ED2_RELATION_INDEX_20261005.csv
+strict_conditional_contract,C. elegans,delta_r2,0.13294,DIRECTIONAL_OR_LEGACY_FROZEN,leave-one-function-out,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv
+strict_conditional_contract,Xu,delta_r2,0.0639,PERMUTATION_SUPPORTED,strict 11-state conditional null,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv
+strict_conditional_contract,WARP D2,delta_r2,0.02478,PERMUTATION_SUPPORTED,cross-cohort measured31 + 5 lifted identity genes,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv
+strict_conditional_contract,Shainer,delta_r2,0.00977,DIRECTIONAL_OR_LEGACY_FROZEN,leave-one-function-out,ED6,FIG4_ED6_STRICT_CONDITIONAL_CONTRACTS_20261005.csv

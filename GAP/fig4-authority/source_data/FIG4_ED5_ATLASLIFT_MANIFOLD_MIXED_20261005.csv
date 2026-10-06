@@ -1,0 +1,4 @@
+dataset,metric,delta,status
+WARP,distance ρ,0.02105,POSITIVE
+WARP,latent ρ,-0.00172,NEGATIVE
+Shainer,latent ρ,0.01059,POSITIVE

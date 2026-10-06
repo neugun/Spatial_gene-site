@@ -1,0 +1,19 @@
+{
+  "version": "fig4-global-evidence-ledger-v2-20261005",
+  "total_rows": 103,
+  "families": [
+    "ManifoldLift",
+    "dynamic_manifold",
+    "relation_index",
+    "selected_BehLift",
+    "strict_conditional_contract",
+    "target_dependence"
+  ],
+  "superseded_rows": 8,
+  "principles": [
+    "Manifold readability, conditional completion, relation structure and atlas augmentation are separate evidence layers.",
+    "Current selected biological targets never replace the all-target distribution.",
+    "Frozen strict conditional/cross-cohort tests remain visible with their original contract labels.",
+    "Approximate values are excluded from public numerical authority."
+  ]
+}

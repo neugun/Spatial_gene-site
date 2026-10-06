@@ -1,0 +1,19 @@
+{
+  "version": "fig4-global-contract-v1-20261005",
+  "main_claim": "Molecular state organizes functional manifolds and can complete omitted behavioral coordinates when headroom exists, but the effect is strongly target-, metric-, and dataset-dependent.",
+  "guardrails": [
+    "Do not infer universal BehLift from selected positive targets; all-target distributions remain visible.",
+    "Condylis saturation is a headroom boundary, not evidence that molecules are irrelevant.",
+    "Zhao and much of Shainer remain conditional-completion boundaries.",
+    "Static WARP manifold reconstruction and dynamic WARP geometry are separate contracts.",
+    "AtlasLift may improve one geometry metric while worsening another."
+  ],
+  "main_panels": [
+    "ManifoldLift",
+    "selected-target BehLift",
+    "headroom vs gain",
+    "multimetric gain",
+    "target dependence",
+    "held-unit consistency"
+  ]
+}

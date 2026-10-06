@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "version": "fig4-figure-asset-authority-v1-20261005",
+  "n_figure_stems": 13,
+  "n_main": 7,
+  "n_ed": 6,
+  "asset_files": 39,
+  "source_files": 24,
+  "ledger_v2_rows": 103,
+  "superseded_rows": 8,
+  "key_checks": {
+    "Xu_current_deltaR2": 0.0639033382824072,
+    "Celegans_current_deltaR2": 0.1167979490138353,
+    "Zhao_current_deltaR2": -0.0345975054730876,
+    "Xu_strict_p": 0.00498,
+    "WARP_D2_crosscohort_p": 0.0099
+  },
+  "all_triplets_nonempty": true,
+  "all_png_dpi_ge_590": true,
+  "scripts_compile": "PASS"
+}
