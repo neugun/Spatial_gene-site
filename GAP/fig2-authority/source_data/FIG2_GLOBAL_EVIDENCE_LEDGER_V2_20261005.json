@@ -1,0 +1,24 @@
+{
+  "version": "fig2-global-evidence-ledger-v2-20261005",
+  "main_rows": 52,
+  "ed_rows": 16,
+  "total_rows": 68,
+  "families": [
+    "bugeon_exact_visp_geometry",
+    "condylis_geometry_boundary",
+    "endpoint_breadth",
+    "held_unit_geometry",
+    "mclachlan_sameK",
+    "reference_qc",
+    "warp_family_geometry",
+    "xu_endpoint_lift",
+    "xu_reference_recovery"
+  ],
+  "superseded_rows": 6,
+  "principles": [
+    "Reference qualification, gene recovery, selector choice, endpoint lift and global functional geometry are separate evidence layers.",
+    "Conditional random-panel/randomization P values are never relabeled as biological-unit population P values.",
+    "Positive endpoint-specific AtlasFlow rows are not promoted into a universal global-geometry claim.",
+    "Resolved null/boundary results remain visible rather than being optimized away."
+  ]
+}

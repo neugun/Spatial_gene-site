@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GAP Figure 2 authority</title><style>body{font-family:Arial,sans-serif;max-width:1240px;margin:28px auto;padding:0 18px;color:#222;background:#fff}
+h1{font-size:30px;margin-bottom:8px}h2{font-size:20px;margin:4px 0 8px}.lead{font-size:17px;line-height:1.55;max-width:1000px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 0;z-index:2}nav a{margin-right:16px}
+.card{border-top:1px solid #ddd;padding:22px 0}.role{font-size:12px;font-weight:800;color:#B2232E;letter-spacing:.05em}
+.card img{max-width:100%;height:auto;display:block;margin:12px auto}.claim{font-size:15px;line-height:1.5}.meta{font-size:13px;line-height:1.55;color:#555}
+a{color:#0b6387}.callout{border-left:3px solid #B2232E;padding:10px 14px;background:#fafafa;margin:16px 0}
+@media(max-width:600px){h1{font-size:24px}.lead{font-size:15px}.card{padding:16px 0}}</style></head><body>
+<nav><a href="../index.html">GAP main</a><a href="index_zh.html">中文</a><a href="source_data/FIG2_FIGURE_ASSET_AUTHORITY_20261005.csv">asset authority</a><a href="source_data/FIG2_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv">evidence ledger V2</a></nav>
+<h1>Figure 2 authority — complete evidence</h1>
+<p class="lead">Global reconstruction of Figure 2 from current code lineage, intermediate AtlasLift/reference analyses and reviewer-audited results. Reference QC, molecular recovery, selector choice, endpoint lift and global functional geometry remain separate evidence layers.</p>
+<div class="callout"><b>Current authority:</b> 10 figure stems (5 main + 5 ED), 30 PNG/SVG/PDF assets and a 68-row evidence ledger. The page explicitly preserves resolved boundaries instead of optimizing them away.</div>
+<section class="card"><div class="role">MAIN_COMPOSITE</div><h2>Fig2_MAIN_global_contract_20261005</h2>
+<p class="claim">AtlasLift is reference-qualified and endpoint-specific: reference recovery, selector choice, endpoint lift and global functional geometry are separate tests.</p>
+<a href="assets/Fig2_MAIN_global_contract_20261005.png"><img src="assets/Fig2_MAIN_global_contract_20261005.png" loading="lazy" alt="Fig2_MAIN_global_contract_20261005"></a>
+<p class="meta"><b>Inference:</b> panel-specific held biological units / descriptive QC<br><b>Null / control:</b> panel-specific matched-random, mapping, or conditional permutation controls<br>
+<b>Source data:</b> FIG2_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv<br><b>Code:</b> scripts/1019_build_fig2_global_authority_20261005.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_MAIN_global_contract_20261005.png">PNG</a> · <a href="assets/Fig2_MAIN_global_contract_20261005.svg">SVG</a> · <a href="assets/Fig2_MAIN_global_contract_20261005.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_A</div><h2>Fig2A_crossdataset_geometry_current</h2>
+<p class="claim">Reference-qualified functional geometry is supported in WARP and McLachlan exact PERI/ECT, while Shainer, Condylis and Bugeon define global-geometry boundaries.</p>
+<a href="assets/Fig2A_crossdataset_geometry_current.png"><img src="assets/Fig2A_crossdataset_geometry_current.png" loading="lazy" alt="Fig2A_crossdataset_geometry_current"></a>
+<p class="meta"><b>Inference:</b> held fish/mouse according to dataset<br><b>Null / control:</b> conditional matched-random panel null; q is not an animal-population P<br>
+<b>Source data:</b> FIG2_MAIN_A_CROSSDATASET_GEOMETRY_20261005.csv<br><b>Code:</b> scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2A_crossdataset_geometry_current.png">PNG</a> · <a href="assets/Fig2A_crossdataset_geometry_current.svg">SVG</a> · <a href="assets/Fig2A_crossdataset_geometry_current.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_B</div><h2>Fig2B_mclachlan_sameK_reference_selector</h2>
+<p class="claim">McLachlan exhibits a reference × K × selector interaction: exact PERI/ECT is the clean function-guided positive at K20/K23, but broad references can win under atlas-variance selection.</p>
+<a href="assets/Fig2B_mclachlan_sameK_reference_selector.png"><img src="assets/Fig2B_mclachlan_sameK_reference_selector.png" loading="lazy" alt="Fig2B_mclachlan_sameK_reference_selector"></a>
+<p class="meta"><b>Inference:</b> 3 held animals; conditional panel-draw null<br><b>Null / control:</b> same K, same selector, same held-animal geometry and matched-random control<br>
+<b>Source data:</b> FIG2_MAIN_B_MCLACHLAN_SAMEK_20261005.csv<br><b>Code:</b> scripts/984_mclachlan_sameK_geometry_20261005.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2B_mclachlan_sameK_reference_selector.png">PNG</a> · <a href="assets/Fig2B_mclachlan_sameK_reference_selector.svg">SVG</a> · <a href="assets/Fig2B_mclachlan_sameK_reference_selector.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_C</div><h2>Fig2C_xu_pvn_bridge_boundary</h2>
+<p class="claim">Xu/PVH has a real target-free external PVN bridge (C185 masked-gene median rho≈0.244) but no strict downstream held-mouse endpoint lift.</p>
+<a href="assets/Fig2C_xu_pvn_bridge_boundary.png"><img src="assets/Fig2C_xu_pvn_bridge_boundary.png" loading="lazy" alt="Fig2C_xu_pvn_bridge_boundary"></a>
+<p class="meta"><b>Inference:</b> 9 measured genes for reference QC; 3 held mice for endpoint test<br><b>Null / control:</b> reference chosen without function labels; endpoint uses matched-random max-over-N control<br>
+<b>Source data:</b> FIG2_MAIN_C_XU_PVN_REFERENCE_RECOVERY_20261005.csv; FIG2_MAIN_C_XU_PVN_ENDPOINT_AUTHORITY_20261005.csv; FIG2_MAIN_C_XU_PVN_PRESPECIFIED_20261005.csv<br><b>Code:</b> scripts/989_xu_pvn_resolution_recovery_20261005.py; scripts/994_xu_pvn_c185_residual_lift_20261005.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2C_xu_pvn_bridge_boundary.png">PNG</a> · <a href="assets/Fig2C_xu_pvn_bridge_boundary.svg">SVG</a> · <a href="assets/Fig2C_xu_pvn_bridge_boundary.pdf">PDF</a></p></section><section class="card"><div class="role">MAIN_D</div><h2>Fig2D_bugeon_exact_visp_boundary</h2>
+<p class="claim">Bugeon exact VISp can qualify as an anatomical/molecular reference without producing significant global held-mouse functional-geometry lift.</p>
+<a href="assets/Fig2D_bugeon_exact_visp_boundary.png"><img src="assets/Fig2D_bugeon_exact_visp_boundary.png" loading="lazy" alt="Fig2D_bugeon_exact_visp_boundary"></a>
+<p class="meta"><b>Inference:</b> 4 held mice<br><b>Null / control:</b> matched-random panel null across K/selector<br>
+<b>Source data:</b> FIG2_MAIN_D_BUGEON_EXACT_VISP_20261005.csv<br><b>Code:</b> scripts/run_bugeon_visp_exact_geometry_20261003.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2D_bugeon_exact_visp_boundary.png">PNG</a> · <a href="assets/Fig2D_bugeon_exact_visp_boundary.svg">SVG</a> · <a href="assets/Fig2D_bugeon_exact_visp_boundary.pdf">PDF</a></p></section><section class="card"><div class="role">ED_REFERENCE_QC</div><h2>Fig2_ED1_reference_QC</h2>
+<p class="claim">Reference recovery and mapping stability vary substantially across datasets and serve as qualification/QC dimensions rather than functional proof.</p>
+<a href="assets/Fig2_ED1_reference_QC.png"><img src="assets/Fig2_ED1_reference_QC.png" loading="lazy" alt="Fig2_ED1_reference_QC"></a>
+<p class="meta"><b>Inference:</b> reference states/genes; descriptive QC<br><b>Null / control:</b> reference recovery and mapping reproducibility<br>
+<b>Source data:</b> FIG2_ED1_REFERENCE_QC_20261005.csv<br><b>Code:</b> scripts/build_fig2_atlasflow_multimetric_authority_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED1_reference_QC.png">PNG</a> · <a href="assets/Fig2_ED1_reference_QC.svg">SVG</a> · <a href="assets/Fig2_ED1_reference_QC.pdf">PDF</a></p></section><section class="card"><div class="role">ED_ENDPOINT_BREADTH</div><h2>Fig2_ED2_endpoint_specific_breadth</h2>
+<p class="claim">AtlasFlow effects are endpoint- and model-specific; distributions of endpoint ΔSpearman should remain visible instead of being collapsed into one global positive.</p>
+<a href="assets/Fig2_ED2_endpoint_specific_breadth.png"><img src="assets/Fig2_ED2_endpoint_specific_breadth.png" loading="lazy" alt="Fig2_ED2_endpoint_specific_breadth"></a>
+<p class="meta"><b>Inference:</b> endpoint/model/block rows; descriptive breadth<br><b>Null / control:</b> no formal global-geometry inference from the breadth summary<br>
+<b>Source data:</b> FIG2_ED2_ENDPOINT_BREADTH_SUMMARY_20261005.csv; FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv<br><b>Code:</b> scripts/build_fig2_atlasflow_multimetric_authority_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED2_endpoint_specific_breadth.png">PNG</a> · <a href="assets/Fig2_ED2_endpoint_specific_breadth.svg">SVG</a> · <a href="assets/Fig2_ED2_endpoint_specific_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED_XU_N_GRID</div><h2>Fig2_ED3_xu_full_N_curve</h2>
+<p class="claim">The full Xu/PVH N-grid shows why best-over-N external-gene gains require correction and why the apparent raw-guided K=1 gain does not establish endpoint rescue.</p>
+<a href="assets/Fig2_ED3_xu_full_N_curve.png"><img src="assets/Fig2_ED3_xu_full_N_curve.png" loading="lazy" alt="Fig2_ED3_xu_full_N_curve"></a>
+<p class="meta"><b>Inference:</b> 3 held mice across fixed N grid<br><b>Null / control:</b> same candidate pool, matched random at each N, plus max-over-N correction<br>
+<b>Source data:</b> FIG2_ED3_XU_PVN_N_CURVE_20261005.csv<br><b>Code:</b> scripts/994_xu_pvn_c185_residual_lift_20261005.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED3_xu_full_N_curve.png">PNG</a> · <a href="assets/Fig2_ED3_xu_full_N_curve.svg">SVG</a> · <a href="assets/Fig2_ED3_xu_full_N_curve.pdf">PDF</a></p></section><section class="card"><div class="role">ED_WARP_FAMILY</div><h2>Fig2_ED4_WARP_H2_geometry</h2>
+<p class="claim">WARP H2 neuromodulator-family distance covaries with functional manifold angle in all three fish under a within-fish edge-shuffle test.</p>
+<a href="assets/Fig2_ED4_WARP_H2_geometry.png"><img src="assets/Fig2_ED4_WARP_H2_geometry.png" loading="lazy" alt="Fig2_ED4_WARP_H2_geometry"></a>
+<p class="meta"><b>Inference:</b> 3 held fish; 315 pairwise edges<br><b>Null / control:</b> 5000 edge-label permutations within fish<br>
+<b>Source data:</b> FIG2_ED4_WARP_H2_BY_FISH_20261005.csv; FIG2_ED4_WARP_H2_AUTHORITY_20261005.json<br><b>Code:</b> scripts/126b_warp_H2_family_geometry_confirmatory.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED4_WARP_H2_geometry.png">PNG</a> · <a href="assets/Fig2_ED4_WARP_H2_geometry.svg">SVG</a> · <a href="assets/Fig2_ED4_WARP_H2_geometry.pdf">PDF</a></p></section><section class="card"><div class="role">ED_CONDYLIS_BOUNDARY</div><h2>Fig2_ED5_condylis_boundary</h2>
+<p class="claim">Condylis shows that matched reference/marker recovery can coexist with only directional or unsupported global feature/raw-response geometry lift.</p>
+<a href="assets/Fig2_ED5_condylis_boundary.png"><img src="assets/Fig2_ED5_condylis_boundary.png" loading="lazy" alt="Fig2_ED5_condylis_boundary"></a>
+<p class="meta"><b>Inference:</b> 8 held mice<br><b>Null / control:</b> conditional matched-random panel null<br>
+<b>Source data:</b> FIG2_ED5_CONDYLIS_REFERENCE_BOUNDARY_20261005.csv<br><b>Code:</b> scripts/940_strict_type_geometry_biological_gapfill_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED5_condylis_boundary.png">PNG</a> · <a href="assets/Fig2_ED5_condylis_boundary.svg">SVG</a> · <a href="assets/Fig2_ED5_condylis_boundary.pdf">PDF</a></p></section></body></html>

@@ -1,0 +1,20 @@
+{
+  "family": "H2_neuromodulator",
+  "n_genes": 19,
+  "n_animals": 3,
+  "n_pairs": 315,
+  "pooled_spearman": 0.21899386861089673,
+  "macro_fish_spearman": 0.2422316677033499,
+  "fish_rho": {
+    "MF59": 0.2217810491395251,
+    "MF63": 0.26121708480197325,
+    "MF71": 0.2436968691685512
+  },
+  "all_fish_positive": true,
+  "n_permutations": 5000,
+  "within_fish_permutation_p_pooled": 0.0001999600079984003,
+  "within_fish_permutation_p_macro": 0.0001999600079984003,
+  "null_macro_mean": -9.74434998963237e-05,
+  "null_macro_p95": 0.09307830534245018,
+  "inference_note": "Permutation p conditions on observed fish and shuffles family-distance edges within fish; 3/3 positive is biological-unit replication but n=3 limits population-level animal inference."
+}

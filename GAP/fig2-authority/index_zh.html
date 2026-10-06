@@ -1,0 +1,62 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GAP 图2完整 authority</title><style>body{font-family:Arial,sans-serif;max-width:1240px;margin:28px auto;padding:0 18px;color:#222;background:#fff}
+h1{font-size:30px;margin-bottom:8px}h2{font-size:20px;margin:4px 0 8px}.lead{font-size:17px;line-height:1.55;max-width:1000px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 0;z-index:2}nav a{margin-right:16px}
+.card{border-top:1px solid #ddd;padding:22px 0}.role{font-size:12px;font-weight:800;color:#B2232E;letter-spacing:.05em}
+.card img{max-width:100%;height:auto;display:block;margin:12px auto}.claim{font-size:15px;line-height:1.5}.meta{font-size:13px;line-height:1.55;color:#555}
+a{color:#0b6387}.callout{border-left:3px solid #B2232E;padding:10px 14px;background:#fafafa;margin:16px 0}
+@media(max-width:600px){h1{font-size:24px}.lead{font-size:15px}.card{padding:16px 0}}</style></head><body>
+<nav><a href="../index_zh.html">GAP 中文主页</a><a href="index.html">English</a><a href="source_data/FIG2_FIGURE_ASSET_AUTHORITY_20261005.csv">asset authority</a><a href="source_data/FIG2_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv">evidence ledger V2</a></nav>
+<h1>图2完整 authority — 全证据版</h1>
+<p class="lead">从当前 code lineage、AtlasLift/参考图谱的所有中间分析以及 reviewer-audited 结果重新构建 Figure 2。reference QC、缺失分子恢复、selector、endpoint lift 与 global functional geometry 不再混成一个“AtlasLift 成功”的总分。</p>
+<div class="callout"><b>当前 authority：</b> 10 组图（5 个 main + 5 个 ED）、30 个 PNG/SVG/PDF 资产、68-row evidence ledger；6 条旧解释已明确冻结为 superseded。</div>
+<section class="card"><div class="role">主图总览</div><h2>Fig2_MAIN_global_contract_20261005</h2>
+<p class="claim">AtlasLift 不是一个“外部图谱越强越好”的单一结果。参考图谱是否合格、能否恢复缺失基因、selector 如何选、具体 endpoint 是否改善、held-unit 全局功能几何是否恢复，必须分层检验。</p>
+<a href="assets/Fig2_MAIN_global_contract_20261005.png"><img src="assets/Fig2_MAIN_global_contract_20261005.png" loading="lazy" alt="Fig2_MAIN_global_contract_20261005"></a>
+<p class="meta"><b>推断单位:</b> panel-specific held biological units / descriptive QC<br><b>Null / 对照:</b> panel-specific matched-random, mapping, or conditional permutation controls<br>
+<b>Source data:</b> FIG2_GLOBAL_EVIDENCE_LEDGER_V2_20261005.csv<br><b>Code:</b> scripts/1019_build_fig2_global_authority_20261005.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_MAIN_global_contract_20261005.png">PNG</a> · <a href="assets/Fig2_MAIN_global_contract_20261005.svg">SVG</a> · <a href="assets/Fig2_MAIN_global_contract_20261005.pdf">PDF</a></p></section><section class="card"><div class="role">主图 A</div><h2>Fig2A_crossdataset_geometry_current</h2>
+<p class="claim">跨数据集 held-unit 几何中，WARP 与 McLachlan exact PERI/ECT 是当前干净的正例；Shainer、Condylis 与 Bugeon 保留为全局几何边界。</p>
+<a href="assets/Fig2A_crossdataset_geometry_current.png"><img src="assets/Fig2A_crossdataset_geometry_current.png" loading="lazy" alt="Fig2A_crossdataset_geometry_current"></a>
+<p class="meta"><b>推断单位:</b> held fish/mouse according to dataset<br><b>Null / 对照:</b> conditional matched-random panel null; q is not an animal-population P<br>
+<b>Source data:</b> FIG2_MAIN_A_CROSSDATASET_GEOMETRY_20261005.csv<br><b>Code:</b> scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2A_crossdataset_geometry_current.png">PNG</a> · <a href="assets/Fig2A_crossdataset_geometry_current.svg">SVG</a> · <a href="assets/Fig2A_crossdataset_geometry_current.pdf">PDF</a></p></section><section class="card"><div class="role">主图 B</div><h2>Fig2B_mclachlan_sameK_reference_selector</h2>
+<p class="claim">McLachlan 显示明确的 reference × K × selector interaction：exact PERI/ECT 在 function-guided K20/K23 上成立，但 broad reference 在 atlas-variance selector 下也可更高，因此不能写成 exact reference 普遍优越。</p>
+<a href="assets/Fig2B_mclachlan_sameK_reference_selector.png"><img src="assets/Fig2B_mclachlan_sameK_reference_selector.png" loading="lazy" alt="Fig2B_mclachlan_sameK_reference_selector"></a>
+<p class="meta"><b>推断单位:</b> 3 held animals; conditional panel-draw null<br><b>Null / 对照:</b> same K, same selector, same held-animal geometry and matched-random control<br>
+<b>Source data:</b> FIG2_MAIN_B_MCLACHLAN_SAMEK_20261005.csv<br><b>Code:</b> scripts/984_mclachlan_sameK_geometry_20261005.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2B_mclachlan_sameK_reference_selector.png">PNG</a> · <a href="assets/Fig2B_mclachlan_sameK_reference_selector.svg">SVG</a> · <a href="assets/Fig2B_mclachlan_sameK_reference_selector.pdf">PDF</a></p></section><section class="card"><div class="role">主图 C</div><h2>Fig2C_xu_pvn_bridge_boundary</h2>
+<p class="claim">Xu/PVH 的 target-free 外部 PVN bridge 是真实的：C185 对 9 个 measured genes 的 masked-gene median ρ≈0.244；但加入外部基因后，严格 held-mouse endpoint lift 不成立。</p>
+<a href="assets/Fig2C_xu_pvn_bridge_boundary.png"><img src="assets/Fig2C_xu_pvn_bridge_boundary.png" loading="lazy" alt="Fig2C_xu_pvn_bridge_boundary"></a>
+<p class="meta"><b>推断单位:</b> 9 measured genes for reference QC; 3 held mice for endpoint test<br><b>Null / 对照:</b> reference chosen without function labels; endpoint uses matched-random max-over-N control<br>
+<b>Source data:</b> FIG2_MAIN_C_XU_PVN_REFERENCE_RECOVERY_20261005.csv; FIG2_MAIN_C_XU_PVN_ENDPOINT_AUTHORITY_20261005.csv; FIG2_MAIN_C_XU_PVN_PRESPECIFIED_20261005.csv<br><b>Code:</b> scripts/989_xu_pvn_resolution_recovery_20261005.py; scripts/994_xu_pvn_c185_residual_lift_20261005.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2C_xu_pvn_bridge_boundary.png">PNG</a> · <a href="assets/Fig2C_xu_pvn_bridge_boundary.svg">SVG</a> · <a href="assets/Fig2C_xu_pvn_bridge_boundary.pdf">PDF</a></p></section><section class="card"><div class="role">主图 D</div><h2>Fig2D_bugeon_exact_visp_boundary</h2>
+<p class="claim">Bugeon exact VISp 可以通过 reference/molecular qualification，但所有当前 global held-mouse geometry 检验仍不支持显著 lift。</p>
+<a href="assets/Fig2D_bugeon_exact_visp_boundary.png"><img src="assets/Fig2D_bugeon_exact_visp_boundary.png" loading="lazy" alt="Fig2D_bugeon_exact_visp_boundary"></a>
+<p class="meta"><b>推断单位:</b> 4 held mice<br><b>Null / 对照:</b> matched-random panel null across K/selector<br>
+<b>Source data:</b> FIG2_MAIN_D_BUGEON_EXACT_VISP_20261005.csv<br><b>Code:</b> scripts/run_bugeon_visp_exact_geometry_20261003.py; scripts/1019_build_fig2_global_authority_20261005.py<br>
+<a href="assets/Fig2D_bugeon_exact_visp_boundary.png">PNG</a> · <a href="assets/Fig2D_bugeon_exact_visp_boundary.svg">SVG</a> · <a href="assets/Fig2D_bugeon_exact_visp_boundary.pdf">PDF</a></p></section><section class="card"><div class="role">ED · reference QC</div><h2>Fig2_ED1_reference_QC</h2>
+<p class="claim">不同数据集的 reference recovery 与 mapping stability 差异很大；它们是进入 AtlasLift 前的资格/QC，而不是功能改善的证明。</p>
+<a href="assets/Fig2_ED1_reference_QC.png"><img src="assets/Fig2_ED1_reference_QC.png" loading="lazy" alt="Fig2_ED1_reference_QC"></a>
+<p class="meta"><b>推断单位:</b> reference states/genes; descriptive QC<br><b>Null / 对照:</b> reference recovery and mapping reproducibility<br>
+<b>Source data:</b> FIG2_ED1_REFERENCE_QC_20261005.csv<br><b>Code:</b> scripts/build_fig2_atlasflow_multimetric_authority_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED1_reference_QC.png">PNG</a> · <a href="assets/Fig2_ED1_reference_QC.svg">SVG</a> · <a href="assets/Fig2_ED1_reference_QC.pdf">PDF</a></p></section><section class="card"><div class="role">ED · endpoint breadth</div><h2>Fig2_ED2_endpoint_specific_breadth</h2>
+<p class="claim">AtlasFlow 对不同 endpoint/model/block 的效果高度不均一。把所有 endpoint 压成一个“AtlasLift positive”会掩盖真正的选择性与负结果。</p>
+<a href="assets/Fig2_ED2_endpoint_specific_breadth.png"><img src="assets/Fig2_ED2_endpoint_specific_breadth.png" loading="lazy" alt="Fig2_ED2_endpoint_specific_breadth"></a>
+<p class="meta"><b>推断单位:</b> endpoint/model/block rows; descriptive breadth<br><b>Null / 对照:</b> no formal global-geometry inference from the breadth summary<br>
+<b>Source data:</b> FIG2_ED2_ENDPOINT_BREADTH_SUMMARY_20261005.csv; FIG2_ATLASFLOW_MULTIMETRIC_AUTHORITY_20261003.csv<br><b>Code:</b> scripts/build_fig2_atlasflow_multimetric_authority_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED2_endpoint_specific_breadth.png">PNG</a> · <a href="assets/Fig2_ED2_endpoint_specific_breadth.svg">SVG</a> · <a href="assets/Fig2_ED2_endpoint_specific_breadth.pdf">PDF</a></p></section><section class="card"><div class="role">ED · Xu N-grid</div><h2>Fig2_ED3_xu_full_N_curve</h2>
+<p class="claim">Xu/PVH 完整 N-grid 说明为什么必须控制 best-over-N：raw-guided K=1 的小正增益并不能构成 endpoint rescue。</p>
+<a href="assets/Fig2_ED3_xu_full_N_curve.png"><img src="assets/Fig2_ED3_xu_full_N_curve.png" loading="lazy" alt="Fig2_ED3_xu_full_N_curve"></a>
+<p class="meta"><b>推断单位:</b> 3 held mice across fixed N grid<br><b>Null / 对照:</b> same candidate pool, matched random at each N, plus max-over-N correction<br>
+<b>Source data:</b> FIG2_ED3_XU_PVN_N_CURVE_20261005.csv<br><b>Code:</b> scripts/994_xu_pvn_c185_residual_lift_20261005.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED3_xu_full_N_curve.png">PNG</a> · <a href="assets/Fig2_ED3_xu_full_N_curve.svg">SVG</a> · <a href="assets/Fig2_ED3_xu_full_N_curve.pdf">PDF</a></p></section><section class="card"><div class="role">ED · WARP family geometry</div><h2>Fig2_ED4_WARP_H2_geometry</h2>
+<p class="claim">WARP H2 neuromodulator-family distance 与 functional manifold angle 在 3/3 fish 中同向；within-fish edge-shuffle 条件 P≈0.0002，但 n=3 不能被写成人群层面的 animal P。</p>
+<a href="assets/Fig2_ED4_WARP_H2_geometry.png"><img src="assets/Fig2_ED4_WARP_H2_geometry.png" loading="lazy" alt="Fig2_ED4_WARP_H2_geometry"></a>
+<p class="meta"><b>推断单位:</b> 3 held fish; 315 pairwise edges<br><b>Null / 对照:</b> 5000 edge-label permutations within fish<br>
+<b>Source data:</b> FIG2_ED4_WARP_H2_BY_FISH_20261005.csv; FIG2_ED4_WARP_H2_AUTHORITY_20261005.json<br><b>Code:</b> scripts/126b_warp_H2_family_geometry_confirmatory.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED4_WARP_H2_geometry.png">PNG</a> · <a href="assets/Fig2_ED4_WARP_H2_geometry.svg">SVG</a> · <a href="assets/Fig2_ED4_WARP_H2_geometry.pdf">PDF</a></p></section><section class="card"><div class="role">ED · Condylis boundary</div><h2>Fig2_ED5_condylis_boundary</h2>
+<p class="claim">Condylis 进一步说明：matched reference/marker recovery 可以成立，但 global feature geometry 与 raw-response geometry 仍只能是 directional/unsupported。</p>
+<a href="assets/Fig2_ED5_condylis_boundary.png"><img src="assets/Fig2_ED5_condylis_boundary.png" loading="lazy" alt="Fig2_ED5_condylis_boundary"></a>
+<p class="meta"><b>推断单位:</b> 8 held mice<br><b>Null / 对照:</b> conditional matched-random panel null<br>
+<b>Source data:</b> FIG2_ED5_CONDYLIS_REFERENCE_BOUNDARY_20261005.csv<br><b>Code:</b> scripts/940_strict_type_geometry_biological_gapfill_20261003.py; scripts/1021_render_fig2_global_ed_20261005.py<br>
+<a href="assets/Fig2_ED5_condylis_boundary.png">PNG</a> · <a href="assets/Fig2_ED5_condylis_boundary.svg">SVG</a> · <a href="assets/Fig2_ED5_condylis_boundary.pdf">PDF</a></p></section></body></html>

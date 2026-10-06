@@ -1,0 +1,25 @@
+{
+  "version": "fig2-global-contract-v1-20261005",
+  "main_claim": "AtlasLift is reference-qualified and endpoint-specific: reference recovery, selector choice and functional geometry lift are separate tests.",
+  "panels": {
+    "A": "Cross-dataset held-unit/global geometry, emphasizing WARP positive, McLachlan exact positive, and Bugeon/Shainer/Condylis boundaries.",
+    "B": "McLachlan same-K reference × selector interaction; exact PERI/ECT supports function-guided geometry at K20/K23, but broad references can win under atlas-variance selection.",
+    "C": "Xu PVN target-free C185 bridge recovers masked genes (median rho~0.244) but strict held-mouse external-gene endpoint lift is not supported.",
+    "D": "Bugeon exact VISp boundary: exact reference qualification does not imply significant global held-mouse geometry lift."
+  },
+  "guardrails": [
+    "Do not infer exact-region reference superiority from McLachlan; reference × K × selector interact.",
+    "Conditional random-panel P/q are not small-n animal exchangeability P values.",
+    "Xu measured-gene recovery and downstream functional endpoint lift are separate claims.",
+    "Do not turn endpoint-specific atlas positives into a universal global-geometry claim."
+  ],
+  "source_tables": [
+    "FIG2_MAIN_A_CROSSDATASET_GEOMETRY_20261005.csv",
+    "FIG2_MAIN_B_MCLACHLAN_SAMEK_20261005.csv",
+    "FIG2_MAIN_C_XU_PVN_REFERENCE_RECOVERY_20261005.csv",
+    "FIG2_MAIN_C_XU_PVN_ENDPOINT_AUTHORITY_20261005.csv",
+    "FIG2_MAIN_C_XU_PVN_PRESPECIFIED_20261005.csv",
+    "FIG2_MAIN_D_BUGEON_EXACT_VISP_20261005.csv",
+    "FIG2_GLOBAL_EVIDENCE_LEDGER_20261005.csv"
+  ]
+}

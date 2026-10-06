@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "missing_refs": 0,
+  "privacy_hits": 0,
+  "asset_files": 30,
+  "pngs": 10,
+  "low_dpi": 0,
+  "figure_stems": 10,
+  "ledger_rows": 68,
+  "superseded_rows": 6,
+  "main_page_blocks": {
+    "en": 1,
+    "zh": 1
+  }
+}

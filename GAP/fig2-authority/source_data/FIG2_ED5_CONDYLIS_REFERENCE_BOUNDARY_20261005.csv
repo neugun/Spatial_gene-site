@@ -1,0 +1,4 @@
+dataset,reference_contract,endpoint_contract,K,selector,baseline_rho,lifted_rho,delta_rho,folds_improved,n_folds,random_p,random_q,status,interpretation
+Condylis2022,ABC_wholebrain_sparse6gene,held_mouse_feat_geometry,5,function_geometry,0.341437,0.370942,0.029505,5,8,0.039604,0.118812,DIRECTIONAL_NOT_SUPPORTED,whole ABC recovery passes but feat geometry not FDR-supported
+Condylis2022,SSp_bfd_L23_exact,held_mouse_feat_geometry,5,function_geometry,0.341437,0.37661,0.035173,5,8,0.095238,0.190476,DIRECTIONAL_NOT_SUPPORTED,"exact SSp-bfd L2/3 recovery rho=0.3061, 5/6 hidden-marker directions positive; layer-matched reference passes but global feature geometry remains boundary"
+Condylis2022,SSp_bfd_L23_exact,held_mouse_raw_response_geometry,5,function_geometry,0.357549,0.36783,0.010281,2,8,0.085828,0.407186,NOT_SUPPORTED_GEOMETRY,156-bin task/passive response geometry remains boundary even with matched L2/3 reference

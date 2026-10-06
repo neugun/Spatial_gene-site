@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "figure_stems": 5,
+  "asset_files": 15,
+  "all_png_dpi_ge_590": true,
+  "key_numeric_assertions": "PASS",
+  "ledger_rows": 52,
+  "headline": {
+    "WARP_delta_rho": 0.03424067,
+    "McLachlan_K20_delta_rho": 0.0999999999999537,
+    "McLachlan_K23_delta_rho": 0.1261904761904177,
+    "Xu_C185_masked_gene_median_rho": 0.2441219119276086,
+    "Xu_raw_best_deltaR2": 0.0037481978676771,
+    "Xu_raw_max_over_N_p": 0.1683168316831683
+  }
+}
