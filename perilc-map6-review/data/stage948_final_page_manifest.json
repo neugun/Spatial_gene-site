@@ -1,0 +1,25 @@
+{
+  "stage": 948,
+  "status": "FINAL_ATLAS_PAGE",
+  "expression_authority": "Stage943 Route A",
+  "sections": [
+    500,
+    530,
+    560
+  ],
+  "n_genes": 27,
+  "n_gene_section_maps": 81,
+  "main_page_content": [
+    "LC/periLC locator",
+    "section-specific 10-subregion reference",
+    "final gene\u00d7section expression atlas"
+  ],
+  "hidden_from_main_page": [
+    "correction audit",
+    "Route B intermediate panels",
+    "historical Stage122/185 engineering panels",
+    "RS-FISH intermediate validation"
+  ],
+  "section_specific_subregions": true,
+  "cross_section_subregion_homology_assumed": false
+}

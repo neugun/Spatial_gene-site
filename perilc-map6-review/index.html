@@ -1,392 +1,396 @@
-<!DOCTYPE html>
-
-<html><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>periLC / three-section atlas — Stage943 current review</title><style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#17212b;background:#fff}header{background:#121820;color:#fff;padding:32px 18px}header>div,main{max-width:1180px;margin:auto}h1{margin:0 0 8px}header p{color:#cbd5df;max-width:920px;margin:0}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #dde3e9;z-index:9;overflow:auto;white-space:nowrap;padding:9px max(8px,calc((100% - 1180px)/2))}nav a{color:#1769aa;text-decoration:none;font-weight:650;padding:7px 9px;display:inline-block}main{padding:18px}section{margin:34px 0 54px;scroll-margin-top:60px}.lead{font-size:18px}.callout{background:#f1f7fb;border-left:5px solid #1769aa;padding:14px 16px;margin:15px 0}.warning{background:#fff5ea;border-color:#b65722}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.card,.gene-card{border:1px solid #dce3e9;border-radius:10px;padding:11px;margin:12px 0;background:#fff}.card h3,.gene-card h3{margin:3px 0 9px}img{width:100%;height:auto;border-radius:5px;background:#eee}.gene-head{display:flex;align-items:center;justify-content:space-between;gap:8px}.current-gene{margin:6px 0 14px;padding:8px;background:#0b0b0b;border-radius:8px}.current-gene h4{color:#fff;margin:2px 0 7px;font-size:14px}.current-gene p{color:#b9c0c7;font-size:12px;margin:6px 0 0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pair h4{font-size:13px;color:#65717d;margin:4px 0}.risk,.ok{font-size:12px;padding:4px 7px;border-radius:999px}.risk{background:#ffe7e3;color:#942a20}.ok{background:#e5f4ec;color:#226c48}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:9px;margin:16px 0}.metrics div{background:#f6f8fa;border:1px solid #dde3e9;border-radius:9px;padding:12px}.metrics b,.metrics small,.metrics strong{display:block}.metrics small,.metrics b{color:#66727d}.metrics strong{font-size:23px;margin:3px 0}input{width:100%;max-width:420px;font-size:16px;padding:11px;border:1px solid #b7c1ca;border-radius:8px;margin:10px 0}table{border-collapse:collapse;width:100%;display:block;overflow:auto;font-size:14px}th,td{padding:7px 9px;border-bottom:1px solid #e2e7ec;text-align:right;white-space:nowrap}th:nth-child(-n+2),td:nth-child(-n+2){text-align:left}.files a,.full-links a{margin-right:14px;color:#1769aa}@media(max-width:700px){.pair,.grid{grid-template-columns:1fr}.gene-head{align-items:flex-start;flex-direction:column}h1{font-size:27px}}.current-block{border:2px solid #1769aa;border-radius:14px;padding:16px;background:#fbfdff}.current-result img{max-height:620px;object-fit:contain}.compact-details{margin:18px 0;padding:10px 12px;border:1px solid #dce3e9;border-radius:10px;background:#fafbfc}.compact-details summary{cursor:pointer;color:#1769aa}.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:12px}.mini-card{border:1px solid #e1e6eb;border-radius:8px;padding:9px;background:#fff}.mini-card h4{margin:2px 0 8px}.archive-note{padding:9px 12px;border:1px solid #e1e6eb;border-radius:8px;background:#fafafa;margin:10px 0}.archive-note summary{cursor:pointer}.status-chip{font-size:12px;padding:4px 7px;border-radius:999px;font-weight:700}.status-ready{background:#e5f4ec;color:#226c48}.status-review{background:#fff5ea;color:#8a4a17}.status-hold{background:#f7e7e7;color:#8f2929}.status-screen{background:#edf1f4;color:#59636d}
-.routea-qa-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 26px}
-.routea-qa-card{border:1px solid #dce3e9;border-radius:10px;padding:10px;background:#fff;min-width:0}
-.routea-qa-card h4{margin:2px 0 6px;font-size:15px}
-.routea-qa-card p{font-size:13px;margin:6px 0}
-.routea-qa-card img{aspect-ratio:3/2;object-fit:contain;background:#fff}
-.routea-gene-title{margin:24px 0 7px;padding-top:8px;border-top:1px solid #e2e7ec}
-.routea-reason{color:#7a3131}
-@media(max-width:850px){.routea-qa-row{grid-template-columns:1fr}}
-</style></head><body>
-<header><div><h1>periLC / three-section atlas current review</h1><p>Current biological authority: Stage943 Route A. Stage946 rebuilds the Stage122/185/Yuhan main biological figures from that matrix; Stage944 adds section stability, domain–type reproducibility, morphology distributions and projection effect-size reproducibility. Route B remains independent image/RS-FISH validation.</p></div></header>
-<nav><a href="#stage934-routeab-current">Current authority</a><a href="#stage934-routea-all81-visual">81-pair visual QA</a><a href="#stage946-biology-current">Current biology</a><a href="#stage942-sixpair-audit">Six-pair audit</a><a href="#stage935-routeb-sweep">Route B</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">3-section anatomy</a><a href="#spatial-current">R1–R5</a><a href="#hierarchy">Domains + gradients</a><a href="#taxonomy-current">Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#early">Stage122</a><a href="#stage185-current">Stage185</a><a href="#stage944-additions">Stage185 extensions</a><a href="#genes">27 genes</a><a href="#correction">Correction conclusion</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#yuhan-current">Yuhan downstream</a><a href="#frameworks-current">External frameworks</a></nav><main>
-<section id="stage934-routeab-current"><a id="stage930-routeab-current"></a><a id="stage929-routeab-current"></a><a id="stage925-routeab-current"></a><a id="stage921-routeab-current"></a><a id="stage913-routeab-current"></a>
-<h2>Current authority — Stage943 Route A + independent Route B validation</h2><div class="callout"><b>Stage943 is the current Route A authority.</b> Stage942's four-method audit and Stage943 multi-gate adjudication supersede the interim Stage941 rollback. All 81 gene×section pairs use the Stage934 matrix; Slc17a6 S560 remains flagged for an axis-specific y-positive-fraction residual, but is not globally reverted.</div>
-<div class="callout"><b>Current map9 logic.</b> Route A is the fast count-space authority. Route B is an independent image-space validation from raw acquisition tiles. The earlier direct Stage872-field?pixel projection is no longer an accepted image-calibration route.</div>
-<div class="grid">
-<article class="card current-result">
-<h3>Route A — Stage943 current authority</h3>
-<a href="assets/stage940_sixpair_visual_audit.png" target="_blank"><img loading="eager" src="assets/stage940_sixpair_visual_audit_preview.jpg"/></a>
-<p><b>81/81 inherit Stage934.</b> Otx2os1 S530 and Slc17a6 S560 were explicitly re-tested against RAW, Stage872 and status-preserving alternatives. Stage934 passes artifact, cross-section Fine26, Fine26/R1–R5 profile, vector-correlation and positive-cell preservation gates for both.</p>
-<p><b>Remaining warning:</b> Slc17a6 S560 y-positive-fraction harmonic is elevated relative to RAW. Any further change must be axis-specific and may not undo the accepted total/x cleanup.</p>
-<p class="files"><a href="data/stage943_routeA_authority.json">Stage943 authority</a> · <a href="data/stage943_routeA_sources.csv">81-pair source table</a> · <a href="data/stage943_authority_adjudication.csv">authority adjudication</a></p>
-</article>
-<article class="card current-result">
-<h3>Route B — Stage935–938 Slc17a6 optimization</h3>
-<a href="assets/stage938_routeB_slc17a6_rowcol.png" target="_blank"><img loading="eager" src="assets/stage938_routeB_slc17a6_rowcol_preview.jpg"/></a>
-<p><b>Route B has moved beyond the old single Stage916/917 detector gate.</b> Stage935 systematically swept 12 frozen-RS-FISH detector settings on the same Slc17a6 S530 64-plane full-XY slab. The best stability/grid compromise was <b>sigma=1.65, threshold=0.0025</b>: detector grid L2 ratio 0.988, raw/corrected spot matching 97.5%/97.7%, and coarse spatial correlation 0.999656.</p>
-<p>Stage936 then swept image-gain strength while keeping the two best detector regimes. Stronger gain improves detector-grid suppression but increases spot turnover, so Stage937 mapped all ten gain×detector candidates back to the same cell universe and compared them directly with <b>current Stage934 Route A</b>.</p>
-<p><b>Current best slab candidate:</b> gain alpha=1.5, stable detector (sigma=1.65, threshold=0.0025). It gives Route-A convergence mean 0.175; y-delta profile correlation rises to 0.246, but x-delta correlation remains -0.110. The slab cell-power ratio is still 0.986 versus the full-section Stage934 target 0.441, so this is <b>not yet promoted as a production Route B authority</b>.</p>
-<p><b>Stage938 result:</b> the best candidate removes the column gain component entirely (row=1.0, column=0.0), which flips the x-delta correlation back positive while retaining y convergence. The remaining limitation is coverage/magnitude: the 64-plane slab still does not approach the full-section Stage934 power target.</p>
-<p class="files"><a href="#stage935-routeb-sweep"><b>open Stage935–937 sweep and cell-convergence results</b></a> · <a href="data/stage935_routeB_slc17a6_detector_sweep.csv">Stage935 sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_sweep.csv">Stage936 sweep</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence.csv">Stage937 cell convergence</a></p>
-</article>
-</div>
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Three-section spatial gene atlas</title><style>
+*{box-sizing:border-box}
+:root{--ink:#151515;--muted:#666;--line:#dedede;--soft:#f7f7f7;--max:1500px}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:white;line-height:1.45}
+header{max-width:var(--max);margin:0 auto;padding:38px 24px 18px}
+h1{font-size:34px;line-height:1.08;margin:0 0 10px;font-weight:720}
+.subtitle{font-size:16px;color:var(--muted);margin:0}
+nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 24px}
+nav .inner{max-width:var(--max);margin:auto;display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#222;text-decoration:none;font-size:14px;font-weight:650}
+main{max-width:var(--max);margin:auto;padding:12px 24px 70px}
+section{padding:24px 0 34px;border-bottom:1px solid #ececec}
+h2{font-size:25px;margin:0 0 8px}
+.lead{color:var(--muted);max-width:1050px;margin:0 0 18px}
+.hero{display:block;width:100%;max-width:1400px;height:auto;border:1px solid #eee;background:white}
+#geneSearch{width:min(520px,100%);font-size:16px;padding:11px 13px;border:1px solid #bbb;border-radius:8px;margin:4px 0 18px}
+.gene-card{padding:18px 0 22px;border-top:1px solid #ececec}
+.gene-card h3{font-size:22px;margin:0 0 11px}
+.gene-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.pane{display:block;text-decoration:none;color:#222;border:1px solid #e3e3e3;border-radius:8px;overflow:hidden;background:white}
+.pane .sect{padding:7px 10px 3px;font-size:13px;font-weight:700}
+.pane img{display:block;width:100%;height:auto}
+details{margin-top:22px;color:var(--muted);font-size:13px}
+details a{color:#444}
+footer{max-width:var(--max);margin:auto;padding:0 24px 40px;color:#888;font-size:12px}
+@media(max-width:760px){
+  h1{font-size:28px}
+  .gene-grid{grid-template-columns:1fr}
+  main,header{padding-left:14px;padding-right:14px}
+  nav{padding-left:14px;padding-right:14px}
+}
+</style></head>
+<body>
+<header>
+  <h1>Three-section spatial gene atlas</h1>
+  <p class="subtitle">Current expression atlas · S500 / S530 / S560 · 27 genes</p>
+</header>
+<nav><div class="inner"><a href="#locator">LC / periLC locator</a><a href="#regions">10 subregions</a><a href="#genes">Gene atlas</a></div></nav>
+<main>
+<section id="locator">
+  <h2>LC / periLC locator</h2>
+  <p class="lead">LC and the operational periLC field are shown only as anatomical locators. Gene-expression maps below use the full section and are not restricted to LC or periLC.</p>
+  <a href="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" alt="LC and periLC locator"></a>
 </section>
-<section class="current-block" id="stage934-routea-all81-visual"><a id="stage930-routea-all81-visual"></a><a id="stage929-routea-all81-visual"></a>
-<h2>Stage943 Route A — all 81 gene × section current visual QA</h2>
-<div class="callout"><b>Single current visual lineage:</b> Stage943 = Stage934 for all 81 pairs. 76 pairs inherit exact Stage872; five use the previously accepted Stage933 targeted residual cleanup. Slc17a6 S560 carries an axis-specific warning but remains Stage934 current.</div>
-<h3 class="routea-gene-title">Nfib</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Nfib S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/nfib_s500_qa.png" target="_blank"><img alt="Nfib S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/nfib_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Nfib S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/nfib_s530_qa.png" target="_blank"><img alt="Nfib S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/nfib_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Nfib S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/nfib_s560_qa.png" target="_blank"><img alt="Nfib S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/nfib_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Snap25</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Snap25 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/snap25_s500_qa.png" target="_blank"><img alt="Snap25 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/snap25_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Snap25 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/snap25_s530_qa.png" target="_blank"><img alt="Snap25 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/snap25_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Snap25 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/snap25_s560_qa.png" target="_blank"><img alt="Snap25 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/snap25_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Zfhx3</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Zfhx3 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/zfhx3_s500_qa.png" target="_blank"><img alt="Zfhx3 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/zfhx3_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Zfhx3 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/zfhx3_s530_qa.png" target="_blank"><img alt="Zfhx3 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/zfhx3_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Zfhx3 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/zfhx3_s560_qa.png" target="_blank"><img alt="Zfhx3 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/zfhx3_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Npy5r</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy5r S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy5r_s500_qa.png" target="_blank"><img alt="Npy5r S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy5r_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy5r S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy5r_s530_qa.png" target="_blank"><img alt="Npy5r S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy5r_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy5r S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy5r_s560_qa.png" target="_blank"><img alt="Npy5r S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy5r_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Hcrtr1</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Hcrtr1 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/hcrtr1_s500_qa.png" target="_blank"><img alt="Hcrtr1 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/hcrtr1_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Hcrtr1 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/hcrtr1_s530_qa.png" target="_blank"><img alt="Hcrtr1 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/hcrtr1_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Hcrtr1 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/hcrtr1_s560_qa.png" target="_blank"><img alt="Hcrtr1 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/hcrtr1_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Bcl11b</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Bcl11b S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/bcl11b_s500_qa.png" target="_blank"><img alt="Bcl11b S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/bcl11b_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Bcl11b S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/bcl11b_s530_qa.png" target="_blank"><img alt="Bcl11b S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/bcl11b_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Bcl11b S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/bcl11b_s560_qa.png" target="_blank"><img alt="Bcl11b S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/bcl11b_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Slc5a7</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc5a7 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc5a7_s500_qa.png" target="_blank"><img alt="Slc5a7 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc5a7_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc5a7 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc5a7_s530_qa.png" target="_blank"><img alt="Slc5a7 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc5a7_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc5a7 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc5a7_s560_qa.png" target="_blank"><img alt="Slc5a7 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc5a7_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Npy1r</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy1r S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy1r_s500_qa.png" target="_blank"><img alt="Npy1r S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy1r_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy1r S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy1r_s530_qa.png" target="_blank"><img alt="Npy1r S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy1r_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Npy1r S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/npy1r_s560_qa.png" target="_blank"><img alt="Npy1r S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/npy1r_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Pdyn</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Pdyn S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pdyn_s500_qa.png" target="_blank"><img alt="Pdyn S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pdyn_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Pdyn S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pdyn_s530_qa.png" target="_blank"><img alt="Pdyn S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pdyn_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Pdyn S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pdyn_s560_qa.png" target="_blank"><img alt="Pdyn S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pdyn_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Lmx1a</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Lmx1a S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/lmx1a_s500_qa.png" target="_blank"><img alt="Lmx1a S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/lmx1a_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Lmx1a S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/lmx1a_s530_qa.png" target="_blank"><img alt="Lmx1a S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/lmx1a_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Lmx1a S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/lmx1a_s560_qa.png" target="_blank"><img alt="Lmx1a S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/lmx1a_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Piezo2</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Piezo2 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/piezo2_s500_qa.png" target="_blank"><img alt="Piezo2 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/piezo2_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Piezo2 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/piezo2_s530_qa.png" target="_blank"><img alt="Piezo2 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/piezo2_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Piezo2 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/piezo2_s560_qa.png" target="_blank"><img alt="Piezo2 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/piezo2_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Tacr1</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Tacr1 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/tacr1_s500_qa.png" target="_blank"><img alt="Tacr1 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/tacr1_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Tacr1 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/tacr1_s530_qa.png" target="_blank"><img alt="Tacr1 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/tacr1_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Tacr1 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/tacr1_s560_qa.png" target="_blank"><img alt="Tacr1 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/tacr1_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Slc6a4</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a4 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a4_s500_qa.png" target="_blank"><img alt="Slc6a4 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a4_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a4 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a4_s530_qa.png" target="_blank"><img alt="Slc6a4 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a4_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a4 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a4_s560_qa.png" target="_blank"><img alt="Slc6a4 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a4_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Slc6a2</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a2 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a2_s500_qa.png" target="_blank"><img alt="Slc6a2 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a2_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a2 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a2_s530_qa.png" target="_blank"><img alt="Slc6a2 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a2_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc6a2 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc6a2_s560_qa.png" target="_blank"><img alt="Slc6a2 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc6a2_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Foxp2</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Foxp2 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/foxp2_s500_qa.png" target="_blank"><img alt="Foxp2 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/foxp2_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Foxp2 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/foxp2_s530_qa.png" target="_blank"><img alt="Foxp2 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/foxp2_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Foxp2 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/foxp2_s560_qa.png" target="_blank"><img alt="Foxp2 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/foxp2_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Fstl4</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Fstl4 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/fstl4_s500_qa.png" target="_blank"><img alt="Fstl4 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/fstl4_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Fstl4 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/fstl4_s530_qa.png" target="_blank"><img alt="Fstl4 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/fstl4_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Fstl4 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/fstl4_s560_qa.png" target="_blank"><img alt="Fstl4 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/fstl4_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Epb41l4a</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Epb41l4a S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/epb41l4a_s500_qa.png" target="_blank"><img alt="Epb41l4a S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/epb41l4a_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Epb41l4a S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/epb41l4a_s530_qa.png" target="_blank"><img alt="Epb41l4a S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/epb41l4a_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Epb41l4a S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/epb41l4a_s560_qa.png" target="_blank"><img alt="Epb41l4a S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/epb41l4a_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Pde11a</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Pde11a S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pde11a_s500_qa.png" target="_blank"><img alt="Pde11a S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pde11a_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Pde11a S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pde11a_s530_qa.png" target="_blank"><img alt="Pde11a S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pde11a_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Pde11a S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/pde11a_s560_qa.png" target="_blank"><img alt="Pde11a S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/pde11a_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Slc32a1</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc32a1 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc32a1_s500_qa.png" target="_blank"><img alt="Slc32a1 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc32a1_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc32a1 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc32a1_s530_qa.png" target="_blank"><img alt="Slc32a1 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc32a1_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc32a1 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc32a1_s560_qa.png" target="_blank"><img alt="Slc32a1 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc32a1_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Ghr</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Ghr S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ghr_s500_qa.png" target="_blank"><img alt="Ghr S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ghr_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Ghr S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ghr_s530_qa.png" target="_blank"><img alt="Ghr S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ghr_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Ghr S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ghr_s560_qa.png" target="_blank"><img alt="Ghr S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ghr_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Ebf3</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Ebf3 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ebf3_s500_qa.png" target="_blank"><img alt="Ebf3 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ebf3_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Ebf3 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ebf3_s530_qa.png" target="_blank"><img alt="Ebf3 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ebf3_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Ebf3 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/ebf3_s560_qa.png" target="_blank"><img alt="Ebf3 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/ebf3_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Cep112</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Cep112 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/cep112_s500_qa.png" target="_blank"><img alt="Cep112 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/cep112_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Cep112 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/cep112_s530_qa.png" target="_blank"><img alt="Cep112 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/cep112_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Cep112 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/cep112_s560_qa.png" target="_blank"><img alt="Cep112 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/cep112_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Otx2os1</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Otx2os1 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE933</span></div><a href="assets/stage934_targeted5/Otx2os1_S500_qa.png" target="_blank"><img alt="Otx2os1 S500 Stage943 current QA" loading="lazy" src="assets/stage934_targeted5/Otx2os1_S500_qa_preview.jpg"/></a><p><b>residual power:</b> 0.577→0.487 (15.6% lower); <b>Δ vs 872:</b> 1.63%; <b>status Δ:</b> 0</p></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Otx2os1 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/otx2os1_s530_qa.png" target="_blank"><img alt="Otx2os1 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/otx2os1_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Otx2os1 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE933</span></div><a href="assets/stage934_targeted5/Otx2os1_S560_qa.png" target="_blank"><img alt="Otx2os1 S560 Stage943 current QA" loading="lazy" src="assets/stage934_targeted5/Otx2os1_S560_qa_preview.jpg"/></a><p><b>residual power:</b> 0.530→0.450 (15.1% lower); <b>Δ vs 872:</b> 1.25%; <b>status Δ:</b> 0</p></article>
-</div>
-<h3 class="routea-gene-title">Dscaml1</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Dscaml1 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/dscaml1_s500_qa.png" target="_blank"><img alt="Dscaml1 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/dscaml1_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Dscaml1 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/dscaml1_s530_qa.png" target="_blank"><img alt="Dscaml1 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/dscaml1_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Dscaml1 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/dscaml1_s560_qa.png" target="_blank"><img alt="Dscaml1 S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/dscaml1_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Mc4r</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Mc4r S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/mc4r_s500_qa.png" target="_blank"><img alt="Mc4r S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/mc4r_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Mc4r S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/mc4r_s530_qa.png" target="_blank"><img alt="Mc4r S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/mc4r_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Mc4r S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/mc4r_s560_qa.png" target="_blank"><img alt="Mc4r S560 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/mc4r_s560_preview.jpg"/></a></article>
-</div>
-<h3 class="routea-gene-title">Meis2</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Meis2 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/meis2_s500_qa.png" target="_blank"><img alt="Meis2 S500 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/meis2_s500_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Meis2 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/meis2_s530_qa.png" target="_blank"><img alt="Meis2 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/meis2_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Meis2 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE933</span></div><a href="assets/stage934_targeted5/Meis2_S560_qa.png" target="_blank"><img alt="Meis2 S560 Stage943 current QA" loading="lazy" src="assets/stage934_targeted5/Meis2_S560_qa_preview.jpg"/></a><p><b>residual power:</b> 0.620→0.526 (15.1% lower); <b>Δ vs 872:</b> 2.93%; <b>status Δ:</b> 0</p></article>
-</div>
-<h3 class="routea-gene-title">Slc17a6</h3><div class="routea-qa-row">
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc17a6 S500</h4><span class="status-chip status-ready">STAGE943 ← STAGE933</span></div><a href="assets/stage934_targeted5/Slc17a6_S500_qa.png" target="_blank"><img alt="Slc17a6 S500 Stage943 current QA" loading="lazy" src="assets/stage934_targeted5/Slc17a6_S500_qa_preview.jpg"/></a><p><b>residual power:</b> 0.408→0.346 (15.3% lower); <b>Δ vs 872:</b> 1.03%; <b>status Δ:</b> 0</p></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc17a6 S530</h4><span class="status-chip status-ready">STAGE943 ← STAGE872</span></div><a href="assets/stage930_routeA_all81/slc17a6_s530_qa.png" target="_blank"><img alt="Slc17a6 S530 Stage943 current QA" loading="lazy" src="assets/stage930_routeA_all81/slc17a6_s530_preview.jpg"/></a></article>
-<article class="routea-qa-card"><div class="gene-head"><h4>Slc17a6 S560</h4><span class="status-chip status-ready">STAGE943 ← STAGE933</span></div><a href="assets/stage934_targeted5/Slc17a6_S560_qa.png" target="_blank"><img alt="Slc17a6 S560 Stage943 current QA" loading="lazy" src="assets/stage934_targeted5/Slc17a6_S560_qa_preview.jpg"/></a><p><b>residual power:</b> 0.527→0.447 (15.2% lower); <b>Δ vs 872:</b> 1.24%; <b>status Δ:</b> 0</p></article>
-</div>
-<p class="files"><a href="data/stage943_routeA_authority.json">Stage943 authority</a> · <a href="data/stage943_routeA_sources.csv">81-pair source table</a></p></section>
-<section id="stage946-biology-current"><a id="stage941-biology-current"></a>
-<h2>Stage946 — Stage943 → true Stage122/185/Yuhan biological downstream</h2>
-<p class="lead">The publication-level biological panels have been rebuilt from the Stage943 current matrix. This is not an engineering propagation check: current expression feeds Fine26 taxonomy, R1–R5/K5 organization and domain→type biology; morphology and projection remain orthogonal modalities aligned to the same identity/spatial framework.</p>
-<div class="metrics">
-<div><b>cells</b><strong>71,950</strong><small>full three-section atlas</small></div>
-<div><b>genes</b><strong>27</strong><small>Stage943 current expression</small></div>
-<div><b>Fine26</b><strong>26</strong><small>stable molecular populations</small></div>
-<div><b>spatial domains</b><strong>R1–R5</strong><small>K5 framework</small></div>
-<div><b>main figures</b><strong>5</strong><small>Stage122/185/Yuhan sequence</small></div>
-</div>
-<div class="grid">
-<article class="card"><h3>Current taxonomy</h3><a href="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY_preview.jpg"/></a></article>
-<article class="card"><h3>Current R1–R5 organization</h3><a href="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION_preview.jpg"/></a></article>
-<article class="card"><h3>Current R1–R5 → Fine26</h3><a href="assets/stage946_biology/FIG3_CURRENT_R1R5_TO_FINE26.png" target="_blank"><img loading="lazy" src="assets/stage946_biology/FIG3_CURRENT_R1R5_TO_FINE26_preview.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage946_current_biology_authority.json">Stage946 biology authority</a> · <a href="data/stage943_routeA_authority.json">Stage943 expression authority</a></p>
+<section id="regions">
+  <h2>Section-specific 10-subregion reference</h2>
+  <p class="lead">Each section has ten local display regions with smoothed boundaries. Region numbers are local to each section; S500, S530 and S560 are not forced to share the same subregion identity.</p>
+  <a href="assets/stage947_final_atlas/FINAL_SECTIONWISE_REGION10_SMOOTH.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_SECTIONWISE_REGION10_SMOOTH.png" alt="Section-specific ten subregions"></a>
 </section>
-<section class="current-block" id="stage942-sixpair-audit">
-<h2>Stage942–943 — final six-pair correction necessity audit</h2>
-<div class="callout"><b>Final authority consequence:</b> Stage943 inherits Stage934 for all 81 pairs. Slc17a6 S560 is retained with a specific y-positive-fraction warning; that warning motivates axis-specific future work, not global rollback.</div>
-<a href="assets/stage940_sixpair_visual_audit.png" target="_blank"><img loading="lazy" src="assets/stage940_sixpair_visual_audit_preview.jpg"/></a>
-<div class="metrics">
-<div><b>Npy1r S530</b><strong>1.000→0.314</strong><small>RAW→Stage934 artifact ratio</small></div>
-<div><b>Otx2os1 S530</b><strong>1.000→0.232</strong><small>RAW→Stage934</small></div>
-<div><b>Meis2 S530</b><strong>1.000→0.281</strong><small>RAW→Stage934</small></div>
-<div><b>Slc17a6 S500/S530/S560</b><strong>0.346 / 0.441 / 0.447</strong><small>Stage934 / RAW</small></div>
-</div>
-<p><b>Important exception:</b> Slc17a6 S560 has an axis-specific overcorrection warning. Its y-positive-fraction harmonic is <b>0.270 RAW → 0.435 Stage934</b>, even though total artifact and x-grid artifact improve strongly. Therefore Stage934 remains current for S560, but the next refinement should selectively fix the y-status component rather than revert the whole pair to RAW.</p>
-<p class="files"><a href="data/stage940_sixpair_status_preserving_audit.csv">full four-method audit</a> · <a href="data/stage942_sixpair_final_verdict.csv">final six-pair verdicts</a></p>
+<section id="genes">
+  <h2>Final gene × section expression atlas</h2>
+  <p class="lead">One shared intensity scale is used across the three sections for each gene. Smooth local subregion boundaries are shown lightly for spatial reference; LC/periLC is not overlaid on these expression maps.</p>
+  <input id="geneSearch" type="search" placeholder="Search gene…">
+  <article class="gene-card" data-gene="nfib">
+      <h3>Nfib</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Nfib_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Nfib_S500_expression_preview.jpg" loading="lazy" alt="Nfib S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Nfib_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Nfib_S530_expression_preview.jpg" loading="lazy" alt="Nfib S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Nfib_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Nfib_S560_expression_preview.jpg" loading="lazy" alt="Nfib S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="snap25">
+      <h3>Snap25</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Snap25_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Snap25_S500_expression_preview.jpg" loading="lazy" alt="Snap25 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Snap25_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Snap25_S530_expression_preview.jpg" loading="lazy" alt="Snap25 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Snap25_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Snap25_S560_expression_preview.jpg" loading="lazy" alt="Snap25 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="zfhx3">
+      <h3>Zfhx3</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Zfhx3_S500_expression_preview.jpg" loading="lazy" alt="Zfhx3 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Zfhx3_S530_expression_preview.jpg" loading="lazy" alt="Zfhx3 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Zfhx3_S560_expression_preview.jpg" loading="lazy" alt="Zfhx3 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="npy5r">
+      <h3>Npy5r</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Npy5r_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Npy5r_S500_expression_preview.jpg" loading="lazy" alt="Npy5r S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Npy5r_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Npy5r_S530_expression_preview.jpg" loading="lazy" alt="Npy5r S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Npy5r_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Npy5r_S560_expression_preview.jpg" loading="lazy" alt="Npy5r S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="hcrtr1">
+      <h3>Hcrtr1</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Hcrtr1_S500_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Hcrtr1_S530_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Hcrtr1_S560_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="bcl11b">
+      <h3>Bcl11b</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Bcl11b_S500_expression_preview.jpg" loading="lazy" alt="Bcl11b S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Bcl11b_S530_expression_preview.jpg" loading="lazy" alt="Bcl11b S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Bcl11b_S560_expression_preview.jpg" loading="lazy" alt="Bcl11b S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="slc5a7">
+      <h3>Slc5a7</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Slc5a7_S500_expression_preview.jpg" loading="lazy" alt="Slc5a7 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Slc5a7_S530_expression_preview.jpg" loading="lazy" alt="Slc5a7 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Slc5a7_S560_expression_preview.jpg" loading="lazy" alt="Slc5a7 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="npy1r">
+      <h3>Npy1r</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Npy1r_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Npy1r_S500_expression_preview.jpg" loading="lazy" alt="Npy1r S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Npy1r_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Npy1r_S530_expression_preview.jpg" loading="lazy" alt="Npy1r S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Npy1r_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Npy1r_S560_expression_preview.jpg" loading="lazy" alt="Npy1r S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="pdyn">
+      <h3>Pdyn</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Pdyn_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Pdyn_S500_expression_preview.jpg" loading="lazy" alt="Pdyn S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Pdyn_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Pdyn_S530_expression_preview.jpg" loading="lazy" alt="Pdyn S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Pdyn_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Pdyn_S560_expression_preview.jpg" loading="lazy" alt="Pdyn S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="lmx1a">
+      <h3>Lmx1a</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Lmx1a_S500_expression_preview.jpg" loading="lazy" alt="Lmx1a S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Lmx1a_S530_expression_preview.jpg" loading="lazy" alt="Lmx1a S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Lmx1a_S560_expression_preview.jpg" loading="lazy" alt="Lmx1a S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="piezo2">
+      <h3>Piezo2</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Piezo2_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Piezo2_S500_expression_preview.jpg" loading="lazy" alt="Piezo2 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Piezo2_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Piezo2_S530_expression_preview.jpg" loading="lazy" alt="Piezo2 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Piezo2_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Piezo2_S560_expression_preview.jpg" loading="lazy" alt="Piezo2 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="tacr1">
+      <h3>Tacr1</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Tacr1_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Tacr1_S500_expression_preview.jpg" loading="lazy" alt="Tacr1 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Tacr1_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Tacr1_S530_expression_preview.jpg" loading="lazy" alt="Tacr1 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Tacr1_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Tacr1_S560_expression_preview.jpg" loading="lazy" alt="Tacr1 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="slc6a4">
+      <h3>Slc6a4</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Slc6a4_S500_expression_preview.jpg" loading="lazy" alt="Slc6a4 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Slc6a4_S530_expression_preview.jpg" loading="lazy" alt="Slc6a4 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Slc6a4_S560_expression_preview.jpg" loading="lazy" alt="Slc6a4 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="slc6a2">
+      <h3>Slc6a2</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Slc6a2_S500_expression_preview.jpg" loading="lazy" alt="Slc6a2 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Slc6a2_S530_expression_preview.jpg" loading="lazy" alt="Slc6a2 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Slc6a2_S560_expression_preview.jpg" loading="lazy" alt="Slc6a2 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="foxp2">
+      <h3>Foxp2</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Foxp2_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Foxp2_S500_expression_preview.jpg" loading="lazy" alt="Foxp2 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Foxp2_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Foxp2_S530_expression_preview.jpg" loading="lazy" alt="Foxp2 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Foxp2_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Foxp2_S560_expression_preview.jpg" loading="lazy" alt="Foxp2 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="fstl4">
+      <h3>Fstl4</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Fstl4_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Fstl4_S500_expression_preview.jpg" loading="lazy" alt="Fstl4 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Fstl4_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Fstl4_S530_expression_preview.jpg" loading="lazy" alt="Fstl4 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Fstl4_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Fstl4_S560_expression_preview.jpg" loading="lazy" alt="Fstl4 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="epb41l4a">
+      <h3>Epb41l4a</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Epb41l4a_S500_expression_preview.jpg" loading="lazy" alt="Epb41l4a S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Epb41l4a_S530_expression_preview.jpg" loading="lazy" alt="Epb41l4a S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Epb41l4a_S560_expression_preview.jpg" loading="lazy" alt="Epb41l4a S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="pde11a">
+      <h3>Pde11a</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Pde11a_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Pde11a_S500_expression_preview.jpg" loading="lazy" alt="Pde11a S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Pde11a_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Pde11a_S530_expression_preview.jpg" loading="lazy" alt="Pde11a S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Pde11a_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Pde11a_S560_expression_preview.jpg" loading="lazy" alt="Pde11a S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="slc32a1">
+      <h3>Slc32a1</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Slc32a1_S500_expression_preview.jpg" loading="lazy" alt="Slc32a1 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Slc32a1_S530_expression_preview.jpg" loading="lazy" alt="Slc32a1 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Slc32a1_S560_expression_preview.jpg" loading="lazy" alt="Slc32a1 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="ghr">
+      <h3>Ghr</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Ghr_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Ghr_S500_expression_preview.jpg" loading="lazy" alt="Ghr S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Ghr_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Ghr_S530_expression_preview.jpg" loading="lazy" alt="Ghr S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Ghr_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Ghr_S560_expression_preview.jpg" loading="lazy" alt="Ghr S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="ebf3">
+      <h3>Ebf3</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Ebf3_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Ebf3_S500_expression_preview.jpg" loading="lazy" alt="Ebf3 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Ebf3_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Ebf3_S530_expression_preview.jpg" loading="lazy" alt="Ebf3 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Ebf3_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Ebf3_S560_expression_preview.jpg" loading="lazy" alt="Ebf3 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="cep112">
+      <h3>Cep112</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Cep112_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Cep112_S500_expression_preview.jpg" loading="lazy" alt="Cep112 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Cep112_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Cep112_S530_expression_preview.jpg" loading="lazy" alt="Cep112 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Cep112_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Cep112_S560_expression_preview.jpg" loading="lazy" alt="Cep112 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="otx2os1">
+      <h3>Otx2os1</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Otx2os1_S500_expression_preview.jpg" loading="lazy" alt="Otx2os1 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Otx2os1_S530_expression_preview.jpg" loading="lazy" alt="Otx2os1 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Otx2os1_S560_expression_preview.jpg" loading="lazy" alt="Otx2os1 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="dscaml1">
+      <h3>Dscaml1</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Dscaml1_S500_expression_preview.jpg" loading="lazy" alt="Dscaml1 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Dscaml1_S530_expression_preview.jpg" loading="lazy" alt="Dscaml1 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Dscaml1_S560_expression_preview.jpg" loading="lazy" alt="Dscaml1 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="mc4r">
+      <h3>Mc4r</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Mc4r_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Mc4r_S500_expression_preview.jpg" loading="lazy" alt="Mc4r S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Mc4r_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Mc4r_S530_expression_preview.jpg" loading="lazy" alt="Mc4r S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Mc4r_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Mc4r_S560_expression_preview.jpg" loading="lazy" alt="Mc4r S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="meis2">
+      <h3>Meis2</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Meis2_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Meis2_S500_expression_preview.jpg" loading="lazy" alt="Meis2 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Meis2_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Meis2_S530_expression_preview.jpg" loading="lazy" alt="Meis2 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Meis2_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Meis2_S560_expression_preview.jpg" loading="lazy" alt="Meis2 S560 expression">
+        </a></div>
+    </article><article class="gene-card" data-gene="slc17a6">
+      <h3>Slc17a6</h3>
+      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S500_expression.png" target="_blank">
+          <div class="sect">S500</div>
+          <img src="assets/stage947_final_atlas/Slc17a6_S500_expression_preview.jpg" loading="lazy" alt="Slc17a6 S500 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S530_expression.png" target="_blank">
+          <div class="sect">S530</div>
+          <img src="assets/stage947_final_atlas/Slc17a6_S530_expression_preview.jpg" loading="lazy" alt="Slc17a6 S530 expression">
+        </a><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S560_expression.png" target="_blank">
+          <div class="sect">S560</div>
+          <img src="assets/stage947_final_atlas/Slc17a6_S560_expression_preview.jpg" loading="lazy" alt="Slc17a6 S560 expression">
+        </a></div>
+    </article>
+  <details><summary>Data provenance</summary>
+    <p>Expression authority: <a href="data/stage943_routeA_authority.json">Stage943 Route A</a>. Final display atlas: <a href="data/stage947_final_atlas_authority.json">Stage947 authority</a>. Map manifest: <a href="data/stage947_final_gene_section_manifest.csv">81 gene×section maps</a>. Section-local region smoothing: <a href="data/stage947_region10_smoothing_selection.csv">selection table</a>.</p>
+  </details>
 </section>
-<section class="current-block" id="stage935-routeb-sweep"><a id="stage917-routeb-detector"></a><a id="stage919-routeb-refine"></a>
-<h2>Stage935–938 — Slc17a6 Route B detector, gain and row/column decomposition sweep</h2>
-<div class="callout"><b>This replaces the old Stage917/919 current result.</b> Stage916/917/919 remain important provenance for establishing the raw-tile overlap calibration, but current Route B optimization is now evaluated through detector sweep → gain-strength sweep → row/column physical-gain decomposition → spots-to-cells convergence against Stage934.</div>
-<a href="assets/stage936_routeB_slc17a6_sweep.png" target="_blank"><img loading="eager" src="assets/stage936_routeB_slc17a6_sweep_preview.jpg"/></a>
-<div class="metrics">
-<div><b>Stage935 detector settings</b><strong>12</strong><small>3 sigma × 4 threshold</small></div>
-<div><b>best stable detector</b><strong>σ 1.65 / t 0.0025</strong><small>grid ratio 0.988</small></div>
-<div><b>spot matching</b><strong>97.5% / 97.7%</strong><small>RAW→corrected / corrected→RAW</small></div>
-<div><b>Stage936 gain strengths</b><strong>5 × 2</strong><small>alpha 0.5–1.5 × two detector regimes</small></div>
-</div>
-<p>Stage936 shows a monotonic trade-off: stronger photometric gain increasingly changes detector output and generally suppresses detector-grid power further, but stability gradually decreases. This makes the detector-level optimum insufficient by itself.</p>
-<a href="assets/stage937_routeB_slc17a6_cell_convergence.png" target="_blank"><img loading="lazy" src="assets/stage937_routeB_slc17a6_cell_convergence_preview.jpg"/></a>
-<div class="metrics">
-<div><b>Stage937 candidates mapped to cells</b><strong>10/10</strong><small>all gain×detector combinations</small></div>
-<div><b>best current candidate</b><strong>α 1.5, stable</strong><small>σ 1.65, t 0.0025</small></div>
-<div><b>Route-A convergence</b><strong>0.175</strong><small>multi-metric slab convergence</small></div>
-<div><b>y delta-profile corr</b><strong>0.246</strong><small>improves with gain</small></div>
-<div><b>x delta-profile corr</b><strong>-0.110</strong><small>still wrong sign</small></div>
-<div><b>cell power</b><strong>0.986</strong><small>Stage934 full-section target 0.441</small></div>
-</div>
-<p><b>Stage938 completed the row/column test.</b> The best current slab candidate is <b>row strength 1.0, column strength 0.0</b> with the stable detector (σ=1.65, threshold=0.0025). Route-A convergence rises to <b>0.213</b>; importantly, both x- and y-delta profile correlations are now positive (0.146, 0.112). This demonstrates that the column component was a major source of the wrong-sign x behavior. However, cell-space power remains <b>0.990</b> versus Stage934 full-section target <b>0.441</b>, so Route B is still validation/mechanism rather than production authority.</p>
-<a href="assets/stage938_routeB_slc17a6_rowcol.png" target="_blank"><img loading="lazy" src="assets/stage938_routeB_slc17a6_rowcol_preview.jpg"/></a>
-<p class="files"><a href="data/stage935_routeB_slc17a6_detector_sweep.csv">Stage935 detector sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_sweep.csv">Stage936 gain sweep</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence.csv">Stage937 cell convergence</a> · <a href="data/stage938_routeB_slc17a6_rowcol_sweep.csv">Stage938 row/column sweep</a> · <a href="data/stage938_routeB_slc17a6_rowcol_result.json">Stage938 result</a></p>
-</section>
-<section id="paper-storyboard"><h2>Current manuscript sequence — Stage946 main figures + Stage944 extensions</h2>
-<p class="lead">Three-section atlas → R1–R5/K5 spatial organization → discrete + continuous hierarchy → Fine26 taxonomy → Fine26 tissue space → morphology → Stage122 Fig1/2 → Stage185 current five-figure sequence → Stage944 section-stability / domain-type reproducibility / morphology-distribution / projection-effect extensions → 27-gene review → correction evidence → minimal independent RS-FISH validation → Yuhan downstream → external frameworks.</p></section>
-<section id="anatomy-current">
-<h2>1. Three-section anatomical coverage and LC-anchored reference</h2>
-<p class="lead">The current biological analysis starts from the full S500/S530/S560 atlas, not from a periLC-only crop. Broad molecular classes and Fine26 populations are shown across all imaged tissue first; the LC-centered medial periLC definition is retained as an anatomical reference frame for downstream spatial analyses.</p>
-<div class="grid">
-<article class="card"><h3>All-cell broad molecular atlas</h3><a href="assets/current_broad_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_broad_spatial_atlas.jpg"/></a><p>All 71,950 segmentation-defined cells across the three sections.</p></article>
-<article class="card"><h3>Fine26 across the full three-section atlas</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_fine26_spatial_atlas.jpg"/></a><p>Fine26 tissue distribution is shown before restricting interpretation to the LC-centered periLC frame.</p></article>
-<article class="card"><h3>LC anchor and medial periLC reference</h3><a href="assets/current_perilc_anatomy.jpg" target="_blank"><img loading="lazy" src="assets/current_perilc_anatomy.jpg"/></a><p>The LC anchor defines a reproducible coordinate frame; it is not the only tissue included in the atlas.</p></article>
-</div>
-<p class="files"><a href="data/stage832_anatomy_authority.json">anatomy authority</a><a href="data/stage833_fine26_spatial_authority.json">three-section Fine26 authority</a></p>
-</section>
-<section id="spatial-current">
-<h2>2. Three-section R1–R5 spatial framework</h2>
-<p class="lead">R1–R5/K5 is retained as the primary discrete spatial framework across S500/S530/S560. The analysis is section-explicit and uses the full current atlas rather than a single periLC-only visualization.</p>
-<div class="grid">
-<article class="card"><h3>R1–R5 across all three sections</h3><a href="assets/current_r1r5_coronal.jpg" target="_blank"><img loading="eager" src="assets/current_r1r5_coronal.jpg"/></a></article>
-<article class="card"><h3>Cross-section molecular reproducibility</h3><a href="assets/current_r1r5_repro_fine26.jpg" target="_blank"><img loading="lazy" src="assets/current_r1r5_repro_fine26.jpg"/></a></article>
-<article class="card"><h3>R1–R5 × Fine26 association</h3><a href="assets/current_r1r5_fine26_perm.jpg" target="_blank"><img loading="lazy" src="assets/current_r1r5_fine26_perm.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage823_current_r1r5_authority.json">R1–R5 authority</a><a href="data/stage824b_current_r1r5_fine26_authority.json">R1–R5 × Fine26 authority</a></p>
-</section>
-<section id="hierarchy">
-<h2>3. R1–R5 domains and continuous gradients — Stage943 current</h2>
-<p class="lead">The discrete-versus-continuous decomposition is recomputed from Stage943 current expression. R1–R5 and smooth LC-centered geometry remain complementary organizational layers.</p>
-<div class="metrics">
-<div><b>cells</b><strong>21,787</strong><small>three-section geometry set</small></div>
-<div><b>domain-dominant genes</b><strong>14</strong><small>of 27</small></div>
-<div><b>continuous-dominant genes</b><strong>4</strong><small>of 27</small></div>
-<div><b>mixed genes</b><strong>9</strong><small>of 27</small></div>
-<div><b>robust within-domain gradients</b><strong>51</strong><small>region × axis tests</small></div>
-</div>
-<div class="grid">
-<article class="card"><h3>Unique held-out variance</h3><a href="assets/r1r5_vs_continuous_unique.jpg" target="_blank"><img loading="eager" src="assets/r1r5_vs_continuous_unique.jpg"/></a></article>
-<article class="card"><h3>Within-domain medial gradients</h3><a href="assets/within_r1r5_medial_gradients.jpg" target="_blank"><img loading="lazy" src="assets/within_r1r5_medial_gradients.jpg"/></a></article>
-<article class="card"><h3>Within-domain orthogonal gradients</h3><a href="assets/within_r1r5_orthogonal_gradients.jpg" target="_blank"><img loading="lazy" src="assets/within_r1r5_orthogonal_gradients.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage941_r1r5_decomposition_authority.json">Stage941 decomposition authority</a> · <a href="data/stage941_r1r5_genewise_decomposition.csv">gene-wise decomposition</a> · <a href="data/stage941_r1r5_within_domain_gradients.csv">within-domain gradients</a></p>
-</section>
-<section id="taxonomy-current">
-<h2>4. Current Fine26 molecular taxonomy — Stage943</h2>
-<p class="lead">Fine26 is recomputed from the Stage943 current Route A matrix. The taxonomy remains 26 stable molecular populations across 71,950 cells, with section reproducibility shown before external labels.</p>
-<div class="metrics">
-<div><b>cells</b><strong>71,950</strong><small>all segmentation-defined ROI</small></div>
-<div><b>Fine26 populations</b><strong>26</strong><small>stable identity labels</small></div>
-<div><b>strong section reproducibility</b><strong>16</strong><small>types</small></div>
-<div><b>moderate</b><strong>6</strong><small>types</small></div>
-<div><b>limited</b><strong>4</strong><small>types</small></div>
-<div><b>median type profile r</b><strong>0.736</strong><small>median of type medians</small></div>
-</div>
-<div class="grid"><article class="card"><h3>Stage941 Fine26 taxonomy</h3><a href="assets/stage941_biology/FIG1_CURRENT_FINE26_TAXONOMY.png" target="_blank"><img loading="eager" src="assets/stage941_biology/FIG1_CURRENT_FINE26_TAXONOMY_preview.jpg"/></a></article></div>
-<p class="files"><a href="data/stage827_fine26_taxonomy_authority.json">Stage827 authority</a><a href="data/stage827_fine26_taxonomy_summary.csv">taxonomy summary</a><a href="data/stage827_fine26_section_reproducibility.csv">section reproducibility</a></p>
-</section>
-<section id="fine26-spatial">
-<h2>5. Fine26 and broad molecular populations in three-section tissue space</h2>
-<p class="lead">The spatial atlas is not restricted to periLC-only cells. Fine26 and broad molecular classes are rendered across the complete S500/S530/S560 cell set, retaining section geometry and the full imaged field.</p>
-<div class="grid">
-<article class="card"><h3>Fine26 three-section atlas</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_fine26_spatial_atlas.jpg"/></a></article>
-<article class="card"><h3>Broad-class three-section atlas</h3><a href="assets/current_broad_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_broad_spatial_atlas.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage833_fine26_spatial_authority.json">spatial authority</a><a href="data/stage833_fine26_spatial_summary.csv">spatial summary</a></p>
-</section>
-<section id="morphology-current">
-<h2>6. Soma geometry across molecular populations and spatial domains</h2>
-<p class="lead">Morphology is treated as an atlas-wide phenotype, not as a periLC-only effect-size heatmap. Distributions, section consistency and representative spatial examples are shown together.</p>
-<div class="grid">
-<article class="card"><h3>Distributions across molecular populations</h3><a href="assets/current_morph_size_distributions.jpg" target="_blank"><img loading="eager" src="assets/current_morph_size_distributions.jpg"/></a></article>
-<article class="card"><h3>Section consistency</h3><a href="assets/current_morph_section_consistency.jpg" target="_blank"><img loading="lazy" src="assets/current_morph_section_consistency.jpg"/></a></article>
-<article class="card"><h3>Representative spatial examples</h3><a href="assets/current_morph_spatial_examples.jpg" target="_blank"><img loading="lazy" src="assets/current_morph_spatial_examples.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage828_morphology_authority.json">morphology authority</a><a href="data/stage828_soma_distribution_summary.csv">distribution summary</a></p>
-</section>
-<section id="early">
-<h2>Stage122 current update — Stage943 Fig1 taxonomy + Fig2 R1–R5</h2>
-<p class="lead">The two retained Stage122 concepts are regenerated from Stage943 current expression and the current spatial framework. Old Fine27-era Fig3/Fig4 are not part of the main story.</p>
-<div class="grid">
-<article class="card"><h3>Stage122 Fig1 — current molecular taxonomy</h3><a href="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY_preview.jpg"/></a></article>
-<article class="card"><h3>Stage122 Fig2 — current K5/R1–R5 organization</h3><a href="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION_preview.jpg"/></a></article>
-</div>
-</section><section id="stage185-current">
-<h2>Stage185 current publication series — Stage946 on Stage943</h2>
-<p class="lead">The Stage185 sequence is retained as the main publication backbone, now regenerated from the Stage943 expression authority.</p>
-<div class="grid">
-<article class="card"><h3>Fig1 — Fine26 taxonomy</h3><a href="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG1_CURRENT_FINE26_TAXONOMY_preview.jpg"/></a></article>
-<article class="card"><h3>Fig2 — R1–R5 organization</h3><a href="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG2_CURRENT_R1R5_ORGANIZATION_preview.jpg"/></a></article>
-<article class="card"><h3>Fig3 — R1–R5 → Fine26</h3><a href="assets/stage946_biology/FIG3_CURRENT_R1R5_TO_FINE26.png" target="_blank"><img loading="lazy" src="assets/stage946_biology/FIG3_CURRENT_R1R5_TO_FINE26_preview.jpg"/></a></article>
-<article class="card"><h3>Fig4 — Fine26 morphology</h3><a href="assets/stage946_biology/FIG4_CURRENT_FINE26_MORPHOLOGY.png" target="_blank"><img loading="lazy" src="assets/stage946_biology/FIG4_CURRENT_FINE26_MORPHOLOGY_preview.jpg"/></a></article>
-<article class="card"><h3>Fig5 — Yuhan-style projection layer</h3><a href="assets/stage946_biology/FIG5_CURRENT_YUHAN_PROJECTION_ANALOGUE.png" target="_blank"><img loading="lazy" src="assets/stage946_biology/FIG5_CURRENT_YUHAN_PROJECTION_ANALOGUE_preview.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage946_current_biology_authority.json">Stage946 authority</a> · <a href="data/stage946_r1r5_fine26_enrichment.csv">R1–R5 × Fine26</a> · <a href="data/stage946_r1r5_gene_profiles.csv">R1–R5 gene programs</a></p>
-</section><section id="stage944-additions">
-<h2>Stage944 additions — section stability, reproducibility, morphology distributions and projection effect sizes</h2>
-<p class="lead">These analyses are additive to the Stage185 main sequence. They answer whether the molecular taxonomy and spatial relationships reproduce across S500/S530/S560, whether morphology differences are visible as distributions rather than only effect sizes, and whether projection-associated Fine26 shifts reproduce section by section.</p>
-<div class="metrics">
-<div><b>Fine26 section-profile median r</b><strong>0.741</strong><small>27-gene profile pairs</small></div>
-<div><b>top-5 marker Jaccard median</b><strong>0.667</strong><small>section-to-section</small></div>
-<div><b>robust R1–R5 × Fine26 pairs</b><strong>47</strong><small>same direction in all 3 sections</small></div>
-<div><b>projection pairs</b><strong>8</strong><small>reproducible across AP sections</small></div>
-</div>
-<div class="grid">
-<article class="card"><h3>Fine26 marker stability</h3><a href="assets/stage944_biology/FINE26_SECTION_MARKER_STABILITY.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/FINE26_SECTION_MARKER_STABILITY_preview.jpg"/></a></article>
-<article class="card"><h3>R1–R5 × Fine26 reproducibility</h3><a href="assets/stage944_biology/R1R5_FINE26_THREE_SECTION_REPRODUCIBILITY.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/R1R5_FINE26_THREE_SECTION_REPRODUCIBILITY_preview.jpg"/></a></article>
-<article class="card"><h3>Fine26 soma-size distributions</h3><a href="assets/stage944_biology/FINE26_AREA_DISTRIBUTIONS.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/FINE26_AREA_DISTRIBUTIONS_preview.jpg"/></a></article>
-<article class="card"><h3>Multifeature morphology distributions</h3><a href="assets/stage944_biology/FINE26_MORPHOLOGY_DISTRIBUTION_MEDIANS.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/FINE26_MORPHOLOGY_DISTRIBUTION_MEDIANS_preview.jpg"/></a></article>
-<article class="card"><h3>Projection effects by section</h3><a href="assets/stage944_biology/PROJECTION_SECTION_EFFECTS_REPRODUCIBLE8.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/PROJECTION_SECTION_EFFECTS_REPRODUCIBLE8_preview.jpg"/></a></article>
-<article class="card"><h3>Fine26 composition across sections</h3><a href="assets/stage944_biology/THREE_SECTION_FINE26_COMPOSITION.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/THREE_SECTION_FINE26_COMPOSITION_preview.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage944_biology_additions_authority.json">Stage944 authority</a> · <a href="data/stage944_fine26_section_marker_stability.csv">marker stability</a> · <a href="data/stage944_r1r5_fine26_reproducibility.csv">domain–type reproducibility</a> · <a href="data/stage944_fine26_morphology_distribution_summary.csv">morphology distributions</a> · <a href="data/stage944_projection_reproducible_pairs_by_section.csv">projection effects</a></p>
-</section>
-<section id="genes"><h2>12. Current 27-gene spatial review — unified Stage943</h2><p class="lead">All 27 cards use the same Stage943 current matrix. No Stage941 exceptions or mixed lineage remain.</p><input id="geneSearch" placeholder="Search gene: Piezo2, Ghr, Slc6a4..." type="search"/><article class="gene-card" data-gene="nfib"><div class="gene-head"><h3>Nfib</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/nfib_raw_vs_stage943.jpg" target="_blank"><img alt="Nfib RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/nfib_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="snap25"><div class="gene-head"><h3>Snap25</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/snap25_raw_vs_stage943.jpg" target="_blank"><img alt="Snap25 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/snap25_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="zfhx3"><div class="gene-head"><h3>Zfhx3</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/zfhx3_raw_vs_stage943.jpg" target="_blank"><img alt="Zfhx3 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/zfhx3_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="npy5r"><div class="gene-head"><h3>Npy5r</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/npy5r_raw_vs_stage943.jpg" target="_blank"><img alt="Npy5r RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/npy5r_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="hcrtr1"><div class="gene-head"><h3>Hcrtr1</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/hcrtr1_raw_vs_stage943.jpg" target="_blank"><img alt="Hcrtr1 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/hcrtr1_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="bcl11b"><div class="gene-head"><h3>Bcl11b</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/bcl11b_raw_vs_stage943.jpg" target="_blank"><img alt="Bcl11b RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/bcl11b_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="slc5a7"><div class="gene-head"><h3>Slc5a7</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/slc5a7_raw_vs_stage943.jpg" target="_blank"><img alt="Slc5a7 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/slc5a7_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="npy1r"><div class="gene-head"><h3>Npy1r</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/npy1r_raw_vs_stage943.jpg" target="_blank"><img alt="Npy1r RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/npy1r_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="pdyn"><div class="gene-head"><h3>Pdyn</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/pdyn_raw_vs_stage943.jpg" target="_blank"><img alt="Pdyn RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/pdyn_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="lmx1a"><div class="gene-head"><h3>Lmx1a</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/lmx1a_raw_vs_stage943.jpg" target="_blank"><img alt="Lmx1a RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/lmx1a_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="piezo2"><div class="gene-head"><h3>Piezo2</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/piezo2_raw_vs_stage943.jpg" target="_blank"><img alt="Piezo2 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/piezo2_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="tacr1"><div class="gene-head"><h3>Tacr1</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/tacr1_raw_vs_stage943.jpg" target="_blank"><img alt="Tacr1 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/tacr1_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="slc6a4"><div class="gene-head"><h3>Slc6a4</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/slc6a4_raw_vs_stage943.jpg" target="_blank"><img alt="Slc6a4 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/slc6a4_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="slc6a2"><div class="gene-head"><h3>Slc6a2</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/slc6a2_raw_vs_stage943.jpg" target="_blank"><img alt="Slc6a2 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/slc6a2_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="foxp2"><div class="gene-head"><h3>Foxp2</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/foxp2_raw_vs_stage943.jpg" target="_blank"><img alt="Foxp2 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/foxp2_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="fstl4"><div class="gene-head"><h3>Fstl4</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/fstl4_raw_vs_stage943.jpg" target="_blank"><img alt="Fstl4 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/fstl4_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="epb41l4a"><div class="gene-head"><h3>Epb41l4a</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/epb41l4a_raw_vs_stage943.jpg" target="_blank"><img alt="Epb41l4a RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/epb41l4a_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="pde11a"><div class="gene-head"><h3>Pde11a</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/pde11a_raw_vs_stage943.jpg" target="_blank"><img alt="Pde11a RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/pde11a_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="slc32a1"><div class="gene-head"><h3>Slc32a1</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/slc32a1_raw_vs_stage943.jpg" target="_blank"><img alt="Slc32a1 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/slc32a1_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="ghr"><div class="gene-head"><h3>Ghr</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/ghr_raw_vs_stage943.jpg" target="_blank"><img alt="Ghr RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/ghr_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="ebf3"><div class="gene-head"><h3>Ebf3</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/ebf3_raw_vs_stage943.jpg" target="_blank"><img alt="Ebf3 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/ebf3_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="cep112"><div class="gene-head"><h3>Cep112</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/cep112_raw_vs_stage943.jpg" target="_blank"><img alt="Cep112 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/cep112_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="otx2os1"><div class="gene-head"><h3>Otx2os1</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/otx2os1_raw_vs_stage943.jpg" target="_blank"><img alt="Otx2os1 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/otx2os1_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="dscaml1"><div class="gene-head"><h3>Dscaml1</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/dscaml1_raw_vs_stage943.jpg" target="_blank"><img alt="Dscaml1 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/dscaml1_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="mc4r"><div class="gene-head"><h3>Mc4r</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/mc4r_raw_vs_stage943.jpg" target="_blank"><img alt="Mc4r RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/mc4r_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="meis2"><div class="gene-head"><h3>Meis2</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/meis2_raw_vs_stage943.jpg" target="_blank"><img alt="Meis2 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/meis2_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><article class="gene-card" data-gene="slc17a6"><div class="gene-head"><h3>Slc17a6</h3><span class="status-chip status-ready">Stage943 current</span></div><a href="assets/stage943_gene_review/slc17a6_raw_vs_stage943.jpg" target="_blank"><img alt="Slc17a6 RAW versus Stage943" loading="lazy" src="assets/stage943_gene_review/slc17a6_raw_vs_stage943.jpg"/></a><p>Top: RAW. Bottom: Stage943 current. Columns: S500 / S530 / S560.</p></article><p class="files"><a href="data/stage943_routeA_authority.json">Stage943 authority</a> · <a href="data/stage943_routeA_sources.csv">81-pair source table</a></p></section>
-<section id="correction">
-<h2>13. Did correction help? — Stage943 final conclusion</h2>
-<p class="lead">Yes. Stage942 directly tested RAW, Stage872, Stage934 and strict status-preserving alternatives on the difficult pairs. Stage943 retains Stage934 for all 81 pairs because artifact reduction is large while independent Fine26 cross-section and Fine26/R1–R5 profile gates remain preserved.</p>
-<div class="metrics">
-<div><b>current pairs</b><strong>81/81</strong><small>Stage934 inherited</small></div>
-<div><b>RAW reversion</b><strong>0</strong></div>
-<div><b>Stage872 reversion</b><strong>0</strong></div>
-<div><b>axis-specific warning</b><strong>1</strong><small>Slc17a6 S560 y-positive fraction</small></div>
-</div>
-<a href="assets/stage940_sixpair_visual_audit.png" target="_blank"><img loading="eager" src="assets/stage940_sixpair_visual_audit_preview.jpg"/></a>
-<p class="files"><a href="data/stage943_authority_adjudication.csv">multi-gate adjudication</a> · <a href="data/stage942_sixpair_final_verdict.csv">Stage942 six-pair verdict</a> · <a href="data/stage943_routeA_authority.json">Stage943 authority</a></p>
-</section>
-<section id="over">
-<h2>14. Final overcorrection audit — correction retained, one axis-specific warning</h2>
-<p class="lead">No full RAW or Stage872 rollback survives the final audit. Otx2os1 S530 retains Stage934 because the apparent neighbor-consistency drop is not supported by independent Fine26 cross-section or Fine26/R1–R5 profile loss. Slc17a6 S560 retains Stage934 because total/x acquisition artifact improves strongly, but its y-positive-fraction harmonic is flagged for future axis-specific refinement.</p>
-<div class="callout"><b>Rule going forward:</b> do not reopen the accepted 81-pair matrix globally. Any future Slc17a6 S560 change must target the y-status component only and must preserve the current x/total cleanup and biological gates.</div>
-<p class="files"><a href="data/stage940_sixpair_status_recommendations.csv">status-preserving alternatives</a> · <a href="data/stage943_authority_adjudication.csv">final adjudication</a></p>
-</section>
-<section id="rsfish">
-<h2>15. Independent image / RS-FISH validation — latest evidence only</h2>
-<p class="lead">Most historical RS-FISH intermediate panels are removed. The main page keeps only direct seam evidence and the latest quantitative Route B result.</p>
-<div class="grid">
-<article class="card"><h3>All-seam image QA</h3><a href="assets/stage884_all20_seams_QA.png" target="_blank"><img loading="eager" src="assets/stage884_all20_seams_QA.png"/></a></article>
-<article class="card"><h3>RS-FISH spots at a representative seam</h3><a href="assets/rsfish_04.jpg" target="_blank"><img loading="eager" src="assets/rsfish_04.jpg"/></a></article>
-</div>
-<div class="callout"><b>Latest Route B result:</b> Stage938 row/column decomposition improves directional agreement over the earlier single-alpha search, but the 64-plane slab still does not reproduce the full Stage934 cell-space correction. Route B therefore remains independent validation rather than production authority.</div>
-<p class="files"><a href="data/stage938_routeB_slc17a6_rowcol_result.json">Stage938 result</a><a href="data/stage938_routeB_slc17a6_rowcol_summary.csv">Stage938 full sweep</a></p>
-</section>
-<section id="current">
-<h2>16. Current Stage943 + latest three-section atlas</h2>
-<p class="lead">The latest biological atlas is interpreted under the Stage943 expression authority and Stage946 biological rebuild.</p>
-<div class="grid">
-<article class="card"><h3>Fine26 — current three-section atlas</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_fine26_spatial_atlas.jpg"/></a></article>
-<article class="card"><h3>Broad molecular classes — current three-section atlas</h3><a href="assets/current_broad_spatial_atlas.jpg" target="_blank"><img loading="eager" src="assets/current_broad_spatial_atlas.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage934_routeA_authority.json">Stage941 expression authority</a><a href="data/stage827_fine26_taxonomy_authority.json">Fine26 taxonomy authority</a><a href="data/stage833_fine26_spatial_authority.json">spatial atlas authority</a></p>
-</section><section id="yuhan-current"><h2>Downstream projection analysis — Yuhan Wang-style organization</h2>
-<p class="lead">Projection-defined VTA/PCRT cohorts are interpreted only after the molecular/spatial atlas is established. Stage946 provides the current projection layer; Stage944 adds section-resolved effect-size reproducibility for the eight stable target–Fine26 relationships.</p>
-<div class="grid">
-<article class="card"><h3>Current projection analogue</h3><a href="assets/stage946_biology/FIG5_CURRENT_YUHAN_PROJECTION_ANALOGUE.png" target="_blank"><img loading="eager" src="assets/stage946_biology/FIG5_CURRENT_YUHAN_PROJECTION_ANALOGUE_preview.jpg"/></a></article>
-<article class="card"><h3>Section-resolved reproducibility</h3><a href="assets/stage944_biology/PROJECTION_SECTION_EFFECTS_REPRODUCIBLE8.png" target="_blank"><img loading="lazy" src="assets/stage944_biology/PROJECTION_SECTION_EFFECTS_REPRODUCIBLE8_preview.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage944_projection_reproducible_pairs_by_section.csv">section effects</a> · <a href="data/stage829_reproducible_pairs.csv">8 reproducible pairs</a></p></section><section id="frameworks-current">
-<h2>External framework context — Luskin, Su, MapMyCells</h2>
-<p class="lead">Moved to the end of the biological story. These sources provide context/validation only; they no longer organize the main results.</p>
-<div class="grid">
-<article class="card"><h3>Luskin — direct shared-gene context</h3><a href="assets/framework_luskin_direct.jpg" target="_blank"><img loading="lazy" src="assets/framework_luskin_direct.jpg"/></a></article>
-<article class="card"><h3>Su — continuous molecular topography</h3><a href="assets/framework_su_continuous.jpg" target="_blank"><img loading="lazy" src="assets/framework_su_continuous.jpg"/></a></article>
-<article class="card"><h3>MapMyCells — external taxonomy context</h3><a href="assets/framework_mapmycells.jpg" target="_blank"><img loading="lazy" src="assets/framework_mapmycells.jpg"/></a></article>
-</div>
-<p class="files"><a href="data/stage835_framework_authority.json">framework authority</a><a href="data/stage835_luskin_direct15.csv">Luskin source</a><a href="data/stage835_su_cca_cv.csv">Su CV</a><a href="data/stage835_mapmy_fine26.csv">MapMyCells source</a></p>
-</section>
-</main><script>document.getElementById('geneSearch').addEventListener('input',e=>{const s=e.target.value.toLowerCase();document.querySelectorAll('.gene-card').forEach(x=>x.style.display=x.dataset.gene.includes(s)?'block':'none')});</script></body></html>
+</main>
+<footer>Final display page only. Historical correction, validation and intermediate analysis assets remain in repository history/data but are intentionally omitted from the main atlas.</footer>
+<script>
+const q=document.getElementById('geneSearch');
+q.addEventListener('input',()=>{
+  const s=q.value.trim().toLowerCase();
+  document.querySelectorAll('.gene-card').forEach(c=>{
+    c.style.display=(!s || c.dataset.gene.includes(s))?'block':'none';
+  });
+});
+</script></body></html>

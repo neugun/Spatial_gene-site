@@ -1,0 +1,32 @@
+﻿{
+  "stage": 947,
+  "status": "FINAL_DISPLAY_ATLAS",
+  "expression_authority": "Stage943 Route A",
+  "locator": "LC core + 450 um periLC locator only; no LC/periLC-specific expression panels",
+  "subregions": "10 section-local display regions from historical K10_w1 cell labels; boundaries smoothed sectionwise; no cross-section region identity assumed",
+  "smoothing_rule": "largest sigma 4\u201310 with grid agreement vs sigma5 >=0.95 and every major region Jaccard >=0.75; cell identity authority unchanged",
+  "expression_maps": "81 gene\u00d7section maps + 27 three-section composites; shared scale within gene; 99.5th percentile clip; subtle smooth section-local boundaries",
+  "sections": [
+    {
+      "section": 500,
+      "sigma": 7,
+      "grid_agreement_vs_sigma5": 0.9558476275339719,
+      "min_jaccard_major": 0.8726831138949253,
+      "section_local_labels": true
+    },
+    {
+      "section": 530,
+      "sigma": 8,
+      "grid_agreement_vs_sigma5": 0.9591649792691158,
+      "min_jaccard_major": 0.7881200244947949,
+      "section_local_labels": true
+    },
+    {
+      "section": 560,
+      "sigma": 7,
+      "grid_agreement_vs_sigma5": 0.9578049629519121,
+      "min_jaccard_major": 0.8096910112359551,
+      "section_local_labels": true
+    }
+  ]
+}
