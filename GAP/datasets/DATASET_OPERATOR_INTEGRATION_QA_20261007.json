@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "slurm_sweep_datasets": 11,
+  "frozen_diagnostic_datasets": 10,
+  "boundaries": 1,
+  "unexpected_errors": 0,
+  "missing_refs": 0,
+  "privacy_hits": 0,
+  "low_dpi": 0,
+  "high_direct_operator": [
+    "allen_visual_learning_hcr",
+    "celegans_atanas2023",
+    "xu2020"
+  ],
+  "explicit_negative_boundaries": [
+    "warp2026",
+    "zhao2026",
+    "condylis2022",
+    "bugeon2022",
+    "mclachlan2025",
+    "shainer2025"
+  ],
+  "wang_status": "NOT_APPLICABLE_FUNCTION_OPERATOR"
+}

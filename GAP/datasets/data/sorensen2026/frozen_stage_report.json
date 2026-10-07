@@ -1,0 +1,21 @@
+{
+  "stage": "fig5_operator",
+  "version": "fig5_operator_v2_contract",
+  "target_mode": "all",
+  "group_column": "animal_id",
+  "n_groups": 74,
+  "n_rows": 105,
+  "n_genes": 5,
+  "max_gene_features": 5,
+  "n_functions": 2,
+  "functions": [
+    "resp__ephys_latent__b00",
+    "resp__ephys_latent__b01"
+  ],
+  "gene_transform_requested": "auto",
+  "gene_transform_used": [
+    "raw"
+  ],
+  "headline_metric": "pooled OOF variance-weighted joint R2",
+  "contract": "complete multi-coordinate rows; grouped outer CV; train-fold log1p variance gene selection; target-wise alpha independent Ridge; shared-alpha full-rank Ridge; response-space RRR; hyperparameters training-only; pooled OOF headline + fold macro; reverse measured-gene readout"
+}

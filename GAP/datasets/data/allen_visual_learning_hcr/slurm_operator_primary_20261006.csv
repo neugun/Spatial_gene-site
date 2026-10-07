@@ -1,0 +1,2 @@
+dataset,n_configs,n_groups,n_rows,n_genes,n_functions,primary_config,primary_direct_r2,primary_shared_model,primary_shared_r2,primary_delta_r2,primary_spearman,primary_fold_positive,primary_fig7_ready,exploratory_best_model,exploratory_best_config,exploratory_best_r2,exploratory_best_delta_r2,exploratory_best_spearman
+allen_visual_learning_hcr,7,6,1304,22,32,auto_K22,0.1963035204492471,shared_fullrank,0.2002378828233455,0.0039343623740984,0.4902403516471052,1.0,True,shared_RRR_selected,raw_K22,0.213657929800357,0.0050216993118373,0.49484948540801

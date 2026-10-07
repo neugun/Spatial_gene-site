@@ -1,0 +1,2 @@
+dataset,n_configs,n_groups,n_rows,n_genes,n_functions,primary_config,primary_direct_r2,primary_shared_model,primary_shared_r2,primary_delta_r2,primary_spearman,primary_fold_positive,primary_fig7_ready,exploratory_best_model,exploratory_best_config,exploratory_best_r2,exploratory_best_delta_r2,exploratory_best_spearman
+zhao2026,7,9,141,30,32,auto_K30,-0.0423982064280294,shared_fullrank,-0.0301187901608942,0.0122794162671352,-0.1866454043409392,0.0,False,shared_fullrank,biological_K30,-0.026820090552003,0.004763021044224,-0.2017637741341666

@@ -18,4 +18,40 @@
         <p class='small'><b>Evidence role:</b> —<br><b>Current authority:</b> —<br><b>Boundary/stop rule:</b> —</p></section><section class='stage'><h2>Fig7 · Perturbation nomination <span class='badge miss'>NOT_STANDARDIZED</span></h2>
         <div class='metrics'><div class='small'>No standardized key-metric extraction yet.</div></div>
         <p class='small'><b>Evidence role:</b> —<br><b>Current authority:</b> —<br><b>Boundary/stop rule:</b> —</p></section>
-    <section class='stage'><h2>Source rows / reproducibility</h2><ul><li><a href='data/celegans_atanas2023/fig1_authority_rows.csv'>fig1_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig3_authority_rows.csv'>fig3_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig47_authority_rows.csv'>fig47_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig4_authority_rows.csv'>fig4_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig5struct_authority_rows.csv'>fig5struct_authority_rows.csv</a></li></ul><p class='small'>Final acceptance for a stage is stricter than showing a result: input contract → QC → held-unit split → comparator/null → full metrics → biological-unit consistency → figure/source-data → stop decision.</p></section>
+    <section id="frozen-operator-diagnostics-20261006" class="stage">
+<h2>Frozen Fig5 operator diagnostics <span class="badge ok">AUTHORITY</span></h2>
+<img src="data/celegans_atanas2023/frozen_operator_diagnostics_20261006.png" loading="lazy" style="max-width:100%;height:auto">
+<div class="metrics">
+<div class="metric"><b>Held units</b>40</div>
+<div class="metric"><b>Rows</b>3035</div>
+<div class="metric"><b>Genes</b>1800</div>
+<div class="metric"><b>Functions</b>12</div>
+<div class="metric"><b>Independent R²</b>-0.0205</div>
+<div class="metric"><b>Best shared R²</b>-0.0205</div>
+<div class="metric"><b>Shared ΔR²</b>-0.0001</div>
+<div class="metric"><b>Shared ρ</b>0.535</div>
+</div>
+<p class="small"><b>Frozen model contract:</b> independent Ridge versus shared full-rank and response-space RRR under grouped biological-unit outer CV. Panel B keeps folds paired without duplicating individual points; panel C exposes target-wise heterogeneity; panel D tests reverse function→measured-gene readability.<br>
+<a href="data/celegans_atanas2023/frozen_operator_summary.csv">model summary</a> ·
+<a href="data/celegans_atanas2023/frozen_operator_fold_metrics.csv">fold metrics</a> ·
+<a href="data/celegans_atanas2023/frozen_operator_target_metrics.csv">target metrics</a> ·
+<a href="data/celegans_atanas2023/frozen_reverse_gene_summary.csv">reverse-gene summary</a> ·
+<a href="data/celegans_atanas2023/frozen_operator_diagnostics_20261006.svg">editable SVG</a></p></section>
+<section id="slurm-operator-sweep-20261006" class="stage">
+<h2>SLURM operator sensitivity · 2026-10-06 <span class="badge ok">COMPLETED</span></h2>
+<img src="data/celegans_atanas2023/slurm_operator_sweep_20261006.png" loading="lazy" style="max-width:100%;height:auto">
+<div class="metrics">
+<div class="metric"><b>Primary contract</b>auto_K120</div>
+<div class="metric"><b>Primary direct R²</b>0.3212</div>
+<div class="metric"><b>Primary shared R²</b>0.3227</div>
+<div class="metric"><b>Primary shared ΔR²</b>0.0015</div>
+<div class="metric"><b>Primary Spearman</b>0.352</div>
+<div class="metric"><b>Fold R² positive</b>1.00</div>
+</div>
+<p class="small"><b>Inference:</b> grouped held-biological-unit outer CV. The <code>auto_K1800</code> full measured-gene contract is primary. Budget, raw/log1p and biological-profile sweeps are sensitivity analyses and are <b>not</b> promoted over the frozen primary contract by choosing the best-looking value.<br>
+<b>Exploratory sensitivity maximum:</b> auto_K120 / shared_fullrank, R²=0.3227, ΔR²=0.0015.<br>
+<a href="data/celegans_atanas2023/slurm_operator_sweep_20261006.csv">all sweep rows</a> ·
+<a href="data/celegans_atanas2023/slurm_primary_operator_fold_metrics.csv">primary fold metrics</a> ·
+<a href="data/celegans_atanas2023/slurm_operator_sweep_20261006.svg">editable SVG</a> ·
+<a href="data/celegans_atanas2023/slurm_operator_sweep_20261006.pdf">PDF</a></p></section>
+<section class='stage'><h2>Source rows / reproducibility</h2><ul><li><a href='data/celegans_atanas2023/fig1_authority_rows.csv'>fig1_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig3_authority_rows.csv'>fig3_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig47_authority_rows.csv'>fig47_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig4_authority_rows.csv'>fig4_authority_rows.csv</a></li><li><a href='data/celegans_atanas2023/fig5struct_authority_rows.csv'>fig5struct_authority_rows.csv</a></li></ul><p class='small'>Final acceptance for a stage is stricter than showing a result: input contract → QC → held-unit split → comparator/null → full metrics → biological-unit consistency → figure/source-data → stop decision.</p></section>

@@ -1,0 +1,2 @@
+dataset,n_configs,n_groups,n_rows,n_genes,n_functions,primary_config,primary_direct_r2,primary_shared_model,primary_shared_r2,primary_delta_r2,primary_spearman,primary_fold_positive,primary_fig7_ready,exploratory_best_model,exploratory_best_config,exploratory_best_r2,exploratory_best_delta_r2,exploratory_best_spearman
+celegans_atanas2023,9,40,3548,1800,5,auto_K120,0.3211891098814295,shared_fullrank,0.322706745959063,0.0015176360776334,0.3520705775470829,1.0,True,shared_fullrank,auto_K120,0.322706745959063,0.0015176360776334,0.3520705775470829

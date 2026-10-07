@@ -1,0 +1,31 @@
+{
+  "stage": "fig5_operator",
+  "version": "fig5_operator_v2_contract",
+  "target_mode": "all",
+  "group_column": "animal_id",
+  "n_groups": 6,
+  "n_rows": 1304,
+  "n_genes": 9,
+  "max_gene_features": 9,
+  "n_functions": 12,
+  "functions": [
+    "feat__dff",
+    "feat__peak_dot_size_cw",
+    "feat__peak_dot_size_ccw",
+    "feat__regsc_dim_off",
+    "feat__regsc_grating",
+    "feat__rs_dimmax",
+    "feat__regsc_dim_on",
+    "feat__baseline",
+    "feat__regsc_loom",
+    "feat__regsc_dot_large_cw",
+    "feat__rs_dotmax",
+    "feat__regsc_dot_large_ccw"
+  ],
+  "gene_transform_requested": "auto",
+  "gene_transform_used": [
+    "log1p"
+  ],
+  "headline_metric": "pooled OOF variance-weighted joint R2",
+  "contract": "complete multi-coordinate rows; grouped outer CV; train-fold log1p variance gene selection; target-wise alpha independent Ridge; shared-alpha full-rank Ridge; response-space RRR; hyperparameters training-only; pooled OOF headline + fold macro; reverse measured-gene readout"
+}

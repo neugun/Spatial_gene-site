@@ -1,0 +1,31 @@
+{
+  "stage": "fig5_operator",
+  "version": "fig5_operator_v2_contract",
+  "target_mode": "all",
+  "group_column": "animal_id",
+  "n_groups": 255,
+  "n_rows": 20436,
+  "n_genes": 13,
+  "max_gene_features": 13,
+  "n_functions": 12,
+  "functions": [
+    "feat__peak_dff_sg",
+    "feat__peak_dff_ns",
+    "feat__peak_dff_dg",
+    "feat__rf_chi2_lsn",
+    "feat__g_dsi_dg",
+    "feat__g_osi_dg",
+    "feat__g_osi_sg",
+    "feat__image_sel_ns",
+    "feat__reliability_ns",
+    "feat__reliability_nm1_a",
+    "feat__reliability_dg",
+    "feat__reliability_nm3"
+  ],
+  "gene_transform_requested": "auto",
+  "gene_transform_used": [
+    "raw"
+  ],
+  "headline_metric": "pooled OOF variance-weighted joint R2",
+  "contract": "complete multi-coordinate rows; grouped outer CV; train-fold log1p variance gene selection; target-wise alpha independent Ridge; shared-alpha full-rank Ridge; response-space RRR; hyperparameters training-only; pooled OOF headline + fold macro; reverse measured-gene readout"
+}

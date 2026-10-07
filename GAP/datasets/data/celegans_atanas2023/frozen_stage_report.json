@@ -1,0 +1,31 @@
+{
+  "stage": "fig5_operator",
+  "version": "fig5_operator_v2_contract",
+  "target_mode": "all",
+  "group_column": "animal_id",
+  "n_groups": 40,
+  "n_rows": 3035,
+  "n_genes": 1800,
+  "max_gene_features": 120,
+  "n_functions": 12,
+  "functions": [
+    "feat__sd_z",
+    "feat__in_degree_chem",
+    "feat__out_degree_chem",
+    "feat__degree_gap",
+    "resp__reversal__b17",
+    "resp__reversal__b07",
+    "resp__reversal__b16",
+    "resp__reversal__b18",
+    "resp__reversal__b06",
+    "resp__reversal__b15",
+    "resp__reversal__b19",
+    "resp__reversal__b08"
+  ],
+  "gene_transform_requested": "auto",
+  "gene_transform_used": [
+    "log1p"
+  ],
+  "headline_metric": "pooled OOF variance-weighted joint R2",
+  "contract": "complete multi-coordinate rows; grouped outer CV; train-fold log1p variance gene selection; target-wise alpha independent Ridge; shared-alpha full-rank Ridge; response-space RRR; hyperparameters training-only; pooled OOF headline + fold macro; reverse measured-gene readout"
+}

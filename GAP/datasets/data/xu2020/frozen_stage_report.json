@@ -1,0 +1,31 @@
+{
+  "stage": "fig5_operator",
+  "version": "fig5_operator_v2_contract",
+  "target_mode": "all",
+  "group_column": "animal_id",
+  "n_groups": 3,
+  "n_rows": 242,
+  "n_genes": 9,
+  "max_gene_features": 9,
+  "n_functions": 12,
+  "functions": [
+    "resp__Ghrelin__b05",
+    "resp__Ghrelin__b06",
+    "resp__Ghrelin__b07",
+    "resp__Ghrelin__b14",
+    "resp__Ghrelin__b03",
+    "resp__Ghrelin__b15",
+    "resp__Ghrelin__b10",
+    "resp__Ghrelin__b11",
+    "resp__Ghrelin__b08",
+    "resp__Ghrelin__b16",
+    "resp__Ghrelin__b02",
+    "resp__Ghrelin__b04"
+  ],
+  "gene_transform_requested": "auto",
+  "gene_transform_used": [
+    "raw"
+  ],
+  "headline_metric": "pooled OOF variance-weighted joint R2",
+  "contract": "complete multi-coordinate rows; grouped outer CV; train-fold log1p variance gene selection; target-wise alpha independent Ridge; shared-alpha full-rank Ridge; response-space RRR; hyperparameters training-only; pooled OOF headline + fold macro; reverse measured-gene readout"
+}
