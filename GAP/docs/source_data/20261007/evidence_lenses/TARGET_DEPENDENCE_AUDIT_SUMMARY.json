@@ -1,0 +1,46 @@
+{
+  "audited_datasets": 27,
+  "completed_clean": 27,
+  "flagged_datasets": 3,
+  "verified_relationships": 6,
+  "relation_counts": {
+    "near_exact_affine": 4,
+    "deterministic_binary_threshold": 2
+  },
+  "per_dataset_verified_count": {
+    "allen_vc2p": 0,
+    "allen_visual_learning_hcr": 0,
+    "barseq2_2021": 0,
+    "barseq2_pooled_2021": 0,
+    "bugeon2022": 0,
+    "campariseq2026": 0,
+    "celegans_atanas2023": 0,
+    "chevee2018": 2,
+    "condylis2022": 0,
+    "flicre2020": 1,
+    "fly_flyvis": 0,
+    "fly_turner2021": 0,
+    "habenula_dandi000302": 0,
+    "huang2020_bricseq": 0,
+    "liu2020_fist": 0,
+    "mclachlan2025": 0,
+    "mergeseq2024": 0,
+    "microns": 0,
+    "nuctag2026": 0,
+    "nuctag2026_place_silent": 0,
+    "photseq2019": 0,
+    "shainer2025": 0,
+    "sorensen2026": 0,
+    "wang2023_cea_easifish": 0,
+    "warp2026": 0,
+    "xu2020": 0,
+    "zhao2026": 3
+  },
+  "interpretations": {
+    "flicre2020": "CONFIRMED independent outcome invalidity: binary history is exact thresholding of continuous history. Do not claim two independent functional axes.",
+    "chevee2018": "Two distinct dependency types: VPM-only vs VPM/POm projection outputs are complementary, and deprivation status is derived from days post manipulation. Treat as encoded covariates/labels; do not count complement as independent projection dimension.",
+    "zhao2026": "Three projection readouts form three near-exact affine pairs over 141 shared observations. Audit endpoint construction and shared operator dimensionality; near-exact correlation alone is not proof of model leakage."
+  },
+  "scope": "Numeric prefixed functional/projection/metadata features screened (up to 4500 evenly spaced rows), candidate affine/threshold relations verified on all available rows; not a proof that unflagged dataset contains no dependence.",
+  "confirmatory_status": "DATA_INTEGRITY_AUDIT_NOT_BIOLOGICAL_EFFECT_INFERENCE"
+}
