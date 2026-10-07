@@ -1,0 +1,11 @@
+{
+  "stage": 930,
+  "route": "A",
+  "status": "CURRENT_AUTHORITY",
+  "n_pairs": 81,
+  "n_modified": 81,
+  "n_raw": 0,
+  "n_exact_stage872": 81,
+  "policy": "Exact Stage872 all-81 corrected matrix restored as the current visual/spatial authority. Stage918/928 rescues are not current because they changed broad intensity structure and looked worse despite improving raw-relative y-biology diagnostics. Stage876 Epb41l4a S530 is retained only as a targeted historical candidate, not an automatic override.",
+  "rationale": "Prioritize the acquisition-grid correction morphology that was visually and mechanistically strongest at Stage872. Raw-relative y-biology correlation remains a diagnostic rather than a hard promotion gate until independently validated."
+}
