@@ -1,0 +1,15 @@
+{
+  "stage": 929,
+  "route": "A",
+  "status": "CURRENT_AUTHORITY",
+  "n_pairs": 81,
+  "n_modified": 81,
+  "n_raw": 0,
+  "n_stage872": 64,
+  "n_stage928_ybio_rescue": 17,
+  "median_independent_abs_power_ratio": 0.4368342152744703,
+  "max_independent_abs_power_ratio": 0.78660293732045,
+  "min_y_bio": 0.901610231407068,
+  "policy": "Stage928 replaces the Stage918 raw-rescue strategy for all 17 former Stage913 held pairs. Each rescue starts from the Stage872 corrected candidate, preserves its grid/status correction, and restores only the non-grid y biological profile with a multiplicative y field whose k3/k6 components are explicitly removed. All 17 pass the original biology gates and independent absolute-power <=0.80.",
+  "replaced_stage918": true
+}
