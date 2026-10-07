@@ -1,0 +1,58 @@
+{
+  "stage": 921,
+  "route": "A",
+  "status": "CURRENT_AUTHORITY",
+  "n_pairs": 81,
+  "n_stage872": 64,
+  "n_stage918_rescue": 11,
+  "n_accepted": 75,
+  "n_keep_raw": 6,
+  "median_final_independent_abs_power_ratio": 0.5035325510209685,
+  "keep_raw": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "candidate_rejection": "independent power 1.000 > 0.80"
+    },
+    {
+      "gene": "Snap25",
+      "section": 530,
+      "candidate_rejection": "independent power 0.969 > 0.80"
+    },
+    {
+      "gene": "Snap25",
+      "section": 560,
+      "candidate_rejection": "independent power 0.887 > 0.80"
+    },
+    {
+      "gene": "Epb41l4a",
+      "section": 530,
+      "candidate_rejection": "independent power 0.804 > 0.80"
+    },
+    {
+      "gene": "Mc4r",
+      "section": 500,
+      "candidate_rejection": "independent power 0.847 > 0.80"
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 560,
+      "candidate_rejection": "independent power 0.913 > 0.80"
+    }
+  ],
+  "gates": {
+    "independent_abs_power_ratio_max": 0.8,
+    "broad2d_min": 0.95,
+    "x_bio_min": 0.9,
+    "y_bio_min": 0.9,
+    "fine26_range": [
+      0.85,
+      1.15
+    ],
+    "r1r5_range": [
+      0.85,
+      1.15
+    ]
+  },
+  "note": "Stage921 keeps the 64 Stage872 corrections already accepted by Stage913, promotes 11 of the 17 former KEEP_RAW pairs using Stage918 strict raw-rescue candidates that also pass the original Stage913 phase-independent power and biology gates, and leaves 6 pairs raw."
+}
