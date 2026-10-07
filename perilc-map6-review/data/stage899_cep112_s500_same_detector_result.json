@@ -132,6 +132,6 @@
     "minIntensity": 0,
     "maxIntensity": 4096
   },
-  "baseline_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/baseline/S500/R8_Cep112_c0/spots_rsfish_c0.csv",
-  "fresh_path": "/data/sternsonlab/Zhenggang/2acq/map6_allsections_slurm_20260926/stage887_image_production/Cep112_S500/rsfish/spots_rsfish_c0.csv"
+  "baseline_path": "[REDACTED_LOCAL_PATH]",
+  "fresh_path": "[REDACTED_LOCAL_PATH]"
 }
