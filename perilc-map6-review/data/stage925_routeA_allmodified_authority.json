@@ -1,0 +1,50 @@
+{
+  "stage": 925,
+  "route": "A",
+  "status": "CURRENT_ALL_MODIFIED_WORKING_AUTHORITY",
+  "n_pairs": 81,
+  "n_modified": 81,
+  "n_raw": 0,
+  "n_stage872": 64,
+  "n_stage918_validated": 11,
+  "n_stage918_forced": 6,
+  "forced_pairs": [
+    {
+      "gene": "Snap25",
+      "section": 500,
+      "task": 3,
+      "independent_abs_power_ratio": 1.0
+    },
+    {
+      "gene": "Snap25",
+      "section": 530,
+      "task": 4,
+      "independent_abs_power_ratio": 0.968584574435908
+    },
+    {
+      "gene": "Snap25",
+      "section": 560,
+      "task": 5,
+      "independent_abs_power_ratio": 0.8870322188165095
+    },
+    {
+      "gene": "Epb41l4a",
+      "section": 530,
+      "task": 49,
+      "independent_abs_power_ratio": 0.8041068667818931
+    },
+    {
+      "gene": "Mc4r",
+      "section": 500,
+      "task": 72,
+      "independent_abs_power_ratio": 0.8470339648645919
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 560,
+      "task": 80,
+      "independent_abs_power_ratio": 0.9126580087747154
+    }
+  ],
+  "note": "All 81 pairs use modified counts. Six former Stage921 KEEP_RAW pairs now use their Stage918 modified candidates by explicit user instruction. These six remain flagged as overrides because they do not pass the prior independent-power <=0.80 gate; biology-preservation gates pass."
+}
