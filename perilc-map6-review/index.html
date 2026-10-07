@@ -1,396 +1,398 @@
-<!doctype html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Three-section spatial gene atlas</title><style>
 *{box-sizing:border-box}
 :root{--ink:#151515;--muted:#666;--line:#dedede;--soft:#f7f7f7;--max:1500px}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:white;line-height:1.45}
-header{max-width:var(--max);margin:0 auto;padding:38px 24px 18px}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.45}
+header{max-width:var(--max);margin:0 auto;padding:36px 24px 18px}
 h1{font-size:34px;line-height:1.08;margin:0 0 10px;font-weight:720}
 .subtitle{font-size:16px;color:var(--muted);margin:0}
 nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 24px}
 nav .inner{max-width:var(--max);margin:auto;display:flex;gap:18px;flex-wrap:wrap}
 nav a{color:#222;text-decoration:none;font-size:14px;font-weight:650}
 main{max-width:var(--max);margin:auto;padding:12px 24px 70px}
-section{padding:24px 0 34px;border-bottom:1px solid #ececec}
+section{padding:25px 0 36px;border-bottom:1px solid #ececec}
 h2{font-size:25px;margin:0 0 8px}
-.lead{color:var(--muted);max-width:1050px;margin:0 0 18px}
-.hero{display:block;width:100%;max-width:1400px;height:auto;border:1px solid #eee;background:white}
+.lead{color:var(--muted);max-width:1120px;margin:0 0 18px}
+.hero{display:block;width:100%;max-width:1450px;height:auto;border:1px solid #eee;background:white}
+.region-notes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 0}
+.mini{padding:10px 12px;background:#fafafa;border:1px solid #eee;border-radius:8px;color:#555;font-size:12px}
 #geneSearch{width:min(520px,100%);font-size:16px;padding:11px 13px;border:1px solid #bbb;border-radius:8px;margin:4px 0 18px}
 .gene-card{padding:18px 0 22px;border-top:1px solid #ececec}
-.gene-card h3{font-size:22px;margin:0 0 11px}
+.gene-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.gene-title h3{font-size:22px;margin:0 0 11px}.gene-title span{font-size:12px;color:#777}
 .gene-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .pane{display:block;text-decoration:none;color:#222;border:1px solid #e3e3e3;border-radius:8px;overflow:hidden;background:white}
-.pane .sect{padding:7px 10px 3px;font-size:13px;font-weight:700}
+.pane-head{display:flex;justify-content:space-between;padding:7px 10px 3px;font-size:12px;font-weight:700;color:#444}
 .pane img{display:block;width:100%;height:auto}
-details{margin-top:22px;color:var(--muted);font-size:13px}
-details a{color:#444}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{border:1px solid #e5e5e5;border-radius:9px;overflow:hidden;background:white}
+.card h3{font-size:17px;margin:12px 14px 5px}.card p{font-size:13px;color:#666;margin:0 14px 14px}
+.card img{display:block;width:100%;height:auto}
+.cta{display:inline-block;padding:9px 13px;border:1px solid #333;border-radius:7px;text-decoration:none;color:#111;font-weight:650;font-size:13px}
+details{margin-top:22px;color:var(--muted);font-size:13px}details a{color:#444}
 footer{max-width:var(--max);margin:auto;padding:0 24px 40px;color:#888;font-size:12px}
-@media(max-width:760px){
-  h1{font-size:28px}
-  .gene-grid{grid-template-columns:1fr}
-  main,header{padding-left:14px;padding-right:14px}
-  nav{padding-left:14px;padding-right:14px}
-}
-</style></head>
-<body>
-<header>
-  <h1>Three-section spatial gene atlas</h1>
-  <p class="subtitle">Current expression atlas · S500 / S530 / S560 · 27 genes</p>
-</header>
-<nav><div class="inner"><a href="#locator">LC / periLC locator</a><a href="#regions">10 subregions</a><a href="#genes">Gene atlas</a></div></nav>
+@media(max-width:760px){h1{font-size:28px}.gene-grid,.cards,.region-notes{grid-template-columns:1fr}main,header{padding-left:14px;padding-right:14px}nav{padding-left:14px;padding-right:14px}.gene-title{display:block}}
+</style></head><body>
+<header><h1>Three-section spatial gene atlas</h1><p class="subtitle">S500 / S530 / S560 · Stage943 current expression · marker-guided section-local anatomy</p></header>
+<nav><div class="inner"><a href="#locator">LC / periLC</a><a href="#regions">10 subregions</a><a href="#genes">Gene atlas</a><a href="#downstream">Downstream spatial</a><a href="single-cell.html">Single-cell bridge</a></div></nav>
 <main>
-<section id="locator">
-  <h2>LC / periLC locator</h2>
-  <p class="lead">LC and the operational periLC field are shown only as anatomical locators. Gene-expression maps below use the full section and are not restricted to LC or periLC.</p>
-  <a href="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" alt="LC and periLC locator"></a>
-</section>
-<section id="regions">
-  <h2>Section-specific 10-subregion reference</h2>
-  <p class="lead">Each section has ten local display regions with smoothed boundaries. Region numbers are local to each section; S500, S530 and S560 are not forced to share the same subregion identity.</p>
-  <a href="assets/stage947_final_atlas/FINAL_SECTIONWISE_REGION10_SMOOTH.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_SECTIONWISE_REGION10_SMOOTH.png" alt="Section-specific ten subregions"></a>
-</section>
-<section id="genes">
-  <h2>Final gene × section expression atlas</h2>
-  <p class="lead">One shared intensity scale is used across the three sections for each gene. Smooth local subregion boundaries are shown lightly for spatial reference; LC/periLC is not overlaid on these expression maps.</p>
-  <input id="geneSearch" type="search" placeholder="Search gene…">
-  <article class="gene-card" data-gene="nfib">
-      <h3>Nfib</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Nfib_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Nfib_S500_expression_preview.jpg" loading="lazy" alt="Nfib S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Nfib_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Nfib_S530_expression_preview.jpg" loading="lazy" alt="Nfib S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Nfib_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Nfib_S560_expression_preview.jpg" loading="lazy" alt="Nfib S560 expression">
+<section id="locator"><h2>LC / periLC locator</h2>
+<p class="lead">LC and the operational periLC field are shown only as anatomical locators. Gene-expression panels below show the complete section and are not cropped to these regions.</p>
+<a href="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" alt="LC periLC locator"></a></section>
+<section id="regions"><h2>Marker-guided section-specific 10-subregion reference</h2>
+<p class="lead">Each section is partitioned independently. The required anchors are <b>Hcrtr1, Bcl11b, Slc5a7, Lmx1a, Piezo2, Slc6a2 and Ghr</b>, supplemented by the most spatially informative genes in that section. Region numbers are local to each section; no cross-section homology is imposed. S560 uses the stronger smoothing search selected by the marker-preservation gate.</p>
+<a href="assets/stage956_final_atlas_v2/FINAL_MARKER_GUIDED_REGION10.png" target="_blank"><img class="hero" src="assets/stage956_final_atlas_v2/FINAL_MARKER_GUIDED_REGION10.png" alt="marker guided section specific ten regions"></a>
+<div class="region-notes"><div class="mini"><b>S500</b><br>
+      anchors + Foxp2, Ebf3, Mc4r, Dscaml1, Slc6a4<br>
+      smoothing σ=3.6</div><div class="mini"><b>S530</b><br>
+      anchors + Mc4r, Fstl4, Ebf3, Foxp2, Meis2<br>
+      smoothing σ=4.5</div><div class="mini"><b>S560</b><br>
+      anchors + Mc4r, Ebf3, Meis2, Slc6a4, Pdyn<br>
+      smoothing σ=6.5</div></div></section>
+<section id="genes"><h2>Final gene × section expression atlas</h2>
+<p class="lead">All maps use reversed x/y display orientation. Every panel shows an explicit <b>spot-count colorbar</b> and numeric display range. The three sections share one range per gene. Broad genes use a lower saturation ceiling; Snap25 is intentionally shown with an 85th-percentile positive-count maximum so widespread expression remains visible.</p>
+<input id="geneSearch" type="search" placeholder="Search gene…"><article class="gene-card" data-gene="nfib">
+      <div class="gene-title"><h3>Nfib</h3><span>broad-expression scale · vmax 23.8</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Nfib_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–23.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Nfib_S500_expression_preview.jpg" loading="lazy" alt="Nfib S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Nfib_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–23.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Nfib_S530_expression_preview.jpg" loading="lazy" alt="Nfib S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Nfib_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–23.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Nfib_S560_expression_preview.jpg" loading="lazy" alt="Nfib S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="snap25">
-      <h3>Snap25</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Snap25_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Snap25_S500_expression_preview.jpg" loading="lazy" alt="Snap25 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Snap25_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Snap25_S530_expression_preview.jpg" loading="lazy" alt="Snap25 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Snap25_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Snap25_S560_expression_preview.jpg" loading="lazy" alt="Snap25 S560 expression">
+      <div class="gene-title"><h3>Snap25</h3><span>broad-expression scale · vmax 237.8</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Snap25_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–237.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Snap25_S500_expression_preview.jpg" loading="lazy" alt="Snap25 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Snap25_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–237.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Snap25_S530_expression_preview.jpg" loading="lazy" alt="Snap25 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Snap25_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–237.8</span></div>
+          <img src="assets/stage956_final_atlas_v2/Snap25_S560_expression_preview.jpg" loading="lazy" alt="Snap25 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="zfhx3">
-      <h3>Zfhx3</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Zfhx3_S500_expression_preview.jpg" loading="lazy" alt="Zfhx3 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Zfhx3_S530_expression_preview.jpg" loading="lazy" alt="Zfhx3 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Zfhx3_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Zfhx3_S560_expression_preview.jpg" loading="lazy" alt="Zfhx3 S560 expression">
+      <div class="gene-title"><h3>Zfhx3</h3><span>shared per-gene scale · vmax 57.9</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Zfhx3_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–57.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Zfhx3_S500_expression_preview.jpg" loading="lazy" alt="Zfhx3 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Zfhx3_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–57.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Zfhx3_S530_expression_preview.jpg" loading="lazy" alt="Zfhx3 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Zfhx3_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–57.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Zfhx3_S560_expression_preview.jpg" loading="lazy" alt="Zfhx3 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="npy5r">
-      <h3>Npy5r</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Npy5r_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Npy5r_S500_expression_preview.jpg" loading="lazy" alt="Npy5r S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Npy5r_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Npy5r_S530_expression_preview.jpg" loading="lazy" alt="Npy5r S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Npy5r_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Npy5r_S560_expression_preview.jpg" loading="lazy" alt="Npy5r S560 expression">
+      <div class="gene-title"><h3>Npy5r</h3><span>shared per-gene scale · vmax 17.3</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Npy5r_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy5r_S500_expression_preview.jpg" loading="lazy" alt="Npy5r S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Npy5r_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy5r_S530_expression_preview.jpg" loading="lazy" alt="Npy5r S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Npy5r_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy5r_S560_expression_preview.jpg" loading="lazy" alt="Npy5r S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="hcrtr1">
-      <h3>Hcrtr1</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Hcrtr1_S500_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Hcrtr1_S530_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Hcrtr1_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Hcrtr1_S560_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S560 expression">
+      <div class="gene-title"><h3>Hcrtr1</h3><span>shared per-gene scale · vmax 146.3</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Hcrtr1_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–146.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Hcrtr1_S500_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Hcrtr1_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–146.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Hcrtr1_S530_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Hcrtr1_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–146.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Hcrtr1_S560_expression_preview.jpg" loading="lazy" alt="Hcrtr1 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="bcl11b">
-      <h3>Bcl11b</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Bcl11b_S500_expression_preview.jpg" loading="lazy" alt="Bcl11b S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Bcl11b_S530_expression_preview.jpg" loading="lazy" alt="Bcl11b S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Bcl11b_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Bcl11b_S560_expression_preview.jpg" loading="lazy" alt="Bcl11b S560 expression">
+      <div class="gene-title"><h3>Bcl11b</h3><span>shared per-gene scale · vmax 99.9</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Bcl11b_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–99.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Bcl11b_S500_expression_preview.jpg" loading="lazy" alt="Bcl11b S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Bcl11b_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–99.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Bcl11b_S530_expression_preview.jpg" loading="lazy" alt="Bcl11b S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Bcl11b_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–99.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Bcl11b_S560_expression_preview.jpg" loading="lazy" alt="Bcl11b S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="slc5a7">
-      <h3>Slc5a7</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Slc5a7_S500_expression_preview.jpg" loading="lazy" alt="Slc5a7 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Slc5a7_S530_expression_preview.jpg" loading="lazy" alt="Slc5a7 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc5a7_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Slc5a7_S560_expression_preview.jpg" loading="lazy" alt="Slc5a7 S560 expression">
+      <div class="gene-title"><h3>Slc5a7</h3><span>shared per-gene scale · vmax 67.6</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Slc5a7_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–67.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc5a7_S500_expression_preview.jpg" loading="lazy" alt="Slc5a7 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc5a7_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–67.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc5a7_S530_expression_preview.jpg" loading="lazy" alt="Slc5a7 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc5a7_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–67.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc5a7_S560_expression_preview.jpg" loading="lazy" alt="Slc5a7 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="npy1r">
-      <h3>Npy1r</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Npy1r_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Npy1r_S500_expression_preview.jpg" loading="lazy" alt="Npy1r S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Npy1r_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Npy1r_S530_expression_preview.jpg" loading="lazy" alt="Npy1r S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Npy1r_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Npy1r_S560_expression_preview.jpg" loading="lazy" alt="Npy1r S560 expression">
+      <div class="gene-title"><h3>Npy1r</h3><span>shared per-gene scale · vmax 25.1</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Npy1r_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–25.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy1r_S500_expression_preview.jpg" loading="lazy" alt="Npy1r S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Npy1r_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–25.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy1r_S530_expression_preview.jpg" loading="lazy" alt="Npy1r S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Npy1r_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–25.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Npy1r_S560_expression_preview.jpg" loading="lazy" alt="Npy1r S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="pdyn">
-      <h3>Pdyn</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Pdyn_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Pdyn_S500_expression_preview.jpg" loading="lazy" alt="Pdyn S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Pdyn_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Pdyn_S530_expression_preview.jpg" loading="lazy" alt="Pdyn S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Pdyn_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Pdyn_S560_expression_preview.jpg" loading="lazy" alt="Pdyn S560 expression">
+      <div class="gene-title"><h3>Pdyn</h3><span>shared per-gene scale · vmax 14.5</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Pdyn_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–14.5</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pdyn_S500_expression_preview.jpg" loading="lazy" alt="Pdyn S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Pdyn_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–14.5</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pdyn_S530_expression_preview.jpg" loading="lazy" alt="Pdyn S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Pdyn_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–14.5</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pdyn_S560_expression_preview.jpg" loading="lazy" alt="Pdyn S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="lmx1a">
-      <h3>Lmx1a</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Lmx1a_S500_expression_preview.jpg" loading="lazy" alt="Lmx1a S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Lmx1a_S530_expression_preview.jpg" loading="lazy" alt="Lmx1a S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Lmx1a_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Lmx1a_S560_expression_preview.jpg" loading="lazy" alt="Lmx1a S560 expression">
+      <div class="gene-title"><h3>Lmx1a</h3><span>shared per-gene scale · vmax 40.0</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Lmx1a_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–40.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Lmx1a_S500_expression_preview.jpg" loading="lazy" alt="Lmx1a S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Lmx1a_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–40.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Lmx1a_S530_expression_preview.jpg" loading="lazy" alt="Lmx1a S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Lmx1a_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–40.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Lmx1a_S560_expression_preview.jpg" loading="lazy" alt="Lmx1a S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="piezo2">
-      <h3>Piezo2</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Piezo2_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Piezo2_S500_expression_preview.jpg" loading="lazy" alt="Piezo2 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Piezo2_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Piezo2_S530_expression_preview.jpg" loading="lazy" alt="Piezo2 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Piezo2_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Piezo2_S560_expression_preview.jpg" loading="lazy" alt="Piezo2 S560 expression">
+      <div class="gene-title"><h3>Piezo2</h3><span>shared per-gene scale · vmax 23.1</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Piezo2_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–23.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Piezo2_S500_expression_preview.jpg" loading="lazy" alt="Piezo2 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Piezo2_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–23.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Piezo2_S530_expression_preview.jpg" loading="lazy" alt="Piezo2 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Piezo2_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–23.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Piezo2_S560_expression_preview.jpg" loading="lazy" alt="Piezo2 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="tacr1">
-      <h3>Tacr1</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Tacr1_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Tacr1_S500_expression_preview.jpg" loading="lazy" alt="Tacr1 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Tacr1_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Tacr1_S530_expression_preview.jpg" loading="lazy" alt="Tacr1 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Tacr1_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Tacr1_S560_expression_preview.jpg" loading="lazy" alt="Tacr1 S560 expression">
+      <div class="gene-title"><h3>Tacr1</h3><span>shared per-gene scale · vmax 25.4</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Tacr1_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–25.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Tacr1_S500_expression_preview.jpg" loading="lazy" alt="Tacr1 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Tacr1_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–25.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Tacr1_S530_expression_preview.jpg" loading="lazy" alt="Tacr1 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Tacr1_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–25.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Tacr1_S560_expression_preview.jpg" loading="lazy" alt="Tacr1 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="slc6a4">
-      <h3>Slc6a4</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Slc6a4_S500_expression_preview.jpg" loading="lazy" alt="Slc6a4 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Slc6a4_S530_expression_preview.jpg" loading="lazy" alt="Slc6a4 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a4_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Slc6a4_S560_expression_preview.jpg" loading="lazy" alt="Slc6a4 S560 expression">
+      <div class="gene-title"><h3>Slc6a4</h3><span>shared per-gene scale · vmax 24.2</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a4_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–24.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a4_S500_expression_preview.jpg" loading="lazy" alt="Slc6a4 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a4_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–24.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a4_S530_expression_preview.jpg" loading="lazy" alt="Slc6a4 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a4_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–24.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a4_S560_expression_preview.jpg" loading="lazy" alt="Slc6a4 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="slc6a2">
-      <h3>Slc6a2</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Slc6a2_S500_expression_preview.jpg" loading="lazy" alt="Slc6a2 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Slc6a2_S530_expression_preview.jpg" loading="lazy" alt="Slc6a2 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc6a2_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Slc6a2_S560_expression_preview.jpg" loading="lazy" alt="Slc6a2 S560 expression">
+      <div class="gene-title"><h3>Slc6a2</h3><span>shared per-gene scale · vmax 866.9</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a2_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–866.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a2_S500_expression_preview.jpg" loading="lazy" alt="Slc6a2 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a2_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–866.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a2_S530_expression_preview.jpg" loading="lazy" alt="Slc6a2 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc6a2_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–866.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc6a2_S560_expression_preview.jpg" loading="lazy" alt="Slc6a2 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="foxp2">
-      <h3>Foxp2</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Foxp2_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Foxp2_S500_expression_preview.jpg" loading="lazy" alt="Foxp2 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Foxp2_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Foxp2_S530_expression_preview.jpg" loading="lazy" alt="Foxp2 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Foxp2_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Foxp2_S560_expression_preview.jpg" loading="lazy" alt="Foxp2 S560 expression">
+      <div class="gene-title"><h3>Foxp2</h3><span>shared per-gene scale · vmax 66.2</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Foxp2_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–66.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Foxp2_S500_expression_preview.jpg" loading="lazy" alt="Foxp2 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Foxp2_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–66.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Foxp2_S530_expression_preview.jpg" loading="lazy" alt="Foxp2 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Foxp2_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–66.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Foxp2_S560_expression_preview.jpg" loading="lazy" alt="Foxp2 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="fstl4">
-      <h3>Fstl4</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Fstl4_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Fstl4_S500_expression_preview.jpg" loading="lazy" alt="Fstl4 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Fstl4_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Fstl4_S530_expression_preview.jpg" loading="lazy" alt="Fstl4 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Fstl4_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Fstl4_S560_expression_preview.jpg" loading="lazy" alt="Fstl4 S560 expression">
+      <div class="gene-title"><h3>Fstl4</h3><span>shared per-gene scale · vmax 28.2</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Fstl4_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–28.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Fstl4_S500_expression_preview.jpg" loading="lazy" alt="Fstl4 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Fstl4_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–28.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Fstl4_S530_expression_preview.jpg" loading="lazy" alt="Fstl4 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Fstl4_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–28.2</span></div>
+          <img src="assets/stage956_final_atlas_v2/Fstl4_S560_expression_preview.jpg" loading="lazy" alt="Fstl4 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="epb41l4a">
-      <h3>Epb41l4a</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Epb41l4a_S500_expression_preview.jpg" loading="lazy" alt="Epb41l4a S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Epb41l4a_S530_expression_preview.jpg" loading="lazy" alt="Epb41l4a S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Epb41l4a_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Epb41l4a_S560_expression_preview.jpg" loading="lazy" alt="Epb41l4a S560 expression">
+      <div class="gene-title"><h3>Epb41l4a</h3><span>shared per-gene scale · vmax 37.6</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Epb41l4a_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–37.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Epb41l4a_S500_expression_preview.jpg" loading="lazy" alt="Epb41l4a S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Epb41l4a_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–37.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Epb41l4a_S530_expression_preview.jpg" loading="lazy" alt="Epb41l4a S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Epb41l4a_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–37.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Epb41l4a_S560_expression_preview.jpg" loading="lazy" alt="Epb41l4a S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="pde11a">
-      <h3>Pde11a</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Pde11a_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Pde11a_S500_expression_preview.jpg" loading="lazy" alt="Pde11a S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Pde11a_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Pde11a_S530_expression_preview.jpg" loading="lazy" alt="Pde11a S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Pde11a_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Pde11a_S560_expression_preview.jpg" loading="lazy" alt="Pde11a S560 expression">
+      <div class="gene-title"><h3>Pde11a</h3><span>shared per-gene scale · vmax 37.9</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Pde11a_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–37.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pde11a_S500_expression_preview.jpg" loading="lazy" alt="Pde11a S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Pde11a_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–37.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pde11a_S530_expression_preview.jpg" loading="lazy" alt="Pde11a S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Pde11a_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–37.9</span></div>
+          <img src="assets/stage956_final_atlas_v2/Pde11a_S560_expression_preview.jpg" loading="lazy" alt="Pde11a S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="slc32a1">
-      <h3>Slc32a1</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Slc32a1_S500_expression_preview.jpg" loading="lazy" alt="Slc32a1 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Slc32a1_S530_expression_preview.jpg" loading="lazy" alt="Slc32a1 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc32a1_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Slc32a1_S560_expression_preview.jpg" loading="lazy" alt="Slc32a1 S560 expression">
+      <div class="gene-title"><h3>Slc32a1</h3><span>broad-expression scale · vmax 55.0</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Slc32a1_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–55.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc32a1_S500_expression_preview.jpg" loading="lazy" alt="Slc32a1 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc32a1_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–55.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc32a1_S530_expression_preview.jpg" loading="lazy" alt="Slc32a1 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc32a1_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–55.0</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc32a1_S560_expression_preview.jpg" loading="lazy" alt="Slc32a1 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="ghr">
-      <h3>Ghr</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Ghr_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Ghr_S500_expression_preview.jpg" loading="lazy" alt="Ghr S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Ghr_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Ghr_S530_expression_preview.jpg" loading="lazy" alt="Ghr S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Ghr_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Ghr_S560_expression_preview.jpg" loading="lazy" alt="Ghr S560 expression">
+      <div class="gene-title"><h3>Ghr</h3><span>shared per-gene scale · vmax 169.1</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Ghr_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–169.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ghr_S500_expression_preview.jpg" loading="lazy" alt="Ghr S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Ghr_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–169.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ghr_S530_expression_preview.jpg" loading="lazy" alt="Ghr S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Ghr_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–169.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ghr_S560_expression_preview.jpg" loading="lazy" alt="Ghr S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="ebf3">
-      <h3>Ebf3</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Ebf3_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Ebf3_S500_expression_preview.jpg" loading="lazy" alt="Ebf3 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Ebf3_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Ebf3_S530_expression_preview.jpg" loading="lazy" alt="Ebf3 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Ebf3_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Ebf3_S560_expression_preview.jpg" loading="lazy" alt="Ebf3 S560 expression">
+      <div class="gene-title"><h3>Ebf3</h3><span>broad-expression scale · vmax 43.4</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Ebf3_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–43.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ebf3_S500_expression_preview.jpg" loading="lazy" alt="Ebf3 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Ebf3_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–43.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ebf3_S530_expression_preview.jpg" loading="lazy" alt="Ebf3 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Ebf3_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–43.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Ebf3_S560_expression_preview.jpg" loading="lazy" alt="Ebf3 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="cep112">
-      <h3>Cep112</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Cep112_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Cep112_S500_expression_preview.jpg" loading="lazy" alt="Cep112 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Cep112_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Cep112_S530_expression_preview.jpg" loading="lazy" alt="Cep112 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Cep112_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Cep112_S560_expression_preview.jpg" loading="lazy" alt="Cep112 S560 expression">
+      <div class="gene-title"><h3>Cep112</h3><span>shared per-gene scale · vmax 13.1</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Cep112_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–13.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Cep112_S500_expression_preview.jpg" loading="lazy" alt="Cep112 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Cep112_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–13.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Cep112_S530_expression_preview.jpg" loading="lazy" alt="Cep112 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Cep112_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–13.1</span></div>
+          <img src="assets/stage956_final_atlas_v2/Cep112_S560_expression_preview.jpg" loading="lazy" alt="Cep112 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="otx2os1">
-      <h3>Otx2os1</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Otx2os1_S500_expression_preview.jpg" loading="lazy" alt="Otx2os1 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Otx2os1_S530_expression_preview.jpg" loading="lazy" alt="Otx2os1 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Otx2os1_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Otx2os1_S560_expression_preview.jpg" loading="lazy" alt="Otx2os1 S560 expression">
+      <div class="gene-title"><h3>Otx2os1</h3><span>shared per-gene scale · vmax 17.3</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Otx2os1_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Otx2os1_S500_expression_preview.jpg" loading="lazy" alt="Otx2os1 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Otx2os1_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Otx2os1_S530_expression_preview.jpg" loading="lazy" alt="Otx2os1 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Otx2os1_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–17.3</span></div>
+          <img src="assets/stage956_final_atlas_v2/Otx2os1_S560_expression_preview.jpg" loading="lazy" alt="Otx2os1 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="dscaml1">
-      <h3>Dscaml1</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Dscaml1_S500_expression_preview.jpg" loading="lazy" alt="Dscaml1 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Dscaml1_S530_expression_preview.jpg" loading="lazy" alt="Dscaml1 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Dscaml1_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Dscaml1_S560_expression_preview.jpg" loading="lazy" alt="Dscaml1 S560 expression">
+      <div class="gene-title"><h3>Dscaml1</h3><span>shared per-gene scale · vmax 22.6</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Dscaml1_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–22.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Dscaml1_S500_expression_preview.jpg" loading="lazy" alt="Dscaml1 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Dscaml1_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–22.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Dscaml1_S530_expression_preview.jpg" loading="lazy" alt="Dscaml1 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Dscaml1_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–22.6</span></div>
+          <img src="assets/stage956_final_atlas_v2/Dscaml1_S560_expression_preview.jpg" loading="lazy" alt="Dscaml1 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="mc4r">
-      <h3>Mc4r</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Mc4r_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Mc4r_S500_expression_preview.jpg" loading="lazy" alt="Mc4r S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Mc4r_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Mc4r_S530_expression_preview.jpg" loading="lazy" alt="Mc4r S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Mc4r_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Mc4r_S560_expression_preview.jpg" loading="lazy" alt="Mc4r S560 expression">
+      <div class="gene-title"><h3>Mc4r</h3><span>broad-expression scale · vmax 108.7</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Mc4r_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–108.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Mc4r_S500_expression_preview.jpg" loading="lazy" alt="Mc4r S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Mc4r_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–108.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Mc4r_S530_expression_preview.jpg" loading="lazy" alt="Mc4r S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Mc4r_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–108.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Mc4r_S560_expression_preview.jpg" loading="lazy" alt="Mc4r S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="meis2">
-      <h3>Meis2</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Meis2_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Meis2_S500_expression_preview.jpg" loading="lazy" alt="Meis2 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Meis2_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Meis2_S530_expression_preview.jpg" loading="lazy" alt="Meis2 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Meis2_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Meis2_S560_expression_preview.jpg" loading="lazy" alt="Meis2 S560 expression">
+      <div class="gene-title"><h3>Meis2</h3><span>broad-expression scale · vmax 78.4</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Meis2_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–78.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Meis2_S500_expression_preview.jpg" loading="lazy" alt="Meis2 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Meis2_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–78.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Meis2_S530_expression_preview.jpg" loading="lazy" alt="Meis2 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Meis2_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–78.4</span></div>
+          <img src="assets/stage956_final_atlas_v2/Meis2_S560_expression_preview.jpg" loading="lazy" alt="Meis2 S560 expression">
         </a></div>
     </article><article class="gene-card" data-gene="slc17a6">
-      <h3>Slc17a6</h3>
-      <div class="gene-grid"><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S500_expression.png" target="_blank">
-          <div class="sect">S500</div>
-          <img src="assets/stage947_final_atlas/Slc17a6_S500_expression_preview.jpg" loading="lazy" alt="Slc17a6 S500 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S530_expression.png" target="_blank">
-          <div class="sect">S530</div>
-          <img src="assets/stage947_final_atlas/Slc17a6_S530_expression_preview.jpg" loading="lazy" alt="Slc17a6 S530 expression">
-        </a><a class="pane" href="assets/stage947_final_atlas/Slc17a6_S560_expression.png" target="_blank">
-          <div class="sect">S560</div>
-          <img src="assets/stage947_final_atlas/Slc17a6_S560_expression_preview.jpg" loading="lazy" alt="Slc17a6 S560 expression">
+      <div class="gene-title"><h3>Slc17a6</h3><span>broad-expression scale · vmax 18.7</span></div>
+      <div class="gene-grid"><a class="pane" href="assets/stage956_final_atlas_v2/Slc17a6_S500_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S500</span><span>0–18.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc17a6_S500_expression_preview.jpg" loading="lazy" alt="Slc17a6 S500 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc17a6_S530_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S530</span><span>0–18.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc17a6_S530_expression_preview.jpg" loading="lazy" alt="Slc17a6 S530 expression">
+        </a><a class="pane" href="assets/stage956_final_atlas_v2/Slc17a6_S560_expression_preview.jpg" target="_blank">
+          <div class="pane-head"><span>S560</span><span>0–18.7</span></div>
+          <img src="assets/stage956_final_atlas_v2/Slc17a6_S560_expression_preview.jpg" loading="lazy" alt="Slc17a6 S560 expression">
         </a></div>
-    </article>
-  <details><summary>Data provenance</summary>
-    <p>Expression authority: <a href="data/stage943_routeA_authority.json">Stage943 Route A</a>. Final display atlas: <a href="data/stage947_final_atlas_authority.json">Stage947 authority</a>. Map manifest: <a href="data/stage947_final_gene_section_manifest.csv">81 gene×section maps</a>. Section-local region smoothing: <a href="data/stage947_region10_smoothing_selection.csv">selection table</a>.</p>
-  </details>
-</section>
-</main>
-<footer>Final display page only. Historical correction, validation and intermediate analysis assets remain in repository history/data but are intentionally omitted from the main atlas.</footer>
-<script>
-const q=document.getElementById('geneSearch');
-q.addEventListener('input',()=>{
-  const s=q.value.trim().toLowerCase();
-  document.querySelectorAll('.gene-card').forEach(c=>{
-    c.style.display=(!s || c.dataset.gene.includes(s))?'block':'none';
-  });
-});
-</script></body></html>
+    </article></section>
+<section id="downstream"><h2>Downstream spatial analyses</h2>
+<p class="lead">Only final biological summaries are retained here; correction sweeps and engineering intermediates remain outside the main atlas.</p>
+<div class="cards">
+<article class="card"><h3>Region10 × 27-gene molecular profiles</h3><a href="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png" target="_blank"><img src="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png" loading="lazy"></a><p>Section-local region identities are summarized independently; matching region numbers across sections are not assumed to be homologous.</p></article>
+<article class="card"><h3>Fine26 populations in tissue space</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img src="assets/current_fine26_spatial_atlas.jpg" loading="lazy"></a><p>Frozen single-cell molecular identities across the three-section atlas.</p></article>
+<article class="card"><h3>Soma geometry by molecular population</h3><a href="assets/current_morph_size_distributions.jpg" target="_blank"><img src="assets/current_morph_size_distributions.jpg" loading="lazy"></a><p>Distribution-level morphology, not only effect-size summaries.</p></article>
+<article class="card"><h3>Projection-associated molecular organization</h3><a href="assets/current_projection_reproducible.jpg" target="_blank"><img src="assets/current_projection_reproducible.jpg" loading="lazy"></a><p>Reproducible projection-linked enrichments are kept downstream of the direct molecular atlas.</p></article>
+</div></section>
+<section id="singlecell"><h2>Single-cell bridge</h2><p class="lead">The spatial atlas is linked to the frozen Fine26 single-cell state space without re-clustering for versioning. The dedicated page collects taxonomy, section reproducibility, morphology and projection analyses.</p>
+<a class="cta" href="single-cell.html">Open current single-cell bridge →</a></section>
+<details><summary>Data provenance</summary><p>
+<a href="data/stage943_routeA_authority.json">Stage943 expression authority</a> ·
+<a href="data/stage956_final_atlas_authority.json">Stage956 display authority</a> ·
+<a href="data/stage956_gene_section_manifest.csv">81-map manifest</a> ·
+<a href="data/stage956_marker_guided_region10_manifest.csv">region marker manifest</a> ·
+<a href="data/stage956_gene_colorbar_policy.csv">colorbar policy</a>
+</p></details>
+</main><footer>Final biological atlas page. Intermediate correction/RS-FISH engineering results remain in repository provenance but are intentionally omitted here.</footer>
+<script>const q=document.getElementById('geneSearch');q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();document.querySelectorAll('.gene-card').forEach(c=>c.style.display=(!s||c.dataset.gene.includes(s))?'block':'none')});</script></body></html>

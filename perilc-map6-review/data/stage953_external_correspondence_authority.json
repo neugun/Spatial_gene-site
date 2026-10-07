@@ -1,0 +1,12 @@
+{
+  "stage": 953,
+  "status": "CURRENT_EXTERNAL_CORRESPONDENCE",
+  "expression_authority": "Stage943 Route A",
+  "fine26_authority": "frozen Fine26",
+  "source_stage": 811,
+  "n_fine26": 23,
+  "median_raw_tile_family_agreement": 0.8204911092294666,
+  "median_consensus_expected_fraction": 0.4384858044164038,
+  "joint_strong_n": 4,
+  "principle": "Allen/MapMyCells is secondary correspondence only; it does not redefine Fine26."
+}

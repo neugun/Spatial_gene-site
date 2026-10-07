@@ -1,0 +1,19 @@
+{
+  "stage": 954,
+  "status": "CIRCULARITY_AUDIT_NOT_FUNCTIONAL_EVIDENCE",
+  "expression_authority": "Stage943 Route A",
+  "source_projection_table": "STAGE629_PROJECTION_STATE_TO_K9W1.csv",
+  "finding": "delta_soft_VTA and delta_soft_PCRT are Fine26-level composition shifts that were mapped back to cells in Stage631; therefore Fine26 nearly perfectly predicts them by construction.",
+  "held_section_result": {
+    "VTA_fine26_r2_range": [0.999948, 0.999988],
+    "PCRT_fine26_r2_range": [0.996307, 0.999948],
+    "mean_latent_increment_spearman_VTA": -0.004633,
+    "mean_latent_increment_spearman_PCRT": -0.005293
+  },
+  "decision": "Do not use these cell-level projection proxies as an independent functional endpoint. Keep the analysis as a circularity audit only.",
+  "next_valid_gate": "Use an endpoint not constructed from Fine26 composition, such as independent projection labels, neural recordings, perturbation response, or behavior.",
+  "outputs": [
+    "PROJECTION_LATENT_HELDSECTION.png",
+    "LATENT_INCREMENT_WITHINFINE26_NULL.png"
+  ]
+}

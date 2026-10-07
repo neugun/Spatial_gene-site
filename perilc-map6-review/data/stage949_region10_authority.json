@@ -1,0 +1,18 @@
+{
+  "stage": 949,
+  "status": "CURRENT_SECTIONWISE_REGION10",
+  "expression_authority": "Stage943 Route A",
+  "n_regions_per_section": 10,
+  "sections": [
+    500,
+    530,
+    560
+  ],
+  "cross_section_homology_assumed": false,
+  "fit": "independent per section: 27-gene normalized expression PCA + section geometry; spatial-weight sweep; seed stability; conservative kNN ICM smoothing",
+  "display": "section-local labels 1\u201310; labels are not homologized across S500/S530/S560",
+  "outputs": [
+    "stage949_sectionwise_region10_labels.csv.gz",
+    "stage949_region10_sweep.csv"
+  ]
+}

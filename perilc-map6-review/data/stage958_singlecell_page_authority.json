@@ -1,0 +1,11 @@
+{
+  "stage": 958,
+  "status": "CURRENT_SINGLECELL_PAGE",
+  "sources": [950, 951, 952, 953, 954],
+  "expression_authority": "Stage943 Route A",
+  "spatial_authority": "Stage956 marker-guided section-local region10",
+  "external_correspondence": "Stage953; confidence-limited secondary evidence",
+  "projection_bridge": "Stage954 circularity audit only; delta_soft_VTA/PCRT are not independent functional endpoints",
+  "pending_slots": [],
+  "next_valid_functional_gate": "independent projection labels, neural recording, perturbation response, or behavior"
+}

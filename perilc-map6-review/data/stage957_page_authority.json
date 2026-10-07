@@ -1,0 +1,15 @@
+{
+  "stage": 957,
+  "status": "CURRENT_PAGE",
+  "main_atlas": "Stage956",
+  "expression": "Stage943 Route A",
+  "page_sections": [
+    "LC/periLC locator",
+    "marker-guided section-local region10",
+    "81 gene\u00d7section maps",
+    "downstream spatial analyses",
+    "single-cell bridge"
+  ],
+  "intermediate_engineering_hidden": true,
+  "single_cell_page": "single-cell.html"
+}

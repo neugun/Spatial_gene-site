@@ -1,0 +1,19 @@
+{
+  "stage": 952,
+  "status": "CURRENT_REGION10_SINGLECELL_INTEGRATION",
+  "expression_authority": "Stage943 Route A",
+  "spatial_authority": "Stage956 marker-guided section-local region10",
+  "n_cells": 71950,
+  "n_fine26": 26,
+  "outputs": [
+    "REGION10_FINE26_ENRICHMENT.png",
+    "REGION10_MORPH_DENSITY.png",
+    "WITHIN_FINE26_SPATIAL_MODULATION.png"
+  ],
+  "principles": [
+    "region numbers are local to each section; no cross-section region homology is assumed",
+    "Fine26 labels remain frozen",
+    "morphology uses segmentation geometry; local density uses within-section 10-NN radius",
+    "within-Fine26 eta\u00b2 asks whether spatial region explains expression variation beyond frozen cell identity"
+  ]
+}

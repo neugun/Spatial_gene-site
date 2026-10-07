@@ -1,0 +1,13 @@
+{
+  "section": 560,
+  "n_cells": 19976,
+  "selected_lambda": 0.55,
+  "seed_stability_ari": 0.96805326462994,
+  "spatial_neighbor_agreement_raw": 0.1947295087438259,
+  "spatial_neighbor_agreement_smoothed": 0.200649112268055,
+  "molecular_silhouette": 0.1324457973241806,
+  "min_region_fraction_raw": 0.05902082498998799,
+  "min_region_fraction_final": 0.05902082498998799,
+  "pca_explained_variance": 0.4550527036190033,
+  "cross_section_homology_assumed": false
+}

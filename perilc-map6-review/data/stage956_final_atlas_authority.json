@@ -1,0 +1,47 @@
+{
+  "stage": 956,
+  "status": "CURRENT_FINAL_DISPLAY_ATLAS",
+  "expression_authority": "Stage943 Route A",
+  "orientation": "x and y reversed for display in every gene map and region reference",
+  "colorbar": "explicit on every gene\u00d7section map; shared range across three sections for each gene",
+  "snap25": "special broad-expression display: 85th percentile positive-count vmax + gamma 0.50",
+  "region_reference": {
+    "n_regions": 10,
+    "section_specific": true,
+    "cross_section_homology_assumed": false,
+    "required_marker_anchors": [
+      "Hcrtr1",
+      "Bcl11b",
+      "Slc5a7",
+      "Lmx1a",
+      "Piezo2",
+      "Slc6a2",
+      "Ghr"
+    ],
+    "auto_specific_markers_per_section": {
+      "500": [
+        "Foxp2",
+        "Ebf3",
+        "Mc4r",
+        "Dscaml1",
+        "Slc6a4"
+      ],
+      "530": [
+        "Mc4r",
+        "Fstl4",
+        "Ebf3",
+        "Foxp2",
+        "Meis2"
+      ],
+      "560": [
+        "Mc4r",
+        "Ebf3",
+        "Meis2",
+        "Slc6a4",
+        "Pdyn"
+      ]
+    },
+    "note": "marker-guided smoothed fields + geometry support; S560 receives stronger smoothing search"
+  },
+  "main_page_rule": "final atlas only; intermediate correction/validation plots omitted from main page"
+}

@@ -1,0 +1,4 @@
+section,required_markers,auto_specific_markers,all_markers,smooth_sigma,separation,retention,boundary_complexity,components,min_region_fraction
+500,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr,Foxp2;Ebf3;Mc4r;Dscaml1;Slc6a4,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr;Foxp2;Ebf3;Mc4r;Dscaml1;Slc6a4,3.6,0.6830818887666861,0.9598502120937533,0.028050926405134045,10,0.06466987139981101
+530,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr,Mc4r;Fstl4;Ebf3;Foxp2;Meis2,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr;Mc4r;Fstl4;Ebf3;Foxp2;Meis2,4.5,0.6327260236372965,0.9017435445525002,0.025898962073884597,12,0.035314550366653805
+560,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr,Mc4r;Ebf3;Meis2;Slc6a4;Pdyn,Hcrtr1;Bcl11b;Slc5a7;Lmx1a;Piezo2;Slc6a2;Ghr;Mc4r;Ebf3;Meis2;Slc6a4;Pdyn,6.5,0.7233111212516619,0.9255269852082894,0.02420832909072396,12,0.01819457671294672

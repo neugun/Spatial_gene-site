@@ -1,0 +1,18 @@
+{
+  "stage": 950,
+  "status": "CURRENT_SINGLECELL_BUNDLE",
+  "expression_authority": "Stage943 Route A",
+  "n_cells": 71950,
+  "n_genes": 27,
+  "fine26_labels": "frozen",
+  "outputs": [
+    "FINE26_UMAP_CURRENT.png",
+    "ALL27_GENE_UMAP_MONTAGE.png",
+    "FINE26_DOTPLOT_CURRENT.png",
+    "FINE26_CROSSSECTION_TRANSFER.png",
+    "S500_LOCAL_SINGLECELL_MULTIPLEX.png",
+    "S530_LOCAL_SINGLECELL_MULTIPLEX.png",
+    "S560_LOCAL_SINGLECELL_MULTIPLEX.png"
+  ],
+  "interpretation_boundary": "Fine26 is not re-clustered. Transfer tests transportability of frozen 27-gene identities, not independent taxonomy discovery."
+}
