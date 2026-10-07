@@ -1,0 +1,738 @@
+[
+  {
+    "dataset": "allen_vc2p",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 32,
+    "all_targets_all_models_rows": 70,
+    "alternative_method_en": "Hold out complete Cre lines as well as donors; report identity-one-hot versus measured genes separately.",
+    "alternative_method_zh": "同时留出完整 Cre 品系和供体；明确区分品系独热编码与真实单细胞基因表达。",
+    "interpretation_en": "Cre-driver one-hot fields are not directly measured molecular expression.",
+    "interpretation_zh": "Cre 品系独热指标不是单细胞实测基因表达。",
+    "original_strongest_valid_result": "Cre-line identity held-donor median rho=0.189 but held-Cre-line rho=-0.209; conditional Fig4 results cannot be interpreted as continuous measured-gene replication.",
+    "original_boundary_or_caveat": "The 13 gene__ columns are Cre-line one-hot indicators, not measured per-cell genes.",
+    "original_next_action": "Rename molecular block everywhere; do not count as independent molecular-state replication."
+  },
+  {
+    "dataset": "allen_visual_learning_hcr",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_direct",
+      "coordinate_identity_supported",
+      "dynamic_context_qualified"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 45,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Gene/identity signal is meaningful within its held-animal contract; Fig4 saturated completion and HCR→Zhao visual transfer remain negative.",
+    "interpretation_zh": "在留动物框架下有身份/分子信息，但功能补全饱和、向 Zhao 的视觉反应迁移为阴性。",
+    "original_strongest_valid_result": "Fig1-3 relation/panel evidence is strong; Fig4 completion is saturated; 15-gene held-mouse operator is amplitude-ready (R2 about 0.156, Spearman about 0.357, AUROC about 0.742); Fig7 produces 44,133 perturbation-context conditions across 23 contexts. HCR-to-Zhao visual-evoked transfer is negative on target evaluation.",
+    "original_boundary_or_caveat": "Fig4 is not a BehLift positive; Fig6 visual-evoked transfer to Zhao is a negative boundary; Fig7 is prospective ranking only.",
+    "original_next_action": "Use as the canonical new-dataset end-to-end demo; keep negative Zhao transfer visible."
+  },
+  {
+    "dataset": "barseq2_2021",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_projection",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 5,
+    "alternative_method_en": "Single-target grouped projection mapping, not a multi-output shared operator.",
+    "alternative_method_zh": "按单靶标开展分组投射预测，不强行套用多输出共享算子。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "held-session Ridge: R² 0.0192, Spearman 0.2649, AUROC 0.6476; public single-target projection_map now executes.",
+    "original_boundary_or_caveat": "only one projection target and 3 genes; not evidence for shared operator",
+    "original_next_action": "retain as single-target boundary; do not count as operator replication"
+  },
+  {
+    "dataset": "barseq2_pooled_2021",
+    "evidence_kind": "derived_alias",
+    "labels": [
+      "gene_function_qualified",
+      "boundary_alternative",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 10,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived/pooled version of BARseq2; do not count as a second dataset.",
+    "original_boundary_or_caveat": "same biological source as BARseq2",
+    "original_next_action": "only use if pooled-vs-native sensitivity is needed"
+  },
+  {
+    "dataset": "bugeon2022",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_direct",
+      "coordinate_identity_supported",
+      "dynamic_context_supported"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 32,
+    "all_targets_all_models_rows": 25,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Strong gene-versus-space contrast and positive structured shared-law result; cross-dataset foundation-latent gains are a separate question.",
+    "interpretation_zh": "基因相对空间坐标的信息优势明确；结构化共享响应规律与基础模型表征增量属于不同问题。",
+    "original_strongest_valid_result": "exact 24D structured GAP R² 0.00927→0.01852; ΔSpearman +0.00944; ΔAUROC +0.00368; ΔAUPRC +0.00691; 4/4 held mice R² and AUROC wins. SIXTASK lowrank ΔR² +0.0190 with 49.7% parameter reduction.",
+    "original_boundary_or_caveat": "do not confuse with frozen foundation-forward test where raw genes outperform latent",
+    "original_next_action": "keep as Fig5 anchor and Fig6 sample-efficiency anchor"
+  },
+  {
+    "dataset": "bugeon2022_dynamic",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_derived_contract",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived from Bugeon2022; adds temporal/visual contract but not independent N.",
+    "original_boundary_or_caveat": "must not be counted as independent replication",
+    "original_next_action": "retain only when the representation directly answers panel question"
+  },
+  {
+    "dataset": "bugeon2022_state_visual",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_derived_contract",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived from Bugeon2022; adds temporal/visual contract but not independent N.",
+    "original_boundary_or_caveat": "must not be counted as independent replication",
+    "original_next_action": "retain only when the representation directly answers panel question"
+  },
+  {
+    "dataset": "bugeon2022_visual",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_derived_contract",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived from Bugeon2022; adds temporal/visual contract but not independent N.",
+    "original_boundary_or_caveat": "must not be counted as independent replication",
+    "original_next_action": "retain only when the representation directly answers panel question"
+  },
+  {
+    "dataset": "campariseq2026",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Single-target held-fish regression; variance-safe rank correlation and calibration, no manifold completion.",
+    "alternative_method_zh": "仅做单靶标留鱼预测、方差稳健的秩相关与校准，不强行进行多功能流形补全。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "single target; current held-group model-zoo does not provide stable predictive evidence. Fig4 completion is correctly N/A after capability hardening.",
+    "original_boundary_or_caveat": "one target means no BehLift/manifold completion; older huge negative R² values arose from variance-degenerate folds and should not headline",
+    "original_next_action": "retain as single-target zebrafish boundary; do not force Fig4 completion"
+  },
+  {
+    "dataset": "carma_vta",
+    "evidence_kind": "private/configured_dataset",
+    "labels": [
+      "boundary_alternative",
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "adapter requires recovery_dir; no public zero-argument authority.",
+    "original_boundary_or_caveat": "not reproducible without configured recovery directory",
+    "original_next_action": "run only against frozen recovery directory and add held-animal authority when configured"
+  },
+  {
+    "dataset": "celegans_atanas2023",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "dynamic_context_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 25,
+    "alternative_method_en": "Leave-one-neuron-class-out and compare gene versus one-hot identity; repeated class features across animals do not count as unseen-identity transfer.",
+    "alternative_method_zh": "留出整个神经元类别，并与身份独热编码对照；跨动物重复同一类别不算跨新类别泛化。",
+    "interpretation_en": "Within-class animal-held readability is not generalization to unseen neuron class.",
+    "interpretation_zh": "已见细胞类别的跨动物预测不等于全新神经元类别泛化。",
+    "original_strongest_valid_result": "CeNGEN genes held-animal median rho=0.698, but one-hot identity=0.870 and held-identity genes rho~0.001; prior strong connectivity prediction is identity-confounded.",
+    "original_boundary_or_caveat": "CeNGEN expression and Cook connectome were attached at neuron-class level. Held-animal splits repeat the same identities and cannot establish unseen-identity molecular generalization.",
+    "original_next_action": "Retain for identity/readability and cross-species tool coverage; remove A+ cornerstone wording from Fig4-6."
+  },
+  {
+    "dataset": "celegans_dynamic",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_context_qualified",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived from same worm dataset; not independent N.",
+    "original_boundary_or_caveat": "do not count independently",
+    "original_next_action": "retain only for temporal mechanism panels"
+  },
+  {
+    "dataset": "chevee2018",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_projection",
+      "coordinate_identity_supported",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Strong gene→projection decoding, not a demonstrated gain from a shared operator.",
+    "interpretation_zh": "基因能预测投射，但共享算子相比独立模型没有明确额外收益。",
+    "original_strongest_valid_result": "Projection/connectivity Direct held-unit R2=0.677, Spearman=0.834; best shared=shared_fullrank, delta R2=-0.0000, delta Spearman=+0.0000; relation CI=1.000, q=0.001996.",
+    "original_boundary_or_caveat": "Shared operator adds essentially nothing beyond already strong direct mapping; do not call this a shared-law gain.",
+    "original_next_action": "Place in structural breadth panel next to worm connectivity, MERGE-seq and Sorensen."
+  },
+  {
+    "dataset": "condylis2022",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "dynamic_context_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 30,
+    "alternative_method_en": "Test conditional residual headroom after other measured functions; evaluate unsaturated targets and dynamic timing separately, using identical group splits.",
+    "alternative_method_zh": "先控制已测功能，检验残差可预测空间；针对未饱和靶标及动态时间结构分别使用相同分组折。",
+    "interpretation_en": "Function-only saturation reduces molecular headroom; null conditional gain is not proof genes are universally uninformative.",
+    "interpretation_zh": "已测功能接近饱和使分子增量空间变小；阴性不代表基因普遍无信息。",
+    "original_strongest_valid_result": "best biological completion increment ~+0.0013; native function-only information is near-saturated; shared operator rank/AUC often worsens.",
+    "original_boundary_or_caveat": "Fig2 AtlasLift works, but Fig3 fixed-budget, Fig4 conditional completion and Fig5 operator do not provide robust positive support; Fig6/7 are correctly preflight/gate blocked.",
+    "original_next_action": "Keep as explicit boundary; never lower coverage/readiness thresholds to force later stages."
+  },
+  {
+    "dataset": "condylis_dynamic",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_context_qualified",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "derived from Condylis; not independent dataset count.",
+    "original_boundary_or_caveat": "same source as Condylis",
+    "original_next_action": "keep only if needed for timing mechanism"
+  },
+  {
+    "dataset": "flicre2020",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "dynamic_context_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 10,
+    "alternative_method_en": "Three-way held-session test: genes-only, measured-history-only, and history+genes; retain outcome-history/time-shift controls.",
+    "alternative_method_zh": "同一留出 session 中严格比较基因、已测活动历史及两者联合；加入历史错位负对照。",
+    "interpretation_en": "Genes-alone prediction is not conditional molecular rescue after the paired activity-history feature.",
+    "interpretation_zh": "基因单独能预测部分活动历史，但不等于控制已测历史后的独立贡献。",
+    "original_strongest_valid_result": "Fig5 direct operator R2=0.027, Spearman=0.231, with 3/3 folds positive; shared operator is identical. Fig4 function-only prediction is already strong and joint genes reduce/leave unchanged conditional performance.",
+    "original_boundary_or_caveat": "Acquisition holdout is session-level. Genes-alone predict part of the activity-history axis, but that does not mean genes add unique information after the paired functional axis is known.",
+    "original_next_action": "Use to explain genes-only predictability versus conditional molecular rescue as distinct questions."
+  },
+  {
+    "dataset": "fly_flyvis",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "no gene block; molecular analyses correctly N/A.",
+    "original_boundary_or_caveat": "cannot support gene→function claims",
+    "original_next_action": "retain as no-gene boundary / function-only resource"
+  },
+  {
+    "dataset": "fly_turner2021",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "coordinate_identity_supported",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 8,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "no gene block; gene-based branches correctly blocked.",
+    "original_boundary_or_caveat": "not a molecular-functional dataset",
+    "original_next_action": "retain as no-gene boundary"
+  },
+  {
+    "dataset": "habenula_dandi000302",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 16,
+    "alternative_method_en": "Two-marker limited-resolution test; compare measured markers against within-animal null and report functional-only baseline.",
+    "alternative_method_zh": "只有两个分子标记，优先比较同动物置换零模型与功能基线，不推断完整基因程序。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "10-system manifold: latent rho ~0.017 / weak global geometry; biological completion molecular increment ~0, with other-function rank/AUC often strong.",
+    "original_boundary_or_caveat": "only 2 molecular markers; not suited to rich gene-program inference",
+    "original_next_action": "keep as sparse-marker boundary demonstrating panel-resolution dependence"
+  },
+  {
+    "dataset": "hashikawa2020",
+    "evidence_kind": "independent_reference",
+    "labels": [
+      "boundary_alternative",
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "author QC reconstructable; no deposited cell-level activity match.",
+    "original_boundary_or_caveat": "do not force into Fig4/5 cell-level claims",
+    "original_next_action": "use only for transcriptomic context/reference or exclusion rationale"
+  },
+  {
+    "dataset": "huang2020_bricseq",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_projection_weak",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Re-evaluate rank-based projection decoding and donor-held stability versus absolute R2; do not infer a shared operator from rank signal alone.",
+    "alternative_method_zh": "重新检验投射秩预测、留动物稳定性及绝对 R²；只有秩信息不能推出共享算子。",
+    "interpretation_en": "Weak absolute held-unit operator performance despite some within-contract projection-rank information.",
+    "interpretation_zh": "原有部分投射秩信号不能掩盖独立留出模型的绝对预测薄弱。",
+    "original_strongest_valid_result": "Projection/connectivity Direct held-unit R2=-0.229, Spearman=0.113; best shared=shared_fullrank, delta R2=-0.3536, delta Spearman=-0.0110; relation CI=1.000, q=1.",
+    "original_boundary_or_caveat": "Public held-unit operator is negative; retain previously observed native rank signal only under its original contract.",
+    "original_next_action": "Keep as boundary demonstrating that projection signal does not imply a transferable/shared operator."
+  },
+  {
+    "dataset": "liu2020_fist",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Recover genuine biological group IDs first; if unavailable, label as descriptive within-table only.",
+    "alternative_method_zh": "优先追溯真实生物学分组；无法恢复时只报告表内描述性结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "no valid biological grouping; inferential held-unit analyses correctly N/A.",
+    "original_boundary_or_caveat": "cannot support held-animal generalization",
+    "original_next_action": "retain as group-structure boundary"
+  },
+  {
+    "dataset": "mergeseq2024",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_projection",
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Direct molecular→projection decoding; null identity-relation index and mixed shared-operator effects.",
+    "interpretation_zh": "基因能预测投射特征；离散身份关系指数不支持阳性，共享算子结果混合。",
+    "original_strongest_valid_result": "Projection/connectivity Direct held-unit R2=0.222, Spearman=0.506; best shared=shared_fullrank, delta R2=+0.0015, delta Spearman=-0.0196; relation CI=0.000, q=1.",
+    "original_boundary_or_caveat": "Direct projection predictability is real; relation index is null and shared operator is mixed, so do not claim discrete identity structure or universal shared law.",
+    "original_next_action": "Use as structural predictability breadth, not as a shared-law or relation-index positive."
+  },
+  {
+    "dataset": "microns",
+    "evidence_kind": "registered_build_adapter",
+    "labels": [
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 8,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use session-held spatial/RF decoding as a structural comparator; require another animal for cross-animal generalization.",
+    "alternative_method_zh": "将留 session 的空间/RF 解码作为结构对照；跨动物推断仍需额外动物。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "24,713 EM neurons; session-held space and RF geometry are predictive, but there is no transcriptomic gene block and only one animal.",
+    "original_boundary_or_caveat": "Never call session-held results cross-animal; molecular Fig2/3/5/6/7 are scientifically N/A.",
+    "original_next_action": "Use to demonstrate that GAP knows when to stop rather than fabricating molecular claims."
+  },
+  {
+    "dataset": "neuroplex2026",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "10-system manifold comparator: latent rho ~0.020, geometry rho ~0.011; no transcriptomic block.",
+    "original_boundary_or_caveat": "not evidence for gene→function mapping",
+    "original_next_action": "retain as non-transcriptomic comparator, not molecular claim"
+  },
+  {
+    "dataset": "nuctag2026",
+    "evidence_kind": "independent_population_dataset",
+    "labels": [
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Library/pseudobulk group-level inference; do not promote library-level sampling to single-cell matched N.",
+    "alternative_method_zh": "按样本库或伪 bulk 做组级推断，不将样本库数写成匹配单细胞重复数。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "8 population libraries; explicitly population-level, not matched single-cell data.",
+    "original_boundary_or_caveat": "very small N and pooled/tagged nuclei libraries",
+    "original_next_action": "do not use as core single-cell evidence; keep provenance explicit"
+  },
+  {
+    "dataset": "nuctag2026_place_silent",
+    "evidence_kind": "derived_alias",
+    "labels": [
+      "boundary_alternative",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "9 libraries; alias of nuctag2026 place_silent experiment.",
+    "original_boundary_or_caveat": "same source family; not independent replication",
+    "original_next_action": "do not count separately; use only if contrast is specifically discussed"
+  },
+  {
+    "dataset": "photseq2019",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 5,
+    "alternative_method_en": "Within-vomeronasal-tissue native reference analysis; do not force visual-cortex AtlasLift.",
+    "alternative_method_zh": "在犁鼻感觉上皮内做组织匹配参考分析，不强行迁移到视觉皮层。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "No: tissue is vomeronasal sensory epithelium, not VISp; explicit exclusion retained.",
+    "original_boundary_or_caveat": "wrong-anatomy inclusion would create a false transfer test",
+    "original_next_action": "keep as positive example of anatomical guardrails"
+  },
+  {
+    "dataset": "shainer2025",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "dynamic_context_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 32,
+    "all_targets_all_models_rows": 40,
+    "alternative_method_en": "Paired leave-group-out space / genes / space+genes and spatially blocked validation; examine whether genes add signal beyond space.",
+    "alternative_method_zh": "留组配对比较空间、基因及二者联合，再使用空间阻断验证，检验基因是否超越空间位置。",
+    "interpretation_en": "Space strongly outperforms sparse 9-gene measurements for selected function; spatial confounding needs explicitly blocked tests.",
+    "interpretation_zh": "空间位置比稀疏九基因更能预测部分功能；还需要空间阻断检验。",
+    "original_strongest_valid_result": "space Spearman ~0.261; BehLift increment only ~0.001; manifold/AtlasLift effects weak or mixed; native classical prediction can outperform foundation.",
+    "original_boundary_or_caveat": "sparse 9-gene panel; do not force operator/foundation win",
+    "original_next_action": "use as spatial-coordinate counterexample and sparse-panel limit"
+  },
+  {
+    "dataset": "sorensen2026",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_direct",
+      "gene_projection",
+      "coordinate_identity_supported",
+      "dynamic_context_qualified"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 20,
+    "all_targets_all_models_rows": 10,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Independent dual-domain evidence; functional completion and projection decoding have different endpoints and test contracts.",
+    "interpretation_zh": "功能补全与投射解码两类独立端点均提供证据，但不可混为一种效应。",
+    "original_strongest_valid_result": "Function: completion delta R2 +0.0777, delta Spearman +0.451, delta AUROC +0.273; low-rank functional operator multimetric replication. Structural: Projection/connectivity Direct held-unit R2=0.246, Spearman=0.363; best shared=shared_fullrank, delta R2=+0.0245, delta Spearman=+0.0156; relation CI=0.667, q=0.003984.",
+    "original_boundary_or_caveat": "Function and projection are separate endpoint contracts; functional Fig7 is directional-ready but current perturbation fixture has zero overlap with the five Sorensen genes.",
+    "original_next_action": "Use as strongest independent dual-domain replication; keep structural and functional claims separated."
+  },
+  {
+    "dataset": "wang2023_cea_easifish",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_projection_weak",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Two-animal robustness audit: direct versus RRR with absolute R2, Spearman and AUC; no claims from relative improvement of negative R2.",
+    "alternative_method_zh": "仅两只动物：将独立模型与 RRR 的绝对 R²、秩相关和 AUC 同时报告，不以负 R² 的相对改善作阳性。",
+    "interpretation_en": "Two-animal and negative absolute R2 boundary; low-rank delta alone cannot rescue it.",
+    "interpretation_zh": "两动物、绝对 R² 仍为负；低秩模型的相对增量不足以支持阳性。",
+    "original_strongest_valid_result": "Direct projection R2=-0.098, Spearman=0.053; selected RRR delta R2=+0.091 but absolute R2 remains negative and delta Spearman=-0.035; relation q=1.000.",
+    "original_boundary_or_caveat": "Only two animals; an R2 rescue from a worse negative baseline is not sufficient when absolute R2 stays negative and rank/AUC do not improve.",
+    "original_next_action": "Keep as sparse-panel/two-animal boundary; do not promote RRR delta R2 alone."
+  },
+  {
+    "dataset": "warp2026",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_direct",
+      "coordinate_identity_supported",
+      "dynamic_context_supported",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 32,
+    "all_targets_all_models_rows": 40,
+    "alternative_method_en": "Dynamic-contextual manifold and task-/fish-held evaluation; do not treat pooled static kNN geometry as the only representation.",
+    "alternative_method_zh": "以动态时序/任务条件的流形和留鱼/留任务评估为主，不能只用 pooled 静态近邻结构判断。",
+    "interpretation_en": "Dynamic/contextual positive; static exact-FNP approximately zero, and 3 fish constrain confirmatory inference.",
+    "interpretation_zh": "动态与情境表征有支持；静态精确近邻保持接近零，三条鱼限制确认性推断。",
+    "original_strongest_valid_result": "BehLift OMR-backward ΔR² +0.0145, ΔSpearman +0.0141, held R² wins 3/3; D2 AtlasLift×BehLift ΔR² +0.02478, p=0.0099. Dynamic gene-combo cross-animal geometry 0.643. Fig6 contextual TF improves Spearman by ~0.128 paired; mouse→fish 15/15 task×fish ΔR² positive.",
+    "original_boundary_or_caveat": "static exact manifold amplitude is weak; dynamic/contextual representation is the stronger result",
+    "original_next_action": "keep as central Fig2→4→5→6 bridge"
+  },
+  {
+    "dataset": "warp_dynamic",
+    "evidence_kind": "derived_contract",
+    "labels": [
+      "dynamic_derived_contract",
+      "nonindependent_derived"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "cross-animal dynamic geometry is strong; same WARP biological dataset.",
+    "original_boundary_or_caveat": "derived contract, not independent dataset count",
+    "original_next_action": "retain as representation-specific mechanism"
+  },
+  {
+    "dataset": "xu2020",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_direct",
+      "coordinate_identity_supported",
+      "dynamic_context_supported",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 55,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Conditional molecular rescue for ghrelin-related function, state-dependent and based on few animals.",
+    "interpretation_zh": "特定状态（如饥饿素反应）的条件性分子增量；动物重复有限。",
+    "original_strongest_valid_result": "Ghrelin BehLift ΔR² +0.0639, ΔSpearman +0.0399, ΔAUROC +0.0273; held 2/3. Raw operator Direct 0.0893→shared 0.0997, with rank/AUC/AUPRC gains.",
+    "original_boundary_or_caveat": "small N; AtlasLift increments are state-dependent, not universal",
+    "original_next_action": "retain as key mouse hypothalamic replication"
+  },
+  {
+    "dataset": "yalevagus2022_surrogate",
+    "evidence_kind": "surrogate_dataset",
+    "labels": [
+      "boundary_alternative",
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "N=11 with no valid biological groups for inference.",
+    "original_boundary_or_caveat": "surrogate, not primary published joint dataset",
+    "original_next_action": "do not use for biological headline"
+  },
+  {
+    "dataset": "zhang2021_mop_retromerfish",
+    "evidence_kind": "unavailable_joint_dataset",
+    "labels": [
+      "boundary_alternative",
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "No: required retrograde-CTb projection-labeled subset is not in the referenced BIL deposit.",
+    "original_boundary_or_caveat": "absence is source-data availability, not a negative biological result",
+    "original_next_action": "keep explicit; do not substitute unrelated data"
+  },
+  {
+    "dataset": "zhao2026",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 44,
+    "all_targets_all_models_rows": 25,
+    "alternative_method_en": "Target-only and within-animal shuffle baselines; ortholog permutation for transfer, followed by held-animal gene/connection conditional comparison.",
+    "alternative_method_zh": "设置 target-only、动物内打乱和同源基因置换零模型，再做留动物基因与连接信息的条件增量比较。",
+    "interpretation_en": "Positive relative contrast versus negative type baseline does not pass absolute response-shuffle benchmark.",
+    "interpretation_zh": "相对阴性身份模型的改善不能替代对绝对预测和置换零模型的检验。",
+    "original_strongest_valid_result": "Native Fig1: type rho=-0.065, connectivity rho=0.054, delta=+0.119. Connectivity absolute rho does not exceed within-animal response-shuffle null (p=0.172; null p95=0.090); native R2=-0.232.",
+    "original_boundary_or_caveat": "Relative rescue from a negative type baseline is not sufficient. Native Zhao is not a positive Fig1 replication; preserve only independent transfer claims that pass their own target-only/ortholog nulls.",
+    "original_next_action": "Keep native Zhao as boundary; rerun/qualify Zhao-to-Bugeon transfer with target-only and ortholog-permutation baselines."
+  },
+  {
+    "dataset": "human_intrinsic_ephys",
+    "evidence_kind": "external_evidence_scope",
+    "labels": [
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "FullContext mean rho 0.0651; 15/18 targets positive; target-donor CI [0.025,0.097], p=0.0018. Strict source-donor CI crosses zero, so source composition remains uncertainty.",
+    "original_boundary_or_caveat": "human endpoint is intrinsic ephys only; source-donor uncertainty must remain explicit",
+    "original_next_action": "retain target-donor positive + strict-source uncertainty together"
+  },
+  {
+    "dataset": "whole_brain_perturbseq",
+    "evidence_kind": "external_evidence_scope",
+    "labels": [
+      "context_or_data_limit"
+    ],
+    "has_new_paired_audit": false,
+    "new_paired_contrast_rows": 0,
+    "all_targets_all_models_rows": 0,
+    "alternative_method_en": "Use the dataset's native matched modality and biological-group holdout, retaining all negative/N/A contracts.",
+    "alternative_method_zh": "按原生模态和真实生物学分组检查；保留阴性及不适用结果。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "439 perturbations across all 23 contexts: molecular interaction 75.81%; after frozen GAP functional interaction 85.48%. Target-only vs network-aware perturbation cosine median ~−0.34. Context-discordant examples reach cosine ~−0.97.",
+    "original_boundary_or_caveat": "prospective nomination only; missing-edge global R² ~0 and simple low-rank residual models fail",
+    "original_next_action": "link nomination coordinates explicitly to Fig5 functional/structural response laws; keep causal validation as future experiment"
+  },
+  {
+    "dataset": "mclachlan2025",
+    "evidence_kind": "independent_dataset",
+    "labels": [
+      "gene_function_qualified",
+      "coordinate_identity_qualified",
+      "boundary_alternative"
+    ],
+    "has_new_paired_audit": true,
+    "new_paired_contrast_rows": 12,
+    "all_targets_all_models_rows": 80,
+    "alternative_method_en": "Compare anatomically matched versus whole-brain references at identical K and selector, paired by held animal.",
+    "alternative_method_zh": "在相同基因预算 K 和筛选器下比较匹配参考与全脑参考，按留动物配对。",
+    "interpretation_en": "Original registry evidence, scope, and limitations retained without converting untested cases to positives.",
+    "interpretation_zh": "保留原始证据、适用条件与局限；未测试不自动判为阳性或阴性。",
+    "original_strongest_valid_result": "Matched K={5,10,15,20,23}: PERI/ECT exact function-geometry supports K20/K23, while ABC whole-brain also supports several K under atlas-variance; exact reference is not uniformly superior.",
+    "original_boundary_or_caveat": "Never compare references at different K. Three valid held-unit folds limit biological-unit inference; random-panel p-values are conditional nulls.",
+    "original_next_action": "Replace old exact-vs-wholebrain headline with matched-K reference x selector curve."
+  }
+]

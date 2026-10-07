@@ -1,0 +1,16 @@
+{
+  "paired_contrast_rows": 280,
+  "paired_dataset_count": 14,
+  "all_models_rows": 491,
+  "all_models_datasets": 16,
+  "methods": [
+    "Same held-unit paired coordinate-model contrasts; exact sign flip for <=16 nonzero folds; BH across all exploratory contrasts per metric",
+    "All per-target x per-model held-unit performance preserved without filtering"
+  ],
+  "strict_guardrails": [
+    "Group/split units respected",
+    "No best-metric selection p-value",
+    "Descriptive contrast does not establish molecular causality",
+    "N/A and missing modality never scored as zero"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "registry_rows": 40,
+  "unique_dataset_ids": 40,
+  "html_en_cards": 40,
+  "html_zh_cards": 40,
+  "paired_comparisons": 280,
+  "paired_datasets": 14,
+  "target_model_rows": 491,
+  "missing_original_evidence": 0,
+  "missing_annotations": [],
+  "main_pages": [
+    "G:\\Spatial_gene_site_publish\\GAP\\evidence-lenses\\index.html",
+    "G:\\Spatial_gene_site_publish\\GAP\\evidence-lenses\\index_zh.html"
+  ]
+}
