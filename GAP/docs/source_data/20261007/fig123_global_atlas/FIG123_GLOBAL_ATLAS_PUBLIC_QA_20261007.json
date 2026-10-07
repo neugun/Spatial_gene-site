@@ -1,0 +1,131 @@
+{
+  "input_status_counts": {
+    "CANONICAL_INPUT": 24,
+    "DERIVED_PARENT": 8,
+    "NO_CANONICAL_JOINT_INPUT": 8
+  },
+  "stage_status_counts": {
+    "function_map": {
+      "DONE": 14,
+      "BLOCKED": 9,
+      "DERIVED": 8
+    },
+    "coordinate_mediation": {
+      "DONE": 15,
+      "BLOCKED": 9,
+      "DERIVED": 8
+    },
+    "atlaslift": {
+      "DONE": 13,
+      "DERIVED": 8,
+      "BLOCKED": 4
+    },
+    "fixed_budget": {
+      "DONE": 17,
+      "DERIVED": 8,
+      "BLOCKED": 6
+    },
+    "projection_map": {
+      "BLOCKED": 16,
+      "DONE": 8,
+      "DERIVED": 8
+    },
+    "relation_index": {
+      "DONE": 18,
+      "DERIVED": 8,
+      "BLOCKED": 6
+    },
+    "information_criterion": {
+      "DONE": 17,
+      "DERIVED": 8,
+      "BLOCKED": 7
+    },
+    "effect_size": {
+      "DONE": 17,
+      "DERIVED": 8,
+      "BLOCKED": 6
+    }
+  },
+  "global_charts": {
+    "fig123_global_stage_matrix": {
+      "w": 3945,
+      "h": 4692,
+      "aspect": 0.841,
+      "std": 80.17
+    },
+    "fig123_global_input_landscape": {
+      "w": 2942,
+      "h": 2731,
+      "aspect": 1.077,
+      "std": 33.1
+    },
+    "fig1_global_coordinate_atlas": {
+      "w": 2750,
+      "h": 2032,
+      "aspect": 1.353,
+      "std": 49.66
+    },
+    "fig2_global_reference_atlas": {
+      "w": 2791,
+      "h": 2582,
+      "aspect": 1.081,
+      "std": 28.97
+    },
+    "fig3_global_fixed_budget_atlas": {
+      "w": 2851,
+      "h": 2482,
+      "aspect": 1.149,
+      "std": 49.03
+    }
+  },
+  "expected_dataset_cards": 26,
+  "missing_dataset_cards": [],
+  "pages": {
+    "dataset-atlas\\index.html": {
+      "refs": 165,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    },
+    "dataset-atlas\\index_zh.html": {
+      "refs": 165,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    },
+    "index.html": {
+      "refs": 138,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    },
+    "index_zh.html": {
+      "refs": 138,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    },
+    "manuscript\\fig1-3.html": {
+      "refs": 21,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    },
+    "manuscript\\fig1-3_zh.html": {
+      "refs": 21,
+      "missing": [],
+      "privacy_hits": 0,
+      "mojibake_hits": 0,
+      "control_chars": 0
+    }
+  },
+  "privacy_leak_files": [],
+  "datasets_absent_from_page": [],
+  "n_rows": 40,
+  "issues": []
+}

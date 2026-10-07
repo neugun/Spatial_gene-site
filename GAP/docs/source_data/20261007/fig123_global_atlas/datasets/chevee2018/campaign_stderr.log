@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "[GAP_ROOT]\toolkit_runtime\gap\cli.py", line 327, in <module>
+    if __name__=="__main__":main()
+                            ~~~~^^
+  File "[GAP_ROOT]\toolkit_runtime\gap\cli.py", line 235, in main
+    z=run_tool(a.path,species=a.species,region=a.region,region_col=a.region_col,goals=a.goals,backend=a.backend,out_dir=a.out,
+               mode=a.mode,max_targets=a.max_targets,max_operator_targets=a.max_operator_targets,
+    ...<6 lines>...
+               generalize_target_region_col=a.generalize_target_region_col,
+               generalize_n_perm=a.generalize_n_perm)
+  File "[GAP_ROOT]\toolkit_runtime\gap\tool.py", line 959, in run
+    f"{(meta or {}).get('n_contexts_all',0)} contexts; "
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[GAP_ROOT]\toolkit_runtime\gap\tool.py", line 467, in _scientific_summary
+    icol="zhao_relation_index" if "zhao_relation_index" in ok else "correlation_index"
+    ^^^^^^^^^^^^^
+  File "[internal_path]", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "[internal_path]", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "[internal_path]", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "[internal_path]", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "[internal_path]", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file

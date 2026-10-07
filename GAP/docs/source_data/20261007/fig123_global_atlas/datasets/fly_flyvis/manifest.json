@@ -1,0 +1,111 @@
+{
+  "tool": "GAP",
+  "tool_version": "0.8-end2end-evidence-gates",
+  "input": "[GAP_ROOT]\\toolkit_runtime\\results\\_joint_cache\\fly_flyvis.parquet",
+  "runtime_modules": {
+    "gap_tool": "[GAP_ROOT]\\toolkit_runtime\\gap\\tool.py",
+    "gap_package": "[GAP_ROOT]\\toolkit_runtime\\gap\\__init__.py",
+    "gxa_package": "[GAP_ROOT]\\toolkit_runtime\\gxa\\__init__.py"
+  },
+  "requested_species": null,
+  "resolved_species": "fly",
+  "requested_region": null,
+  "resolved_region": null,
+  "requested_region_column": null,
+  "resolved_region_column": null,
+  "goals": "function_map,coordinate_mediation,atlaslift,fixed_budget,projection_map,relation_index,information_criterion,effect_size",
+  "backend": "local",
+  "mode": "quick",
+  "foundation_models": [
+    "compact",
+    "large"
+  ],
+  "perturbation_data": null,
+  "perturbation_col": "gene_target",
+  "context_col": null,
+  "perturbation_compatibility": null,
+  "generalize_target": null,
+  "generalize_pairs": "auto",
+  "generalize_target_species": null,
+  "generalize_target_region": null,
+  "generalize_target_region_column": null,
+  "generalization_authority": null,
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "blocked (input requirements not met)",
+    "fixed_budget": "blocked (input requirements not met)",
+    "projection_map": "blocked (input requirements not met)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "blocked (input requirements not met)"
+  },
+  "errors": {},
+  "readiness": {
+    "Fig4": {
+      "status": "NOT_RUN"
+    },
+    "Fig5": {
+      "status": "NOT_APPLICABLE",
+      "reason": "no molecular operator can be defined"
+    },
+    "Fig6": {
+      "status": "NOT_RUN"
+    },
+    "Fig7": {
+      "status": "NOT_APPLICABLE",
+      "reason": "no validated molecular operator"
+    }
+  },
+  "scientific_summary": {
+    "Fig1-3 evidence": {
+      "question": "How strongly are molecular identity and function related under complementary Fig1-3 statistical views (relation graph, complexity-penalized AIC, and effect size)?",
+      "status": "NOT_RUN",
+      "allowed_claim": "Fig1-3 evidence modules were not run in this bundle.",
+      "guardrail": "Do not interpret an unexecuted evidence module as a null result."
+    },
+    "Fig4": {
+      "question": "Do molecular measurements add unique information about a missing functional coordinate after the other measured functions are known?",
+      "status": "NOT_RUN",
+      "allowed_claim": "Fig4 completion was not executed in this bundle (status=NOT_RUN).",
+      "guardrail": "Do not interpret an unexecuted or preflight-blocked stage as a negative biological result."
+    },
+    "Fig5": {
+      "question": "Can molecular state predict a multivariate functional response law across held biological units, and does shared structure improve on independent prediction?",
+      "status": "NOT_APPLICABLE",
+      "allowed_claim": "No molecular multivariate operator is scientifically defined for this dataset.",
+      "guardrail": "Do not fabricate a gene-to-response operator from non-molecular structural labels.",
+      "deployment_model": "shared_fullrank",
+      "fig7_support_mode": null,
+      "deployment_vs_independent_delta": {},
+      "validation_metrics": null
+    },
+    "Fig6": {
+      "question": "Does the frozen GAP representation add information beyond raw measured genes, or support a prespecified cross-dataset transfer?",
+      "status": "NOT_RUN",
+      "allowed_claim": "Foundation/generalization stage is NOT_RUN.",
+      "guardrail": "Do not lower gene/region preflight thresholds or invent semantic endpoint pairs merely to force a Fig6 result."
+    },
+    "Fig7": {
+      "question": "Is there a held-unit-qualified molecular-to-function law that can be used for prospective perturbation ranking across cellular contexts?",
+      "status": "NOT_APPLICABLE",
+      "allowed_claim": "Fig7 correctly stops: no validated molecular operator.",
+      "guardrail": "A scientifically correct stop is a tool PASS and should remain visible as a boundary."
+    }
+  },
+  "policy": {
+    "default": "local-first",
+    "auto_submit_slurm": false,
+    "rule": "Slurm is an accelerator for large/GPU/array work, never a hidden dependency."
+  },
+  "resources": {
+    "cpu_count": 16,
+    "gpu_hardware_available": true,
+    "gpu_runtime_ready": false,
+    "gpu_name": "Quadro RTX 4000",
+    "gpu_worker": null,
+    "gpu_worker_ready": false,
+    "gpu_worker_cuda": false,
+    "slurm_cli_available": false
+  }
+}

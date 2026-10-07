@@ -1,0 +1,36 @@
+{
+  "Fig1-3 evidence": {
+    "question": "How strongly are molecular identity and function related under complementary Fig1-3 statistical views (relation graph, complexity-penalized AIC, and effect size)?",
+    "status": "EXECUTED",
+    "allowed_claim": "relation index: 1 eligible identity levels, 0 with BH q<=0.05; strongest=0.0822083766008999 (type_l1); same-sample AIC: strongest median deltaAIC(type-gene)=-0.7888602595566567 at type_l1; gene-better fraction=0.4375; rank-biserial: 368 gene-target pairs; median absolute effect=0.093412188718147; >=0.2 with >=0.75 sign consistency=30",
+    "guardrail": "Relation index, AIC, and rank-biserial answer different questions. Positive deltaAIC(type-gene) favors genes only for same-sample models with explicit parameter counts; rank-biserial magnitude is not by itself a multiple-testing-significant gene claim."
+  },
+  "Fig4": {
+    "question": "Do molecular measurements add unique information about a missing functional coordinate after the other measured functions are known?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig4 completion was not executed in this bundle (status=NOT_RUN).",
+    "guardrail": "Do not interpret an unexecuted or preflight-blocked stage as a negative biological result."
+  },
+  "Fig5": {
+    "question": "Can molecular state predict a multivariate functional response law across held biological units, and does shared structure improve on independent prediction?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig5 operator was not executed in this bundle (status=NOT_RUN).",
+    "guardrail": "Do not interpret an unexecuted operator stage as failure of the response-law hypothesis.",
+    "deployment_model": "shared_fullrank",
+    "fig7_support_mode": null,
+    "deployment_vs_independent_delta": {},
+    "validation_metrics": null
+  },
+  "Fig6": {
+    "question": "Does the frozen GAP representation add information beyond raw measured genes, or support a prespecified cross-dataset transfer?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Foundation/generalization stage is NOT_RUN.",
+    "guardrail": "Do not lower gene/region preflight thresholds or invent semantic endpoint pairs merely to force a Fig6 result."
+  },
+  "Fig7": {
+    "question": "Is there a held-unit-qualified molecular-to-function law that can be used for prospective perturbation ranking across cellular contexts?",
+    "status": "NOT_READY",
+    "allowed_claim": "Fig7 status: NOT_READY.",
+    "guardrail": "Prospective nomination requires a held-unit-qualified molecular operator and compatible perturbation gene coverage."
+  }
+}

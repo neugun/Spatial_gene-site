@@ -1,0 +1,4 @@
+[GAP_ROOT]\toolkit_runtime\gap\metrics.py:66: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson=float(pearsonr(y,p).statistic) if sp>1e-12 else np.nan,
+[GAP_ROOT]\toolkit_runtime\gap\metrics.py:67: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman=float(spearmanr(y,p).statistic) if sp>1e-12 else np.nan,

@@ -1,0 +1,739 @@
+{
+  "profile": {
+    "n_rows": 63251,
+    "n_genes": 13,
+    "n_functional_targets": 27,
+    "n_projection_targets": 0,
+    "has_biological_groups": true,
+    "has_cell_type": true,
+    "has_spatial_coordinates": false,
+    "species": "mouse",
+    "capabilities": {
+      "atlaslift": {
+        "available": true,
+        "why": "Any mapped molecular coordinates may be AtlasLifted; anchor quality is scored continuously rather than gated by panel size.",
+        "requires": [
+          "genes",
+          "reference"
+        ],
+        "molecular_mode": "categorical_one_hot",
+        "model_zoo": [
+          "measured_raw",
+          "taxonomy_anchor",
+          "AtlasLift_continuous",
+          "AtlasLift_raw+continuous",
+          "AtlasLift+brain_prior",
+          "AtlasLift+TF_prior"
+        ],
+        "metrics": [
+          "anchor_score",
+          "quality_flag",
+          "anchor_mode",
+          "overlap_genes",
+          "overlap_fraction",
+          "evidence_precision",
+          "geometry_rho",
+          "geometry_null_p",
+          "geometry_sign_agreement",
+          "masked_gene_recovery_mean_rho",
+          "recovery_null_delta_rho",
+          "recovery_null_p",
+          "mapping_stability",
+          "query_effective_rank",
+          "reference_effective_rank",
+          "posterior_pmax",
+          "posterior_entropy",
+          "downstream_r2",
+          "downstream_spearman",
+          "held_animal_delta"
+        ],
+        "primary_metrics": [
+          "anchor_score",
+          "quality_flag",
+          "geometry_rho",
+          "masked_gene_recovery_mean_rho",
+          "mapping_stability",
+          "downstream_r2"
+        ]
+      },
+      "function_map": {
+        "available": true,
+        "why": "Molecular information -> held-unit behavioral/response functional coordinates.",
+        "requires": [
+          "genes",
+          "functional targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "Ridge",
+          "Lasso",
+          "PLS",
+          "PCA32+Ridge",
+          "ExtraTrees"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "r2",
+          "spearman",
+          "nrmse",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "coordinate_mediation": {
+        "available": true,
+        "why": "Held-unit comparison of molecular identity, genes, spatial/anatomical coordinates and their combinations on identical splits.",
+        "requires": [
+          "functional targets",
+          "biological groups",
+          ">=2 coordinate families"
+        ],
+        "model_zoo": [
+          "type",
+          "genes",
+          "space",
+          "morphology",
+          "connectivity",
+          "type+genes",
+          "genes+space",
+          "genes+morphology",
+          "genes+connectivity",
+          "all_coordinates"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "r2",
+          "spearman",
+          "auroc",
+          "auprc",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "functional_completion": {
+        "available": true,
+        "why": "Biology-aware Fig4 function completion: function-only vs genes-only vs joint on identical held-unit splits.",
+        "requires": [
+          "genes",
+          ">=2 functional targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "function_only",
+          "genes_only",
+          "joint_function+genes"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction",
+          "molecular_rescue",
+          "delta_spearman_joint_vs_function",
+          "delta_auroc_joint_vs_function",
+          "delta_auprc_joint_vs_function",
+          "heldunit_r2_win_fraction",
+          "heldunit_spearman_win_fraction",
+          "absolute_support"
+        ],
+        "primary_metrics": [
+          "molecular_rescue",
+          "delta_spearman_joint_vs_function",
+          "delta_auroc_joint_vs_function",
+          "heldunit_r2_win_fraction"
+        ]
+      },
+      "projection_map": {
+        "available": false,
+        "why": "Molecular information -> held-unit projection/connectivity coordinates; kept separate from BehLift.",
+        "requires": [
+          "genes",
+          "projection/connectivity targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "Ridge",
+          "PLS",
+          "RRR",
+          "GAP"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "r2",
+          "spearman",
+          "auroc",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "projection_operator": {
+        "available": false,
+        "why": "Shared multi-target operator over projection/connectivity endpoints.",
+        "requires": [
+          "genes",
+          ">=2 projection/connectivity targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "independent_Ridge",
+          "shared_fullrank",
+          "shared_RRR"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "r2",
+          "spearman",
+          "auroc",
+          "auprc",
+          "nrmse",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "relation_index": {
+        "available": true,
+        "why": "Discrete identity-response relation graph with within-biological-unit matched null; the current Zhao-style contract requires >=2 response dimensions within one domain.",
+        "requires": [
+          "categorical identity",
+          ">=2 functional targets or >=2 projection targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "Zhao_relation_graph"
+        ],
+        "metrics": [
+          "zhao_relation_index",
+          "relation_permutation_p",
+          "relation_bh_q",
+          "n_identity",
+          "n_response",
+          "n_edges",
+          "biological_units"
+        ],
+        "primary_metrics": [
+          "zhao_relation_index",
+          "relation_bh_q"
+        ]
+      },
+      "information_criterion": {
+        "available": true,
+        "why": "Same-sample continuous-gene versus categorical-type model comparison with explicit parameter penalty.",
+        "requires": [
+          "genes",
+          "categorical identity",
+          "same target rows",
+          "explicit parameter counts"
+        ],
+        "model_zoo": [
+          "same_sample_baseline",
+          "same_sample_candidate"
+        ],
+        "metrics": [
+          "gaussian_aic",
+          "delta_aic_baseline_minus_candidate",
+          "same_sample_required",
+          "parameter_count_required"
+        ],
+        "primary_metrics": [
+          "delta_aic_baseline_minus_candidate"
+        ]
+      },
+      "effect_size": {
+        "available": false,
+        "why": "Within-biological-unit high-vs-low molecular quartile effect sizes.",
+        "requires": [
+          "non-categorical molecular coordinates",
+          "functional/projection response",
+          "biological groups"
+        ],
+        "molecular_mode": "categorical_one_hot",
+        "model_zoo": [
+          "high_vs_low_quartile"
+        ],
+        "metrics": [
+          "rank_biserial",
+          "mean_rank_biserial",
+          "median_rank_biserial",
+          "held_animal_positive_fraction",
+          "high_low_grouping_rule"
+        ],
+        "primary_metrics": [
+          "rank_biserial",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "foundation_eval": {
+        "available": true,
+        "why": "Frozen GAP foundation forward plus held-biological-unit endpoint evaluation; function and projection domains are evaluated separately and exact gene/region coverage is checked before execution.",
+        "requires": [
+          "genes",
+          "functional or projection targets",
+          "biological groups",
+          "species",
+          "region"
+        ],
+        "model_zoo": [
+          "raw_genes",
+          "gap_compact",
+          "gap_large",
+          "raw+gap_compact",
+          "raw+gap_large"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "spearman",
+          "auroc",
+          "r2",
+          "nrmse",
+          "held_animal_delta"
+        ]
+      },
+      "manifold": {
+        "available": true,
+        "why": "Molecular support for multi-dimensional functional geometry.",
+        "requires": [
+          "genes",
+          ">=2 functional targets",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "identity_only",
+          "raw_genes",
+          "molecular_programs",
+          "GAP_geometry"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "spearman",
+          "r2",
+          "held_animal_delta"
+        ]
+      },
+      "prioritize_genes": {
+        "available": true,
+        "why": "Group-balanced within-biological-unit molecular ranking requires at least two biological units with >=8 rows.",
+        "requires": [
+          "genes",
+          "functional targets",
+          ">=2 biological groups with >=8 rows"
+        ],
+        "model_zoo": [
+          "full_panel",
+          "leave_family_out",
+          "matched_random_panel",
+          "permutation_null"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "held_animal_delta",
+          "spearman",
+          "r2"
+        ]
+      },
+      "fixed_budget": {
+        "available": false,
+        "why": "Fig3 held-unit fixed-budget molecular panel design with matched-K random panels; pure categorical one-hot identity blocks are not treated as measured molecular panels.",
+        "requires": [
+          "non-one-hot genes",
+          "functional/projection targets",
+          "biological groups"
+        ],
+        "molecular_inference_scope": "identity_conditioned",
+        "model_zoo": [
+          "train_only_functional_selector",
+          "matched_random_same_K"
+        ],
+        "metrics": [
+          "r2",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "selected_mean",
+          "random_mean",
+          "random_threshold_mean",
+          "delta_mean",
+          "delta_median",
+          "held_unit_wins",
+          "held_unit_wins_vs_random_threshold",
+          "wilcoxon_p_one_sided",
+          "wilcoxon_q_bh"
+        ],
+        "primary_metrics": [
+          "delta_mean",
+          "held_unit_wins",
+          "wilcoxon_q_bh"
+        ]
+      },
+      "operator": {
+        "available": true,
+        "why": "Structured response-law coordinates.",
+        "requires": [
+          "genes",
+          "multi-dimensional functional response",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "independent_Ridge",
+          "shared_fullrank",
+          "shared_RRR",
+          "GAP_Operator"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "r2",
+          "spearman",
+          "auroc",
+          "auprc",
+          "nrmse",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ]
+      },
+      "transfer": {
+        "available": true,
+        "why": "Species-aware transfer when a compatible source/reference exists.",
+        "requires": [
+          "genes",
+          "species",
+          "biological groups"
+        ],
+        "model_zoo": [
+          "shared_gene_Ridge",
+          "shared_ortholog_Ridge",
+          "foundation_Ridge",
+          "TF_only",
+          "routed_GAP"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "spearman",
+          "auroc",
+          "auprc",
+          "held_animal_delta"
+        ]
+      },
+      "human_link": {
+        "available": true,
+        "why": "Molecular/evolutionary correspondence.",
+        "requires": [
+          "genes",
+          "species"
+        ],
+        "model_zoo": [
+          "orthology",
+          "TF_geometry",
+          "sequence_baseline"
+        ],
+        "metrics": [
+          "r2",
+          "pearson",
+          "spearman",
+          "nrmse",
+          "auroc",
+          "auprc",
+          "brier",
+          "calibration_slope",
+          "calibration_intercept",
+          "held_animal_delta",
+          "held_animal_positive_fraction"
+        ],
+        "primary_metrics": [
+          "spearman",
+          "auroc",
+          "auprc"
+        ]
+      }
+    },
+    "warnings": [
+      "Species inferred as mouse from atlas/organism/canonical-project provenance.",
+      "Molecular block is categorical marker identity; AtlasLift is allowed but interpreted as category-conditioned rather than within-category transcriptomic inference.",
+      "Identity-derived molecular block detected: molecular values are effectively constant within type_l1 identities (equal fraction=1.000). Held-biological-unit CV is therefore identity-conditioned and must not be described as unseen-identity molecular generalization; use a held-identity audit and one-hot identity baseline for that claim.",
+      "Dataset integrity WARN: invalid_targets:2"
+    ],
+    "integrity": {
+      "severity": "WARN",
+      "issues": [
+        "invalid_targets:2"
+      ],
+      "n_rows": 63251,
+      "group_column": "animal_id",
+      "holdout_scope": "biological_unit",
+      "n_biological_units": 256,
+      "n_holdout_groups": 256,
+      "split_contract": {
+        "n_rows": 63251,
+        "mode": "group_kfold_whole_biological_units",
+        "test_rows": [
+          10534,
+          10546,
+          10546,
+          10537,
+          10543,
+          10545
+        ],
+        "n_original_groups": 256,
+        "n_outer_folds": 6,
+        "min_original_group_n": 10,
+        "max_original_group_n": 1117,
+        "min_test_rows": 10534,
+        "n_test_groups_listed": 6
+      },
+      "predictor_blocks": {
+        "genes": {
+          "n_columns": 13,
+          "n_primary_eligible": 13,
+          "median_nonmissing": 1.0,
+          "complete_row_fraction": 1.0,
+          "any_measured_fraction": 1.0,
+          "n_excluded_columns": 0
+        }
+      },
+      "n_genes": 13,
+      "n_partial_gene_panel": 0,
+      "gene_alias_collisions": {},
+      "n_function_targets": 27,
+      "n_projection_targets": 0,
+      "n_strict_targets": 25,
+      "n_partial_targets": 0,
+      "n_invalid_targets": 2,
+      "n_strict_function_targets": 25,
+      "n_partial_function_targets": 0,
+      "n_invalid_function_targets": 2,
+      "n_strict_projection_targets": 0,
+      "n_partial_projection_targets": 0,
+      "n_invalid_projection_targets": 0,
+      "entity_checks": [
+        {
+          "key": "cell_id",
+          "scope": "animal_id+session_id+cell_id",
+          "duplicate_rows": 0
+        }
+      ],
+      "sparse_event_counts": []
+    },
+    "holdout_group_column": "animal_id",
+    "holdout_scope": "biological_unit",
+    "n_holdout_groups": 256,
+    "molecular_semantics": {
+      "mode": "categorical_one_hot",
+      "identity_derived": true,
+      "identity_audit": {
+        "within_identity_equal_fraction": 1.0,
+        "between_identity_variable_fraction": 1.0,
+        "n_repeated_identities": 13,
+        "identity_column": "type_l1",
+        "flag": true
+      }
+    }
+  },
+  "resources": {
+    "cpu_count": 16,
+    "gpu_hardware_available": true,
+    "gpu_runtime_ready": false,
+    "gpu_name": "Quadro RTX 4000",
+    "gpu_worker": null,
+    "gpu_worker_ready": false,
+    "gpu_worker_cuda": false,
+    "slurm_cli_available": false
+  },
+  "policy": {
+    "default": "local-first",
+    "auto_submit_slurm": false,
+    "rule": "Slurm is an accelerator for large/GPU/array work, never a hidden dependency."
+  },
+  "available_references": [
+    "mouse_visp_exact",
+    "mouse_pbn_paulichen_exact",
+    "mouse_peri_ect_exact",
+    "mouse_ssp_bfd_exact",
+    "mouse_mpfc_exact",
+    "mouse_pvn_berkhout_external",
+    "mouse_pvh_berkhout_strict"
+  ],
+  "steps": [
+    {
+      "capability": "function_map",
+      "available": true,
+      "implemented": true,
+      "backend": "local_cpu",
+      "reason": "held-unit Ridge/Lasso/PLS model zoo",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "coordinate_mediation",
+      "available": true,
+      "implemented": true,
+      "backend": "local_cpu",
+      "reason": "same-split held-unit comparison of type, genes, space/anatomy and coordinate combinations",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "atlaslift",
+      "available": true,
+      "implemented": true,
+      "backend": "local_cpu",
+      "reason": "reference scoring and AtlasLift",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "fixed_budget",
+      "available": false,
+      "implemented": true,
+      "backend": "blocked",
+      "reason": "input requirements not met",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "projection_map",
+      "available": false,
+      "implemented": true,
+      "backend": "blocked",
+      "reason": "input requirements not met",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "relation_index",
+      "available": true,
+      "implemented": true,
+      "backend": "local_cpu",
+      "reason": "Zhao-style discrete identity-response graph with within-biological-unit matched null",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "information_criterion",
+      "available": true,
+      "implemented": true,
+      "backend": "local_cpu",
+      "reason": "same-sample type-vs-gene Gaussian AIC with explicit complexity penalty",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    },
+    {
+      "capability": "effect_size",
+      "available": false,
+      "implemented": true,
+      "backend": "blocked",
+      "reason": "input requirements not met",
+      "estimated_scale": "small",
+      "submit_by_default": false
+    }
+  ]
+}

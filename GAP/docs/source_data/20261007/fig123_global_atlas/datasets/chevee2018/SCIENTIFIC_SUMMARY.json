@@ -1,0 +1,43 @@
+{
+  "Fig1-3 evidence": {
+    "question": "How strongly are molecular identity and function related under complementary Fig1-3 statistical views (relation graph, complexity-penalized AIC, and effect size)?",
+    "status": "EXECUTED",
+    "allowed_claim": "relation index: 1 eligible identity levels, 1 with BH q<=0.05; strongest=1.0 (type_l1); rank-biserial: 256 gene-target pairs; median absolute effect=0.248260039418576; >=0.2 with >=0.75 sign consistency=142",
+    "guardrail": "Relation index, AIC, and rank-biserial answer different questions. Positive deltaAIC(type-gene) favors genes only for same-sample models with explicit parameter counts; rank-biserial magnitude is not by itself a multiple-testing-significant gene claim."
+  },
+  "Fig4": {
+    "question": "Do molecular measurements add unique information about a missing functional coordinate after the other measured functions are known?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig4 completion was not executed in this bundle (status=NOT_RUN).",
+    "guardrail": "Do not interpret an unexecuted or preflight-blocked stage as a negative biological result."
+  },
+  "Fig5": {
+    "question": "Can molecular state predict a multivariate functional response law across held biological units, and does shared structure improve on independent prediction?",
+    "status": "PROJECTION_OPERATOR_SUPPORT",
+    "allowed_claim": "The held-unit operator does not meet the prespecified prospective-use gate.",
+    "guardrail": "Stop before Fig7 rather than generating virtual perturbation rankings from an unsupported law.",
+    "deployment_model": "shared_fullrank",
+    "fig7_support_mode": null,
+    "deployment_vs_independent_delta": {},
+    "validation_metrics": {
+      "r2_vw": 0.6770451784029833,
+      "spearman": 0.8342133007951369,
+      "auroc_macro": 0.9866838387386332,
+      "fold_r2_positive_fraction": 1.0,
+      "held_win_fraction_r2": 0.3333333333333333,
+      "held_win_fraction_spearman": 0.0
+    }
+  },
+  "Fig6": {
+    "question": "Does the frozen GAP representation add information beyond raw measured genes, or support a prespecified cross-dataset transfer?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Foundation/generalization stage is NOT_RUN.",
+    "guardrail": "Do not lower gene/region preflight thresholds or invent semantic endpoint pairs merely to force a Fig6 result."
+  },
+  "Fig7": {
+    "question": "Is there a held-unit-qualified molecular-to-function law that can be used for prospective perturbation ranking across cellular contexts?",
+    "status": "NOT_APPLICABLE_FUNCTION_OPERATOR",
+    "allowed_claim": "Fig7 correctly stops: Fig7 default contract requires a validated function-domain operator; projection-only datasets are kept structural.",
+    "guardrail": "A scientifically correct stop is a tool PASS and should remain visible as a boundary."
+  }
+}

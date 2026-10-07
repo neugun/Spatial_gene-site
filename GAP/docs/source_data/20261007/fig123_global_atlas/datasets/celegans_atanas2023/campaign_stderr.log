@@ -1,0 +1,8 @@
+[GAP_ROOT]\toolkit_runtime\gxa\matrix_atlaslift.py:226: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rr=float(spearmanr(P[:,z],O[:,z]).statistic)
+[GAP_ROOT]\toolkit_runtime\gxa\matrix_atlaslift.py:241: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rr=float(spearmanr(P[:,z],O[:,z]).statistic)
+[GAP_ROOT]\toolkit_runtime\gxa\matrix_atlaslift.py:226: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rr=float(spearmanr(P[:,z],O[:,z]).statistic)
+[GAP_ROOT]\toolkit_runtime\gxa\matrix_atlaslift.py:241: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rr=float(spearmanr(P[:,z],O[:,z]).statistic)

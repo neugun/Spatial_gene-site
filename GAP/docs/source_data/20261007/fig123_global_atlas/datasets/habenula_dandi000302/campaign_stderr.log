@@ -1,0 +1,4 @@
+[internal_path]
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+[internal_path]
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="458.568pt" height="446.634pt" viewBox="0 0 458.568 446.634" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-07T12:43:02.719642</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.634 
+L 458.568 446.634 
+L 458.568 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="8.02128" y="54.203248" transform="rotate(-0 8.02128 54.203248)">A  Fig1 coordinate mediation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="8.02128" y="81.314955" transform="rotate(-0 8.02128 81.314955)">BLOCKED</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="8.02128" y="107.617676" transform="rotate(-0 8.02128 107.617676)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="238.32528" y="54.203248" transform="rotate(-0 238.32528 54.203248)">B  Fig1 molecular function map</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="238.32528" y="81.314955" transform="rotate(-0 238.32528 81.314955)">BLOCKED</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="238.32528" y="107.617676" transform="rotate(-0 238.32528 107.617676)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="8.02128" y="260.689248" transform="rotate(-0 8.02128 260.689248)">C  Fig2 AtlasLift</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="8.02128" y="287.800955" transform="rotate(-0 8.02128 287.800955)">BLOCKED</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="8.02128" y="314.103676" transform="rotate(-0 8.02128 314.103676)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="238.32528" y="260.689248" transform="rotate(-0 238.32528 260.689248)">D  Fig3 fixed-budget</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="238.32528" y="287.800955" transform="rotate(-0 238.32528 287.800955)">BLOCKED</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="238.32528" y="314.103676" transform="rotate(-0 238.32528 314.103676)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 9.2px; font-family: 'Arial'; text-anchor: middle" x="229.284" y="10.297852" transform="rotate(-0 229.284 10.297852)">fly_flyvis | rows=65.0 | genes=0.0 | held groups=0.0</text>
+  </g>
+ </g>
+</svg>

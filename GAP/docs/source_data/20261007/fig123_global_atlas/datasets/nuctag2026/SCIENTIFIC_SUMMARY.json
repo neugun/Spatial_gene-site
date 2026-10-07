@@ -1,0 +1,36 @@
+{
+  "Fig1-3 evidence": {
+    "question": "How strongly are molecular identity and function related under complementary Fig1-3 statistical views (relation graph, complexity-penalized AIC, and effect size)?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig1-3 evidence modules were not run in this bundle.",
+    "guardrail": "Do not interpret an unexecuted evidence module as a null result."
+  },
+  "Fig4": {
+    "question": "Do molecular measurements add unique information about a missing functional coordinate after the other measured functions are known?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig4 completion was not executed in this bundle (status=NOT_RUN).",
+    "guardrail": "Do not interpret an unexecuted or preflight-blocked stage as a negative biological result."
+  },
+  "Fig5": {
+    "question": "Can molecular state predict a multivariate functional response law across held biological units, and does shared structure improve on independent prediction?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Fig5 operator was not executed in this bundle (status=NOT_RUN).",
+    "guardrail": "Do not interpret an unexecuted operator stage as failure of the response-law hypothesis.",
+    "deployment_model": "shared_fullrank",
+    "fig7_support_mode": null,
+    "deployment_vs_independent_delta": {},
+    "validation_metrics": null
+  },
+  "Fig6": {
+    "question": "Does the frozen GAP representation add information beyond raw measured genes, or support a prespecified cross-dataset transfer?",
+    "status": "NOT_RUN",
+    "allowed_claim": "Foundation/generalization stage is NOT_RUN.",
+    "guardrail": "Do not lower gene/region preflight thresholds or invent semantic endpoint pairs merely to force a Fig6 result."
+  },
+  "Fig7": {
+    "question": "Is there a held-unit-qualified molecular-to-function law that can be used for prospective perturbation ranking across cellular contexts?",
+    "status": "NOT_APPLICABLE_FUNCTION_OPERATOR",
+    "allowed_claim": "Fig7 correctly stops: Fig7 default contract requires a validated function-domain operator; projection-only datasets are kept structural.",
+    "guardrail": "A scientifically correct stop is a tool PASS and should remain visible as a boundary."
+  }
+}

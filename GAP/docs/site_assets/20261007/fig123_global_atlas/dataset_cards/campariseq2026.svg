@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="458.684891pt" height="446.544744pt" viewBox="0 0 458.684891 446.544744" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-07T12:42:59.425056</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.544744 
+L 458.684891 446.544744 
+L 458.684891 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="70.131225" y="53.462194" transform="rotate(-0 70.131225 53.462194)">A  Fig1 coordinate mediation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="70.131225" y="77.980211" transform="rotate(-0 70.131225 77.980211)">BLOCKED</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="70.131225" y="101.689241" transform="rotate(-0 70.131225 101.689241)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="271.122484" y="53.462194" transform="rotate(-0 271.122484 53.462194)">B  Fig1 molecular function map</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="271.122484" y="77.980211" transform="rotate(-0 271.122484 77.980211)">BLOCKED</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="271.122484" y="101.689241" transform="rotate(-0 271.122484 101.689241)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_2">
+    <path d="M 66.376891 418.461285 
+L 254.093632 418.461285 
+L 254.093632 241.281643 
+L 66.376891 241.281643 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 66.376891 410.407665 
+L 163.374483 410.407665 
+L 163.374483 376.497686 
+L 66.376891 376.497686 
+z
+" clip-path="url(#pccf82de369)" style="fill: #b2232e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 66.376891 368.020191 
+L 201.604141 368.020191 
+L 201.604141 334.110211 
+L 66.376891 334.110211 
+z
+" clip-path="url(#pccf82de369)" style="fill: #b2232e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 66.376891 325.632716 
+L 206.579623 325.632716 
+L 206.579623 291.722737 
+L 66.376891 291.722737 
+z
+" clip-path="url(#pccf82de369)" style="fill: #b2232e"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 66.376891 283.245242 
+L 245.15474 283.245242 
+L 245.15474 249.335263 
+L 66.376891 249.335263 
+z
+" clip-path="url(#pccf82de369)" style="fill: #b2232e"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mc8f3550e13" d="M 0 0 
+L 0 3 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc8f3550e13" x="66.376891" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="66.376891" y="429.911871" transform="rotate(-0 66.376891 429.911871)">0.00</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="92.795786" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="92.795786" y="429.911871" transform="rotate(-0 92.795786 429.911871)">0.02</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="119.214682" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="119.214682" y="429.911871" transform="rotate(-0 119.214682 429.911871)">0.04</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="145.633578" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="145.633578" y="429.911871" transform="rotate(-0 145.633578 429.911871)">0.06</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="172.052473" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="172.052473" y="429.911871" transform="rotate(-0 172.052473 429.911871)">0.08</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="198.471369" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="198.471369" y="429.911871" transform="rotate(-0 198.471369 429.911871)">0.10</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="224.890265" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="224.890265" y="429.911871" transform="rotate(-0 224.890265 429.911871)">0.12</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mc8f3550e13" x="251.30916" y="418.461285" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 6.8px; font-family: 'Arial'; text-anchor: middle" x="251.30916" y="429.911871" transform="rotate(-0 251.30916 429.911871)">0.14</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: middle" x="160.235261" y="441.239947" transform="rotate(-0 160.235261 441.239947)">masked-gene recovery rho</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="m08211cd0fa" d="M 0 0 
+L -3 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m08211cd0fa" x="66.376891" y="393.452675" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 5.3px; font-family: 'Arial'; text-anchor: end" x="59.876891" y="395.381948" transform="rotate(-0 59.876891 395.381948)">zebrafish_gse158_5dpf</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m08211cd0fa" x="66.376891" y="351.065201" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 5.3px; font-family: 'Arial'; text-anchor: end" x="59.876891" y="352.994473" transform="rotate(-0 59.876891 352.994473)">zebrafish_gse158_8dpf</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m08211cd0fa" x="66.376891" y="308.677727" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 5.3px; font-family: 'Arial'; text-anchor: end" x="59.876891" y="310.606999" transform="rotate(-0 59.876891 310.606999)">zebrafish_gse105_k128</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m08211cd0fa" x="66.376891" y="266.290252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 5.3px; font-family: 'Arial'; text-anchor: end" x="59.876891" y="268.219525" transform="rotate(-0 59.876891 268.219525)">zebrafish_gse269_k120</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 66.376891 418.461285 
+L 66.376891 241.281643 
+" clip-path="url(#pccf82de369)" style="fill: none; stroke: #b5b5b5; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 66.376891 418.461285 
+L 66.376891 241.281643 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 66.376891 418.461285 
+L 254.093632 418.461285 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.7px; font-family: 'Arial'; text-anchor: middle" x="160.235261" y="235.281643" transform="rotate(-0 160.235261 235.281643)">C  Fig2 reference recovery</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: start" x="271.122484" y="253.901836" transform="rotate(-0 271.122484 253.901836)">D  Fig3 fixed-budget</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.2px; font-family: 'Arial'; text-anchor: start; fill: #777777" x="271.122484" y="278.419853" transform="rotate(-0 271.122484 278.419853)">BLOCKED</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.7px; font-family: 'Arial'; text-anchor: start; fill: #3f3f3f" x="271.122484" y="302.128884" transform="rotate(-0 271.122484 302.128884)">blocked (input requirements not met)</text>
+   </g>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 9.2px; font-family: 'Arial'; text-anchor: middle" x="229.400891" y="10.297852" transform="rotate(-0 229.400891 10.297852)">campariseq2026 | rows=15559.0 | genes=1500.0 | held groups=4.0</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pccf82de369">
+   <rect x="66.376891" y="241.281643" width="187.716742" height="177.179643"/>
+  </clipPath>
+ </defs>
+</svg>

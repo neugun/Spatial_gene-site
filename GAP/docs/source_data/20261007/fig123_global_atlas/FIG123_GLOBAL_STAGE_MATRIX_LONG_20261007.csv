@@ -1,0 +1,321 @@
+dataset,stage,status,detail,evidence_kind,input_status
+allen_vc2p,function_map,DONE,done (14 summary rows),independent_dataset,CANONICAL_INPUT
+allen_vc2p,coordinate_mediation,DONE,done (7 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+allen_vc2p,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+allen_vc2p,fixed_budget,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+allen_vc2p,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+allen_vc2p,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=0)",independent_dataset,CANONICAL_INPUT
+allen_vc2p,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=0)",independent_dataset,CANONICAL_INPUT
+allen_vc2p,effect_size,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,function_map,DONE,done (9 summary rows),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,coordinate_mediation,DONE,done (4 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,atlaslift,DONE,done (mouse_visp_exact),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,fixed_budget,DONE,done (function:20 rows/9 targets),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=198)",independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=198)",independent_dataset,CANONICAL_INPUT
+allen_visual_learning_hcr,effect_size,DONE,"done (198 gene-target-domain effect rows; function:relation=2,AIC=2,effects=198)",independent_dataset,CANONICAL_INPUT
+barseq2_2021,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+barseq2_2021,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+barseq2_2021,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+barseq2_2021,fixed_budget,DONE,done (projection:5 rows/1 targets),independent_dataset,CANONICAL_INPUT
+barseq2_2021,projection_map,DONE,done (single-target held-unit projection Ridge; macro_r2=0.0191761),independent_dataset,CANONICAL_INPUT
+barseq2_2021,relation_index,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+barseq2_2021,information_criterion,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+barseq2_2021,effect_size,DONE,"done (3 gene-target-domain effect rows; projection:relation=0,AIC=0,effects=3)",independent_dataset,CANONICAL_INPUT
+barseq2_pooled_2021,function_map,DERIVED,derived from barseq2_2021; sensitivity execution: done (2 summary rows),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,coordinate_mediation,DERIVED,derived from barseq2_2021; sensitivity execution: not_applicable (coordinate mediation requires >=3 independent holdout groups),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,atlaslift,DERIVED,derived from barseq2_2021; sensitivity execution: not_applicable (no anatomically eligible registered reference could be scored),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,fixed_budget,DERIVED,derived from barseq2_2021; sensitivity execution: done (function:20 rows/2 targets; projection:20 rows/11 targets),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,projection_map,DERIVED,derived from barseq2_2021; sensitivity execution: done (independent held-unit projection Ridge; r2_vw=-0.121102),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,relation_index,DERIVED,derived from barseq2_2021; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,information_criterion,DERIVED,derived from barseq2_2021; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+barseq2_pooled_2021,effect_size,DERIVED,"derived from barseq2_2021; sensitivity execution: done (117 gene-target-domain effect rows; function:relation=0,AIC=0,effects=18; projection:relation=0,AIC=0,effects=99)",derived_alias,DERIVED_PARENT
+bugeon2022,function_map,DONE,done (5 summary rows),independent_dataset,CANONICAL_INPUT
+bugeon2022,coordinate_mediation,DONE,done (7 coordinate models; 4 held groups),independent_dataset,CANONICAL_INPUT
+bugeon2022,atlaslift,DONE,done (mouse_visp_exact),independent_dataset,CANONICAL_INPUT
+bugeon2022,fixed_budget,DONE,done (function:30 rows/5 targets),independent_dataset,CANONICAL_INPUT
+bugeon2022,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+bugeon2022,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=355)",independent_dataset,CANONICAL_INPUT
+bugeon2022,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=355)",independent_dataset,CANONICAL_INPUT
+bugeon2022,effect_size,DONE,"done (355 gene-target-domain effect rows; function:relation=2,AIC=2,effects=355)",independent_dataset,CANONICAL_INPUT
+bugeon2022_dynamic,function_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,coordinate_mediation,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,atlaslift,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,fixed_budget,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,projection_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,relation_index,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,information_criterion,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_dynamic,effect_size,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,function_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,coordinate_mediation,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,atlaslift,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,fixed_budget,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,projection_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,relation_index,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,information_criterion,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_state_visual,effect_size,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,function_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,coordinate_mediation,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,atlaslift,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,fixed_budget,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,projection_map,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,relation_index,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,information_criterion,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+bugeon2022_visual,effect_size,DERIVED,derived from bugeon2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+campariseq2026,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,atlaslift,DONE,done (zebrafish_gse269_k120),independent_dataset,CANONICAL_INPUT
+campariseq2026,fixed_budget,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,relation_index,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,information_criterion,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+campariseq2026,effect_size,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+carma_vta,function_map,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,coordinate_mediation,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,atlaslift,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,fixed_budget,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,projection_map,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,relation_index,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,information_criterion,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+carma_vta,effect_size,N/A,CONFIG_REQUIRED,private/configured_dataset,NO_CANONICAL_JOINT_INPUT
+celegans_atanas2023,function_map,DONE,done (5 summary rows),independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,coordinate_mediation,DONE,done (8 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,atlaslift,DONE,done (worm_cengen_threshold2),independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,fixed_budget,DONE,done (function:30 rows/5 targets; projection:30 rows/16 targets),independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=0.780754),independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,relation_index,DONE,"done (4 eligible identity-domain levels; function:relation=2,AIC=2,effects=5; projection:relation=2,AIC=2,effects=16)",independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,information_criterion,DONE,"done (4 identity-domain summaries; function:relation=2,AIC=2,effects=5; projection:relation=2,AIC=2,effects=16)",independent_dataset,CANONICAL_INPUT
+celegans_atanas2023,effect_size,DONE,"done (21 gene-target-domain effect rows; function:relation=2,AIC=2,effects=5; projection:relation=2,AIC=2,effects=16)",independent_dataset,CANONICAL_INPUT
+celegans_dynamic,function_map,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,coordinate_mediation,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,atlaslift,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,fixed_budget,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,projection_map,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,relation_index,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,information_criterion,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+celegans_dynamic,effect_size,DERIVED,derived from celegans_atanas2023; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+chevee2018,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+chevee2018,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+chevee2018,atlaslift,DONE,done (mouse_ssp_bfd_exact),independent_dataset,CANONICAL_INPUT
+chevee2018,fixed_budget,DONE,done (projection:30 rows/2 targets),independent_dataset,CANONICAL_INPUT
+chevee2018,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=0.677045),independent_dataset,CANONICAL_INPUT
+chevee2018,relation_index,DONE,"done (1 eligible identity-domain levels; projection:relation=1,AIC=0,effects=256)",independent_dataset,CANONICAL_INPUT
+chevee2018,information_criterion,DONE,"done (0 identity-domain summaries; projection:relation=1,AIC=0,effects=256)",independent_dataset,CANONICAL_INPUT
+chevee2018,effect_size,DONE,"done (256 gene-target-domain effect rows; projection:relation=1,AIC=0,effects=256)",independent_dataset,CANONICAL_INPUT
+condylis2022,function_map,DONE,done (6 summary rows),independent_dataset,CANONICAL_INPUT
+condylis2022,coordinate_mediation,DONE,done (4 coordinate models; 9 held groups),independent_dataset,CANONICAL_INPUT
+condylis2022,atlaslift,DONE,done (mouse_ssp_bfd_exact),independent_dataset,CANONICAL_INPUT
+condylis2022,fixed_budget,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+condylis2022,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+condylis2022,relation_index,DONE,"done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=0)",independent_dataset,CANONICAL_INPUT
+condylis2022,information_criterion,DONE,"done (1 identity-domain summaries; function:relation=1,AIC=1,effects=0)",independent_dataset,CANONICAL_INPUT
+condylis2022,effect_size,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+condylis_dynamic,function_map,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,coordinate_mediation,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,atlaslift,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,fixed_budget,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,projection_map,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,relation_index,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,information_criterion,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+condylis_dynamic,effect_size,DERIVED,derived from condylis2022; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+flicre2020,function_map,DONE,done (2 summary rows),independent_dataset,CANONICAL_INPUT
+flicre2020,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+flicre2020,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+flicre2020,fixed_budget,DONE,done (function:30 rows/2 targets),independent_dataset,CANONICAL_INPUT
+flicre2020,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+flicre2020,relation_index,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+flicre2020,information_criterion,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+flicre2020,effect_size,DONE,"done (256 gene-target-domain effect rows; function:relation=0,AIC=0,effects=256)",independent_dataset,CANONICAL_INPUT
+fly_flyvis,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,atlaslift,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,fixed_budget,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,relation_index,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,information_criterion,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_flyvis,effect_size,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,coordinate_mediation,DONE,done (8 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+fly_turner2021,atlaslift,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,fixed_budget,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,relation_index,DONE,"done (4 eligible identity-domain levels; function:relation=2,AIC=0,effects=0; projection:relation=2,AIC=0,effects=0)",independent_dataset,CANONICAL_INPUT
+fly_turner2021,information_criterion,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+fly_turner2021,effect_size,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,function_map,DONE,done (4 summary rows),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,coordinate_mediation,DONE,done (4 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,atlaslift,BLOCKED,blocked (no compatible reference is available on this machine),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,fixed_budget,DONE,done (function:5 rows/4 targets),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=0)",independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=0)",independent_dataset,CANONICAL_INPUT
+habenula_dandi000302,effect_size,DONE,"done (0 gene-target-domain effect rows; function:relation=2,AIC=2,effects=0)",independent_dataset,CANONICAL_INPUT
+hashikawa2020,function_map,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,coordinate_mediation,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,atlaslift,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,fixed_budget,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,projection_map,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,relation_index,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,information_criterion,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+hashikawa2020,effect_size,N/A,REFERENCE_ONLY,independent_reference,NO_CANONICAL_JOINT_INPUT
+huang2020_bricseq,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,fixed_budget,DONE,done (projection:30 rows/16 targets),independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=-0.229062),independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,relation_index,DONE,"done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=2048)",independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,information_criterion,DONE,"done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=2048)",independent_dataset,CANONICAL_INPUT
+huang2020_bricseq,effect_size,DONE,"done (2048 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=2048)",independent_dataset,CANONICAL_INPUT
+liu2020_fist,function_map,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,coordinate_mediation,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,atlaslift,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,fixed_budget,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,projection_map,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,relation_index,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,information_criterion,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+liu2020_fist,effect_size,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+mergeseq2024,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+mergeseq2024,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+mergeseq2024,atlaslift,DONE,done (mouse_mpfc_exact),independent_dataset,CANONICAL_INPUT
+mergeseq2024,fixed_budget,DONE,done (projection:30 rows/5 targets),independent_dataset,CANONICAL_INPUT
+mergeseq2024,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=0.221815),independent_dataset,CANONICAL_INPUT
+mergeseq2024,relation_index,DONE,"done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=640)",independent_dataset,CANONICAL_INPUT
+mergeseq2024,information_criterion,DONE,"done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=640)",independent_dataset,CANONICAL_INPUT
+mergeseq2024,effect_size,DONE,"done (640 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=640)",independent_dataset,CANONICAL_INPUT
+microns,function_map,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+microns,coordinate_mediation,DONE,done (6 coordinate models; 6 held groups),registered_build_adapter,CANONICAL_INPUT
+microns,atlaslift,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+microns,fixed_budget,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+microns,projection_map,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+microns,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=0,effects=0)",registered_build_adapter,CANONICAL_INPUT
+microns,information_criterion,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+microns,effect_size,BLOCKED,blocked (input requirements not met),registered_build_adapter,CANONICAL_INPUT
+neuroplex2026,function_map,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,coordinate_mediation,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,atlaslift,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,fixed_budget,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,projection_map,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,relation_index,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,information_criterion,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+neuroplex2026,effect_size,N/A,NO_CANONICAL_JOINT_INPUT,independent_dataset,NO_CANONICAL_JOINT_INPUT
+nuctag2026,function_map,N/A,not_applicable (need >=2 scoreable biological-unit folds),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,fixed_budget,N/A,not_applicable (need >=2 scoreable biological-unit folds),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,projection_map,BLOCKED,blocked (input requirements not met),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,relation_index,BLOCKED,blocked (input requirements not met),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,information_criterion,BLOCKED,blocked (input requirements not met),independent_population_dataset,CANONICAL_INPUT
+nuctag2026,effect_size,N/A,not_applicable (need >=2 scoreable biological-unit folds),independent_population_dataset,CANONICAL_INPUT
+nuctag2026_place_silent,function_map,DERIVED,derived from nuctag2026; sensitivity execution: not_applicable (need >=2 scoreable biological-unit folds),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,coordinate_mediation,DERIVED,derived from nuctag2026; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,atlaslift,DERIVED,derived from nuctag2026; sensitivity execution: not_applicable (no anatomically eligible registered reference could be scored),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,fixed_budget,DERIVED,derived from nuctag2026; sensitivity execution: not_applicable (need >=2 scoreable biological-unit folds),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,projection_map,DERIVED,derived from nuctag2026; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,relation_index,DERIVED,derived from nuctag2026; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,information_criterion,DERIVED,derived from nuctag2026; sensitivity execution: blocked (input requirements not met),derived_alias,DERIVED_PARENT
+nuctag2026_place_silent,effect_size,DERIVED,derived from nuctag2026; sensitivity execution: not_applicable (need >=2 scoreable biological-unit folds),derived_alias,DERIVED_PARENT
+photseq2019,function_map,DONE,done (1 summary rows),independent_dataset,CANONICAL_INPUT
+photseq2019,coordinate_mediation,DONE,done (4 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+photseq2019,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+photseq2019,fixed_budget,DONE,done (function:30 rows/1 targets),independent_dataset,CANONICAL_INPUT
+photseq2019,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+photseq2019,relation_index,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+photseq2019,information_criterion,DONE,"done (0 identity-domain summaries; function:relation=0,AIC=0,effects=128)",independent_dataset,CANONICAL_INPUT
+photseq2019,effect_size,DONE,"done (128 gene-target-domain effect rows; function:relation=0,AIC=0,effects=128)",independent_dataset,CANONICAL_INPUT
+shainer2025,function_map,DONE,done (8 summary rows),independent_dataset,CANONICAL_INPUT
+shainer2025,coordinate_mediation,DONE,done (7 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+shainer2025,atlaslift,DONE,done (zebrafish_gse158_8dpf),independent_dataset,CANONICAL_INPUT
+shainer2025,fixed_budget,DONE,done (function:10 rows/8 targets),independent_dataset,CANONICAL_INPUT
+shainer2025,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+shainer2025,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=64)",independent_dataset,CANONICAL_INPUT
+shainer2025,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=64)",independent_dataset,CANONICAL_INPUT
+shainer2025,effect_size,DONE,"done (64 gene-target-domain effect rows; function:relation=2,AIC=2,effects=64)",independent_dataset,CANONICAL_INPUT
+sorensen2026,function_map,DONE,done (2 summary rows),independent_dataset,CANONICAL_INPUT
+sorensen2026,coordinate_mediation,DONE,done (8 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+sorensen2026,atlaslift,DONE,done (mouse_visp_exact),independent_dataset,CANONICAL_INPUT
+sorensen2026,fixed_budget,DONE,done (function:5 rows/2 targets; projection:5 rows/16 targets),independent_dataset,CANONICAL_INPUT
+sorensen2026,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=0.245769),independent_dataset,CANONICAL_INPUT
+sorensen2026,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=1,AIC=1,effects=0; projection:relation=1,AIC=1,effects=0)",independent_dataset,CANONICAL_INPUT
+sorensen2026,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=1,AIC=1,effects=0; projection:relation=1,AIC=1,effects=0)",independent_dataset,CANONICAL_INPUT
+sorensen2026,effect_size,DONE,"done (0 gene-target-domain effect rows; function:relation=1,AIC=1,effects=0; projection:relation=1,AIC=1,effects=0)",independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,function_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,coordinate_mediation,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,atlaslift,N/A,not_applicable (no anatomically eligible registered reference could be scored),independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,fixed_budget,DONE,done (projection:25 rows/5 targets),independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=-0.0977188),independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,relation_index,DONE,"done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=145)",independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,information_criterion,DONE,"done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=145)",independent_dataset,CANONICAL_INPUT
+wang2023_cea_easifish,effect_size,DONE,"done (145 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=145)",independent_dataset,CANONICAL_INPUT
+warp2026,function_map,DONE,done (8 summary rows),independent_dataset,CANONICAL_INPUT
+warp2026,coordinate_mediation,DONE,done (7 coordinate models; 3 held groups),independent_dataset,CANONICAL_INPUT
+warp2026,atlaslift,DONE,done (zebrafish_gse158_5dpf),independent_dataset,CANONICAL_INPUT
+warp2026,fixed_budget,DONE,done (function:25 rows/8 targets),independent_dataset,CANONICAL_INPUT
+warp2026,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+warp2026,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=24)",independent_dataset,CANONICAL_INPUT
+warp2026,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=2,AIC=2,effects=24)",independent_dataset,CANONICAL_INPUT
+warp2026,effect_size,DONE,"done (24 gene-target-domain effect rows; function:relation=2,AIC=2,effects=24)",independent_dataset,CANONICAL_INPUT
+warp_dynamic,function_map,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,coordinate_mediation,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,atlaslift,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,fixed_budget,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,projection_map,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,relation_index,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,information_criterion,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+warp_dynamic,effect_size,DERIVED,derived from warp2026; sensitivity execution: not separately executed,derived_contract,DERIVED_PARENT
+xu2020,function_map,DONE,done (11 summary rows),independent_dataset,CANONICAL_INPUT
+xu2020,coordinate_mediation,DONE,done (4 coordinate models; 3 held groups),independent_dataset,CANONICAL_INPUT
+xu2020,atlaslift,DONE,done (mouse_pvn_berkhout_external),independent_dataset,CANONICAL_INPUT
+xu2020,fixed_budget,DONE,done (function:10 rows/11 targets),independent_dataset,CANONICAL_INPUT
+xu2020,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+xu2020,relation_index,DONE,"done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=77)",independent_dataset,CANONICAL_INPUT
+xu2020,information_criterion,DONE,"done (1 identity-domain summaries; function:relation=1,AIC=1,effects=77)",independent_dataset,CANONICAL_INPUT
+xu2020,effect_size,DONE,"done (77 gene-target-domain effect rows; function:relation=1,AIC=1,effects=77)",independent_dataset,CANONICAL_INPUT
+yalevagus2022_surrogate,function_map,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,coordinate_mediation,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,atlaslift,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,fixed_budget,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,projection_map,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,relation_index,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,information_criterion,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+yalevagus2022_surrogate,effect_size,N/A,SURROGATE_ONLY,surrogate_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,function_map,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,coordinate_mediation,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,atlaslift,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,fixed_budget,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,projection_map,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,relation_index,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,information_criterion,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhang2021_mop_retromerfish,effect_size,N/A,UNAVAILABLE_JOINT_DATA,unavailable_joint_dataset,NO_CANONICAL_JOINT_INPUT
+zhao2026,function_map,DONE,done (5 summary rows),independent_dataset,CANONICAL_INPUT
+zhao2026,coordinate_mediation,DONE,done (16 coordinate models; 6 held groups),independent_dataset,CANONICAL_INPUT
+zhao2026,atlaslift,DONE,done (mouse_visp_exact),independent_dataset,CANONICAL_INPUT
+zhao2026,fixed_budget,DONE,done (function:25 rows/5 targets; projection:25 rows/16 targets),independent_dataset,CANONICAL_INPUT
+zhao2026,projection_map,DONE,done (independent held-unit projection Ridge; r2_vw=-0.0267287),independent_dataset,CANONICAL_INPUT
+zhao2026,relation_index,DONE,"done (2 eligible identity-domain levels; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=480)",independent_dataset,CANONICAL_INPUT
+zhao2026,information_criterion,DONE,"done (2 identity-domain summaries; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=480)",independent_dataset,CANONICAL_INPUT
+zhao2026,effect_size,DONE,"done (630 gene-target-domain effect rows; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=480)",independent_dataset,CANONICAL_INPUT
+human_intrinsic_ephys,function_map,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,coordinate_mediation,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,atlaslift,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,fixed_budget,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,projection_map,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,relation_index,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,information_criterion,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+human_intrinsic_ephys,effect_size,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,function_map,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,coordinate_mediation,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,atlaslift,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,fixed_budget,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,projection_map,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,relation_index,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,information_criterion,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+whole_brain_perturbseq,effect_size,N/A,EXTERNAL_SCOPE,external_evidence_scope,NO_CANONICAL_JOINT_INPUT
+mclachlan2025,function_map,DONE,done (16 summary rows),independent_dataset,CANONICAL_INPUT
+mclachlan2025,coordinate_mediation,DONE,done (4 coordinate models; 4 held groups),independent_dataset,CANONICAL_INPUT
+mclachlan2025,atlaslift,DONE,done (mouse_peri_ect_exact),independent_dataset,CANONICAL_INPUT
+mclachlan2025,fixed_budget,DONE,done (function:20 rows/16 targets),independent_dataset,CANONICAL_INPUT
+mclachlan2025,projection_map,BLOCKED,blocked (input requirements not met),independent_dataset,CANONICAL_INPUT
+mclachlan2025,relation_index,DONE,"done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=368)",independent_dataset,CANONICAL_INPUT
+mclachlan2025,information_criterion,DONE,"done (1 identity-domain summaries; function:relation=1,AIC=1,effects=368)",independent_dataset,CANONICAL_INPUT
+mclachlan2025,effect_size,DONE,"done (368 gene-target-domain effect rows; function:relation=1,AIC=1,effects=368)",independent_dataset,CANONICAL_INPUT

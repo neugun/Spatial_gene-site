@@ -1,0 +1,68 @@
+{
+  "version": "fig123_global_dataset_atlas_20261007_v1",
+  "n_registry_rows": 40,
+  "n_canonical_inputs": 24,
+  "n_derived_rows": 8,
+  "campaign_status_counts": {
+    "COMPLETE": 24,
+    "DERIVED_FROM_PARENT": 6,
+    "DERIVED_EXECUTED": 2,
+    "EXTERNAL_SCOPE": 2,
+    "NO_CANONICAL_JOINT_INPUT": 2,
+    "REFERENCE_ONLY": 1,
+    "CONFIG_REQUIRED": 1,
+    "SURROGATE_ONLY": 1,
+    "UNAVAILABLE_JOINT_DATA": 1
+  },
+  "stage_status_counts": {
+    "function_map": {
+      "DONE": 14,
+      "BLOCKED": 9,
+      "N/A": 9,
+      "DERIVED": 8
+    },
+    "coordinate_mediation": {
+      "DONE": 15,
+      "BLOCKED": 9,
+      "DERIVED": 8,
+      "N/A": 8
+    },
+    "atlaslift": {
+      "N/A": 15,
+      "DONE": 13,
+      "DERIVED": 8,
+      "BLOCKED": 4
+    },
+    "fixed_budget": {
+      "DONE": 17,
+      "N/A": 9,
+      "DERIVED": 8,
+      "BLOCKED": 6
+    },
+    "projection_map": {
+      "BLOCKED": 16,
+      "DONE": 8,
+      "DERIVED": 8,
+      "N/A": 8
+    },
+    "relation_index": {
+      "DONE": 18,
+      "DERIVED": 8,
+      "N/A": 8,
+      "BLOCKED": 6
+    },
+    "information_criterion": {
+      "DONE": 17,
+      "DERIVED": 8,
+      "N/A": 8,
+      "BLOCKED": 7
+    },
+    "effect_size": {
+      "DONE": 17,
+      "N/A": 9,
+      "DERIVED": 8,
+      "BLOCKED": 6
+    }
+  },
+  "principle": "Every registry row is visible. A blocked/N/A row is coverage, not disappearance; biological positivity is separate from execution coverage."
+}
