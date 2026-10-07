@@ -1,0 +1,32 @@
+{
+  "stage": 963,
+  "status": "DISPLAY_READY_PENDING_VISUAL_QA",
+  "expression_authority": "Stage943 Route A",
+  "biological_region_authority": "Stage956 unchanged",
+  "display": "x'=min(x)+max(x)-x; y'=min(y)+max(y)-y for EACH section",
+  "smooth_method": "display-only smoothing, unchanged Stage956 cell labels",
+  "region_QA": {
+    "500": {
+      "sigma": 3.0,
+      "agreement": 0.9885369160606434,
+      "min_region_iou": 0.9666238767650834,
+      "removed_detached_mask_pixels": 0,
+      "filled_small_hole_pixels": 23
+    },
+    "530": {
+      "sigma": 3.0,
+      "agreement": 0.9901511128276927,
+      "min_region_iou": 0.9664634146341463,
+      "removed_detached_mask_pixels": 15,
+      "filled_small_hole_pixels": 191
+    },
+    "560": {
+      "sigma": 3.0,
+      "agreement": 0.9900697126235016,
+      "min_region_iou": 0.9008379888268156,
+      "removed_detached_mask_pixels": 12,
+      "filled_small_hole_pixels": 96
+    }
+  },
+  "gene_maps": 81
+}

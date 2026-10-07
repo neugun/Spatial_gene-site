@@ -1,0 +1,44 @@
+{
+  "stage": 965,
+  "status": "PASS",
+  "issues": [],
+  "gene_maps": 81,
+  "n_genes": 27,
+  "region_display_agreement": {
+    "500": {
+      "sigma": 3.0,
+      "agreement": 0.9885369160606434,
+      "min_region_iou": 0.9666238767650834,
+      "removed_detached_mask_pixels": 0,
+      "filled_small_hole_pixels": 23
+    },
+    "530": {
+      "sigma": 3.0,
+      "agreement": 0.9901511128276927,
+      "min_region_iou": 0.9664634146341463,
+      "removed_detached_mask_pixels": 15,
+      "filled_small_hole_pixels": 191
+    },
+    "560": {
+      "sigma": 3.0,
+      "agreement": 0.9900697126235016,
+      "min_region_iou": 0.9008379888268156,
+      "removed_detached_mask_pixels": 12,
+      "filled_small_hole_pixels": 96
+    }
+  },
+  "page_integrity": {
+    "index.html": {
+      "n_images": 87,
+      "n_broken_links": 0
+    },
+    "single-cell.html": {
+      "n_images": 17,
+      "n_broken_links": 0
+    }
+  },
+  "expression_unchanged": true,
+  "source_Stage943_RouteA": true,
+  "fine26_labels_and_stage956_region_assignments_unchanged": true,
+  "note": "Stage963 is display-only smoothing; it does not validate the anatomical interpretation of 10 regions."
+}

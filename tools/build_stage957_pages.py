@@ -1,10 +1,15 @@
+# Historical Stage957 page generator. It predates the Stage958–966 additions.
+# Disabled by default so old page regeneration cannot silently erase newer validated content.
+import sys
+if "--allow-historical-stage957-overwrite" not in sys.argv:
+    raise SystemExit("Historical Stage957 builder disabled; current site uses Stage958–966. Explicit --allow-historical-stage957-overwrite required.")
 from pathlib import Path
 import json, html
 import pandas as pd
 
 PUB=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review")
 DATA=PUB/"data"
-MAN=pd.read_csv(DATA/"stage956_gene_section_manifest.csv")
+MAN=pd.read_csv(DATA/"stage963_gene_section_manifest.csv")
 REG=pd.read_csv(DATA/"stage956_marker_guided_region10_manifest.csv")
 POL=pd.read_csv(DATA/"stage956_gene_colorbar_policy.csv")
 genes=MAN.gene.drop_duplicates().astype(str).tolist()
@@ -17,9 +22,9 @@ for g in genes:
     panes=[]
     for ss in secs:
         r=MAN[(MAN.gene==g)&(MAN.section==ss)].iloc[0]
-        panes.append(f'''<a class="pane" href="assets/stage956_final_atlas_v2/{r.preview}" target="_blank">
+        panes.append(f'''<a class="pane" href="assets/stage963_orientation_smooth/{r.file}" target="_blank">
           <div class="pane-head"><span>S{ss}</span><span>0–{float(r.vmax):.1f}</span></div>
-          <img src="assets/stage956_final_atlas_v2/{r.preview}" loading="lazy" alt="{html.escape(g)} S{ss} expression">
+          <img src="assets/stage963_orientation_smooth/{r.file}" loading="lazy" alt="{html.escape(g)} S{ss} expression">
         </a>''')
     note="broad-expression scale" if class_map[g].startswith("broad") else "shared per-gene scale"
     cards.append(f'''<article class="gene-card" data-gene="{g.lower()}">
@@ -77,10 +82,10 @@ index=f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport"
 <main>
 <section id="locator"><h2>LC / periLC locator</h2>
 <p class="lead">LC and the operational periLC field are shown only as anatomical locators. Gene-expression panels below show the complete section and are not cropped to these regions.</p>
-<a href="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" target="_blank"><img class="hero" src="assets/stage947_final_atlas/FINAL_LC_PERILC_LOCATOR.png" alt="LC periLC locator"></a></section>
+<a href="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png" alt="LC periLC locator"></a></section>
 <section id="regions"><h2>Marker-guided section-specific 10-subregion reference</h2>
 <p class="lead">Each section is partitioned independently. The required anchors are <b>Hcrtr1, Bcl11b, Slc5a7, Lmx1a, Piezo2, Slc6a2 and Ghr</b>, supplemented by the most spatially informative genes in that section. Region numbers are local to each section; no cross-section homology is imposed. S560 uses the stronger smoothing search selected by the marker-preservation gate.</p>
-<a href="assets/stage956_final_atlas_v2/FINAL_MARKER_GUIDED_REGION10.png" target="_blank"><img class="hero" src="assets/stage956_final_atlas_v2/FINAL_MARKER_GUIDED_REGION10.png" alt="marker guided section specific ten regions"></a>
+<a href="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_XY_REVERSED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_XY_REVERSED.png" alt="marker guided section specific ten regions"></a>
 <div class="region-notes">{''.join(region_notes)}</div></section>
 <section id="genes"><h2>Final gene × section expression atlas</h2>
 <p class="lead">All maps use reversed x/y display orientation. Every panel shows an explicit <b>spot-count colorbar</b> and numeric display range. The three sections share one range per gene. Broad genes use a lower saturation ceiling; Snap25 is intentionally shown with an 85th-percentile positive-count maximum so widespread expression remains visible.</p>
@@ -89,7 +94,7 @@ index=f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport"
 <p class="lead">Only final biological summaries are retained here; correction sweeps and engineering intermediates remain outside the main atlas.</p>
 <div class="cards">
 <article class="card"><h3>Region10 × 27-gene molecular profiles</h3><a href="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png" target="_blank"><img src="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png" loading="lazy"></a><p>Section-local region identities are summarized independently; matching region numbers across sections are not assumed to be homologous.</p></article>
-<article class="card"><h3>Fine26 populations in tissue space</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img src="assets/current_fine26_spatial_atlas.jpg" loading="lazy"></a><p>Frozen single-cell molecular identities across the three-section atlas.</p></article>
+<article class="card"><h3>Fine26 populations in tissue space</h3><a href="assets/stage963_orientation_smooth/FINE26_XY_CURRENT.jpg" target="_blank"><img src="assets/stage963_orientation_smooth/FINE26_XY_CURRENT.jpg" loading="lazy"></a><p>Frozen single-cell molecular identities across the three-section atlas.</p></article>
 <article class="card"><h3>Soma geometry by molecular population</h3><a href="assets/current_morph_size_distributions.jpg" target="_blank"><img src="assets/current_morph_size_distributions.jpg" loading="lazy"></a><p>Distribution-level morphology, not only effect-size summaries.</p></article>
 <article class="card"><h3>Projection-associated molecular organization</h3><a href="assets/current_projection_reproducible.jpg" target="_blank"><img src="assets/current_projection_reproducible.jpg" loading="lazy"></a><p>Reproducible projection-linked enrichments are kept downstream of the direct molecular atlas.</p></article>
 </div></section>
@@ -115,7 +120,7 @@ single=f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 <div class="cards"><article class="card"><h3>Current Fine26 marker dotplot</h3><a href="assets/current_fine26_dotplot.jpg" target="_blank"><img src="assets/current_fine26_dotplot.jpg"></a></article>
 <article class="card"><h3>Cross-section reproducibility</h3><a href="assets/current_fine26_section_repro.jpg" target="_blank"><img src="assets/current_fine26_section_repro.jpg"></a></article></div></section>
 <section id="spatial"><h2>Single-cell ↔ spatial atlas</h2><div class="cards">
-<article class="card"><h3>Fine26 in tissue space</h3><a href="assets/current_fine26_spatial_atlas.jpg" target="_blank"><img src="assets/current_fine26_spatial_atlas.jpg"></a></article>
+<article class="card"><h3>Fine26 in tissue space</h3><a href="assets/stage963_orientation_smooth/FINE26_XY_CURRENT.jpg" target="_blank"><img src="assets/stage963_orientation_smooth/FINE26_XY_CURRENT.jpg"></a></article>
 <article class="card"><h3>Marker-guided region10 molecular profiles</h3><a href="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png" target="_blank"><img src="assets/stage956_final_atlas_v2/REGION10_GENE_PROFILE.png"></a><p>Links section-local spatial domains to the 27-gene molecular state.</p></article></div></section>
 <section id="morphology"><h2>Morphology</h2><div class="cards">
 <article class="card"><h3>Population distributions</h3><a href="assets/current_morph_size_distributions.jpg" target="_blank"><img src="assets/current_morph_size_distributions.jpg"></a></article>
