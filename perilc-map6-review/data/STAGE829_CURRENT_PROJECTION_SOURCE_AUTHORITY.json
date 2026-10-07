@@ -1,0 +1,119 @@
+{
+  "stage": 829,
+  "status": "COMPLETE",
+  "targets": [
+    "VTA",
+    "PCRT"
+  ],
+  "cohort_sizes": [
+    {
+      "target": "PCRT",
+      "baseline_section": 500,
+      "n_target": 628
+    },
+    {
+      "target": "PCRT",
+      "baseline_section": 530,
+      "n_target": 949
+    },
+    {
+      "target": "PCRT",
+      "baseline_section": 560,
+      "n_target": 251
+    },
+    {
+      "target": "VTA",
+      "baseline_section": 500,
+      "n_target": 45
+    },
+    {
+      "target": "VTA",
+      "baseline_section": 530,
+      "n_target": 49
+    },
+    {
+      "target": "VTA",
+      "baseline_section": 560,
+      "n_target": 188
+    }
+  ],
+  "n_reproducible_pairs": 8,
+  "reproducible_pairs": [
+    {
+      "target": "PCRT",
+      "fine26": "E02",
+      "median_log2": 0.065397069526703,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 3,
+      "min_fdr": 3.44327125415424e-16
+    },
+    {
+      "target": "PCRT",
+      "fine26": "E08",
+      "median_log2": -0.6244564161493955,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 3,
+      "min_fdr": 4.4401803888672816e-10
+    },
+    {
+      "target": "PCRT",
+      "fine26": "I01",
+      "median_log2": -0.7327264853974338,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 2,
+      "min_fdr": 6.87949981836706e-30
+    },
+    {
+      "target": "PCRT",
+      "fine26": "I08",
+      "median_log2": -0.6189076276567991,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 2,
+      "min_fdr": 4.334271217110264e-14
+    },
+    {
+      "target": "PCRT",
+      "fine26": "I09",
+      "median_log2": -0.7619091196168905,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 3,
+      "min_fdr": 6.298773608119896e-12
+    },
+    {
+      "target": "PCRT",
+      "fine26": "I10",
+      "median_log2": -0.7572313675944337,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 3,
+      "min_fdr": 2.675686923457612e-09
+    },
+    {
+      "target": "VTA",
+      "fine26": "E04",
+      "median_log2": 1.0532852540007116,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 2,
+      "min_fdr": 0.0002816182871865
+    },
+    {
+      "target": "VTA",
+      "fine26": "E08",
+      "median_log2": -1.2657513675270764,
+      "sign_consistency": 1.0,
+      "significant_same_direction_sections": 3,
+      "min_fdr": 3.0060561549106853e-05
+    }
+  ],
+  "max_baseline_composition_difference_across_target_tables": 0.0,
+  "panels": [
+    "TARGET_COHORT_FINE26_COMPOSITION.png/pdf",
+    "REPRODUCIBLE_PROJECTION_SHIFTS_BY_SECTION.png/pdf",
+    "PROJECTION_SECTION_ENRICHMENT_ALL_FINE26.png/pdf"
+  ],
+  "interpretation": "Projection-defined VTA/PCRT cohorts differ in Fine26 molecular composition relative to section-matched baselines. Reproducible relationships are target-biased mixtures, not one-to-one projection cell types.",
+  "limitations": [
+    "Fine26 state in target-labelled cells is inferred by the same molecular mapper rather than directly measured by the 27-gene EASI-FISH panel in those same cells.",
+    "Only VTA and PCRT targets are available.",
+    "S500/S530/S560 are AP sections, not independent animals."
+  ]
+}

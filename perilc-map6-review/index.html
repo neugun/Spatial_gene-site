@@ -8,8 +8,8 @@
 .routea-reason{color:#7a3131}
 @media(max-width:850px){.routea-qa-row{grid-template-columns:1fr}}
 </style></head><body>
-<header><div><h1>periLC / Map8 current review</h1><p>Current Map8 checkpoint with the full Map6 lineage retained for provenance: Stage1–200 publication-quality results, current R1–R5/Fine26 atlas, global image-space calibration, and full-production RS-FISH reruns. Updated 2026-10-06 — first full-volume image-space results posted.</p></div></header>
-<nav><a href="#stage935-routeb-sweep">Route B Slc17a6 sweep</a><a href="#stage934-downstream-propagation">Route A propagation</a><a href="#stage934-routea-all81-visual">Route A 81 visual QA</a><a href="#stage887-fullvolume">Same-detector full-volume</a><a href="#stage889-calibration">Global image calibration</a><a href="#stage876-archive">Stage876 archive</a><a href="#stage877-image">Stage877 image-space</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
+<header><div><h1>periLC / Map8 current review</h1><p>Current Map8 checkpoint with the full Map6 lineage retained for provenance: Stage1–200 publication-quality results, current R1–R5/Fine26 atlas, global image-space calibration, and full-production RS-FISH reruns. Updated 2026-10-07 — Stage934 biology downstream + Stage938 Route B + six-pair correction audit.</p></div></header>
+<nav><a href="#stage935-routeb-sweep">Route B Slc17a6 sweep</a><a href="#stage941-biology-current">Stage122/185 biology</a><a href="#stage934-routea-all81-visual">Route A 81 visual QA</a><a href="#stage887-fullvolume">Same-detector full-volume</a><a href="#stage889-calibration">Global image calibration</a><a href="#stage876-archive">Stage876 archive</a><a href="#stage877-image">Stage877 image-space</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
 
 <section id="stage934-routeab-current"><a id="stage930-routeab-current"></a><a id="stage929-routeab-current"></a><a id="stage925-routeab-current"></a><a id="stage921-routeab-current"></a><a id="stage913-routeab-current"></a>
 <h2>Current authority ? Route A count calibration + Route B image validation</h2>
@@ -25,12 +25,12 @@
 <p class="files"><a href="#stage934-routea-all81-visual"><b>open all 81 current QA panels</b></a> · <a href="#genes"><b>open current 27-gene review</b></a> · <a href="data/stage934_routeA_authority.json">Stage934 authority</a> · <a href="data/stage934_routeA_authority_summary.csv">all 81 source/metrics table</a></p>
 </article>
 <article class="card current-result">
-<h3>Route B — Stage935–937 Slc17a6 optimization</h3>
-<a href="assets/stage937_routeB_slc17a6_cell_convergence.png" target="_blank"><img src="assets/stage937_routeB_slc17a6_cell_convergence_preview.jpg" loading="eager"></a>
+<h3>Route B — Stage935–938 Slc17a6 optimization</h3>
+<a href="assets/stage938_routeB_slc17a6_rowcol.png" target="_blank"><img src="assets/stage938_routeB_slc17a6_rowcol_preview.jpg" loading="eager"></a>
 <p><b>Route B has moved beyond the old single Stage916/917 detector gate.</b> Stage935 systematically swept 12 frozen-RS-FISH detector settings on the same Slc17a6 S530 64-plane full-XY slab. The best stability/grid compromise was <b>sigma=1.65, threshold=0.0025</b>: detector grid L2 ratio 0.988, raw/corrected spot matching 97.5%/97.7%, and coarse spatial correlation 0.999656.</p>
 <p>Stage936 then swept image-gain strength while keeping the two best detector regimes. Stronger gain improves detector-grid suppression but increases spot turnover, so Stage937 mapped all ten gain×detector candidates back to the same cell universe and compared them directly with <b>current Stage934 Route A</b>.</p>
 <p><b>Current best slab candidate:</b> gain alpha=1.5, stable detector (sigma=1.65, threshold=0.0025). It gives Route-A convergence mean 0.175; y-delta profile correlation rises to 0.246, but x-delta correlation remains -0.110. The slab cell-power ratio is still 0.986 versus the full-section Stage934 target 0.441, so this is <b>not yet promoted as a production Route B authority</b>.</p>
-<p><b>Next active test:</b> split physical row(y) and column(x) gain strengths instead of increasing one global alpha. Stage938 is designed around the Stage937 failure mode: strengthen the useful y component while reducing or removing the x component that currently points away from Stage934.</p>
+<p><b>Stage938 result:</b> the best candidate removes the column gain component entirely (row=1.0, column=0.0), which flips the x-delta correlation back positive while retaining y convergence. The remaining limitation is coverage/magnitude: the 64-plane slab still does not approach the full-section Stage934 power target.</p>
 <p class="files"><a href="#stage935-routeb-sweep"><b>open Stage935–937 sweep and cell-convergence results</b></a> · <a href="data/stage935_routeB_slc17a6_detector_sweep.csv">Stage935 sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_sweep.csv">Stage936 sweep</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence.csv">Stage937 cell convergence</a></p>
 </article>
 </div>
@@ -174,21 +174,39 @@
 <article class="routea-qa-card"><div class="gene-head"><h4>Slc17a6 S560</h4><span class="status-chip status-ready">STAGE933 TARGETED</span></div><a href="assets/stage934_targeted5/Slc17a6_S560_qa.png" target="_blank"><img src="assets/stage934_targeted5/Slc17a6_S560_qa_preview.jpg" loading="lazy" alt="Slc17a6 S560 Stage934 targeted QA"></a><p><b>residual power:</b> 0.527→0.447 (15.2% lower); <b>Δ vs 872:</b> 1.24%; <b>status Δ:</b> 0</p></article>
 </div>
 <p class="files"><a href="data/stage930_routeA_stage872_visual_authority.json">Stage930 authority</a> · <a href="data/stage930_routeA_stage872_visual_authority_summary.csv">all 81 metrics</a></p></section>
-<section id="stage934-downstream-propagation" class="current-block">
-<h2>Stage934 — downstream current-analysis propagation audit</h2>
-<div class="callout"><b>41/41 passed; 0 failed.</b> Stage934 was propagated through seven dependency waves on SLURM, not merely relabeled on the page. All current-analysis modules in this audit now read the canonical <code>CURRENT_ROUTEA</code> matrices.</div>
+<section id="stage941-biology-current" class="current-block"><a id="stage934-downstream-propagation"></a>
+<h2>Stage941 — Stage934 → true Stage122/185/Yuhan biological downstream</h2>
+<div class="callout"><b>This replaces the old engineering-only “propagation” section.</b> The current 81 gene×section authority is now carried into the actual biological analysis stack: Fine26 taxonomy and cross-section reproducibility, R1–R5/K5 spatial organization, R1–R5→Fine26 enrichment, continuous-within-domain gradients, morphology, spatial self-organization, and the Yuhan Wang-style molecular-type→projection layer.</div>
+<a href="assets/stage941_biology/FIG1_CURRENT_FINE26_TAXONOMY.png" target="_blank"><img src="assets/stage941_biology/FIG1_CURRENT_FINE26_TAXONOMY_preview.jpg" loading="eager"></a>
 <div class="metrics">
-<div><b>current scripts rerun</b><strong>41</strong><small>stages 690–825</small></div>
-<div><b>passed</b><strong>41/41</strong><small>0 failures</small></div>
-<div><b>dependency waves</b><strong>7</strong><small>4 / 2 / 6 / 19 / 4 / 5 / 1 jobs per wave</small></div>
-<div><b>median runtime</b><strong>4.3s</strong><small>per downstream script</small></div>
+<div><b>cells</b><strong>71,950</strong><small>Stage934 current expression</small></div>
+<div><b>Fine26 types</b><strong>26</strong><small>16 strong + 6 moderate + 4 limited section reproducibility</small></div>
+<div><b>R1–R5×Fine26 FDR pairs</b><strong>108</strong><small>section-preserving permutation</small></div>
+<div><b>Fine26 spatial-self FDR</b><strong>26/26</strong><small>within-section kNN permutation</small></div>
 </div>
-<p>This audit covers the current count-matrix consumers that were previously reading historical stage-specific matrices. A second static input audit compiled 43 current modules: all 42 expression-dependent modules point to Stage934 current and <b>0 old Stage594 references remain</b>. Historical/audit scripts remain untouched so provenance is preserved; current analyses are separated from archival pipelines.</p>
-<p class="files"><a href="data/stage934_downstream_propagation_summary.csv">41-script propagation table</a> · <a href="data/stage934_downstream_propagation_result.json">propagation result</a> · <a href="data/stage934_downstream_input_audit.csv">43-module input audit</a> · <a href="data/stage934_downstream_input_audit.json">input-audit summary</a></p>
+<p><b>Stage122 analogue:</b> current Fine26 taxonomy → R1–R5 spatial framework → domain-to-type enrichment → morphology/type-level features. <b>Stage185 analogue:</b> publication-level Fine26 taxonomy → K5/R1–R5 organization → Fine26 spatial organization → current morphology. These are recomputed from Stage934 <code>CURRENT_ROUTEA</code>, not merely re-linked old figures.</p>
+<a href="assets/stage941_biology/FIG2_CURRENT_R1R5_SPATIAL_FRAMEWORK.png" target="_blank"><img src="assets/stage941_biology/FIG2_CURRENT_R1R5_SPATIAL_FRAMEWORK_preview.jpg" loading="lazy"></a>
+<p>R1–R5 and smooth LC-centered geometry are complementary rather than mutually exclusive. Median gene-level unique held-out CV-R² is <b>0.029</b> for R1–R5 beyond smooth coordinates and <b>0.020</b> for smooth geometry beyond R1–R5; the hybrid reaches median gene CV-R² <b>0.114</b>.</p>
+<a href="assets/stage941_biology/FIG3_YUHAN_STYLE_PROJECTION_LAYER.png" target="_blank"><img src="assets/stage941_biology/FIG3_YUHAN_STYLE_PROJECTION_LAYER_preview.jpg" loading="lazy"></a>
+<p><b>Yuhan Wang-style projection layer:</b> VTA/PCRT projection-defined cohorts are compared to section-matched baselines in Fine26 molecular state space. <b>8 target–Fine26 relationships</b> reproduce across AP sections. This is the current molecular-type→projection analogue; it is not a same-cell collateralization dataset.</p>
+<p class="files"><a href="data/STAGE941_CURRENT_BIOLOGY_AUTHORITY.json">Stage941 authority</a> · <a href="data/R1R5_STAGE934_GENE_PROFILES.csv">R1–R5 gene profiles</a> · <a href="data/R1R5_FINE26_SECTION_PRESERVING_ENRICHMENT.csv">R1–R5×Fine26 enrichment</a> · <a href="data/FINE26_SPATIAL_SELF_ORGANIZATION.csv">Fine26 spatial organization</a> · <a href="data/FINE26_CURRENT_MORPHOLOGY.csv">current morphology</a> · <a href="data/GENEWISE_CV_VARIANCE_DECOMPOSITION.csv">domain vs continuous CV</a> · <a href="data/FINE26_CURRENT_TAXONOMY_SUMMARY.csv">Fine26 taxonomy summary</a> · <a href="data/REPRODUCIBLE_PROJECTION_PAIRS.csv">projection reproducibility</a></p>
+</section>
+<section id="stage942-sixpair-audit" class="current-block">
+<h2>Stage939–942 — six-pair correction necessity audit</h2>
+<div class="callout"><b>Question tested directly:</b> are Npy1r S530, Otx2os1 S530, Meis2 S530, or Slc17a6 S500/S530/S560 actually better with no artifact correction? <b>Answer: no full RAW reversion is supported.</b> RAW retains strong acquisition harmonics in positive fraction and/or positive-cell intensity. Strict status-preserving alternatives avoid 0↔positive changes but leave substantially more grid artifact than Stage934.</div>
+<a href="assets/stage940_sixpair_visual_audit.png" target="_blank"><img src="assets/stage940_sixpair_visual_audit_preview.jpg" loading="lazy"></a>
+<div class="metrics">
+<div><b>Npy1r S530</b><strong>1.000→0.314</strong><small>RAW→Stage934 artifact ratio</small></div>
+<div><b>Otx2os1 S530</b><strong>1.000→0.232</strong><small>RAW→Stage934</small></div>
+<div><b>Meis2 S530</b><strong>1.000→0.281</strong><small>RAW→Stage934</small></div>
+<div><b>Slc17a6 S500/S530/S560</b><strong>0.346 / 0.441 / 0.447</strong><small>Stage934 / RAW</small></div>
+</div>
+<p><b>Important exception:</b> Slc17a6 S560 has an axis-specific overcorrection warning. Its y-positive-fraction harmonic is <b>0.270 RAW → 0.435 Stage934</b>, even though total artifact and x-grid artifact improve strongly. Therefore Stage934 remains current for S560, but the next refinement should selectively fix the y-status component rather than revert the whole pair to RAW.</p>
+<p class="files"><a href="data/stage940_sixpair_status_preserving_audit.csv">full four-method audit</a> · <a href="data/stage942_sixpair_final_verdict.csv">final six-pair verdicts</a></p>
 </section>
 <section id="stage935-routeb-sweep" class="current-block"><a id="stage917-routeb-detector"></a><a id="stage919-routeb-refine"></a>
-<h2>Stage935–937 — Slc17a6 Route B detector, gain-strength and cell-convergence sweep</h2>
-<div class="callout"><b>This replaces the old Stage917/919 current result.</b> Stage916/917/919 remain important provenance for establishing the raw-tile overlap calibration, but current Route B optimization is now evaluated through detector sweep → gain-strength sweep → spots-to-cells convergence against Stage934.</div>
+<h2>Stage935–938 — Slc17a6 Route B detector, gain and row/column decomposition sweep</h2>
+<div class="callout"><b>This replaces the old Stage917/919 current result.</b> Stage916/917/919 remain important provenance for establishing the raw-tile overlap calibration, but current Route B optimization is now evaluated through detector sweep → gain-strength sweep → row/column physical-gain decomposition → spots-to-cells convergence against Stage934.</div>
 <a href="assets/stage936_routeB_slc17a6_sweep.png" target="_blank"><img src="assets/stage936_routeB_slc17a6_sweep_preview.jpg" loading="eager"></a>
 <div class="metrics">
 <div><b>Stage935 detector settings</b><strong>12</strong><small>3 sigma × 4 threshold</small></div>
@@ -206,8 +224,9 @@
 <div><b>x delta-profile corr</b><strong>-0.110</strong><small>still wrong sign</small></div>
 <div><b>cell power</b><strong>0.986</strong><small>Stage934 full-section target 0.441</small></div>
 </div>
-<p><b>Interpretation:</b> stronger gain is moving the y-axis correction in the correct biological direction, but the x-axis component is not. Therefore Stage938 splits physical row and column gain strengths rather than continuing a one-dimensional global-alpha sweep.</p>
-<p class="files"><a href="data/stage935_routeB_slc17a6_detector_sweep.csv">Stage935 full detector sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_sweep.csv">Stage936 gain sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_result.json">Stage936 result</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence.csv">Stage937 cell table</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence_result.json">Stage937 result</a></p>
+<p><b>Stage938 completed the row/column test.</b> The best current slab candidate is <b>row strength 1.0, column strength 0.0</b> with the stable detector (σ=1.65, threshold=0.0025). Route-A convergence rises to <b>0.213</b>; importantly, both x- and y-delta profile correlations are now positive (0.146, 0.112). This demonstrates that the column component was a major source of the wrong-sign x behavior. However, cell-space power remains <b>0.990</b> versus Stage934 full-section target <b>0.441</b>, so Route B is still validation/mechanism rather than production authority.</p>
+<a href="assets/stage938_routeB_slc17a6_rowcol.png" target="_blank"><img src="assets/stage938_routeB_slc17a6_rowcol_preview.jpg" loading="lazy"></a>
+<p class="files"><a href="data/stage935_routeB_slc17a6_detector_sweep.csv">Stage935 detector sweep</a> · <a href="data/stage936_routeB_slc17a6_gain_strength_sweep.csv">Stage936 gain sweep</a> · <a href="data/stage937_routeB_slc17a6_cell_convergence.csv">Stage937 cell convergence</a> · <a href="data/stage938_routeB_slc17a6_rowcol_sweep.csv">Stage938 row/column sweep</a> · <a href="data/stage938_routeB_slc17a6_rowcol_result.json">Stage938 result</a></p>
 </section>
 <section id="stage902-global-preview" class="current-block">
 <h2>NEW — Slc17a6 S530 Stage872-guided GLOBAL image correction</h2>

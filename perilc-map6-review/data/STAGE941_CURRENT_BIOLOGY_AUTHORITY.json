@@ -1,0 +1,47 @@
+{
+  "stage": 941,
+  "status": "COMPLETE",
+  "expression_authority": "Stage934 CURRENT_ROUTEA",
+  "stage122_analogue": [
+    "Fine26 taxonomy",
+    "R1-R5 spatial framework",
+    "R1-R5\u2192Fine26 enrichment",
+    "morphology/type-level features"
+  ],
+  "stage185_analogue": [
+    "Fine26 publication taxonomy",
+    "K5/R1-R5 spatial organization",
+    "Fine26 spatial organization",
+    "current morphology"
+  ],
+  "yuhan_wang_analogue": [
+    "projection-defined cohort Fine26 composition",
+    "cross-section reproducible target biases"
+  ],
+  "n_cells": 71950,
+  "n_genes": 27,
+  "n_fine26": 26,
+  "n_regions": 5,
+  "r1r5_continuous": {
+    "cvR2_AP_only": 0.036664087863662376,
+    "cvR2_AP_plus_R1R5": 0.0955207631968431,
+    "cvR2_AP_plus_smooth": 0.08614746823836683,
+    "cvR2_hybrid": 0.11374835870065492,
+    "unique_R1R5_beyond_smooth": 0.02896378025440771,
+    "unique_smooth_beyond_R1R5": 0.020476131033977385
+  },
+  "fine26_repro": {
+    "strong_n": 16,
+    "moderate_n": 6,
+    "limited_n": 4,
+    "median_of_type_median_r": 0.7356532356532356
+  },
+  "n_projection_repro_pairs": 8,
+  "n_domain_type_fdr": 108,
+  "n_spatial_self_fdr": 26,
+  "figures": [
+    "FIG1_CURRENT_FINE26_TAXONOMY.png",
+    "FIG2_CURRENT_R1R5_SPATIAL_FRAMEWORK.png",
+    "FIG3_YUHAN_STYLE_PROJECTION_LAYER.png"
+  ]
+}

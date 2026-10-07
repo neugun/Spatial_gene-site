@@ -1,0 +1,82 @@
+{
+  "stage": 826,
+  "status": "COMPLETE",
+  "n_cells": 21787,
+  "n_genes": 27,
+  "data_authority": "Stage941 current Route A expression + Stage778B medial450 geometry + primary Stage106/121 R1-R5 lineage preserved in current H5AD",
+  "cv_design": "5-fold cell-level CV stratified by section x R1-R5; shared AP quadratic baseline; smooth model adds medial/orthogonal polynomial/interactions; hybrid adds R1-R5",
+  "median_gene_cvR2": {
+    "cvR2_AP_only": 0.036664087863662376,
+    "cvR2_AP_plus_R1R5": 0.0955207631968431,
+    "cvR2_AP_plus_smooth": 0.08614746823836683,
+    "cvR2_hybrid": 0.11374835870065492,
+    "unique_R1R5_beyond_smooth": 0.02896378025440771,
+    "unique_smooth_beyond_R1R5": 0.020476131033977385
+  },
+  "multigene_cvR2": {
+    "AP_only": 0.22785324543206098,
+    "AP_plus_R1R5": 0.2717405580425365,
+    "AP_plus_smooth": 0.2663649898625112,
+    "AP_plus_R1R5_plus_smooth": 0.29348094811874603
+  },
+  "gene_layer_counts": {
+    "domain_dominant": 13,
+    "continuous_dominant": 4,
+    "mixed": 10
+  },
+  "robust_within_domain_gradient_count": 50,
+  "robust_gradient_counts_by_region_axis": [
+    {
+      "region": "R1",
+      "axis": "medial",
+      "n_robust_genes": 3
+    },
+    {
+      "region": "R1",
+      "axis": "orthogonal",
+      "n_robust_genes": 2
+    },
+    {
+      "region": "R2",
+      "axis": "medial",
+      "n_robust_genes": 11
+    },
+    {
+      "region": "R2",
+      "axis": "orthogonal",
+      "n_robust_genes": 14
+    },
+    {
+      "region": "R3",
+      "axis": "medial",
+      "n_robust_genes": 1
+    },
+    {
+      "region": "R3",
+      "axis": "orthogonal",
+      "n_robust_genes": 1
+    },
+    {
+      "region": "R4",
+      "axis": "medial",
+      "n_robust_genes": 4
+    },
+    {
+      "region": "R4",
+      "axis": "orthogonal",
+      "n_robust_genes": 5
+    },
+    {
+      "region": "R5",
+      "axis": "medial",
+      "n_robust_genes": 5
+    },
+    {
+      "region": "R5",
+      "axis": "orthogonal",
+      "n_robust_genes": 4
+    }
+  ],
+  "interpretation": "R1-R5 and smooth LC-centered coordinates should be treated as complementary organizational layers if both show positive unique held-out variance and robust within-domain gradients persist. This directly replaces the false discrete-versus-continuous dichotomy created by the deprecated SR0-SR3 comparison.",
+  "boundaries": "This decomposition is predictive/organizational, not developmental or causal. AP is modeled as a shared baseline; within-domain gradient tests emphasize medial/orthogonal structure across all three sections."
+}
