@@ -9,7 +9,7 @@
 @media(max-width:850px){.routea-qa-row{grid-template-columns:1fr}}
 </style></head><body>
 <header><div><h1>periLC / Map8 current review</h1><p>Current Map8 checkpoint with the full Map6 lineage retained for provenance: Stage1–200 publication-quality results, current R1–R5/Fine26 atlas, global image-space calibration, and full-production RS-FISH reruns. Updated 2026-10-06 — first full-volume image-space results posted.</p></div></header>
-<nav><a href="#stage913-routea-all81-visual">Route A 81 visual QA</a><a href="#stage887-fullvolume">Same-detector full-volume</a><a href="#stage889-calibration">Global image calibration</a><a href="#stage876-current">Stage876 count-space authority</a><a href="#stage877-image">Stage877 image-space</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
+<nav><a href="#stage917-routeb-detector">Route B detector gate</a><a href="#stage919-routeb-refine">Route B refinement</a><a href="#stage913-routea-all81-visual">Route A 81 visual QA</a><a href="#stage887-fullvolume">Same-detector full-volume</a><a href="#stage889-calibration">Global image calibration</a><a href="#stage876-current">Stage876 count-space authority</a><a href="#stage877-image">Stage877 image-space</a><a href="#stage848-global">Stage848 global</a><a href="#current-authority">Authority</a><a href="#paper-storyboard">Paper sequence</a><a href="#anatomy-current">Anatomy</a><a href="#spatial-current">Current R1–R5</a><a href="#hierarchy">Domain + gradients</a><a href="#taxonomy-current">Current Fine26</a><a href="#fine26-spatial">Fine26 spatial</a><a href="#morphology-current">Morphology</a><a href="#projection-current">Projection</a><a href="#references-current">References</a><a href="#frameworks-current">Luskin/Su/MapMy</a><a href="#early">Stage1–200</a><a href="#regression">Why early was better</a><a href="#genes">27 genes — current</a><a href="#stage845-current">Stage845 pilot</a><a href="#correction">Correction</a><a href="#over">Overcorrection</a><a href="#rsfish">RS-FISH</a><a href="#current">Current atlas</a><a href="#stage852-global">Correction archive</a></nav><main>
 
 <section id="stage913-routeab-current">
 <h2>Current authority ? Route A count calibration + Route B image validation</h2>
@@ -27,7 +27,7 @@
 <h3>Route B ? raw-tile overlap photometric calibration</h3>
 <a href="assets/stage916_routeB_aligned_wholexy_qa.png" target="_blank"><img src="assets/stage916_routeB_aligned_wholexy_qa_preview.jpg" loading="eager"></a>
 <p>This route does not use the Stage872 correction field. It uses the actual 5?5 raw acquisition tiles and the 40 horizontal/vertical overlaps as self-calibration data. The current fit uses the <b>final stitch transforms</b> so each overlap compares the same global XYZ tissue. Gains are fitted on global z=385/1085 and tested on held-out global z=805/1250.</p>
-<p><b>Held-out overlap mismatch falls from median |log ratio| 0.02824 to 0.00689 ? a 75.6% reduction.</b> The 25 tile factors span 0.889?1.145. The full-XY panels use the final stitching coordinates and show global z=385, 805, 1085 and 1250 with no XY crop. A fixed-parameter RS-FISH test on an independent 64-plane full-XY slab around held-out global z?805 is running as the detector-level gate.</p>
+<p><b>Held-out overlap mismatch falls from median |log ratio| 0.02824 to 0.00689 — a 75.6% reduction.</b> The 25 tile factors span 0.889–1.145. The full-XY panels use the final stitching coordinates and show global z=385, 805, 1085 and 1250 with no XY crop. The downstream Stage917 64-plane full-XY slab has now completed with the same frozen RS-FISH parameters: 9069 raw versus 9070 corrected spots, 40×40 spatial correlation 0.999656, and tile gain versus detection-ratio Spearman rho=0.988.</p>
 <p class="files"><a href="data/stage916_routeB_gain_solution.json">aligned-overlap gain solution</a> ? <a href="data/stage916_routeB_final_summary.json">whole-XY QA summary</a></p>
 </article>
 </div>
@@ -171,6 +171,38 @@
 <article class="routea-qa-card"><div class="gene-head"><h4>Slc17a6 S560</h4><span class="status-chip status-hold">KEEP RAW</span></div><a href="assets/stage913_routeA_all81/slc17a6_s560_qa.png" target="_blank"><img src="assets/stage913_routeA_all81/slc17a6_s560_preview.jpg" loading="lazy" alt="Slc17a6 S560 Route A QA"></a><p><b>grid:</b> 0.289→0.076; <b>abs power:</b> 0.527</p><p class="routea-reason"><b>Why held:</b> y biology<0.90</p></article>
 </div>
 <p class="files"><a href="data/stage913_routeA_all81_visual_index.csv">visual QA index / decisions</a></p></section>
+<section id="stage917-routeb-detector" class="current-block">
+<h2>Stage917 — Route B fixed-detector gate</h2>
+<div class="callout"><b>Image calibration now closes the detector loop.</b> Stage916 tile-overlap gains were applied to an independent 64-plane full-XY slab centered on held-out global z≈805, then RS-FISH was rerun with exactly the same detector settings as RAW: threshold 0.003, sigma 1.5, anisotropy 0.7, minIntensity 0, maxIntensity 4096.</div>
+<a href="assets/stage917_routeB_detector_gate_qa.png" target="_blank"><img src="assets/stage917_routeB_detector_gate_qa_preview.jpg" loading="eager"></a>
+<div class="metrics">
+<div><b>spots</b><strong>9069 → 9070</strong><small>global count ratio 1.000110×</small></div>
+<div><b>raw spots matched</b><strong>96.43%</strong><small>nearest corrected spot ≤1.5 px</small></div>
+<div><b>corrected spots matched</b><strong>96.30%</strong><small>nearest raw spot ≤1.5 px</small></div>
+<div><b>gain → detection</b><strong>ρ = 0.988</strong><small>P = 4.89×10⁻²⁰</small></div>
+<div><b>coarse spatial corr</b><strong>0.999656</strong><small>40×40 full-XY maps</small></div>
+<div><b>median seam mismatch</b><strong>0.640 → 0.532</strong><small>16.7% reduction</small></div>
+</div>
+<p>Removed spots preferentially come from tiles whose correction factor is below one (median factor 0.939), whereas newly detected spots preferentially come from tiles above one (median factor 1.062). This is the expected detector-level signature of a photometric correction: puncta are redistributed according to acquisition gain while total puncta and broad spatial organization remain essentially unchanged.</p>
+<p class="files"><a href="data/stage917_routeB_detector_gate_result.json">Stage917 detector-gate result</a></p>
+</section>
+
+<section id="stage919-routeb-refine" class="current-block">
+<h2>Stage919–920 — held-out gain refinement and same-detector A/B test</h2>
+<div class="callout"><b>Stage919 uses the physical 5×5 acquisition grid.</b> The search keeps the original Stage916 train/held-out split (train z=385/1085; held-out z=805/1250) and only promotes models that improve both pooled held-out median and pooled p90 overlap residual.</div>
+<a href="assets/stage919_routeB_gain_refinement_qa.png" target="_blank"><img src="assets/stage919_routeB_gain_refinement_qa_preview.jpg" loading="lazy"></a>
+<div class="metrics">
+<div><b>candidate models</b><strong>16,160</strong><small>row/column, free, robust, spatial-smooth and blends</small></div>
+<div><b>beat Stage916 on both gates</b><strong>4,747</strong><small>pooled held-out median + p90</small></div>
+<div><b>pooled median</b><strong>0.007339 → 0.004392</strong><small>40.2% further reduction</small></div>
+<div><b>pooled p90</b><strong>0.014479 → 0.014343</strong><small>tail not sacrificed</small></div>
+<div><b>z805 median</b><strong>0.007599 → 0.004205</strong><small>held-out</small></div>
+<div><b>z1250 median</b><strong>0.006175 → 0.005319</strong><small>held-out</small></div>
+</div>
+<p>The selected model is a physical row-column calibration (ridge=1) blended 91% toward the refined solution in log-gain space. Its factor range is 0.904–1.112, narrower than Stage916's 0.889–1.145. It is not yet promoted over Stage916 solely from overlap fitting.</p>
+<p><b>Stage920 production gate is running now:</b> the Stage919 factors are being applied to the exact same 64-plane full-XY slab, followed by the exact same frozen RS-FISH and detector QC. SLURM jobs: build 54975926 → RS-FISH 54975927 → QC 54975928. Stage919 is promoted only if this detector gate is at least as biologically stable as Stage917 while preserving or improving the seam/grid signal.</p>
+<p class="files"><a href="data/stage919_routeB_gain_refinement_result.json">Stage919 selected solution</a> · <a href="data/stage919_routeB_gain_refinement_sweep.csv">full Stage919 sweep</a></p>
+</section>
 <section id="stage902-global-preview" class="current-block">
 <h2>NEW — Slc17a6 S530 Stage872-guided GLOBAL image correction</h2>
 <div class="callout"><b>Not current authority.</b> Native-s0 strength and sign sweeps showed that this direct cell-space?pixel projection does not reliably reduce image-space periodicity; stronger scaling and simple sign reversal can both worsen the image metric. It is retained only as provenance for a rejected route.</div><article class="card current-result"><h3>TRUE cell-level reference — raw Stage594 vs Stage872 final</h3><a href="assets/stage872_slc17a6_s530_true_toprow.png" target="_blank"><img src="assets/stage872_slc17a6_s530_true_toprow.png" loading="eager"></a><p><b>How this figure is generated:</b> the cell coordinates (<code>x,y</code>) and the uncorrected Slc17a6 cell-count vector come from <code>stage848_all27_input.npz</code> (<code>stage594</code>, section 530, Slc17a6 column). The middle panel uses the matching Slc17a6 vector from <code>stage872_all27_corrected.npy</code>. Thus these are real cell-level expression/count maps, not microscopy images and not an image-derived proxy. Both maps use the same cell coordinates and the same red intensity scale (pooled positive values, clipped at the 99.5th percentile). The right panel is simply positivity-state change: red = 0→positive, blue = positive→0. The title metrics are read from <code>FINAL_GRID_SUMMARY.csv</code>: grid <b>0.324→0.050</b>, broad-2D 0.992, x-biology 0.992, y-biology 0.957. Stage872 itself is a count-space correction that targets the shared acquisition harmonics x=5/10 and y=3/6 while preserving broad spatial biology and Fine26/R1–R5 structure. This panel is therefore the <b>gold-standard cell-level target</b> that the current image→fixed-RS-FISH pipeline must reproduce; it is not yet evidence that the image-space correction has succeeded.</p></article><article class="card current-result"><h3>TRUE whole-XY image check ? four z planes</h3>

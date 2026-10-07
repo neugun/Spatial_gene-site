@@ -1,0 +1,338 @@
+{
+  "stage": 917,
+  "route": "B",
+  "status": "DETECTOR_GATE",
+  "correction_source": "Stage916 same-global-XYZ aligned-overlap factors",
+  "baseline": "Stage915 RAW full-XY 64-plane slab; identical RS-FISH parameters",
+  "raw_spots": 9069,
+  "corrected_spots": 9070,
+  "spot_ratio": 1.0001102657404344,
+  "matched_raw_fraction": 0.9642739000992392,
+  "matched_corrected_fraction": 0.962954796030871,
+  "n_removed": 324,
+  "n_added": 336,
+  "median_factor_removed": 0.939430832862854,
+  "median_factor_added": 1.0618629455566406,
+  "tile_factor_vs_detection_ratio_spearman": 0.9876923076923078,
+  "tile_factor_vs_detection_ratio_p": 4.890432519510537e-20,
+  "tile_counts": [
+    {
+      "tile": 0,
+      "factor": 0.8894913792610168,
+      "raw": 70,
+      "corrected": 60,
+      "ratio": 0.8591549295774648
+    },
+    {
+      "tile": 1,
+      "factor": 0.9120979905128479,
+      "raw": 48,
+      "corrected": 40,
+      "ratio": 0.8367346938775511
+    },
+    {
+      "tile": 2,
+      "factor": 0.9380149245262146,
+      "raw": 67,
+      "corrected": 61,
+      "ratio": 0.9117647058823529
+    },
+    {
+      "tile": 3,
+      "factor": 0.9603193402290344,
+      "raw": 164,
+      "corrected": 157,
+      "ratio": 0.9575757575757575
+    },
+    {
+      "tile": 4,
+      "factor": 0.9914882183074951,
+      "raw": 404,
+      "corrected": 401,
+      "ratio": 0.9925925925925926
+    },
+    {
+      "tile": 5,
+      "factor": 1.0201102495193481,
+      "raw": 1344,
+      "corrected": 1367,
+      "ratio": 1.0171003717472118
+    },
+    {
+      "tile": 6,
+      "factor": 0.9953222870826721,
+      "raw": 98,
+      "corrected": 98,
+      "ratio": 1.0
+    },
+    {
+      "tile": 7,
+      "factor": 0.9687443375587463,
+      "raw": 202,
+      "corrected": 195,
+      "ratio": 0.9655172413793104
+    },
+    {
+      "tile": 8,
+      "factor": 0.939430832862854,
+      "raw": 185,
+      "corrected": 168,
+      "ratio": 0.9086021505376344
+    },
+    {
+      "tile": 9,
+      "factor": 0.9113519787788391,
+      "raw": 489,
+      "corrected": 420,
+      "ratio": 0.8591836734693877
+    },
+    {
+      "tile": 10,
+      "factor": 0.9371849894523621,
+      "raw": 914,
+      "corrected": 847,
+      "ratio": 0.926775956284153
+    },
+    {
+      "tile": 11,
+      "factor": 0.9715262651443481,
+      "raw": 483,
+      "corrected": 466,
+      "ratio": 0.9648760330578512
+    },
+    {
+      "tile": 12,
+      "factor": 1.0028389692306519,
+      "raw": 238,
+      "corrected": 237,
+      "ratio": 0.99581589958159
+    },
+    {
+      "tile": 13,
+      "factor": 1.0302062034606934,
+      "raw": 125,
+      "corrected": 130,
+      "ratio": 1.0396825396825398
+    },
+    {
+      "tile": 14,
+      "factor": 1.0652307271957397,
+      "raw": 342,
+      "corrected": 369,
+      "ratio": 1.0787172011661808
+    },
+    {
+      "tile": 15,
+      "factor": 1.0989373922348022,
+      "raw": 175,
+      "corrected": 207,
+      "ratio": 1.1818181818181819
+    },
+    {
+      "tile": 16,
+      "factor": 1.0618629455566406,
+      "raw": 190,
+      "corrected": 214,
+      "ratio": 1.12565445026178
+    },
+    {
+      "tile": 17,
+      "factor": 1.029005527496338,
+      "raw": 190,
+      "corrected": 203,
+      "ratio": 1.068062827225131
+    },
+    {
+      "tile": 18,
+      "factor": 1.0043364763259888,
+      "raw": 462,
+      "corrected": 463,
+      "ratio": 1.0021598272138228
+    },
+    {
+      "tile": 19,
+      "factor": 0.9675300717353821,
+      "raw": 1024,
+      "corrected": 983,
+      "ratio": 0.96
+    },
+    {
+      "tile": 20,
+      "factor": 1.0063942670822144,
+      "raw": 762,
+      "corrected": 768,
+      "ratio": 1.0078636959370904
+    },
+    {
+      "tile": 21,
+      "factor": 1.0365626811981201,
+      "raw": 364,
+      "corrected": 385,
+      "ratio": 1.0575342465753426
+    },
+    {
+      "tile": 22,
+      "factor": 1.0629621744155884,
+      "raw": 322,
+      "corrected": 347,
+      "ratio": 1.0773993808049536
+    },
+    {
+      "tile": 23,
+      "factor": 1.1035199165344238,
+      "raw": 240,
+      "corrected": 277,
+      "ratio": 1.1535269709543567
+    },
+    {
+      "tile": 24,
+      "factor": 1.1454850435256958,
+      "raw": 167,
+      "corrected": 207,
+      "ratio": 1.2380952380952381
+    }
+  ],
+  "median_seam_abs_log_before": 0.6395748618342815,
+  "median_seam_abs_log_after": 0.5324561851111338,
+  "seam_improvement_fraction": 0.16748418850599367,
+  "spatial_40x40_corr": 0.9996558780853885,
+  "raw_seams": [
+    {
+      "orientation": "V",
+      "seam": 0,
+      "coord": 1872.4732977906424,
+      "n1": 69,
+      "n2": 56,
+      "abs_log": 0.20544397421480887
+    },
+    {
+      "orientation": "V",
+      "seam": 1,
+      "coord": 3613.4492679491705,
+      "n1": 36,
+      "n2": 14,
+      "abs_log": 0.9028677115420144
+    },
+    {
+      "orientation": "V",
+      "seam": 2,
+      "coord": 5351.661334635843,
+      "n1": 31,
+      "n2": 16,
+      "abs_log": 0.6325225587435105
+    },
+    {
+      "orientation": "V",
+      "seam": 3,
+      "coord": 7092.605474395705,
+      "n1": 43,
+      "n2": 12,
+      "abs_log": 1.2192402764567245
+    },
+    {
+      "orientation": "H",
+      "seam": 0,
+      "coord": 1860.170929634758,
+      "n1": 10,
+      "n2": 20,
+      "abs_log": 0.6466271649250525
+    },
+    {
+      "orientation": "H",
+      "seam": 1,
+      "coord": 3598.5480747543043,
+      "n1": 1091,
+      "n2": 49,
+      "abs_log": 3.083743150876704
+    },
+    {
+      "orientation": "H",
+      "seam": 2,
+      "coord": 5344.2437671133775,
+      "n1": 84,
+      "n2": 55,
+      "abs_log": 0.4172995657551672
+    },
+    {
+      "orientation": "H",
+      "seam": 3,
+      "coord": 7081.924861629395,
+      "n1": 70,
+      "n2": 58,
+      "abs_log": 0.1851424331355959
+    }
+  ],
+  "corrected_seams": [
+    {
+      "orientation": "V",
+      "seam": 0,
+      "coord": 1872.4732977906424,
+      "n1": 62,
+      "n2": 59,
+      "abs_log": 0.04879016416943205
+    },
+    {
+      "orientation": "V",
+      "seam": 1,
+      "coord": 3613.4492679491705,
+      "n1": 29,
+      "n2": 14,
+      "abs_log": 0.6931471805599453
+    },
+    {
+      "orientation": "V",
+      "seam": 2,
+      "coord": 5351.661334635843,
+      "n1": 30,
+      "n2": 18,
+      "abs_log": 0.4895482253187058
+    },
+    {
+      "orientation": "V",
+      "seam": 3,
+      "coord": 7092.605474395705,
+      "n1": 43,
+      "n2": 14,
+      "abs_log": 1.076139432816051
+    },
+    {
+      "orientation": "H",
+      "seam": 0,
+      "coord": 1860.170929634758,
+      "n1": 8,
+      "n2": 15,
+      "abs_log": 0.5753641449035618
+    },
+    {
+      "orientation": "H",
+      "seam": 1,
+      "coord": 3598.5480747543043,
+      "n1": 1105,
+      "n2": 44,
+      "abs_log": 3.2018426923119603
+    },
+    {
+      "orientation": "H",
+      "seam": 2,
+      "coord": 5344.2437671133775,
+      "n1": 78,
+      "n2": 56,
+      "abs_log": 0.3263965846324714
+    },
+    {
+      "orientation": "H",
+      "seam": 3,
+      "coord": 7081.924861629395,
+      "n1": 75,
+      "n2": 59,
+      "abs_log": 0.23638877806423034
+    }
+  ],
+  "params": {
+    "threshold": 0.003,
+    "sigma": 1.5,
+    "anisotropy": 0.7,
+    "minIntensity": 0,
+    "maxIntensity": 4096
+  }
+}
