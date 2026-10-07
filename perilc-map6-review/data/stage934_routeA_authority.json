@@ -1,0 +1,137 @@
+{
+  "stage": 934,
+  "route": "A",
+  "status": "CURRENT_AUTHORITY",
+  "n_pairs": 81,
+  "n_exact_stage872": 76,
+  "n_targeted_stage933": 5,
+  "n_raw": 0,
+  "targets": [
+    {
+      "gene": "Slc17a6",
+      "section": 500,
+      "metrics": {
+        "gene": "Slc17a6",
+        "section": 500,
+        "ks": [
+          3,
+          6
+        ],
+        "north": 16,
+        "alpha": 0.4,
+        "base_power": 0.4079914299159382,
+        "power": 0.34554487265754136,
+        "power_improve": 0.15305850240840402,
+        "vector_corr": 0.999876793624738,
+        "lowpass_corr": 0.999965305215417,
+        "x_profile_corr": 0.9999959650993231,
+        "y_profile_corr": 0.9993014554012084,
+        "fine_ratio_vs872": 0.999934067158987,
+        "r1r5_ratio_vs872": 0.9993480167037934,
+        "status_changes": 0,
+        "mean_abs_rel_change": 0.010278495840624005
+      }
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 560,
+      "metrics": {
+        "gene": "Slc17a6",
+        "section": 560,
+        "ks": [
+          3,
+          6
+        ],
+        "north": 1,
+        "alpha": 0.5,
+        "base_power": 0.5269710347659673,
+        "power": 0.44668309914403886,
+        "power_improve": 0.15235739789300762,
+        "vector_corr": 0.9998383793705327,
+        "lowpass_corr": 0.9997738255544059,
+        "x_profile_corr": 0.9999858855006932,
+        "y_profile_corr": 0.9952581975484834,
+        "fine_ratio_vs872": 1.0003684585704715,
+        "r1r5_ratio_vs872": 1.0011895024111004,
+        "status_changes": 0,
+        "mean_abs_rel_change": 0.012401257993708005
+      }
+    },
+    {
+      "gene": "Otx2os1",
+      "section": 500,
+      "metrics": {
+        "gene": "Otx2os1",
+        "section": 500,
+        "ks": [
+          3,
+          6
+        ],
+        "north": 8,
+        "alpha": 0.35,
+        "base_power": 0.5774094799961828,
+        "power": 0.487113394044807,
+        "power_improve": 0.1563813707249363,
+        "vector_corr": 0.9997839097312711,
+        "lowpass_corr": 0.9999118826080576,
+        "x_profile_corr": 0.9999788467295798,
+        "y_profile_corr": 0.9957125728537282,
+        "fine_ratio_vs872": 1.0003209534237663,
+        "r1r5_ratio_vs872": 1.0001035843048804,
+        "status_changes": 0,
+        "mean_abs_rel_change": 0.016319047375406587
+      }
+    },
+    {
+      "gene": "Otx2os1",
+      "section": 560,
+      "metrics": {
+        "gene": "Otx2os1",
+        "section": 560,
+        "ks": [
+          3,
+          6
+        ],
+        "north": 4,
+        "alpha": 0.35,
+        "base_power": 0.529879941974888,
+        "power": 0.4501164754892368,
+        "power_improve": 0.15053120559417466,
+        "vector_corr": 0.9998942641171955,
+        "lowpass_corr": 0.9997319136661424,
+        "x_profile_corr": 0.9999700691406084,
+        "y_profile_corr": 0.9970925646666954,
+        "fine_ratio_vs872": 0.9998648426425643,
+        "r1r5_ratio_vs872": 1.0000092724277971,
+        "status_changes": 0,
+        "mean_abs_rel_change": 0.012476241150014845
+      }
+    },
+    {
+      "gene": "Meis2",
+      "section": 560,
+      "metrics": {
+        "gene": "Meis2",
+        "section": 560,
+        "ks": [
+          3,
+          6
+        ],
+        "north": 1,
+        "alpha": 0.35,
+        "base_power": 0.6195533503658541,
+        "power": 0.526081272106103,
+        "power_improve": 0.1508701037683916,
+        "vector_corr": 0.9994396740518935,
+        "lowpass_corr": 0.9996810788818434,
+        "x_profile_corr": 0.9997542587769525,
+        "y_profile_corr": 0.9984300598622914,
+        "fine_ratio_vs872": 1.0014550873780683,
+        "r1r5_ratio_vs872": 1.0033213360330004,
+        "status_changes": 0,
+        "mean_abs_rel_change": 0.029289221345162115
+      }
+    }
+  ],
+  "policy": "Stage872 remains the global visual/spatial authority. Only five pre-specified residual pairs are overridden by Stage933 moderate, status-frozen y k3+k6 intensity cleanup with local class/x-stripe mass conservation. All other 76 pairs are byte-for-byte Stage872."
+}
