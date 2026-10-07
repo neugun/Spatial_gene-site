@@ -1,0 +1,26 @@
+{
+  "stage": 941,
+  "status": "CURRENT_AUTHORITY",
+  "route": "A",
+  "n_pairs": 81,
+  "composition": {
+    "Stage934_as_is": 79,
+    "RAW": 1,
+    "Stage872_revert": 1
+  },
+  "adjudications": [
+    {
+      "gene": "Otx2os1",
+      "section": 530,
+      "source": "RAW",
+      "reason": "Stage940: corrected artifact metric improved but cross-section biological consistency dropped substantially; visual review favored RAW spatial profile."
+    },
+    {
+      "gene": "Slc17a6",
+      "section": 560,
+      "source": "Stage872",
+      "reason": "Stage940: Stage934 targeted residual cleanup over-improved artifact score while further reducing cross-section biology; Stage872 is the better compromise."
+    }
+  ],
+  "principle": "No-correction is allowed to win when acquisition-harmonic cleanup reduces independent biological consistency. Stage941 supersedes Stage934."
+}
