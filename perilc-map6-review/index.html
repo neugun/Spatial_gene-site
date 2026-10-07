@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Three-section spatial gene atlas</title><style>
 *{box-sizing:border-box}
@@ -50,7 +51,7 @@ footer{max-width:var(--max);margin:auto;padding:0 24px 40px;color:#888;font-size
       anchors + Mc4r, Fstl4, Ebf3, Foxp2, Meis2<br/>
       smoothing σ=4.5</div><div class="mini"><b>S560</b><br/>
       anchors + Mc4r, Ebf3, Meis2, Slc6a4, Pdyn<br/>
-      smoothing σ=6.5</div></div></section>
+      smoothing σ=6.5</div></div><p class="lead topology-audit-note" id="region-topology-qa">Topology QA (Stage961): Each main tissue mask contains 10 connected marker-guided regions. The 12 total components reported for S530/S560 arise from two tiny, detached density-mask patches per section (S530: 2 + 13 pixels; S560: 5 + 7 pixels), each under 0.1% of its section mask. Original expression and cell-region assignments are unchanged. <a href="assets/stage960_region_topology/REGION10_TOPOLOGY_QA.png" target="_blank">View three-section topology QA.</a></p></section>
 <section id="genes"><h2>Final gene × section expression atlas</h2>
 <p class="lead">All maps use reversed x/y display orientation. Every panel shows an explicit <b>spot-count colorbar</b> and numeric display range. The three sections share one range per gene. Broad genes use a lower saturation ceiling; Snap25 is intentionally shown with an 85th-percentile positive-count maximum so widespread expression remains visible.</p>
 <input id="geneSearch" placeholder="Search gene…" type="search"/><article class="gene-card" data-gene="nfib">

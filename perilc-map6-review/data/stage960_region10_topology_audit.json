@@ -1,0 +1,86 @@
+{
+  "stage": 960,
+  "parent_stage": 956,
+  "authority": "diagnostic only",
+  "sections": {
+    "500": {
+      "mask_components": 1,
+      "component_count": 10,
+      "islands": [],
+      "small_island_fraction_of_tissue": 0.0,
+      "mask_coverage_grid_pixels": 24339
+    },
+    "530": {
+      "mask_components": 3,
+      "component_count": 12,
+      "islands": [
+        {
+          "section": 530,
+          "region": 3,
+          "component": 2,
+          "pixels": 2,
+          "fraction_of_region": 0.001212856276531231,
+          "minor": true,
+          "bbox_x0": 159,
+          "bbox_x1": 159,
+          "bbox_y0": 50,
+          "bbox_y1": 51,
+          "neighbor_region": null,
+          "mask_component": 3
+        },
+        {
+          "section": 530,
+          "region": 6,
+          "component": 2,
+          "pixels": 13,
+          "fraction_of_region": 0.0076832151300236405,
+          "minor": true,
+          "bbox_x0": 3,
+          "bbox_x1": 6,
+          "bbox_y0": 18,
+          "bbox_y1": 21,
+          "neighbor_region": null,
+          "mask_component": 2
+        }
+      ],
+      "small_island_fraction_of_tissue": 0.0007236588189888074,
+      "mask_coverage_grid_pixels": 20728
+    },
+    "560": {
+      "mask_components": 3,
+      "component_count": 12,
+      "islands": [
+        {
+          "section": 560,
+          "region": 9,
+          "component": 2,
+          "pixels": 5,
+          "fraction_of_region": 0.0029850746268656717,
+          "minor": true,
+          "bbox_x0": 149,
+          "bbox_x1": 150,
+          "bbox_y0": 42,
+          "bbox_y1": 44,
+          "neighbor_region": null,
+          "mask_component": 2
+        },
+        {
+          "section": 560,
+          "region": 10,
+          "component": 2,
+          "pixels": 7,
+          "fraction_of_region": 0.002199183160540371,
+          "minor": true,
+          "bbox_x0": 145,
+          "bbox_x1": 148,
+          "bbox_y0": 146,
+          "bbox_y1": 147,
+          "neighbor_region": null,
+          "mask_component": 3
+        }
+      ],
+      "small_island_fraction_of_tissue": 0.0006014736103453461,
+      "mask_coverage_grid_pixels": 19951
+    }
+  }
+}

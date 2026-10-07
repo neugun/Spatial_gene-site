@@ -1,0 +1,35 @@
+{
+  "stage": 961,
+  "status": "PASS_TOPOLOGY_QUALIFIED",
+  "meaning": "Stage959 disconnected components are tiny disconnected components of the density mask; not splits of regions within the principal tissue mask.",
+  "note": "Cannot infer whether detached mask patches are real tissue or low-density support; no region/cell reassignment.",
+  "expression_authority": "Stage943 Route A",
+  "region_authority": "Stage956 unchanged",
+  "sections": {
+    "500": {
+      "state": "MAIN_TISSUE_10_CONNECTED_REGIONS",
+      "mask_components": 1,
+      "minor_mask_pixels": 0,
+      "minor_mask_fraction": 0.0,
+      "n_small_detached_mask_patches": 0,
+      "original_region_labels_preserved": true
+    },
+    "530": {
+      "state": "MAIN_TISSUE_10_CONNECTED_REGIONS",
+      "mask_components": 3,
+      "minor_mask_pixels": 15,
+      "minor_mask_fraction": 0.0007236588189888074,
+      "n_small_detached_mask_patches": 2,
+      "original_region_labels_preserved": true
+    },
+    "560": {
+      "state": "MAIN_TISSUE_10_CONNECTED_REGIONS",
+      "mask_components": 3,
+      "minor_mask_pixels": 12,
+      "minor_mask_fraction": 0.0006014736103453461,
+      "n_small_detached_mask_patches": 2,
+      "original_region_labels_preserved": true
+    }
+  },
+  "image": "assets/stage960_region_topology/REGION10_TOPOLOGY_QA.png"
+}
