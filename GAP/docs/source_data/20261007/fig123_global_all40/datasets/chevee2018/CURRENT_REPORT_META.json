@@ -1,0 +1,20 @@
+{
+  "dataset": "chevee2018",
+  "species": "mouse",
+  "region": "SSp-bfd",
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "done (mouse_ssp_bfd_exact)",
+    "fixed_budget": "done (projection:30 rows/2 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; projection:relation=1,AIC=0,effects=256)",
+    "information_criterion": "done (0 identity-domain summaries; projection:relation=1,AIC=0,effects=256)",
+    "effect_size": "done (256 gene-target-domain effect rows; projection:relation=1,AIC=0,effects=256)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=0.677045)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/chevee2018__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/chevee2018__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

@@ -1,0 +1,8 @@
+reference,species,backend,scope,region_compatible,region_coverage,region_rows,region_source,region_column,auto_region_eligible,anchor_score,quality_flag,anchor_mode,overlap_genes,overlap_fraction,evidence_precision,geometry_rho,geometry_null_p,geometry_sign_agreement,recovery_mean_rho,recovery_null_delta_rho,recovery_null_p,mapping_stability,query_effective_rank,reference_effective_rank,error,molecular_rank
+mouse_ssp_bfd_exact,mouse,matrix,region_specific,True,1.0,1023,explicit_hint,,True,64.85468342460717,POSSIBLE,continuous_anchor,5664.0,0.17839931966361144,1.0,0.078606114695106,0.0196078431372549,0.2628972348328518,-0.007826879501755719,-0.008564734422620589,1.0,0.9049596190452576,966.0024102887005,716.3078199476007,,1
+mouse_visp_exact,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,2
+mouse_pbn_paulichen_exact,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,3
+mouse_peri_ect_exact,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,4
+mouse_mpfc_exact,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,5
+mouse_pvn_berkhout_external,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,6
+mouse_pvh_berkhout_strict,mouse,matrix,region_specific,False,0.0,0,explicit_hint,,False,,INCOMPATIBLE_REGION,,,,,,,,,,,,,,no anatomically compatible rows,7

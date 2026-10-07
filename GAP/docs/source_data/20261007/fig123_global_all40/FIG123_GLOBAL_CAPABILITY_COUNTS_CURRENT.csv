@@ -1,0 +1,12 @@
+capability,done,blocked_or_NA,failed,pending,total
+function_map,13,12,0,2,27
+coordinate_mediation,13,12,0,2,27
+relation_index,16,9,0,2,27
+information_criterion,15,10,0,2,27
+effect_size,16,9,0,2,27
+manifold,12,13,0,2,27
+prioritize_genes,12,13,0,2,27
+atlaslift,13,12,0,2,27
+fixed_budget,16,9,0,2,27
+projection_map,8,17,0,2,27
+projection_operator,7,18,0,2,27

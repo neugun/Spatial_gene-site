@@ -1,0 +1,7 @@
+target,gene,rho_group_mean,rho_group_median,sign_consistency,n_groups,score
+func__state_mean__reward,Tac1,0.012081172140947,0.002121036509885809,0.3333333333333333,7,0.004027057380315667
+func__state_mean__reward,Th,,,0.0,0,
+func__state_mean__trial2,Tac1,0.03804504146790898,0.03881496813091034,0.4166666666666667,7,0.01585210061162874
+func__state_mean__trial2,Th,,,0.0,0,
+func__state_mean__trial3,Tac1,0.01004660645680894,0.006007575903422584,0.3333333333333333,7,0.003348868818936313
+func__state_mean__trial3,Th,,,0.0,0,

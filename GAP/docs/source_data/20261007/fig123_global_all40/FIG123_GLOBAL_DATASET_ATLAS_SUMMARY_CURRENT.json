@@ -1,0 +1,9 @@
+{
+  "registry_total": 40,
+  "standardized_runset": 27,
+  "standardized_done": 25,
+  "standardized_active": 2,
+  "independent_datasets": 24,
+  "derived_contract_or_alias": 8,
+  "other_boundary_context": 8
+}

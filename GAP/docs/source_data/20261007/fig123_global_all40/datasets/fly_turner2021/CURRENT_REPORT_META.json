@@ -1,0 +1,20 @@
+{
+  "dataset": "fly_turner2021",
+  "species": "fly",
+  "region": "",
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "done (8 coordinate models; 6 held groups)",
+    "atlaslift": "blocked (input requirements not met)",
+    "fixed_budget": "blocked (input requirements not met)",
+    "relation_index": "done (4 eligible identity-domain levels; function:relation=2,AIC=0,effects=0; projection:relation=2,AIC=0,effects=0)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "blocked (input requirements not met)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/fly_turner2021__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/fly_turner2021__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

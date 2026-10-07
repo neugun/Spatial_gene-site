@@ -1,0 +1,2 @@
+status,molecular_mode,n_genes_scanned,n_targets,n_gene_target_pairs,median_abs_effect,q95_abs_effect,n_abs_ge_0p2_consistency_ge_0p75,exploratory_top_gene,exploratory_top_target,exploratory_top_median_rank_biserial,exploratory_top_sign_consistency,exploratory_top_bh_q
+OK,continuous,128,2,256,0.24826003941857602,0.6164722516790385,142,Gap43,proj__VPM_POm,0.7572783584978707,1.0,0.14545454545454545

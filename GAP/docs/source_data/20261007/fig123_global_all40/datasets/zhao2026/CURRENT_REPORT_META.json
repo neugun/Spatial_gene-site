@@ -1,0 +1,20 @@
+{
+  "dataset": "zhao2026",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "done (25 summary rows)",
+    "coordinate_mediation": "done (16 coordinate models; 6 held groups)",
+    "atlaslift": "done (mouse_visp_exact)",
+    "fixed_budget": "done (function:25 rows/5 targets; projection:25 rows/26 targets)",
+    "relation_index": "done (2 eligible identity-domain levels; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=780)",
+    "information_criterion": "done (2 identity-domain summaries; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=780)",
+    "effect_size": "done (930 gene-target-domain effect rows; function:relation=1,AIC=1,effects=150; projection:relation=1,AIC=1,effects=780)",
+    "manifold": "done (5 targets)",
+    "prioritize_genes": "done (30 genes)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=-0.0265083)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/zhao2026__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/zhao2026__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

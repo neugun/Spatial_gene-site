@@ -1,0 +1,20 @@
+{
+  "dataset": "allen_visual_learning_hcr",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "done (45 summary rows)",
+    "coordinate_mediation": "done (4 coordinate models; 6 held groups)",
+    "atlaslift": "done (mouse_visp_exact)",
+    "fixed_budget": "done (function:20 rows/9 targets)",
+    "relation_index": "done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=198)",
+    "information_criterion": "done (2 identity-domain summaries; function:relation=2,AIC=2,effects=198)",
+    "effect_size": "done (198 gene-target-domain effect rows; function:relation=2,AIC=2,effects=198)",
+    "manifold": "done (8 targets)",
+    "prioritize_genes": "done (22 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/allen_visual_learning_hcr__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/allen_visual_learning_hcr__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

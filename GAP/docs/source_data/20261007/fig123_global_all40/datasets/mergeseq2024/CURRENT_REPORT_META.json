@@ -1,0 +1,20 @@
+{
+  "dataset": "mergeseq2024",
+  "species": "mouse",
+  "region": "prefrontal cortex",
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "done (mouse_mpfc_exact)",
+    "fixed_budget": "done (projection:30 rows/5 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=640)",
+    "information_criterion": "done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=640)",
+    "effect_size": "done (640 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=640)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=0.221815)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/mergeseq2024__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/mergeseq2024__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

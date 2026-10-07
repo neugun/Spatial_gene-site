@@ -1,0 +1,20 @@
+{
+  "dataset": "allen_vc2p",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "done (70 summary rows)",
+    "coordinate_mediation": "done (7 coordinate models; 6 held groups)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "blocked (input requirements not met)",
+    "relation_index": "done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=0)",
+    "information_criterion": "done (2 identity-domain summaries; function:relation=2,AIC=2,effects=0)",
+    "effect_size": "blocked (input requirements not met)",
+    "manifold": "done (8 targets)",
+    "prioritize_genes": "done (13 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/allen_vc2p__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/allen_vc2p__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

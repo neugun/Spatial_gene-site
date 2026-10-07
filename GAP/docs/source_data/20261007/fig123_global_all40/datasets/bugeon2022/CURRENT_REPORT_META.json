@@ -1,0 +1,20 @@
+{
+  "dataset": "bugeon2022",
+  "species": "mouse",
+  "region": "VISp",
+  "executed": {
+    "function_map": "done (25 summary rows)",
+    "coordinate_mediation": "done (7 coordinate models; 4 held groups)",
+    "atlaslift": "done (mouse_visp_exact)",
+    "fixed_budget": "done (function:30 rows/5 targets)",
+    "relation_index": "done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=355)",
+    "information_criterion": "done (2 identity-domain summaries; function:relation=2,AIC=2,effects=355)",
+    "effect_size": "done (355 gene-target-domain effect rows; function:relation=2,AIC=2,effects=355)",
+    "manifold": "done (5 targets)",
+    "prioritize_genes": "done (72 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/bugeon2022__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/bugeon2022__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

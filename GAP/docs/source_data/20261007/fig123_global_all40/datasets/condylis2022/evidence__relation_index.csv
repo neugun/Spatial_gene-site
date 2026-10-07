@@ -1,0 +1,2 @@
+type_level,status,correlation_index,permutation_p,null_mean,null_p95,n_rows,holdout_scope,holdout_groups,biological_units,n_identity,n_response,n_edges,permutations,min_count,min_fraction,permutation_degenerate,bh_q,zhao_relation_index,relation_permutation_p,relation_bh_q
+type_l1,OK,0.024489795918367335,0.913086913086913,0.034066797338469866,0.05917159763313608,1216,biological_unit,9,9,6,6,35,1000,3,0.1,False,0.913086913086913,0.024489795918367335,0.913086913086913,0.913086913086913

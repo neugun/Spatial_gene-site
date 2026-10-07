@@ -1,0 +1,20 @@
+{
+  "dataset": "barseq2_pooled_2021",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "done (10 summary rows)",
+    "coordinate_mediation": "not_applicable (coordinate mediation requires >=3 independent holdout groups)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "done (function:20 rows/2 targets; projection:20 rows/11 targets)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "done (117 gene-target-domain effect rows; function:relation=0,AIC=0,effects=18; projection:relation=0,AIC=0,effects=99)",
+    "manifold": "done (2 targets)",
+    "prioritize_genes": "done (23 genes)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=-0.121102)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/barseq2_pooled_2021__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/barseq2_pooled_2021__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

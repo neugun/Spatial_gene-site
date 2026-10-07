@@ -1,0 +1,132 @@
+{
+  "tool": "GAP",
+  "tool_version": "0.8-end2end-evidence-gates",
+  "input": "internal_path_redacted",
+  "runtime_modules": {
+    "gap_tool": "internal_path_redacted",
+    "gap_package": "internal_path_redacted",
+    "gxa_package": "internal_path_redacted"
+  },
+  "requested_species": null,
+  "resolved_species": "mouse",
+  "requested_region": null,
+  "resolved_region": "central amygdala",
+  "requested_region_column": null,
+  "resolved_region_column": null,
+  "goals": "function_map,coordinate_mediation,atlaslift,fixed_budget,relation_index,information_criterion,effect_size,manifold,prioritize_genes,projection_map,projection_operator",
+  "backend": "local",
+  "mode": "full",
+  "foundation_models": [
+    "compact",
+    "large"
+  ],
+  "perturbation_data": null,
+  "perturbation_col": "gene_target",
+  "context_col": null,
+  "perturbation_compatibility": null,
+  "generalize_target": null,
+  "generalize_pairs": "auto",
+  "generalize_target_species": null,
+  "generalize_target_region": null,
+  "generalize_target_region_column": null,
+  "generalization_authority": null,
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "done (projection:25 rows/5 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=145)",
+    "information_criterion": "done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=145)",
+    "effect_size": "done (145 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=145)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=-0.0977188)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "errors": {},
+  "readiness": {
+    "Fig4": {
+      "status": "NOT_RUN"
+    },
+    "Fig5": {
+      "status": "PROJECTION_OPERATOR_BOUNDARY",
+      "target_domain": "projection",
+      "fig7_ready": false,
+      "operator_card": "internal_path_redacted",
+      "validation_metrics": {
+        "r2_vw": -0.006895217585547425,
+        "spearman": 0.018816037839637777,
+        "auroc_macro": 0.6941308107008444,
+        "fold_r2_positive_fraction": 0.5,
+        "held_win_fraction_r2": 0.8,
+        "held_win_fraction_spearman": 0.3
+      },
+      "reason": "projection-domain response law is not auto-routed into functional Fig7"
+    },
+    "Fig6": {
+      "status": "NOT_RUN"
+    },
+    "Fig7": {
+      "status": "NOT_APPLICABLE_FUNCTION_OPERATOR",
+      "reason": "Fig7 default contract requires a validated function-domain operator; projection-only datasets are kept structural"
+    }
+  },
+  "scientific_summary": {
+    "Fig1-3 evidence": {
+      "question": "How strongly are molecular identity and function related under complementary Fig1-3 statistical views (relation graph, complexity-penalized AIC, and effect size)?",
+      "status": "EXECUTED",
+      "allowed_claim": "relation index: 1 eligible identity levels, 0 with BH q<=0.05; strongest=0.004122092452645 (type_l2); same-sample AIC: strongest median deltaAIC(type-gene)=19.60167791316053 at type_l2; gene-better fraction=0.6; rank-biserial: 145 gene-target pairs; median absolute effect=0.0048378702557493; >=0.2 with >=0.75 sign consistency=0",
+      "guardrail": "Relation index, AIC, and rank-biserial answer different questions. Positive deltaAIC(type-gene) favors genes only for same-sample models with explicit parameter counts; rank-biserial magnitude is not by itself a multiple-testing-significant gene claim."
+    },
+    "Fig4": {
+      "question": "Do molecular measurements add unique information about a missing functional coordinate after the other measured functions are known?",
+      "status": "NOT_RUN",
+      "allowed_claim": "Fig4 completion was not executed in this bundle (status=NOT_RUN).",
+      "guardrail": "Do not interpret an unexecuted or preflight-blocked stage as a negative biological result."
+    },
+    "Fig5": {
+      "question": "Can molecular state predict a multivariate functional response law across held biological units, and does shared structure improve on independent prediction?",
+      "status": "PROJECTION_OPERATOR_BOUNDARY",
+      "allowed_claim": "The held-unit operator does not meet the prespecified prospective-use gate.",
+      "guardrail": "Stop before Fig7 rather than generating virtual perturbation rankings from an unsupported law.",
+      "deployment_model": "shared_fullrank",
+      "fig7_support_mode": null,
+      "deployment_vs_independent_delta": {},
+      "validation_metrics": {
+        "r2_vw": -0.006895217585547425,
+        "spearman": 0.018816037839637777,
+        "auroc_macro": 0.6941308107008444,
+        "fold_r2_positive_fraction": 0.5,
+        "held_win_fraction_r2": 0.8,
+        "held_win_fraction_spearman": 0.3
+      }
+    },
+    "Fig6": {
+      "question": "Does the frozen GAP representation add information beyond raw measured genes, or support a prespecified cross-dataset transfer?",
+      "status": "NOT_RUN",
+      "allowed_claim": "Foundation/generalization stage is NOT_RUN.",
+      "guardrail": "Do not lower gene/region preflight thresholds or invent semantic endpoint pairs merely to force a Fig6 result."
+    },
+    "Fig7": {
+      "question": "Is there a held-unit-qualified molecular-to-function law that can be used for prospective perturbation ranking across cellular contexts?",
+      "status": "NOT_APPLICABLE_FUNCTION_OPERATOR",
+      "allowed_claim": "Fig7 correctly stops: Fig7 default contract requires a validated function-domain operator; projection-only datasets are kept structural.",
+      "guardrail": "A scientifically correct stop is a tool PASS and should remain visible as a boundary."
+    }
+  },
+  "policy": {
+    "default": "local-first",
+    "auto_submit_slurm": false,
+    "rule": "Slurm is an accelerator for large/GPU/array work, never a hidden dependency."
+  },
+  "resources": {
+    "cpu_count": 128,
+    "gpu_hardware_available": false,
+    "gpu_runtime_ready": false,
+    "gpu_name": null,
+    "gpu_worker": null,
+    "gpu_worker_ready": false,
+    "gpu_worker_cuda": false,
+    "slurm_cli_available": true
+  }
+}

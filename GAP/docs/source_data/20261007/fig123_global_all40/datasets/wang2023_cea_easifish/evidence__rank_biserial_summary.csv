@@ -1,0 +1,2 @@
+status,molecular_mode,n_genes_scanned,n_targets,n_gene_target_pairs,median_abs_effect,q95_abs_effect,n_abs_ge_0p2_consistency_ge_0p75,exploratory_top_gene,exploratory_top_target,exploratory_top_median_rank_biserial,exploratory_top_sign_consistency,exploratory_top_bh_q
+OK,continuous,29,5,145,0.0048378702557493325,0.04487118822231484,0,Ebf1,proj__PBN,0.07887746941930995,1.0,

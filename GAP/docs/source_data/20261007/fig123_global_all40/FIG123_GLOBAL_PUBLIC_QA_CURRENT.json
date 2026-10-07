@@ -1,0 +1,46 @@
+{
+  "dataset-atlas\\index.html": {
+    "cards": 40,
+    "missing": [],
+    "mojibake": 0,
+    "privacy": 0,
+    "global_link": 0
+  },
+  "dataset-atlas\\index_zh.html": {
+    "cards": 40,
+    "missing": [],
+    "mojibake": 0,
+    "privacy": 0,
+    "global_link": 0
+  },
+  "index.html": {
+    "cards": 0,
+    "missing": [],
+    "mojibake": 0,
+    "privacy": 0,
+    "global_link": 1
+  },
+  "index_zh.html": {
+    "cards": 0,
+    "missing": [],
+    "mojibake": 0,
+    "privacy": 0,
+    "global_link": 1
+  },
+  "coverage_image": {
+    "w": 3591,
+    "h": 3311,
+    "std": 70.58183503151415,
+    "bytes": 193582
+  },
+  "dataset_visuals": {
+    "png": 24,
+    "svg": 24,
+    "blank": []
+  },
+  "source_files_scanned": 198,
+  "rows": 40,
+  "done": 25,
+  "active": 2,
+  "issues": []
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "photseq2019",
+  "species": "mouse",
+  "region": "vomeronasal sensory epithelium",
+  "executed": {
+    "function_map": "done (5 summary rows)",
+    "coordinate_mediation": "done (4 coordinate models; 6 held groups)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "done (function:30 rows/1 targets)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "done (0 identity-domain summaries; function:relation=0,AIC=0,effects=128)",
+    "effect_size": "done (128 gene-target-domain effect rows; function:relation=0,AIC=0,effects=128)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "done (1500 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/photseq2019__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/photseq2019__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

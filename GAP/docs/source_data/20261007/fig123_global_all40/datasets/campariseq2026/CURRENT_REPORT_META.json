@@ -1,0 +1,20 @@
+{
+  "dataset": "campariseq2026",
+  "species": "zebrafish",
+  "region": "pretectum",
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "done (zebrafish_gse269_k120)",
+    "fixed_budget": "blocked (input requirements not met)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "blocked (input requirements not met)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/campariseq2026__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/campariseq2026__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

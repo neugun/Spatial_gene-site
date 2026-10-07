@@ -1,0 +1,20 @@
+{
+  "dataset": "xu2020",
+  "species": "mouse",
+  "region": "PVH",
+  "executed": {
+    "function_map": "done (55 summary rows)",
+    "coordinate_mediation": "done (4 coordinate models; 3 held groups)",
+    "atlaslift": "done (mouse_pvn_berkhout_external)",
+    "fixed_budget": "done (function:10 rows/11 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=77)",
+    "information_criterion": "done (1 identity-domain summaries; function:relation=1,AIC=1,effects=77)",
+    "effect_size": "done (77 gene-target-domain effect rows; function:relation=1,AIC=1,effects=77)",
+    "manifold": "done (8 targets)",
+    "prioritize_genes": "done (9 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/xu2020__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/xu2020__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

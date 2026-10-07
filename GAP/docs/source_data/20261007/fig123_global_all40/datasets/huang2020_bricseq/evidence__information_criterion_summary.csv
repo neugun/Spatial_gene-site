@@ -1,0 +1,2 @@
+type_level,n_targets,median_delta_aic_type_minus_gene,mean_delta_aic_type_minus_gene,median_delta_aic_baseline_minus_candidate,mean_delta_aic_baseline_minus_candidate,fraction_gene_aic_better,fraction_delta_aic_gt10,median_gene_minus_type_r2
+type_l1,32,326.882194476897,312.0675535509034,326.882194476897,312.0675535509034,0.96875,0.96875,0.2536199142850386

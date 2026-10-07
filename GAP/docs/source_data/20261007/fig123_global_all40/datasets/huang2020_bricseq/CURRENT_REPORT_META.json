@@ -1,0 +1,20 @@
+{
+  "dataset": "huang2020_bricseq",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "blocked (input requirements not met)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "done (projection:30 rows/32 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; projection:relation=1,AIC=1,effects=4096)",
+    "information_criterion": "done (1 identity-domain summaries; projection:relation=1,AIC=1,effects=4096)",
+    "effect_size": "done (4096 gene-target-domain effect rows; projection:relation=1,AIC=1,effects=4096)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "done (independent held-unit projection Ridge; r2_vw=0.0339176)",
+    "projection_operator": "done (3 validated shared/operator rows)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/huang2020_bricseq__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/huang2020_bricseq__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

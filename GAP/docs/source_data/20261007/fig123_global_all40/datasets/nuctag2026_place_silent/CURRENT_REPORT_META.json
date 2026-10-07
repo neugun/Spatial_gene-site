@@ -1,0 +1,20 @@
+{
+  "dataset": "nuctag2026_place_silent",
+  "species": "mouse",
+  "region": "",
+  "executed": {
+    "function_map": "not_applicable (need >=2 scoreable biological-unit folds)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "fixed_budget": "not_applicable (need >=2 scoreable biological-unit folds)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "not_applicable (need >=2 scoreable biological-unit folds)",
+    "manifold": "blocked (input requirements not met)",
+    "prioritize_genes": "blocked (input requirements not met)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/nuctag2026_place_silent__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/nuctag2026_place_silent__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

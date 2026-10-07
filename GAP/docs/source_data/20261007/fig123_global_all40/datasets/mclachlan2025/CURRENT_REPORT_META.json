@@ -1,0 +1,20 @@
+{
+  "dataset": "mclachlan2025",
+  "species": "mouse",
+  "region": "PERI/ECT",
+  "executed": {
+    "function_map": "done (80 summary rows)",
+    "coordinate_mediation": "done (4 coordinate models; 4 held groups)",
+    "atlaslift": "done (mouse_peri_ect_exact)",
+    "fixed_budget": "done (function:20 rows/16 targets)",
+    "relation_index": "done (1 eligible identity-domain levels; function:relation=1,AIC=1,effects=368)",
+    "information_criterion": "done (1 identity-domain summaries; function:relation=1,AIC=1,effects=368)",
+    "effect_size": "done (368 gene-target-domain effect rows; function:relation=1,AIC=1,effects=368)",
+    "manifold": "done (8 targets)",
+    "prioritize_genes": "done (23 genes)",
+    "projection_map": "blocked (input requirements not met)",
+    "projection_operator": "blocked (input requirements not met)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/mclachlan2025__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/mclachlan2025__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}
