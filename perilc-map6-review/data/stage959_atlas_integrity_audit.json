@@ -1,0 +1,41 @@
+{
+  "stage": 959,
+  "status": "PASS_WITH_REVIEW",
+  "critical_issue_count": 0,
+  "critical_issues": [],
+  "review_warnings": [
+    "S530: 10 labels but 12 disconnected components; review islands/fragmentation",
+    "S560: 10 labels but 12 disconnected components; review islands/fragmentation"
+  ],
+  "gene_count": 27,
+  "gene_section_maps": 81,
+  "cell_count": 71950,
+  "section_regions": {
+    "500": {
+      "n_labels": 10,
+      "connected_components": 10,
+      "unassigned_cells": 108
+    },
+    "530": {
+      "n_labels": 10,
+      "connected_components": 12,
+      "unassigned_cells": 569
+    },
+    "560": {
+      "n_labels": 10,
+      "connected_components": 12,
+      "unassigned_cells": 533
+    }
+  },
+  "page_validation": {
+    "index.html": {
+      "sections": 5,
+      "missing_links": 0
+    },
+    "single-cell.html": {
+      "sections": 5,
+      "missing_links": 0
+    }
+  },
+  "circularity_warning_preserved": true
+}
