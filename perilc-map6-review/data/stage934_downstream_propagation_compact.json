@@ -1,0 +1,19 @@
+{
+  "stage": 934,
+  "total": 41,
+  "pass_n": 41,
+  "fail_n": 0,
+  "waves": {
+    "0": 4,
+    "1": 2,
+    "2": 6,
+    "3": 19,
+    "4": 4,
+    "5": 5,
+    "6": 1
+  },
+  "max_runtime_sec": 308.9,
+  "median_runtime_sec": 4.3,
+  "min_stage": 690,
+  "max_stage": 825
+}
