@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="322.3143pt" height="295.704pt" viewBox="0 0 322.3143 295.704" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-07T11:36:08.371829</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 295.704 
+L 322.3143 295.704 
+L 322.3143 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 16.204572 134.86932 
+L 88.680861 134.86932 
+Q 96.558719 134.86932 96.558719 127.65672 
+L 96.558719 64.18584 
+Q 96.558719 56.97324 88.680861 56.97324 
+L 16.204572 56.97324 
+Q 8.326715 56.97324 8.326715 64.18584 
+L 8.326715 127.65672 
+Q 8.326715 134.86932 16.204572 134.86932 
+z
+" clip-path="url(#p5385b92c0c)" style="fill: #f3f3f3; stroke: #777777; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 124.919006 134.86932 
+L 197.395295 134.86932 
+Q 205.273152 134.86932 205.273152 127.65672 
+L 205.273152 64.18584 
+Q 205.273152 56.97324 197.395295 56.97324 
+L 124.919006 56.97324 
+Q 117.041148 56.97324 117.041148 64.18584 
+L 117.041148 127.65672 
+Q 117.041148 134.86932 124.919006 134.86932 
+z
+" clip-path="url(#p5385b92c0c)" style="fill: #fce8e8; stroke: #b2232e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 233.633439 134.86932 
+L 306.109728 134.86932 
+Q 313.987586 134.86932 313.987586 127.65672 
+L 313.987586 64.18584 
+Q 313.987586 56.97324 306.109728 56.97324 
+L 233.633439 56.97324 
+Q 225.755582 56.97324 225.755582 64.18584 
+L 225.755582 127.65672 
+Q 225.755582 134.86932 233.633439 134.86932 
+z
+" clip-path="url(#p5385b92c0c)" style="fill: #f3f3f3; stroke: #777777; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 93.830895 95.92128 
+Q 106.798463 95.92128 118.536194 95.92128 
+" clip-path="url(#p5385b92c0c)" style="fill: none; stroke: #777777; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 114.536194 93.92128 
+L 118.536194 95.92128 
+L 114.536194 97.92128 
+z
+" clip-path="url(#p5385b92c0c)" style="fill: #777777; stroke: #777777; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 202.545328 95.92128 
+Q 215.512897 95.92128 227.250628 95.92128 
+" clip-path="url(#p5385b92c0c)" style="fill: none; stroke: #777777; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 223.250628 93.92128 
+L 227.250628 95.92128 
+L 223.250628 97.92128 
+z
+" clip-path="url(#p5385b92c0c)" style="fill: #777777; stroke: #777777; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(28.653342 93.637999)">1  Reference</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(35.763967 102.34503)">recovery</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(137.3759 93.638077)">2  Candidate</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(143.819025 102.345108)">selection</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(248.095959 93.637999)">3  Held-unit</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'" transform="translate(238.987834 102.34503)">functional utility</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(20.128373 163.531343)">Can the atlas recover</text>
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(5.581685 170.93232)">measured molecular structure?</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(129.034588 163.531211)">Which missing genes</text>
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(103.323681 170.93232)">are nominated without target leakage?</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(239.447959 163.531211)">Do they improve the</text>
+    <text style="font-size: 6.8px; font-family: 'Arial'" transform="translate(235.660146 170.93232)">prespecified endpoint?</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #b2232e" x="161.15715" y="251.71344" transform="rotate(-0 161.15715 251.71344)">Passing Gate 1 does not imply passing Gate 3.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5385b92c0c">
+   <rect x="3.6" y="3.6" width="315.1143" height="288.504"/>
+  </clipPath>
+ </defs>
+</svg>

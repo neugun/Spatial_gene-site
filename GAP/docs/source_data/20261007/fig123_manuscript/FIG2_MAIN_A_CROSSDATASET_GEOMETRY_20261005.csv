@@ -1,0 +1,6 @@
+label,dataset,reference_contract,K,selector,baseline_rho,lifted_rho,delta_rho,q,status,n_folds,note
+WARP,WARP2026,independent_zebrafish_tectum_scRNA,10,function_geometry,0.16490104,0.19914171,0.03424067,0.005323,SUPPORTED_HELD_FISH,3,3/3 fish improve; function-guided selection training-only
+Shainer,Shainer2025,zebrafish_tectum_scRNA,10,function_geometry,0.06147186,0.02665043,-0.03482143,0.505656,NOT_SUPPORTED_GEOMETRY,4,geometry boundary; endpoint-specific rank/classification lifting remains positive
+Condylis exact SSp,Condylis2022,SSp_bfd_L23_exact,5,function_geometry,0.341437,0.37661,0.035173,0.190476,DIRECTIONAL_NOT_SUPPORTED,8,"exact SSp-bfd L2/3 recovery rho=0.3061, 5/6 hidden-marker directions positive; layer-matched reference passes but global feature geometry remains boundary"
+McLachlan exact PERI/ECT,McLachlan2025,PERI_ECT_exact,20,function_geometry,0.2083333333331761,0.3083333333331298,0.0999999999999537,0.029940119760479,SUPPORTED_RECOVERY,3,current same-K reviewer authority
+Bugeon exact VISp,Bugeon2022,VISp_exact_1137states,10,function_geometry,0.2449847857456236,0.2501686115816228,0.0051838258359992,0.6193806193806194,NOT_SUPPORTED,4,exact VISp reference qualifies molecularly but global geometry remains unsupported

@@ -1,0 +1,10 @@
+dataset,target,function_only_r2,delta_r2_joint_vs_function,heldunit_r2_win_fraction,n_groups,label
+allen_vc2p,feat__reliability_nm3,0.1592162837258801,0.0611833764665956,0.8,59,Allen VC2P
+bugeon2022,mi__running_vs_stat_sync,0.3939192598848735,0.062967252354918,0.5,4,Bugeon
+celegans_atanas2023,feat__r_pumping,-0.013494839427562,0.1167979490138353,1.0,40,C. elegans
+condylis2022,feat__sample_passive_CCW,0.9999999881952228,-2.1073420786166247e-10,0.0,9,Condylis
+shainer2025,feat__regsc_dot_large_ccw,0.4029916493642127,-0.0033022658317881,0.5,6,Shainer
+sorensen2026,resp__ephys_latent__b00,-0.0172097380015692,0.0777172332537472,0.6,74,Sorensen
+warp2026,feat__r_omr_backward,0.155954276248985,0.014463156479991,1.0,3,WARP
+xu2020,state_mean__Ghrelin,0.4218462745648234,0.0639033382824072,0.6666666666666666,3,Xu
+zhao2026,feat__evoked_grating_right,0.366022642329415,-0.0345975054730876,0.2222222222222222,9,Zhao

@@ -1,0 +1,277 @@
+{
+  "pages": {
+    "index.html": {
+      "refs": 133,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 1,
+      "manuscript_view": 0
+    },
+    "index_zh.html": {
+      "refs": 133,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 1,
+      "manuscript_view": 0
+    },
+    "manuscript\\fig1-3.html": {
+      "refs": 19,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 0
+    },
+    "manuscript\\fig1-3_zh.html": {
+      "refs": 19,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 0
+    },
+    "fig1-authority\\index.html": {
+      "refs": 119,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    },
+    "fig1-authority\\index_zh.html": {
+      "refs": 119,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    },
+    "fig2-authority\\index.html": {
+      "refs": 59,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    },
+    "fig2-authority\\index_zh.html": {
+      "refs": 59,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    },
+    "fig3-authority\\index.html": {
+      "refs": 52,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    },
+    "fig3-authority\\index_zh.html": {
+      "refs": 52,
+      "missing": [],
+      "bad_mojibake": 0,
+      "privacy": 0,
+      "control_chars": 0,
+      "current_block": 0,
+      "manuscript_view": 1
+    }
+  },
+  "figures": {
+    "FIG1_MANUSCRIPT_CURRENT_20261007": {
+      "w": 6918,
+      "h": 4551,
+      "aspect": 1.52,
+      "std": 58.76,
+      "bytes": 775542,
+      "ink_margins_px": [
+        30,
+        29,
+        32,
+        42
+      ],
+      "svg_text_nodes": 95,
+      "svg_bytes": 55079,
+      "pdf_bytes": 60586,
+      "svg_bad_mojibake": 0
+    },
+    "FIG2_MANUSCRIPT_CURRENT_20261007": {
+      "w": 6909,
+      "h": 4544,
+      "aspect": 1.52,
+      "std": 50.43,
+      "bytes": 965383,
+      "ink_margins_px": [
+        30,
+        29,
+        32,
+        40
+      ],
+      "svg_text_nodes": 115,
+      "svg_bytes": 55698,
+      "pdf_bytes": 75430,
+      "svg_bad_mojibake": 0
+    },
+    "FIG3_MANUSCRIPT_CURRENT_20261007": {
+      "w": 6921,
+      "h": 4551,
+      "aspect": 1.521,
+      "std": 52.83,
+      "bytes": 952712,
+      "ink_margins_px": [
+        35,
+        29,
+        32,
+        47
+      ],
+      "svg_text_nodes": 133,
+      "svg_bytes": 68054,
+      "pdf_bytes": 66964,
+      "svg_bad_mojibake": 0
+    }
+  },
+  "schematics": {
+    "fig1A_coordinate_schematic": {
+      "w": 2734,
+      "h": 2464,
+      "aspect": 1.11,
+      "std": 31.53,
+      "bytes": 186799,
+      "ink_margins_px": [
+        92,
+        326,
+        225,
+        258
+      ],
+      "svg_text_nodes": 12,
+      "svg_bad_mojibake": 0
+    },
+    "fig2A_three_gate_schematic": {
+      "w": 2685,
+      "h": 2464,
+      "aspect": 1.09,
+      "std": 33.8,
+      "bytes": 147383,
+      "ink_margins_px": [
+        44,
+        470,
+        64,
+        352
+      ],
+      "svg_text_nodes": 13,
+      "svg_bad_mojibake": 0
+    },
+    "fig3A_assay_contract_schematic": {
+      "w": 2734,
+      "h": 2464,
+      "aspect": 1.11,
+      "std": 33.01,
+      "bytes": 140323,
+      "ink_margins_px": [
+        65,
+        470,
+        92,
+        352
+      ],
+      "svg_text_nodes": 13,
+      "svg_bad_mojibake": 0
+    }
+  },
+  "sources": {
+    "FIG123_MANUSCRIPT_COMPOSITION_AUTHORITY_20261007.json": {
+      "bytes": 1124,
+      "ok": true
+    },
+    "FIG1_MAIN_A_TARGET_FORMULATION_20261005.csv": {
+      "bytes": 874,
+      "ok": true
+    },
+    "FIG1_MAIN_B_IDENTITY_GENE_STRICT_20261005.csv": {
+      "bytes": 4894,
+      "ok": true
+    },
+    "FIG1_MAIN_C_WITHIN_TYPE_20261005.csv": {
+      "bytes": 1448,
+      "ok": true
+    },
+    "FIG1_MAIN_D_SHAPE_GAIN_20261005.csv": {
+      "bytes": 648,
+      "ok": true
+    },
+    "FIG1_UNIT_LEVEL_EXACT_FOLDS_20261005.csv": {
+      "bytes": 8269,
+      "ok": true
+    },
+    "FIG2_ED1_REFERENCE_QC_20261005.csv": {
+      "bytes": 1526,
+      "ok": true
+    },
+    "FIG2_MAIN_A_CROSSDATASET_GEOMETRY_20261005.csv": {
+      "bytes": 1254,
+      "ok": true
+    },
+    "FIG2_MAIN_B_MCLACHLAN_SAMEK_20261005.csv": {
+      "bytes": 4626,
+      "ok": true
+    },
+    "FIG2_MAIN_C_XU_PVN_ENDPOINT_AUTHORITY_20261005.csv": {
+      "bytes": 876,
+      "ok": true
+    },
+    "FIG2_MAIN_C_XU_PVN_REFERENCE_RECOVERY_20261005.csv": {
+      "bytes": 624,
+      "ok": true
+    },
+    "FIG2_MAIN_D_BUGEON_EXACT_VISP_20261005.csv": {
+      "bytes": 2497,
+      "ok": true
+    },
+    "FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv": {
+      "bytes": 3238,
+      "ok": true
+    },
+    "FIG3_MAIN_A_M1_PAIRED_STATS_20261005.csv": {
+      "bytes": 1244,
+      "ok": true
+    },
+    "FIG3_MAIN_B_ALLEN_HCR_K5_20261005.csv": {
+      "bytes": 1021,
+      "ok": true
+    },
+    "FIG3_MAIN_B_ALLEN_HCR_K5_FOLDS_20261005.csv": {
+      "bytes": 5328,
+      "ok": true
+    },
+    "FIG3_MAIN_C_WARP_COMPRESSION_20261005.csv": {
+      "bytes": 649,
+      "ok": true
+    },
+    "FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv": {
+      "bytes": 842,
+      "ok": true
+    },
+    "FIG3_MAIN_E_BUGEON_SELECTOR_OBJECTIVE_20261005.csv": {
+      "bytes": 1236,
+      "ok": true
+    },
+    "FIG4_MAIN_C_HEADROOM_GAIN_20261005.csv": {
+      "bytes": 921,
+      "ok": true
+    }
+  },
+  "issues": []
+}

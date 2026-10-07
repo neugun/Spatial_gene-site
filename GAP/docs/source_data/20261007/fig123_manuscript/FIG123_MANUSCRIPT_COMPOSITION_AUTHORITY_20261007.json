@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-07",
+  "status": "MANUSCRIPT_COMPOSITION_CURRENT",
+  "figures": {
+    "Fig1": "FIG1_MANUSCRIPT_CURRENT_20261007",
+    "Fig2": "FIG2_MANUSCRIPT_CURRENT_20261007",
+    "Fig3": "FIG3_MANUSCRIPT_CURRENT_20261007"
+  },
+  "schematics": [
+    "fig1A_coordinate_schematic",
+    "fig2A_three_gate_schematic",
+    "fig3A_assay_contract_schematic"
+  ],
+  "rules": [
+    "2x3 manuscript grammar with one question per panel",
+    "near-square panel geometry",
+    "no grid/top/right spines",
+    "filled bars without outlines",
+    "paired lines without redundant point markers",
+    "negative/boundary results remain in the main logic when they establish a gate",
+    "historical inventories remain provenance/ED rather than the main visual narrative"
+  ],
+  "figure_messages": {
+    "Fig1": "Biological identity reads specific functional coordinates at circuit-dependent resolution.",
+    "Fig2": "Reference recovery, candidate selection and held-unit functional utility are separate gates.",
+    "Fig3": "Compact molecular panels require an explicit assay contract and objective."
+  }
+}
