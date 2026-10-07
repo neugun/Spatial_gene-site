@@ -1,0 +1,189 @@
+{
+  "pages": {
+    "index.html": {
+      "marker": "fig123-current-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 136,
+      "missing_refs": []
+    },
+    "index_zh.html": {
+      "marker": "fig123-current-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 136,
+      "missing_refs": []
+    },
+    "fig1-authority\\index.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 121,
+      "missing_refs": []
+    },
+    "fig1-authority\\index_zh.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 121,
+      "missing_refs": []
+    },
+    "fig2-authority\\index.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 63,
+      "missing_refs": []
+    },
+    "fig2-authority\\index_zh.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 63,
+      "missing_refs": []
+    },
+    "fig3-authority\\index.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 58,
+      "missing_refs": []
+    },
+    "fig3-authority\\index_zh.html": {
+      "marker": "current-manuscript-view-20261007",
+      "marker_count": 1,
+      "replacement_chars": 0,
+      "control_chars": 0,
+      "privacy_hits": 0,
+      "local_refs": 58,
+      "missing_refs": []
+    }
+  },
+  "assets": {
+    "fig1_resolution_current_v3.png": {
+      "width": 4189,
+      "height": 4106,
+      "aspect": 1.02,
+      "gray_sd": 64.875,
+      "bytes": 524865
+    },
+    "fig1_zhao_current_v3.png": {
+      "width": 4010,
+      "height": 3957,
+      "aspect": 1.013,
+      "gray_sd": 63.157,
+      "bytes": 372703
+    },
+    "fig2_geometry_current_v3.png": {
+      "width": 2888,
+      "height": 2777,
+      "aspect": 1.04,
+      "gray_sd": 28.399,
+      "bytes": 131829
+    },
+    "fig2_mclachlan_sameK_current_v3.png": {
+      "width": 2924,
+      "height": 4044,
+      "aspect": 0.723,
+      "gray_sd": 34.787,
+      "bytes": 384385
+    },
+    "fig2_xu_decoupling_current_v3.png": {
+      "width": 2989,
+      "height": 3974,
+      "aspect": 0.752,
+      "gray_sd": 72.965,
+      "bytes": 146971
+    },
+    "fig3_allen_hcr_current_v3.png": {
+      "width": 3979,
+      "height": 3915,
+      "aspect": 1.016,
+      "gray_sd": 72.321,
+      "bytes": 340438
+    },
+    "fig3_bugeon_pareto_current_v3.png": {
+      "width": 2828,
+      "height": 2713,
+      "aspect": 1.042,
+      "gray_sd": 29.643,
+      "bytes": 160286
+    },
+    "fig3_m1_current_v3.png": {
+      "width": 2988,
+      "height": 4034,
+      "aspect": 0.741,
+      "gray_sd": 61.011,
+      "bytes": 368139
+    },
+    "fig3_wang_hidden_current_v3.png": {
+      "width": 2773,
+      "height": 2717,
+      "aspect": 1.021,
+      "gray_sd": 27.193,
+      "bytes": 95916
+    }
+  },
+  "source_bundle": [
+    {
+      "name": "CURRENT_MANUSCRIPT_AUTHORITY_20261007.md",
+      "ok": true,
+      "bytes": 2521
+    },
+    {
+      "name": "GAP_MAIN_FIGURE_PANEL_SOURCE_MAP_20261007.csv",
+      "ok": true,
+      "bytes": 10371
+    },
+    {
+      "name": "GAP_REVIEWER_LEVEL_AUDIT_20261007.md",
+      "ok": true,
+      "bytes": 13166
+    },
+    {
+      "name": "FIG123_CURRENT_STYLE_AND_CLAIM_AUTHORITY_20261007.json",
+      "ok": true,
+      "bytes": 1594
+    },
+    {
+      "name": "FIG1_UNIT_LEVEL_EXACT_FOLDS_20261005.csv",
+      "ok": true,
+      "bytes": 8404
+    },
+    {
+      "name": "FIG2_MAIN_B_MCLACHLAN_SAMEK_20261005.csv",
+      "ok": true,
+      "bytes": 4626
+    },
+    {
+      "name": "FIG3_MAIN_A_M1_FIXED_BUDGET_20261005.csv",
+      "ok": true,
+      "bytes": 3238
+    },
+    {
+      "name": "FIG3_MAIN_B_ALLEN_HCR_K5_FOLDS_20261005.csv",
+      "ok": true,
+      "bytes": 5328
+    },
+    {
+      "name": "FIG3_MAIN_D_WANG_TRUE_HIDDEN_20261005.csv",
+      "ok": true,
+      "bytes": 842
+    }
+  ],
+  "issues": []
+}

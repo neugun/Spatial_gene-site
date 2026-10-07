@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "source": "CURRENT manuscript authority + Oct5 Fig1-3 rebuild tables",
+  "style": {
+    "panel_geometry": "near-square by default",
+    "paired_data": "lines without individual point markers; mean shown as filled bar + SEM",
+    "bars": "filled only; no edge outline",
+    "axes": "no top/right spines; no grid",
+    "palette": [
+      "#B2232E",
+      "#87CDD4",
+      "#3F3F3F",
+      "#777777",
+      "#B5B5B5",
+      "#D6D6D6"
+    ],
+    "main_vs_history": "current authority first; historical inventories folded below"
+  },
+  "main_claims": {
+    "fig1": "Biological resolution required to read function is circuit dependent.",
+    "fig2": "Reference molecular recovery and downstream functional lift are separate gates.",
+    "fig3": "Compact panels are an experimental-design contract, not universal selector superiority."
+  },
+  "guardrails": [
+    "Xu Fig1 n=3: exact unit-level P floor is 0.125.",
+    "Bugeon Fig1 incremental genes-over-type gain is modest despite absolute readability.",
+    "Xu/PVH Fig2 is a critical negative decoupling result, not an optimization failure.",
+    "FSO is tied with sBNN at M1 K=25; do not claim universal superiority."
+  ],
+  "assets": [
+    "fig1_resolution_current_v3.png",
+    "fig1_zhao_current_v3.png",
+    "fig2_geometry_current_v3.png",
+    "fig2_mclachlan_sameK_current_v3.png",
+    "fig2_xu_decoupling_current_v3.png",
+    "fig3_allen_hcr_current_v3.png",
+    "fig3_bugeon_pareto_current_v3.png",
+    "fig3_m1_current_v3.png",
+    "fig3_wang_hidden_current_v3.png"
+  ]
+}

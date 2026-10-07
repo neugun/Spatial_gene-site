@@ -1,0 +1,5 @@
+dataset,species,region,n,shape_zf_r2,gain_r2,offset_r2,shape_perm_p,status
+Bugeon V1,mouse,VISp interneurons,376.0,0.1900672732955479,0.0076443675254178,0.1414578159389614,0.0019960079840319,replicated gene-predictable shape; weak gain
+Xu PVH,mouse,PVH,319.0,0.2587313117996849,0.0553617720384707,0.0334035793221191,0.0009990009990009,independent replication; 3/3 mice positive
+WARP,zebrafish,whole-brain/tectal visual,,0.0725727209583445,,,0.0033222591362126,weaker but significant shape signal; matched gain authority pending
+Shainer,zebrafish,tectum,,,,,,global gene-shape latent not robust; genes add axis-specific information after space
