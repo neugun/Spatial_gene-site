@@ -1,0 +1,18 @@
+{
+  "dataset": "warp2026",
+  "species": "zebrafish",
+  "region": "",
+  "executed": {
+    "function_map": "done (40 summary rows; full mode parallel-by-target)",
+    "coordinate_mediation": "done (7 coordinate models; 3 held groups)",
+    "atlaslift": "done (zebrafish_gse158_5dpf)",
+    "manifold": "done (8 targets)",
+    "prioritize_genes": "done (41 genes)",
+    "fixed_budget": "done (function:25 rows/8 targets)",
+    "relation_index": "done (2 eligible identity-domain levels; function:relation=2,AIC=2,effects=24)",
+    "information_criterion": "done (2 identity-domain summaries; function:relation=2,AIC=2,effects=24)",
+    "effect_size": "done (24 gene-target-domain effect rows; function:relation=2,AIC=2,effects=24)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/warp2026__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/warp2026__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

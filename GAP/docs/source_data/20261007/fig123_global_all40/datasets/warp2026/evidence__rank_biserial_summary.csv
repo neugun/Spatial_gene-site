@@ -1,0 +1,2 @@
+status,molecular_mode,n_genes_scanned,n_targets,n_gene_target_pairs,median_abs_effect,q95_abs_effect,n_abs_ge_0p2_consistency_ge_0p75,exploratory_top_gene,exploratory_top_target,exploratory_top_median_rank_biserial,exploratory_top_sign_consistency,exploratory_top_bh_q
+OK,continuous,41,8,24,0.019822715348878583,0.039732504875533446,0,cx43,feat__r_looming_left,-0.04646922400033615,1.0,

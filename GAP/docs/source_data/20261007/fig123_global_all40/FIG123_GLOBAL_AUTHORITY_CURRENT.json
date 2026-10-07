@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-07",
+  "authority": "FIG123_GLOBAL_ALL_DATASET_CURRENT",
+  "registry_rows": 40,
+  "standardized_executable_runset": 27,
+  "standardized_clean_done": 27,
+  "standardized_done_with_errors": 0,
+  "standardized_active": 0,
+  "independent_dataset_rows": 24,
+  "derived_contract_or_alias_rows": 8,
+  "other_reference_boundary_external_rows": 8,
+  "per_dataset_visual_reports": 27,
+  "slurm": {
+    "standardized_full_array_job": "54983221",
+    "heavy_stage_split_job": "54983248",
+    "function_target_parallel_job": "54983256",
+    "execution": "CPU Slurm; GAP --backend local inside compute tasks; full mode"
+  },
+  "standardized_goals": [
+    "function_map",
+    "coordinate_mediation",
+    "atlaslift",
+    "fixed_budget",
+    "relation_index",
+    "information_criterion",
+    "effect_size",
+    "manifold",
+    "prioritize_genes",
+    "projection_map",
+    "projection_operator"
+  ],
+  "capability_counts": {
+    "function_map": {
+      "done": 15,
+      "blocked_or_not_applicable": 12,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "coordinate_mediation": {
+      "done": 14,
+      "blocked_or_not_applicable": 13,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "atlaslift": {
+      "done": 14,
+      "blocked_or_not_applicable": 13,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "fixed_budget": {
+      "done": 18,
+      "blocked_or_not_applicable": 9,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "relation_index": {
+      "done": 17,
+      "blocked_or_not_applicable": 10,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "information_criterion": {
+      "done": 16,
+      "blocked_or_not_applicable": 11,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "effect_size": {
+      "done": 18,
+      "blocked_or_not_applicable": 9,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "manifold": {
+      "done": 14,
+      "blocked_or_not_applicable": 13,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "prioritize_genes": {
+      "done": 14,
+      "blocked_or_not_applicable": 13,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "projection_map": {
+      "done": 8,
+      "blocked_or_not_applicable": 19,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    },
+    "projection_operator": {
+      "done": 7,
+      "blocked_or_not_applicable": 20,
+      "failed": 0,
+      "pending": 0,
+      "total": 27
+    }
+  },
+  "registry_status_counts": {
+    "STANDARDIZED_DONE": 27,
+    "NOT_YET_STANDARDIZED": 8,
+    "EXTERNAL_CONTEXT": 2,
+    "CONFIG_REQUIRED": 1,
+    "REFERENCE_ONLY": 1,
+    "UNAVAILABLE_JOINT_DATA": 1
+  },
+  "interpretation": {
+    "main_figures": "Selected manuscript narrative only; never treated as the total evidence universe.",
+    "global_atlas": "Authoritative cross-dataset working layer: every registry row remains visible, including positive, negative, blocked, N/A, derived, reference-only, external-context and unavailable-data cases.",
+    "independent_n": "Derived aliases/contracts remain visible but are not counted as independent biological replication.",
+    "blocked_is_not_negative": "Blocked/not-applicable means the scientific input contract is absent; it is not converted into a negative biological result."
+  },
+  "public_surfaces": {
+    "atlas_en": "dataset-atlas/index.html",
+    "atlas_zh": "dataset-atlas/index_zh.html",
+    "source_csv": "docs/source_data/20261007/fig123_global_all40/FIG123_GLOBAL_DATASET_ATLAS_CURRENT.csv",
+    "headline_metrics": "docs/source_data/20261007/fig123_global_all40/FIG123_PER_DATASET_HEADLINE_METRICS_CURRENT.csv",
+    "capability_figure": "docs/site_assets/20261007/fig123_global_all40/FIG123_GLOBAL_CAPABILITY_COVERAGE_CURRENT.png"
+  }
+}

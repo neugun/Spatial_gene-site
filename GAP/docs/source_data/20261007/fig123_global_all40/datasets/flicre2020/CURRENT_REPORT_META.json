@@ -1,0 +1,18 @@
+{
+  "dataset": "flicre2020",
+  "species": "mouse",
+  "region": "nucleus accumbens",
+  "executed": {
+    "function_map": "done (10 summary rows; full mode parallel-by-target)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "manifold": "done (2 targets)",
+    "prioritize_genes": "done (1500 genes)",
+    "fixed_budget": "done (function:30 rows/2 targets)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "done (256 gene-target-domain effect rows; function:relation=0,AIC=0,effects=256)"
+  },
+  "figure_png": "docs/site_assets/20261007/fig123_global_all40/datasets/flicre2020__FIG123_GLOBAL_SUMMARY_CURRENT.png",
+  "figure_svg": "docs/site_assets/20261007/fig123_global_all40/datasets/flicre2020__FIG123_GLOBAL_SUMMARY_CURRENT.svg"
+}

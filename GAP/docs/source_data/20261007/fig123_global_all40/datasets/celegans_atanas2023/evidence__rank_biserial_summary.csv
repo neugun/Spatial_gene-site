@@ -1,0 +1,2 @@
+status,molecular_mode,n_genes_scanned,n_targets,n_gene_target_pairs,median_abs_effect,q95_abs_effect,n_abs_ge_0p2_consistency_ge_0p75,exploratory_top_gene,exploratory_top_target,exploratory_top_median_rank_biserial,exploratory_top_sign_consistency,exploratory_top_bh_q
+OK,low_discrete,128,5,5,0.09479452054794524,0.16756164383561645,0,wrt-2,func__head_angle,-0.18246575342465754,0.8,0.5208333333333334

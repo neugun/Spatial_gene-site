@@ -1,0 +1,73 @@
+{
+  "tool": "GAP",
+  "tool_version": "0.8-end2end-evidence-gates",
+  "input": "internal_path_redacted",
+  "runtime_modules": {
+    "gap_tool": "internal_path_redacted",
+    "gap_package": "internal_path_redacted",
+    "gxa_package": "internal_path_redacted"
+  },
+  "requested_species": null,
+  "resolved_species": "mouse",
+  "requested_region": null,
+  "resolved_region": "nucleus accumbens",
+  "requested_region_column": null,
+  "resolved_region_column": null,
+  "goals": "function_map,coordinate_mediation,atlaslift,fixed_budget,relation_index,information_criterion,effect_size,manifold,prioritize_genes,projection_map,projection_operator",
+  "backend": "local",
+  "mode": "full",
+  "foundation_models": [
+    "compact",
+    "large"
+  ],
+  "perturbation_data": null,
+  "perturbation_col": "gene_target",
+  "context_col": null,
+  "perturbation_compatibility": null,
+  "generalize_target": null,
+  "generalize_pairs": "auto",
+  "generalize_target_species": null,
+  "generalize_target_region": null,
+  "generalize_target_region_column": null,
+  "generalization_authority": null,
+  "executed": {
+    "function_map": "done (10 summary rows; full mode parallel-by-target)",
+    "coordinate_mediation": "blocked (input requirements not met)",
+    "atlaslift": "not_applicable (no anatomically eligible registered reference could be scored)",
+    "manifold": "done (2 targets)",
+    "prioritize_genes": "done (1500 genes)",
+    "fixed_budget": "done (function:30 rows/2 targets)",
+    "relation_index": "blocked (input requirements not met)",
+    "information_criterion": "blocked (input requirements not met)",
+    "effect_size": "done (256 gene-target-domain effect rows; function:relation=0,AIC=0,effects=256)"
+  },
+  "errors": {},
+  "readiness": {
+    "Fig1-3": {
+      "status": "COMPLETE_STANDARDIZED_FULL"
+    }
+  },
+  "scientific_summary": {
+    "Fig1-3 global": {
+      "status": "EXECUTED",
+      "allowed_claim": "All scientifically applicable standardized Fig1-3 modules were executed in full mode; blocked/not-applicable stages remain explicit.",
+      "guardrail": "Parallel execution changes scheduling only; each module uses the same frozen GAP implementation and biological-unit split contracts."
+    }
+  },
+  "policy": {
+    "default": "local-first",
+    "auto_submit_slurm": false,
+    "rule": "Slurm is an accelerator for large/GPU/array work, never a hidden dependency."
+  },
+  "resources": {
+    "cpu_count": 128,
+    "gpu_hardware_available": false,
+    "gpu_runtime_ready": false,
+    "gpu_name": null,
+    "gpu_worker": null,
+    "gpu_worker_ready": false,
+    "gpu_worker_cuda": false,
+    "slurm_cli_available": true
+  },
+  "execution_strategy": "Slurm parallel: function_map split by functional target; remaining Fig1-3 stages split into three independent routes"
+}
