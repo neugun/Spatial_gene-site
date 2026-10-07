@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "cards": 40,
+    "n_refs": 237,
+    "missing_links": [],
+    "duplicate_ids": 0,
+    "flicre_qc_sections": 1,
+    "private_path_tokens": []
+  },
+  "index_zh.html": {
+    "cards": 40,
+    "n_refs": 237,
+    "missing_links": [],
+    "duplicate_ids": 0,
+    "flicre_qc_sections": 1,
+    "private_path_tokens": []
+  },
+  "atlas_index.html": {
+    "anchors": 40,
+    "evidence_lens_link": true
+  },
+  "atlas_index_zh.html": {
+    "anchors": 40,
+    "evidence_lens_link": true
+  },
+  "source_counts": {
+    "EVIDENCE_LENS_ANNOTATIONS_ALL40.csv": 40,
+    "PAIRED_COORDINATE_ALTERNATIVES_ALL.csv": 280,
+    "ALL_TARGETS_ALL_MODELS_HELDUNIT.csv": 491,
+    "FLICRE_DERIVED_TARGET_18_HELD_SESSION_METRICS.csv": 18
+  },
+  "all_pass": true
+}

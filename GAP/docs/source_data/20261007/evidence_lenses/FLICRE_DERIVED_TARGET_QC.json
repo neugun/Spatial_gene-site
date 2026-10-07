@@ -1,0 +1,28 @@
+{
+  "dataset": "flicre2020",
+  "rows_total": 11625,
+  "n_valid": 11625,
+  "n_history_zero": 10376,
+  "n_history_positive": 1249,
+  "n_binary_positive": 1249,
+  "threshold_agreement": 1.0,
+  "pearson": 0.8609484292714389,
+  "spearman": 0.9989398818484756,
+  "n_unique_history": 23,
+  "n_unique_binary": 2,
+  "n_session": 3,
+  "axis_relation": "feat__activity_history_positive == 1[feat__activity_history>0] for every valid row",
+  "scientific_inference": "The two axes are not independent; conditioning one on the other is a derived-target leakage diagnostic, not a valid test of independent functional complementarity.",
+  "n_per_fold_rows": 18,
+  "n_target_model_summaries": 6,
+  "independent_functional_axes": false,
+  "conditional_inference_status": "INVALID_DERIVED_TARGET_LEAKAGE",
+  "correct_readout": "Genes-alone activity-history predictability may be analyzed as one endpoint, but binary activity-positive is algebraically derived from that endpoint and cannot be used as an independent functional-control or multivariate completion test.",
+  "models_tested": [
+    "history_only",
+    "genes_only_PCA32",
+    "history_plus_genes_PCA32"
+  ],
+  "cv_contract": "3 held-session folds, 1500 gene features, training-only imputation/scaling/PCA32, RidgeCV, same held rows",
+  "source": "frozen 2026-10-07 FliCRE dataset, checked every row against exact threshold relation"
+}
