@@ -1,0 +1,28 @@
+{
+  "stage": 944,
+  "status": "COMPLETE",
+  "expression_authority": "Stage943 Route A",
+  "n_cells": 71950,
+  "n_genes": 27,
+  "n_fine26": 26,
+  "median_fine26_section_profile_r": 0.7414529914529915,
+  "median_top5_marker_jaccard": 0.6666666666666666,
+  "n_robust_r1r5_fine26_pairs": 47,
+  "morphology_features": [
+    "area",
+    "minor_axis_length",
+    "major_axis_length",
+    "aspect_ratio"
+  ],
+  "n_projection_repro_pairs": 8,
+  "panels": [
+    "FINE26_SECTION_MARKER_STABILITY.png",
+    "R1R5_FINE26_THREE_SECTION_REPRODUCIBILITY.png",
+    "FINE26_AREA_DISTRIBUTIONS.png",
+    "FINE26_MORPHOLOGY_DISTRIBUTION_MEDIANS.png",
+    "PROJECTION_SECTION_EFFECTS_REPRODUCIBLE8.png",
+    "THREE_SECTION_FINE26_COMPOSITION.png",
+    "STAGE944_BIOLOGY_ADDITIONS.png"
+  ],
+  "interpretation": "Additive Stage185/Yuhan analyses: section stability, domain-type reproducibility, atlas-wide morphology distributions, projection effect-size reproducibility, and three-section composition."
+}

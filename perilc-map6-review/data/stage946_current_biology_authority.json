@@ -1,0 +1,23 @@
+{
+  "stage": 946,
+  "status": "COMPLETE",
+  "current_expression": "Stage943 Route A",
+  "n_cells": 71950,
+  "n_genes": 27,
+  "n_fine26": 26,
+  "spatial_domains": "R1-R5/K5",
+  "historical_templates": [
+    "Stage122 region publication assembly",
+    "Stage185 Fine26 publication assembly",
+    "Yuhan Wang Cell 2021 / eLife 2023 analysis logic"
+  ],
+  "figures": [
+    "FIG1_CURRENT_FINE26_TAXONOMY.png",
+    "FIG2_CURRENT_R1R5_ORGANIZATION.png",
+    "FIG3_CURRENT_R1R5_TO_FINE26.png",
+    "FIG4_CURRENT_FINE26_MORPHOLOGY.png",
+    "FIG5_CURRENT_YUHAN_PROJECTION_ANALOGUE.png"
+  ],
+  "style_rule": "black background only for spatial-pattern panels; white background for analytical panels",
+  "interpretation": "This is the biological downstream propagation of Stage943, not an engineering rerun. Current counts feed the Fine26 and R1-R5 molecular analyses; morphology and projection are orthogonal modalities aligned to the same current identity/spatial framework."
+}

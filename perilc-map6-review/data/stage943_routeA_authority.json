@@ -1,0 +1,23 @@
+{
+  "stage": 943,
+  "status": "CURRENT_AUTHORITY",
+  "route": "A",
+  "n_pairs": 81,
+  "composition": {
+    "Stage934_as_is": 81
+  },
+  "supersedes": "Stage941",
+  "basis": "Stage942 full four-method six-pair audit + Stage943 multi-gate adjudication",
+  "adjudication": {
+    "Otx2os1_S530": "Stage934 retained: artifact ratio 0.232; Fine26 cross-section change only -0.0023; Fine26/R1R5 profile correlations >0.9999.",
+    "Slc17a6_S560": "Stage934 retained with y-positive-fraction warning: artifact ratio 0.447; Fine26 cross-section correlation slightly improves; Fine26/R1R5 profile correlations >0.9997."
+  },
+  "warning_pairs": [
+    {
+      "gene": "Slc17a6",
+      "section": 560,
+      "warning": "y positive-fraction harmonic is higher than RAW; any future refinement must be axis-specific and must not disturb the accepted x/total cleanup."
+    }
+  ],
+  "principle": "No correction or earlier correction remains eligible, but a single neighbor-consistency diagnostic cannot override broad independent preservation gates when cross-section Fine26 and Fine26/R1R5 profiles remain preserved."
+}
