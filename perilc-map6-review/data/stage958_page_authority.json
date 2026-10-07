@@ -1,0 +1,18 @@
+{
+  "stage": 958,
+  "status": "CURRENT_ATLAS_SINGLECELL_PAGE",
+  "expression_authority": "Stage943 Route A",
+  "spatial_authority": "Stage956 marker-guided region10",
+  "singlecell_authorities": [
+    "Stage950",
+    "Stage951",
+    "Stage952"
+  ],
+  "main_page_additions": [
+    "region10\u00d7Fine26",
+    "region10 morphology+density",
+    "within-Fine26 spatial modulation",
+    "maskbody bridge"
+  ],
+  "main_page_rule": "final biological summaries only; engineering intermediates remain hidden"
+}
