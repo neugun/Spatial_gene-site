@@ -1,0 +1,20 @@
+{
+  "stage": 983,
+  "duration_seconds": 27,
+  "fps": 25,
+  "frames": 675,
+  "dimensions": [
+    1650,
+    600
+  ],
+  "source": "Stage141 true segmentation maskcloud",
+  "frame": "Stage631 preflipped physical XY, verified ROI alignment",
+  "palette": "Stage977 26 distinct Fine26 colors",
+  "reference": [
+    "Stage191",
+    "Stage214",
+    "Stage215"
+  ],
+  "file": "STAGE983_FINE26_MASKBODY_ZOOM_360_ZOOMOUT_27S.mp4",
+  "camera_path": "hold full view -> ease zoom in -> complete 360 degree orbit -> ease zoom out -> hold full view"
+}

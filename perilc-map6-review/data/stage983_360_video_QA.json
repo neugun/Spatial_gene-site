@@ -1,0 +1,20 @@
+{
+  "stage": 983,
+  "status": "PASS",
+  "frames": 675,
+  "fps": 25.0,
+  "duration_seconds": 27.0,
+  "dimensions": [
+    1650,
+    600
+  ],
+  "bytes": 56081684,
+  "motion_MAD": [
+    54.27614242424242,
+    57.291975757575756,
+    59.07017272727273
+  ],
+  "orientation_stage976": "PASS; no double flip",
+  "source": "Stage141 true maskcloud -> Stage631 matched ROI -> 26 Fine26 colors",
+  "camera": "Full 360-degree smooth orbit; zoom in then zoom out"
+}

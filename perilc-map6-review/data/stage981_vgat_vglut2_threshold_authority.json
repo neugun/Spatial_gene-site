@@ -1,0 +1,48 @@
+{
+  "stage": 981,
+  "status": "COMPLETE",
+  "selected": {
+    "VGAT_log_norm": 0.5,
+    "VGLUT2_log_norm": 6.5,
+    "validation_S530_score": 0.2982213084667503
+  },
+  "train_section": 500,
+  "validation_section": 530,
+  "untouched_test_section": 560,
+  "primary_check": "Compare fixed paper raw-count >10 to normalized two-gene thresholds, all sections and broad types",
+  "scientific_limitations": [
+    "Broad E/I labels may use these genes and are not independent ground truth",
+    "High positivity thresholds must not be tuned merely to eliminate co-positive cells",
+    "Three sections are one specimen and not biological replicates"
+  ],
+  "genes": [
+    "Nfib",
+    "Snap25",
+    "Zfhx3",
+    "Npy5r",
+    "Hcrtr1",
+    "Bcl11b",
+    "Slc5a7",
+    "Npy1r",
+    "Pdyn",
+    "Lmx1a",
+    "Piezo2",
+    "Tacr1",
+    "Slc6a4",
+    "Slc6a2",
+    "Foxp2",
+    "Fstl4",
+    "Epb41l4a",
+    "Pde11a",
+    "Slc32a1",
+    "Ghr",
+    "Ebf3",
+    "Cep112",
+    "Otx2os1",
+    "Dscaml1",
+    "Mc4r",
+    "Meis2",
+    "Slc17a6"
+  ],
+  "reference": "Wang et al. eLife 2023 Supp4 used >10 spots/cell for co-expression"
+}
