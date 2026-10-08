@@ -1,0 +1,8 @@
+{
+  "stage": 1041,
+  "status": "DONE",
+  "source": "Region1 ~138um field, 3 original N5 gene channels S500. Gene-specific Z slab independently optimized in Stage1037.",
+  "method": "3D Gaussian raw high-pass bandpass (sigma .8/1 XY ~1px vs 2Z/5XY background). peak_local_max with >=2 original pixels distance; three intensity thresholds 99.5/99.75/99.9% interior filtered voxels. Candidate considered close when distance in native 0.23um XY weighted Z\u00d71.83 is <=4.5 pixels.",
+  "interpretation": "Unmatched image high-pass local maxima may be genuine missed RNA, spurious noise, autofluorescence, physical spot double-counting, or other-round background. This screen is not a calibrated true molecular recall, precision or false-positive estimate.",
+  "limitations": "One source region, three separate acquisition rounds, different selected z. No uncalled spot ground truth. S500 only."
+}
