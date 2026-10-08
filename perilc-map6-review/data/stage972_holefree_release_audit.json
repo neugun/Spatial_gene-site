@@ -1,0 +1,285 @@
+{
+  "stage": 972,
+  "status": "PASS",
+  "orientation": "x flipped, y flipped",
+  "source_coordinates_unchanged": true,
+  "n_cells": 71950,
+  "gene_section_maps": 81,
+  "region_topology": {
+    "500": {
+      "before": {
+        "white_holes": 5,
+        "white_pixels": 23,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 24339,
+      "inner_voids_filled": 23,
+      "detached_support_pixels": 0,
+      "changed_existing_pixels": 281,
+      "changed_existing_fraction": 0.011545256584083159,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9884547434159169,
+      "minimum_region_iou_original": 0.9666238767650834,
+      "component_edits": []
+    },
+    "530": {
+      "before": {
+        "white_holes": 47,
+        "white_pixels": 625,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 2,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 3,
+          "5": 5,
+          "6": 0,
+          "7": 1,
+          "8": 1,
+          "9": 3,
+          "10": 14
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 20713,
+      "inner_voids_filled": 625,
+      "detached_support_pixels": 15,
+      "changed_existing_pixels": 231,
+      "changed_existing_fraction": 0.011152416356877323,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9888475836431226,
+      "minimum_region_iou_original": 0.9633774160732451,
+      "component_edits": []
+    },
+    "560": {
+      "before": {
+        "white_holes": 26,
+        "white_pixels": 315,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 2,
+          "10": 2
+        },
+        "region_holes": {
+          "1": 5,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 2,
+          "9": 0,
+          "10": 10
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 19939,
+      "inner_voids_filled": 315,
+      "detached_support_pixels": 12,
+      "changed_existing_pixels": 335,
+      "changed_existing_fraction": 0.01680124379357039,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9903706304227895,
+      "minimum_region_iou_original": 0.9008379888268156,
+      "component_edits": [
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 146
+        },
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 1
+        },
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 1
+        }
+      ]
+    }
+  },
+  "regions": {
+    "500": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 31461
+    },
+    "530": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 20513
+    },
+    "560": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 19976
+    }
+  },
+  "maskbody": {
+    "500": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 1314570,
+      "x_agreement_correlation": 0.9999030622629518,
+      "y_agreement_correlation": 0.9999156662639376,
+      "median_abs_x_um": 2.6060621956734167,
+      "median_abs_y_um": 2.362394023378215
+    },
+    "530": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 865922,
+      "x_agreement_correlation": 0.9998842325290405,
+      "y_agreement_correlation": 0.9998934641261045,
+      "median_abs_x_um": 2.587018096431848,
+      "median_abs_y_um": 2.520931966790272
+    },
+    "560": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 809718,
+      "x_agreement_correlation": 0.9999010470577072,
+      "y_agreement_correlation": 0.9999161586297771,
+      "median_abs_x_um": 2.3394363195524193,
+      "median_abs_y_um": 2.2166905051651042
+    }
+  },
+  "pages": {
+    "index.html": {
+      "images": 87,
+      "links_checked": 131
+    },
+    "single-cell.html": {
+      "images": 17,
+      "links_checked": 25
+    }
+  },
+  "errors": [],
+  "scope": "all CURRENT 2D and 3D spatial panels linked from map10 pages; historical sources retained for provenance"
+}

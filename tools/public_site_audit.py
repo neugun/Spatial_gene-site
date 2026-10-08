@@ -110,22 +110,40 @@ if MAP10.exists():
             errors.append(f"map10 obsolete maskbody panel in {name}")
     current=(MAP10/"index.html").read_text(encoding="utf-8")
     bridge=(MAP10/"single-cell.html").read_text(encoding="utf-8")
-    if current.count("stage963_orientation_smooth/") < 164:
+    if current.count("stage970_holefree_xy/") < 164:
         errors.append("map10 some current 81 gene panels are stale")
     for name in ("FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png",
-                 "FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png"):
+                 "FINAL_REGION10_HOLEFREE_X_FLIPPED_Y_FLIPPED.png"):
         if name not in current:errors.append(f"map10 missing current orientation: {name}")
     if bridge.count("stage967_maskbody_xy/") < 10:
         errors.append("map10 current 3D maskbody links are stale")
-    for name in ("stage956_gene_section_manifest.csv","stage963_gene_section_manifest.csv"):
+    for name in ("stage956_gene_section_manifest.csv","stage970_gene_section_manifest.csv"):
         with (MAP10/"data"/name).open(encoding="utf-8",newline="") as f:
             rows=list(csv.DictReader(f))
         if len(rows)!=81 or any(r.get("x_flipped")!="True" or r.get("y_flipped")!="True" for r in rows):
             errors.append(f"map10 flip metadata incomplete: {name}")
-    with (MAP10/"data"/"stage969_all3_flipped_manifest.csv").open(encoding="utf-8",newline="") as f:
+    with (MAP10/"data"/"stage971_all3_holefree_manifest.csv").open(encoding="utf-8",newline="") as f:
         composites=list(csv.DictReader(f))
-    if len(composites)!=27 or any(not (MAP10/"assets"/"stage969_all3_flipped"/r["file"]).is_file() for r in composites):
+    if len(composites)!=27 or any(not (MAP10/"assets"/"stage971_all3_holefree_xy"/r["file"]).is_file() for r in composites):
         errors.append("map10 27 corrected three-section composites missing")
+    # Region topology is a testable release contract, not just an image caption.
+    import json
+    qa=json.loads((MAP10/"data"/"stage970_holefree_region_audit.json").read_text(encoding="utf-8"))
+    if qa.get("stage")!=970 or qa.get("gene_maps")!=81:
+        errors.append("map10 Stage970 geometry authority missing")
+    for sec in ("500","530","560"):
+        row=qa.get("region_QA",{}).get(sec,{})
+        topo=row.get("after",{})
+        if topo.get("white_holes")!=0 or topo.get("white_pixels")!=0:
+            errors.append(f"map10 S{sec} tissue holes remain")
+        if len(topo.get("region_components",{}))!=10 or any(x!=1 for x in topo.get("region_components",{}).values()):
+            errors.append(f"map10 S{sec} disconnected region remains")
+        if len(topo.get("region_holes",{}))!=10 or any(x!=0 for x in topo.get("region_holes",{}).values()):
+            errors.append(f"map10 S{sec} internal region hole remains")
+        if row.get("changed_existing_fraction",1)>.03:
+            errors.append(f"map10 S{sec} boundary moved too far")
+    if current.count("stage971_all3_holefree_xy/")!=27:
+        errors.append("map10 missing current section-composite links")
 
 if errors:
     print("PUBLIC SITE AUDIT: FAIL")
