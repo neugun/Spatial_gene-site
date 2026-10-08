@@ -1,0 +1,6 @@
+{
+  "stage": 1044,
+  "method": "Reproduces Stage1041 native raw 3D local high-pass candidate threshold 99.75%, same region1; for originally nonmatching candidates search complete official spot catalog at XY radius <=3 original 0.23\u00b5m pixels, across absolute up/down z difference 4/8/16/32/64 native 0.42\u00b5m planes. Distinct from original 3D match <=4.5 equivalent source pixels.",
+  "important": "A listed detected spot at similar XY but a distant Z could be another true molecule. XY-only rescues at large Z must not be treated as corrected 3D matches. Missing if no official spot nearby does not prove physical RNA.",
+  "origin": "One S500 region, sampled raw source N5 vs each corresponding RS-FISH official catalog. No biological replication."
+}

@@ -1,0 +1,9 @@
+{
+  "n_dual": 10972,
+  "n_both_strong_20_10": 3755,
+  "n_both_strong_30_15": 1543,
+  "n_raw_vgat_dominant_3x": 4469,
+  "n_raw_vglut_dominant_3x": 18,
+  "n_ambiguous_ratio": 6485,
+  "probe_efficiency_warning": "Raw count ratios not comparable across genes"
+}

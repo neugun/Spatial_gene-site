@@ -1,0 +1,7 @@
+{
+  "criteria": "Corrected Snap25>5 AND frozen Broad not NE/ChAT AND (VGAT Slc32a1>10 OR VGLUT2 Slc17a6>5)",
+  "universe": 71950,
+  "n_selected": 31115,
+  "n_dual": 10972,
+  "warning": "Double-positive remains a third category. A gate cannot eliminate GABA/glutamate overlap and can increase percent double among retained cells. Broad NE/ChAT labels are from same 27-gene panel; Slc6a2 and Slc5a7 sensitivity table provided. No Chat gene in panel. Reuse existing Stage995 full-data tSNE, NOT refit."
+}

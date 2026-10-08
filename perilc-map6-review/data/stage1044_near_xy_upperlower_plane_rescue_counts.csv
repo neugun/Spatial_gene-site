@@ -1,0 +1,4 @@
+gene,n_native_raw_candidates,n_matched_original,n_notmatched_original,n_unmatched_with_nearXY_and_abs_dZ_le_4,n_unmatched_noXYz_rescue_by_4,n_unmatched_with_nearXY_and_abs_dZ_le_8,n_unmatched_noXYz_rescue_by_8,n_unmatched_with_nearXY_and_abs_dZ_le_16,n_unmatched_noXYz_rescue_by_16,n_unmatched_with_nearXY_and_abs_dZ_le_32,n_unmatched_noXYz_rescue_by_32,n_unmatched_with_nearXY_and_abs_dZ_le_64,n_unmatched_noXYz_rescue_by_64
+VGAT,86,42,44,0,44,0,44,0,44,0,44,1,43
+VGLUT2,159,138,21,0,21,0,21,1,20,2,19,3,18
+Snap25,193,193,0,0,0,0,0,0,0,0,0,0,0
