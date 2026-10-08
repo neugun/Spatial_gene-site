@@ -10,7 +10,7 @@ R=Path(r"Z:\sternsonlab\Zhenggang\2acq\map6_allsections_slurm_20260926")
 P=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review");D=P/"data"
 O=P/"assets"/"stage989_fine26_tsne";O.mkdir(exist_ok=True)
 z=np.load(R/"stage704_current_umap27"/"CURRENT_UMAP27_STAGE704.npz")
-xy=np.load(Path(r"G:\Map6_recover_all\stage982_tsne\multiscale_30_300.npz"))["embedding"]
+xy=np.load(Path(r"G:\Map6_recover_all\stage995_tsne\STAGE995_CURRENT_LOGZ_PCA20_TSNE_30_100.npz"))["embedding"]
 assert xy.shape==(71950,2)
 C=np.concatenate([np.load(Path(r"G:\Map6_recover_all\CURRENT_ROUTEA")/f"S{s}_cell_gene27_current.npy") for s in (500,530,560)],axis=0)
 G=list(z["genes"].astype(str));A=pd.read_csv(R/"stage631_current_3d_atlas"/"CURRENT_3D_CELL_ATLAS.csv.gz",usecols=["fine26_stable_id","section"])
@@ -81,5 +81,5 @@ fig.legend(handles=[Line2D([0],[0],marker="o",linestyle="",color=c,markersize=8,
 fig.suptitle("Threshold-sensitive four-class calls on FULL-data t-SNE",fontsize=14)
 fig.subplots_adjust(bottom=.13,top=.87,wspace=.08)
 save(fig,"FOURCLASS_VGAT10_VGLUT2_2_3_10_TSNE")
-(D/"stage989_tsne_display_authority.json").write_text(json.dumps({"stage":989,"status":"BUILT","n_cells":71950,"input":"Stage704 PCA15, Stage982 unsupervised multiscale 30/300 t-SNE","cluster_truth":"Stage631 Fine26 frozen; no label used to train t-SNE","outputs":["FINE26_CATEGORICAL_TSNE","BROAD_CLASSES_TSNE","VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_RAW","VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_NORM","VGAT_VGLUT2_NE_CHAT_TOP5PCT_TSNE","FOURCLASS_VGAT10_VGLUT2_2_3_10_TSNE"]},indent=2))
+(D/"stage989_tsne_display_authority.json").write_text(json.dumps({"stage":989,"status":"BUILT","n_cells":71950,"input":"Stage995 log-count gene-wise StandardScaler PCA20, unsupervised multiscale 30/100 t-SNE","cluster_truth":"Stage631 Fine26 frozen; no label used to train t-SNE","outputs":["FINE26_CATEGORICAL_TSNE","BROAD_CLASSES_TSNE","VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_RAW","VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_NORM","VGAT_VGLUT2_NE_CHAT_TOP5PCT_TSNE","FOURCLASS_VGAT10_VGLUT2_2_3_10_TSNE"]},indent=2))
 print("STAGE989_TSNE_DISPLAY_COMPLETE",flush=True)

@@ -1,0 +1,26 @@
+{
+  "stage": 996,
+  "n_subsampled": 4000,
+  "reference_input_1": "Stage704 PCA15 embedding input",
+  "reference_input_2": "Direct log1p corrected counts winsorized each gene p99.7; StandardScaler genes; PCA20",
+  "metrics": {
+    "OldPCA15_multiscale_30_300": {
+      "Fine26_purity": 0.22706666666666667,
+      "Broad_purity": 0.7228833333333333,
+      "knn_overlap_with_Old_PCA15": 0.2129166666666667,
+      "knn_overlap_with_Current_logZ_PCA20": 0.09893333333333333
+    },
+    "NewLogZPCA20_multiscale_30_100": {
+      "Fine26_purity": 0.4349,
+      "Broad_purity": 0.8256333333333333,
+      "knn_overlap_with_Old_PCA15": 0.0964,
+      "knn_overlap_with_Current_logZ_PCA20": 0.23298333333333335
+    }
+  },
+  "decision": "Prefer Stage995 if frozen-label neighborhood, lowD-to-highD fidelity, and broad preservation all improve; never use identities in embedding fit",
+  "scientific_limitations": [
+    "E/I/Fine26 labels may have gene-input circularity",
+    "No independent animal biological replicate",
+    "Silhouette separated islands alone are not a new molecular cell class"
+  ]
+}

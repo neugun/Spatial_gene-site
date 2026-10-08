@@ -49,7 +49,7 @@ for ss in [0,500,530,560]:
    vglut_norm_threshold=float(ethr),VGAT_only=int(count[0]),VGLUT_only=int(count[1]),double=int(count[2]),neither=int(count[3]),
    VGAT_only_pct=100*count[0]/n,VGLUT_only_pct=100*count[1]/n,double_pct=100*count[2]/n,neither_pct=100*count[3]/n))
 q=pd.DataFrame(parts);q.to_csv(D/"stage988_shared_p70_classification_by_section.csv",index=False)
-xy=np.load(Path(r"G:\Map6_recover_all\stage982_tsne\multiscale_30_300.npz"))["embedding"]
+xy=np.load(Path(r"G:\Map6_recover_all\stage995_tsne\STAGE995_CURRENT_LOGZ_PCA20_TSNE_30_100.npz"))["embedding"]
 fig,axs=plt.subplots(1,2,figsize=(12.6,5.3),layout="constrained")
 col=["#4387BE","#E37B34","#A362BC","#B8B8B8"]
 for k in (3,2,0,1):

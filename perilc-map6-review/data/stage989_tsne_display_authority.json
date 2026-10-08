@@ -2,7 +2,7 @@
   "stage": 989,
   "status": "BUILT",
   "n_cells": 71950,
-  "input": "Stage704 PCA15, Stage982 unsupervised multiscale 30/300 t-SNE",
+  "input": "Stage995 log-count gene-wise StandardScaler PCA20, unsupervised multiscale 30/100 t-SNE",
   "cluster_truth": "Stage631 Fine26 frozen; no label used to train t-SNE",
   "outputs": [
     "FINE26_CATEGORICAL_TSNE",

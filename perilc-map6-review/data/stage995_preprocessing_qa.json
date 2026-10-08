@@ -1,0 +1,16 @@
+{
+  "stage": 995,
+  "cells": 71950,
+  "input": "log1p(RouteA gene counts) winsorized at each gene 99.7% then gene-wise StandardScaler then PCA20",
+  "embedding": "tSNE multiscale 30/100 PCA init, lr n/12",
+  "original_label_purity": [
+    0.22706666666666667,
+    0.7228833333333333
+  ],
+  "new_label_purity": [
+    0.4349,
+    0.8256333333333333
+  ],
+  "blind_training": true,
+  "caveat": "local label concordance descriptive, must also evaluate expression-space neighborhood structure"
+}

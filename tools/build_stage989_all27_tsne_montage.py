@@ -7,7 +7,7 @@ R=Path(r"Z:\sternsonlab\Zhenggang\2acq\map6_allsections_slurm_20260926")
 P=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review")
 O=P/"assets"/"stage989_fine26_tsne"
 z=np.load(R/"stage704_current_umap27"/"CURRENT_UMAP27_STAGE704.npz")
-xy=np.load(Path(r"G:\Map6_recover_all\stage982_tsne\multiscale_30_300.npz"))["embedding"]
+xy=np.load(Path(r"G:\Map6_recover_all\stage995_tsne\STAGE995_CURRENT_LOGZ_PCA20_TSNE_30_100.npz"))["embedding"]
 C=np.concatenate([np.load(Path(r"G:\Map6_recover_all\CURRENT_ROUTEA")/f"S{s}_cell_gene27_current.npy") for s in (500,530,560)],axis=0).astype(float)
 G=list(z["genes"].astype(str));n=len(C)
 fig,axes=plt.subplots(6,5,figsize=(18,20),constrained_layout=True)

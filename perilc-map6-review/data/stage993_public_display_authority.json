@@ -1,10 +1,18 @@
 {
   "stage": 993,
   "status": "UPDATED",
-  "primary_embedding": "Stage982 full 71,950-cell t-SNE 30/300",
+  "primary_embedding": "Stage995 corrected-log counts gene-wise standardized PCA20 -> unsupervised tSNE perplexities 30/100",
   "umap_img_tags_remaining": 0,
   "all_img_src_checked": 33,
   "section_999scope": "full S500/S530/S560",
   "3d": "XY/XZ/YZ actual Stage141 segmented voxels",
-  "s500_surfaces": "Stage992 raw downseg label surfaces, 110 genuinely meshed ROI subset"
+  "s500_surfaces": "Stage992 raw downseg label surfaces, 110 genuinely meshed ROI subset",
+  "supervised_tsne": false,
+  "stage995_broad_and_fine_purity": "Stage996 fixed sample Fine26 0.4349 Broad 0.8256, compare Stage982 0.2271/0.7229",
+  "full_local_true_label_surfaces": {
+    "500": 110,
+    "530": 131,
+    "560": 116
+  },
+  "stage996_metrics": "stage996_tsne_preprocess_quality_comparison.json"
 }
