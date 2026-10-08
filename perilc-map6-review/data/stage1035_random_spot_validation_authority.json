@@ -1,0 +1,13 @@
+{
+  "stage": 1035,
+  "n_spots_each": {
+    "Snap25": 144,
+    "VGAT": 165,
+    "VGLUT2": 160
+  },
+  "source": "S500 native RS-FISH N5 s0 source, canonical authoritative post-RSFISH xyz from Section500 Stage556; R9 detected spots are post-correction but tested against native raw acquisition",
+  "sampling": "Each gene per-file proportional random source rows; quality-filter sample at least 18 px XY and 8 z from N5 block boundaries for paired 31x31 pixel neighborhoods",
+  "measure": "3x3 local intensity peak minus median 31x31 background; compare same image at pixel +12,+12, local MAD as normalizer",
+  "scope": "This estimates whether listed detected spot coordinates coincide with bright raw image structure, NOT specificity relative to all non-spot voxels and NOT the recall/FN rate. Does NOT prove correct spatial assignment to R1 cells across round registration.",
+  "one_specimen": true
+}
