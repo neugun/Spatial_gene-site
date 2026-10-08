@@ -1,0 +1,9 @@
+{
+  "stage": 988,
+  "control": "Raw vs panel-normalized P70 VGLUT2 in Route A and independent earlier H5AD",
+  "E_median_27gene_total": 48.30934143066406,
+  "I_median_27gene_total": 312.13616943359375,
+  "class_depth_ratio_I_to_E": 6.46119694845327,
+  "warning": "Total counts from a selected 27-gene biological marker panel are NOT unbiased total transcriptomic sequencing depth; class-dependent denominators may create dramatic normalized E-I specificity.",
+  "methodology": "Use this as a negative/sensitivity control before calling same-percentile VGLUT2 a selective transmitter marker."
+}

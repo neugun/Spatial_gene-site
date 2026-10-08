@@ -1,0 +1,10 @@
+{
+  "stage": 988,
+  "p70_illustrative": true,
+  "selected_percentile": 70.0,
+  "closest_full_scan_percentile": 69.5,
+  "selection_criterion": "Approximate raw count targets 15(VGAT)/5(VGLUT2) by normalized per-gene identical percentile; no E/I labels used for cutoff selection",
+  "vgat_normalized_cutoff": 672.1083419625,
+  "vglut_normalized_cutoff": 396.6268280473797,
+  "note": "A percentile cutoff is a marginal-rank visualization tool; independently validate FISH spot detection and neuronal class labels."
+}

@@ -1,0 +1,49 @@
+{
+  "stage": 988,
+  "status": "COMPLETE",
+  "cells": 71950,
+  "definition": "cell depth corrected to library size: 10000*(corrected gene spot count / sum of all 27 corrected genes). No log transform for requested 15 and 5. log1p reported separately.",
+  "all_cell_percentile_includes_zero_spot_cells": true,
+  "target": [
+    {
+      "gene": "VGAT",
+      "population": "all",
+      "kind": "target_norm",
+      "normalised_value": 15.0,
+      "log1p_normalised_value": 2.772588722239781,
+      "percentile_lt": 13.599722029186937,
+      "percentile_le": 13.599722029186937,
+      "percentile_midrank": 13.599722029186937,
+      "raw_count_median_among_above": 7.840513229370117,
+      "raw_count_q10_among_above": 1.3733525037765504,
+      "raw_count_q90_among_above": 41.015544128417936,
+      "raw_median_near_target": 1.2793352603912354,
+      "n_population": 71950
+    },
+    {
+      "gene": "VGLUT2",
+      "population": "all",
+      "kind": "target_norm",
+      "normalised_value": 5.0,
+      "log1p_normalised_value": 1.791759469228055,
+      "percentile_lt": 19.392633773453788,
+      "percentile_le": 19.392633773453788,
+      "percentile_midrank": 19.392633773453788,
+      "raw_count_median_among_above": 4.343481063842773,
+      "raw_count_q10_among_above": 1.1491438627243042,
+      "raw_count_q90_among_above": 14.033086776733398,
+      "raw_median_near_target": 0.7874116599559784,
+      "n_population": 71950
+    }
+  ],
+  "shared_percentile_range": [
+    65,
+    99
+  ],
+  "scientific_limitations": [
+    "One equal percentile is a rank/marginal-frequency normalization, not measurement of ambient puncta FPR or neurotransmitter specificity",
+    "Gene target 15 and 5 refer to normalized values, not raw spot counts",
+    "Raw/corrected counts per threshold vary across cells with total gene depth",
+    "S500/S530/S560 are spatial sections of one specimen"
+  ]
+}

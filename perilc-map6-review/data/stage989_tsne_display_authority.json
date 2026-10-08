@@ -1,0 +1,15 @@
+{
+  "stage": 989,
+  "status": "BUILT",
+  "n_cells": 71950,
+  "input": "Stage704 PCA15, Stage982 unsupervised multiscale 30/300 t-SNE",
+  "cluster_truth": "Stage631 Fine26 frozen; no label used to train t-SNE",
+  "outputs": [
+    "FINE26_CATEGORICAL_TSNE",
+    "BROAD_CLASSES_TSNE",
+    "VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_RAW",
+    "VGAT_VGLUT2_NE_CHAT_MARKER_TSNE_NORM",
+    "VGAT_VGLUT2_NE_CHAT_TOP5PCT_TSNE",
+    "FOURCLASS_VGAT10_VGLUT2_2_3_10_TSNE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "stage": 993,
+  "status": "UPDATED",
+  "primary_embedding": "Stage982 full 71,950-cell t-SNE 30/300",
+  "umap_img_tags_remaining": 0,
+  "all_img_src_checked": 33,
+  "section_999scope": "full S500/S530/S560",
+  "3d": "XY/XZ/YZ actual Stage141 segmented voxels",
+  "s500_surfaces": "Stage992 raw downseg label surfaces, 110 genuinely meshed ROI subset"
+}

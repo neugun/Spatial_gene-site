@@ -1,0 +1,15 @@
+{
+  "stage": 990,
+  "all_cells": 71950,
+  "section_counts": {
+    "500": 31461,
+    "530": 20513,
+    "560": 19976
+  },
+  "source": "Stage631 full x/y cell atlas, without medial/periLC/LC ROI gate",
+  "orientation": "Stage631 x and y already flipped; do not flip again",
+  "visuals": [
+    "Fine26 all-section XY",
+    "Broad all-section XY"
+  ]
+}

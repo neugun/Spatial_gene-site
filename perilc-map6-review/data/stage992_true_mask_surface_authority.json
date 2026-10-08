@@ -1,0 +1,11 @@
+{
+  "stage": 992,
+  "status": "TRUE_SEGMENTATION_SURFACES",
+  "source": "Full-resolution S500 downseg.tif genuine segmentation labels; source disk path withheld",
+  "local_window": "S500 Stage950, subset of cell bodies within cropped XY + bounded Z, not all bodies",
+  "genuine_meshes": 110,
+  "sampled_points": 4342,
+  "algorithm": "ROI-specific exact downseg.tif label binary -> sigma .82 Gaussian anti-alias -> marching_cubes .42, triangle mesh",
+  "xy": "Stage631 physical already both flipped; raw index y intercept 2234 verified 160/160 exact ROI labels",
+  "caution": "Sampling sparse maskcloud is not a true surface; this figure replaces pointcloud with exact segmentation-derived surface for the shown ROI subset"
+}

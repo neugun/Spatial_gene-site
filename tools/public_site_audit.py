@@ -115,8 +115,18 @@ if MAP10.exists():
     for name in ("FINAL_LC_PERILC_STAGE631_PREFLIPPED.png",
                  "FINAL_REGION10_STAGE631_PREFLIPPED_SMOOTH_OUTER.png"):
         if name not in current:errors.append(f"map10 missing current orientation: {name}")
-    if bridge.count("stage974_preflipped_reference/") + bridge.count("stage979_consistent_fine26/") < 15:
-        errors.append("map10 current 3D maskbody links are stale")
+    # Stage993: current main page must now contain complete-section Fine26/Broad
+    # and orthogonal physical segmentation 3D. Historical Stage974/979 counts
+    # were a legacy view and may no longer be shown.
+    if bridge.count("stage990_fullsection/") < 4:
+        errors.append("map10 full-section (not periLC crop) XY atlas missing")
+    if bridge.count("stage991_orthogonal_maskbody/") < 4:
+        errors.append("map10 whole-section XY XZ YZ segmentation missing")
+    if bridge.count("stage992_true_mask_surface/") < 2:
+        errors.append("map10 S500 genuine local segmentation mesh missing")
+    import re
+    if re.search(r'<img[^>]+src=["\'][^"\']*[Uu][Mm][Aa][Pp]',bridge):
+        errors.append("map10 current single-cell page still shows deprecated UMAP image")
     for name in ("stage973_gene_section_manifest.csv",):
         with (MAP10/"data"/name).open(encoding="utf-8",newline="") as f:
             rows=list(csv.DictReader(f))

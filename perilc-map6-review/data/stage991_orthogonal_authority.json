@@ -1,0 +1,66 @@
+{
+  "stage": 991,
+  "status": "COMPLETE",
+  "section_rows": [
+    {
+      "section": 500,
+      "n_cells": 31461,
+      "sampled_mask_voxels": 200000,
+      "x_alignment": 0.999903062262952,
+      "y_alignment": 0.9999156662639378,
+      "physical_x_extent": [
+        -3.3604753601817947,
+        990.239519299242
+      ],
+      "physical_y_extent": [
+        -3.2207657348199064,
+        981.1791976440863
+      ],
+      "depth_extent": [
+        3.7799999713897705,
+        309.53997802734375
+      ]
+    },
+    {
+      "section": 530,
+      "n_cells": 20513,
+      "sampled_mask_voxels": 200000,
+      "x_alignment": 0.9998842325290409,
+      "y_alignment": 0.9998934641261046,
+      "physical_x_extent": [
+        -4.677856162030139,
+        961.3221853228026
+      ],
+      "physical_y_extent": [
+        -1.753549929385258,
+        998.7464500706147
+      ],
+      "depth_extent": [
+        6.299999713897705,
+        294.41998291015625
+      ]
+    },
+    {
+      "section": 560,
+      "n_cells": 19976,
+      "sampled_mask_voxels": 200000,
+      "x_alignment": 0.9999010470577067,
+      "y_alignment": 0.9999161586297776,
+      "physical_x_extent": [
+        -3.095031038492607,
+        1020.4049689615074
+      ],
+      "physical_y_extent": [
+        -3.607270090902716,
+        1001.492766530191
+      ],
+      "depth_extent": [
+        1.6799999475479126,
+        263.3399963378906
+      ]
+    }
+  ],
+  "coordinate_frame": "Stage631 already flipped both XY; Stage141 source x sign corrected via ROI fit, same Stage979 transform",
+  "source": "Stage141 downseg.tif-derived true segmentation voxels, sampled, not reconstructed surfaces or cell-centroids",
+  "panels": "whole section XY primary, orthogonal XZ and YZ for depth"
+}
