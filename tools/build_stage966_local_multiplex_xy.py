@@ -5,6 +5,7 @@ import numpy as np,pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from map10_display_xy import flip_xy
 root=Path(sys.argv[1])
 pub=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review")
 D=pub/"data";out=pub/"assets"/"stage963_orientation_smooth"
@@ -32,7 +33,7 @@ for s in (500,530,560):
  ax=fig.add_subplot(gs[0,0]);ax.set_facecolor("black")
  xr=ss.x_um.to_numpy(float);yr=ss.y_um.to_numpy(float)
  originx=xr.min()+xr.max();originy=yr.min()+yr.max()
- xshow=originx-W.x_um.to_numpy(float);yshow=originy-W.y_um.to_numpy(float)
+ xshow,yshow=flip_xy(W.x_um.to_numpy(float),W.y_um.to_numpy(float),x_bounds=(xr.min(),xr.max()),y_bounds=(yr.min(),yr.max()))
  for typ in sorted(W.fine26.unique()):
   sel=W.fine26.to_numpy()==typ
   ax.scatter(xshow[sel],yshow[sel],s=3.5,color=cmap(typ/25),alpha=.8,linewidths=0,rasterized=True)
@@ -44,7 +45,7 @@ for s in (500,530,560):
  ax.imshow(z.T,aspect="auto",cmap="coolwarm",vmin=-2.5,vmax=2.5)
  ax.set_yticks(range(len(genes)),genes,fontsize=6,color="white");ax.set_xticks([])
  ax.set_title("Selected cells x 27 genes",color="white",fontsize=10)
- fig.suptitle(f"Stage943 local Fine26 multiplex | XY reversed | S{s}",color="white",fontsize=13)
+ fig.suptitle(f"Stage943 local Fine26 multiplex | x flipped, y flipped | S{s}",color="white",fontsize=13)
  fig.tight_layout()
  fig.savefig(out/f"S{s}_LOCAL_MULTIPLEX_XY.png",dpi=190,bbox_inches="tight",facecolor="black")
  plt.close(fig)

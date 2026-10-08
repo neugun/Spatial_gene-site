@@ -1,4 +1,4 @@
-gene,section,file,x_reversed,y_reversed,vmax,gamma,smooth_sigma
+gene,section,file,x_flipped,y_flipped,vmax,gamma,smooth_sigma
 Nfib,500,Nfib_S500_expression_preview.jpg,True,True,23.779301166534424,0.58,3.0
 Nfib,530,Nfib_S530_expression_preview.jpg,True,True,23.779301166534424,0.58,3.0
 Nfib,560,Nfib_S560_expression_preview.jpg,True,True,23.779301166534424,0.58,3.0

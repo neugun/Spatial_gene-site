@@ -9,6 +9,7 @@ from scipy.spatial import cKDTree
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from map10_display_xy import flip_xy
 raw=Path(sys.argv[1])
 A=pd.read_csv(raw/"CURRENT_CELL_MEDIAL_PERILC_ANNOTATION.csv.gz")
 P=pd.read_csv(raw/"LC_CORE_SAMPLE_POLYGONS.csv")
@@ -24,8 +25,7 @@ for ax,s in zip(axs,(500,530,560)):
  # Verify source annotation coordinate bounds correspond to gene-atlas bounds
  assert abs(xr.min()-t.x.min())<1 and abs(xr.max()-t.x.max())<1
  assert abs(yr.min()-t.y.min())<1 and abs(yr.max()-t.y.max())<1
- xx=xr.min()+xr.max()-xr
- yy=yr.min()+yr.max()-yr
+ xx,yy=flip_xy(xr,yr)
  ax.scatter(xx,yy,s=.35,c="#d7d7d7",alpha=.65,linewidths=0,rasterized=True)
  flag=q.medial_wrap_450um.astype(bool).to_numpy()
  gx=np.linspace(xx.min(),xx.max(),220);gy=np.linspace(yy.min(),yy.max(),220)
@@ -37,16 +37,15 @@ for ax,s in zip(axs,(500,530,560)):
  ax.contour(gx,gy,Z,levels=[.5],colors=["#d97706"],linewidths=1.8)
  pp=P[P.section==s].sort_values("vertex_order")
  if len(pp):
-  px=xr.min()+xr.max()-pp.x_um.to_numpy(float)
-  py=yr.min()+yr.max()-pp.y_um.to_numpy(float)
+  px,py=flip_xy(pp.x_um.to_numpy(float),pp.y_um.to_numpy(float),x_bounds=(xr.min(),xr.max()),y_bounds=(yr.min(),yr.max()))
   ax.plot(px,py,c="#2563eb",lw=1.9)
   ax.text(px.mean(),py.mean(),"LC",fontsize=9,ha="center",va="center",color="#1d4ed8",fontweight="bold")
  if flag.any():ax.text(xx[flag].mean(),yy[flag].mean(),"periLC",fontsize=9,ha="center",va="center",color="#b45309",fontweight="bold")
  ax.set_title(f"S{s}",fontsize=11)
  ax.set_aspect("equal");ax.set_xticks([]);ax.set_yticks([])
  for sp in ax.spines.values():sp.set_visible(False)
-fig.suptitle("LC / periLC locator · XY jointly reversed from source",fontsize=14)
+fig.suptitle("LC / periLC locator · x flipped, y flipped from source",fontsize=14)
 fig.tight_layout(rect=[0,0,1,.95])
-fig.savefig(out/"FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png",dpi=190,bbox_inches="tight")
+fig.savefig(out/"FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png",dpi=190,bbox_inches="tight")
 plt.close(fig)
 print("LOCATOR_FROM_SOURCE_PASSED",len(A))

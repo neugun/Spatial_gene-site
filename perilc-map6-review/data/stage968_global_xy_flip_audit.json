@@ -1,0 +1,66 @@
+{
+  "stage": 968,
+  "status": "PASS",
+  "orientation": "x flipped, y flipped",
+  "source_coordinates_unchanged": true,
+  "n_cells": 71950,
+  "gene_section_maps": 81,
+  "regions": {
+    "500": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 31461
+    },
+    "530": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 20513
+    },
+    "560": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "n_cells": 19976
+    }
+  },
+  "maskbody": {
+    "500": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 1314570,
+      "x_agreement_correlation": 0.9999030622629518,
+      "y_agreement_correlation": 0.9999156662639376,
+      "median_abs_x_um": 2.6060621956734167,
+      "median_abs_y_um": 2.362394023378215
+    },
+    "530": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 865922,
+      "x_agreement_correlation": 0.9998842325290405,
+      "y_agreement_correlation": 0.9998934641261045,
+      "median_abs_x_um": 2.587018096431848,
+      "median_abs_y_um": 2.520931966790272
+    },
+    "560": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 809718,
+      "x_agreement_correlation": 0.9999010470577072,
+      "y_agreement_correlation": 0.9999161586297771,
+      "median_abs_x_um": 2.3394363195524193,
+      "median_abs_y_um": 2.2166905051651042
+    }
+  },
+  "pages": {
+    "index.html": {
+      "images": 87,
+      "links_checked": 128
+    },
+    "single-cell.html": {
+      "images": 17,
+      "links_checked": 25
+    }
+  },
+  "errors": [],
+  "scope": "all CURRENT 2D and 3D spatial panels linked from map10 pages; historical sources retained for provenance"
+}

@@ -2,8 +2,8 @@
   "stage": 956,
   "status": "CURRENT_FINAL_DISPLAY_ATLAS",
   "expression_authority": "Stage943 Route A",
-  "orientation": "x and y reversed for display in every gene map and region reference",
-  "colorbar": "explicit on every gene\u00d7section map; shared range across three sections for each gene",
+  "orientation": "x flipped, y flipped for display in every gene map and region reference",
+  "colorbar": "explicit on every gene×section map; shared range across three sections for each gene",
   "snap25": "special broad-expression display: 85th percentile positive-count vmax + gamma 0.50",
   "region_reference": {
     "n_regions": 10,
@@ -43,5 +43,7 @@
     },
     "note": "marker-guided smoothed fields + geometry support; S560 receives stronger smoothing search"
   },
-  "main_page_rule": "final atlas only; intermediate correction/validation plots omitted from main page"
+  "main_page_rule": "final atlas only; intermediate correction/validation plots omitted from main page",
+  "display_orientation": "x flipped, y flipped",
+  "display_transform": "x_display=xmin+xmax-x_raw; y_display=ymin+ymax-y_raw"
 }

@@ -82,13 +82,13 @@ index=f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport"
 <main>
 <section id="locator"><h2>LC / periLC locator</h2>
 <p class="lead">LC and the operational periLC field are shown only as anatomical locators. Gene-expression panels below show the complete section and are not cropped to these regions.</p>
-<a href="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png" alt="LC periLC locator"></a></section>
+<a href="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png" alt="LC periLC locator"></a></section>
 <section id="regions"><h2>Marker-guided section-specific 10-subregion reference</h2>
 <p class="lead">Each section is partitioned independently. The required anchors are <b>Hcrtr1, Bcl11b, Slc5a7, Lmx1a, Piezo2, Slc6a2 and Ghr</b>, supplemented by the most spatially informative genes in that section. Region numbers are local to each section; no cross-section homology is imposed. S560 uses the stronger smoothing search selected by the marker-preservation gate.</p>
-<a href="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_XY_REVERSED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_XY_REVERSED.png" alt="marker guided section specific ten regions"></a>
+<a href="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png" target="_blank"><img class="hero" src="assets/stage963_orientation_smooth/FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png" alt="marker guided section specific ten regions"></a>
 <div class="region-notes">{''.join(region_notes)}</div></section>
 <section id="genes"><h2>Final gene × section expression atlas</h2>
-<p class="lead">All maps use reversed x/y display orientation. Every panel shows an explicit <b>spot-count colorbar</b> and numeric display range. The three sections share one range per gene. Broad genes use a lower saturation ceiling; Snap25 is intentionally shown with an 85th-percentile positive-count maximum so widespread expression remains visible.</p>
+<p class="lead">All maps use x flipped, y flipped display orientation. Every panel shows an explicit <b>spot-count colorbar</b> and numeric display range. The three sections share one range per gene. Broad genes use a lower saturation ceiling; Snap25 is intentionally shown with an 85th-percentile positive-count maximum so widespread expression remains visible.</p>
 <input id="geneSearch" type="search" placeholder="Search gene…">{''.join(cards)}</section>
 <section id="downstream"><h2>Downstream spatial analyses</h2>
 <p class="lead">Only final biological summaries are retained here; correction sweeps and engineering intermediates remain outside the main atlas.</p>

@@ -10,6 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import PowerNorm
 from PIL import Image
+from map10_display_xy import flip_xy,verify_flip_xy
 import pandas as pd
 root=Path(r"G:\Spatial_gene_site_publish")
 pub=root/"perilc-map6-review"; data=pub/"data"
@@ -26,8 +27,7 @@ xraw=context["x0"]; yraw=context["y0"]; section=context["section"]
 xd=context["xd"]; yd=context["yd"]
 for s in secs:
  m=section==s
- assert np.allclose(xd[m]+xraw[m],xraw[m].min()+xraw[m].max())
- assert np.allclose(yd[m]+yraw[m],yraw[m].min()+yraw[m].max())
+ verify_flip_xy(xraw[m],yraw[m],xd[m],yd[m])
 display={}
 diagnostics={}
 for s in secs:
@@ -82,9 +82,9 @@ for ax,s in zip(axs,secs):
   ys,xs=np.where(G==k)
   if len(xs):ax.text(float(infos[s]["xc"][xs].mean()),float(infos[s]["yc"][ys].mean()),str(k),ha="center",va="center",fontsize=9,bbox=dict(boxstyle="circle,pad=.2",fc="white",ec="#666",lw=.6))
  ax.set_title(f"S{s} · local regions 1–10",fontsize=11);clean_axes(ax)
-fig.suptitle("Marker-guided region10 | smooth contours | X/Y reversed",fontsize=14)
+fig.suptitle("Marker-guided region10 | smooth contours | x flipped, y flipped",fontsize=14)
 fig.tight_layout(rect=[0,0,1,.94])
-fig.savefig(out/"FINAL_REGION10_SMOOTH_XY_REVERSED.png",dpi=180,bbox_inches="tight")
+fig.savefig(out/"FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png",dpi=180,bbox_inches="tight")
 plt.close(fig)
 print("STAGE963_REGION_IMAGE_READY",flush=True)
 oldman=pd.read_csv(data/"stage956_gene_section_manifest.csv")
@@ -106,7 +106,7 @@ for gi,g in enumerate(genes):
   cb.set_ticks([0,vmax/2,vmax])
   cb.set_ticklabels(["0",f"{vmax/2:.0f}" if vmax>=10 else f"{vmax/2:.1f}",f"{vmax:.0f}" if vmax>=10 else f"{vmax:.1f}"])
   cb.set_label("spot count",fontsize=9);cb.ax.tick_params(labelsize=8)
-  fig.text(.5,.015,f"display 0–{vmax:.1f} spot count | XY reversed",ha="center",fontsize=8,color="#555")
+  fig.text(.5,.015,f"display 0–{vmax:.1f} spot count | x flipped, y flipped",ha="center",fontsize=8,color="#555")
   fig.tight_layout(rect=[0,.035,1,1])
   temp=out/"temp_working.png"
   fig.savefig(temp,dpi=180,bbox_inches="tight")
@@ -114,12 +114,12 @@ for gi,g in enumerate(genes):
   fname=f"{g}_S{s}_expression_preview.jpg"
   im=Image.open(temp).convert("RGB");im.thumbnail((850,850));im.save(out/fname,quality=87)
   temp.unlink()
-  rows.append(dict(gene=g,section=s,file=fname,x_reversed=True,y_reversed=True,vmax=vmax,gamma=gamma,smooth_sigma=display[s]["sigma"]))
+  rows.append(dict(gene=g,section=s,file=fname,x_flipped=True,y_flipped=True,vmax=vmax,gamma=gamma,smooth_sigma=display[s]["sigma"]))
  print("STAGE963_GENE",g,flush=True)
 pd.DataFrame(rows).to_csv(data/"stage963_gene_section_manifest.csv",index=False)
 auth=dict(stage=963,status="DISPLAY_READY_PENDING_VISUAL_QA",
  expression_authority="Stage943 Route A",biological_region_authority="Stage956 unchanged",
- display="x'=min(x)+max(x)-x; y'=min(y)+max(y)-y for EACH section",
+ display="x flipped, y flipped by section: x_display=xmin+xmax-x_raw; y_display=ymin+ymax-y_raw",
  smooth_method="display-only smoothing, unchanged Stage956 cell labels",
  region_QA=diagnostics,gene_maps=len(rows))
 (data/"stage963_orientation_smoothing_audit.json").write_text(json.dumps(auth,indent=2),encoding="utf8")

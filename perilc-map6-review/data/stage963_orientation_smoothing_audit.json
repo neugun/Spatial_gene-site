@@ -3,7 +3,7 @@
   "status": "DISPLAY_READY_PENDING_VISUAL_QA",
   "expression_authority": "Stage943 Route A",
   "biological_region_authority": "Stage956 unchanged",
-  "display": "x'=min(x)+max(x)-x; y'=min(y)+max(y)-y for EACH section",
+  "display": "x flipped, y flipped by section: x_display=xmin+xmax-x_raw; y_display=ymin+ymax-y_raw",
   "smooth_method": "display-only smoothing, unchanged Stage956 cell labels",
   "region_QA": {
     "500": {

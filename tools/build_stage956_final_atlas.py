@@ -8,6 +8,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import PowerNorm
 from PIL import Image
+from map10_display_xy import flip_xy,verify_flip_xy
+from map10_display_xy import flip_xy,verify_flip_xy
 
 PUB=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review")
 DATA=PUB/"data"
@@ -23,12 +25,12 @@ assert X.shape==(len(cells),len(genes))
 secs=[500,530,560]
 x0=cells["x"].to_numpy(float); y0=cells["y"].to_numpy(float); section=cells["section"].to_numpy(int)
 
-# Display convention requested: reverse BOTH x and y within each section.
+# Canonical display convention: x flipped, y flipped within each section.
 xd=np.empty_like(x0); yd=np.empty_like(y0)
 for ss in secs:
     m=section==ss
-    xd[m]=x0[m].min()+x0[m].max()-x0[m]
-    yd[m]=y0[m].min()+y0[m].max()-y0[m]
+    xd[m],yd[m]=flip_xy(x0[m],y0[m])
+    verify_flip_xy(x0[m],y0[m],xd[m],yd[m])
 
 required=["Hcrtr1","Bcl11b","Slc5a7","Lmx1a","Piezo2","Slc6a2","Ghr"]
 # previously useful spatially selective genes; broad housekeeping-like genes are not allowed to dominate region fitting.
@@ -302,7 +304,7 @@ for gi,g in enumerate(genes):
         mid=vmax/2
         cb.set_ticks([0,mid,vmax]);cb.set_ticklabels([f"0",f"{mid:.0f}" if vmax>=10 else f"{mid:.1f}",f"{vmax:.0f}" if vmax>=10 else f"{vmax:.1f}"])
         cb.ax.tick_params(labelsize=7);cb.set_label("spot count",fontsize=8)
-        fig.text(.5,.015,f"display range: 0–{vmax:.1f} spot count · x/y reversed",ha="center",fontsize=7.5,color="#666")
+        fig.text(.5,.015,f"display range: 0–{vmax:.1f} spot count · x flipped, y flipped",ha="center",fontsize=7.5,color="#666")
         fig.tight_layout(rect=[0,.035,1,1])
         fp=OUT/f"{g}_S{ss}_expression.png";fig.savefig(fp,dpi=185,bbox_inches="tight");plt.close(fig)
         im=Image.open(fp).convert("RGB");im.thumbnail((820,780));im.save(OUT/f"{g}_S{ss}_expression_preview.jpg",quality=86)
@@ -310,12 +312,12 @@ for gi,g in enumerate(genes):
         except Exception: pass
         manifest.append(dict(gene=g,section=ss,file=f"{g}_S{ss}_expression_preview.jpg",preview=f"{g}_S{ss}_expression_preview.jpg",
                              positive_fraction=posfrac,vmax=vmax,vmax_quantile=q,gamma=gamma,display_class=kind,
-                             x_reversed=True,y_reversed=True,region_reference="stage956_marker_guided_region10"))
+                             x_flipped=True,y_flipped=True,region_reference="stage956_marker_guided_region10"))
 pd.DataFrame(policy).to_csv(DATA/"stage956_gene_colorbar_policy.csv",index=False)
 pd.DataFrame(manifest).to_csv(DATA/"stage956_gene_section_manifest.csv",index=False)
 
 auth=dict(stage=956,status="CURRENT_FINAL_DISPLAY_ATLAS",expression_authority="Stage943 Route A",
-          orientation="x and y reversed for display in every gene map and region reference",
+          orientation="x flipped, y flipped for display in every gene map and region reference",
           colorbar="explicit on every gene×section map; shared range across three sections for each gene",
           snap25="special broad-expression display: 85th percentile positive-count vmax + gamma 0.50",
           region_reference=dict(n_regions=10,section_specific=True,cross_section_homology_assumed=False,

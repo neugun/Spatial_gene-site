@@ -92,6 +92,41 @@ for p in GAP.rglob("*"):
     if p.is_file() and p.suffix.lower() in blocked_ext:
         errors.append(f"non-results artifact in GAP public tree: {p.relative_to(ROOT)}")
 
+# Map10 release gate: every CURRENT spatial output must use x flipped, y flipped.
+# Lightweight stdlib check so GitHub Actions can prevent stale figure regressions.
+MAP10=ROOT/"perilc-map6-review"
+if MAP10.exists():
+    import csv
+    for name in ("index.html","single-cell.html"):
+        page=MAP10/name
+        html=page.read_text(encoding="utf-8")
+        if "reversed" in html.lower() or "xy_reversed" in html.lower():
+            errors.append(f"map10 obsolete orientation in {name}")
+        parser=P();parser.feed(html)
+        for _,src in parser.links:
+            if src.startswith("assets/") and not (MAP10/src.split("?")[0].split("#")[0]).is_file():
+                errors.append(f"map10 missing asset {name}: {src}")
+        if "stage951_maskbody/" in html:
+            errors.append(f"map10 obsolete maskbody panel in {name}")
+    current=(MAP10/"index.html").read_text(encoding="utf-8")
+    bridge=(MAP10/"single-cell.html").read_text(encoding="utf-8")
+    if current.count("stage963_orientation_smooth/") < 164:
+        errors.append("map10 some current 81 gene panels are stale")
+    for name in ("FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png",
+                 "FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png"):
+        if name not in current:errors.append(f"map10 missing current orientation: {name}")
+    if bridge.count("stage967_maskbody_xy/") < 10:
+        errors.append("map10 current 3D maskbody links are stale")
+    for name in ("stage956_gene_section_manifest.csv","stage963_gene_section_manifest.csv"):
+        with (MAP10/"data"/name).open(encoding="utf-8",newline="") as f:
+            rows=list(csv.DictReader(f))
+        if len(rows)!=81 or any(r.get("x_flipped")!="True" or r.get("y_flipped")!="True" for r in rows):
+            errors.append(f"map10 flip metadata incomplete: {name}")
+    with (MAP10/"data"/"stage969_all3_flipped_manifest.csv").open(encoding="utf-8",newline="") as f:
+        composites=list(csv.DictReader(f))
+    if len(composites)!=27 or any(not (MAP10/"assets"/"stage969_all3_flipped"/r["file"]).is_file() for r in composites):
+        errors.append("map10 27 corrected three-section composites missing")
+
 if errors:
     print("PUBLIC SITE AUDIT: FAIL")
     for e in errors[:300]: print(" -",e)

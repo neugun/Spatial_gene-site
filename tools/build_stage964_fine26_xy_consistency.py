@@ -5,6 +5,7 @@ import numpy as np,pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from map10_display_xy import flip_xy
 root=Path(sys.argv[1])
 A=pd.read_csv(root/"CURRENT_CELL_MEDIAL_PERILC_ANNOTATION.csv.gz")
 P=pd.read_csv(root/"LC_CORE_SAMPLE_POLYGONS.csv")
@@ -18,14 +19,13 @@ out=pub/"assets"/"stage963_orientation_smooth"
 def setup(ax,s):
  q=A[A.section==s].copy()
  x=q.x_um.to_numpy(float);y=q.y_um.to_numpy(float)
- xx=x.min()+x.max()-x; yy=y.min()+y.max()-y
+ xx,yy=flip_xy(x,y)
  q["x_show"]=xx;q["y_show"]=yy
  ax.set_facecolor("black")
  ax.scatter(xx,yy,s=.28,c="#222222",alpha=.38,linewidths=0,rasterized=True)
  pp=P[P.section==s].sort_values("vertex_order")
  if len(pp):
-  xp=x.min()+x.max()-pp.x_um.to_numpy(float)
-  yp=y.min()+y.max()-pp.y_um.to_numpy(float)
+  xp,yp=flip_xy(pp.x_um.to_numpy(float),pp.y_um.to_numpy(float),x_bounds=(x.min(),x.max()),y_bounds=(y.min(),y.max()))
   ax.plot(xp,yp,c="#6cd4ff",lw=1.4)
  ax.set_aspect("equal");ax.set_xticks([]);ax.set_yticks([])
  for sp in ax.spines.values():sp.set_visible(False)
@@ -51,7 +51,7 @@ for mode in ("Fine26","Broad"):
  colors=palette if mode=="Fine26" else broad_col
  handles=[plt.Line2D([0],[0],marker="o",linestyle="",markersize=5,markerfacecolor=colors[t],markeredgewidth=0,label=t) for t in legend]
  fig.legend(handles=handles,loc="lower center",ncol=13 if mode=="Fine26" else 5,frameon=False,labelcolor="white",fontsize=7,bbox_to_anchor=(.5,.005),columnspacing=.8,handletextpad=.25)
- fig.suptitle(("Fine26 populations" if mode=="Fine26" else "Broad molecular classes")+" in the medial periLC · current XY orientation",color="white",fontsize=14,y=.98)
+ fig.suptitle(("Fine26 populations" if mode=="Fine26" else "Broad molecular classes")+" in the medial periLC · x flipped, y flipped",color="white",fontsize=14,y=.98)
  fig.tight_layout(rect=[0,.08,1,.94])
  fname="FINE26_XY_CURRENT.jpg" if mode=="Fine26" else "BROAD_XY_CURRENT.jpg"
  fig.savefig(out/fname,dpi=160,facecolor="black",bbox_inches="tight")

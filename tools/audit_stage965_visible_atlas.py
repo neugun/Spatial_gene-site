@@ -14,7 +14,7 @@ def ck(flag,msg):
 ck(len(manifest)==81 and manifest.gene.nunique()==27,"81 maps/27 genes missing")
 ck(set(manifest.section)=={500,530,560},"wrong sections")
 ck(manifest.groupby("gene").section.nunique().eq(3).all(),"missing gene panels")
-ck(manifest.x_reversed.all() and manifest.y_reversed.all(),"XY inversion metadata missing")
+ck(manifest.x_flipped.all() and manifest.y_flipped.all(),"XY inversion metadata missing")
 join=manifest.merge(prior,on=["gene","section"],suffixes=("_new","_old"),validate="one_to_one")
 ck(len(join)==81 and np.allclose(join.vmax_new,join.vmax_old) and np.allclose(join.gamma_new,join.gamma_old),"colorbar changed")
 for row in manifest.itertuples():
@@ -25,7 +25,7 @@ ck(len(doc.select(".gene-card"))==27,"not 27 gene cards")
 ck(len(doc.select(".gene-card .pane"))==81,"not 81 visible image panels")
 imgs=doc.select(".gene-card img")
 ck(len(imgs)==81 and all("stage963_orientation_smooth/" in x.get("src","") for x in imgs),"stale gene images")
-for fname in ("FINAL_LC_PERILC_LOCATOR_XY_REVERSED.png","FINAL_REGION10_SMOOTH_XY_REVERSED.png"):
+for fname in ("FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png","FINAL_REGION10_SMOOTH_X_FLIPPED_Y_FLIPPED.png"):
  ck(len(doc.select('img[src*="'+fname+'"]'))==1,"missing main figure "+fname)
 for ss in (500,530,560):
  q=meta["region_QA"][str(ss)]
