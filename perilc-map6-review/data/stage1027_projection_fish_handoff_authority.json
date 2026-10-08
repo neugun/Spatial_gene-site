@@ -1,0 +1,13 @@
+{
+  "stage": 1027,
+  "status": "EXISTING_STAGE829_REINDEXED_NOT_NEW_INFERENCE",
+  "n_projection_rows": 2110,
+  "targets": {
+    "PCRT": 1828,
+    "VTA": 282
+  },
+  "reproduced_pairs": 8,
+  "sampling_unit": "three sections from same specimen; not independent biological replicates",
+  "stage640_join_boundary": "Historical Stage640 1672/2110 matches, median XY 248.3um and depth 86.7um, identity_join_pass=false. This check is historical and not proof of unresolved current v231; follow latest v231 lineage authority.",
+  "gaba_glu_new_QC": "Before transferring VGAT/GLUT2 neuronal assignment onto projection cells, verify source panel, own counted markers, original ROI boundaries, native tile overlap and cell depth. Do not copy Map10 >10/>3 cutoffs or P70 normalization into projection panel by default."
+}

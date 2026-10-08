@@ -1,0 +1,26 @@
+{
+  "section": {
+    "expected_joint": 0.19496465583571237,
+    "observed_joint": 0.2445312955725369,
+    "excess": 0.049566639736824514,
+    "n_groups": 3
+  },
+  "section_area_other25": {
+    "expected_joint": 0.23455945398764816,
+    "observed_joint": 0.2445312955725369,
+    "excess": 0.00997184158488873,
+    "n_groups": 296
+  },
+  "section_fine": {
+    "expected_joint": 0.21849922461958565,
+    "observed_joint": 0.2445312955725369,
+    "excess": 0.026032070952951236,
+    "n_groups": 78
+  },
+  "section_fine_area_other25": {
+    "expected_joint": 0.23610741217070408,
+    "observed_joint": 0.2445312955725369,
+    "excess": 0.00842388340183281,
+    "n_groups": 3777
+  }
+}

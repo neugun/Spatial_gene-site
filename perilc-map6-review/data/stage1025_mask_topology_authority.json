@@ -1,0 +1,9 @@
+{
+  "stage": 1025,
+  "status": "COMPLETE",
+  "S500_only": true,
+  "n_cells": 160,
+  "selection": "80 random double+ and 80 one-marker controls approximately matched on total count and other25; labels pre-existing, soma AREA was NOT matched explicitly",
+  "source": "original 3D downseg.tif ROI labels and Stage141 downseg sampled coordinates",
+  "caveat": "Connected components do not detect touching fused multi-cell masks, require nuclear multi-peak/manual adjudication; per-ROI mask-level data private; figure exploratory only"
+}

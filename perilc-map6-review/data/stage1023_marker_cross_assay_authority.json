@@ -1,0 +1,39 @@
+{
+  "stage": 1023,
+  "endpoint": "VGLUT2>3",
+  "predictor": "VGAT>10",
+  "n_reference_neurons": 68572,
+  "covariates": "section, mask area, depth using OTHER 25 measured genes, broad or Fine26 categorical labels",
+  "independence_baselines": {
+    "section": {
+      "expected_joint": 0.19496465583571237,
+      "observed_joint": 0.2445312955725369,
+      "excess": 0.049566639736824514,
+      "n_groups": 3
+    },
+    "section_area_other25": {
+      "expected_joint": 0.23455945398764816,
+      "observed_joint": 0.2445312955725369,
+      "excess": 0.00997184158488873,
+      "n_groups": 296
+    },
+    "section_fine": {
+      "expected_joint": 0.21849922461958565,
+      "observed_joint": 0.2445312955725369,
+      "excess": 0.026032070952951236,
+      "n_groups": 78
+    },
+    "section_fine_area_other25": {
+      "expected_joint": 0.23610741217070408,
+      "observed_joint": 0.2445312955725369,
+      "excess": 0.00842388340183281,
+      "n_groups": 3777
+    }
+  },
+  "caveats": [
+    "Fine26 classification is partially built from VGAT/VGLUT2; conditional independence there is circular and only a sensitivity test",
+    "Other25 genes measured from sparse FISH are biased subtype markers and not unbiased total mRNA depth",
+    "No animal replicate, no cell-wise p-values for biological generality",
+    "Adjusted association is not evidence of false gene spot assignment or dual transmitter release"
+  ]
+}

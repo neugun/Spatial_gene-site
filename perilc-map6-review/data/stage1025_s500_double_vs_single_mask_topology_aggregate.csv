@@ -1,0 +1,3 @@
+dual_status,n,median_mask_volume,median_largest_fraction,pct_multicomponent,pct_large_separate_components
+False,80,23408.5,1.0,1.25,0.0
+True,80,23619.5,1.0,1.25,0.0
