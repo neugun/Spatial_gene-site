@@ -1,0 +1,118 @@
+{
+  "stage": 986,
+  "status": "COMPLETE",
+  "n_cells": 71950,
+  "n_sections": 3,
+  "biological_replicates": 1,
+  "strict_rule": "VGAT count >10; VGLUT2 count >2 or >3; >10/10 historic comparator",
+  "model": "No reclassification of frozen Fine26 or broad labels. Merely marker-positive overlays.",
+  "candidate_10_2": {
+    "ALL": {
+      "vglut_detect": 0.6135788742182071,
+      "vgat_detect": 0.3728283530229326,
+      "co_positive_pct": 27.210562890896455,
+      "neither_pct": 28.569840166782488,
+      "vglut_only_pct": 34.14732453092425,
+      "vgat_only_pct": 10.072272411396803
+    },
+    "E": {
+      "vglut_detect": 0.627985453592373,
+      "vgat_detect": 0.0900959931854667,
+      "co_positive_pct": 6.8014284310192314,
+      "neither_pct": 34.99328375323527,
+      "vglut_only_pct": 55.99711692821806,
+      "vgat_only_pct": 2.208170887527438
+    },
+    "I": {
+      "vglut_detect": 0.6162350651456993,
+      "vgat_detect": 0.6018002919392333,
+      "co_positive_pct": 42.95561442396064,
+      "neither_pct": 21.152078715467372,
+      "vglut_only_pct": 18.66789209060929,
+      "vgat_only_pct": 17.224414769962696
+    },
+    "neuronal_EI": {
+      "vglut_detect": 0.6215471658989588,
+      "vgat_detect": 0.3704696594931647,
+      "co_positive_pct": 26.61107572907564,
+      "neither_pct": 27.409393189863295,
+      "vglut_only_pct": 35.54364086082024,
+      "vgat_only_pct": 10.435890220240829
+    }
+  },
+  "candidate_10_3": {
+    "ALL": {
+      "vglut_detect": 0.5130229325920779,
+      "vgat_detect": 0.3728283530229326,
+      "co_positive_pct": 23.6636553161918,
+      "neither_pct": 35.078526754690756,
+      "vglut_only_pct": 27.638637943015983,
+      "vgat_only_pct": 13.619179986101459
+    },
+    "E": {
+      "vglut_detect": 0.5244569668774367,
+      "vgat_detect": 0.0900959931854667,
+      "co_positive_pct": 5.995478819251057,
+      "neither_pct": 44.540182812960715,
+      "vglut_only_pct": 46.450217868492615,
+      "vgat_only_pct": 3.014120499295613
+    },
+    "I": {
+      "vglut_detect": 0.512948045629021,
+      "vgat_detect": 0.6018002919392333,
+      "co_positive_pct": 37.049251229929176,
+      "neither_pct": 25.574417473103747,
+      "vglut_only_pct": 14.245553332972914,
+      "vgat_only_pct": 23.130777963994163
+    },
+    "neuronal_EI": {
+      "vglut_detect": 0.5181509841965727,
+      "vgat_detect": 0.3704696594931647,
+      "co_positive_pct": 23.01050105899255,
+      "neither_pct": 34.14843669001881,
+      "vglut_only_pct": 28.804597360664722,
+      "vgat_only_pct": 14.036464890323918
+    }
+  },
+  "historic_10_10": {
+    "ALL": {
+      "vglut_detect": 0.1543849895760945,
+      "vgat_detect": 0.3728283530229326,
+      "co_positive_pct": 8.50034746351633,
+      "neither_pct": 55.77901320361362,
+      "vglut_only_pct": 6.938151494093121,
+      "vgat_only_pct": 28.782487838776927
+    },
+    "E": {
+      "vglut_detect": 0.14831438587294826,
+      "vgat_detect": 0.0900959931854667,
+      "co_positive_pct": 2.142646528847099,
+      "neither_pct": 78.3016086230056,
+      "vglut_only_pct": 12.688792058447728,
+      "vgat_only_pct": 6.866952789699571
+    },
+    "I": {
+      "vglut_detect": 0.15572795588473806,
+      "vgat_detect": 0.6018002919392333,
+      "co_positive_pct": 12.799372871276423,
+      "neither_pct": 37.04654808887928,
+      "vglut_only_pct": 2.7734227171973833,
+      "vgat_only_pct": 47.380656322646914
+    },
+    "neuronal_EI": {
+      "vglut_detect": 0.1523764385265933,
+      "vgat_detect": 0.3704696594931647,
+      "co_positive_pct": 7.981693499414962,
+      "neither_pct": 55.69708369743916,
+      "vglut_only_pct": 7.255950353244368,
+      "vgat_only_pct": 29.065272449901506
+    }
+  },
+  "raw_counts": "CURRENT_ROUTEA post-correction; HISTORICAL_H5AD sensitivity separately audited",
+  "limitations": [
+    "A low per-gene detection threshold requires single-molecule background/spot QC; do not label as proven transmitter class without specificity evidence.",
+    "Broad E/I identities may depend on same Slc32a1 and Slc17a6 probes (circular validation).",
+    "Coexpression does not imply dual transmitter release.",
+    "S500/S530/S560 are sections from one mouse, not independent biological repeats."
+  ]
+}
