@@ -1,0 +1,8 @@
+{
+  "stage": 1036,
+  "scope": "S500 entire XY acquisition field in each of R1/R77/R99 raw channel coordinate systems",
+  "raw_image": "original acquisition TIFF is downsampled XY 8x and Z 4x relative to N5 s0. Z slabs z\u00b13 TIFF frames; spots from own gene source coordinates /1.84um and /1.68um",
+  "overlay": "color rings are enlarged for display; NOT physical spot radius; scientifically meaningful footprints in high-res Stage1037",
+  "registration": "Rounds are shown each in OWN acquisition image coordinates. Their nominal XY fields are not transformed into one-to-one cell alignment. Do not conclude same-cell co-localization from these full fields.",
+  "expected_outputs": 9
+}

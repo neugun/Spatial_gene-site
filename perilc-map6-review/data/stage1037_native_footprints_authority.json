@@ -1,0 +1,16 @@
+{
+  "stage": 1037,
+  "status": "DONE",
+  "section": 500,
+  "fields": 3,
+  "genes": [
+    "Snap25",
+    "VGAT",
+    "VGLUT2"
+  ],
+  "source": "Original N5 s0 fluorescence (0.23um XY, 0.42um Z), three independent imaging rounds, local image-supported footprints generated from original spot detections",
+  "punctum_support_method": "For each detected xyz within 15-plane slab: native 3-slice MIP around spot Z; 23x23 neighborhood; robust annular background (8-11 px); 2.2 MAD or 22% peak excess threshold; connected footprint near spot center; keep 2-160 px area; trace actual raw-bright connected pixels. White 1px dot marks *all* centroids; colored filled outlines mark supported spot footprints. NOT RS-FISH fitted point spread function, NOT measured biological cell boundary.",
+  "per_gene_Z_planes": "Source round Z center adaptively chosen to contain max nearby detections within \u00b160 native Z. Independent per gene so panels must not be interpreted as identical physical z planes or neuron colocalization.",
+  "controls": "Raw and locally background-subtracted enhanced show same exact source voxel field. Diffuse VGAT foci are visible for focus/pointspread review. S500 only for this first batch.",
+  "caveat": "Source round R77/R99 not transformed to R1 reference geometry, so spatial coincidence with a segmented R1 soma is NOT established. Annotated ROI identifies approximate region only. Source_R9 corrected spot catalog overlaid on uncorrected source N5."
+}

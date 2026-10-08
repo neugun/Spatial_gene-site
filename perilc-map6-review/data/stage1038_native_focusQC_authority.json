@@ -1,0 +1,7 @@
+{
+  "stage": 1038,
+  "status": "DONE",
+  "quality_sampling": "random full-S500 original RSFISH catalog rows, retaining valid N5 source chunks and peak SNR>4; at most 120/gene",
+  "estimated_FWHM": "3D native fluorescence 25x25x17 voxel around detected centroid; ring-median local baseline; halfmax width contiguous in native XY and Z. Not a PSF model or calibrated optical-resolution estimate.",
+  "limits": "Different imaging rounds, z-dependent blur; brightness selected by detector, not universal optical focus across all attempted spots. Pixel XY .23\u00b5m and Z .42\u00b5m. One animal/section."
+}

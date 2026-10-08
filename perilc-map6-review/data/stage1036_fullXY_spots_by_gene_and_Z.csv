@@ -1,0 +1,10 @@
+gene,section,tiff_z_center,z_halfwidth_tiff_planes,n_detected_spots_overlay,full_XY_pixels,source
+Snap25,500,150,3,116007,1119x1116,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+Snap25,500,175,3,116389,1119x1116,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+Snap25,500,200,3,125544,1119x1116,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGAT,500,150,3,11792,1119x1111,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGAT,500,175,3,11590,1119x1111,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGAT,500,200,3,11426,1119x1111,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGLUT2,500,150,3,68779,1119x1118,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGLUT2,500,175,3,71913,1119x1118,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
+VGLUT2,500,200,3,75549,1119x1118,original acquisition TIFF 8xXY/4xZ downsample from N5 s0
