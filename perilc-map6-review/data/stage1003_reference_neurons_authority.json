@@ -1,0 +1,12 @@
+{
+  "stage": 1003,
+  "gate": "reference_neurons",
+  "n_cells": 68572,
+  "selected_from_all": 0.9530507296733843,
+  "tsne_training": "log1p per-gene corrected count, winsorized at 99.7%; StandardScaler; PCA20; multiscale perplexities 30/100, all recomputed within neuron-only subset",
+  "fine26_15nn_purity": 0.43201904761904764,
+  "broad_15nn_purity": 0.840152380952381,
+  "high_dim_neighbor_retention": 0.2268952380952381,
+  "no_label_supervision": true,
+  "caveat": "Filtering uses previously assigned Allen MapMyCells class categories derived from some of the same 27 genes. Cross-section slices are not biological replicates."
+}

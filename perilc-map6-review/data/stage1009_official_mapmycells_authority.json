@@ -1,0 +1,30 @@
+{
+  "stage": 1009,
+  "status": "OFFICIAL_COMPLETE_ROW_VERIFIED",
+  "all_cells": 71950,
+  "unique_cell_ids": 71950,
+  "matched_to_Stage631": 71950,
+  "classes": 28,
+  "class_top10": {
+    "24 MY Glut": 17376,
+    "27 MY GABA": 14300,
+    "20 MB GABA": 13149,
+    "30 Astro-Epen": 4609,
+    "12 HY GABA": 3202,
+    "01 IT-ET Glut": 2711,
+    "14 HY Glut": 2670,
+    "26 P GABA": 2354,
+    "19 MB Glut": 2320,
+    "22 MB-HB Sero": 1906
+  },
+  "official_class_median_bootstrap": 0.19,
+  "pct_class_bootstrap_ge_50": 1.260597637248089,
+  "official_subclass_median_bootstrap": 0.31,
+  "pct_subclass_bootstrap_ge_50": 15.355107713690064,
+  "official_nonneuronal_heuristic_n": 5523,
+  "per_cell_private_output_name": "STAGE1009_71950_ALLEN_MAPMYCELLS_PER_CELL.csv.gz",
+  "reference": "Allen precomputed_stats_ABC_revision_230821 / official cell_type_mapper 1.7.4; 100 bootstrap hierarchy",
+  "confidence_limits": "Only 27 marker genes; mapper reports 6501 absent reference marker genes. Hierarchical subtype and cluster mapping may be highly uncertain. Class confidence is not cell-type verification.",
+  "original_fine26_frozen": true,
+  "n_organisms": 1
+}

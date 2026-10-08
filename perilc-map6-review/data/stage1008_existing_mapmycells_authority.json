@@ -1,0 +1,15 @@
+{
+  "stage": 1008,
+  "status": "CURRENT_EXISTING_REFERENCE_REANALYZED",
+  "cells": 71950,
+  "classes": 33,
+  "figure_count": 3,
+  "identity_source": "Stage155 CELL_LEVEL_SNAP25_GATE_AUDIT.csv pre-existing class_name; aligned by full h5ad cell_id against Stage631",
+  "not_new_mapping": true,
+  "new_full_mapmycells_runner": "Stage1002 official mapper pending independently; no attempt to pass prior labels as a new result",
+  "limitations": [
+    "Reference class labels molecularly inferred from same 27 genes; class agreement is partially circular",
+    "Current three sections from one specimen",
+    "Class labels may have no fine subtype confidence for full population; do not invent confidence values"
+  ]
+}

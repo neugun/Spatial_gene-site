@@ -5,6 +5,8 @@ from pathlib import Path
 import json,numpy as np,pandas as pd
 import matplotlib;matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+EXP_CMAP=LinearSegmentedColormap.from_list('pale_cyan_to_deep_red',['#d9f4f7','#acdce9','#f4e6d5','#ea9c73','#b72b37','#670013'],N=256)
 from matplotlib.lines import Line2D
 R=Path(r"Z:\sternsonlab\Zhenggang\2acq\map6_allsections_slurm_20260926")
 P=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review");D=P/"data"
@@ -51,8 +53,8 @@ for normalized in [False,True]:
   v=np.log1p(C[:,G.index(gene)]) if not normalized else np.log1p(C[:,G.index(gene)]*10000/total)
   mm=v>0
   q=np.quantile(v[mm],.995) if mm.any() else 1
-  ax.scatter(x[~mm],y[~mm],s=.25,c="#d4d4d4",alpha=.20,linewidths=0,rasterized=True)
-  p=ax.scatter(x[mm],y[mm],s=.70,c=v[mm],vmin=0,vmax=q,cmap="magma",alpha=.78,linewidths=0,rasterized=True)
+  ax.scatter(x[~mm],y[~mm],s=.25,c="#eff3f4",alpha=.20,linewidths=0,rasterized=True)
+  p=ax.scatter(x[mm],y[mm],s=.70,c=v[mm],vmin=0,vmax=q,cmap=EXP_CMAP,alpha=.78,linewidths=0,rasterized=True)
   fig.colorbar(p,ax=ax,fraction=.037,pad=.02,shrink=.78)
   axis(ax);ax.set_title(f"{name} ({gene}) · {(mm).sum():,} detected\n{100*mm.mean():.1f}% of 71,950 cells",fontsize=11)
  fig.suptitle("Gene-specific "+("cell-depth-normalized" if normalized else "raw-corrected")+" counts on t-SNE",fontsize=14)
@@ -61,8 +63,8 @@ fig,axes=plt.subplots(2,2,figsize=(12.5,11),layout="constrained")
 for ax,(gene,name) in zip(axes.flat,genes):
  v=np.log1p(C[:,G.index(gene)]*10000/total)
  th=float(np.quantile(v,.95));hi=v>=th
- ax.scatter(x[~hi],y[~hi],s=.25,c="#dedede",alpha=.20,linewidths=0,rasterized=True)
- sc=ax.scatter(x[hi],y[hi],s=2.0,c=v[hi],vmin=th,vmax=float(np.quantile(v,.999)),cmap="magma",alpha=.82,linewidths=0,rasterized=True)
+ ax.scatter(x[~hi],y[~hi],s=.25,c="#eff3f4",alpha=.20,linewidths=0,rasterized=True)
+ sc=ax.scatter(x[hi],y[hi],s=2.0,c=v[hi],vmin=th,vmax=float(np.quantile(v,.999)),cmap=EXP_CMAP,alpha=.82,linewidths=0,rasterized=True)
  axis(ax);fig.colorbar(sc,ax=ax,fraction=.035,pad=.02)
  ax.set_title(f"{name} · top 5% within all 71,950\nThreshold log1p norm {th:.2f}",fontsize=11)
 fig.suptitle("Relative marker enrichment · all 4 transmitters on identical t-SNE",fontsize=14)

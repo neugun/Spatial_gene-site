@@ -3,6 +3,8 @@ from pathlib import Path
 import numpy as np
 import matplotlib;matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+EXP_CMAP=LinearSegmentedColormap.from_list('pale_cyan_to_deep_red',['#d9f4f7','#acdce9','#f4e6d5','#ea9c73','#b72b37','#670013'],N=256)
 R=Path(r"Z:\sternsonlab\Zhenggang\2acq\map6_allsections_slurm_20260926")
 P=Path(r"G:\Spatial_gene_site_publish\perilc-map6-review")
 O=P/"assets"/"stage989_fine26_tsne"
@@ -14,9 +16,9 @@ fig,axes=plt.subplots(6,5,figsize=(18,20),constrained_layout=True)
 for j,ax in enumerate(axes.ravel()):
  if j>=len(G):ax.set_visible(False);continue
  raw=C[:,j];val=np.log1p(raw);pos=raw>0
- ax.scatter(xy[~pos,0],xy[~pos,1],s=.21,c="#dddddd",alpha=.25,linewidths=0,rasterized=True)
+ ax.scatter(xy[~pos,0],xy[~pos,1],s=.21,c="#eff3f4",alpha=.25,linewidths=0,rasterized=True)
  vmax=float(np.quantile(val[pos],.99)) if pos.any() else 1.
- sc=ax.scatter(xy[pos,0],xy[pos,1],s=.55,c=val[pos],cmap="magma",vmin=0,vmax=max(.01,vmax),alpha=.84,linewidths=0,rasterized=True)
+ sc=ax.scatter(xy[pos,0],xy[pos,1],s=.55,c=val[pos],cmap=EXP_CMAP,vmin=0,vmax=max(.01,vmax),alpha=.84,linewidths=0,rasterized=True)
  ax.set_aspect("equal");ax.set_xticks([]);ax.set_yticks([])
  for sp in ax.spines.values():sp.set_visible(False)
  ax.set_title(f"{G[j]} · {100*pos.mean():.0f}% detected",fontsize=10)

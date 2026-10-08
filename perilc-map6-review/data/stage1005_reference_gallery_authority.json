@@ -1,0 +1,64 @@
+{
+  "stage": 1005,
+  "scanned_reference_stage_count": 76,
+  "figure_inventory_rows": 147,
+  "copied_current_gallery": [
+    {
+      "source_stage": "stage775_scrna_allen_integration",
+      "figure": "FINE26_OWN_SCRNA_ALLEN_INTEGRATION.png",
+      "public_file": "stage775_scrna_allen_integration__FINE26_OWN_SCRNA_ALLEN_INTEGRATION.png",
+      "bytes": 539869
+    },
+    {
+      "source_stage": "stage770_fulltranscriptome_reference_audit",
+      "figure": "FULLTRANSCRIPTOME_REFERENCE_SEPARABILITY.png",
+      "public_file": "stage770_fulltranscriptome_reference_audit__FULLTRANSCRIPTOME_REFERENCE_SEPARABILITY.png",
+      "bytes": 132975
+    },
+    {
+      "source_stage": "stage764_fine26_allen_mapmycells_consensus",
+      "figure": "FINE26_ALLEN_MAPMYCELLS_CONSENSUS.png",
+      "public_file": "stage764_fine26_allen_mapmycells_consensus__FINE26_ALLEN_MAPMYCELLS_CONSENSUS.png",
+      "bytes": 394683
+    },
+    {
+      "source_stage": "stage830_current_external_reference_crosswalk",
+      "figure": "PRIORITY_REFERENCE_CROSSWALK.png",
+      "public_file": "stage830_current_external_reference_crosswalk__PRIORITY_REFERENCE_CROSSWALK.png",
+      "bytes": 264766
+    },
+    {
+      "source_stage": "stage830_current_external_reference_crosswalk",
+      "figure": "REFERENCE_CONFIDENCE_STRIPS.png",
+      "public_file": "stage830_current_external_reference_crosswalk__REFERENCE_CONFIDENCE_STRIPS.png",
+      "bytes": 277477
+    },
+    {
+      "source_stage": "stage835_reference_framework_source_panels",
+      "figure": "LUSKIN_DIRECT_MEASURED_CONTEXT.png",
+      "public_file": "stage835_reference_framework_source_panels__LUSKIN_DIRECT_MEASURED_CONTEXT.png",
+      "bytes": 160629
+    },
+    {
+      "source_stage": "stage835_reference_framework_source_panels",
+      "figure": "MAPMYCELLS_STABILITY_AND_REPORTABILITY.png",
+      "public_file": "stage835_reference_framework_source_panels__MAPMYCELLS_STABILITY_AND_REPORTABILITY.png",
+      "bytes": 214084
+    },
+    {
+      "source_stage": "stage835_reference_framework_source_panels",
+      "figure": "SU_CROSSSECTION_CONTINUOUS_TOPOGRAPHY.png",
+      "public_file": "stage835_reference_framework_source_panels__SU_CROSSSECTION_CONTINUOUS_TOPOGRAPHY.png",
+      "bytes": 129401
+    },
+    {
+      "source_stage": "stage811_mapmycells_complete_currentdata",
+      "figure": "MAPMYCELLS_COMPLETE_AUDIT.png",
+      "public_file": "stage811_mapmycells_complete_currentdata__MAPMYCELLS_COMPLETE_AUDIT.png",
+      "bytes": 314544
+    }
+  ],
+  "private_paths_excluded": true,
+  "scope": "ScRNA-seq, Allen taxonomy, MapMyCells, Luskin/Su external reference and FISH-to-scRNA crosswalk are related but scientifically distinct evidence layers",
+  "caveat": "Historical figures are archived provenance/benchmark, not all regenerated with current RouteA. Current site uses Stage995 tSNE for FISH cell-space. Historical UMAP graphics retained only as source archive if explicitly labeled."
+}
