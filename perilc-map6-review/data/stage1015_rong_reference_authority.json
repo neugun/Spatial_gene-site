@@ -1,0 +1,28 @@
+{
+  "stage": 1015,
+  "status": "COMPLETE",
+  "cells": 4701,
+  "clusters": 25,
+  "specimens": [
+    "PeriLC_FemaleN",
+    "PeriLC_MaleN"
+  ],
+  "genes": [
+    "Snap25",
+    "Slc32a1",
+    "Gad1",
+    "Gad2",
+    "Slc17a6",
+    "Slc17a7",
+    "Slc17a8",
+    "Slc6a2",
+    "Dbh",
+    "Th",
+    "Slc18a2",
+    "Chat",
+    "Slc5a7",
+    "Slc18a3"
+  ],
+  "unit": "unmodified counts layer RAW UMI; 0/1/2/3/5/10 thresholds all descriptive; no molecule-per-cell threshold transfer to FISH",
+  "interpretation": "Dropout differs from smFISH; Slc32a1+Slc17a6 co-UMI detection not direct dual neurotransmitter release; doublet and ambient must be assessed prior to biological claim"
+}

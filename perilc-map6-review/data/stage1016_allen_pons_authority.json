@@ -1,0 +1,24 @@
+{
+  "stage": 1016,
+  "status": "COMPLETE",
+  "cells": 143661,
+  "genes": [
+    "Snap25",
+    "Slc32a1",
+    "Gad1",
+    "Gad2",
+    "Slc17a6",
+    "Slc17a7",
+    "Slc17a8",
+    "Slc6a2",
+    "Dbh",
+    "Th",
+    "Chat",
+    "Slc5a7",
+    "Slc18a2"
+  ],
+  "data": "Allen Pons WMB-10Xv3 raw h5ad, original 143661 cells",
+  "comparable_scRNA": "Rong 4701 own raw UMI counts, dropout and doublet may differ",
+  "not_comparable_directly": "27-gene per-cell corrected FISH spot counts vs 10X single-cell raw UMI are different assay/detection modalities",
+  "specimen": "Allen Pons reference release, n independent mice not inferred"
+}

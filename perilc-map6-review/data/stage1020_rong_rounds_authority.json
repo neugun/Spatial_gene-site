@@ -1,0 +1,40 @@
+{
+  "stage": 1020,
+  "status": "COMPLETE",
+  "sources": [
+    {
+      "round": "round1",
+      "sample": "Female_Neuron",
+      "filtered_cells": 2137,
+      "total_features": 52647,
+      "raw_both_gt0": 35,
+      "neuron_marker_positive": 1839
+    },
+    {
+      "round": "round1",
+      "sample": "Male_Neuron",
+      "filtered_cells": 3024,
+      "total_features": 52647,
+      "raw_both_gt0": 41,
+      "neuron_marker_positive": 2660
+    },
+    {
+      "round": "round2",
+      "sample": "Female_Mix",
+      "filtered_cells": 28864,
+      "total_features": 52647,
+      "raw_both_gt0": 305,
+      "neuron_marker_positive": 16314
+    },
+    {
+      "round": "round2",
+      "sample": "Male_Mix",
+      "filtered_cells": 30382,
+      "total_features": 52647,
+      "raw_both_gt0": 286,
+      "neuron_marker_positive": 17177
+    }
+  ],
+  "interpretation": "First-round neuron-enriched vs second-round Mix filtered Cell Ranger are different sample definitions. These may contain overlapping/different capture processing. Never add their n or treat four cohorts as four independent animals without source mouse IDs.",
+  "critical": "12k variants are reprocessings and intentionally excluded from the primary comparison; first-round 4701 curated 25-cluster differs from raw female+male 5161."
+}

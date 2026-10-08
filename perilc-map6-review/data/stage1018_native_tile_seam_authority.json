@@ -1,0 +1,15 @@
+{
+  "stage": 1018,
+  "status": "GEOMETRY_DERIVED_FROM_ACTUAL_TILE_METADATA",
+  "tile_files": "25 tile starts per section from original stitching/tiles.json, optimizer-final available",
+  "coordinate_transform": "tile starts normalized to earliest physical position, pixel strip width1920 original; /4 to array px; fit Stage631 x/y affine to original array_x/y_px separately by section",
+  "important_uncertainty": "tiles.json positions are acquisition initial registration, not optimizer-final per-tile fusion seams; absolute origin translation between mosaic and registered Stage631 array requires full comparison to original stitched TIFF. 8/15/25\u00b5m variations are sensitivity controls.",
+  "scope": "All 71950 cells, original 3 sections one specimen",
+  "tests": [
+    "whole overlap strip",
+    "center\u00b18\u00b5m",
+    "center\u00b115\u00b5m",
+    "center\u00b125\u00b5m"
+  ],
+  "no_causal_claim": "An edge association is observational; validated individual spot/ROI masks required"
+}

@@ -1,0 +1,20 @@
+{
+  "stage": 1019,
+  "status": "COMPLETE",
+  "cells": 68572,
+  "endpoint": "VGAT>10 VGLUT2>3 double positive, old reference neurons",
+  "exposure": "Actual tiles.json overlap stripes transformed to Stage631, not final pixel blend seam",
+  "adjustments": [
+    "log cell mask area",
+    "log total corrected27 counts",
+    "3 sections",
+    "optional frozen Fine26"
+  ],
+  "estimators": "penalized logistic standardization (g-computation) and 10x10 area/depth strata sensitivity",
+  "caveats": [
+    "One biological specimen: associations descriptive; no inferential animal-level p values",
+    "27 gene depth includes endpoint VGAT and VGLUT2 and may induce overadjustment (report both adjusted and crude)",
+    "Fine26 labels partially depend on endpoint markers; source of circularity; do not interpret as causal mediation",
+    "Measured cell area correlation can be expected even with true separate transcripts; cannot infer segmentation artifact without raw puncta count per mask"
+  ]
+}

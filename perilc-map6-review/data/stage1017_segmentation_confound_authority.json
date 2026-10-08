@@ -1,0 +1,41 @@
+{
+  "stage": 1017,
+  "n_reference_neurons": 68572,
+  "double_definition": "VGAT>10 VGLUT2>3 corrected RouteA",
+  "reference_cell_shape": "H5AD obs.area from Stage631-matched original cell masks; physical area units source must be verified",
+  "summary": {
+    "area": {
+      "spearman_r": 0.4992533935554239,
+      "n": 68572
+    },
+    "major_axis_length": {
+      "spearman_r": 0.44016568000072015,
+      "n": 68572
+    },
+    "minor_axis_length": {
+      "spearman_r": 0.47705694996562614,
+      "n": 68572
+    },
+    "z_um": {
+      "spearman_r": 0.020951050561260065,
+      "n": 68572
+    },
+    "depth27": {
+      "spearman_r": 0.5548554309313782,
+      "n": 68572
+    },
+    "snap25": {
+      "spearman_r": 0.47132971749777175,
+      "n": 68572
+    },
+    "nearest_both_marker_um": {
+      "spearman_r": 0.028645449709651546,
+      "n": 68572
+    },
+    "mixed_exclusive_neighborhood": {
+      "spearman_r": 0.02549192910211226,
+      "n": 68572
+    }
+  },
+  "interpretation": "Descriptive conditional features only; correlation not proof of segmentation contamination; all sections one biological specimen"
+}
