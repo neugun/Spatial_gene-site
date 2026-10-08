@@ -180,8 +180,9 @@ audit={"stage":1014,"status":"COMPLETE","cell_universe":71950,"per_section":{"50
 "edge_geometry":"Estimated 5x5 physical acquisition GRID with 206um spacing and phase sensitivity ±one period; not tile metadata-validated physical stitching seams. True tile-transform/spot-level alignment still required.",
 "additional_borders":["outer section bounding rectangle, not tissue actual perimeter","nearest simultaneous exclusive V and G classes","10NN opposing-type mixture"],
 "statistical_unit":"three sections from same animal; edge contrasts are descriptive, not independent-animal p-values",
-"private_cell_level":"G:/Map6_recover_all/stage1014_spatial_doublepositive_private (not published)",
+"private_cell_level":"Per-cell raw coordinate/count tables remain in private source storage, not published",
 "biological_limit":"two-gene co-detection does not establish bona fide co-releasing neuron; underlying segmentation/correction needs original punctum validation"}
 (D/"stage1014_dual_spatial_authority.json").write_text(json.dumps(audit,indent=2),encoding="utf8")
 print("STAGE1014_FINISHED",flush=True)
+
 

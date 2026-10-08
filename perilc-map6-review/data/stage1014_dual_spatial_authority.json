@@ -1,4 +1,4 @@
-{
+﻿{
   "stage": 1014,
   "status": "COMPLETE",
   "cell_universe": 71950,
@@ -21,6 +21,6 @@
     "10NN opposing-type mixture"
   ],
   "statistical_unit": "three sections from same animal; edge contrasts are descriptive, not independent-animal p-values",
-  "private_cell_level": "G:/Map6_recover_all/stage1014_spatial_doublepositive_private (not published)",
+  "private_cell_level": "Per-cell raw coordinate/count tables are private and not published (not published)",
   "biological_limit": "two-gene co-detection does not establish bona fide co-releasing neuron; underlying segmentation/correction needs original punctum validation"
 }
