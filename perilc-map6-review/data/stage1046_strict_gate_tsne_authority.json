@@ -1,0 +1,5 @@
+{
+  "stage": 1046,
+  "method": "Log1p corrected 27-gene counts of 31115 user-selected cells; winsorize per-gene 99.7%; each gene StandardScaler then PCA20; openTSNE Euclidean perplexity100 PCA initialization, random_state1046; no Fine26, broad, or transmitter labels are passed into fit. Compare source Stage995 all-cell embedding filtered post hoc.",
+  "caveat": "Mask was selected USING VGAT/VGLUT2 and Snap25; t-SNE class separability may be selection-induced and circular. Same 3 sections one biological specimen. kNN class agreement not cross-validated phenotype prediction."
+}

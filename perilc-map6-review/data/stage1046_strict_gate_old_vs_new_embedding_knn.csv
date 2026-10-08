@@ -1,0 +1,5 @@
+embedding,feature,knn15_label_agreement
+previous_full_71950_then_filter,transmitter_3class,0.6596196903958433
+previous_full_71950_then_filter,section,0.7528373239059404
+refit_only_31115,transmitter_3class,0.6862435052761262
+refit_only_31115,section,0.7716364025925331
