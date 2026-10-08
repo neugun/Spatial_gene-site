@@ -1,0 +1,37 @@
+{
+  "stage": 977,
+  "n_cells": 71950,
+  "n_fine26": 26,
+  "gene_source": "Stage934 Route A counts, section-concatenated row order S500/S530/S560",
+  "embedding_source": "Stage704 current UMAP27 unmodified",
+  "label_source": "Stage631 frozen Fine26",
+  "palette": "colorcet.glasbey, 26 categorical colors",
+  "NN15_fine26_purity": 0.1883465369469539,
+  "targets": [
+    {
+      "gene": "Slc32a1",
+      "positive": 62285,
+      "positive_fraction": 0.8656706045865185,
+      "positive_log_q995": 4.65971260777868
+    },
+    {
+      "gene": "Slc17a6",
+      "positive": 58035,
+      "positive_fraction": 0.8066018068102849,
+      "positive_log_q995": 3.6535770230271107
+    },
+    {
+      "gene": "Slc6a2",
+      "positive": 43262,
+      "positive_fraction": 0.6012786657400973,
+      "positive_log_q995": 7.363568196090816
+    },
+    {
+      "gene": "Slc5a7",
+      "positive": 51801,
+      "positive_fraction": 0.7199583043780403,
+      "positive_log_q995": 6.6911302763883365
+    }
+  ],
+  "status": "BUILT_PENDING_VISUAL_QC"
+}

@@ -15,7 +15,7 @@ footer{padding-top:20px;padding-bottom:40px;color:#777;font-size:13px}footer a{c
 @media(max-width:800px){.cards,.cards.three{grid-template-columns:1fr}h1{font-size:28px}}
 </style></head><body>
 <header><h1>Single-cell bridge</h1><p class="sub">Stage943 expression · frozen Fine26 identities · Stage950–952 current integration</p></header>
-<nav><a href="index.html">← Spatial atlas</a><a href="#taxonomy">Molecular state</a><a href="#local">Local multiplex</a><a href="#maskbody">True maskbody</a><a href="#integration">Region10 × single-cell</a><a href="#next">Next layer</a></nav>
+<nav><a href="index.html">← Spatial atlas</a><a href="#taxonomy">Molecular state</a><a href="#transmitters">Fine26 + markers</a><a href="#local">Local multiplex</a><a href="#maskbody">True maskbody</a><a href="#integration">Region10 × single-cell</a><a href="#next">Next layer</a></nav>
 <main>
 <section id="taxonomy">
 <h2>Current single-cell molecular state</h2>
@@ -26,6 +26,17 @@ footer{padding-top:20px;padding-bottom:40px;color:#777;font-size:13px}footer a{c
 <article class="card"><h3>Current Fine26 marker dotplot</h3><a href="assets/stage950_singlecell/FINE26_DOTPLOT_CURRENT.png" target="_blank"><img src="assets/stage950_singlecell/FINE26_DOTPLOT_CURRENT.png"/></a></article>
 <article class="card"><h3>Leave-one-section-out transfer</h3><a href="assets/stage950_singlecell/FINE26_CROSSSECTION_TRANSFER.png" target="_blank"><img src="assets/stage950_singlecell/FINE26_CROSSSECTION_TRANSFER.png"/></a><p>Tests transportability of the frozen 27-gene identities across S500/S530/S560.</p></article>
 </div></section>
+<section id="transmitters">
+<h2>Fine26 UMAP geometry and neurotransmitter-marker specificity</h2>
+<p class="lead">All panels use the same Stage704 molecular embedding and frozen Fine26 identities (71,950 cells). The updated 26-color categorical palette separates adjacent Fine26 populations without redefining clusters. Raw detected spots are broad across cells; marker detection alone is <b>not</b> cell-type assignment. The top-5%-expression panels correct for each cell's total 27-gene count and highlight relative enrichment.</p>
+<div class="cards">
+<article class="card"><h3>Fine26 · distinct categorical colors</h3><a href="assets/stage977_fine26_umap/FINE26_CATEGORICAL_GLASBEY.png"><img loading="lazy" src="assets/stage977_fine26_umap/FINE26_CATEGORICAL_GLASBEY.png" alt="Fine26 molecular UMAP with 26 distinguishable colors"></a><p>The historical 26 labels are unchanged. New color key is available as <a href="data/stage977_fine26_color_key.csv">CSV</a>.</p></article>
+<article class="card"><h3>VGAT / VGLUT2 / NE / ChAT · observed counts</h3><a href="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_MARKER_UMAP.png"><img loading="lazy" src="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_MARKER_UMAP.png"></a><p>Direct gene detections, with their own numeric log-count colorbars. High detection frequency must not be interpreted as a high fraction of corresponding neuronal types.</p></article>
+<article class="card"><h3>Top 5% normalized marker expression</h3><a href="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_TOP5PCT.png"><img loading="lazy" src="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_TOP5PCT.png"></a><p>Gene-specific 95th-percentile thresholds on cell-depth-normalized counts; same UMAP axes and cell universe.</p></article>
+<article class="card"><h3>Marker enrichment × frozen broad class</h3><a href="assets/stage977_fine26_umap/TRANSMITTER_TOP5_BROAD_ENRICHMENT.png"><img loading="lazy" src="assets/stage977_fine26_umap/TRANSMITTER_TOP5_BROAD_ENRICHMENT.png"></a><p>Enrichment factors are descriptive across cells, not animal-replicate inference. <a href="data/stage977_marker_top5_broad_enrichment.csv">Underlying class-by-marker table</a>.</p></article>
+<article class="card"><h3>Broad-class control on the UMAP</h3><a href="assets/stage977_fine26_umap/BROAD_CLASSES_UMAP.png"><img loading="lazy" src="assets/stage977_fine26_umap/BROAD_CLASSES_UMAP.png"></a></article>
+</div>
+</section>
 <section id="local">
 <h2>Local single-cell multiplex fields</h2>
 <p class="lead">One high-information local field is shown in each section, linking tissue position, Fine26 identity and the 27-gene single-cell state.</p><p class="lead stage964-spatial">These spatial panels use the already-flipped Stage631 physical coordinates (no double-flip). Fine26/Broad maps show selected medial periLC cells, not full-section class coverage. Local multiplex scatter panels below have also been regenerated from source coordinates.</p><div class="cards stage964-spatial"><article class="card"><h3>Fine26 spatial identities · corrected XY</h3><a href="assets/stage974_preflipped_reference/FINE26_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Fine26 spatial identities · corrected XY" src="assets/stage974_preflipped_reference/FINE26_STAGE631_PREFLIPPED.jpg"/></a></article><article class="card"><h3>Broad molecular classes · corrected XY</h3><a href="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Broad molecular classes · corrected XY" src="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg"/></a></article></div>
