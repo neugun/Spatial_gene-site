@@ -110,27 +110,27 @@ if MAP10.exists():
             errors.append(f"map10 obsolete maskbody panel in {name}")
     current=(MAP10/"index.html").read_text(encoding="utf-8")
     bridge=(MAP10/"single-cell.html").read_text(encoding="utf-8")
-    if current.count("stage970_holefree_xy/") < 164:
+    if current.count("stage973_correct_orientation_roundedge/") < 164:
         errors.append("map10 some current 81 gene panels are stale")
-    for name in ("FINAL_LC_PERILC_LOCATOR_X_FLIPPED_Y_FLIPPED.png",
-                 "FINAL_REGION10_HOLEFREE_X_FLIPPED_Y_FLIPPED.png"):
+    for name in ("FINAL_LC_PERILC_STAGE631_PREFLIPPED.png",
+                 "FINAL_REGION10_STAGE631_PREFLIPPED_SMOOTH_OUTER.png"):
         if name not in current:errors.append(f"map10 missing current orientation: {name}")
-    if bridge.count("stage967_maskbody_xy/") < 10:
+    if bridge.count("stage974_preflipped_reference/") < 15:
         errors.append("map10 current 3D maskbody links are stale")
-    for name in ("stage956_gene_section_manifest.csv","stage970_gene_section_manifest.csv"):
+    for name in ("stage973_gene_section_manifest.csv",):
         with (MAP10/"data"/name).open(encoding="utf-8",newline="") as f:
             rows=list(csv.DictReader(f))
         if len(rows)!=81 or any(r.get("x_flipped")!="True" or r.get("y_flipped")!="True" for r in rows):
             errors.append(f"map10 flip metadata incomplete: {name}")
-    with (MAP10/"data"/"stage971_all3_holefree_manifest.csv").open(encoding="utf-8",newline="") as f:
+    with (MAP10/"data"/"stage975_all3_correct_orientation_manifest.csv").open(encoding="utf-8",newline="") as f:
         composites=list(csv.DictReader(f))
-    if len(composites)!=27 or any(not (MAP10/"assets"/"stage971_all3_holefree_xy"/r["file"]).is_file() for r in composites):
+    if len(composites)!=27 or any(not (MAP10/"assets"/"stage975_all3_correct_orientation"/r["file"]).is_file() for r in composites):
         errors.append("map10 27 corrected three-section composites missing")
     # Region topology is a testable release contract, not just an image caption.
     import json
-    qa=json.loads((MAP10/"data"/"stage970_holefree_region_audit.json").read_text(encoding="utf-8"))
-    if qa.get("stage")!=970 or qa.get("gene_maps")!=81:
-        errors.append("map10 Stage970 geometry authority missing")
+    qa=json.loads((MAP10/"data"/"stage973_correct_orientation_region_audit.json").read_text(encoding="utf-8"))
+    if qa.get("stage")!=973 or qa.get("gene_maps")!=81:
+        errors.append("map10 Stage973 geometry authority missing")
     for sec in ("500","530","560"):
         row=qa.get("region_QA",{}).get(sec,{})
         topo=row.get("after",{})
@@ -142,8 +142,17 @@ if MAP10.exists():
             errors.append(f"map10 S{sec} internal region hole remains")
         if row.get("changed_existing_fraction",1)>.03:
             errors.append(f"map10 S{sec} boundary moved too far")
-    if current.count("stage971_all3_holefree_xy/")!=27:
+    if current.count("stage975_all3_correct_orientation/")!=27:
         errors.append("map10 missing current section-composite links")
+    orientation=json.loads((MAP10/"data"/"stage976_coordinate_origin_audit.json").read_text(encoding="utf8"))
+    if orientation.get("stage")!=976 or orientation.get("status")!="PASS" or orientation.get("no_double_flip") is not True:
+        errors.append("map10 XY original convention verification missing")
+    for sec in ("500","530","560"):
+        line=orientation.get("raw_array_affine",{}).get(sec,{})
+        if line.get("extra_xy_flip") is not False:
+            errors.append(f"map10 S{sec} double flip detected")
+        if abs(line.get("x_um_per_raw_array_x_px",0)+.46)>1e-5 or abs(line.get("y_um_per_raw_array_y_px",0)+.46)>1e-5:
+            errors.append(f"map10 S{sec} original acquisition affine mismatch")
 
 if errors:
     print("PUBLIC SITE AUDIT: FAIL")

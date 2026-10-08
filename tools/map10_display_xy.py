@@ -1,8 +1,11 @@
 """Single orientation convention for map10 spatial display layers.
 
-Every 2D tissue map uses independent X and Y flips from the section's raw
-physical coordinate bounds. Never use matplotlib axis inversion or pixel rotations.
-This is a *display* transform; raw cell centroids, expression and IDs stay frozen.
+IMPORTANT: Stage631 x_um / y_um are ALREADY x-flipped and y-flipped relative
+to raw array pixel coordinates (confirmed against Stage393/Stage838 convention).
+Therefore they must be used directly, without applying flip_xy() again.
+flip_xy() below is ONLY for genuinely unflipped raw input coordinates.
+Never use image-level mirroring for correcting scientific source orientations.
+Raw cells, expression and region identities are frozen.
 """
 import numpy as np
 
@@ -26,3 +29,11 @@ def verify_flip_xy(x_raw,y_raw,x_display,y_display,*,x_bounds=None,y_bounds=None
     assert np.allclose(x_display,expect_x,rtol=0,atol=atol),"x flipped transform mismatch"
     assert np.allclose(y_display,expect_y,rtol=0,atol=atol),"y flipped transform mismatch"
     return True
+
+
+def from_stage631_preflipped(x_um, y_um):
+    """Stage631 pre-flipped canonical plotting frame, no additional flip."""
+    x=np.asarray(x_um,dtype=float)
+    y=np.asarray(y_um,dtype=float)
+    assert x.shape==y.shape and np.isfinite(x).all() and np.isfinite(y).all()
+    return x.copy(),y.copy()

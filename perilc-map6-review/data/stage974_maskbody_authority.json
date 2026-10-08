@@ -1,0 +1,14 @@
+{
+  "stage": 974,
+  "status": "DISPLAY_FLIPS_X_AND_Y",
+  "expression_authority": "Stage943 Route A",
+  "segmentation_source": "Stage141 downseg-derived maskcloud; true segmentation-body samples, not cell-center points",
+  "coordinates": "Stage631 preflipped XY (no second coordinate flip); source 2x gel coordinates converted by /2 and aligned by matched ROI IDs",
+  "outputs": [
+    "FINE26_TRUE_MASKBODY_3D.png",
+    "BROAD_TRUE_MASKBODY_3D.png",
+    "S500_LOCAL_TRUE_MASKBODY.png",
+    "S530_LOCAL_TRUE_MASKBODY.png",
+    "S560_LOCAL_TRUE_MASKBODY.png"
+  ]
+}

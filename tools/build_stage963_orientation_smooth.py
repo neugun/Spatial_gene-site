@@ -1,3 +1,5 @@
+if __name__ == "__main__":
+    raise SystemExit("Legacy double-flip atlas generator is blocked; use build_stage973_correct_orientation.py")
 """Stage963: regenerate full 3-section atlas with a single dual-axis display transform.
 Display contours are smoothed only; Stage943 expression and Stage956 region assignments stay frozen.
 """

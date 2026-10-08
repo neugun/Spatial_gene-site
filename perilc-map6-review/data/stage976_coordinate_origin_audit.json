@@ -1,0 +1,77 @@
+{
+  "stage": 976,
+  "status": "PASS",
+  "authority": "Stage393 / Stage838 current pre-flipped physical XY, verified by Stage631 affine from raw acquisition array",
+  "input_coordinate_columns": [
+    "stage631.x_um",
+    "stage631.y_um"
+  ],
+  "no_double_flip": true,
+  "gene_maps": 81,
+  "composites": 27,
+  "cell_universe": 71950,
+  "raw_array_affine": {
+    "500": {
+      "x_um_per_raw_array_x_px": -0.4599999999999308,
+      "y_um_per_raw_array_y_px": -0.4600000000000718,
+      "x_intercept_um": 1018.7648108632394,
+      "y_intercept_um": 994.5091946308723,
+      "x_flipped_from_raw_array": true,
+      "y_flipped_from_raw_array": true,
+      "extra_xy_flip": false,
+      "cells": 31461
+    },
+    "530": {
+      "x_um_per_raw_array_x_px": -0.4599999999999536,
+      "y_um_per_raw_array_y_px": -0.4600000000000389,
+      "x_intercept_um": 967.2939114160952,
+      "y_intercept_um": 1030.0199817295988,
+      "x_flipped_from_raw_array": true,
+      "y_flipped_from_raw_array": true,
+      "extra_xy_flip": false,
+      "cells": 20513
+    },
+    "560": {
+      "x_um_per_raw_array_x_px": -0.459999999999941,
+      "y_um_per_raw_array_y_px": -0.4600000000000537,
+      "x_intercept_um": 1020.4082461630176,
+      "y_intercept_um": 1016.6742553380008,
+      "x_flipped_from_raw_array": true,
+      "y_flipped_from_raw_array": true,
+      "extra_xy_flip": false,
+      "cells": 19976
+    }
+  },
+  "colorbar_unmodified": true,
+  "region_topology_no_holes": true,
+  "stage974_maskbody_roi_alignment": {
+    "500": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 1314570,
+      "x_agreement_correlation": 0.999903062262952,
+      "y_agreement_correlation": 0.9999156662639378,
+      "median_abs_x_um": 2.6060621956734167,
+      "median_abs_y_um": 2.362394023378215
+    },
+    "530": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 865922,
+      "x_agreement_correlation": 0.9998842325290409,
+      "y_agreement_correlation": 0.9998934641261046,
+      "median_abs_x_um": 2.587018096431848,
+      "median_abs_y_um": 2.5209319667902577
+    },
+    "560": {
+      "x_flipped": true,
+      "y_flipped": true,
+      "roi_points_matched": 809718,
+      "x_agreement_correlation": 0.9999010470577067,
+      "y_agreement_correlation": 0.9999161586297776,
+      "median_abs_x_um": 2.339436319552533,
+      "median_abs_y_um": 2.216690505165076
+    }
+  },
+  "note": "All figure generation uses Stage631 cell coordinates and frozen Stage943 gene values; region visual mask is a remapping of frozen Stage956 categorical labels, not a raster-image flip."
+}

@@ -1,3 +1,5 @@
+if __name__ == "__main__":
+    raise SystemExit("Legacy double-flip atlas generator is blocked; use build_stage973_correct_orientation.py")
 from pathlib import Path
 import json, math, shutil
 import numpy as np, pandas as pd

@@ -1,0 +1,228 @@
+{
+  "stage": 973,
+  "status": "PREFLIPPED_COORDINATE_AND_SMOOTH_OUTER_QA_PASSED",
+  "expression_authority": "Stage943 Route A",
+  "biological_region_authority": "Stage956 unchanged",
+  "display": "already pre-flipped Stage631 x_um/y_um; no second flip of coordinates",
+  "smooth_method": "numeric reproject of frozen Stage956 label grid into Stage631-preflipped coordinates, hole-free segmentation, Gaussian outer contour sigma 3.7; per-cell identities unchanged",
+  "region_QA": {
+    "500": {
+      "before": {
+        "white_holes": 5,
+        "white_pixels": 23,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 24339,
+      "inner_voids_filled": 23,
+      "detached_support_pixels": 0,
+      "changed_existing_pixels": 281,
+      "changed_existing_fraction": 0.011545256584083159,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9884547434159169,
+      "minimum_region_iou_original": 0.9666238767650834,
+      "component_edits": []
+    },
+    "530": {
+      "before": {
+        "white_holes": 47,
+        "white_pixels": 625,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "6": 2,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 3,
+          "5": 5,
+          "6": 0,
+          "7": 1,
+          "8": 1,
+          "9": 3,
+          "10": 14
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 20713,
+      "inner_voids_filled": 625,
+      "detached_support_pixels": 15,
+      "changed_existing_pixels": 231,
+      "changed_existing_fraction": 0.011152416356877323,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9888475836431226,
+      "minimum_region_iou_original": 0.9633774160732451,
+      "component_edits": []
+    },
+    "560": {
+      "before": {
+        "white_holes": 26,
+        "white_pixels": 315,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 2,
+          "10": 2
+        },
+        "region_holes": {
+          "1": 5,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 2,
+          "9": 0,
+          "10": 10
+        }
+      },
+      "after": {
+        "white_holes": 0,
+        "white_pixels": 0,
+        "region_components": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1
+        },
+        "region_holes": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0
+        }
+      },
+      "orig_main_pixels": 19939,
+      "inner_voids_filled": 315,
+      "detached_support_pixels": 12,
+      "changed_existing_pixels": 335,
+      "changed_existing_fraction": 0.01680124379357039,
+      "smoothing_sigma": 3.0,
+      "agreement_original": 0.9903706304227895,
+      "minimum_region_iou_original": 0.9008379888268156,
+      "component_edits": [
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 1
+        },
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 1
+        },
+        {
+          "from_region": 6,
+          "to_region": 1,
+          "pixels": 146
+        }
+      ]
+    }
+  },
+  "gene_maps": 81
+}

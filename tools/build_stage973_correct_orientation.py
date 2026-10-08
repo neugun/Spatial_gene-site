@@ -1,12 +1,10 @@
-if __name__ == "__main__":
-    raise SystemExit("Legacy double-flip atlas generator is blocked; use build_stage973_correct_orientation.py")
-"""Stage970: hole-free, connected region10 display with x-flipped/y-flipped source coordinates.
+"""Stage973: Stage631 pre-flipped coordinates; smooth inner and OUTER anatomy.
 Display contours are smoothed only; Stage943 expression and Stage956 region assignments stay frozen.
 """
 from pathlib import Path
 import json
 import numpy as np
-from scipy.ndimage import gaussian_filter, label as cc_label, binary_fill_holes, distance_transform_edt
+from scipy.ndimage import gaussian_filter, label as cc_label, binary_fill_holes, distance_transform_edt, zoom
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -17,7 +15,7 @@ from map10_region_geometry import refine_region10,topology_counts
 import pandas as pd
 root=Path(r"G:\Spatial_gene_site_publish")
 pub=root/"perilc-map6-review"; data=pub/"data"
-out=pub/"assets"/"stage970_holefree_xy"
+out=pub/"assets"/"stage973_correct_orientation_roundedge"
 out.mkdir(parents=True,exist_ok=True)
 script=(root/"tools"/"build_stage956_final_atlas.py").read_text(encoding="utf8")
 init=script.split('pd.DataFrame(sweep_rows).to_csv')[0]
@@ -28,39 +26,55 @@ cells=context["cells"]
 X=context["X"]; genes=context["genes"]; secs=(500,530,560)
 xraw=context["x0"]; yraw=context["y0"]; section=context["section"]
 xd=context["xd"]; yd=context["yd"]
-for s in secs:
- m=section==s
- verify_flip_xy(xraw[m],yraw[m],xd[m],yd[m])
+# Important: Stage631 coordinates are already calibrated XY-flipped
+# physical coordinates; prior Stage956 used a second flip.
+# Retain region identity by reprojecting its numeric categorical grid.
+# This is NOT a raster-image transform.
+xd=xraw.copy();yd=yraw.copy()
 display={}
 diagnostics={}
 for s in secs:
-    original=infos[s]["local"]
-    cleaned,mask,qa=refine_region10(original,infos[s]["mask"])
+    original=infos[s]["local"][::-1,::-1].copy()
+    support=infos[s]["mask"][::-1,::-1].copy()
+    cleaned,mask,qa=refine_region10(original,support)
     display[s]=dict(region=cleaned,mask=mask,original=original,sigma=qa["smoothing_sigma"])
     diagnostics[str(s)]=qa
     assert qa["after"]["white_holes"]==0
     assert all(n==1 for n in qa["after"]["region_components"].values())
     assert all(n==0 for n in qa["after"]["region_holes"].values())
-print("STAGE970_TOPOLOGY_PASSED",json.dumps(diagnostics),flush=True)
+print("STAGE973_TOPOLOGY_PASSED",json.dumps(diagnostics),flush=True)
 tab=plt.get_cmap("tab10")
 def draw_bounds(ax,s,fill=False):
-    from matplotlib.colors import ListedColormap,BoundaryNorm
+    # The outer support is smoothed by a Gaussian contour, not jagged imshow
+    # edge pixels. Internal category fields are evaluated at 4x subgrid resolution.
     info=infos[s];G=display[s]["region"];xx=info["xc"];yy=info["yc"]
+    n=4; dx=float(xx[1]-xx[0]);dy=float(yy[1]-yy[0])
+    xe=(float(xx[0]-dx/2),float(xx[-1]+dx/2))
+    ye=(float(yy[0]-dy/2),float(yy[-1]+dy/2))
+    mask=display[s]["mask"]
+    smooth_support=gaussian_filter(mask.astype(float),3.7)
+    H=zoom(smooth_support,n,order=3)
+    high_support=H>=.50
+    high_support=binary_fill_holes(high_support)
+    xs=np.linspace(xe[0]+dx/(2*n),xe[1]-dx/(2*n),H.shape[1])
+    ys=np.linspace(ye[0]+dy/(2*n),ye[1]-dy/(2*n),H.shape[0])
     if fill:
-        cmap=ListedColormap([tab(i) for i in range(10)])
-        norm=BoundaryNorm(np.arange(.5,11.5),cmap.N)
-        dx=xx[1]-xx[0];dy=yy[1]-yy[0]
-        # Categorical raster underlay guarantees full coverage with no white gaps
-        # between independently smoothed contours.
-        ax.imshow(np.ma.masked_where(G==0,G),
-                  extent=(xx[0]-dx/2,xx[-1]+dx/2,yy[0]-dy/2,yy[-1]+dy/2),
-                  origin="lower",interpolation="nearest",cmap=cmap,norm=norm,
-                  aspect="equal",alpha=.66)
-    # Contours are display-only; the solid layer above owns mask coverage.
+        prob=np.stack([zoom(gaussian_filter((G==k).astype(float),1.05),n,order=3) for k in range(1,11)])
+        categorical=prob.argmax(axis=0).astype(int)
+        rgba=np.empty((*categorical.shape,4),dtype=float)
+        palette=np.array([tab(k) for k in range(10)])
+        rgba[:,:,:3]=palette[categorical,:3]
+        # Soft anti-aliased cutout of external border. No pixel-cell imshow edges.
+        alpha=np.clip(gaussian_filter(high_support.astype(float),.8)*2.2-.65,0,1)
+        rgba[:,:,3]=alpha*.75
+        ax.imshow(rgba,extent=(*xe,*ye),origin="lower",interpolation="bilinear",aspect="equal")
+    # Single smooth external contour, internal labels retain source-cell geometry.
+    ax.contour(xs,ys,H,levels=[.50],colors=["#444"],linewidths=.8 if fill else .46,alpha=.9 if fill else .42)
     for k in range(1,11):
-        z=gaussian_filter((G==k).astype(float),1.0)
-        if z.max()>.5:
-            ax.contour(xx,yy,z,levels=[.5],colors=["#444"],linewidths=.68 if fill else .45,alpha=.85 if fill else .30)
+        z=gaussian_filter((G==k).astype(float),1.35)
+        z=np.where(smooth_support>.92,z,np.nan)
+        if np.nanmax(z)>.50:
+            ax.contour(xx,yy,z,levels=[.5],colors=["#444"],linewidths=.65 if fill else .4,alpha=.78 if fill else .26)
 def clean_axes(ax):
  ax.set_aspect("equal");ax.set_xticks([]);ax.set_yticks([])
  for sp in ax.spines.values():sp.set_visible(False)
@@ -74,9 +88,9 @@ for ax,s in zip(axs,secs):
  ax.set_title(f"S{s} · local regions 1–10",fontsize=11);clean_axes(ax)
 fig.suptitle("Marker-guided region10 | hole-free domains | x flipped, y flipped",fontsize=14)
 fig.tight_layout(rect=[0,0,1,.94])
-fig.savefig(out/"FINAL_REGION10_HOLEFREE_X_FLIPPED_Y_FLIPPED.png",dpi=180,bbox_inches="tight")
+fig.savefig(out/"FINAL_REGION10_STAGE631_PREFLIPPED_SMOOTH_OUTER.png",dpi=180,bbox_inches="tight")
 plt.close(fig)
-print("STAGE970_REGION_IMAGE_READY",flush=True)
+print("STAGE973_REGION_IMAGE_READY",flush=True)
 oldman=pd.read_csv(data/"stage956_gene_section_manifest.csv")
 policy=pd.read_csv(data/"stage956_gene_colorbar_policy.csv").set_index("gene")
 rows=[]
@@ -104,13 +118,13 @@ for gi,g in enumerate(genes):
   fname=f"{g}_S{s}_expression_preview.jpg"
   im=Image.open(temp).convert("RGB");im.thumbnail((850,850));im.save(out/fname,quality=87)
   temp.unlink()
-  rows.append(dict(gene=g,section=s,file=fname,x_flipped=True,y_flipped=True,vmax=vmax,gamma=gamma,smooth_sigma=display[s]["sigma"]))
- print("STAGE970_GENE",g,flush=True)
-pd.DataFrame(rows).to_csv(data/"stage970_gene_section_manifest.csv",index=False)
-auth=dict(stage=970,status="HOLEFREE_CONNECTED_DISPLAY_QA_PASSED",
+  rows.append(dict(gene=g,section=s,file=fname,x_flipped=True,y_flipped=True,extra_flip=False,vmax=vmax,gamma=gamma,smooth_sigma=display[s]["sigma"]))
+ print("STAGE973_GENE",g,flush=True)
+pd.DataFrame(rows).to_csv(data/"stage973_gene_section_manifest.csv",index=False)
+auth=dict(stage=973,status="PREFLIPPED_COORDINATE_AND_SMOOTH_OUTER_QA_PASSED",
  expression_authority="Stage943 Route A",biological_region_authority="Stage956 unchanged",
- display="x flipped, y flipped by section: x_display=xmin+xmax-x_raw; y_display=ymin+ymax-y_raw",
- smooth_method="display-only fully filled masks + smoothed contours; unchanged Stage956 cell labels",
+ display="already pre-flipped Stage631 x_um/y_um; no second flip of coordinates",
+ smooth_method="numeric reproject of frozen Stage956 label grid into Stage631-preflipped coordinates, hole-free segmentation, Gaussian outer contour sigma 3.7; per-cell identities unchanged",
  region_QA=diagnostics,gene_maps=len(rows))
-(data/"stage970_holefree_region_audit.json").write_text(json.dumps(auth,indent=2),encoding="utf8")
-print("STAGE970_COMPLETE",json.dumps(auth),flush=True)
+(data/"stage973_correct_orientation_region_audit.json").write_text(json.dumps(auth,indent=2),encoding="utf8")
+print("STAGE973_COMPLETE",json.dumps(auth),flush=True)
