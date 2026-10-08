@@ -1,0 +1,96 @@
+{
+  "stage": 1033,
+  "section": 500,
+  "cell_sample_count": 6,
+  "genes": [
+    "Snap25",
+    "VGAT",
+    "VGLUT2"
+  ],
+  "data_source": "RS-FISH actual N5 s0 input images: R1 Snap25 c1; R77 VGAT c0; R99 VGLUT2 c3",
+  "voxel_resolution_xy_um": 0.23,
+  "voxel_resolution_z_um": 0.42,
+  "spot_coordinate_conversion": "xyz (physical um) / source voxel spacing, no TIFF resizing or inferential flip",
+  "raw_CAVEAT": "R9 official spot catalog used corrected overlay; fluorescence shown is acquisition N5 BEFORE seam correction, thus true corrected intensity requires overlay.n5 for region where corrected",
+  "true_mask": "Stage141 downseg.tif 4x XY/2x Z relative to native. Green reference mask ONLY displayed on R1, because warp_needed is true for VGAT and VGLUT2; one-cell assignment must be verified after transforms.",
+  "samples": [
+    {
+      "category": "double_high",
+      "roi_id": 33542,
+      "cx": 291.1111165364583,
+      "cy": 914.1594807942708,
+      "cz": 175.06666429307725,
+      "VGAT": 46.99123764038086,
+      "VGLUT2": 39.06162643432617,
+      "Snap25": 893.1018676757812,
+      "Fine26": "I04",
+      "file": "STAGE1030_ROI_33542_double_high_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_33542_double_high_NATIVE_N5_RAW_SPOTS.png"
+    },
+    {
+      "category": "double_low_vgat",
+      "roi_id": 20997,
+      "cx": 942.3333455403646,
+      "cy": 761.1039360894097,
+      "cz": 181.2888858371311,
+      "VGAT": 14.215154647827148,
+      "VGLUT2": 7.563733100891113,
+      "Snap25": 191.853515625,
+      "Fine26": "I01",
+      "file": "STAGE1030_ROI_20997_double_low_vgat_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_20997_double_low_vgat_NATIVE_N5_RAW_SPOTS.png"
+    },
+    {
+      "category": "double_low_glu",
+      "roi_id": 19219,
+      "cx": 581.3888888888889,
+      "cy": 162.99281548394097,
+      "cz": 184.0111073811849,
+      "VGAT": 24.04384994506836,
+      "VGLUT2": 3.566174030303955,
+      "Snap25": 162.0618438720703,
+      "Fine26": "I03",
+      "file": "STAGE1030_ROI_19219_double_low_glu_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_19219_double_low_glu_NATIVE_N5_RAW_SPOTS.png"
+    },
+    {
+      "category": "vgat_only",
+      "roi_id": 26779,
+      "cx": 786.2222113715278,
+      "cy": 165.43726535373264,
+      "cz": 190.54444173177083,
+      "VGAT": 41.72187042236328,
+      "VGLUT2": 0.0,
+      "Snap25": 54.71885681152344,
+      "Fine26": "I03",
+      "file": "STAGE1030_ROI_26779_vgat_only_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_26779_vgat_only_NATIVE_N5_RAW_SPOTS.png"
+    },
+    {
+      "category": "vglut_only",
+      "roi_id": 17576,
+      "cx": 360.22222222222223,
+      "cy": 616.0483859592014,
+      "cz": 149.0888888888889,
+      "VGAT": 0.7854272127151489,
+      "VGLUT2": 22.86670684814453,
+      "Snap25": 7.955983161926269,
+      "Fine26": "E06",
+      "file": "STAGE1030_ROI_17576_vglut_only_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_17576_vglut_only_NATIVE_N5_RAW_SPOTS.png"
+    },
+    {
+      "category": "neither",
+      "roi_id": 35754,
+      "cx": 872.0714351109096,
+      "cy": 375.8777422223772,
+      "cz": 176.75,
+      "VGAT": 0.0,
+      "VGLUT2": 0.0,
+      "Snap25": 11.300211906433104,
+      "Fine26": "E02",
+      "file": "STAGE1030_ROI_35754_neither_RAW_VS_RSFISH.png",
+      "highres_filename": "STAGE1033_S500_ROI_35754_neither_NATIVE_N5_RAW_SPOTS.png"
+    }
+  ]
+}
