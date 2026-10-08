@@ -15,7 +15,7 @@ footer{padding-top:20px;padding-bottom:40px;color:#777;font-size:13px}footer a{c
 @media(max-width:800px){.cards,.cards.three{grid-template-columns:1fr}h1{font-size:28px}}
 </style></head><body>
 <header><h1>Single-cell bridge</h1><p class="sub">Stage943 expression · frozen Fine26 identities · Stage950–952 current integration</p></header>
-<nav><a href="index.html">← Spatial atlas</a><a href="#taxonomy">Molecular state</a><a href="#transmitters">Fine26 + markers</a><a href="#local">Local multiplex</a><a href="#maskbody">True maskbody</a><a href="#integration">Region10 × single-cell</a><a href="#next">Next layer</a></nav>
+<nav><a href="index.html">← Spatial atlas</a><a href="#taxonomy">Molecular state</a><a href="#transmitters">Fine26 + markers</a><a href="#local">Local multiplex</a><a href="#maskbody">True maskbody</a><a href="#video980">3D video</a><a href="#integration">Region10 × single-cell</a><a href="#next">Next layer</a></nav>
 <main>
 <section id="taxonomy">
 <h2>Current single-cell molecular state</h2>
@@ -34,12 +34,15 @@ footer{padding-top:20px;padding-bottom:40px;color:#777;font-size:13px}footer a{c
 <article class="card"><h3>VGAT / VGLUT2 / NE / ChAT · observed counts</h3><a href="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_MARKER_UMAP.png"><img loading="lazy" src="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_MARKER_UMAP.png"></a><p>Direct gene detections, with their own numeric log-count colorbars. High detection frequency must not be interpreted as a high fraction of corresponding neuronal types.</p></article>
 <article class="card"><h3>Top 5% normalized marker expression</h3><a href="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_TOP5PCT.png"><img loading="lazy" src="assets/stage977_fine26_umap/VGAT_VGLUT2_NE_CHAT_TOP5PCT.png"></a><p>Gene-specific 95th-percentile thresholds on cell-depth-normalized counts; same UMAP axes and cell universe.</p></article>
 <article class="card"><h3>Marker enrichment × frozen broad class</h3><a href="assets/stage977_fine26_umap/TRANSMITTER_TOP5_BROAD_ENRICHMENT.png"><img loading="lazy" src="assets/stage977_fine26_umap/TRANSMITTER_TOP5_BROAD_ENRICHMENT.png"></a><p>Enrichment factors are descriptive across cells, not animal-replicate inference. <a href="data/stage977_marker_top5_broad_enrichment.csv">Underlying class-by-marker table</a>.</p></article>
+<article class="card"><h3>Fine26 UMAP geometry · old versus new</h3>
+<a href="assets/stage978_umap_geometry/FINE26_STAGE704_VS_978.png"><img loading="lazy" src="assets/stage978_umap_geometry/FINE26_STAGE704_VS_978.png" alt="Same frozen Fine26 colors and cell labels, two molecular embedding parameterizations"></a>
+<p>Stage978 alternative (cosine / 55 neighbors / min distance 0.09) modestly improves descriptive 15-neighbor Fine26 purity from 0.176 to 0.193, but the negative silhouettes (−0.277 / −0.269) show considerable molecular overlap. Both remain visualization candidates, not evidence for distinct new cell types.</p></article>
 <article class="card"><h3>Broad-class control on the UMAP</h3><a href="assets/stage977_fine26_umap/BROAD_CLASSES_UMAP.png"><img loading="lazy" src="assets/stage977_fine26_umap/BROAD_CLASSES_UMAP.png"></a></article>
 </div>
 </section>
 <section id="local">
 <h2>Local single-cell multiplex fields</h2>
-<p class="lead">One high-information local field is shown in each section, linking tissue position, Fine26 identity and the 27-gene single-cell state.</p><p class="lead stage964-spatial">These spatial panels use the already-flipped Stage631 physical coordinates (no double-flip). Fine26/Broad maps show selected medial periLC cells, not full-section class coverage. Local multiplex scatter panels below have also been regenerated from source coordinates.</p><div class="cards stage964-spatial"><article class="card"><h3>Fine26 spatial identities · corrected XY</h3><a href="assets/stage974_preflipped_reference/FINE26_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Fine26 spatial identities · corrected XY" src="assets/stage974_preflipped_reference/FINE26_STAGE631_PREFLIPPED.jpg"/></a></article><article class="card"><h3>Broad molecular classes · corrected XY</h3><a href="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Broad molecular classes · corrected XY" src="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg"/></a></article></div>
+<p class="lead">One high-information local field is shown in each section, linking tissue position, Fine26 identity and the 27-gene single-cell state.</p><p class="lead stage964-spatial">These spatial panels use the already-flipped Stage631 physical coordinates (no double-flip). Fine26/Broad maps show selected medial periLC cells, not full-section class coverage. Local multiplex scatter panels below have also been regenerated from source coordinates.</p><div class="cards stage964-spatial"><article class="card"><h3>Fine26 spatial identities · matching 26-color UMAP palette</h3><a href="assets/stage979_consistent_fine26/FINE26_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Fine26 spatial identities · matching 26-color UMAP palette" src="assets/stage979_consistent_fine26/FINE26_STAGE631_PREFLIPPED.jpg"/></a></article><article class="card"><h3>Broad molecular classes · corrected XY</h3><a href="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg" target="_blank"><img alt="Broad molecular classes · corrected XY" src="assets/stage974_preflipped_reference/BROAD_STAGE631_PREFLIPPED.jpg"/></a></article></div>
 <div class="cards">
 <article class="card"><h3>S500</h3><a href="assets/stage974_preflipped_reference/S500_LOCAL_MULTIPLEX_STAGE631_PREFLIPPED.png" target="_blank"><img src="assets/stage974_preflipped_reference/S500_LOCAL_MULTIPLEX_STAGE631_PREFLIPPED.png"/></a></article>
 <article class="card"><h3>S530</h3><a href="assets/stage974_preflipped_reference/S530_LOCAL_MULTIPLEX_STAGE631_PREFLIPPED.png" target="_blank"><img src="assets/stage974_preflipped_reference/S530_LOCAL_MULTIPLEX_STAGE631_PREFLIPPED.png"/></a></article>
@@ -49,12 +52,20 @@ footer{padding-top:20px;padding-bottom:40px;color:#777;font-size:13px}footer a{c
 <h2>True segmentation bodies: x flipped, y flipped</h2>
 <p class="lead">Stage974 displays Stage951 true segmentation bodies using preflipped Stage631 coordinates without an extra flip, verified against matched cell ROI IDs for all three sections.</p>
 <div class="cards">
-<article class="card"><h3>Fine26 true-maskbody 3D atlas</h3><a href="assets/stage974_preflipped_reference/FINE26_TRUE_MASKBODY_3D.png" target="_blank"><img src="assets/stage974_preflipped_reference/FINE26_TRUE_MASKBODY_3D.png"/></a></article>
+<article class="card"><h3>Fine26 true-maskbody 3D atlas · same 26-color palette</h3><a href="assets/stage979_consistent_fine26/FINE26_TRUE_MASKBODY_3D.png" target="_blank"><img src="assets/stage979_consistent_fine26/FINE26_TRUE_MASKBODY_3D.png"/></a></article>
 <article class="card"><h3>Broad molecular classes</h3><a href="assets/stage974_preflipped_reference/BROAD_TRUE_MASKBODY_3D.png" target="_blank"><img src="assets/stage974_preflipped_reference/BROAD_TRUE_MASKBODY_3D.png"/></a></article>
-<article class="card"><h3>S500 local bodies</h3><a href="assets/stage974_preflipped_reference/S500_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage974_preflipped_reference/S500_LOCAL_TRUE_MASKBODY.png"/></a></article>
-<article class="card"><h3>S530 local bodies</h3><a href="assets/stage974_preflipped_reference/S530_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage974_preflipped_reference/S530_LOCAL_TRUE_MASKBODY.png"/></a></article>
-<article class="card"><h3>S560 local bodies</h3><a href="assets/stage974_preflipped_reference/S560_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage974_preflipped_reference/S560_LOCAL_TRUE_MASKBODY.png"/></a></article>
+<article class="card"><h3>S500 local bodies</h3><a href="assets/stage979_consistent_fine26/S500_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage979_consistent_fine26/S500_LOCAL_TRUE_MASKBODY.png"/></a></article>
+<article class="card"><h3>S530 local bodies</h3><a href="assets/stage979_consistent_fine26/S530_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage979_consistent_fine26/S530_LOCAL_TRUE_MASKBODY.png"/></a></article>
+<article class="card"><h3>S560 local bodies</h3><a href="assets/stage979_consistent_fine26/S560_LOCAL_TRUE_MASKBODY.png" target="_blank"><img src="assets/stage979_consistent_fine26/S560_LOCAL_TRUE_MASKBODY.png"/></a></article>
 </div></section>
+<section id="video980">
+<h2>Fine26 true mask-body: coronal context → smooth zoom → 3D orbit</h2>
+<p class="lead">12 s · 25 frames/s · S500/S530/S560 shown simultaneously. This video renders sampled points from <b>real downseg segmentation bodies</b>, not cell centers. Stage631 physical X and Y are already flipped and were verified against ROI coordinates; there is no second flip. The same 26-color Fine26 palette appears in the UMAP, spatial panels and true-body movie.</p>
+<video controls playsinline preload="metadata" poster="assets/stage980_true3d_video/STAGE980_FIVE_FRAME_QC.jpg" style="display:block;width:100%;max-height:640px;background:#000;border-radius:8px">
+<source src="assets/stage980_true3d_video/STAGE980_FINE26_MASKBODY_ZOOM_ORBIT_12S.mp4" type="video/mp4">
+Your browser cannot play the video.</video>
+<p class="lead">Camera QC: <a href="assets/stage980_true3d_video/STAGE980_FIVE_FRAME_QC.jpg">five reference frames</a> · historical choreography from Stages 191, 214 and 215. Model and cell identity are unchanged.</p>
+</section>
 <section id="integration">
 <h2>Section-local spatial structure × single-cell identity</h2>
 <p class="lead">Stage952 connects the marker-guided region10 atlas to frozen Fine26 identity, morphology and residual within-cell-type spatial modulation.</p>

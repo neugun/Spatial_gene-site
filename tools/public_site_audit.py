@@ -115,7 +115,7 @@ if MAP10.exists():
     for name in ("FINAL_LC_PERILC_STAGE631_PREFLIPPED.png",
                  "FINAL_REGION10_STAGE631_PREFLIPPED_SMOOTH_OUTER.png"):
         if name not in current:errors.append(f"map10 missing current orientation: {name}")
-    if bridge.count("stage974_preflipped_reference/") < 15:
+    if bridge.count("stage974_preflipped_reference/") + bridge.count("stage979_consistent_fine26/") < 15:
         errors.append("map10 current 3D maskbody links are stale")
     for name in ("stage973_gene_section_manifest.csv",):
         with (MAP10/"data"/name).open(encoding="utf-8",newline="") as f:

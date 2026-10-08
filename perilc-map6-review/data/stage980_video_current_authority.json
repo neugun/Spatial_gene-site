@@ -1,0 +1,19 @@
+{
+  "stage": 980,
+  "duration_seconds": 12,
+  "fps": 25,
+  "frames": 300,
+  "dimensions": [
+    1800,
+    650
+  ],
+  "source": "Stage141 true segmentation maskcloud",
+  "frame": "Stage631 preflipped physical XY, verified ROI alignment",
+  "palette": "Stage977 26 distinct Fine26 colors",
+  "reference": [
+    "Stage191",
+    "Stage214",
+    "Stage215"
+  ],
+  "file": "STAGE980_FINE26_MASKBODY_ZOOM_ORBIT_12S.mp4"
+}

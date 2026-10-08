@@ -1,0 +1,68 @@
+{
+  "stage": 980,
+  "historical_video_inventory": [
+    {
+      "historical_stage": "S191",
+      "film": "FIG2A_K5_CORONAL_ZOOM_ROTATE.mp4",
+      "duration_seconds": 12.0,
+      "file_bytes": 10915108,
+      "width": 2550,
+      "height": 884,
+      "frame_rate": "25/1",
+      "frames": "300",
+      "available_QC_frame_stills": [
+        "VIDEO_FRAME_FULL_START.png",
+        "VIDEO_FRAME_ROTATION_START.png",
+        "VIDEO_FRAME_ZOOM_IN.png"
+      ]
+    },
+    {
+      "historical_stage": "S214",
+      "film": "FIG2A_K5_SMOOTHBODY_ZOOM_ROTATE.mp4",
+      "duration_seconds": 9.25,
+      "file_bytes": 103213428,
+      "width": 1800,
+      "height": 650,
+      "frame_rate": "24/1",
+      "frames": "222",
+      "available_QC_frame_stills": [
+        "QC_frame_000.png",
+        "QC_frame_029.png",
+        "QC_frame_053.png",
+        "QC_frame_221.png",
+        "frame_000.png",
+        "frame_029.png",
+        "frame_053.png",
+        "frame_221.png"
+      ]
+    },
+    {
+      "historical_stage": "S215",
+      "film": "K5_SMOOTHBODY_ZOOM_ROTATE.mp4",
+      "duration_seconds": 12.0,
+      "file_bytes": 133406670,
+      "width": 1808,
+      "height": 656,
+      "frame_rate": "25/1",
+      "frames": "300",
+      "available_QC_frame_stills": [
+        "FRAME_000.png",
+        "FRAME_034.png",
+        "FRAME_069.png",
+        "FRAME_099.png",
+        "FRAME_199.png",
+        "FRAME_299.png"
+      ]
+    }
+  ],
+  "current_required_video_gates": [
+    "Show full coronal context before any zoom",
+    "Smooth camera zoom into selected region; hold view long enough to examine boundaries",
+    "True 3D orbital motion for zoomed segmented bodies, not 2D image rotation",
+    "Stage631 already x-flipped/y-flipped physical coordinates; no second flip",
+    "Use Stage977 Fine26 26-color key consistently in 2D and 3D",
+    "Include start, zoom transition, mid-orbit and final QC stills",
+    "Verify no clipped tissue, jump cuts, floating artefacts, or disappearing labels"
+  ],
+  "status": "HISTORICAL_REFERENCES_VERIFIED_AND_NEW_MOVIE_RENDERED"
+}

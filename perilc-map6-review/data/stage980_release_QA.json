@@ -1,0 +1,31 @@
+{
+  "stage": 980,
+  "status": "PASS",
+  "frozen_stage976_orientation": true,
+  "fine26_colors": 26,
+  "maskbody_coordinate_match": true,
+  "video": {
+    "frames": 300,
+    "fps": 25.0,
+    "width": 1800,
+    "height": 650,
+    "file_bytes": 56123571,
+    "frame0_100_MAD": 48.61369323730469,
+    "frame100_299_MAD": 48.64577865600586
+  },
+  "geometry_15nn": {
+    "Stage704": {
+      "15nn_identity_purity": 0.17597333333333334,
+      "silhouette_5k": -0.2773306667804718
+    },
+    "Stage978": {
+      "15nn_identity_purity": 0.19257333333333335,
+      "silhouette_5k": -0.269368052482605
+    }
+  },
+  "source_movie_reference": [
+    "191",
+    "214",
+    "215"
+  ]
+}

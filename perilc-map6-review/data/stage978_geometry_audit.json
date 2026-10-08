@@ -1,0 +1,25 @@
+{
+  "stage": 978,
+  "status": "BUILT_AWAITING_VISUAL_REVIEW",
+  "sample_n": 5000,
+  "metrics": {
+    "Stage704": {
+      "15nn_identity_purity": 0.17597333333333334,
+      "silhouette_5k": -0.2773306667804718
+    },
+    "Stage978": {
+      "15nn_identity_purity": 0.19257333333333335,
+      "silhouette_5k": -0.269368052482605
+    }
+  },
+  "source": "Stage704 PCA15 of Stage934 Route A 27-gene counts",
+  "candidate_params": {
+    "n_neighbors": 55,
+    "min_dist": 0.09,
+    "spread": 1.3,
+    "metric": "cosine",
+    "n_epochs": 220,
+    "random_state": 978
+  },
+  "caution": "UMAP geometry is visualization and cannot serve as independent evidence for cluster identity or molecular function."
+}
