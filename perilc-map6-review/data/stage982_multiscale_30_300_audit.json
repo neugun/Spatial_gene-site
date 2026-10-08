@@ -1,0 +1,30 @@
+{
+  "stage": 982,
+  "config": "multiscale_30_300",
+  "perplexities": [
+    30,
+    300
+  ],
+  "n_cells": 71950,
+  "metrics": {
+    "Stage704_UMAP": {
+      "15nn_Fine26_purity": 0.18188333333333334,
+      "15nn_Broad_purity": 0.7210666666666666,
+      "15nn_highD_neighbor_overlap": 0.11805000000000002
+    },
+    "Stage982_multiscale_30_300": {
+      "15nn_Fine26_purity": 0.22105,
+      "15nn_Broad_purity": 0.7221,
+      "15nn_highD_neighbor_overlap": 0.2124
+    }
+  },
+  "fine26_source": "frozen Stage631",
+  "input": "Stage704 PCA15 from current RouteA 27 genes",
+  "initialization": "PCA",
+  "lr": 5995.833333333333,
+  "iterations": [
+    250,
+    450
+  ],
+  "caveat": "Visualization-only, Broad cell classes potentially informed by the tested genes"
+}

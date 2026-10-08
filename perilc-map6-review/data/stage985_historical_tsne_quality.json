@@ -1,0 +1,24 @@
+{
+  "stage": 985,
+  "cells_matched": 35249,
+  "source": "Stage127 EITv2 tSNE; 35,249 historical cells matched by cell_id to Stage631",
+  "scores": {
+    "Historical_EITv2_tSNE_matched": {
+      "Fine26_15NN": 0.5427,
+      "Broad_15NN": 0.9259166666666667,
+      "highD_15NN_overlap": 0.09543333333333333
+    },
+    "Current_UMAP_matched": {
+      "Fine26_15NN": 0.2531333333333333,
+      "Broad_15NN": 0.9045833333333333,
+      "highD_15NN_overlap": 0.12440000000000001
+    },
+    "Current_multiscale_tSNE_matched": {
+      "Fine26_15NN": 0.3466166666666667,
+      "Broad_15NN": 0.9081833333333333,
+      "highD_15NN_overlap": 0.2528666666666667
+    }
+  },
+  "paper_threshold": ">10 spots/cell",
+  "boundary": "Historical embedding computed with earlier EITv2 labels, not an independent new tSNE; matched current frozen labels used for evaluation"
+}
