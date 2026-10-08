@@ -1,0 +1,26 @@
+{
+  "stage": 1014,
+  "status": "COMPLETE",
+  "cell_universe": 71950,
+  "per_section": {
+    "500": 31461,
+    "530": 20513,
+    "560": 19976
+  },
+  "marker_pair": "Slc32a1/Slc17a6 corrected RouteA count equivalents",
+  "primary": "VGAT>10 and VGLUT2>3; no threshold claimed validated experimentally",
+  "checks": [
+    "VGAT>10/VGLUT2>10",
+    "VGAT>15/VGLUT2>5",
+    "gene-normalized shared P70 (artifact-sensitive)"
+  ],
+  "edge_geometry": "Estimated 5x5 physical acquisition GRID with 206um spacing and phase sensitivity \u00b1one period; not tile metadata-validated physical stitching seams. True tile-transform/spot-level alignment still required.",
+  "additional_borders": [
+    "outer section bounding rectangle, not tissue actual perimeter",
+    "nearest simultaneous exclusive V and G classes",
+    "10NN opposing-type mixture"
+  ],
+  "statistical_unit": "three sections from same animal; edge contrasts are descriptive, not independent-animal p-values",
+  "private_cell_level": "G:/Map6_recover_all/stage1014_spatial_doublepositive_private (not published)",
+  "biological_limit": "two-gene co-detection does not establish bona fide co-releasing neuron; underlying segmentation/correction needs original punctum validation"
+}
