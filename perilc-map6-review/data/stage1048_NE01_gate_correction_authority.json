@@ -1,0 +1,19 @@
+{
+  "status": "RETRACT_SLC6A2_AS_VALIDATED_NE_GATE",
+  "marker": "Slc6a2 encodes NET. Marker positivity not proven cell identity",
+  "provisional_gene_only_threshold_200": "NOT RECOMMENDED as NE ground-truth or GABA/Glu calibration target",
+  "frozen_NE01_source": "same targeted 27 FISH genes, especially Slc6a2, circular reference",
+  "mapmycells_NE01_modal": "27 MY GABA",
+  "mapmycells_NE01_modal_fraction": 0.2755046372067649,
+  "mapmycells_NE01_class_bootstrap_median": 0.18,
+  "mapmycells_NE01_ge50_pct": 0.0,
+  "corrected_RouteA_counts_are_not_physical_spot_integer_threshold": true,
+  "independent_confirmation_needed": [
+    "Dbh",
+    "Th",
+    "Slc18a2",
+    "original Slc6a2 native N5 raw puncta",
+    "LC atlas registration"
+  ],
+  "never_force_NEVGAT_or_NEVGLUT_to_scRNA_1of36": true
+}

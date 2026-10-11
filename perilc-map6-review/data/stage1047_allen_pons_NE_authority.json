@@ -1,0 +1,9 @@
+{
+  "source": "Allen Pons WMB-10Xv3 20230630 RAW 143661 cells",
+  "independent_NE_reference": "Dbh+Th both >0 UMI; supplemental Slc18a2>0; independent of Slc6a2/Map10",
+  "raw_cells": 143661,
+  "DbhTh_n": 26,
+  "DbhThSlc18a2_n": 22,
+  "DbhOrTh_n": 2381,
+  "warning": "Dbh+Th scRNA UMI is itself dropout-prone; not all independently NE cells have both. Whole pons includes other catecholaminergic and multi-marker cells; no anatomical LC guarantee. Slc6a2 expression differs by modality, cannot directly apply UMI cutoff to FISH corrected spots."
+}

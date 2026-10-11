@@ -1,0 +1,12 @@
+{
+  "allen_pons_cells": 143661,
+  "NE_DbhANDTh_n": 26,
+  "NE_DbhANDTh_NET_detected": 20,
+  "NET_detect_in_DbhTh_pct": 76.92307692307692,
+  "NET_detect_without_joint_DbhTh_pct": 0.431649667560135,
+  "VGAT_detect_with_DbhTh_and_NET_pct": 15.0,
+  "VGLUT2_detect_with_DbhTh_and_NET_pct": 60.0,
+  "do_not_force_target_rate": true,
+  "single_cell_UMI_vs_FISH_not_comparable": true,
+  "important": "Dbh+Th raw UMI selected only 26 cells of 143661 total; absence of joint call includes NE dropout. 60% VGLUT2 among 20 positive joint DbhTh NET shows zero VGLUT2 overlap is unjustified but not a stable LC rate."
+}
