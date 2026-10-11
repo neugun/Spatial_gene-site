@@ -1,0 +1,15 @@
+{
+  "status": "COMPUTED_NE01_SOURCE_COUNT_DISTRIBUTIONS",
+  "n_NE01": 1833,
+  "NE01_per_section": {
+    "500": 596,
+    "530": 962,
+    "560": 275
+  },
+  "original_baseline": "Stage631 per-cell integer count array, predates RouteA corrective stage 943; not verified pixel-level original RSFISH truth",
+  "current": "Stage943 RouteA corrected count-equivalents (fractional), cannot equate to literal physical number of puncta",
+  "cluster_identity": "Frozen Fine26 NE01, not independent confirmation of LC noradrenergic identity",
+  "tsne": "Stage995 unsupervised 71,950 full cells, fixed embedding, only selected NE01 for display",
+  "no_reclassification": true,
+  "no_force_double_pos": true
+}
